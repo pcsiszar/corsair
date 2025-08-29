@@ -4,13 +4,9 @@ import java.util.function.Supplier;
 
 public class Die implements Comparable<Die> {
   private final Supplier<Double> randomGenerator;
-  private final long sides;
+  private long sides;
   private boolean rolled = false;
   private int value = 1;
-
-  public static Die d6() {
-    return new Die(6);
-  }
 
   public static Die d8() {
     return new Die(8);
@@ -24,16 +20,12 @@ public class Die implements Comparable<Die> {
     return new Die(12);
   }
 
-  public static Die d20() {
-    return new Die(20);
-  }
-
-  public Die(long sides, Supplier<Double> randomGenerator) {
+  private Die(long sides, Supplier<Double> randomGenerator) {
     this.sides = sides;
     this.randomGenerator = randomGenerator;
   }
 
-  public Die(long sides) {
+  private Die(long sides) {
     this(sides, Math::random);
   }
 
@@ -53,6 +45,26 @@ public class Die implements Comparable<Die> {
 
   public boolean isRolled() {
     return rolled;
+  }
+
+  public boolean upgrade() {
+    if (this.sides >= 12) {
+      this.sides = 12;
+      return false;
+    } else {
+      this.sides += 2;
+      return true;
+    }
+  }
+
+  public boolean downgrade() {
+    if (this.sides <= 8) {
+      this.sides = 8;
+      return false;
+    } else {
+      this.sides -= 2;
+      return true;
+    }
   }
 
   @Override

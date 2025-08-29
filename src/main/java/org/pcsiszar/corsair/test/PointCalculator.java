@@ -1,4 +1,4 @@
-package org.pcsiszar.corsair.roll;
+package org.pcsiszar.corsair.test;
 
 import org.pcsiszar.corsair.dice.Die;
 

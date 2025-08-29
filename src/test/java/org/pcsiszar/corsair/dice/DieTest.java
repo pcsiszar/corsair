@@ -11,7 +11,7 @@ public class DieTest {
 
   @Test
   void testDieRoll() {
-    Die die = Die.d6();
+    Die die = Die.d10();
     Map<Long, Long> resultMap = new HashMap<>();
     for (int i = 0; i < 1000000; i++) {
       long result = die.roll();
