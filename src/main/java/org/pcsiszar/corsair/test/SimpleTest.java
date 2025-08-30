@@ -1,5 +1,6 @@
 package org.pcsiszar.corsair.test;
 
+import org.pcsiszar.corsair.character.AttributePair;
 import org.pcsiszar.corsair.dice.DicePool;
 import org.pcsiszar.corsair.dice.Die;
 
@@ -9,12 +10,16 @@ public class SimpleTest extends Test<SimpleResult> {
 
   private DicePool dicePool;
 
-  private SimpleTest(DicePool dicePool) {
-    super(dicePool);
+  private SimpleTest(AttributePair attributePair) {
+    super(DicePool.ofSize(attributePair.getHigher().getValue()));
   }
 
   @Override
   public SimpleResult evaluate() {
+    return getSimpleResult(dicePool);
+  }
+
+  public static SimpleResult getSimpleResult(DicePool dicePool) {
     ResultCategory resultCategory =
         dicePool.getDice().stream().max(Comparator.naturalOrder())
             .map(SimpleTest::evaluateResultCategory)

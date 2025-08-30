@@ -6,7 +6,7 @@ public class Die implements Comparable<Die> {
   private final Supplier<Double> randomGenerator;
   private long sides;
   private boolean rolled = false;
-  private int value = 1;
+  int value = 1;
 
   public static Die d8() {
     return new Die(8);
@@ -25,7 +25,7 @@ public class Die implements Comparable<Die> {
     this.randomGenerator = randomGenerator;
   }
 
-  private Die(long sides) {
+  protected Die(long sides) {
     this(sides, Math::random);
   }
 

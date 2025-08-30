@@ -3,6 +3,7 @@ package org.pcsiszar.corsair.dice;
 import lombok.Getter;
 
 import java.util.*;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -21,6 +22,13 @@ public class DicePool {
     return new DicePool(
         IntStream.range(0, size)
             .mapToObj(i -> Die.d10())
+            .collect(Collectors.toList()));
+  }
+
+  public static DicePool ofSize(int size, Supplier<Die> dieSupplier) {
+    return new DicePool(
+        IntStream.range(0, size)
+            .mapToObj(i -> dieSupplier.get())
             .collect(Collectors.toList()));
   }
 
@@ -153,7 +161,7 @@ public class DicePool {
     return dicePool;
   }
 
-  enum PoolState {
+  public enum PoolState {
     ASSEMBLED,
     UPGRADED,
     DOWNGRADED,
