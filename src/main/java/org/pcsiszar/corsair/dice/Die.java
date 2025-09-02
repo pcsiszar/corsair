@@ -8,6 +8,10 @@ public class Die implements Comparable<Die> {
   private boolean rolled = false;
   int value = 1;
 
+  public static Die d6() {
+    return new Die(6);
+  }
+
   public static Die d8() {
     return new Die(8);
   }

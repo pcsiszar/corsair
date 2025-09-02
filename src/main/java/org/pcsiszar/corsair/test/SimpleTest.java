@@ -8,10 +8,13 @@ import java.util.Comparator;
 
 public class SimpleTest extends Test<SimpleResult> {
 
-  private DicePool dicePool;
-
   private SimpleTest(AttributePair attributePair) {
-    super(DicePool.ofSize(attributePair.getHigher().getValue()));
+    super(attributePair);
+  }
+
+  @Override
+  protected DicePool getInitialDicePool(AttributePair attributePair) {
+    return DicePool.ofSize(attributePair.getHigher().getValue());
   }
 
   @Override

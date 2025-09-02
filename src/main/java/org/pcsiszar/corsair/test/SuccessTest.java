@@ -7,12 +7,16 @@ import org.pcsiszar.corsair.dice.Die;
 import java.util.Comparator;
 
 public class SuccessTest extends Test<SuccessResult> {
+
+  private int successBonus = 0;
+
   public SuccessTest(AttributePair attributePair) {
-    super(DicePool.ofSize(attributePair.getLower().getValue()));
+    super(attributePair);
   }
 
-  public SuccessTest(DicePool dicePool) {
-    super(dicePool);
+  @Override
+  protected DicePool getInitialDicePool(AttributePair attributePair) {
+    return DicePool.ofSize(attributePair.getLower().getValue());
   }
 
   @Override
@@ -21,6 +25,10 @@ public class SuccessTest extends Test<SuccessResult> {
         dicePool.getDice().stream()
             .map(Die::getValue)
             .max(Comparator.naturalOrder())
-            .orElse(0));
+            .orElse(0) + successBonus);
+  }
+
+  public void setSuccessBonus(int successBonus) {
+    this.successBonus = successBonus;
   }
 }

@@ -1,5 +1,6 @@
 package org.pcsiszar.corsair.test;
 
+import org.pcsiszar.corsair.character.AttributePair;
 import org.pcsiszar.corsair.dice.DicePool;
 import org.pcsiszar.corsair.dice.Die;
 
@@ -7,11 +8,15 @@ import java.util.List;
 
 public abstract class Test<T> {
 
+  protected AttributePair attributePair;
   protected DicePool dicePool;
 
-  public Test(DicePool dicePool) {
-    this.dicePool = dicePool;
+  public Test(AttributePair attributePair) {
+    this.attributePair = attributePair;
+    this.dicePool = getInitialDicePool(attributePair);
   }
+
+  protected abstract DicePool getInitialDicePool(AttributePair attributePair);
 
   public void upgrade(int n) {
     dicePool.upgrade(n);

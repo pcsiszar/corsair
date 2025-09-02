@@ -17,6 +17,6 @@ public class DieTest {
       long result = die.roll();
       resultMap.put(result, resultMap.computeIfAbsent(result, (__) -> 0L) + 1);
     }
-    Assertions.assertEquals(Set.of(1L, 2L, 3L, 4L, 5L, 6L), resultMap.keySet());
+    Assertions.assertEquals(Set.of(1L, 2L, 3L, 4L, 5L, 6L, 7L, 8L, 9L, 10L), resultMap.keySet());
   }
 }
