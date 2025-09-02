@@ -1,5 +1,6 @@
 package org.pcsiszar.corsair.test;
 
+import lombok.Setter;
 import org.pcsiszar.corsair.character.AttributePair;
 import org.pcsiszar.corsair.dice.DicePool;
 import org.pcsiszar.corsair.dice.Die;
@@ -15,6 +16,7 @@ public class ComplexTest extends Test<ComplexResult> {
 
   private ComplexTestStage stage = ComplexTestStage.ACTION_STAGE;
   private SimpleResult actionResult;
+  @Setter
   private int successBonus = 0;
 
   public ComplexTest(AttributePair attributePair) {
@@ -81,10 +83,6 @@ public class ComplexTest extends Test<ComplexResult> {
             .map(Die::getValue)
             .max(Comparator.naturalOrder())
             .orElse(0) + successBonus).toComplexResult();
-  }
-
-  public void setSuccessBonus(int successBonus) {
-    this.successBonus = successBonus;
   }
 
   enum ComplexTestStage {
