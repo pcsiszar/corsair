@@ -49,7 +49,7 @@ public class ComplexTest extends Test<ComplexResult> {
     super.downgrade(n);
   }
 
-  public void progress() {
+  public SimpleResult progress() {
     if (stage == ComplexTestStage.SUCCESS_STAGE) {
       throw new IllegalStateException("Already in success stage.");
     }
@@ -67,8 +67,10 @@ public class ComplexTest extends Test<ComplexResult> {
           .collect(Collectors.toList());
       dicePool = new DicePool(diceForSuccess);
       stage = ComplexTestStage.SUCCESS_STAGE;
+      return new SimpleResult(ResultCategory.SUCCESS);
     } else {
       dicePool.resolve();
+      return new SimpleResult(ResultCategory.FAILURE);
     }
   }
 
