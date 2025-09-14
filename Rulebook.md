@@ -4,8 +4,40 @@
 
 - [Introduction](#introduction)
 - [Chapter 1: What is a Roleplaying Game?](#chapter-1-what-is-a-roleplaying-game)
+    - [What You'll Need](#what-you'll-need)
 - [Chapter 2: Core Mechanics](#chapter-2-core-mechanics)
-- [Chapter 3: Scenes, Rounds, and Turns](#chapter-3-scenes-rounds-and-turns)
+    - [Attributes](#attributes)
+    - [Attribute Pairs](#attribute-pairs)
+    - [Tests](#tests)
+    - [The Importance of Narration](#the-importance-of-narration)
+    - [Upgrades and Downgrades](#upgrades-and-downgrades)
+    - [Gambit](#gambit)
+    - [Putting It All Together: An Example Test](#putting-it-all-together-an-example-test)
+    - [Defending Against a Test](#defending-against-a-test)
+    - [Teamwork](#teamwork)
+- [Chapter 3: Scenes, Pacing, and Action](#chapter-3-scenes-pacing-and-action)
+    - [Scene Types and Pacing](#scene-types-and-pacing)
+    - [Zooming In and Out](#zooming-in-and-out)
+    - [Rounds](#rounds)
+    - [Turns](#turns)
+    - [Danger and Complications](#danger-and-complications)
+    - [Action Tokens in Detail](#action-tokens-in-detail)
+    - [Pushing Your Limits: Spending More Than 2 Tokens](#pushing-your-limits-spending-more-than-2-tokens)
+- [Chapter 4: Player Characters](#chapter-4-player-characters)
+    - [Core Attributes](#core-attributes)
+    - [Derived Attributes](#derived-attributes)
+    - [Skills](#skills)
+    - [Condition Tracks](#condition-tracks)
+    - [Taking Damage and Healing](#taking-damage-and-healing)
+    - [Consequences of Filled Tracks](#consequences-of-filled-tracks)
+    - [Traits](#traits)
+- [Chapter 5: Equipment](#chapter-5-equipment)
+    - [Load](#load)
+    - [Equipment Categories](#equipment-categories)
+- [Chapter 6: Tracks and Effects](#chapter-6-tracks-and-effects)
+    - [What are Tracks?](#what-are-tracks)
+    - [Types of Tracks](#types-of-tracks)
+    - [Effects](#effects)
 
 ## Introduction
 
@@ -677,6 +709,41 @@ same set of tracks, locking the first available segment.
   controlled by the GM. The character will most likely act on pure survival instinct, either fleeing the scene in a
   blind panic or lashing out recklessly at the source of their distress.
 
+### Traits
+
+Beyond their core Attributes and learned Skills, characters in Corsair possess unique **Traits**. These are special
+features that add an additional layer of customization, representing inherent qualities, unique training, or unusual
+circumstances that set a character apart. Traits provide distinct advantages or open up new narrative possibilities,
+allowing players to further define their character's identity and capabilities in ways that go beyond numerical
+statistics.
+
+Traits are designed to enhance your character's flavor and provide specific mechanical benefits that reflect their
+unique background or nature. They are not simply bonuses to dice rolls, but often introduce new rules, modify existing
+ones, or grant access to special actions or narrative permissions.
+
+* **Brawler**: You are not affected by being outnumbered in melee or overcrowding.
+* **Bombardier**: Whenever you use an Area Attack, you can re-roll any dice that landed 7 or lower.
+* **Counterstrike**: When you successfully defend against a melee attack, you can deal damage equal to your highest
+  remaining die you haven't yet used in the Defense roll. You can add your current weapon's damage bonus.
+* **Ferocious Charge**: You can spend one Gambit to roll a Success test for movement, adding the spent Gambit to the
+  roll. The next melee attack you make this turn gets a Damage Bonus equal to the max number of spaces you could have
+  moved with the succe ss roll.
+* **Natural Leader**: When you take part in a Teamwork Action, every other participant receives 1 Upgrade.
+* **Interceptor**: When a creature would leave your space, you can attack that creature using a Complex Action paying
+  only 1 Action Token instead of 2.
+* **Iron Will**: You gain Protection for your mental condition track equal to your Willpower.
+* **Pack Mule**: You are able to carry 4 extra Load.
+* **Parkour**: You gain the benefits of cover even while being in the same space as your attacker.
+* **Shadowstep**: You automatically succeed on your next action that involves you remaining undetected and moving to a
+  **location you can see and reach. For each additional Gambit, you can extend the effect to other undetected allies,
+  **bringing them along with you.
+* **Sharpshooter**: You can use the accuracy value of your weapon that is adjacent to the one that you'd normally use
+  given
+  **the current distance between you and your target.
+* **Tough as Nails**: You gain physical Protection equal to your Endurance.
+* **Unflinching Confidence**: When you successfully defend against taking mental damage, you clear a number of mental
+  track segments equal to the highest remaining due you haven't used yet.
+
 ## Chapter 5: Equipment
 
 Not every item a character carries has a significant mechanical impact on the game. Everyday objects like personal
@@ -761,7 +828,7 @@ amount of damage you take from attacks.
 
 The main attribute for any piece of armor is its **Protection** value. Protection provides a flat reduction that you can
 apply to incoming conventional damage. For example, if you are hit by an attack that would normally deal 5 points of
-damage and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
+damage, and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
 
 While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often
 bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of
@@ -788,4 +855,182 @@ single-use consumable to a complex device with ongoing effects.
   permanent gear. A protective thermal layer, which can be toggled on or off to provide environmental resistance, is an
   example of toggleable gear. These items typically don't have a limited number of uses, but their effects might be
   situational or require an Action Token to activate/deactivate.
+
+## Chapter 6: Tracks and Effects
+
+In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, challenges, or the progression of
+events that are too complex to be resolved with a single dice roll. Inspired by "Progress Clocks" from other systems,
+Tracks provide a transparent and dynamic way for both the Game Master (GM) and players to visualize the state of an
+evolving situation. They can represent anything from the progress of a complex repair, the rising alert level of a
+security system, the approach of a pursuing enemy, or even the duration of a temporary effect.
+
+### What are Tracks?
+
+A Track is a visual representation, typically a series of segments or boxes, that fills up as certain conditions are met
+or actions are taken. When a Track is completely filled, the event or situation it represents comes to fruition.
+
+#### Track Size
+
+The GM determines the size of a Track based on the complexity or difficulty of the situation it represents.
+Standard Track sizes come in multiples of 8, 10 or 12, depending on how arduous and long the task is and how many
+Actions you think the players should spend on completing said task.
+
+The GM might also use Tracks with more or fewer segments for very specific situations, but the above variants should be
+the most common.
+
+For example, hacking a blast door in the team's way in a compound should probably take only a few actions, so
+choosing a Track size between 16 and 24 is a good idea, depending on how secure the compound is. When having to interact
+with multiple scattered consoles in the room to prevent the launch of a missile, the consoles should be sized fairly
+small, so multiple ones can be activated each Round, so something between 6 and 10 is appropriate. And if you want to
+theme a boss fight around having to charge a powerful laser, then you should have that charging be a progress track that
+requires at least 30 segments, but probably more, and flood the players with hostile creatures that only stop coming if
+the laser is fired. Choosing an appropriate Track size is an art that you master as a GM throughout your games.
+
+#### Types of Tracks
+
+Tracks can be used in various ways to enhance gameplay:
+
+* **Progress Tracks:** These track the players' advancement towards a specific goal.
+    * *Example:* "Repairing the Hyperdrive", where each successful Mechanics test fills segments until the
+      repair is complete.
+* **Countdown Tracks:** These tracks represent the outfolding of certain events that don't require interactions from any
+  character currently in the scene.
+    * *Example:* A countdown until reinforcements arrive.
+* **Linked Tracks:** One Track, when filled, can trigger or unlock another Track.
+    * *Example:* Filling a "Disable Force Field" track might then activate a "Open Vault Door" track.
+* **Racing Tracks:** Two or more opposed Tracks track competing outcomes, with the first to fill determining the result.
+    * *Example:* "Escape" for the PCs versus "Pursuers Close In" for their enemies.
+* **Tug-of-War Tracks:** These Tracks can count both up and down, representing a back-and-forth struggle or fluctuating
+  situation.
+    * *Example:* "Faction Influence", where player actions can increase or decrease a faction's standing.
+
+#### Filling Segments
+
+Segments on a Track are typically filled based on the outcome of player actions or as a consequence of events in the
+game, but some are filled automatically at the end of the Round.
+
+* **Progress Tracks:** When players take successful actions to overcome an obstacle or achieve a goal, segments are
+  filled. The "effect" of their action (e.g., how well they succeeded on a test) can determine how many segments are
+  filled. When generating Success Points in Complex Tests or Success Tests, players typically fill these segments with
+  those points.
+
+* **Countdown Tracks:** When certain events happen over time, without requiring any interaction from the characters in a
+  scene, the progress towards that outcome is represented via a Countdown Track. The Countdown Track increments at the
+  end of the Round automatically. Sometimes a roll is involved, sometimes it just increments by a flat number.
+
+When a Track is full, the event it tracks is resolved.
+
+### Effects
+
+In Corsair, "Effects" are a crucial element of narrative-driven gameplay, allowing players to influence the environment
+and their opponents in dynamic ways beyond simply succeeding at a task. While a successful test might directly achieve a
+goal, it can also be used to create an Effect, representing a tactical advantage, a narrative twist, or a significant
+alteration to the scene. The emphasis is on *how* you achieve something, and the creative narration that accompanies
+your actions.
+
+Every Effect has an associated **Success Point Cost** that must be paid from the Success Points generated by a
+successful test. This means that even if you succeed at a test, you might choose to spend some or all of your Success
+Points not on direct progress, but on creating a beneficial Effect.
+
+Crucially, each Effect must have a **Holder**. This can be a creature (an ally or an enemy), an item (a weapon, a piece
+of gear, a console), or even a specific environmental feature (a flickering light, a loose panel). The holder must be
+physically present in the narrative and actively involved in the action that triggers the Effect. This means that
+Effects are always tied to a tangible element within the scene and cannot function as "aura buffs" that passively affect
+multiple entities just by proximity. When you trigger an Effect, your narration must clearly link the Effect to its
+holder and your character's interaction with it.
+
+#### Upgrade/Downgrade Effect
+
+When your narration describes an action that would give you or an ally an advantage, or put an opponent at a
+disadvantage, you can create an **Upgrade/Downgrade Effect**. This effect directly manipulates the dice pools of future
+tests.
+
+* **Cost:** One level of the Upgrade/Downgrade Effect costs **4 Success Points**.
+* **Stacking:** You can purchase up to **3 levels** of this Effect for a total of 12 Success Points. Each level grants
+  one Upgrade or one Downgrade, depending on whether the effect is beneficial or detrimental.
+* **Cleansing:** An existing Upgrade/Downgrade Effect can be "cleansed" or removed in increments. Each increment of
+  cleansing removes one level of the effect. The cost to cleanse is the same as to apply, 4 points per level, but
+  cleansing only requires a Simple Action.
+
+Remember, the holder of this effect must be part of your narration. For example, if you want to give an ally an Upgrade,
+you might narrate "distracting the guard, creating an opening for Jax." In this example, the holder of the effect is the
+guard.
+
+#### Blocker Effect
+
+A **Blocker Effect** prevents a creature or creatures from performing a specific action or accessing a certain area.
+This effect is highly narrative-dependent and requires the GM's interpretation of what can reasonably be blocked by your
+action.
+
+* **Cost:** The cost of a Blocker Effect variable. The minimum you have to spend is 4, and the maximum you can spend on
+  a blocker effect is 12. **.
+* **Cleansing:** For a blocked creature to overcome the Blocker Effect, they must succeed on a **Success Test** with a
+  result equal to or higher than the Success Points originally spent to create the Blocker Effect. If the Blocker Effect
+  was created with 6 Success Points, the blocked creature needs to roll 6 or more Success Points on their test to
+  cleanse it.
+* **Sustaining the Effect:** Blocker Effects often require the character who created them to actively sustain the
+  effect. This means that the character might be unable to perform other significant actions or move from their current
+  position without breaking the Blocker Effect.
+    * *Example:* If you narrate "pinning a guard to the ground to prevent them from moving," you (the character) are the
+      holder of this Blocker Effect. You cannot move away from the guard without ending the effect.
+    * *Example:* If you narrate "hiding behind a sturdy crate to avoid being seen by the security drone," the crate is
+      the holder of the Blocker Effect. The drone is blocked from seeing you as long as you remain hidden behind the
+      crate. If you move from behind the crate, the effect ends.
+
+The GM will determine the appropriate Attribute Pair for the blocked creature's Success Test to cleanse the effect,
+based on their narration of how they attempt to overcome the block.
+
+#### Triggered Effect
+
+A **Triggered Effect** allows you to set up a future action or consequence that will occur when a specific condition is
+met. The Success Points you generate from your test are "stored" and then applied to the triggered action when its
+condition is fulfilled.
+
+* **Cost:** The cost of a Triggered Effect is **variable**, depending on the complexity and impact of the action you
+  wish to trigger. The GM will determine the Success Point cost based on the narrative and mechanical implications.
+* **Setting up the Trigger:** When you declare a Triggered Effect, you must clearly define:
+    1. **The Trigger Condition:** What specific event or circumstance will cause the effect to activate? (e.g., "When
+       the enemy opens that door," "If the alarm sounds," "When the target moves into the open.")
+    2. **The Action/Consequence:** What will happen when the trigger condition is met? (e.g., "I shoot them," "The
+       explosive detonates," "The force field activates.")
+    3. **The Holder:** The Triggered Effect must be tied to a physical holder in the narrative, just like other Effects.
+       This could be a trap you set, a position you're holding, or an item you've prepared.
+* **Action Token Expenditure for Complex Tests:** If the action you wish to trigger would normally require a **Complex
+  Test** (which costs 2 Action Tokens), you can spend **1 Action Token** when you set up the Triggered
+  Effect (performing the initial Success Test). The second Action Token is then spent at the moment the effect is
+  triggered. If the Triggered Effect activates during the GM's turn, the Action Token spent to resolve the
+  effect does *not* count against the Player Turn's Action Token limit, nor does it count against the GM's turn
+  limit. This allows for dynamic reactions without penalizing player actions in subsequent turns.
+* **Examples:**
+    * **Setting a Trap:** You spend Success Points to set a tripwire connected to a grenade. The trigger condition is "
+      an enemy crosses the tripwire." The action is "the grenade detonates." The holder is the tripwire/grenade. This
+      requires only 1 Action Token.
+    * **Holding a Chokepoint:** You narrate "bracing yourself at the doorway, ready to fire at anyone who comes
+      through." The trigger condition is "an enemy enters the doorway." The action is "you shoot them." The holder is
+      your character's position at the doorway. This requires 2 Action Tokens, 1 when you set it up, one when you shoot.
+
+When trying to cleanse a Triggered Effect, the character attempting to do so simply has to succeed on a Simple Test.
+If the test fails, the one who created the trigger can choose if they would like to trigger it now, if it's applicable.
+So for example, if
+the players attempt to disarm a trap, and they failed, the GM can choose to have the trap go off, but for example, if a
+teammate set out to tackle a hostile when they would attempt to get close to a VIP, if the hostile failed a feint, the
+player can still decide to hold their trigger.
+
+#### Movement Effect
+
+A **Movement Effect** allows you to manipulate movement within the scene, either for your own character or for another
+creature. This effect is particularly useful for repositioning, escaping, or forcing opponents into disadvantageous
+positions.
+
+* **Cost:**
+    * **4 Success Points:** To move your own character 1 Space.
+    * **6 Success Points:** To make another creature travel 1 Space. You can chose to travel with them.
+* **Tests Required:**
+    * **Unwilling Creature:** Moving an unwilling creature requires a **Complex Test**. The Success Points generated
+      from this test are used to pay the cost of the Movement Effect.
+    * **Willing Creature:** Moving a willing creature (e.g., an ally you are pulling to safety) requires a **Success
+      Test**. The Success Points generated from this test are used to pay the cost of the Movement Effect.
+
+The GM will adjudicate the feasibility and narrative justification of Movement Effects.
+
 
