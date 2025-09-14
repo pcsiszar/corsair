@@ -410,7 +410,7 @@ The turn swaps from the players to the GM (or vice versa) after the active side 
 Tokens and resolved their last action. The round concludes when both sides choose to "pass," meaning they have no
 further actions to take. Every round starts with the Player Turn first.
 
-Most rounds will fly by due to the players being surrounded with no NPCs, or NPCs that generally don't wish to affect
+Most rounds will fly by due to the players beingrounded with no NPCs, or NPCs that generally don't wish to affect
 the player characters. Therefore, most rounds will be rather one-sided, but that is a good thing as the GM already has
 a lot of work just arbitrating the player characters' narrations.
 
@@ -586,4 +586,206 @@ If your skill is linked to **Knowledge + Presence**, you might name it:
 This system allows you to tailor your character's abilities to your specific concept, adding a personal touch to their
 mechanical advantages.
 
+### Condition Tracks
+
+Condition Tracks are a measure of your character's ability to withstand the physical and mental rigors of a life of
+adventure. Instead of a single pool of hit points, your character has two sets of Condition Tracks: Physical and Mental.
+These tracks represent your resilience against injury, fatigue, stress, and fear.
+
+#### Physical and Mental Tracks
+
+* **Physical Tracks:** These tracks measure your character's physical well-being. They are affected by injury, poison,
+  fatigue, and other physical hardships. The size of your Physical Tracks is determined by your **Endurance**.
+* **Mental Tracks:** These tracks represent your character's mental and emotional state. They are affected by stress,
+  fear, intimidation, and psychological trauma. The size of your Mental Tracks is determined by your **Willpower**.
+
+#### The Three Tracks
+
+Both the Physical and Mental categories are further divided into three individual, linked tracks. When your character
+takes damage or stress, they will mark off boxes on the first track. Once a track is full, any further damage or stress
+carries over to the next track in the sequence.
+
+Each of these three tracks has a size equal to **4 + your relevant Derived Attribute**.
+
+* **Physical Track Sizes:** Each of your three Physical tracks has a size oWhenf **4 + Endurance**.
+* **Mental Track Sizes:** Each of your three Mental tracks has a size of **4 + Willpower**.
+
+The consequences of filling these tracks will be detailed in the next section.
+
+### Taking Damage and Healing
+
+Your Condition Tracks are filled by taking damage and are cleared when you receive healing. The process is not always
+straightforward, as some wounds are more serious than others.
+
+#### Aggravated Damage
+
+When an incoming source of damage or stress is enough to completely fill one of your three condition tracks, you risk
+taking **Aggravated Damage**. Any damage that overflows from the filled track does not simply carry over to the next
+one. Instead, for each point of overflow damage, one segment on the *next* track becomes **locked**.
+
+Locked segments are a form of aggravated damage. They still count as filled boxes for the purpose of determining if a
+track is full, but they cannot be cleared by most common forms of healing.
+
+#### Healing: Lesser and Greater
+
+Healing is divided into two types, which differ in their ability to repair serious harm.
+
+* **Lesser Healing:** This is the most common type of healing. It can clear standard damage from your tracks, but it *
+  *cannot** clear locked segments.
+* **Greater Healing:** This is a more powerful and intensive form of healing that is required to clear locked segments.
+  Greater Healing can clear any type of damage, locked or unlocked.
+
+#### Healing Availability
+
+Your access to different types of healing depends entirely on the current scene's scope, as set by the GM.
+
+* **Moment to Moment:** In the heat of combat or a crisis, options are limited. Healing is restricted to what you can do
+  immediately, such as using specialized equipment, consumables like stim-packs, or activating unique character
+  abilities.
+* **Place to Place:** When the crew has a moment to catch their breath, more options become available. You can perform
+  First Aid or simply rest for a short while, both of which provide **Lesser Healing**. More potent consumables that
+  require more time to apply can be used to provide **Greater Healing**.
+* **Day to Day:** During downtime, you have access to the best medical care. A stay in a medbay or a proper sickbay can
+  provide powerful **Greater Healing**, patching up even the most severe injuries and clearing all locked segments from
+  your tracks.
+
+### Consequences of Filled Tracks
+
+Filling your Condition Tracks has immediate and severe consequences. These rules apply when your entire set of three
+Physical or three Mental tracks is completely filled.
+
+Once a set of tracks is full, any additional damage of that same type automatically becomes aggravated damage in that
+same set of tracks, locking the first available segment.
+
+#### Physical Track Consequences
+
+* **All Tracks Filled:** When all three of your Physical tracks are filled with damage (a mix of standard and/or
+  aggravated), your character falls **Unconscious**. They are unable to act and are at the mercy of the situation. They
+  remain unconscious until at least one segment of damage is cleared.
+
+* **All Tracks Filled with Aggravated Damage:** If every single segment of your three Physical tracks is filled with
+  aggravated damage, your character **Dies**. There is no coming back from this.
+
+#### Mental Track Consequences
+
+* **All Tracks Filled:** When all three of your Mental tracks are filled with damage (but not all of it is aggravated),
+  your character is mentally overwhelmed. They immediately **lose all dice in their Gambit pool**, and they **cannot
+  earn or spend Gambit**. This state persists until at least one segment of mental damage is cleared.
+
+* **All Tracks Filled with Aggravated Damage:** If every single segment of your three Mental tracks is filled with
+  aggravated damage, your character's mind breaks. The player **loses control of the character**, who is now temporarily
+  controlled by the GM. The character will most likely act on pure survival instinct, either fleeing the scene in a
+  blind panic or lashing out recklessly at the source of their distress.
+
+## Chapter 5: Equipment
+
+Not every item a character carries has a significant mechanical impact on the game. Everyday objects like personal
+commlinks, apartment keys, or sentimental trinkets are assumed to be part of a character's belongings without needing
+specific rules. However, items that provide a distinct advantage in challenging situations—from weapons and armor to
+specialized tools—are classified as Equipment. These items are governed by the **Load** system.
+
+### Load
+
+Every piece of mechanically significant equipment has a **Load** value, which represents its weight, size, and
+cumbersomeness. A character's ability to carry this equipment is limited by their physical strength.
+
+Your character's maximum Load capacity is **12 + (Strength x 2)**.
+
+This limit is absolute; a character cannot carry items with a total Load value exceeding this capacity under any
+circumstances. It is often a wise tactical decision to leave some of your Load capacity unused. An open slot might be
+exactly what you need to carry a vital piece of salvage or a mission-critical objective you discover on the job.
+
+### Equipment Categories
+
+Equipment is divided into three major categories:
+
+* **Weapons:** Anything designed to inflict physical harm, from vibro-knives and plasma pistols to heavy repeating
+  blasters.
+* **Armor:** Protective gear worn to reduce or negate incoming damage.
+* **Gear:** A broad category that includes everything else of mechanical importance. This covers items like med-kits,
+  explosives, advanced scanner units, and other consumables or specialized tools.
+
+#### Weapons
+
+Weapons are divided into two main types: Melee and Ranged. While they function differently, all weapons share a common
+statistic: the Damage Bonus.
+
+**Damage Bonus**
+
+The Damage Bonus is a flat value added to the success points you generate on a successful attack roll. However, these
+bonus points can only be used to increase the damage dealt and cannot be used for any other purpose.
+
+---
+
+##### Melee Weapons
+
+Melee weapons are designed for close-quarters combat. They have two unique characteristics: Reach and their method of
+calculating their Damage Bonus.
+
+* **Reach:** This stat determines the effective distance of a melee weapon. When your weapon's Reach is greater than
+  your opponent's, you receive Upgrades to your attack test. Furthermore, if you are using a battle map for combat, a
+  weapon with a Reach of 3 or more allows you to attack opponents in adjacent spaces, not just your own.
+
+* **Damage Bonus:** The Damage Bonus for melee weapons is often derived from your character's Physical Attributes. For
+  example, a weapon's bonus might be calculated as `Strength / 3` or `(Agility / 3) + 1`. The result of these
+  calculations is always rounded down to the nearest whole number.
+
+---
+
+##### Ranged Weapons
+
+Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calculate their Damage Bonus.
+
+* **Accuracy:** This is the primary attribute for all ranged weapons, and any attack made with one **must** include its
+  Accuracy rating as part of the attribute pair (most commonly **Finesse + Accuracy**). A weapon's Accuracy is not a
+  single value, but an array of four values corresponding to the distance to the target:
+    * **Short Range:** 0-5 spaces or ~0-20m
+    * **Medium Range:** 6-12 spaces or ~20-50m
+    * **Long Range:** 13-25 spaces or ~50-100m
+    * **Extreme Range:** 26+ spaces or ~100m+
+
+* **Rate of Fire (RoF):** This stat limits how many times a weapon can be fired in a single round. Each attack action
+  uses at least one "shot" from the weapon's RoF. You can also spread the damage from a single successful attack across
+  multiple targets, but doing so costs one additional shot for each extra target.
+    * *Example:* A pistol with a Rate of Fire of 2 makes a successful attack. The player can choose to have the damage
+      hit the initial target and also a second target standing nearby. This action would consume both shots from the
+      weapon's RoF (1 for the initial attack + 1 for the extra target), meaning it cannot be fired again this round.
+
+* **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as
+  +1, +2, or +3.
+
+#### Armor
+
+Armor is any type of protective gear worn by a character to defend against harm. Its primary function is to reduce the
+amount of damage you take from attacks.
+
+The main attribute for any piece of armor is its **Protection** value. Protection provides a flat reduction that you can
+apply to incoming conventional damage. For example, if you are hit by an attack that would normally deal 5 points of
+damage and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
+
+While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often
+bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of
+Action Tokens each round.
+
+#### Gear
+
+Gear is a broad category encompassing all other mechanically significant items that don't fall under Weapons or Armor.
+These items often provide special properties, unique abilities, or situational advantages. Gear can be anything from a
+single-use consumable to a complex device with ongoing effects.
+
+##### Types of Gear
+
+* **Consumables:** These are single-use items that are expended upon activation. Examples include medkits (restoring
+  Condition Track segments), grenades (dealing area-of-effect damage), or stim-packs (providing temporary Attribute
+  boosts). Once used, a consumable is gone.
+
+* **Cooldown Gear:** Some gear operates on a cooldown system. After activation, these items become temporarily
+  unavailable for a set number of rounds or until a specific condition is met. Jetpacks, for instance, might allow for a
+  burst of movement but then require several rounds to recharge.
+
+* **Permanent/Toggleable Gear:** This type of gear provides a continuous benefit or can be activated/deactivated at
+  will. Mag-boots, which allow a character to walk on metallic surfaces regardless of gravity, are an example of
+  permanent gear. A protective thermal layer, which can be toggled on or off to provide environmental resistance, is an
+  example of toggleable gear. These items typically don't have a limited number of uses, but their effects might be
+  situational or require an Action Token to activate/deactivate.
 
