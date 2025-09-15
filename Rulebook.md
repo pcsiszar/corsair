@@ -471,8 +471,8 @@ At the end of any round, the GM has the option to make a **Danger Roll**. They r
 scene's Danger Level. This is a special kind of Complex Test:
 
 1. The GM rolls the dice.
-2. Any dice that land on an 8 or higher are re-rolled.
-3. The highest result from the re-rolled dice becomes the **Danger Points** for that round.
+2. Keep the ones that rolled 8 or higher and then roll with them again.
+3. The highest result from these re-rolled dice adds additional Danger Points equal to its value for that round.
 
 The GM can then spend these Danger Points to introduce new actors or complications into the scene. This could be a
 security patrol stumbling upon the players, a sudden environmental hazard, or a group of hungry alien predators catching
@@ -729,17 +729,17 @@ ones, or grant access to special actions or narrative permissions.
   roll. The next melee attack you make this turn gets a Damage Bonus equal to the max number of spaces you could have
   moved with the succe ss roll.
 * **Natural Leader**: When you take part in a Teamwork Action, every other participant receives 1 Upgrade.
-* **Interceptor**: When a creature would leave your space, you can attack that creature using a Complex Action paying
-  only 1 Action Token instead of 2.
+* **Interceptor**: When a creature attempts to move out of the same space you occupy, you can attack that creature using
+  a
+  Complex Action paying only 1 Action Token instead of 2.
 * **Iron Will**: You gain Protection for your mental condition track equal to your Willpower.
 * **Pack Mule**: You are able to carry 4 extra Load.
 * **Parkour**: You gain the benefits of cover even while being in the same space as your attacker.
 * **Shadowstep**: You automatically succeed on your next action that involves you remaining undetected and moving to a
   **location you can see and reach. For each additional Gambit, you can extend the effect to other undetected allies,
   **bringing them along with you.
-* **Sharpshooter**: You can use the accuracy value of your weapon that is adjacent to the one that you'd normally use
-  given
-  **the current distance between you and your target.
+* **Sharpshooter**: You can treat your target as being one range category closer or further for the purpose of
+  determining weapon accuracy.
 * **Tough as Nails**: You gain physical Protection equal to your Endurance.
 * **Unflinching Confidence**: When you successfully defend against taking mental damage, you clear a number of mental
   track segments equal to the highest remaining due you haven't used yet.
@@ -962,8 +962,7 @@ A **Blocker Effect** prevents a creature or creatures from performing a specific
 This effect is highly narrative-dependent and requires the GM's interpretation of what can reasonably be blocked by your
 action.
 
-* **Cost:** The cost of a Blocker Effect variable. The minimum you have to spend is 4, and the maximum you can spend on
-  a blocker effect is 12. **.
+* **Cost:** The cost of a Blocker Effect is variable, ranging from a minimum of 4 to a maximum of 12 Success Points.
 * **Cleansing:** For a blocked creature to overcome the Blocker Effect, they must succeed on a **Success Test** with a
   result equal to or higher than the Success Points originally spent to create the Blocker Effect. If the Blocker Effect
   was created with 6 Success Points, the blocked creature needs to roll 6 or more Success Points on their test to
@@ -998,9 +997,9 @@ condition is fulfilled.
 * **Action Token Expenditure for Complex Tests:** If the action you wish to trigger would normally require a **Complex
   Test** (which costs 2 Action Tokens), you can spend **1 Action Token** when you set up the Triggered
   Effect (performing the initial Success Test). The second Action Token is then spent at the moment the effect is
-  triggered. If the Triggered Effect activates during the GM's turn, the Action Token spent to resolve the
-  effect does *not* count against the Player Turn's Action Token limit, nor does it count against the GM's turn
-  limit. This allows for dynamic reactions without penalizing player actions in subsequent turns.
+  triggered. If the Triggered Effect activates during the GM's turn, the second Action Token is spent without affecting
+  the current turn's Action Token limits, allowing for dynamic reactions without penalizing player actions in subsequent
+  turns.
 * **Examples:**
     * **Setting a Trap:** You spend Success Points to set a tripwire connected to a grenade. The trigger condition is "
       an enemy crosses the tripwire." The action is "the grenade detonates." The holder is the tripwire/grenade. This
