@@ -229,9 +229,10 @@ the test.
 
 #### The Golden Rule of Gambit
 
-There is one crucial restriction on using Gambit: **you cannot both earn and spend Gambit in the same test.** If you
-decide to bank a die to earn a Gambit, you cannot spend one from your pool on that same test. Conversely, if you have
-already spent a Gambit die on a test, you cannot bank any dice from that roll, even if they show their maximum value.
+There is one crucial restriction on using Gambit: **a player can either spend or gain Gambit during a turn, but not
+both.** This means that if you spend any Gambit from your pool at any point during your turn, you cannot choose to bank
+any dice to earn new Gambit for the rest of that turn. Conversely, if you bank a die to earn a Gambit, you cannot spend
+any Gambit until your next turn begins.
 
 ### Putting It All Together: An Example Test
 
@@ -304,9 +305,17 @@ follows:
 2. **The GM Chooses an Attribute:** Based on the contester's narration, the GM chooses a single, relevant Attribute for
    the contest.
 3. **The Contest Roll:** The contester rolls a number of d10s equal to the chosen Attribute's value.
-4. **Mitigation:** For every die in the contest roll that scores an 8 or higher, the contester cancels out one of the
-   attacker's dice. The dice that are cancelled are always the highest results in the attacker's pool. This is called *
-   *Mitigation**.
+4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of the
+   contested character's highest dice. The dice that are eliminated are always the highest results in the contested
+   character's pool.
+
+You **successfully contest** a test if your contest roll causes a meaningful negative outcome for the contested character. For
+example, turning their successful attack into a miss, or significantly reducing the damage or effect of their action.
+Traits like *Counterstrike* trigger off of this condition.
+
+You **successfully contest** a test if your contest roll eliminates every 8+ die from the contested roll.
+
+You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the Success Test generates 0 Success Points and turns into a failure.
 
 #### Contest Example
 
@@ -320,10 +329,9 @@ room, the drone's thrusters fire erratically, causing it to juke and weave.
 
 **1. The Contest Roll:** The drone makes a contest roll using its **Evasion** Attribute. It rolls **3d10**.
 
-**2. The Result:** The drone's roll is `[3, 8, 9]`. It has scored two results of 8 or higher. This generates **2 points
-of Mitigation**.
+**2. The Result:** The drone's roll is `[3, 8, 9]`. It has scored two results of 8 or higher.
 
-**3. Mitigation:** The 2 points of Mitigation cancel out the 2 highest dice in Jax's attack pool. Jax's pool was
+**3. Eliminating Dice:** These two successful rolls eliminate the 2 highest dice in Jax's attack pool. Jax's pool was
 `[2, 4, 5, 7, 8]`. The two highest dice are the 8 and the 7. Both are removed.
 
 **4. Final Outcome:** Jax's dice pool is now `[2, 4, 5]`. The highest remaining die is a 5. Since this is lower than 8,
@@ -624,7 +632,8 @@ If your skill is linked to **Knowledge + Presence**, you might name it:
 * *Medical Diagnosis*
 * *Ancient History*
 
-This system allows you to tailor your character's abilities to your specific concept. While the name adds flavor and helps
+This system allows you to tailor your character's abilities to your specific concept. While the name adds flavor and
+helps
 define your character, it does not restrict the skill's mechanical benefit. The Upgrades from a skill apply to **any**
 test made with its linked Attribute Pair, regardless of the specific action being performed. The name is primarily a
 narrative tool, and the mechanics are tied only to the Attributes.
@@ -740,26 +749,69 @@ Traits are designed to enhance your character's flavor and provide specific mech
 unique background or nature. They are not simply bonuses to dice rolls, but often introduce new rules, modify existing
 ones, or grant access to special actions or narrative permissions.
 
-* **Brawler**: You are not affected by being outnumbered in melee or overcrowding.
-* **Bombardier**: Whenever you use an Area Attack, you can re-roll any dice from the initial roll that landed 7 or lower.
-  Each die may only be re-rolled once.
-* **Counterstrike**: When you successfully contest a melee attack, you can deal damage equal to your highest
-  remaining die you haven't yet used in the Contest roll. You can add your current weapon's damage bonus.
-* **Ferocious Charge**: You can spend one Gambit to roll a Success test for movement, adding the spent Gambit to the
-  roll. The next melee attack you make this turn gets a Damage Bonus equal to the max number of spaces you could have
-  moved with the succe ss roll.
-* **Natural Leader**: When you take part in a Teamwork Action, every other participant receives 1 Upgrade.
-* **Interceptor**: When a creature attempts to move out of the same space you occupy, you can use this trait to attack
-  them. This attack resolves immediately *before* the creature leaves the space. The attack is a Complex Action that costs
-  only 1 Action Token instead of 2.
-* **Iron Will**: You gain Protection for your mental condition track equal to your Willpower.
-* **Pack Mule**: You are able to carry 4 extra Load.
-* **Parkour**: You gain the benefits of cover even while being in the same space as your attacker.
-* **Sharpshooter**: You can treat your target as being one range category closer or further for the purpose of
+* **Behind the Scenes**: If the turn ends with you hidden from all non-ally creatures, you can pay one Gambit to
+  take one more action, paying the Action Token cost as normal.
+
+* **Bombardier**: Whenever you use an Area Attack, you can re-roll any dice from the initial roll that landed 7 or
+  lower. Each die may only be re-rolled once.
+
+* **Brawler**: In melee, enemies do not gain an Upgrade bonus for outnumbering you. Additionally, you ignore all
+  negative effects of Overcrowding. Your unarmed melee attacks gain a damage bonus equal to half your strength, rounded
+  down.
+
+* **Chain Shot**: You can spend one Gambit to perform an additional ranged attack (a Complex Test), even if the Player
+  Turn would normally end. This action still costs 2 Action Tokens.
+
+* **Closer**: You can spend one Gambit to perform an additional action to persuade, intimidate, or deceive a target,
+  even if the Player Turn would normally end. This action requires a test and costs the appropriate amount of Action
+  Tokens.
+
+* **Controlled Blast**: When you make an Area Attack, you can spend one Gambit to choose any number of creatures in the
+  area of effect. Those creatures are not affected by the attack.
+
+* **Counterstrike**: When you successfully contest a melee attack, you may deal damage to the attacker. The damage is
+  equal to the value of your highest die from your contest roll that was not used to mitigate the attack. You may add
+  your weapon's damage bonus.
+
+* **Double Down**: When you'd spend and roll more than one Gambit dice, those dice become d12s.
+
+* **Ferocious Charge**: You can spend one Gambit when performing a Move action. For your next melee attack this turn,
+  you gain a damage bonus equal to the total number of spaces you were entitled to move (base speed + bonus from success
+  test).
+
+* **Iron Will**: You gain Mental Protection equal to your Willpower.
+
+* **Marksman**: You can treat your target as being one range category closer or further for the purpose of
   determining weapon accuracy.
-* **Tough as Nails**: You gain physical Protection equal to your Endurance.
-* **Unflinching Confidence**: When you successfully contest taking mental damage, you clear a number of mental
-  track segments equal to the highest remaining due you haven't used yet.
+
+* **Natural Leader**: When you take part in a Teamwork Action, every other participant receives 1 Upgrade.
+
+* **Pack Mule**: You are able to carry 6 extra Load.
+
+* **Parkour Master**: You gain the benefits of cover while being in the same space as your attacker, no matter the
+  cover's facing. You are not impeded by difficult terrain.
+
+* **Pep Talk**: When another character short rests, you can roll a Presence + Presence Success Roll to heal one of their
+  Mental Condition Segments for every 2 Success Points you generate. This does not cost an Action Token.
+
+* **Press the Attack**: You can spend one Gambit to perform an additional melee attack (a Complex Test), even if the
+  Player Turn would normally end. This action still costs 2 Action Tokens.
+
+* **Rapid Reload**: You can spend one Gambit to double one of your weapon's rate of fire for the current round.
+
+* **Relentless Pace**: You can spend one Gambit to perform an additional Move action, even if the Player Turn would
+  normally end. This action still costs 1 Action Token.
+
+* **Seasoned Stalker**: When you take an action to hide, remain hidden, or move undetected, if you are alone you can
+  re-roll any one die during your test, and if you are doing it as part of a Teamwork Action, anybody but you taking
+  part in it can re-roll any one die during the test.
+
+* **Sneak Attack**: When you break a blocker effect that prevented you from being detected by attacking a creature, you
+  gain bonus success points equal to half the points spent on the blocker effect, rounded down.
+
+* **Trapper**: When a triggered effect you set triggers without you spending an Action, you gain a d10 Gambit die.
+
+* **Tough as Nails**: You gain Physical Protection equal to your Endurance.
 
 ## Chapter 5: Equipment
 
@@ -994,21 +1046,16 @@ on their perception or attack tests) lasts as long as that is true.
 
 #### Cleansing Effects
 
-
-
 Any active Effect can be removed by a character through a "Cleansing" action. This represents an attempt to actively
 
 undo the condition that Anchors the Effect.
 
-
-
-To attempt to cleanse an Effect, a character must spend **1 Action Token** and describe how they are trying to remove the
+To attempt to cleanse an Effect, a character must spend **1 Action Token** and describe how they are trying to remove
+the
 
 Effect's Anchor. This is a **Success Test**, where the GM determines the most appropriate Attribute for the action. The
 
 Action Token is spent regardless of the outcome.
-
-
 
 To successfully cleanse the Effect, the result of the Success Test must be **equal to or greater than the number of
 
@@ -1227,31 +1274,33 @@ your space.
   Protection bonus from the cover.
 * **Reduced Bonus:** If the line of attack crosses one of the two sides *adjacent* to your chosen facing, the
   Protection bonus is reduced by 1. (A +3 bonus becomes +2, a +2 becomes +1, and a +1 becomes 0).
-*   **No Bonus:** If the line of attack crosses the side *not* adjacent your chosen facing, you gain no benefit from the
-    cover against that attack. You are considered exposed.
+* **No Bonus:** If the line of attack crosses the side *not* adjacent your chosen facing, you gain no benefit from the
+  cover against that attack. You are considered exposed.
 
 ### Area Attacks
 
 Some weapons and abilities allow you to target one or more spaces instead of specific creatures. These are called Area
 Attacks. The rules for the attack will specify a formula, such as `H2{3d8}`.
 
-*   **H** stands for "Highest".
-*   The first number (e.g., `2`) is the number of dice to keep and sum for damage.
-*   The dice expression (e.g., `{3d8}`) is the type and number of dice to roll.
+* **H** stands for "Highest".
+* The first number (e.g., `2`) is the number of dice to keep and sum for damage.
+* The dice expression (e.g., `{3d8}`) is the type and number of dice to roll.
 
 Resolving an Area Attack is a multi-step process:
 
-1.  **Attacker Rolls:** The attacker rolls the specified dice (e.g., `3d8`).
-2.  **Determine Potential Damage:** The attacker identifies the number of highest dice indicated by the formula (e.g., the 2
-    highest) and adds their values together. This total is the potential damage for the attack.
-3.  **Defenders Contest:** Each creature in the targeted spaces can make a standard contest roll.
-4.  **Calculate Final Damage:** For each success (8+) a defender gets on their contest roll, they remove one of the dice
-    from the attacker's potential damage sum, starting with the highest value. The sum of the remaining dice is the final
-    damage that defender takes.
+1. **Attacker Rolls:** The attacker rolls the specified dice (e.g., `3d8`).
+2. **Determine Potential Damage:** The attacker identifies the number of highest dice indicated by the formula (e.g.,
+   the 2
+   highest) and adds their values together. This total is the potential damage for the attack.
+3. **Defenders Contest:** Each creature in the targeted spaces can make a standard contest roll.
+4. **Calculate Final Damage:** For each success (8+) a defender gets on their contest roll, they remove one of the dice
+   from the attacker's potential damage sum, starting with the highest value. The sum of the remaining dice is the final
+   damage that defender takes.
 
 **Example:** An attack is `H2{3d8}` and the attacker rolls `[8, 2, 1]`.
-*   The potential damage is **10** (from adding the two highest dice, `8 + 2`).
-*   **Player 1** is in the area and makes a contest roll, getting one success. This success removes the highest die (the
-    `8`) from the sum. Player 1 takes **2** damage (from the remaining `2`).
-*   **Player 2** is also in the area and gets two successes on their contest roll. These successes remove the two highest
-    dice (`8` and `2`). Player 2 takes **0** damage.
+
+* The potential damage is **10** (from adding the two highest dice, `8 + 2`).
+* **Player 1** is in the area and makes a contest roll, getting one success. This success removes the highest die (the
+  `8`) from the sum. Player 1 takes **2** damage (from the remaining `2`).
+* **Player 2** is also in the area and gets two successes on their contest roll. These successes remove the two highest
+  dice (`8` and `2`). Player 2 takes **0** damage.
