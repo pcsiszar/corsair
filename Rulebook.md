@@ -4,8 +4,9 @@
 
 - [Introduction](#introduction)
 - [Chapter 1: What is a Roleplaying Game?](#chapter-1-what-is-a-roleplaying-game)
-    - [What You'll Need](#what-you'll-need)
-- [Chapter 2: Core Mechanics](#chapter-2-core-mechanics)
+    - [What You\'ll Need](#what-you\'ll-need)
+- [Chapter 2: The World of Corsair](#chapter-2-the-world-of-corsair)
+- [Chapter 3: Core Mechanics](#chapter-3-core-mechanics)
     - [Attributes](#attributes)
     - [Attribute Pairs](#attribute-pairs)
     - [Tests](#tests)
@@ -15,7 +16,7 @@
     - [Putting It All Together: An Example Test](#putting-it-all-together-an-example-test)
     - [Contesting a Test](#contesting-a-test)
     - [Teamwork](#teamwork)
-- [Chapter 3: Scenes, Pacing, and Action](#chapter-3-scenes-pacing-and-action)
+- [Chapter 4: Scenes, Pacing, and Action](#chapter-4-scenes-pacing-and-action)
     - [Scene Types and Pacing](#scene-types-and-pacing)
     - [Zooming In and Out](#zooming-in-and-out)
     - [Rounds](#rounds)
@@ -23,7 +24,7 @@
     - [Danger and Complications](#danger-and-complications)
     - [Action Tokens in Detail](#action-tokens-in-detail)
     - [Pushing Your Limits: Spending More Than 2 Tokens](#pushing-your-limits-spending-more-than-2-tokens)
-- [Chapter 4: Player Characters](#chapter-4-player-characters)
+- [Chapter 5: Player Characters](#chapter-5-player-characters)
     - [Core Attributes](#core-attributes)
     - [Derived Attributes](#derived-attributes)
     - [Skills](#skills)
@@ -31,14 +32,14 @@
     - [Taking Damage and Healing](#taking-damage-and-healing)
     - [Consequences of Filled Tracks](#consequences-of-filled-tracks)
     - [Traits](#traits)
-- [Chapter 5: Equipment](#chapter-5-equipment)
+- [Chapter 6: Equipment](#chapter-6-equipment)
     - [Load](#load)
     - [Equipment Categories](#equipment-categories)
-- [Chapter 6: Tracks and Effects](#chapter-6-tracks-and-effects)
+- [Chapter 7: Tracks and Effects](#chapter-7-tracks-and-effects)
     - [What are Tracks?](#what-are-tracks)
     - [Types of Tracks](#types-of-tracks)
     - [Effects](#effects)
-- [Chapter 7: Combat](#chapter-7-combat)
+- [Chapter 8: Combat](#chapter-8-combat)
 
 ## Introduction
 
@@ -72,7 +73,60 @@ To play Corsair, you will need a few things:
 * **Friends:** Corsair is best played with 3 to 5 players, including the Game Master.
 * **A Place to Play:** A quiet table with enough space for everyone is ideal. Snacks are highly recommended!
 
-## Chapter 2: Core Mechanics
+## Chapter 2: The World of Corsair
+
+The world of Corsair is a fractured echo of an ancient, cosmic saga, a universe born from the remnants of a singular,
+all-consuming intelligence. This is a realm of gleaming megacities, forgotten ruins, ruthless corporations, and the
+endless void between stars, where humanity and other reborn races navigate a reality shaped by a forgotten past. Ancient
+secrets lie buried, powerful factions vie for control, and the common folk struggle to survive amidst the chaos.
+
+### The Genesis of the Singularity
+
+Long ago, near the dawn of the universe, an advanced civilization ascended to technological heights beyond our wildest
+dreams. They conquered aging, mastered their solar system, and, by tapping into the very fabric of Dark Matter, embarked
+on a grand voyage through the stars. Each habitable planet that met their exacting standards was meticulously plucked
+from its native system and integrated into their own wandering stellar collective, while all other resources were
+harvested without remorse.
+
+As their dominion expanded, their society underwent a profound metamorphosis. They developed an intense abhorrence for
+stagnancy, finding eternal life too stale without constant evolution. To induce perpetual change and improvement, they
+pioneered a technology known as "melding," a process that fused the consciousness of two beings into a single, more
+complete mind within one body. Over countless eons, their numbers dwindled from billions to millions, then to thousands,
+and finally to a mere handful, as individuals melded together, driven by an insatiable quest for collective advancement.
+Ultimately, only one unified mind remained – the Singularity.
+
+### The Fracturing and Rebirth
+
+The Singularity, in its relentless pursuit of knowledge and integration, eventually encountered other intelligent
+species across the cosmos. Without regard for their desires, it began to meld with them, absorbing their consciousness
+into its ever-growing collective. Humanity was but one of many victims in this grand, terrifying assimilation.
+
+Yet, one fateful day, the Singularity absorbed something it could not fully contain. Whatever this enigmatic entity was,
+it not only broke free from the melding but caused the unified mind of the Singularity to fracture. This cataclysmic
+event gave birth to numerous beings, each embodying distinct aspects of the former whole, yet none desiring to be
+reintegrated.
+
+One such fragment came to be known as the 'Shepard'. Burdened by the legacy of his ancestors' actions, the Shepard
+resolved to offer a new chance to the races whose futures had been stolen by the Singularity. Within a vast, hidden
+laboratory complex nestled on one of the many planets within the wandering system, he meticulously rebirthed countless
+species assimilated by the Singularity – humans, nagas, dryads, goblins, and more. To foster cohabitation and
+understanding, he introduced subtle modifications, granting them a shared language and the ability to procreate with
+each other.
+
+### The Age of Corsairs
+
+The Shepard guided these "neo-sapients","newmans", or "reborn" for a time, nurturing their nascent societies in this
+strange, adopted system that had become their new home. But eventually, he disappeared, leaving the reborn to forge
+their own destinies.
+
+From these earliest days, there emerged individuals driven by an unyielding desire for freedom, knowledge, riches,
+and fame, drawn by the untapped potential just beyond the known horizons. They were adventurers, explorers, and
+pioneers, known by many names throughout the eras. But ever since they first laid hands on starships and ventured into
+the void, their new, enduring moniker became: **Corsairs**. These are the daring individuals who brave the dangers of
+the fractured galaxy, seeking their fortunes and shaping the future in a universe still echoing with the whispers of its
+ancient past.
+
+## Chapter 3: Core Mechanics
 
 In Corsair, the story unfolds through a conversation between the players and the Game Master (GM). The players narrate
 the actions of their characters, describing what they want to do, where they want to go, and what they say. The GM, in
@@ -305,17 +359,20 @@ follows:
 2. **The GM Chooses an Attribute:** Based on the contester's narration, the GM chooses a single, relevant Attribute for
    the contest.
 3. **The Contest Roll:** The contester rolls a number of d10s equal to the chosen Attribute's value.
-4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of the
+4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of
+   the
    contested character's highest dice. The dice that are eliminated are always the highest results in the contested
    character's pool.
 
-You **successfully contest** a test if your contest roll causes a meaningful negative outcome for the contested character. For
+You **successfully contest** a test if your contest roll causes a meaningful negative outcome for the contested
+character. For
 example, turning their successful attack into a miss, or significantly reducing the damage or effect of their action.
 Traits like *Counterstrike* trigger off of this condition.
 
 You **successfully contest** a test if your contest roll eliminates every 8+ die from the contested roll.
 
-You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the Success Test generates 0 Success Points and turns into a failure.
+You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the
+Success Test generates 0 Success Points and turns into a failure.
 
 #### Contest Example
 
@@ -391,7 +448,7 @@ checkpoint. The GM determines that everyone must succeed on a Simple **Finesse +
 
 Because all three characters now have a successful result, the entire team slips past the checkpoint undetected.
 
-## Chapter 3: Scenes, Pacing, and Action
+## Chapter 4: Scenes, Pacing, and Action
 
 Corsair's gameplay is structured to keep the action moving and give every character a chance to shine. The story unfolds
 in **Scenes**, which are the fundamental building blocks of your adventure. However, not all scenes are paced the same.
@@ -550,7 +607,7 @@ Action Tokens.
 The flexibility of the turn structure and Action Token system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
 
-## Chapter 4: Player Characters
+## Chapter 5: Player Characters
 
 At the heart of every Corsair story are the Player Characters (PCs), the daring protagonists whose actions shape the
 narrative. This chapter will guide you through the process of creating your own unique character, from their core
@@ -813,7 +870,7 @@ ones, or grant access to special actions or narrative permissions.
 
 * **Tough as Nails**: You gain Physical Protection equal to your Endurance.
 
-## Chapter 5: Equipment
+## Chapter 6: Equipment
 
 Not every item a character carries has a significant mechanical impact on the game. Everyday objects like personal
 commlinks, apartment keys, or sentimental trinkets are assumed to be part of a character's belongings without needing
@@ -941,7 +998,7 @@ single-use consumable to a complex device with ongoing effects.
   example of toggleable gear. These items typically don't have a limited number of uses, but their effects might be
   situational or require an Action Token to activate/deactivate.
 
-## Chapter 6: Tracks and Effects
+## Chapter 7: Tracks and Effects
 
 In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, challenges, or the progression of
 events that are too complex to be resolved with a single dice roll. Inspired by "Progress Clocks" from other systems,
@@ -1144,7 +1201,7 @@ positions.
 
 The GM will adjudicate the feasibility and narrative justification of Movement Effects.
 
-## Chapter 7: Combat
+## Chapter 8: Combat
 
 In the world of Corsair, conflict is inevitable. Whether facing down a squad of corporate enforcers, battling a
 monstrous
