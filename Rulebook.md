@@ -4,8 +4,11 @@
 
 - [Introduction](#introduction)
 - [Chapter 1: What is a Roleplaying Game?](#chapter-1-what-is-a-roleplaying-game)
-    - [What You\'ll Need](#what-you\'ll-need)
+    - [What You'll Need](#what-youll-need)
 - [Chapter 2: The World of Corsair](#chapter-2-the-world-of-corsair)
+    - [The Genesis of the Singularity](#the-genesis-of-the-singularity)
+    - [The Fracturing and Rebirth](#the-fracturing-and-rebirth)
+    - [The Age of Corsairs](#the-age-of-corsairs)
 - [Chapter 3: Core Mechanics](#chapter-3-core-mechanics)
     - [Attributes](#attributes)
     - [Attribute Pairs](#attribute-pairs)
@@ -25,6 +28,7 @@
     - [Action Tokens in Detail](#action-tokens-in-detail)
     - [Pushing Your Limits: Spending More Than 2 Tokens](#pushing-your-limits-spending-more-than-2-tokens)
 - [Chapter 5: Player Characters](#chapter-5-player-characters)
+    - [Character Origins](#character-origins)
     - [Core Attributes](#core-attributes)
     - [Derived Attributes](#derived-attributes)
     - [Skills](#skills)
@@ -40,6 +44,10 @@
     - [Types of Tracks](#types-of-tracks)
     - [Effects](#effects)
 - [Chapter 8: Combat](#chapter-8-combat)
+    - [Movement](#movement)
+    - [Space and Occupancy](#space-and-occupancy)
+    - [Cover](#cover)
+    - [Area Attacks](#area-attacks)
 
 ## Introduction
 
@@ -122,9 +130,16 @@ their own destinies.
 From these earliest days, there emerged individuals driven by an unyielding desire for freedom, knowledge, riches,
 and fame, drawn by the untapped potential just beyond the known horizons. They were adventurers, explorers, and
 pioneers, known by many names throughout the eras. But ever since they first laid hands on starships and ventured into
-the void, their new, enduring moniker became: **Corsairs**. These are the daring individuals who brave the dangers of
-the fractured galaxy, seeking their fortunes and shaping the future in a universe still echoing with the whispers of its
-ancient past.
+the void, their new, enduring moniker became: **Corsairs**.
+
+They are the crews of battered starships, a motley collection of smugglers, idealists, and adrenaline
+junkies, united by a shared thirst for something more. A Corsair crew might be hired to punch a hole in a corporate
+black site, delve into the ruins of a pre-Fracturing alien city, or liberate a mining colony from a tyrannical warlord.
+They are the ones who take the jobs no one else will, the ones who fly into the heart of the storm for a chance at
+glory, a fat paycheck, or simply because it's the right thing to do. They are explorers of forgotten worlds, protectors
+of fledgling colonies, and sometimes, just a bunch of misfits trying to keep their ship flying and their bellies full.
+In the sprawling, chaotic galaxy, a Corsair's life is one of constant risk and boundless opportunity, where a single
+contract can change the fate of a world, or get you spaced in the cold void.
 
 ## Chapter 3: Core Mechanics
 
@@ -613,6 +628,171 @@ At the heart of every Corsair story are the Player Characters (PCs), the daring 
 narrative. This chapter will guide you through the process of creating your own unique character, from their core
 abilities to their specialized skills and equipment.
 
+### Character Origins
+
+Before they were Corsairs, every adventurer had a life. They came from all walks of life, and the advanced technology
+that defines their current path was acquired through various, often dramatic, means. At character creation, you will
+choose two aspects of your background: your **Origin**, which describes who you were, and your **Acquisition**, which
+explains how you came to possess the specialized equipment that sets you apart. These choices shape your character's
+story.
+
+#### Your Origin
+
+Choose one of the following Origins for your character.
+
+* **Academic:** You were a researcher, scientist, or scholar, like a doctor or technician. You gain an additional skill
+  level in a skill related to a field of knowledge (e.g., Medicine, Engineering). You also gain 1 Upgrade on social
+  tests with other Academics.
+
+
+* **Artisan:** You were an artist, craftsperson, or entertainer. You gain a skill level in a skill related to crafting,
+  artistry, or performance. You also gain 1 Upgrade on social tests with other Artisans.
+
+
+* **Corporate:** You were a bureaucrat, manager, or agent in a large corporation. You gain a skill level in a skill
+  related
+  to negotiation, bureaucracy, or leadership. You also gain 1 Upgrade on social tests with other Corporate characters.
+
+
+* **Laborer:** You were a miner, factory worker, cargo hauler, or other skilled laborer. You're used to hard work and
+  getting your hands dirty. You gain a skill level in a skill related to manual labor, repair, or operating heavy
+  machinery. You also gain 1 Upgrade on social tests with other Laborers.
+
+
+* **Military:** You were a soldier, a peacekeeper, law enforcement, or part of a corporate security force. You are
+  trained
+  in combat and discipline. You gain a skill level in a skill related to combat, tactics, or discipline. You also gain 1
+  Upgrade on social tests with other Military personnel.
+
+
+* **Nobility:** You were born into a life of privilege, part of a wealthy family or a powerful political dynasty. You
+  are used to getting your way. You gain a skill level in a skill related to social etiquette, diplomacy, or commanding
+  authority. You also gain 1 Upgrade on social tests with other Nobility.
+
+
+* **Underworld:** You have a criminal past. You might have been a thief, a smuggler, a gangster, or a con artist. You
+  gain a skill level in a skill related to crime, smuggling, or navigating the black market. You also gain 1 Upgrade on
+  social tests with other members of the Underworld.
+
+
+* **Fringe:** You grew up on the fringes of civilized space, in a remote colony, a nomadic fleet, or a forgotten
+  outpost. You are a survivor. You gain a skill level in a skill related to survival, scavenging, or navigating
+  hazardous environments. You also gain 1 Upgrade on social tests with other Fringe dwellers.
+
+
+* **Clandestine:** You worked in the shadows for a government agency, a corporation, or a secret society. You are a spy,
+  an assassin, or an intelligence analyst. You gain a skill level in a skill related to stealth, deception, or
+  espionage. You also gain 1 Upgrade on social tests with other Clandestine operatives.
+
+#### Your Acquisition
+
+Choose how you acquired the piece of high-tech equipment that defines your class.
+
+* **Bought and Paid For:** You purchased your gear, legally or on the black market. It's yours, no strings attached.
+* **Bound by Oath:** Your equipment was entrusted to you as part of a solemn duty or a sacred vow. It might be a family
+  heirloom or a symbol of office.
+* **Built from Scratch:** You designed and constructed your equipment yourself. It's a reflection of your own genius and
+  hard work.
+* **Gifted for Free:** The equipment was given to you, no strings attached. It could have been a gift from a mentor, a
+  reward for a past heroic deed, or perhaps you just have a face that people trust.
+* **Lost and Found:** You discovered your equipment by chance—in a derelict ship, a forgotten ruin, or a dusty old
+  crate.
+* **Stolen or Borrowed:** You "liberated" your equipment from its previous owner. Whether they deserved it or not is up
+  to you.
+
+### Classes
+
+This section will detail the various classes available to players.
+
+### Class: The Exodrone Pilot
+
+The Exodrone Pilot is defined by their unique bond with a sophisticated piece of equipment: the Exodrone. This advanced
+exoskeleton can be worn as a powerful suit of armor or deployed as an independent robotic companion, offering
+unparalleled tactical flexibility. This connection is made possible by a **Neural Implant**, a piece of cyberware that
+allows the pilot to control the Exodrone with the speed of thought.
+
+#### Physical Characteristics
+
+The Exodrone is built on a humanoid chassis, matching the size, shape, and limb structure of a typical humanoid. It can
+interact with its environment and use most standard equipment as a person would.
+
+#### The Exodrone's Attributes
+
+The Exodrone possesses its own set of physical attributes that mirror your own:
+
+* **Power:** Corresponds to Strength.
+* **Speed:** Corresponds to Agility.
+* **Precision:** Corresponds to Finesse.
+
+At character creation, you can distribute 5 points among your Exodrone's Power, Speed, and Precision attributes. The
+maximum value for any single attribute at creation is 4. You can leave an Attribute at 0, but that means the Exodrone is
+incapable of doing tests requiring that Attribute and fails automatically.
+
+#### Exodrone Progression
+
+The Exodrone can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the Exodrone's
+capabilities.
+
+| Level | Benefit                                         | Credit Cost |
+|:------|:------------------------------------------------|:------------|
+| 1     | +2 Attribute Points                             | 10,000      |
+| 2     | +1 Action Token (Total: 3)                      | 20,000      |
+| 3     | Max Attribute Cap becomes 5, +1 Attribute Point | 40,000      |
+| 4     | +2 Attribute Points                             | 70,000      |
+| 5     | +1 Action Token (Total: 4)                      | 110,000     |
+
+#### Exodrone's Condition and Repair
+
+The Exodrone has its own set of three Physical Condition Tracks to represent its structural integrity. It can only take
+  damage while in Detached Mode.
+
+* **Durability:** The Exodrone has a derived attribute called **Durability**, which is equal to its second-highest
+  attribute.
+* **Physical Tracks:** The size of each of the three Physical Tracks is **4 + Durability**.
+* **Disabled:** When all three of the Exodrone's Physical tracks are filled with damage, it becomes **Disabled**. It
+  cannot act until at least one segment of damage is cleared.
+* **Destroyed:** If all segments of its three Physical tracks are filled with aggravated damage, the Exodrone is
+  **Destroyed** and cannot be repaired.
+
+**Repairing the Exodrone:**
+The Exodrone does not heal. It must be repaired out of combat. This requires a **Success Test** using an appropriate
+skill (like Engineering or Mechanics). Each Success Point clears one segment of standard damage. Repairing locked
+(Aggravated) segments costs 2 Success Points per segment and may require specialized tools or a workshop.
+
+#### Modes of Operation
+
+The Exodrone has two distinct modes: Attached and Detached.
+
+* **Attached Mode:** When wearing the Exodrone, you can push your physical capabilities beyond their normal limits.
+
+When you make a test involving Strength, Agility, or Finesse, you may choose to substitute your own attribute with the
+
+Exodrone's corresponding attribute (Power, Speed, or Precision). Your own movement rules and speed are used while in
+  Attached Mode. Any damage you take is applied to your own Condition Tracks; the Exodrone is not damaged while
+  attached.
+
+* **Detached Mode:** You can detach the Exodrone as a free action, at which point it becomes an independent unit that
+
+acts on your turn.
+
+    *   **Actions & Movement:** While detached, the Exodrone starts with 2 Action Tokens each round. You can also spend
+
+
+
+      your own Action Tokens to command it. Its movement follows the standard rules: 12 meters (3 spaces) for 1 Action
+
+
+
+      Token, plus additional distance from a Success Test (typically using its Speed attribute).
+
+
+
+    *   **Range & Duration:** The neural connection has a maximum range of 100 meters. If the Exodrone moves beyond this,
+
+
+
+      it becomes inert until you are back in range. There is no time limit for its operation while detached.
+
 ### Core Attributes
 
 Every character in Corsair is defined by six Core Attributes, which represent their fundamental physical and mental
@@ -835,6 +1015,10 @@ ones, or grant access to special actions or narrative permissions.
 * **Ferocious Charge**: You can spend one Gambit when performing a Move action. For your next melee attack this turn,
   you gain a damage bonus equal to the total number of spaces you were entitled to move (base speed + bonus from success
   test).
+
+* **Interceptor**: When you successfully contest a creature's movement, you may deal damage to that creature. The damage
+  is equal to the value of your highest die from your contest roll that was not used to eliminate one of the moving
+  creature's dice. You may add your weapon's damage bonus.
 
 * **Iron Will**: You gain Mental Protection equal to your Willpower.
 
@@ -1243,6 +1427,49 @@ Points on movement, the potential distances can be significant.
   Success Tests, they can cover up to **48 meters (12 spaces)**.
 * **Maximum Movement in a Round:** If a character spends all 4 of their Action Tokens on movement and achieves a maximum
   roll of 12 on all four Success Tests, they could theoretically cover **96 meters (24 spaces)** in a single round.
+
+#### Contesting Movement
+
+Movement is not always unopposed. A character can attempt to block or trip a creature moving through a space they
+occupy. This is resolved by contesting the moving creature's movement Success Test.
+
+When a creature's movement path takes them through a space occupied by a hostile character, that character can choose to
+contest the movement. The contest follows the standard rules for Contesting a Test:
+
+1. **The Contester Narrates:** The contesting character describes how they are impeding the movement (e.g., tripping
+   them, grabbing them, blocking their path).
+2. **The GM Chooses an Attribute:** The GM selects a relevant Attribute for the contest, such as **Strength** to grab or
+   **Agility** to trip.
+3. **The Contest Roll:** The contester rolls a number of d10s equal to their chosen Attribute.
+4. **Eliminating Dice:** For each success (8+) on the contest roll, the contester eliminates one of the highest dice
+   from the moving creature's movement Success Test roll.
+
+If the contest roll eliminates all of the moving creature's dice that are 8 or higher, the movement is successfully
+impeded. The moving creature's movement immediately ends, and they stop in the space where the contest occurred. If the
+moving creature still has at least one die of 8 or higher, their movement continues, but the distance they can travel
+might be reduced due to the eliminated dice.
+
+##### Contesting Movement Example
+
+**The Scenario:** Jax is attempting to run past a burly corporate enforcer to reach a control panel. Jax's player spends
+1 Action Token for a move action and makes an **Agility** Success Test to determine the total distance. Jax has an
+Agility of 4 and rolls `[9, 7, 5, 2]`. The highest die is a 9, so he can move his base 3 spaces + 2 extra spaces (from
+the 9, which is 8m, so 2 spaces), for a total of 5 spaces.
+
+The enforcer is standing in a space along Jax's path. As Jax enters the enforcer's space, the GM declares the enforcer
+will contest the movement.
+
+**1. The Contest Roll:** The enforcer has a **Strength** of 5. The GM narrates that the enforcer is attempting to grab
+Jax as he runs by. The enforcer rolls 5d10 for the contest.
+
+**2. The Result:** The enforcer's roll is `[10, 8, 6, 4, 1]`. Two successes (10 and 8).
+
+**3. Eliminating Dice:** The two successes eliminate the two highest dice from Jax's movement roll. Jax's roll was
+`[9, 7, 5, 2]`. The 9 and 7 are eliminated.
+
+**4. Final Outcome:** Jax's movement roll is now `[5, 2]`. The highest die is a 5. Since there are no dice with a result
+of 8 or higher, the contest is successful. Jax's movement ends immediately in the enforcer's space. He is stopped in his
+tracks, unable to reach the control panel this turn.
 
 #### Difficult Terrain
 
