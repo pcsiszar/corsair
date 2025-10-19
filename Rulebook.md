@@ -768,7 +768,7 @@ attached.
 #### Exodrone Modules
 
 As your Exodrone progresses, you can install specialized modules to enhance its capabilities. At levels 1, 3, and 5, you
-may choose one of the following modules. Each module can only be chosen once.
+may choose one of the following modules. Each module can only be chosen once, except for the Weapon Mount Module.
 
 * **Armor Module:** The Exodrone is reinforced with additional armor plating.
     * **Passive:** The Exodrone's Durability is increased by 2. This also increases its natural Protection and the size
@@ -793,21 +793,46 @@ may choose one of the following modules. Each module can only be chosen once.
     * **Detached Mode:** The Exodrone can use the jetpack as many times as it wishes per round. It can also hover.
 
 * **Shield Module:** The Exodrone is equipped with a deployable shield.
-    * **Attached Mode:** The wearer gains 1 free Contest against any targeted or Area Attack, using the Exodrone's
-      Durability attribute for the contest roll.
-    * **Detached Mode:** The Exodrone can deploy the shield, turning itself into Heavy Cover for the space it occupies.
-      The rules for cover destruction apply to the deployed shield, with its health being equal to the Exodrone's
-      Durability. While the shield is deployed, the Exodrone's Protection becomes 2x its Durability. The +3 Protection
-      benefit from the heavy cover does not decrease as the Exodrone's health drops.
 
-* **Weapon Mount Module:** A weapon mount is installed on the Exodrone's shoulder.
-    * The mount can hold one ranged weapon with a Load of 4 or less. The weapon must be installed or removed out of
-      combat.
-    * **Attached Mode:** While wearing the Exodrone, you can fire the mounted weapon as if you were holding it.
-      Additionally, you can fire it together with any other regular ranged attack, using the worse Accuracy out of the
-      two weapons, but adding the Damage Bonus of both weapons to the attack if it lands. Additionally, you can re-roll
-      any one dice during the test you make to fire these weapons.
-    * **Detached Mode:** The Exodrone can fire the mounted weapon, along with any other weapon it is currently holding.
+    * **Attached Mode:** The wearer gains 1 free Contest against any targeted or Area Attack, using the Exodrone's
+
+  Durability attribute for the contest roll.
+
+    * **Detached Mode:** The Exodrone can deploy the shield, turning itself into Heavy Cover for the space it occupies.
+
+  The rules for cover destruction apply to the deployed shield, with its health being equal to the Exodrone's
+
+  Durability. While the shield is deployed, the Exodrone's Protection becomes 2x its Durability. The +3 Protection
+
+  benefit from the heavy cover does not decrease as the Exodrone's health drops.
+
+
+* **Scanner Module:** The Exodrone is equipped with advanced multi-spectrum sensors and analytical software.
+
+    *   **Passive:** The Exodrone gains a **Scanners** Attribute equal to its Precision. This attribute can be used for Instinct-based tests related to detection, analysis, or information gathering.
+
+
+
+    *   **Attached Mode:** While wearing the Exodrone, you can use its Scanners Attribute in place of your own Instinct for relevant tests (e.g., searching for hidden compartments, analyzing a data chip). You also gain 1 Upgrade on all perception-based tests.
+
+
+
+    *   **Detached Mode:** The Exodrone can perform independent Instinct-based tests.
+
+
+
+    *   **Target Analysis (Attached or Detached):** As a free action, the Exodrone can perform a **Target Analysis** on a 2-meter radius space (its own or an adjacent one). All attacks made against creatures within the targeted space gain 1 Upgrade. This Upgrade lasts until Target Analysis is used again or the Exodrone is disabled.
+
+* **Weapon Mount Module:** This module can be chosen multiple times. A weapon mount is installed on the Exodrone's
+
+shoulder.
+* The mount can hold one ranged weapon with a Load of 4 or less. The weapon must be installed or removed out of
+combat.
+* **Attached Mode:** While wearing the Exodrone, you can fire the mounted weapon as if you were holding it.
+Additionally, you can fire it together with any other regular ranged attack, using the worse Accuracy out of the
+two weapons, but adding the Damage Bonus of both weapons to the attack if it lands. Additionally, you can re-roll
+any one dice during the test you make to fire these weapons.
+* **Detached Mode:** The Exodrone can fire the mounted weapon, along with any other weapon it is currently holding.
 
 * **Trauma Module:** The Exodrone is equipped with a Medigel dispenser that can be used to heal the wearer or an ally.
     * **Attached Mode:** As a free action, the wearer can be healed for 1H2d8 damage. This has a number of uses equal to
