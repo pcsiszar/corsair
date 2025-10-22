@@ -889,45 +889,31 @@ The Nanite Weaver's unique abilities are governed by three specialized attribute
 At the heart of every Nanite Weaver's power is their **Nanite Core**, a sophisticated central hub that controls and
 programs their nanite swarm. Typically a small, intricate device often integrated into the Weaver's cyberware or worn as
 a prominent piece of tech, the Nanite Core pulses with faint energy, a testament to the microscopic army it commands.
-The Nanite Core can load various **Codexes**, which are specialized programming protocols that enable the nanites to
-coalesce into specific forms and exhibit unique properties. With a thought, the Weaver can direct their nanites to
-construct almost any object they desire, limited only by the loaded Codexes and the Weaver's own attributes.
+With a thought, the Weaver can direct their nanites to construct basic, attribute-less objects.
 
 The Nanite Core also manages the Weaver's **Reserve**, which represents the total mass of nanites available for active
 use. You start with a Reserve of 2. Using Nanite powers to create objects or manifest effects consumes Reserve. Once
 Reserve is spent, it remains consumed until the created nanite construct is dissolved, at which point the nanites return
-to the core and replenish the Reserve. Most Nanite powers cost 1 Reserve, though some Codexes allow for greater
-expenditure for enhanced effects. For example, conjuring a sword with the Codex of Blades costs 1 Reserve, and conjuring
-a second one would cost another, leaving no Reserve for other creations. However, the Codex of Strands might allow you
-to spend 2 Reserves to double the length of the rope or wire you create.
+to the core and replenish the Reserve. Reserve is always spent in integer amounts.
 
-At character creation, a Nanite Weaver starts with their Nanite Core and chooses two Codexes. Additional Codexes
-can be acquired through character progression or in-game discoveries.
+Codexes are specialized programming protocols that enable the nanites to coalesce into specific forms that possess
+Attributes, such as weapons or specialized tools. At character creation, a Nanite Weaver starts with their Nanite Core
+and chooses two Codexes. Additional Codexes can be acquired through character progression or in-game discoveries.
 
-* **Codex of Bullets:** Allows the creation of bullets and projectiles that can fit into any ranged weapon. These
-  nanite-formed projectiles are instantly created and loaded into compatible weapons.
+##### Basic Creations
 
-* **Codex of Blades:** Allows the creation of any melee weapon. The nanites can form sharp edges, bludgeoning surfaces,
-  or flexible whips, adapting to the Manipulator's needs.
+All Nanite Weavers can create basic, attribute-less shapes and objects. The dimensions of these creations are limited by
+the amount of Reserve spent.
 
-* **Codex of Strands:** Allows the creation of wires, ropes, and threads. These can be used for climbing, binding,
-  creating tripwires, or intricate weaving.
-
-* **Codex of Garments:** Allows the creation of any wearable clothing, including armor. Nanites can form protective
-  layers, environmental suits, or even mimic fashionable attire.
-
-* **Codex of Swarms:** Allows the creation of numerous tiny objects such as feathers, butterflies, tiny fish, etc., that
-  swarm around the wielder. These swarms can be used for distraction, minor environmental effects, or to obscure vision.
-
-* **Codex of Barriers:** Allows for the construction of walls and barriers at most 2 meters tall and 2 meters wide.
-  These nanite barriers can provide cover or block pathways.
-
-* **Codex of Tools:** Allows for the construction of various non-weapon implements that can fit in hand, like a
-  screwdriver, a hammer, or a lockpick. These tools are perfectly formed for the task at hand.
-
-* **Codex of Circuits:** Allows the nanites to infiltrate and control the behavior of electric circuits, such as the
-  ones governing automatic doors, cameras, drones, computers, and the likes. This grants the Manipulator a significant
-  advantage in electronic warfare and infiltration.
+* **1-Dimensional Objects (e.g., ropes, wires, rods):** For every 1 Reserve spent, you can create an object up to 8
+  meters in length.
+    * *Example:* A 24-meter rope would cost 3 Reserve.
+* **2-Dimensional Objects (e.g., sheets, panels, membranes):** For every 1 Reserve spent, you can create an object with
+  an area of up to 4 square meters (e.g., a 2m x 2m sheet).
+    * *Example:* A 2m x 4m sheet (8 square meters) would cost 2 Reserve.
+* **3-Dimensional Objects (e.g., cubes, spheres, simple structures):** For every 1 Reserve spent, you can create an
+  object with a volume of up to 1 cubic meters (e.g., a 1m x 1m x 1m block).
+    * *Example:* A 2m x 1m x 1m cube (8 cubic meters) would cost 2 Reserve.
 
 #### Nanite Progression
 
