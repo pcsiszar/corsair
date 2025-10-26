@@ -870,72 +870,72 @@ skill (like Engineering or Mechanics). Each Success Point clears one segment of 
 
 ### Class: The Nanite Weaver
 
-The Nanite Weaver is a master of microscopic machines, capable of commanding swarms of nanites to achieve a myriad of
-effects. Their abilities are limited only by their imagination and the programming loaded into their Nanite Core.
+A master of microscopic machines, the Nanite Weaver commands swarms of nanites to create, control, and modify objects.
+Their power is limited only by their imagination and their nanite **Reserve**.
 
-#### Nanite Attributes
+Most of a Weaver's nanites are stored as inert, wearable clothing (coats, scarves, etc.), allowing for vast,
+unencumbered storage. The excess is held in back-worn canisters as a silvery, liquid-like suspension. When activated,
+nanites are vented as a shimmering mist accompanied by a high-frequency chime, coalescing into glowing constructs with a
+faint hum and a shifting, geometric surface pattern.
 
-The Nanite Weaver's unique abilities are governed by three specialized attributes:
+#### Nanite Attributes & Abilities
 
-* **Hardening:** This attribute measures the durability and resilience of the nanites. A higher Hardening score means
-  nanite constructs are tougher, more resistant to damage, and can maintain their form under stress.
-* **Control:** This attribute reflects the Weaver's precision and responsiveness in directing their nanite swarm. High
-  Control allows for intricate shaping, rapid transformations, and fine manipulation of nanite constructs.
-* **Juice:** This attribute represents the raw power and efficacy of the special properties imbued into the nanites by
-  the Nanite Core. A higher Juice score means nanite-based special powers manifest with greater strength and impact.
+A Weaver's power is defined by three attributes:
 
-#### The Nanite Core and Codexes
+* **Create:** Assemble matter from the Weaver's Reserve to create new objects.
 
-At the heart of every Nanite Weaver's power is their **Nanite Core**, a sophisticated central hub that controls and
-programs their nanite swarm. Typically a small, intricate device often integrated into the Weaver's cyberware or worn as
-a prominent piece of tech, the Nanite Core pulses with faint energy, a testament to the microscopic army it commands.
-With a thought, the Weaver can direct their nanites to construct basic, attribute-less objects.
+* **Control:** Direct the nanite swarm with precision for intricate shaping and manipulation.
 
-The Nanite Core also manages the Weaver's **Reserve**, which represents the total mass of nanites available for active
-use. You start with a Reserve of 2. Using Nanite powers to create objects or manifest effects consumes Reserve. Once
-Reserve is spent, it remains consumed until the created nanite construct is dissolved, at which point the nanites return
-to the core and replenish the Reserve. Reserve is always spent in integer amounts.
+* **Modify:** Alter existing objects.
 
-Codexes are specialized programming protocols that enable the nanites to coalesce into specific forms that possess
-Attributes, such as weapons or specialized tools. At character creation, a Nanite Weaver starts with their Nanite Core
-and chooses two Codexes. Additional Codexes can be acquired through character progression or in-game discoveries.
+When you make use of your nanites, you will roll with one or more of these attributes if a test is required. By default
+you are only allowed to create, control and modify objects that do not have statistics associated with them. This means
+weapons, armor, cover, healing equipment is off the table unless you unlock that ability by specializing with a
+Nanite Codex. Codexes allow you to work your magic on a specific category of items, each codex describing the mechanics
+of turning rolls with the Attributes into statistics of the given equipment.
 
-##### Basic Creations
+To use your nanites during a test you must describe what the nanites create or modify for you, or how controlling the
+nanites in your creation helps you in achieving your goal. For a locked door, use Create + Strength to create a crowbar
+to try and force it open or Create + Finesse to create a lockpick, or Create + Control to try and create a key then
+alter it slightly to fit the keyhole, or Modify + Control to alter an
+existing key or make the lock fit that key instead.
 
-All Nanite Weavers can create basic, attribute-less shapes and objects. The dimensions of these creations are limited by
-the amount of Reserve spent.
+**Rules of Nanite Usage**
 
-* **1-Dimensional Objects (e.g., ropes, wires, rods):** For every 1 Reserve spent, you can create an object up to 8
-  meters in length.
-    * *Example:* A 24-meter rope would cost 3 Reserve.
-* **2-Dimensional Objects (e.g., sheets, panels, membranes):** For every 1 Reserve spent, you can create an object with
-  an area of up to 4 square meters (e.g., a 2m x 2m sheet).
-    * *Example:* A 2m x 4m sheet (8 square meters) would cost 2 Reserve.
-* **3-Dimensional Objects (e.g., cubes, spheres, simple structures):** For every 1 Reserve spent, you can create an
-  object with a volume of up to 1 cubic meters (e.g., a 1m x 1m x 1m block).
-    * *Example:* A 2m x 1m x 1m cube (8 cubic meters) would cost 2 Reserve.
+Each Weaver has a set amount of Reserve stored away that increases with the Level of the class. All usage of your nanite
+abilities requires at least 1 Reserve. A single point of Reserve is about 1 liter worth of nanites stowed away in a
+cansiter or hovering around the user. The density of the material the nanites can make varies, stretched to its limits,
+1 Reserve can make a 24 meter rope, or a 1 square meter surface, or a soccer ball sized sphere, but you can find
+references of what you can make with what amount of reserve.
+
+You can only use your nanite powers to create, control or modify in the space you occupy.
+
+You can command a nanite creation or modification to disassemble and return to you at any time for free, at which point
+you regain the reserve spent on it.
+
+**1 Reserve** : Handheld tools, a helmet, a shield, a sword, a pistol, a blanket, a pair of handcuffs, a coat, a 24m
+rope. Generally Equipment in the 1-2 Load Range.
+**2 Reserve**: A rifle, a ladder, a chair, a full set of clothes, a 48 meter rope, a small 1m x 1m wall with a few
+centimeter thickness, a blanket.
+Generally Equipment in the 3-4 Load range.
+**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit.
+
+Standard creations also aren't allowed to alter the Terrain, meaning they can't make Cover, or turn a Space into
+Difficult Terrain.
 
 #### Nanite Progression
 
-The Nanite Weaver's connection to their nanites deepens with experience, allowing for greater control and more complex
-manifestations.
+At character creation, distribute 5 points among Create, Control, and Modify (max 4). The Nanite swarm's container can
+be upgraded by spending Credits.
 
-At character creation, you can distribute 5 points among your Nanite's Hardening, Control, and Juice attributes. The
-maximum value for any single attribute at creation is 4. You can leave an Attribute at 0, but that means the nanites are
-incapable of doing tests requiring that Attribute and fail automatically.
-
-The Nanite Core can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the Nanite
-
-Weaver's capabilities.
-
-| Level | Benefit                                                    | Credit Cost |
-|:------|:-----------------------------------------------------------|:------------|
-| 1     | 5 Attribute Points, Max Attribute Cap: 4, 2 Codex Slots    | 50,000*     |
-| 2     | +1 Attribute Point, +1 Reserve, +1 Codex                   | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5 , +1 Codex | 20,000      |
-| 4     | +1 Attribute Point, +1 Codex Slot, +1 Codex                | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6, +1 Codex  | 70,000      |
-| 6     | +1 Attribute Point, +1 Reserve, +1 Codex                   | 110,000     |
+| Level | Benefit                                         | Credit Cost |
+|-------|-------------------------------------------------|-------------|
+| 1     | 5 Attribute Points, Max Attribute Cap: 4        | 50,000*     |
+| 2     | +1 Attribute Point, +1 Reserve                  | 10,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5 | 20,000      |
+| 4     | +1 Attribute Point                              | 40,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap becomes 6 | 70,000      |
+| 6     | +1 Attribute Point, +1 Reserve                  | 110,000     |
 
 * This cost is only applicable if the Nanite Weaver class was not gained with your starting class.
 
