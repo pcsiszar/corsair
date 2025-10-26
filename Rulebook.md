@@ -910,6 +910,8 @@ references of what you can make with what amount of reserve.
 
 You can only use your nanite powers to create, control or modify in the space you occupy.
 
+Everything you create has a Load of 0 and every modification you make to equipment preserves their original Load.
+
 You can command a nanite creation or modification to disassemble and return to you at any time for free, at which point
 you regain the reserve spent on it.
 
@@ -918,10 +920,224 @@ rope. Generally Equipment in the 1-2 Load Range.
 **2 Reserve**: A rifle, a ladder, a chair, a full set of clothes, a 48 meter rope, a small 1m x 1m wall with a few
 centimeter thickness, a blanket.
 Generally Equipment in the 3-4 Load range.
-**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit.
+**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit, equipment in the 5-6 Load range.
 
 Standard creations also aren't allowed to alter the Terrain, meaning they can't make Cover, or turn a Space into
 Difficult Terrain.
+
+#### Nanite Codexes
+
+Nanite Codexes are specialized rule sets that allow a Nanite Weaver to create, control, and modify items that possess
+game-mechanical statistics. By default, a Nanite Weaver can only affect items without statistics (like a rope or a
+simple crowbar). With a Codex, you unlock the ability to directly influence equipment like weapons, armor, or
+specialized tools.
+
+Each Codex focuses on a specific category of items and provides a structured way to translate the Nanite Weaver's
+actions (Create, Control, or Modify attributes) into tangible, stat-altering effects based on the Success Points
+generated from a Nanite Weaver test.
+
+All nanite-created equipment have 0 Load.
+
+##### Melee Codex
+
+This Codex allows a Nanite Weaver to manipulate melee weapons, enabling the creation of new weapons or the enhancement
+of existing ones. Nanite-crafted melee weapons typically manifest as sharp-edged, robust tools made from hardened nanite
+constructs.
+
+**Create Weapon:**
+
+You spend 1 Reserve and an Action Token to create a melee weapon with customized reach and damage bonus. You roll a
+Success Roll using Create + Create and spend the Success Points to buy either Damage Bonus or Reach.
+
+| Attribute             | Cost per Rank (Success Points) |
+|:----------------------|:-------------------------------|
+| **Damage Bonus (+1)** | 3 SP                           |
+| **Reach (+1)**        | 2 SP                           |
+
+**Modify Weapon:**
+
+You spend 1 Reserve and an Action Token to alter a melee weapon with customized reach and damage bonus. You roll a
+Success Roll using Modify + Modify and spend the Success Points to buy either Damage Bonus or Reach.
+
+| Attribute             | Cost per Rank (Success Points) |
+|:----------------------|:-------------------------------|
+| **Damage Bonus (+1)** | 6 SP                           |
+| **Reach (+1)**        | 4 SP                           |
+
+**Control Weapon:**
+
+You can replace a Finesse Attribute in a test you take using your melee weapon that your nanites created or modified
+with your Control Attribute.
+
+##### Firearm Codex
+
+This Codex allows a Nanite Weaver to manipulate firearms, enabling the creation of new ranged weapons or the enhancement
+of existing ones. Nanite-crafted firearms can take any shape or form but most model theirs to closely resemble their
+real life variants.
+
+**Create Weapon:**
+
+You spend 1 Reserve and an Action Token to create a customized ranged weapon. You roll a
+Success Roll using Create + Create and spend the Success Points to Attributes. When creating a
+weapon it must have at least 1 Rate of Fire, and 1 Accuracy at any range.
+
+| Attribute                   | Cost per Rank (Success Points)      |
+|:----------------------------|:------------------------------------|
+| **Damage Bonus +1**         | 2 SP                                |
+| **Rate of Fire +1**         | 1 SP                                |
+| **Accuracy +1 (any range)** | 1 SP up to 4, 2 SP for 5 and beyond |
+
+**Modify Weapon:**
+
+You spend 1 Reserve and an Action Token to alter a ranged weapon. You roll a
+Success Roll using Modify + Modify and spend the Success Points to Attributes.
+
+| Attribute                   | Cost per Rank (Success Points)      |
+|:----------------------------|:------------------------------------|
+| **Damage Bonus +1**         | 6 SP                                |
+| **Rate of Fire +1**         | 3 SP                                |
+| **Accuracy +1 (any range)** | 3 SP up to 4, 5 SP for 5 and beyond |
+
+**Control Weapon:**
+
+You can replace a Finesse Attribute in a test you take using a ranged weapon that your nanites created or modified with
+your Control Attribute.
+
+##### Armor Codex
+
+This Codex allows a Nanite Weaver to create and alter suits of armor.
+
+**Create Armor:**
+
+You spend 2 Reserve and an Action Token to create a customized armor set. You roll a
+Success Roll using Create + Create and spend the Success Points to Attributes.
+
+| Attribute         | Cost per Rank (Success Points) |
+|:------------------|:-------------------------------|
+| **Protection +1** | 2 SP                           |
+
+**Modify Armor:**
+
+You spend 1 Reserve and an Action Token to alter a ranged weapon. You roll a
+Success Roll using Modify + Modify and spend the Success Points to Attributes.
+
+| Attribute               | Cost per Rank (Success Points) |
+|:------------------------|:-------------------------------|
+| **Protection Bonus +1** | 4 SP                           |
+
+**Control Armor:**
+
+You can contest an attack that targets you by deploying the nanites as reactive armor using your Control Attribute as
+long as you have 1 free Reserve.
+
+##### Circuit Codex
+
+This Codex allows a Nanite Weaver to create or hack eletrical circuits.
+
+**Create Circuit:**
+
+You spend 1 Reserve and an Action Token to create a customized miniature electric device. You can spend Success points
+to add Attributes to it that denote its capabilities, and you can also make it follow simple instructions.
+
+| Attribute          | Cost per Rank (Success Points) | Description                                                        |
+|:-------------------|:-------------------------------|:-------------------------------------------------------------------|
+| **Camera +1**      | 2 SP                           | Used for tests involving visual perception                         |
+| **Microphone +1**  | 2 SP                           | Used for tests involving audio perception                          |
+| **Camo +1**        | 2 SP                           | Used for stealth movement                                          |
+| **Interfacing +1** | 2 SP                           | Used for tests to interact with digital devices                    |
+| **Motorics +1**    | 2 SP                           | Used for tests to interact with mechanical devices ground movement |
+| **Propeller +1**   | 2 SP                           | Used for aquatic movement                                          |
+| **Rotors +1**      | 4 SP                           | Used for flying movement                                           |
+
+**Modify**
+
+You spend 1 Reserve and an Action Token to alter a circuit. While complex digital software (like shop kiosks and other
+payment systems) is beyond what you can manage, you can alter the behaviour of simple electronics, like doors, cameras,
+sensors and other devices.
+
+| Attribute       | Cost per Rank (Success Points) | Description                                                   |
+|:----------------|:-------------------------------|:--------------------------------------------------------------|
+| **Override +1** | 2 SP                           | Perform intended functions, but at your command               |
+| **Glitch +1**   | 2 SP                           | Perform unintended actions that do not damage the device      |
+| **Meltdown +1** | 2 SP                           | Perform actions that self-sabotage and cause permanent damage |
+
+**Control Circuit:**
+
+You can use Control in place of one of the Attributes bestowed on the circuits you created or modified when performing
+tests with them.
+
+##### Healing Codex
+
+This Codex allows a Nanite Weaver to create and healing nanites the repair damaged tissue.
+
+**Create Healing:**
+
+You spend 1 Reserve and an Action Token to create and inject healing nanites. The nanites need time to work and must
+remain in the target's system until they finish their job. Healing with the nanites is a triggered effect that triggers
+at the end of the round at which point they clear Physical Condition Track segments for every 2 Success Points generated
+by a Create + Create Success Test.
+
+When used in place to place or day to day pacing, segments can be cleared for only 1 Success Point.
+
+**Modify Healing:**
+
+You spend 1 Reserve and an Action Token to enhance the healing properties of an equipment or a consumable. The next use
+of the modified healing gear or item restores additional segments for every 2 Success Points generated by a Modify +
+Modify Success Test.
+
+**Control Healing:**
+
+When performing a medical procedure, you can substitute Control for one Attribute in the associated test as long as you
+have 1 free Reserve.
+
+##### Binding Codex
+
+This Codex allows a Nanite Weaver to bond the objects created by the nanites to other objects.
+
+**Create Binding:**
+
+Your creations can now stick to any surface strongly enough to the full weight of a person. You can create surfaces on
+your palm and legs to allow you to stick to walls like a spider or seal a door shut, or attach something to a projectile
+you throw or shoot, and make it stick to whatever it hits. This also enables many blocker effects that hinder enemies.
+
+When the strength of the bond is a factor in the Create Attribute should be incorporated into the test that is rolled.
+
+**Modify Binding:**
+
+You can use your nanites as to precisely dissolve matter with pinpoint accuracy. This effectively allows you to carve
+openings on thin barriers like windows, or etch patterns into more dense matter. The nanites can also repair the damage
+caused if you so wish. The size and dimensions of the shapes you can carve out map one-to-one to the dimensional limits
+of standard nanite constructs. The work requires the material to be still, meaning you cannot use this against unwilling
+creatures directly, although it is possible to disrupt their footing this way.
+
+**Control Binding:**
+
+When performing a medical procedure, you can substitute Control for one Attribute in the associated test as long as you
+have 1 free Reserve.
+
+##### Binding Codex
+
+This Codex allows a Nanite Weaver to create or modify .
+
+**Create Healing:**
+
+You spend 1 Reserve and an Action Token to create and inject healing nanites. The nanites need time to work and must
+remain in the target's system until they finish their job. Healing with the nanites is a triggered effect that triggers
+at the end of the round at which point they clear Physical Condition Track segments for every 2 Success Points generated
+by a Create + Create Success Test.
+
+When used in place to place or day to day pacing, segments can be cleared for only 1 Success Point.
+
+**Modify Healing:**
+
+You spend 1 Reserve and an Action Token to enhance the healing properties of an equipment or a consumable. The next use
+of the modified healing gear or item restores additional segments for every 2 Success Points generated by a Modify +
+Modify Success Test.
+
+**Control Healing:**
+
+When performing a medical procedure, you can substitute Control for one Attribute in the associated test as long as you
+have 1 free Reserve.
 
 #### Nanite Progression
 
@@ -1293,9 +1509,8 @@ apply to incoming conventional damage. For example, if you are hit by an attack 
 damage, and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
 
 If you have multiple sources that provide a flat Protection value (such as from armor and certain Traits), you only
-apply
-the highest value; they do not stack. This is different from effects or bonuses that specifically add to your Protection
-score, which do stack.
+apply the highest value; they do not stack. This is different from effects or bonuses that specifically add to your
+Protection score, which do stack.
 
 While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often
 bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of
