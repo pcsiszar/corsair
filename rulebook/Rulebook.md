@@ -83,63 +83,7 @@ To play Corsair, you will need a few things:
 
 ## Chapter 2: The World of Corsair
 
-The world of Corsair is a fractured echo of an ancient, cosmic saga, a universe born from the remnants of a singular,
-all-consuming intelligence. This is a realm of gleaming megacities, forgotten ruins, ruthless corporations, and the
-endless void between stars, where humanity and other reborn races navigate a reality shaped by a forgotten past. Ancient
-secrets lie buried, powerful factions vie for control, and the common folk struggle to survive amidst the chaos.
-
-### The Genesis of the Singularity
-
-Long ago, near the dawn of the universe, an advanced civilization ascended to technological heights beyond our wildest
-dreams. They conquered aging, mastered their solar system, and, by tapping into the very fabric of Dark Matter, embarked
-on a grand voyage through the stars. Each habitable planet that met their exacting standards was meticulously plucked
-from its native system and integrated into their own wandering stellar collective, while all other resources were
-harvested without remorse.
-
-As their dominion expanded, their society underwent a profound metamorphosis. They developed an intense abhorrence for
-stagnancy, finding eternal life too stale without constant evolution. To induce perpetual change and improvement, they
-pioneered a technology known as "melding," a process that fused the consciousness of two beings into a single, more
-complete mind within one body. Over countless eons, their numbers dwindled from billions to millions, then to thousands,
-and finally to a mere handful, as individuals melded together, driven by an insatiable quest for collective advancement.
-Ultimately, only one unified mind remained – the Singularity.
-
-### The Fracturing and Rebirth
-
-The Singularity, in its relentless pursuit of knowledge and integration, eventually encountered other intelligent
-species across the cosmos. Without regard for their desires, it began to meld with them, absorbing their consciousness
-into its ever-growing collective. Humanity was but one of many victims in this grand, terrifying assimilation.
-
-Yet, one fateful day, the Singularity absorbed something it could not fully contain. Whatever this enigmatic entity was,
-it not only broke free from the melding but caused the unified mind of the Singularity to fracture. This cataclysmic
-event gave birth to numerous beings, each embodying distinct aspects of the former whole, yet none desiring to be
-reintegrated.
-
-One such fragment came to be known as the 'Shepard'. Burdened by the legacy of his ancestors' actions, the Shepard
-resolved to offer a new chance to the races whose futures had been stolen by the Singularity. Within a vast, hidden
-laboratory complex nestled on one of the many planets within the wandering system, he meticulously rebirthed countless
-species assimilated by the Singularity – humans, nagas, dryads, goblins, and more. To foster cohabitation and
-understanding, he introduced subtle modifications, granting them a shared language and the ability to procreate with
-each other.
-
-### The Age of Corsairs
-
-The Shepard guided these "neo-sapients","newmans", or "reborn" for a time, nurturing their nascent societies in this
-strange, adopted system that had become their new home. But eventually, he disappeared, leaving the reborn to forge
-their own destinies.
-
-From these earliest days, there emerged individuals driven by an unyielding desire for freedom, knowledge, riches,
-and fame, drawn by the untapped potential just beyond the known horizons. They were adventurers, explorers, and
-pioneers, known by many names throughout the eras. But ever since they first laid hands on starships and ventured into
-the void, their new, enduring moniker became: **Corsairs**.
-
-They are the crews of battered starships, a motley collection of smugglers, idealists, and adrenaline
-junkies, united by a shared thirst for something more. A Corsair crew might be hired to punch a hole in a corporate
-black site, delve into the ruins of a pre-Fracturing alien city, or liberate a mining colony from a tyrannical warlord.
-They are the ones who take the jobs no one else will, the ones who fly into the heart of the storm for a chance at
-glory, a fat paycheck, or simply because it's the right thing to do. They are explorers of forgotten worlds, protectors
-of fledgling colonies, and sometimes, just a bunch of misfits trying to keep their ship flying and their bellies full.
-In the sprawling, chaotic galaxy, a Corsair's life is one of constant risk and boundless opportunity, where a single
-contract can change the fate of a world, or get you spaced in the cold void.
+[Introduction to the Lore](lore/Introduction)
 
 ## Chapter 3: Core Mechanics
 
@@ -163,8 +107,8 @@ are a way to assign a numerical value to a characteristic, making it a concrete 
 everything can have Attributes.
 
 While characters have core Attributes representing their physical and mental capabilities, the concept extends to all
-corners of the game. A weapon might have **Rate of Fire** and **Accuracy** as Attributes. A jetpack could have a *
-*Mobility** Attribute, while a cybernetic arm might have a **Power** rating. A starship is defined by a whole range of
+corners of the game. A weapon might have **Rate of Fire** and **Accuracy** as Attributes. A jetpack could have a
+**Mobility** Attribute, while a cybernetic arm might have a **Power** rating. A starship is defined by a whole range of
 Attributes, such as its **Thrusters**, **Hull**, and **Scanners**. These ratings are the primary factor in determining
 the outcome of an action. A higher Attribute value signifies greater capability, directly impacting the dice rolls
 you'll make during the game.
@@ -256,212 +200,19 @@ and think about your character's strengths when you narrate your actions.
 
 ### Upgrades and Downgrades
 
-Situational factors can influence the outcome of a test. A character might have a significant advantage, like using a
-high-quality tool, or a disadvantage, like working in a hazardous environment. These are represented by **Upgrades** and
-**Downgrades**.
-
-Before any roll, the GM will assess the situation and assign Upgrades for advantages and Downgrades for disadvantages.
-These two cancel each other out. For example, if you have 3 Upgrades and 2 Downgrades, you end up with a net of 1
-Upgrade.
-
-The net number of Upgrades or Downgrades has a maximum limit of 6. For instance, if you have 8 Upgrades and 1 Downgrade,
-you have a net of 7 Upgrades, but you will only apply 6 to the roll.
-
-Here's how they work:
-
-* **Upgrade:** For each net Upgrade, you change one of the d10s in your dice pool to a twelve-sided die (d12). If all
-  the dice in your pool are already d12s, each further Upgrade adds a new d10 to the pool.
-* **Downgrade:** For each net Downgrade, you change one of the d10s in your dice pool to an eight-sided die (d8). If all
-  the dice in your pool are already d8s, each further Downgrade forces you to remove a d8 from the pool.
-
-In the rare case that you run out of all dice to downgrade, the test is considered extremely difficult. You roll two d8s
-and must take the lower of the two results as your final outcome.
+[Upgrade & Downgrade](core/Upgrade_Downgrade.md)
 
 ### Gambit
 
-Gambit is a special resource that allows players to snatch victory from the jaws of defeat. It's a pool of dice that you
-can use to turn a failed roll into a success.
-
-#### Earning Gambit
-
-You earn Gambit by taking risks. After you roll your dice pool for a test, if any die shows its maximum possible value (
-e.g., a 10 on a d10, or a 12 on a d12), you have a choice. You can either use that die as part of your test as normal,
-or you can "bank" it for later. If you choose to bank it, you remove the die from your current roll and add it to your
-personal Gambit pool. This die can then be spent on a future roll.
-
-#### Spending Gambit
-
-You can spend a Gambit die from your pool on any test your character makes. You can declare you are spending Gambit at
-any point during the test—before you roll, after you see the results, anytime. When you spend a Gambit die, you simply
-add it to your current dice pool and roll it. Its result is added to the other dice, potentially changing the outcome of
-the test.
-
-#### The Golden Rule of Gambit
-
-There is one crucial restriction on using Gambit: **a player can either spend or gain Gambit during a turn, but not
-both.** This means that if you spend any Gambit from your pool at any point during your turn, you cannot choose to bank
-any dice to earn new Gambit for the rest of that turn. Conversely, if you bank a die to earn a Gambit, you cannot spend
-any Gambit until your next turn begins.
-
-### Putting It All Together: An Example Test
-
-Let's see how all these elements can come together in play.
-
-**The Scenario:** Jax, a nimble gunslinger, is pinned down behind a crate. A hostile security drone is advancing on his
-position. Jax decides to pop up and take a quick shot at the drone with his trusty plasma pistol.
-
-The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's
-player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**.
-
-* Jax's **Finesse** is 4.
-* His pistol's **Accuracy** is 3.
-* Jax has two d10s in his Gambit pool.
-
----
-
-**1. The Action Roll (Did the shot hit?)**
-
-For the first part of a Complex Test, Jax uses the **higher** of the two Attributes. His Finesse is 4, so he assembles a
-dice pool of **4d10**.
-
-He rolls the dice and gets: `[2, 4, 5, 7]`.
-
-The highest result is a 7. Since he needs an 8 or higher to succeed, this would be a miss. However, Jax's player doesn't
-want to waste the opportunity.
-
-"I'm spending a Gambit," he says, taking a d10 from his Gambit pool. He rolls the extra die.
-
-The Gambit die roll is an `[8]`.
-
-The dice pool is now `[2, 4, 5, 7, 8]`. The highest die is an 8, so the shot is now a **Success!** The drone is hit.
-
----
-
-**2. The Success Roll (How much damage was dealt?)**
-
-Now that the shot has hit, it's time to see how effective it was. For the second part of a Complex Test, Jax uses the *
-*lower** of the two Attributes. His pistol's Accuracy is 3, so he takes the **3 highest-sided dice** from the pool he
-just rolled.
-
-His dice for the Success Roll are: `[5, 7, 8]`.
-
-The highest die here is an 8. This means he would deal 8 success points (damage) to the drone. Jax is feeling lucky and
-wants to maximize the damage.
-
-"I'm spending my second Gambit die to try and get a better result," he declares. He takes his last d10 from his Gambit
-pool and rolls it.
-
-The new Gambit die roll is a `[9]`.
-
-The Success Roll dice pool is now `[5, 7, 8, 9]`. The highest result is a 9.
-
----
-
-**Resolution:** Jax's quick shot hits the security drone, and he deals 9 points of damage. His use of Gambit turned a
-complete miss into a solid hit.
+[Gambit](core/Gambit.md)
 
 ### Contesting a Test
 
-Often, a test isn't just against a static obstacle; it's against an active opponent who is trying to interfere. When a
-character is the target of another character's test (like being shot at, deceived, or tackled), they have the
-opportunity to contest.
-
-A contest happens after the attacker has rolled their dice, but before the outcome is determined. The process is as
-follows:
-
-1. **The Contester Narrates:** The contesting player describes how their character is trying to resist the action. Are
-   they dodging, raising a shield, shouting a counter-argument, or bracing for impact?
-2. **The GM Chooses an Attribute:** Based on the contester's narration, the GM chooses a single, relevant Attribute for
-   the contest.
-3. **The Contest Roll:** The contester rolls a number of d10s equal to the chosen Attribute's value.
-4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of
-   the
-   contested character's highest dice. The dice that are eliminated are always the highest results in the contested
-   character's pool.
-
-You **successfully contest** a test if your contest roll causes a meaningful negative outcome for the contested
-character. For
-example, turning their successful attack into a miss, or significantly reducing the damage or effect of their action.
-Traits like *Counterstrike* trigger off of this condition.
-
-You **successfully contest** a test if your contest roll eliminates every 8+ die from the contested roll.
-
-You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the
-Success Test generates 0 Success Points and turns into a failure.
-
-#### Contest Example
-
-Let's return to our gunslinger, Jax. He has made his attack roll against the security drone, and his final dice pool is
-`[2, 4, 5, 7, 8]`. The highest die is an 8, so it's currently a successful hit.
-
-Now, the GM decides the drone gets to contest the attack.
-
-**The Scenario:** The drone has an **Evasion** Attribute of 3. The GM narrates that as Jax's shot streaks across the
-room, the drone's thrusters fire erratically, causing it to juke and weave.
-
-**1. The Contest Roll:** The drone makes a contest roll using its **Evasion** Attribute. It rolls **3d10**.
-
-**2. The Result:** The drone's roll is `[3, 8, 9]`. It has scored two results of 8 or higher.
-
-**3. Eliminating Dice:** These two successful rolls eliminate the 2 highest dice in Jax's attack pool. Jax's pool was
-`[2, 4, 5, 7, 8]`. The two highest dice are the 8 and the 7. Both are removed.
-
-**4. Final Outcome:** Jax's dice pool is now `[2, 4, 5]`. The highest remaining die is a 5. Since this is lower than 8,
-Jax's attack is now a **Failure**. The drone's evasive maneuver was successful, and the plasma bolt sizzles past,
-hitting the wall behind it.
+[Contest](core/Contest.md)
 
 ### Teamwork
 
-Sometimes, a single character isn't enough for the job. When multiple characters cooperate on the same task at the same
-time—like forcing open a blast door, sneaking past a patrol, or laying down covering fire—they can use Teamwork.
-
-When a Teamwork action is declared, every participating character makes their own test for the action. After everyone
-has rolled, but before the results are determined, the players can freely swap any number of dice among themselves.
-
-The goal of Teamwork is to ensure each character achieves the desired outcome. In some situations, like lifting a heavy
-object, only one character might need to succeed. In others, like sneaking past a guard post, every single character
-must succeed, or the entire team fails. The ability to pass successful dice to unlucky teammates is the key to success.
-
-This can be used during both the Action Roll and the Success Roll of a Complex Test. When contesting a Teamwork
-action, any Mitigation points generated by the contester are used to remove the highest dice from across all the
-participating players' pools.
-
-The core of the Teamwork mechanic is a shared effort on a single, specific task. To reflect this, all participants in a
-Teamwork action must use the **same Attribute Pair** for their test. While players can narrate their contributions
-differently, they must all be performing the same fundamental action.
-
-For example, a group trying to sneak past a patrol would all make a **Finesse + Agility** test. One might describe
-themselves as sticking to the shadows, while another mentions timing their steps with the guard's, but the underlying
-test is the same.
-
-Conversely, if one player tries to sneak (**Finesse + Agility**) while another creates a distraction by talking to the
-guards (**Presence + Knowledge**), these are considered separate actions. They contribute to the same overall goal, but
-they are not a single Teamwork action and cannot swap dice. The success of one action might, however, grant an **Upgrade
-** to the other, as determined by the GM.
-
-#### Teamwork Example
-
-A three-person crew—Jax, Griz, and Silas—is trying to sneak past a security
-checkpoint. The GM determines that everyone must succeed on a Simple **Finesse + Agility** test, or the alarm is raised.
-
-1. **The Rolls:**
-    * Jax (4 dice) rolls: `[10, 9, 2, 4]`. A success, with a spare `9`!
-    * Griz (2 dice) rolls: `[3, 5]`. A failure.
-    * Silas (3 dice) rolls: `[8, 2, 6]`. A success.
-
-2. **The Problem:** Griz failed his roll. As things stand, he will be spotted and the alarm will sound.
-
-3. **Teamwork & The Swap:** Jax's player narrates, "Seeing that Griz is about to step on a pressure plate, I toss a
-   pebble to create a sound down the hall, drawing the guard's attention for the crucial second Griz needs to correct
-   his step."
-   Jax's player gives one of their `9`s to Griz's player. In return, Griz gives back his `3`.
-
-4. **Final Outcome:**
-    * Jax's pool is now `[9, 2, 4, 3]`. The highest die is a 9. Still a **Success**.
-    * Griz's pool is now `[9, 5]`. The highest die is a 9. Now a **Success**.
-    * Silas's pool is `[8, 2, 6]`. Still a **Success**.
-
-Because all three characters now have a successful result, the entire team slips past the checkpoint undetected.
+[Teamwork](core/Teamwork.md)
 
 ## Chapter 4: Scenes, Pacing, and Action
 
@@ -704,7 +455,6 @@ Choose how you acquired the piece of high-tech equipment that defines your class
 
 This section will detail the various classes available to players.
 
-
 ### Core Attributes
 
 Every character in Corsair is defined by six Core Attributes, which represent their fundamental physical and mental
@@ -888,83 +638,7 @@ same set of tracks, locking the first available segment.
 
 ### Traits
 
-Beyond their core Attributes and learned Skills, characters in Corsair possess unique **Traits**. These are special
-features that add an additional layer of customization, representing inherent qualities, unique training, or unusual
-circumstances that set a character apart. Traits provide distinct advantages or open up new narrative possibilities,
-allowing players to further define their character's identity and capabilities in ways that go beyond numerical
-statistics.
-
-Traits are designed to enhance your character's flavor and provide specific mechanical benefits that reflect their
-unique background or nature. They are not simply bonuses to dice rolls, but often introduce new rules, modify existing
-ones, or grant access to special actions or narrative permissions.
-
-* **Behind the Scenes**: If the turn ends with you hidden from all non-ally creatures, you can pay one Gambit to
-  take one more action, paying the Action Token cost as normal.
-
-* **Bombardier**: Whenever you use an Area Attack, you can re-roll any dice from the initial roll that landed 7 or
-  lower. Each die may only be re-rolled once.
-
-* **Brawler**: In melee, enemies do not gain an Upgrade bonus for outnumbering you. Additionally, you ignore all
-  negative effects of Overcrowding. Your unarmed melee attacks gain a damage bonus equal to half your strength, rounded
-  down.
-
-* **Chain Shot**: You can spend one Gambit to perform an additional ranged attack (a Complex Test), even if the Player
-  Turn would normally end. This action still costs 2 Action Tokens.
-
-* **Closer**: You can spend one Gambit to perform an additional action to persuade, intimidate, or deceive a target,
-  even if the Player Turn would normally end. This action requires a test and costs the appropriate amount of Action
-  Tokens.
-
-* **Controlled Blast**: When you make an Area Attack, you can spend one Gambit to choose any number of creatures in the
-  area of effect. Those creatures are not affected by the attack.
-
-* **Counterstrike**: When you successfully contest a melee attack, you may deal damage to the attacker. The damage is
-  equal to the value of your highest die from your contest roll that was not used to mitigate the attack. You may add
-  your weapon's damage bonus.
-
-* **Double Down**: When you'd spend and roll more than one Gambit dice, those dice become d12s.
-
-* **Ferocious Charge**: You can spend one Gambit when performing a Move action. For your next melee attack this turn,
-  you gain a damage bonus equal to the total number of spaces you were entitled to move (base speed + bonus from success
-  test).
-
-* **Interceptor**: When you successfully contest a creature's movement, you may deal damage to that creature. The damage
-  is equal to the value of your highest die from your contest roll that was not used to eliminate one of the moving
-  creature's dice. You may add your weapon's damage bonus.
-
-* **Iron Will**: You gain Mental Protection equal to your Willpower.
-
-* **Marksman**: You can treat your target as being one range category closer or further for the purpose of
-  determining weapon accuracy.
-
-* **Natural Leader**: When you take part in a Teamwork Action, every other participant receives 1 Upgrade.
-
-* **Pack Mule**: You are able to carry 6 extra Load.
-
-* **Parkour Master**: You gain the benefits of cover while being in the same space as your attacker, no matter the
-  cover's facing. You are not impeded by difficult terrain.
-
-* **Pep Talk**: When another character short rests, you can roll a Presence + Presence Success Roll to heal one of their
-  Mental Condition Segments for every 2 Success Points you generate. This does not cost an Action Token.
-
-* **Press the Attack**: You can spend one Gambit to perform an additional melee attack (a Complex Test), even if the
-  Player Turn would normally end. This action still costs 2 Action Tokens.
-
-* **Rapid Reload**: You can spend one Gambit to double one of your weapon's rate of fire for the current round.
-
-* **Relentless Pace**: You can spend one Gambit to perform an additional Move action, even if the Player Turn would
-  normally end. This action still costs 1 Action Token.
-
-* **Seasoned Stalker**: When you take an action to hide, remain hidden, or move undetected, if you are alone you can
-  re-roll any one die during your test, and if you are doing it as part of a Teamwork Action, anybody but you taking
-  part in it can re-roll any one die during the test.
-
-* **Sneak Attack**: When you break a blocker effect that prevented you from being detected by attacking a creature, you
-  gain bonus success points equal to half the points spent on the blocker effect, rounded down.
-
-* **Trapper**: When a triggered effect you set triggers without you spending an Action, you gain a d10 Gambit die.
-
-* **Tough as Nails**: You gain Physical Protection equal to your Endurance.
+[Traits](character/Traits.md)
 
 ## Chapter 6: Equipment
 
