@@ -455,6 +455,15 @@ Choose how you acquired the piece of high-tech equipment that defines your class
 
 This section will detail the various classes available to players.
 
+#### Class Abilities
+
+Unless stated otherwise, if class abilities create a persistent effect, they last until the pacing of the story changes
+into a pacing that covers longer periods of time than when the effect was created, OR they fall unconscious. An ability
+used in moment-to-moment pacing lasts until they story moves to place-to-place pacing. When it's used in place-to-place,
+it persists when the story moves to moment-to-moment, and keeps going when it switches back to place-to-place, but ends
+when we swap to day-to-day pacing. An ability creating a persistent effect would last indefinitely, if not for the
+characters' need to sleep, which ends all ongoing special effects that they created.
+
 ### Core Attributes
 
 Every character in Corsair is defined by six Core Attributes, which represent their fundamental physical and mental
@@ -1179,3 +1188,11 @@ Resolving an Area Attack is a multi-step process:
   `8`) from the sum. Player 1 takes **2** damage (from the remaining `2`).
 * **Player 2** is also in the area and gets two successes on their contest roll. These successes remove the two highest
   dice (`8` and `2`). Player 2 takes **0** damage.
+
+The cost for contesting an Area attack depends on how far the creature is from a space that is considered safe from the
+attack. Creatures adjacent to a safe space contest the Area attack for free. For each additional space they have to
+move,
+they have to pay 1 AP to contest the roll.
+
+If the defender would be moving out from, or would be moving through space with Difficult Terrain, the AP cost of
+contesting increases by 1 for each space with Difficult Terrain involved. 
