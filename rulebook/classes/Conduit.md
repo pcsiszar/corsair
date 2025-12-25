@@ -81,10 +81,11 @@ powerful the ability becomes.
       Lightning Attribute.
 
 - Nova Burst: You can make a special Area Attack against a target space within 40 meters. You roll with a number of d10s
-  equal to the used Conduit Attribute and deal the damage of the N highest dice where N is the number of charges
-  consumed.
+  equal to the used Conduit Attribute and deal the damage equal to the sum of the N highest dice where N is the number
+  of charges consumed.
     - Flame: Increase the radius of the Area attack by 1 space per charge
-    - Frost: You can spend up to 12 points of damage on Downgrade or Blocker effects instead.
+    - Frost: You can spend up to 12 points of damage on Downgrade or Blocker effects instead that affect creatures in
+      the space.
     - Lightning: You can select 1 additional targeted space per charge as long as it intersects with a line drawn
       between the center of your space and the center of the targeted space.
 
@@ -114,8 +115,21 @@ powerful the ability becomes.
     - Lightning: Agility or Knowledge
 
 - Reactive Burst: Whenever you take damage, you can consume all your available charges.
-    - Flame/Lightning: Deal damage to the attacker equal to the number of charges consumed times your Conduit Attribute.
-    - Frost: Gain bonus protection equal to the number of charges consumed times half your Frost attribute rounded down,
-      for this instance of damage only.
+    - Flame: Decrease damage from a ranged attack you'd take by the number of charges consumed times your Frost
+      Attribute.
+    - Frost: Decrease damage from a melee attack you'd take by the number of charges consumed times your Frost
+      Attribute.
+    - Lightning: Decrease damage from an Area Attack you'd take by the number of charges consumed times your Lightning
+      Attribute.
+
+- Displacer Burst: You can trigger this power any time you'd make a melee attack. You deal N bonus damage, and can
+  choose to move the target N number of spaces equal to the charges consumed.
+    - Flame: You can select N additional targets in your space that also take damage equal N times your Flame Attribute
+      to and get moved the same distance as the original target. You can choose to move the other targets separate
+      places.
+    - Frost: You can also buy a blocker effect using Success Points equal to the number of charges consumed times your
+      Frost Attribute.
+    - Lightning:  You deal damage to all creatures in the space your target lands in after you moved them. The damage is
+      equal to the number of charges consumed times your Lightning attribute.
 
 
