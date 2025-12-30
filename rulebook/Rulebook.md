@@ -702,6 +702,8 @@ calculating their Damage Bonus.
   example, a weapon's bonus might be calculated as `Strength / 3` or `(Agility / 3) + 1`. The result of these
   calculations is always rounded down to the nearest whole number.
 
+* **Penetration:** This numeric value represents how much of the target's **Protection** value the weapon ignores when dealing damage. If a weapon has 2 Penetration, it effectively reduces a target's Protection by 2 for that attack. This cannot reduce a target's Protection below 0.
+
 ---
 
 ##### Ranged Weapons
@@ -731,6 +733,8 @@ Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calcula
 
 * **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as
   +1, +2, or +3.
+
+* **Penetration:** This numeric value represents how much of the target's **Protection** value the weapon ignores when dealing damage. If a weapon has 2 Penetration, it effectively reduces a target's Protection by 2 for that attack. This cannot reduce a target's Protection below 0.
 
 #### Armor
 
