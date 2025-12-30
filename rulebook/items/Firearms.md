@@ -1,15 +1,15 @@
-# Prominent Firearm Manufacturers
-
-*   Panthera Arms
-*   Vandal's Workshop
-*   Caldera Foundry
-*   Ker'Satz Korp
-*   Chidori-Qwei Combatwear
-
 # Firearms
 
 In the Corsair universe, firearms range from reliable kinetic slugthrowers to advanced energy weapons. Each weapon is
 defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetration**, and **Load**.
+
+## Prominent Firearm Manufacturers
+
+* Panthera Arms
+* Vandal's Workshop
+* Caldera Foundry
+* Ker'Satz Korp
+* Chidori-Qwei Combatwear
 
 ## Weapon Statistics Explained
 
@@ -29,13 +29,18 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
 
 Small, one-handed weapons ideal for backup or close-quarters defense.
 
-| Weapon Name                | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost  | Description                                                                                                                |
-|:---------------------------|:-------------------|:----|:----------|:------------|:-----|:------|:---------------------------------------------------------------------------------------------------------------------------|
-| **P-10 "Sidekick" Pistol** | 2 / 1 / 0 / -      | 3   | +1        | 0           | 1    | 500   | A ubiquitous, reliable sidearm found in holsters across the galaxy. Cheap, durable, and easy to conceal.                   |
-| **Viper Heavy Revolver**   | 3 / 2 / 1 / -      | 2   | +2        | 0           | 2    | 1,200 | A six-cylinder hand cannon that trades fire rate for stopping power. Favored by those who want to make every shot count.   |
-| **Nova Plasma Pistol**     | 2 / 2 / 1 / -      | 3   | +2        | 0           | 1    | 3,500 | Fires superheated bolts of plasma. More powerful than its kinetic cousins but runs hot and requires expensive power cells. |
-| **"Breaker" Hand Cannon**  | 3 / 0 / - / -      | 1   | +3        | 0           | 2    | 2,200 | A massive, short-barreled pistol firing oversized slugs. Devastating at point-blank range but useless at a distance.       |
-| **Rapid-9 Machine Pistol** | 2 / 1 / 0 / -      | 4   | +1        | 0           | 1    | 1,800 | A compact automatic pistol with a blistering fire rate. Eats ammo quickly but can suppress enemies in a pinch.             |
+| Weapon Name                       | Manufacturer      | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost  | Description                                                                                          |
+|:----------------------------------|:------------------|:-------------------|:----|:----------|:------------|:-----|:------|:-----------------------------------------------------------------------------------------------------|
+| **P-1 "Peashooter"**              | Ker'Satz Korp     | 1 / 0 / 0 / -      | 2   | +0        | 0           | 1    | 300   | A cheap, mass-produced holdout pistol. Barely better than nothing.                                     |
+| **CF-5 "Regulator"**              | Caldera Foundry   | 2 / 1 / 0 / -      | 3   | +1        | 0           | 1    | 750   | Standard-issue sidearm for corporate security. Reliable and unremarkable.                            |
+| **"Scrapper" Service Pistol**     | Vandal's Workshop | 2 / 1 / 1 / -      | 3   | +1        | 1           | 1    | 1,500 | A rugged, easily modifiable pistol popular with fringers and mechanics.                                |
+| **CQ-8 "Wasp" Flechette Pistol**  | Chidori-Qwei      | 3 / 1 / 0 / -      | 4   | +0        | 2           | 1    | 3,200 | Fires hyper-velocity flechettes that excel at bypassing light armor.                                   |
+| **P-9 "Burst" Machine Pistol**    | Ker'Satz Korp     | 2 / 1 / 0 / -      | 5   | +0        | 0           | 1    | 1,800 | A high fire-rate machine pistol that sacrifices accuracy for sheer volume of fire.                       |
+| **"Magma" Thermal Pistol**        | Caldera Foundry   | 2 / 2 / 1 / -      | 2   | +2        | 0           | 2    | 4,000 | Fires a glob of superheated gel that sticks to targets.                                                |
+| **"Spike" Rail Pistol**           | Vandal's Workshop | 1 / 2 / 1 / -      | 1   | +1        | 2           | 2    | 5,500 | A miniaturized railgun that fires a single, high-velocity spike, capable of punching through armor.      |
+| **"Apex" Revolver**               | Panthera Arms     | 3 / 2 / 1 / -      | 2   | +2        | 2           | 2    | 7,000 | The pinnacle of handgun design. A powerful, accurate, and expensive weapon for discerning hunters.       |
+| **"Silent Dart" Stealth Pistol**  | Chidori-Qwei      | 3 / 2 / 1 / -      | 2   | +0        | 1           | 1    | 4,800 | A silenced pistol firing subsonic darts. The perfect tool for covert operations where noise is a concern. |
+| **PA-4 "Stalker" Heavy Pistol**   | Panthera Arms     | 2 / 2 / 1 / -      | 3   | +2        | 1           | 2    | 5,200 | A heavy-duty pistol designed for taking on armored fauna or stubborn synthetics at medium range.         |
 
 ## Submachine Guns (SMGs)
 
@@ -72,6 +77,7 @@ Precision weapons designed for eliminating targets from extreme distances.
 |:----------------------------|:-------------------|:----|:----------|:------------|:-----|:-------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | **Longshot Marksman Rifle** | 1 / 2 / 4 / 3      | 1   | +2        | 0           | 4    | 4,500  | A semi-automatic rifle designed for precision. Its extended barrel and advanced optics make it deadly at long distances.           |
 | **Mag-Rail Sniper**         | 0 / 1 / 4 / 5      | 1   | +3        | 0           | 5    | 12,000 | Uses magnetic rails to accelerate a solid slug to hypersonic speeds. Punches through armor and cover with ease from extreme range. |
+
 ## Heavy Weapons
 
 Massive weapons requiring significant strength to wield, offering overwhelming firepower.
