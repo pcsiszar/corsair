@@ -702,8 +702,6 @@ calculating their Damage Bonus.
   example, a weapon's bonus might be calculated as `Strength / 3` or `(Agility / 3) + 1`. The result of these
   calculations is always rounded down to the nearest whole number.
 
-* **Penetration:** This numeric value represents how much of the target's **Protection** value the weapon ignores when dealing damage. If a weapon has 2 Penetration, it effectively reduces a target's Protection by 2 for that attack. This cannot reduce a target's Protection below 0.
-
 ---
 
 ##### Ranged Weapons
@@ -718,23 +716,19 @@ Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calcula
     * **Long Range:** 13-25 spaces or ~50-100m
     * **Extreme Range:** 26+ spaces or ~100m+
 
-* **Rate of Fire (RoF):** This stat represents the maximum number of times a weapon can be used to make an attack action
-  in a single round. As long as you have sufficient Action Tokens, you can make multiple, separate attack actions, with
-  each one consuming one "shot" from your weapon's RoF. For example, a weapon with an RoF of 3 would allow for up to
-  three separate attack actions in a round, each costing 2 Action Tokens.
-
-  Alternatively, you can use RoF to hit multiple targets with a single successful attack. After a successful attack
-  action (which costs 1 shot of RoF), you can hit additional targets by spending one additional shot of RoF for each
-  extra target.
-    * *Example:* A character fires a pistol with an RoF of 3. They make a single successful attack (costing 2 Action
-      Tokens and 1 shot of RoF). They can then choose to have the damage also hit two nearby targets. This would spend
-      their remaining 2 shots of RoF (1 for each extra target). Having used all 3 shots of its RoF, the weapon cannot
-      be fired again this round.
+* **Rate of Fire (RoF):** This stat represents the weapon's capacity for rapid fire and its ability to engage multiple
+  targets.
+    * **Rerolls:** When making an attack with a ranged weapon, you can spend points of RoF to reroll dice in your pool.
+      Each point of RoF spent allows you to reroll one die. You can use this on either the Action Roll (to ensure a hit)
+      or the Success Roll (to increase damage), but the total number of rerolls across both steps cannot exceed the
+      weapon's RoF.
+    * **Example:** A character with an Accuracy of 6 and Finesse of 4 fires an SMG (RoF 4) at a target. They roll their
+      initial pool. Unhappy with the result, they spend 2 points of RoF to reroll two low dice on their Action Roll to
+      ensure a hit. They then spend 1 point of RoF to reroll a die on their Success Roll to maximize damage. They have
+      used 3 of their 4 RoF capacity.
 
 * **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as
   +1, +2, or +3.
-
-* **Penetration:** This numeric value represents how much of the target's **Protection** value the weapon ignores when dealing damage. If a weapon has 2 Penetration, it effectively reduces a target's Protection by 2 for that attack. This cannot reduce a target's Protection below 0.
 
 #### Armor
 
@@ -999,10 +993,8 @@ map is highly recommended to add tactical depth and clarity to character and ene
 Navigating the battlefield is crucial for survival. Positioning can determine cover, line of sight, and your ability to
 engage or evade foes.
 
-In combat, you can spend **1 Action Token** to move. The total distance you can travel is determined by your base speed
-plus the result of a Success Test.
-
-* **Speed = 12 meters + Success Test result**
+In combat, you can spend **1 Action Token** to move. When you move, you perform a Success Test, typically with Agility,
+then move a number of meters equal to twice the result, plus your base speed, by default, 8 meters.
 
 The Success Test is typically made with your **Agility** attribute, representing your ability to run, climb, and vault
 across the terrain. The GM may call for a different attribute based on the situation (e.g., Strength for climbing a
@@ -1010,21 +1002,16 @@ sheer cliff).
 
 #### Movement on a Grid
 
-For ease of play, it is recommended to use a grid with squares or hexes representing **4 meters by 4 meters**. When
+For ease of play, it is recommended to use a grid with squares or hexes representing **8 meters by 8 meters**. When
 using a grid, your movement is calculated as follows:
 
-* Your base speed of 12 meters translates to **3 spaces**.
-* Your Success Test adds additional movement. For every 4 full meters rolled on your test, you can move 1 additional
+* Your base speed of 8 meters translates to **1 space**.
+* Your Success Test adds additional movement. For every 8 full meters rolled on your test, you can move 1 additional
   space. For example, a roll of 8 lets you move 2 extra spaces. A perfect roll of 12 on a d12 would grant you an
   additional **3 spaces**.
 
-This means a single move action can cover a maximum of 24 meters (6 spaces). Since a player can spend multiple Action
+This means a single move action can cover a maximum of 32 meters (4 spaces). Since a player can spend multiple Action
 Points on movement, the potential distances can be significant.
-
-* **Maximum Movement in a Turn:** If a player spends 2 Action Tokens on movement and gets a maximum roll of 12 on both
-  Success Tests, they can cover up to **48 meters (12 spaces)**.
-* **Maximum Movement in a Round:** If a character spends all 4 of their Action Tokens on movement and achieves a maximum
-  roll of 12 on all four Success Tests, they could theoretically cover **96 meters (24 spaces)** in a single round.
 
 #### Contesting Movement
 
@@ -1040,12 +1027,8 @@ contest the movement. The contest follows the standard rules for Contesting a Te
    **Agility** to trip.
 3. **The Contest Roll:** The contester rolls a number of d10s equal to their chosen Attribute.
 4. **Eliminating Dice:** For each success (8+) on the contest roll, the contester eliminates one of the highest dice
-   from the moving creature's movement Success Test roll.
-
-If the contest roll eliminates all of the moving creature's dice that are 8 or higher, the movement is successfully
-impeded. The moving creature's movement immediately ends, and they stop in the space where the contest occurred. If the
-moving creature still has at least one die of 8 or higher, their movement continues, but the distance they can travel
-might be reduced due to the eliminated dice.
+   from the moving creature's movement Success Test roll. If at the end of it the contested Success Test has no dice
+   with 8+, the contested creature is stuck in the same space as the contesting one.
 
 ##### Contesting Movement Example
 
@@ -1126,6 +1109,18 @@ creatures within it.
 Some truly massive creatures may be so large that they occupy multiple spaces at once. In these cases, different parts
 of the creature (like a giant limb or a tail) might extend into adjacent spaces, counting as a Large or Huge entity in
 each of those spaces for the purposes of capacity and targeting.
+
+### Close Quarters Combat (CQC)
+
+Combat in Corsair often gets personal. When you are in the same space as a hostile creature, you are considered to be in
+**Close Quarters Combat (CQC)**. This state has significant implications for ranged weaponry.
+
+* **Firing in CQC:** If you attempt to fire a ranged weapon while you are in CQC (i.e., there is an enemy in your
+  space), you suffer **3 Downgrades** to your attack test. It is extremely difficult to aim a gun when someone is trying
+  to hit you with a sword.
+* **Firing into CQC:** If you are outside of a melee but fire into a space where allies and enemies are engaged in CQC,
+  you suffer **2 Downgrades** to your attack test. The chaotic swirl of melee combat makes it hard to get a clean shot
+  without hitting a friend.
 
 ### Cover
 

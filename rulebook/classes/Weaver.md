@@ -114,8 +114,9 @@ weapon it must have at least 1 Rate of Fire, and 1 Accuracy at any range.
 | Attribute                   | Cost per Rank (Success Points)      |
 |:----------------------------|:------------------------------------|
 | **Damage Bonus +1**         | 2 SP                                |
+| **Penetration  +1**         | 2 SP                                |
 | **Rate of Fire +1**         | 1 SP                                |
-| **Accuracy +1 (any range)** | 1 SP up to 4, 2 SP for 5 and beyond |
+| **Accuracy +1 (any range)** | 1 SP up to 3, 2 SP for 4 and beyond |
 
 **Modify Weapon:**
 
@@ -125,8 +126,9 @@ Success Roll using Modify + Modify and spend the Success Points to Attributes.
 | Attribute                   | Cost per Rank (Success Points)      |
 |:----------------------------|:------------------------------------|
 | **Damage Bonus +1**         | 6 SP                                |
+| **Penetration  +1**         | 6 SP                                |
 | **Rate of Fire +1**         | 3 SP                                |
-| **Accuracy +1 (any range)** | 3 SP up to 4, 5 SP for 5 and beyond |
+| **Accuracy +1 (any range)** | 3 SP up to 3, 5 SP for 4 and beyond |
 
 **Control Weapon:**
 
@@ -219,31 +221,6 @@ Modify Success Test.
 
 When performing a medical procedure, you can substitute Control for one Attribute in the associated test as long as you
 have 1 free Reserve.
-
-##### Binding Codex
-
-This Codex allows a Nanite Weaver to bond the objects created by the nanites to other objects.
-
-**Create Binding:**
-
-Your creations can now stick to any surface strongly enough to the full weight of a person. You can create surfaces on
-your palm and legs to allow you to stick to walls like a spider or seal a door shut, or attach something to a projectile
-you throw or shoot, and make it stick to whatever it hits. This also enables many blocker effects that hinder enemies.
-
-When the strength of the bond is a factor in the Create Attribute should be incorporated into the test that is rolled.
-
-**Modify Binding:**
-
-You can use your nanites as to precisely dissolve matter with pinpoint accuracy. This effectively allows you to carve
-openings on thin barriers like windows, or etch patterns into more dense matter. The nanites can also repair the damage
-caused if you so wish. The size and dimensions of the shapes you can carve out map one-to-one to the dimensional limits
-of standard nanite constructs. The work requires the material to be still, meaning you cannot use this against unwilling
-creatures directly, although it is possible to disrupt their footing this way.
-
-**Control Binding:**
-
-When performing binding action with your nanites, you can substitute a single Create or Modify Attribute with the
-Control Attribute for the test.
 
 ##### Image Codex
 

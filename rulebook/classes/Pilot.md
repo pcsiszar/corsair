@@ -69,15 +69,16 @@ may choose one of the following modules. Each module can only be chosen once, ex
       dual-wielded, allowing the Damage Bonus to be stacked.
 
 
-* **Jetpack Module:** The Exodrone is equipped with a powerful jetpack that has a Thrust Attribute equal to the
-  Exodrone's Speed. This is an improvement over the standard jetpack which will be detailed in the equipment section and
-  has a Thrust of 3.
+* **Thrust Module:** The Exodrone is equipped with a powerful jetpack that has a Thrust Attribute equal to the
+  Exodrone's Speed.
 
-    * **Attached Mode:** While wearing the Exodrone, you can use the jetpack once per round. Using the jetpack allows
-      you to bypass difficult terrain, move in any direction, and negates any fall damage you might suffer. You cannot
-      hover. Instead of the normal movement rules, you make a Success Test with the jetpack's Thrust and gain 2 meters
-      of movement for every Success Point generated.
-    * **Detached Mode:** The Exodrone can use the jetpack as many times as it wishes per round. It can also hover.
+    * **Attached Mode:** While wearing the Exodrone, you can use the thrusters to move once per round. Using the jetpack
+      allows you to bypass difficult terrain, move in any direction, and negates any fall damage you might suffer. You
+      can hover, but you will land at the end of your turn. Instead of the normal movement rules, you make a Success
+      Test with the jetpack's Thrust and gain 4 meters of movement for every Success Point generated and your base
+      movement is increased to 16 meters.
+    * **Detached Mode:** The Exodrone can use the jetpack as many times as it wishes per round and it does not fall at
+      the end of the round.
 
 
 * **Shield Module:** The Exodrone is equipped with a deployable shield.
