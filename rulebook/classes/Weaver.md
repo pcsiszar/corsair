@@ -133,7 +133,7 @@ Success Roll using Modify + Modify and spend the Success Points to Attributes.
 **Control Weapon:**
 
 You can replace a Finesse Attribute in a test you take using a ranged weapon that your nanites created or modified with
-your Control Attribute.
+your Control Attribute. This costs 1 Reserve which recharges at the beginning of the next round.
 
 ##### Armor Codex
 
@@ -159,8 +159,8 @@ Success Roll using Modify + Modify and spend the Success Points to Attributes.
 
 **Control Armor:**
 
-You can contest an attack that targets you by deploying the nanites as reactive armor using your Control Attribute as
-long as you have 1 free Reserve.
+You can contest an attack that targets you by deploying the nanites as reactive armor using your Control Attribute. This
+costs 1 Reserve which recharges at the beginning of the next round.
 
 ##### Circuit Codex
 
@@ -219,8 +219,8 @@ Modify Success Test.
 
 **Control Healing:**
 
-When performing a medical procedure, you can substitute Control for one Attribute in the associated test as long as you
-have 1 free Reserve.
+When performing a medical procedure, you can substitute Control for one Attribute in the associated test. This
+costs 1 Reserve which recharges at the beginning of the next round.
 
 ##### Image Codex
 
@@ -228,20 +228,21 @@ This Codex allows a Nanite Weaver to create illusions or alter their looks using
 
 **Create Image:**
 
-You spend 1 Reserve and an Action Token to weave a lifelike object out of your nanites. It can appear to be moving, but
-you can either have it follow you in the same space, or remain in a space you bring it to. It can withstand minor
+You spend 1 Reserve and an Action Token to weave a lifelike static object out of your nanites. It can withstand minor
 physical contact, but cannot resist any meaningful force (a firm handshake for example).
 
 **Modify Image:**
 
-You spend 1 Reserve and an Action Token to alter the visual appearance of an object within your space. You can make it
-appear as something or someone else, or try to make it blend into the environment. The disguise can withstand minor
-physical contact but cannot resist any meaningful force.
+You spend 1 Reserve and an Action Token to alter the visual appearance of an object with a fixed shape within your
+space. You can make it appear as something or someone else, or try to make it blend into the environment. The disguise
+can withstand minor physical contact but cannot resist any meaningful force.
 
 **Control Image:**
 
-When creating or modifying an image made by your nanites you can substitute one of the Create or Modify Attributes in
-the test with your Control Attribute.
+When you Create or Modify an Image, you can substitute one Create or Modify Attribute with your Control attribute,
+and be able to move the image, as long as it shares your space. You can have the image move with you when you move
+without additional cost. If the image leaves your space, you can have it follow some predetermined loop of motion as
+long as it stays in the same place.
 
 #### Nanite Progression
 
