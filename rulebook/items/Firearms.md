@@ -79,12 +79,12 @@ Devastating close-range weapons that fire a spread of projectiles.
 
 Precision weapons designed for eliminating targets from extreme distances.
 
-| Weapon Name       | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost   | Description |
-|:------------------|:-------------------|:----|:----------|:------------|:-----|:-------|:------------|
-| **VWS "Piercer"** | 2 / 2 / 1 / 1      | 1   | +1        | 1           | 4    | 8,000  |             |
-| **PA "Lynx"**     | 0 / 2 / 2 / 1      | 1   | +2        | 2           | 4    | 9,500  |             |
-| **CQC "Dusk "**   | 1 / 3 / 2 / 2      | 2   | +0        | 0           | 4    | 11,000 |             |
-| **CF "Boa"**      | 0 / 2 / 3 / 2      | 0   | +2        | 3           | 4    | 13,000 |             |
+| Weapon Name         | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost   | Description |
+|:--------------------|:-------------------|:----|:----------|:------------|:-----|:-------|:------------|
+| **VWS "Piercer"**   | 2 / 2 / 1 / 1      | 1   | +1        | 1           | 4    | 8,000  |             |
+| **PA "Lynx"**       | 0 / 2 / 2 / 1      | 1   | +2        | 2           | 4    | 9,500  |             |
+| **CQC "Twilight "** | 1 / 3 / 2 / 2      | 2   | +0        | 0           | 4    | 11,000 |             |
+| **CF "Boa"**        | 0 / 2 / 3 / 2      | 0   | +2        | 3           | 4    | 13,000 |             |
 
 ## Heavy Weapons
 

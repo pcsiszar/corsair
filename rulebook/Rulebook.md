@@ -919,8 +919,8 @@ A **Blocker Effect** prevents a creature or creatures from performing a specific
 This effect is highly narrative-dependent and requires the GM's interpretation of what can reasonably be blocked by your
 action.
 
-* **Cost:** The cost of a Blocker Effect is variable, with a **minimum cost of 6 Success Points** and a maximum of 12.
-  You cannot create a Blocker Effect by spending fewer than 6 Success Points. The more points spent, the more
+* **Cost:** The cost of a Blocker Effect is variable, with a **minimum cost of 8 Success Points** and a maximum of 12.
+  You cannot create a Blocker Effect by spending fewer than 8 Success Points. The more points spent, the more
   difficult the effect is to overcome.
 * **Sustaining the Effect:** A Blocker Effect lasts only as long as its Anchor remains true. The nature of the Anchor
   determines what is required to sustain the effect. Some Anchors may require the creator's constant attention, while
