@@ -13,7 +13,7 @@
 | **CF Gecko Gear**       | Gecko Gear              | 1    | 18,000  |             |
 | **Rope (40m)**          | 1                       | 1    | 100     |             |
 
-## Special Properties
+### Special Properties
 
 * **Jetpack (Xm):** Once per round, you can use the Jetpack to move, using the Jetpack's Thrust attribute to roll. When
   you do, you can buy 4 meters of movement with every Success Point and your base movement becomes X meters. You can
@@ -39,7 +39,7 @@
 | **APS Beacon**                | Area-Attack Defense 5 | 3    | 25,000 |             |
 | **Smartpod**                  | Smartpod 3            | 3    | 36,000 |             |
 
-## Special Properties
+### Special Properties
 
 * Area Attack Defense (X): Once per round, this device can intercept an Area Attack. It contests the first incoming Area
   Attack targeting the space it's deployed in, or an adjacent one. If the after the contest there are no dice with an 8+
@@ -66,7 +66,7 @@
 | **HE Grenade**               | Area Attack (2H3d8, 4m Radius), Penetration 2          | 1    | 2,000 |             |
 | **Remote Detonation Charge** | Area Attack (3H3d8, 12m Radius), Remote, Penetration 3 | 2    | 5,000 |             |
 
-## Special Properties
+### Special Properties
 
 * **Area Attack (XHXdY, R m Radius):** The explosive makes an area attack with a dice pool of XdY, and the result is the
   sum of the H highest dice. The attack has a radius of R meters.
@@ -92,7 +92,7 @@
 | **Edgedance**           | Stimulant (Finesse 1, Instinct 1), Volatile 2, Fleeting   | 1    | 7,000  |
 | **Roid**                | Stimulant (Strength 2), Volatile 3, Fleeting              | 1    | 8,000  |
 
-## Special Properties
+### Special Properties
 
 * **Lesser Healing (XdY, Track):** When you use this item, you heal for the amount rolled on the specified track (
   Physical or Mental). This cannot heal aggravated damage.
@@ -120,7 +120,7 @@
 | **"Mantis" Cyberdeck**       | Hacking 3   | 3    | 12,000 |             |
 | **"Centipede" Cyberdeck**    | Hacking 4   | 3    | 25,000 |             |
 
-## Special Properties
+### Special Properties
 
 * **Locksmith (X):** Contains the tools necessary for breaking and entering, from basic tools like lockpicks and
   crowbars to laser cutters.
@@ -130,29 +130,25 @@
 
 ## Detection Gear
 
-| Item                      | Properties          | Load | Cost  | Description |
-|:--------------------------|:--------------------|:-----|:------|:------------|
-| **Proximity Sensor**      | Scouting 4m, Remote | 1/4  | 1,000 |             |
-| **Proximity Radar**       | Scouting 20m        | 0    | 1,000 |             |
-| **Recon Drone**           | Fly 20m, Sensors 1  | 0    | 1,000 |             |
-| **Forensic Sensor Suite** | Sensors 4           | 0    | 1,000 |             |
+| Item                      | Properties          | Load | Cost   | Description |
+|:--------------------------|:--------------------|:-----|:-------|:------------|
+| **Proximity Sensor**      | Scouting 4m, Remote | 1/4  | 1,000  |             |
+| **Proximity Radar**       | Scouting 20m        | 2    | 25,000 |             |
+| **Recon Drone**           | Fly 20m, Sensors 1  | 2    | 35,000 |             |
+| **Forensic Sensor Suite** | Sensors 4           | 3    | 20,000 |             |
 
-## Special Properties
+### Special Properties
 
 * **Interfacing (X):** Connect and interact with electronic devices and networks via standard wired or wireless
   connection.
 
 ## Survival Gear
 
-| Item                 | Properties | Load | Cost  | Description |
-|:---------------------|:-----------|:-----|:------|:------------|
-| **Proximity Sensor** | Scouting   | 0    | 1,000 |             |
-| **Proximity Beacon** | Scouting   | 0    | 1,000 |             |
-
-## Special Properties
-
-* **Interfacing (X):** Connect and interact with electronic devices and networks via standard wired or wireless
-  connection.
+| Item             | Properties | Load | Cost  | Description |
+|:-----------------|:-----------|:-----|:------|:------------|
+| **Thermo-suit**  |            | 1    | 5,000 |             |
+| **Rations**      |            | 1/3  | 50    |             |
+| **Camping Gear** |            | 4    | 500   |             |
 
 ## Basic Gear
 
@@ -160,7 +156,7 @@
 |:-------------|:--------------|:-----|:------|:------------|
 | **Commlink** | Interfacing 2 | 0    | 1,000 |             |
 
-## Special Properties
+### Special Properties
 
 * **Interfacing (X):** Connect and interact with electronic devices and networks via standard wired or wireless
   connection.
