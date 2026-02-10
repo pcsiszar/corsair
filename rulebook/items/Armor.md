@@ -22,19 +22,20 @@ void. Armors are defined by their **Protection**, **Special Properties**, **Load
 
 | Armor Name               | Protection | Special Properties | Load | Cost    | Description                                                                                                                                                                                                        |
 |:-------------------------|:-----------|:-------------------|:-----|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Improvised Armor**     | 2          | -                  | 2    | 500     | The local equivalent of strapping sheets of metal to your body where you can. Barely better than nothing                                                                                                           |
+| **Improvised Armor**     | 1          | -                  | 1    | 500     | The local equivalent of strapping sheets of metal to your body where you can. Barely better than nothing                                                                                                           |
+| **Basic Combatwear**     | 2          | -                  | 2    | 2,000   | The local equivalent of strapping sheets of metal to your body where you can. Barely better than nothing                                                                                                           |
 | **VWS "Foxhide"**        | 3          | -                  | 3    | 5,000   | A common choice for security personnel and independent contractors, offering decent protection without excessive bulk.                                                                                             |
 | **KSK "Fishbones"**      | 3          | Tactical Webbing 2 | 4    | 9,000   | Rugged and adaptable, the 'Fishbones' is a favorite among salvage crews and asteroid miners for its integrated webbing that makes carrying essential tools effortless.                                             |
 | **VWS "Wolfhide"**       | 4          | -                  | 4    | 14,000  | A heavier variant of the VWS combat suit, the 'Wolfhide' provides enhanced ballistic and energy protection for those operating in higher-threat environments.                                                      |
 | **PA "Leopard spot"**    | 3          | Enhanced Stealth 1 | 4    | 26,500  | Engineered for discretion, the 'Leopard Spot' incorporates basic stealth technology, making it suitable for reconnaissance and covert operations where avoiding direct confrontation is key.                       |
-| **CF "Salamander Skin"** | 3          | Reactive Armor 3   | 4    | 35,000  | This lightweight yet resilient armor utilizes adaptive thermoreactive plating, allowing it to dynamically disperse incoming energy and kinetic impacts, akin to a salamander shedding its skin.                    |
+| **CF "Salamander Skin"** | 3          | Reactive Armor 2   | 4    | 35,000  | This lightweight yet resilient armor utilizes adaptive thermoreactive plating, allowing it to dynamically disperse incoming energy and kinetic impacts, akin to a salamander shedding its skin.                    |
 | **VWS "Bearhide"**       | 5          | -                  | 5    | 40,000  | The 'Bearhide' offers substantial protection, favored by heavy assault teams and those expecting severe engagements. Its robust plating can withstand considerable punishment.                                     |
 | **KSK "Sharkbones"**     | 5          | Tactical Webbing 2 | 6    | 52,000  | An up-armored version of the 'Fishbones' line, the 'Sharkbones' maintains its utility with integrated webbing while providing superior ballistic protection for hazardous duty environments.                       |
-| **CF "Drakescale"**      | 5          | Reactive Armor 4   | 6    | 58,000  | Utilizing advanced energy-dispersing fields, the 'Drakescale' actively counters incoming attacks, making it ideal for high-intensity firefights where every point of defense matters.                              |                                                                                                         |
+| **CF "Drakescale"**      | 5          | Reactive Armor 3   | 6    | 58,000  | Utilizing advanced energy-dispersing fields, the 'Drakescale' actively counters incoming attacks, making it ideal for high-intensity firefights where every point of defense matters.                              |                                                                                                         |
 | **PA "Tiger stripe"**    | 5          | Enhanced Stealth 2 | 6    | 60,000  | An advanced stealth suit, the 'Tiger Stripe' offers superior acoustic and thermal dampening, allowing for deeper infiltration and more complex covert operations.                                                  |
 | **VWS "Ironhide"**       | 6          | -                  | 7    | 75,000  | The pinnacle of VWS heavy combat suits, the 'Ironhide' is designed for maximum survivability in the most extreme combat zones, offering unparalleled ballistic and energy resistance.                              |
 | **KSK "Whalebones"**     | 5          | Tactical Webbing 3 | 7    | 120,000 | The ultimate evolution of the KSK 'bones' series, the 'Whalebones' combines heavy-duty ballistic protection with extensive tactical webbing, making it indispensable for extended operations and extreme loadouts. |
-| **CF "Dragonscale"**     | 5          | Reactive Armor 5   | 7    | 155,000 | The pinnacle of reactive defense, 'Dragonscale' armor integrates an enhanced energy field system to deflect and dissipate even the most powerful incoming attacks.                                                 |
+| **CF "Dragonscale"**     | 5          | Reactive Armor 4   | 7    | 155,000 | The pinnacle of reactive defense, 'Dragonscale' armor integrates an enhanced energy field system to deflect and dissipate even the most powerful incoming attacks.                                                 |
 | **PA "Lion mane"**       | 5          | Enhanced Stealth 3 | 7    | 180,000 | The apex of stealth technology, the 'Lion Mane' renders its wearer virtually invisible to conventional and most advanced sensor systems, perfect for deep-cover operations and assassinations.                     |
 
 ## Special Properties
@@ -44,11 +45,10 @@ void. Armors are defined by their **Protection**, **Special Properties**, **Load
 * **Tactical Webbing X:** The armor features specialized pouches, magnetic clamps, and load-bearing harnesses. Items
   with a total Load of **X** or less can be carried on the armor itself without counting against the character's total
   Load limit.
-* Reactive Armor X: The armor is equipped with energy-dispersing fields that actively counter incoming attacks. Once
-  per Round, when the wearer takes damage from an attack, they get a free Contest against the Damage Roll, rolling a
-  number of **d10s** equal to **X**.
-* Enhanced Reactive Armor X: A more advanced version of Reactive Armor. Once per Round, when the wearer takes damage
-  from an attack, they get a free Contest against the Damage Roll, rolling a number of **d12s** equal to **X**.
+* Reactive Armor X: The armor is equipped with energy-dispersing fields that actively counter incoming attacks. When the
+  wearer takes damage from an attack, they get a free Contest against the Damage Roll, rolling a number of **d12s**
+  equal to **X**. If the dice rolled fails to negate damage, they can be rolled again the next time the wearer takes
+  damage from an attack. All Reactive Armor dice recharge at the beginning of the Round.
 * Sealed: The armor is hermetically sealed and has built-in thermal layers and an internal oxygen supply, allowing
   it to operate in hazardous environments like vacuum or toxic atmospheres.
 

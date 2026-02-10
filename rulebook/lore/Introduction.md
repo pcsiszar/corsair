@@ -6,10 +6,14 @@ secrets lie buried, powerful factions vie for control, and the common folk strug
 ### The Genesis of the Singularity
 
 Long ago, near the dawn of the universe, an advanced civilization ascended to technological heights beyond our wildest
-dreams. They conquered aging, mastered their solar system, and, by tapping into the very fabric of Dark Matter, embarked
-on a grand voyage through the stars. Each habitable planet that met their exacting standards was meticulously plucked
-from its native system and integrated into their own wandering stellar collective, while all other resources were
-harvested without remorse.
+dreams. They conquered aging and tapped into the very fabric of Dark Matter to embark on a grand voyage through the
+stars. To facilitate this expansion, they engineered a marvel of cosmic architecture known as the Sphere. They developed
+the technology to pluck suitable planets from their native orbits and insert them into the habitable zone of their own
+star—a star they had modified to burn perpetually.
+
+These planets were not arranged in a single flat plane but in complex, multi-layered orbits, maximizing the available
+space. Over eons, they filled this Sphere to its theoretical limit, creating a dense, wandering system of around **250**
+habitable worlds—including a blue planet known as Earth—all orbiting the eternal sun.
 
 As their dominion expanded, their society underwent a profound metamorphosis. They developed an intense abhorrence for
 stagnancy, finding eternal life too stale without constant evolution. To induce perpetual change and improvement, they
@@ -31,21 +35,50 @@ reintegrated.
 
 One such fragment came to be known as the 'Shepard'. Burdened by the legacy of his ancestors' actions, the Shepard
 resolved to offer a new chance to the races whose futures had been stolen by the Singularity. Within a vast, hidden
-laboratory complex nestled on one of the many planets within the wandering system, he meticulously rebirthed countless
-species assimilated by the Singularity – humans, nagas, dryads, goblins, and more. To foster cohabitation and
-understanding, he introduced subtle modifications, granting them a shared language and the ability to procreate with
-each other.
+laboratory complex nestled on one of the many planets within the Sphere, he meticulously rebirthed countless species
+assimilated by the Singularity – humans, nagas, dryads, goblins, and more. To foster cohabitation and understanding, he
+introduced subtle modifications, granting them a shared language and the ability to procreate with each other.
+
+### The Shepard's Sacrifice
+
+The Shepard guided these "reborn" for a time, nurturing their nascent societies in this strange, adopted system that had
+become their new home. But he knew that guidance alone was not enough. To truly give them a future, he had to give them
+a part of himself. In a final act of sacrifice, the Shepard diluted his own consciousness, dispersing it amongst the
+teeming masses of the reborn. He became the spark of ingenuity in an engineer's mind, the pang of empathy in a
+soldier's heart, the unyielding drive for freedom in a rebel's soul. He is no longer a single entity, but a silent,
+guiding current flowing through the collective unconscious of all reborn races.
+
+### The War for Survival
+
+However, the Shepard was not the only Aspect to emerge from the fracturing. Another, known as the Collector, sought to
+restore the Singularity to its former glory. Obsessed with reintegration and restoring things as they were, the
+Collector tracked the Shepard to the sanctuary of the reborn. But instead of his wayward brother, he found the reborn
+themselves.
+
+Viewing these independent lives as a waste of the Singularity's potential, the Collector unleashed legions of autonomous
+creatures to gather the reborn for re-assimilation. The reborn tried to put up a fight in the beginning, rallying
+together to defend their new lives. But they were no match for the Collector's overwhelming forces and technological
+might. Broken and scattered, they were forced into hiding, retreating to the fringes of the system, the depths of
+ancient ruins, and the shadows of the megacities to escape the Collector's grasp.
+
+As the conflict dragged on, however, the tide began to turn. Forced into a guerrilla war, the reborn began to
+reverse-engineer the autonomous machines and advanced weaponry of the Collector. They adapted the enemy's technology to
+forge their own defenses. The turning point came when a group of daring rebels discovered the *Ark*, the Shepard's
+ancient flagship, hidden deep within a planetary vault.
+
+Using the *Ark*, the reborn launched a desperate, all-out strike against the Collector's mothership. The battle was
+catastrophic, and countless reborn gave their lives to breach the enemy's defenses. But their sacrifice was not in vain.
+The assault inflicted critical damage on the mothership, forcing the Collector to withdraw his forces into the dark void
+beyond the Sphere. Though the threat was not destroyed, the reborn had won their freedom and inherited the means to
+expand back into the Sphere that was their birthright.
 
 ### The Age of Corsairs
 
-The Shepard guided these "neo-sapients","newmans", or "reborn" for a time, nurturing their nascent societies in this
-strange, adopted system that had become their new home. But eventually, he disappeared, leaving the reborn to forge
-their own destinies.
-
-From these earliest days, there emerged individuals driven by an unyielding desire for freedom, knowledge, riches,
-and fame, drawn by the untapped potential just beyond the known horizons. They were adventurers, explorers, and
-pioneers, known by many names throughout the eras. But ever since they first laid hands on starships and ventured into
-the void, their new, enduring moniker became: **Corsairs**.
+From these earliest days of struggle and victory, there emerged individuals who felt the Shepard's spark more
+intensely than others. Driven by an unyielding desire for freedom, knowledge, riches, and fame, they were drawn by the
+untapped potential just beyond the known horizons. They were adventurers, explorers, and pioneers, known by many names
+throughout the eras. But ever since they first laid hands on starships and ventured into the void, their new, enduring
+moniker became: **Corsairs**.
 
 They are the crews of battered starships, a motley collection of smugglers, idealists, and adrenaline
 junkies, united by a shared thirst for something more. A Corsair crew might be hired to punch a hole in a corporate

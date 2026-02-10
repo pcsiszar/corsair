@@ -16,7 +16,7 @@ between life and death. Melee weapons are defined by their **Reach**, **Damage B
 - **Load**: The weight and bulk of the weapon.
 - **Cost**: The average market price in Credits.
 
-## Fist Weapons
+## Melee Weapons
 
 | Weapon Name         | Reach               | Dmg Bonus             | Penetration | Load | Cost   | Description                                                                                                                                |
 |:--------------------|:--------------------|:----------------------|:------------|:-----|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------|

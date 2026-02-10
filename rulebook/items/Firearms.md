@@ -98,6 +98,34 @@ Massive weapons requiring significant strength to wield, offering overwhelming f
 | **KSK "Kraken"**  | 1 / 2 / 3 / 2      | 0   | +2        | 2           | 5    | 13,500 |             |
 | **CQC "Typhoon"** | 4 / 2 / 0 / -      | 4   | +2        | 2           | 5    | 15,000 |             |
 
+## Heavy Weapons
+
+Massive weapons requiring significant strength to wield, offering overwhelming firepower.
+
+| Weapon Name       | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost   | Description |
+|:------------------|:-------------------|:----|:----------|:------------|:-----|:-------|:------------|
+| **CF "Basilisk"** | 1 / 4 / 2 / 0      | 2   | +2        | 0           | 5    | 9,000  |             |
+| **VWS "Dread"**   | 2 / 3 / 1 / 0      | 3   | +0        | 3           | 5    | 9,500  |             |
+| **PA "Tiger"**    | 2 / 2 / 2 / 1      | 2   | +2        | 1           | 5    | 11,000 |             |
+| **KSK "Kraken"**  | 1 / 2 / 3 / 2      | 0   | +2        | 2           | 5    | 13,500 |             |
+| **CQC "Typhoon"** | 4 / 2 / 0 / -      | 4   | +2        | 2           | 5    | 15,000 |             |
+
+## Blast Weapons
+
+Massive weapons requiring significant strength to wield, offering overwhelming firepower.
+
+| Weapon Name        | Range (S/M/L/E) | Special Properties                     | Dmg | Penetration | Load | Cost   | Description |
+|:-------------------|:----------------|:---------------------------------------|:----|:------------|:-----|:-------|:------------|
+| **CF "Basilisk"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (3H3d8, 4m Radius)   | 0   | 4           | 4    | 26,000 |             |
+| **CQC "Vulcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d10, 12m Radius) | 0   | 2           | 4    | 31,500 |             |
+| **VWS "Rocket"**   | 1 / 1 / 1 / -   | Ammo, Area Attack (1H1d12, 4m Radius)  | +6  | 5           | 5    | 40,000 |             |
+| **PA "Manticore"** | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d8, 4m Radius)   | +7  | 3           | 5    | 55,000 |             |
+|                    |
+
+### Special Properties
+
+**Ammo** Consumes 1 Explosive Ammo when fired
+
 ## Weapon Upgrades
 
 While a stock firearm is a reliable tool, a customized one is an extension of the wielder's will. **Upgrade Kits** allow
