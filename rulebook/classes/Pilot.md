@@ -53,15 +53,17 @@ If it runs out of charges, it stops all functions until it gains a Charge
 
 #### Skill List
 
-Basic Module
+Basic Skills
 
-| Name       | Battery Cost | Description                                                          |
-|:-----------|:-------------|:---------------------------------------------------------------------|
-| Detach     | 1            | Detach the Exodrone.                                                 |
-| Auto-Pilot | 2            | The Exodrone gains 1 AP until the beginning of the next Player Turn. |
-| Attach     | 0            | Attach the Exodrone.                                                 |
+| Name          | Battery Cost | Description                                                                                                                                             |
+|:--------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Detach        | 1            | Detach the Exodrone.                                                                                                                                    |
+| Dynamo Charge | 0            | Once per turn, if the Exodrone is attached, you may drop the highest dice you roll that uses the wearer's Physical Attributes to gain 1 Battery Charge. |
+| Power Boost   | 2            | The Exodrone gain +1 to a Physical Attributes until the beginning of the next Player Turn.                                                              |
+| Auto-Pilot    | 2            | If the Exodrone is detached gains 1 AP until the beginning of the next Player Turn.                                                                     |
+| Attach        | 0            | Attach the Exodrone.                                                                                                                                    |
 
-Guardian Module
+Warden Skills
 
 | Name           | Battery Cost | Description                                                                                                     |
 |:---------------|:-------------|:----------------------------------------------------------------------------------------------------------------|
@@ -71,7 +73,7 @@ Guardian Module
 | Shield Dome    | 3            | Increase the Cover Rating of the space the Exodrone occupies until the end of the Round while in Detached Mode. |
 | Block Attack   | 1            | Contest an attack against the Exodrone or an ally in the same space while in Detached Mode.                     |
 
-Duelist Module
+Duelist Skills
 
 | Name             | Battery Cost | Description                                                                                                                                                                                                                                                                                                   |
 |:-----------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,6 +82,26 @@ Duelist Module
 | Power Kick       | 2            | When Making a melee attack with the Exodrone, or while it's attached, it can deliver a powerful kick that moves the target 1 space in any direction as long as it's the same size, and deal damage equal to the Exodrone's Power. If the target cannot be moved due to terrain, the kick deals double damage. |
 | Coordinated Move | 1            | The next time you take a Movement Action during the current turn, the Exodrone also takes a Movement Action for free, but it can only move towards the space where you finished your movement.                                                                                                                |
 | Tag Team         | 3            | The next Melee Attack you take during the current turn, the Exodrone participates as a Teamwork Action for free, as long as it's detached and in the same space.                                                                                                                                              |
+
+Gunner Skills
+
+| Name            | Battery Cost | Description                                                                                                                                                                                   |
+|:----------------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Devastator Mode | 3            | While the Exodrone is attached, you can wield Firearms up to Load 4 in one hand until the end of the round.                                                                                   |
+| Gunslinger Mode | 3            | While the Exodrone is attached, you can wield two more Firearms up to Load 2 in each of the Exodrone's hands until the end of the round.                                                      |
+| Shoulder Mount  | 5            | The Exodrone can mount a weapon up to Load 5 that can be fired together with the wielder's weapons while attached, or the Exodrone's while detached.                                          |
+| Spotter Mode    | 1            | Until the end of the turn, when shooting a firearm, if the Exodrone can see your target, and is closer to it than you are, it grants +1 Upgrade to the test.                                  |
+| Turret Mode     | 4            | While detached, the Exodrone reconfigures itself as a turret until the end of the round, preventing itself from doing anything but firing, but shooting it's equipped weapon costs only 1 AP. |
+
+Assault Skills
+
+| Name         | Battery Cost | Description                                                                                                                                                                                                                                                      |
+|:-------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Take Off     | 2            | When you take a Movement Action, you can detach from the Exodrone at any point during your movement. At that point, either you or the Exodrone can perform a separate movement action, using the result of your original roll, without it costing additional AP. |
+| Spider Crawl | 1            | Until the                                                                                                                                                                                                                                                        |
+| Jet Boost    | 5            | The Exodrone can mount a weapon up to Load 5 that can be fired together with the wielder's weapons while attached, or the Exodrone's while detached.                                                                                                             |
+| Jump Pad     | 1            | Until the end of the turn, when shooting a firearm, if the Exodrone can see your target, and is closer to it than you are, it grants +1 Upgrade to the test.                                                                                                     |
+| Flying Mode  | 3            | While detached, the Exodrone reconfigures itself as a turret until the end of the round, preventing itself from doing anything but firing, but shooting it's equipped weapon costs only 1 AP.                                                                    |
 
 #### Exodrone Progression
 
