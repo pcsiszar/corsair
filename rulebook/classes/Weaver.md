@@ -12,21 +12,19 @@ faint hum and a shifting, geometric surface pattern.
 
 A Weaver's power is defined by three attributes:
 
-* **Create:** Assemble matter from the Weaver's Reserve to create new objects.
+* **Create:** Craft an object using your nanites.
 
-* **Control:** Direct the nanite swarm with precision for intricate shaping and manipulation.
+* **Control:** Manipulate an object using your nanites.
 
-* **Modify:** Alter existing objects.
+* **Modify:** Alter existing objects using your nanites.
 
-When you make use of your nanites, you will roll with one or more of these attributes if a test is required. By default
+When you make use of your nanites, you will roll with one or more of these attributes if a test is required. By default,
 you are only allowed to create, control and modify objects that do not have statistics associated with them. This means
-weapons, armor, cover, healing equipment is off the table unless you unlock that ability by specializing with a
-Nanite Codex. Codexes allow you to work your magic on a specific category of items, each codex describing the mechanics
-of turning rolls with the Attributes into statistics of the given equipment.
+weapons, armor, cover, healing equipment is off the table unless you unlock that ability by learning a Nanite Skill.
 
 To use your nanites during a test you must describe what the nanites create or modify for you, or how controlling the
 nanites in your creation helps you in achieving your goal. For a locked door, use Create + Strength to create a crowbar
-to try and force it open or Create + Finesse to create a lockpick, or Create + Control to try and create a key then
+to try and force it open or Create + Finesse to create a lock pick, or Create + Control to try and create a key then
 alter it slightly to fit the keyhole, or Modify + Control to alter an
 existing key or make the lock fit that key instead.
 
@@ -45,217 +43,132 @@ Everything you create has a Load of 0 and every modification you make to equipme
 You can command a nanite creation or modification to disassemble and return to you at any time for free, at which point
 you regain the reserve spent on it.
 
-**1 Reserve** : Handheld tools, a helmet, a shield, a sword, a pistol, a blanket, a pair of handcuffs, a coat, a 24m
-rope. Generally Equipment in the 1-2 Load Range.
-**2 Reserve**: A rifle, a ladder, a chair, a full set of clothes, a 48 meter rope, a small 1m x 1m wall with a few
-centimeter thickness, a blanket.
-Generally Equipment in the 3-4 Load range.
-**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit, equipment in the 5-6 Load range.
+**1 Reserve** : Handheld tools, a helmet, a shield, a sword, a pistol, a blanket, a pair of handcuffs, general
+equipment in the 1-2 Load Range.
+**2 Reserve**: A ladder, a chair, a full set of clothes, a large blanket.
+general equipment in the 3-4 Load range.
+**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit ,general equipment in the 5-6 Load range.
 
 Standard creations also aren't allowed to alter the Terrain, meaning they can't make Cover, or turn a Space into
 Difficult Terrain.
 
-#### Nanite Codexes
+#### Nanite Skills
 
-Nanite Codexes are specialized rule sets that allow a Nanite Weaver to create, control, and modify items that possess
-game-mechanical statistics. By default, a Nanite Weaver can only affect items without statistics (like a rope or a
-simple crowbar). With a Codex, you unlock the ability to directly influence equipment like weapons, armor, or
-specialized tools.
+Nanite Skills give your nanites enhanced capabilities. A nanite skill has three uses, one for each of your Attributes.
+Learning on skill grants you access to all it's uses.
 
-Each Codex focuses on a specific category of items and provides a structured way to translate the Nanite Weaver's
-actions (Create, Control, or Modify attributes) into tangible, stat-altering effects based on the Success Points
-generated from a Nanite Weaver test.
+**HardWeave**: Your nanites gain the ability to bond together into a strong enough protect you from incoming attacks.
 
-All nanite-created equipment have 0 Load.
+- **HardWeave Shield (Create)**: You forge a shield for yourself or an ally using your nanites. For 1 reserve, roll a
+  Success Test with Create. For every 3 Success Points, the shield's Protection Bonus increases by 1.
+- **HardWeave Armor (Modify)**: You reinforce your or an ally's armor using your nanites. For 1 Reserve, roll a Success
+  Test with Modify. For every 4 Success Points, you increase their Armor's Protection by 1.
+- **HardWeave Block (Control)**: When contesting an attack, instead of it costing 1 AP, you can pay 1 Reserve and use
+  Control for the Contest roll. That Reserve recharges at the beginning of the next round.
 
-##### Melee Codex
+**SliceWeave**: Your nanites gain the ability to bond together to form a deadly sharp edge.
 
-This Codex allows a Nanite Weaver to manipulate melee weapons, enabling the creation of new weapons or the enhancement
-of existing ones. Nanite-crafted melee weapons typically manifest as sharp-edged, robust tools made from hardened nanite
-constructs.
+- **SliceWeave Blade (Create)**: Your nanites for a blade that you or your allies can wield. For 1 Reserve, roll a
+  Success Test with Create. For every 2 Success Points, it receives +1 Damage Bonus, or +1 Reach.
+- **SliceWeave Edge (Modify)**: Your nanites the edge of a blade that you or your allies are wielding. For 1 Reserve,
+  roll a Success Test with Modify. For every 3 Success Points, the weapon receives +1 Damage Bonus or +1 Reach.
+- **SliceWeave Form (Control)**: Your nanites can help you grasp a melee weapon with inhumane dexterity. For 1 Reserve
+  that recharges at the beginning of the next round, your next melee attack can substitute Control for any one attribute
+  in the Complex Test you take. If the weapon you attack with was Created or Modified by you, you don't need to pay any
+  Reserve.
 
-**Create Weapon:**
+**BoltWeave**: Your nanites gain the ability to propel themselves with great velocity, acting akin to bullets.
 
-You spend 1 Reserve and an Action Token to create a melee weapon with customized reach and damage bonus. You roll a
-Success Roll using Create + Create and spend the Success Points to buy either Damage Bonus or Reach.
+- **BoltWeave Weapon (Create)**: Your nanites for a blade that you or your allies can wield. For 1 Reserve, roll a
+  Success Test with Create. For every 2 Success Points, it receives +1 Accuracy in the short to medium range, or +1
+  Damage Bonus.
+- **BoltWeave Bullet (Modify)**: You weave your nanites into bullets that can be loaded into any of your or your allies'
+  ranged weapons. For 1 Reserve, you can roll a Success Test with Modify. For every 3 Success Points, you can increase
+  the Accuracy of your current weapon across all ranges by one, or increase its Damage Bonus by 1. This bonus lasts
+  until the end of the round in which you attack with the designated weapon.
+- **BoltWeave Throw (Control)**: Anything you create with your nanites can be thrown using your Control attribute as
+  long as it is in the same space as you. The maximum range is 40 meters.
 
-| Attribute             | Cost per Rank (Success Points) |
-|:----------------------|:-------------------------------|
-| **Damage Bonus (+1)** | 3 SP                           |
-| **Reach (+1)**        | 2 SP                           |
+**FloatWeave**: Your nanites gain the ability to lift objects and lift themselves while formed into objects.
 
-**Modify Weapon:**
+- **Floatweave Infusion (Create)**: Any item you create up to Load 2 can float mid-air and can be moved in any direction
+  using Floatweave Hand without paying for it's Reserve cost.
+- **Floatweave Wings (Modify)**: You weave your nanites into wings attached to you or an allied creature. For 1 Reserve,
+  roll a Success Test with Modify. For every Success Point, the creature can move up to 2 meters in any direction, while
+  ignore Difficult Terrain. As long as the wings remain attached, the creature can stay in the air hovering, and you can
+  also repeat the Success Test for no additional Reserve cost to move the creature again.
+- **Floatweave Hand (Control)**: Your nanites can be used to move objects up to Load 2. For 1 Reserve that recharges at
+  the beginning of the next round, roll a Success Test using Control. The targer object can be moved up to 1 meter for
+  each Success Point. If the Weaver wants to the object to take complex movements, the GM might set a threshold for the
+  required Success Points.
 
-You spend 1 Reserve and an Action Token to alter a melee weapon with customized reach and damage bonus. You roll a
-Success Roll using Modify + Modify and spend the Success Points to buy either Damage Bonus or Reach.
+**BindWeave**: Your nanites gain the ability to stick to any surface they touch, and this effect can be toggled on and
+off at your will.
 
-| Attribute             | Cost per Rank (Success Points) |
-|:----------------------|:-------------------------------|
-| **Damage Bonus (+1)** | 6 SP                           |
-| **Reach (+1)**        | 4 SP                           |
+- **BindWeave Infusion (Create)**: Any item you create can now turn it's surface sticky. You roll Create for any
+  downgrade or blocker effect this might create.
+- **BindWeave Coating (Modify)**: You coat the surface of a creature or object no larger than standard sized creature's
+  handprint, with fingers extended for 1 Reserve. You roll Modify for any downgrade or blocker effect this might create.
+  The target must either be in the same space as you.
+- **BindWeave Yank (Control)**: Your nanites, even in their primal form can be used to yank a creature or object. For 1
+  that recharges at the ned of the round, Reserve you roll a Success or Complex Test with Control + Control depending on
+  whether the creature wants to be willingly moved or not. For every 2 success points the target is moved 4 meters in
+  any direction.
 
-**Control Weapon:**
+**LifeWeave**: Your nanites gain the ability to heal the wounds of creatures.
 
-You can replace a Finesse Attribute in a test you take using your melee weapon that your nanites created or modified
-with your Control Attribute.
+- **LifeWeave Elixir (Create)**: For 1 Reserve, you can create a consumable that any creature can use heal their wounds.
+  When consumed, the user rolls a Success Test with your Create Attribute. For every 2 Success Points, they can heal 1
+  light wound or light stress, and for every 4 Success Points, they gain 1 Upgrade to their next Test.
+- **LifeWeave Heal (Modify)**: You heal a creature in your space using your nanites. For 1 Reserve that recharges
+  at the beginning of the next round you roll a Success Test. For every 3 Success Points, you can heal two light wound
+  on the target.
+- **LifeWeave Enhancement (Control)**: Any creature you used your Lifeweave skills on this round can use your Control
+  attribute as a replacement for any one physical attribute.
 
-##### Firearm Codex
+**StealthWeave**: Your nanites gain the ability to alter the reflected light from their surface.
 
-This Codex allows a Nanite Weaver to manipulate firearms, enabling the creation of new ranged weapons or the enhancement
-of existing ones. Nanite-crafted firearms can take any shape or form but most model theirs to closely resemble their
-real life variants.
+- **StealthWeave Infusion (Create)**: Any object you create using your nanites can cloak itself. Cloaked creatures and
+  objects do not require tests to remain visually undetected from further than 40 meters. If you rolled a
+  Success Test using Create, you can spend an equal amount of Success Points to buy an Upgrade/Downgrade effect that
+  represents a near-invisible visual profile.
+- **StealthWeave Coating (Modify)**: You coat a creature or object in your nanites to cloak them. For 1 Reserve, you
+  roll a Success Test using Modify. You can the Success Points to buy an Upgrade/Downgrade effect that represents a
+  near-invisible visual profile. You also don't need to take tests to remain visually undetected from further than 40
+  meters.
+- **StealthWeave Veil (Control)**: Your nanites can form an obscuring veil around you. For 1 Reserve that recharges at
+  the beginning of the next round, whenever you or anyone within 4 meters takes a Test to avoid detection during the
+  current round, you can substitute Control for any one Attribute in the test.
 
-**Create Weapon:**
+**Cyberweave**: Your nanites gain the ability to form complex circuits and mechanized joints.
 
-You spend 1 Reserve and an Action Token to create a customized ranged weapon. You roll a
-Success Roll using Create + Create and spend the Success Points to Attributes. When creating a
-weapon it must have at least 1 Rate of Fire, and 1 Accuracy at any range.
-
-| Attribute                   | Cost per Rank (Success Points)      |
-|:----------------------------|:------------------------------------|
-| **Damage Bonus +1**         | 2 SP                                |
-| **Penetration  +1**         | 2 SP                                |
-| **Rate of Fire +1**         | 1 SP                                |
-| **Accuracy +1 (any range)** | 1 SP up to 3, 2 SP for 4 and beyond |
-
-**Modify Weapon:**
-
-You spend 1 Reserve and an Action Token to alter a ranged weapon. You roll a
-Success Roll using Modify + Modify and spend the Success Points to Attributes.
-
-| Attribute                   | Cost per Rank (Success Points)      |
-|:----------------------------|:------------------------------------|
-| **Damage Bonus +1**         | 6 SP                                |
-| **Penetration  +1**         | 6 SP                                |
-| **Rate of Fire +1**         | 3 SP                                |
-| **Accuracy +1 (any range)** | 3 SP up to 3, 5 SP for 4 and beyond |
-
-**Control Weapon:**
-
-You can replace a Finesse Attribute in a test you take using a ranged weapon that your nanites created or modified with
-your Control Attribute. This costs 1 Reserve which recharges at the beginning of the next round.
-
-##### Armor Codex
-
-This Codex allows a Nanite Weaver to create and alter suits of armor.
-
-**Create Armor:**
-
-You spend 2 Reserve and an Action Token to create a customized armor set. You roll a
-Success Roll using Create + Create and spend the Success Points to Attributes.
-
-| Attribute         | Cost per Rank (Success Points) |
-|:------------------|:-------------------------------|
-| **Protection +1** | 2 SP                           |
-
-**Modify Armor:**
-
-You spend 1 Reserve and an Action Token to alter a ranged weapon. You roll a
-Success Roll using Modify + Modify and spend the Success Points to Attributes.
-
-| Attribute               | Cost per Rank (Success Points) |
-|:------------------------|:-------------------------------|
-| **Protection Bonus +1** | 4 SP                           |
-
-**Control Armor:**
-
-You can contest an attack that targets you by deploying the nanites as reactive armor using your Control Attribute. This
-costs 1 Reserve which recharges at the beginning of the next round.
-
-##### Circuit Codex
-
-This Codex allows a Nanite Weaver to create or hack eletrical circuits.
-
-**Create Circuit:**
-
-You spend 1 Reserve and an Action Token to create a customized miniature electric device. You can spend Success points
-to add Attributes to it that denote its capabilities, and you can also make it follow simple instructions.
-
-| Attribute          | Cost per Rank (Success Points) | Description                                                        |
-|:-------------------|:-------------------------------|:-------------------------------------------------------------------|
-| **Camera +1**      | 2 SP                           | Used for tests involving visual perception                         |
-| **Microphone +1**  | 2 SP                           | Used for tests involving audio perception                          |
-| **Camo +1**        | 2 SP                           | Used for stealth movement                                          |
-| **Interfacing +1** | 2 SP                           | Used for tests to interact with digital devices                    |
-| **Motorics +1**    | 2 SP                           | Used for tests to interact with mechanical devices ground movement |
-| **Propeller +1**   | 2 SP                           | Used for aquatic movement                                          |
-| **Rotors +1**      | 4 SP                           | Used for flying movement                                           |
-
-**Modify**
-
-You spend 1 Reserve and an Action Token to alter a circuit. While complex digital software (like shop kiosks and other
-payment systems) is beyond what you can manage, you can alter the behaviour of simple electronics, like doors, cameras,
-sensors and other devices.
-
-| Attribute       | Cost per Rank (Success Points) | Description                                                   |
-|:----------------|:-------------------------------|:--------------------------------------------------------------|
-| **Override +1** | 2 SP                           | Perform intended functions, but at your command               |
-| **Glitch +1**   | 2 SP                           | Perform unintended actions that do not damage the device      |
-| **Meltdown +1** | 2 SP                           | Perform actions that self-sabotage and cause permanent damage |
-
-**Control Circuit:**
-
-You can use Control in place of one of the Attributes bestowed on the circuits you created or modified when performing
-tests with them.
-
-##### Healing Codex
-
-This Codex allows a Nanite Weaver to create and healing nanites the repair damaged tissue.
-
-**Create Healing:**
-
-You spend 1 Reserve and an Action Token to create and inject healing nanites. The nanites need time to work and must
-remain in the target's system until they finish their job. Healing with the nanites is a triggered effect that triggers
-at the end of the round at which point they clear Physical Condition Track segments for every 2 Success Points generated
-by a Create + Create Success Test.
-
-When used in place to place or day to day pacing, segments can be cleared for only 1 Success Point.
-
-**Modify Healing:**
-
-You spend 1 Reserve and an Action Token to enhance the healing properties of an equipment or a consumable. The next use
-of the modified healing gear or item restores additional segments for every 2 Success Points generated by a Modify +
-Modify Success Test.
-
-**Control Healing:**
-
-When performing a medical procedure, you can substitute Control for one Attribute in the associated test. This
-costs 1 Reserve which recharges at the beginning of the next round.
-
-##### Image Codex
-
-This Codex allows a Nanite Weaver to create illusions or alter their looks using nanites that can change their color.
-
-**Create Image:**
-
-You spend 1 Reserve and an Action Token to weave a lifelike static object out of your nanites. It can withstand minor
-physical contact, but cannot resist any meaningful force (a firm handshake for example).
-
-**Modify Image:**
-
-You spend 1 Reserve and an Action Token to alter the visual appearance of an object with a fixed shape within your
-space. You can make it appear as something or someone else, or try to make it blend into the environment. The disguise
-can withstand minor physical contact but cannot resist any meaningful force.
-
-**Control Image:**
-
-When you Create or Modify an Image, you can substitute one Create or Modify Attribute with your Control attribute,
-and be able to move the image, as long as it shares your space. You can have the image move with you when you move
-without additional cost. If the image leaves your space, you can have it follow some predetermined loop of motion as
-long as it stays in the same place.
+- **Cyberweave Drone (Create)**: You create a small crawler drone with six legs, a sensor suite and universal
+  interface port. For 1 Reserve, you roll a Success Test using Create. For every 2 Success Points, you can either buy +1
+  Interfacing or +1 Sensors which are the drone's two core Attributes. The drone can move a fixed 20 meters per round.
+  As soon as it would take any damage, or would move further than 40 meters away from you, it breaks down into raw
+  nanites.
+- **Cyberweave Virus (Modify)**: You alter an electronic device making it bend to your will. For 1 Reserve, you can make
+  an electronic device in your space perform it's standard function, glitch out, or even damage itself. The GM will
+  decide the appropriate test which you take using Modify. As long as the modification remains in place, you can repeat
+  this without paying additional Reserve, and without you being in the same space, as long as you are within 40 meters
+  of the device.
+- **Cyberweave Swarm (Control)**: Your nanites spread out to provide tactical information about a small area. For 1
+  Reserve, select an area with a radius of 4 meters and roll a Success Test using Control. For every 2 Success Points,
+  your attacks gain an Upgrade against targets within the area. While the nanites are not recalled, you can repeat the
+  test and reposition the nanites for no additional Reserve cost.
 
 #### Nanite Progression
 
-At character creation, distribute 5 points among Create, Control, and Modify (max 4). The Nanite swarm's container can
-be upgraded by spending Credits.
+At character creation, distribute 5 points among Create, Control, and Modify (max 4). They start out with 1 Codex of
+their choice and 3 Reserve.
 
-| Level | Benefit                                         | Credit Cost |
-|-------|-------------------------------------------------|-------------|
-| 1     | 5 Attribute Points, Max Attribute Cap: 4        | 50,000*     |
-| 2     | +1 Attribute Point, +1 Reserve, +1 Codex        | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5 | 20,000      |
-| 4     | +1 Attribute Point, +1 Reserve, +1 Codex        | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6 | 70,000      |
-| 6     | +1 Attribute Point, +1 Reserve, +1 Codex        | 110,000     |
+| Level | Benefit                                             | Credit Cost |
+|-------|-----------------------------------------------------|-------------|
+| 1     | 5 Attribute Points, 3 Reserve, Max Attribute Cap: 4 | 50,000*     |
+| 2     | +1 Attribute Point, +1 Reserve, +1 Codex            | 10,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5     | 20,000      |
+| 4     | +1 Attribute Point, +1 Reserve, +1 Codex            | 40,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap becomes 6     | 70,000      |
+| 6     | +1 Attribute Point, +1 Reserve, +1 Codex            | 110,000     |
 
 * This cost is only applicable if the Nanite Weaver class was not gained with your starting class.
