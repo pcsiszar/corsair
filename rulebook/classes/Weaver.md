@@ -72,10 +72,10 @@ Learning on skill grants you access to all it's uses.
   Success Test with Create. For every 2 Success Points, it receives +1 Damage Bonus, or +1 Reach.
 - **SliceWeave Edge (Modify)**: Your nanites the edge of a blade that you or your allies are wielding. For 1 Reserve,
   roll a Success Test with Modify. For every 3 Success Points, the weapon receives +1 Damage Bonus or +1 Reach.
-- **SliceWeave Form (Control)**: Your nanites can help you grasp a melee weapon with inhumane dexterity. For 1 Reserve
-  that recharges at the beginning of the next round, your next melee attack can substitute Control for any one attribute
-  in the Complex Test you take. If the weapon you attack with was Created or Modified by you, you don't need to pay any
-  Reserve.
+- **SliceWeave Slash (Control)**: Your nanites perform a slashing attack against targets around you. For 1 Reserve that
+  recharges at the beginning of the next round, you select an adjacent space to you or your current one and roll a
+  Success Test using Control. You deal damage equal to result plus your Control Attribute to any target you choose in
+  the selected space. For each additional Reserve you spend, you can choose an additional space.
 
 **BoltWeave**: Your nanites gain the ability to propel themselves with great velocity, acting akin to bullets.
 
@@ -91,13 +91,13 @@ Learning on skill grants you access to all it's uses.
 
 **FloatWeave**: Your nanites gain the ability to lift objects and lift themselves while formed into objects.
 
-- **Floatweave Infusion (Create)**: Any item you create up to Load 2 can float mid-air and can be moved in any direction
-  using Floatweave Hand without paying for it's Reserve cost.
-- **Floatweave Wings (Modify)**: You weave your nanites into wings attached to you or an allied creature. For 1 Reserve,
+- **FloatWeave Infusion (Create)**: Any item you create up to Load 2 can float mid-air and can be moved in any direction
+  using FloatWeave Hand without paying for it's Reserve cost.
+- **FloatWeave Wings (Modify)**: You weave your nanites into wings attached to you or an allied creature. For 1 Reserve,
   roll a Success Test with Modify. For every Success Point, the creature can move up to 2 meters in any direction, while
   ignore Difficult Terrain. As long as the wings remain attached, the creature can stay in the air hovering, and you can
   also repeat the Success Test for no additional Reserve cost to move the creature again.
-- **Floatweave Hand (Control)**: Your nanites can be used to move objects up to Load 2. For 1 Reserve that recharges at
+- **FloatWeave Hand (Control)**: Your nanites can be used to move objects up to Load 2. For 1 Reserve that recharges at
   the beginning of the next round, roll a Success Test using Control. The targer object can be moved up to 1 meter for
   each Success Point. If the Weaver wants to the object to take complex movements, the GM might set a threshold for the
   required Success Points.
@@ -140,19 +140,19 @@ off at your will.
   the beginning of the next round, whenever you or anyone within 4 meters takes a Test to avoid detection during the
   current round, you can substitute Control for any one Attribute in the test.
 
-**Cyberweave**: Your nanites gain the ability to form complex circuits and mechanized joints.
+**CyberWeave**: Your nanites gain the ability to form complex circuits and mechanized joints.
 
-- **Cyberweave Drone (Create)**: You create a small crawler drone with six legs, a sensor suite and universal
+- **CyberWeave Drone (Create)**: You create a small crawler drone with six legs, a sensor suite and universal
   interface port. For 1 Reserve, you roll a Success Test using Create. For every 2 Success Points, you can either buy +1
   Interfacing or +1 Sensors which are the drone's two core Attributes. The drone can move a fixed 20 meters per round.
   As soon as it would take any damage, or would move further than 40 meters away from you, it breaks down into raw
   nanites.
-- **Cyberweave Virus (Modify)**: You alter an electronic device making it bend to your will. For 1 Reserve, you can make
+- **CyberWeave Virus (Modify)**: You alter an electronic device making it bend to your will. For 1 Reserve, you can make
   an electronic device in your space perform it's standard function, glitch out, or even damage itself. The GM will
   decide the appropriate test which you take using Modify. As long as the modification remains in place, you can repeat
   this without paying additional Reserve, and without you being in the same space, as long as you are within 40 meters
   of the device.
-- **Cyberweave Swarm (Control)**: Your nanites spread out to provide tactical information about a small area. For 1
+- **CyberWeave Swarm (Control)**: Your nanites spread out to provide tactical information about a small area. For 1
   Reserve, select an area with a radius of 4 meters and roll a Success Test using Control. For every 2 Success Points,
   your attacks gain an Upgrade against targets within the area. While the nanites are not recalled, you can repeat the
   test and reposition the nanites for no additional Reserve cost.
