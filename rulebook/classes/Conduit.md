@@ -1,11 +1,21 @@
 # Class: The Conduit
 
-> *"I am the storm that is approaching."*
+## Description
 
-A living vessel of volatile energy, the **Conduit** is defined by the **Aether Core** implanted within them. They are
-not merely soldiers, but batteries of raw power, cycling between the searing heat of **Flame**, the biting stillness of
-**Frost**, and the frenetic surge of **Lightning**. In battle, they are a rhythmic storm, their bodies glowing with
-accumulated power as they build up lethal **Charges** before unleashing them in cataclysmic **Burst Abilities**.
+The Conduit is the cell’s living battery and high-intensity shock trooper, defined by the volatile relationship between
+their biology and the Aether Core implanted within their chest. This core constantly generates a specialized strain of
+biotic nanomachines that flow through the user's veins like a secondary circulatory system. As these "Aether-cells"
+circulate, they build up a massive internal charge that the Conduit must periodically vent through devastating physical
+feats. Visually, a Conduit is a walking storm of elemental energy; the coursing ether leaves glowing, vein-like marks
+across their limbs and permanently alters the color of their eyes and hair to match their specific elemental attunement.
+
+The core utility of the Conduit lies in the management and release of this built-up pressure, manifesting as either
+Lightning, Frost, or Fire. By surging the Aether-cells through their muscles, the Conduit can execute near-instant
+bursts of movement that blur the vision of onlookers or trigger a state of rapid molecular reconstruction for
+near-instant regeneration of lethal wounds. When the charge reaches its peak, it can be expelled in localized,
+devastating blasts that can shatter armor or incinerate high-density alloys. This makes the Conduit a terrifying
+presence on the battlefield—a warrior who grows more dangerous as the conflict drags on, literally glowing with the
+lethal potential of the storm trapped inside their veins.
 
 ## Attributes
 
@@ -15,7 +25,9 @@ The Conduit's three primary attributes correspond to the elements they harness:
 - **Frost**: The essence of preservation, control, and entropy.
 - **Lightning**: The spark of speed, precision, and chain reactions.
 
-## Mechanics: Charge
+## Mechanics
+
+### Charge
 
 Conduit abilities revolve around the **Charge** mechanic. The Aether Core hums, growing louder and brighter as energy
 accumulates.
@@ -36,11 +48,13 @@ accumulates.
 
 ---
 
-## Amp Abilities
+## Skills
+
+### Amp Skills
 
 *You begin with knowledge of 2 Amp Abilities. You unlock more as you level up.*
 
-### Amp Body
+#### Amp Body
 
 *Elemental energy floods your muscles, pushing them beyond natural limits.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, increase the matching Physical Attribute
@@ -50,7 +64,7 @@ by 1.
 - **Frost**: Your movements become fluid and precise. Increase **Finesse**.
 - **Lightning**: Your reflexes twitch with anticipation. Increase **Agility**.
 
-### Amp Psyche
+#### Amp Psyche
 
 *The hum of the core sharpens your mind, accelerating your thoughts to match the element.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, increase the matching Mental Attribute
@@ -60,7 +74,7 @@ by 1.
 - **Frost**: Your mind becomes a cold, calculating fortress. Increase **Instinct**.
 - **Lightning**: Information processes at the speed of light. Increase **Knowledge**.
 
-### Amp Projectiles
+#### Amp Projectiles
 
 *You infuse your ammunition with elemental power, turning bullets into tracers of fire, ice, or lightning.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, your ranged attacks gain the following
@@ -71,7 +85,7 @@ benefits:
 - **Lightning**: Rounds arc electricity to nearby foes. For every 2 damage dealt to a target, deal 1 damage to a
   different target in the same space.
 
-### Amp Strikes
+#### Amp Strikes
 
 *Your weapons crackle with energy, discharging violently on impact.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, your melee attacks gain the following
@@ -82,7 +96,7 @@ benefits:
 - **Lightning**: Impact sends shockwaves through the group. For every 2 damage dealt to a target, deal 1 damage to a
   different target in the same space.
 
-### Amp Regen
+#### Amp Regen
 
 *You cauterize wounds or numb pain, forcing your body to knit together through sheer will.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, you can heal standard damage on specific
@@ -92,19 +106,19 @@ track segments.
 - **Frost**: Cool the mind and numb the shock. Heal 1 Mental segment.
 - **Lightning**: Jumpstart the system. Heal 2 segments (Mental or Physical), but only on the last box of a track.
 
-### Amp Shroud
+#### Amp Aura
 
 *An aura of elemental power surrounds you, visible as shimmering heat, drifting snowflakes, or static sparks.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, gain the following effect at the end of
-a Player Turn:
+each Player Turn (multiple instances do not stack):
 
 - **Flame**: Radiate intense heat. Deal damage equal to your **Flame** attribute to all creatures in your space.
 - **Frost**: Form a crystalline barrier. Gain a **Protection** bonus equal to half your **Frost** attribute (rounded
   down). This lasts until you take damage or until the end of the Player Turn.
-- **Lightning**: Synapses fire faster. Gain an **Upgrade** to your next Contest equal to half your **Lightning**
-  attribute (rounded down).
+- **Lightning**: The next time you land a melee attack or someone lands a melee attack on you, you can deal damage to
+  them equal to your Lightning attribute.
 
-### Amp Detection
+#### Amp Detection
 
 *Your senses expand, tuning into thermal gradients or electromagnetic fields.*
 **Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, you can detect specific phenomena within
@@ -115,24 +129,24 @@ a 20-meter radius.
 
 ---
 
-## Burst Abilities
+### Burst Skills
 
 *You begin with knowledge of 1 Burst Ability. You unlock more as you level up.*
 
-### Motion Burst
+#### Motion Burst
 
 *You explode into motion, leaving a trail of elemental residue as you dash across the battlefield.*
-**Effect**: When spending an action to move, move an additional number of spaces equal to Charges consumed ($N$). Ignore
-difficult terrain. This counts as flying.
+**Effect**: When spending an action to move, move an additional number of spaces equal to Charges consumed ($N$), in any
+direction, ignoring difficult terrain.
 
-- **Flame**: Leave a trail of fire. All creatures in the space where you end your movement take damage equal
+- **Flame/Lightning**: Impact like a fireball. All creatures in the space where you end your movement take damage equal
   to $N \times$ **Flame**.
 - **Frost**: Flash freeze the area. Spend points equal to $N \times$ **Frost** on **Downgrades** and **Blocker** effects
   against creatures in your destination space.
-- **Lightning**: Carry the momentum into a strike. Your next melee attack deals bonus damage equal to $N \times$ *
+- **Lightning**: Crash like a thunder. Your next melee attack deals bonus damage equal to $N \times$ *
   *Lightning**.
 
-### Nova Burst
+#### Nova Burst
 
 *You release a spherical detonation, turning the area into a disaster zone.*
 **Effect**: Make a special Area Attack against a target space within 40 meters. Roll a number of d10s equal to your
@@ -144,7 +158,7 @@ Conduit Attribute. Damage equals the sum of the $N$ highest dice.
 - **Lightning**: Arcs jump to specific targets. Select 1 additional target space per Charge, provided it intersects a
   line between your space and the original target.
 
-### Healing Burst
+#### Healing Burst
 
 *You vent excess energy to revitalize yourself and allies, the Aether Core glowing with soothing light.*
 **Effect**: Make a special Success Roll using your current Conduit Attribute. Roll d8s equal to the Attribute. Heal an
@@ -155,7 +169,7 @@ amount equal to the sum of the $N$ highest dice.
 - **Lightning**: A quick jolt. Heal only the amount of the single highest die. However, you may trigger this ability
   again for free once per Player Turn, up to $N$ total times. You may target other creatures in your space.
 
-### Torrent Burst
+#### Torrent Burst
 
 *You unleash a continuous stream of destruction, sweeping across the battlefield like a hose of pure energy.*
 **Effect**: Make a special Area Attack against a target space within 20 meters. Roll d12s equal to your Conduit
@@ -163,11 +177,11 @@ Attribute. Deal damage equal to the highest die. You may repeat this attack (tar
 to $N$ times this round.
 
 - **Flame**: The ground burns. Creatures entering the targeted space for the first time this round take 1d12 damage.
-- **Frost**: Glaciers rise. Create **Light Cover**, increase Cover Level by 1, or create **Difficult Terrain** in the
+- **Frost**: Glaciers rise. Create **Light Corner**, increase Cover Level by 1, or create **Difficult Terrain** in the
   targeted space.
 - **Lightning**: The storm spreads. You can target an additional adjacent space with each attack.
 
-### Supercharge Burst
+#### Supercharge Burst
 
 *You push the Aether Core to its limit, overflowing with power that enhances every action.*
 **Effect**: Trigger at any time during the Player Turn. Consumes all Charges ($N$). For the rest of the Round, gain an
@@ -178,7 +192,7 @@ abilities remain active until the end of the round.
 - **Frost**: **Finesse** or **Instinct**
 - **Lightning**: **Agility** or **Knowledge**
 
-### Reactive Burst
+#### Reactive Burst
 
 *Your energy flares instinctively to negate incoming harm, a shield of pure element springing to life.*
 **Effect**: Trigger when you take damage. Consume all charges ($N$).
@@ -187,7 +201,7 @@ abilities remain active until the end of the round.
 - **Frost**: Harden your skin against blows. Reduce melee damage taken by $N \times$ **Frost**.
 - **Lightning**: Disperse energy. Reduce Area Attack damage taken by $N \times$ **Lightning**.
 
-### Displacer Burst
+#### Displacer Burst
 
 *You strike with kinetic force, sending foes flying with an explosion of contact.*
 **Effect**: Trigger when making a melee attack. Deal $N$ bonus damage. You may push the target $N$ spaces.
@@ -200,16 +214,13 @@ abilities remain active until the end of the round.
 
 ---
 
-## Class Traits
+## Class Mods
 
-*As you master the Aether Core, you can unlock special traits that alter how you manipulate energy. You can choose a
-Class Trait in place of learning an Amp or Burst Ability when leveling
-up. **You may only possess one Class Trait at a time.** You can replace your current trait with a different on you know
-during your day-to-day, for the cost of 10,000 Credits.*
+You unlock class mods slots at certain progression levels. You can buy Class Mods for 25,000 Credits each. You can
+replace your current mod with a different on you own during your day-to-day.
 
 ### Duality
 
-*You have learned to harmonize conflicting energies.*
 **Effect**: You can hold Charges of two different elements simultaneously. The maximum number of Charges you can hold
 remains the same (shared between both elements). When you use a Burst Ability, you consume all charges, but only charges
 of the element corresponding to the Burst Ability contribute to the corresponding effect ($N$). When you Amp an
@@ -219,22 +230,25 @@ of charges you lose.
 
 ### Chain Burst
 
-*You have mastered the flow of energy, releasing it in controlled pulses rather than a single torrent.*
-**Effect**: When using a Burst Ability, you can choose to consume fewer Charges than your current total. The ability's
-power scales with the number of Charges consumed ($N$). Any remaining Charges are retained but are lost at the end of
-the current Player Turn if not used.
+**Effect**: When using a Burst Skill, you can choose to retain some of your Charges instead of spending them on the
+skill, but any Charge you have left are lost at the end of the Player Turn.
 
-### Double Charge
+### Jump Start
 
-*The core's intake valves are widened, allowing for rapid accumulation of power.*
-**Effect**: When you use an Amp Ability to generate Charge, you generate 2 Charges instead of 1.
+**Effect**: When you use an Amp Skill and have Zero Charges (in any element), you generate 2 Charges instead of 1.
 
-### Wellspring
+### Overflow
 
-*Your capacity to contain the elemental energies is expanded.*
 **Effect**: Increase your maximum Charges to 4.
 
+### ReCycle
+
+**Effect**: When you cycle between elemental charges, you keep the ongoing effects of the cycled out element until the
+end of the Player Turn.
+
 ---
+
+## Progression
 
 ## Conduit Progression
 
@@ -244,10 +258,10 @@ spending Credits.
 | Level | Benefit                                                                      | Credit Cost |
 |:------|:-----------------------------------------------------------------------------|:------------|
 | 1     | 5 Attribute Points, Max Attribute Cap: 4, Max Charges: 3, Unlock 3 Abilities | 50,000*     |
-| 2     | +1 Attribute Point, +1 Trait Slot, Unlock 1 Ability and 1 Trait              | 10,000      |
+| 2     | +1 Attribute Point, +1 Mod Slot, Unlock 1 Ability                            | 10,000      |
 | 3     | +1 Attribute Point, Max Attribute Cap becomes 5, Unlock 1 Ability            | 20,000      |
-| 4     | +1 Attribute Point, Unlock 1 Ability and 1 Trait                             | 40,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot, Unlock 1 Ability                            | 40,000      |
 | 5     | +1 Attribute Point, Max Attribute Cap becomes 6, Unlock 1 Ability            | 70,000      |
-| 6     | +1 Attribute Point, +1 Trait Slot, Unlock 1 Ability and 1 Trait              | 110,000     |
+| 6     | +1 Attribute Point, +1 Mod Slot, Unlock 1 Ability                            | 110,000     |
 
 * This cost is only applicable if the Conduit class was not gained with your starting class.

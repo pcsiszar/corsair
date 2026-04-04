@@ -1,14 +1,25 @@
 ### Class: The Weaver
 
-A master of microscopic machines, the Weaver commands swarms of nanites to create, control, and modify objects.
-Their power is limited only by their imagination and their nanite **Reserve**.
+## Description
 
-Most of a Weaver's nanites are stored as inert, wearable clothing (coats, scarves, etc.), allowing for vast,
-unencumbered storage. The excess is held in back-worn canisters as a silvery, liquid-like suspension. When activated,
-nanites are vented as a shimmering mist accompanied by a high-frequency chime, coalescing into glowing constructs with a
-faint hum and a shifting, geometric surface pattern.
+The Weaver is the cell’s master of molecular manipulation and battlefield adaptation, defined by their total command
+over a specialized reservoir of Nanites. These microscopic machines are controlled via a direct neural implant, allowing
+the Weaver to telepathically command swarms that behave like a living, metallic fluid. Visually, the Weaver is the most
+distinct member of a cell; because they carry their "ammunition" on their person, their excess nanites often coalesce
+into shifting, iridescent scarves, flowing cloaks, or reinforced layers of clothing that ripple with a subtle,
+mechanical pulse. This gives the Weaver an almost ethereal silhouette, draped in "fabric" that can instantly harden into
+jagged blades or dissolve into a cloud of stinging dust.
 
-#### Weaver Attributes & Abilities
+The core utility of the Weaver lies in their ability to craft and modify equipment on the fly, using their nanite
+reserves to improve the cell's weaponry or forge entirely new tools in seconds. By infusing their swarms with different
+Weaves, the Weaver can fundamentally change the properties of their constructs to suit the mission's needs. A protective
+weave can instantly form a suit of sturdy, bullet-resistant armor around the user or an ally, while a kinetic weave can
+sharpen nanite-formed edges into blades capable of shearing through reinforced steel. Beyond physical combat, the Weaver
+can deploy their swarm to integrate with and take over electronic circuits, making them the ultimate infiltrators and
+saboteurs in high-tech environments. Whether they are reinforcing a barricade or dismantling a security door from the
+inside out, the Weaver ensures the cell always has the right tool for the job.
+
+## Attributes
 
 A Weaver's power is defined by three attributes:
 
@@ -22,19 +33,19 @@ When you make use of your nanites, you will roll with one or more of these attri
 you are only allowed to create, control and modify objects that do not have statistics associated with them. This means
 weapons, armor, cover, healing equipment is off the table unless you unlock that ability by learning a Nanite Skill.
 
+## Basic Mechanics
+
 To use your nanites during a test you must describe what the nanites create or modify for you, or how controlling the
 nanites in your creation helps you in achieving your goal. For a locked door, use Create + Strength to create a crowbar
 to try and force it open or Create + Finesse to create a lock pick, or Create + Control to try and create a key then
 alter it slightly to fit the keyhole, or Modify + Control to alter an
 existing key or make the lock fit that key instead.
 
-**Rules of Nanite Usage**
-
-Each Weaver has a set amount of Reserve stored away that increases with the Level of the class. All usage of your nanite
-abilities requires at least 1 Reserve. A single point of Reserve is about 1 liter worth of nanites stowed away in a
-cansiter or hovering around the user. The density of the material the nanites can make varies, stretched to its limits,
-1 Reserve can make a 24 meter rope, or a 1 square meter surface, or a soccer ball sized sphere, but you can find
-references of what you can make with what amount of reserve.
+Each Weaver has a set amount of Reserve, starting with 4, stored away that increases with the Level of the class. All
+usage of your nanite abilities requires at least 1 Reserve. A single point of Reserve is about 1 liter worth of nanites
+stowed away in a cansiter or hovering around the user. The density of the material the nanites can make varies,
+stretched to its limits, 1 Reserve can make a 24 meter rope, or a 1 square meter surface, or a soccer ball sized sphere,
+but you can find references of what you can make with what amount of reserve.
 
 You can only use your nanite powers to create, control or modify in the space you occupy.
 
@@ -52,10 +63,11 @@ general equipment in the 3-4 Load range.
 Standard creations also aren't allowed to alter the Terrain, meaning they can't make Cover, or turn a Space into
 Difficult Terrain.
 
-#### Nanite Skills
+## Skills
 
 Nanite Skills give your nanites enhanced capabilities. A nanite skill has three uses, one for each of your Attributes.
-Learning on skill grants you access to all it's uses.
+Learning on skill grants you access to all it's uses. When a skill calls for you to use Reserve, you can use Reserve
+tied up in things you Created or Modified, but you cannot use Reserve that has to recharge.
 
 **HardWeave**: Your nanites gain the ability to bond together into a strong enough protect you from incoming attacks.
 
@@ -84,8 +96,8 @@ Learning on skill grants you access to all it's uses.
   Damage Bonus.
 - **BoltWeave Bullet (Modify)**: You weave your nanites into bullets that can be loaded into any of your or your allies'
   ranged weapons. For 1 Reserve, you can roll a Success Test with Modify. For every 3 Success Points, you can increase
-  the Accuracy of your current weapon across all ranges by one, or increase its Damage Bonus by 1. This bonus lasts
-  until the end of the round in which you attack with the designated weapon.
+  the Accuracy of one of your carried weapons across all ranges by one, or increase its Damage Bonus by 1. This bonus
+  lasts until the end of the round in which you attack with the designated weapon.
 - **BoltWeave Throw (Control)**: Anything you create with your nanites can be thrown using your Control attribute as
   long as it is in the same space as you. The maximum range is 40 meters.
 
@@ -157,18 +169,18 @@ off at your will.
   your attacks gain an Upgrade against targets within the area. While the nanites are not recalled, you can repeat the
   test and reposition the nanites for no additional Reserve cost.
 
-#### Nanite Progression
+## Progression
 
 At character creation, distribute 5 points among Create, Control, and Modify (max 4). They start out with 1 Codex of
 their choice and 3 Reserve.
 
-| Level | Benefit                                             | Credit Cost |
-|-------|-----------------------------------------------------|-------------|
-| 1     | 5 Attribute Points, 3 Reserve, Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +1 Reserve, +1 Codex            | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5     | 20,000      |
-| 4     | +1 Attribute Point, +1 Reserve, +1 Codex            | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6     | 70,000      |
-| 6     | +1 Attribute Point, +1 Reserve, +1 Codex            | 110,000     |
+| Level | Benefit                                                      | Credit Cost |
+|-------|--------------------------------------------------------------|-------------|
+| 1     | 5 Attribute Points, 4 Reserve, 1 Codex, Max Attribute Cap: 4 | 50,000*     |
+| 2     | +1 Attribute Point, +1 Codex                                 | 10,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5              | 20,000      |
+| 4     | +1 Attribute Point, +1 Codex                                 | 40,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap becomes 6              | 70,000      |
+| 6     | +1 Attribute Point, +1 Codex                                 | 110,000     |
 
 * This cost is only applicable if the Nanite Weaver class was not gained with your starting class.
