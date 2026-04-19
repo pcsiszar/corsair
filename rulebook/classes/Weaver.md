@@ -29,17 +29,21 @@ A Weaver's power is defined by three attributes:
 
 * **Modify:** Alter existing objects using your nanites.
 
-When you make use of your nanites, you will roll with one or more of these attributes if a test is required. By default,
-you are only allowed to create, control and modify objects that do not have statistics associated with them. This means
-weapons, armor, cover, healing equipment is off the table unless you unlock that ability by learning a Nanite Skill.
+At character creation, you can distribute 5 points among your Create, Control, and Modify attributes. The
+maximum value for any single attribute at creation is 4. You can leave an Attribute at 0.
 
 ## Basic Mechanics
+
+When you make use of your nanites, you will roll with one or more of the Weaver's attributes if a test is required. By
+default, you are only allowed to create, control and modify objects that do not have statistics associated with them.
+This means weapons, armor, cover, healing equipment is off the table unless you unlock that ability by learning a Nanite
+Skill.
 
 To use your nanites during a test you must describe what the nanites create or modify for you, or how controlling the
 nanites in your creation helps you in achieving your goal. For a locked door, use Create + Strength to create a crowbar
 to try and force it open or Create + Finesse to create a lock pick, or Create + Control to try and create a key then
-alter it slightly to fit the keyhole, or Modify + Control to alter an
-existing key or make the lock fit that key instead.
+alter it slightly to fit the keyhole, or Modify + Control to alter an existing key or make the lock fit that key
+instead.
 
 Each Weaver has a set amount of Reserve, starting with 4, stored away that increases with the Level of the class. All
 usage of your nanite abilities requires at least 1 Reserve. A single point of Reserve is about 1 liter worth of nanites
@@ -59,9 +63,6 @@ equipment in the 1-2 Load Range.
 **2 Reserve**: A ladder, a chair, a full set of clothes, a large blanket.
 general equipment in the 3-4 Load range.
 **3 Reserve**: A bench, a thick 1m x 1m wall, a space suit ,general equipment in the 5-6 Load range.
-
-Standard creations also aren't allowed to alter the Terrain, meaning they can't make Cover, or turn a Space into
-Difficult Terrain.
 
 ## Skills
 
@@ -135,7 +136,7 @@ off at your will.
 - **LifeWeave Heal (Modify)**: You heal a creature in your space using your nanites. For 1 Reserve that recharges
   at the beginning of the next round you roll a Success Test. For every 3 Success Points, you can heal two light wound
   on the target.
-- **LifeWeave Enhancement (Control)**: Any creature you used your Lifeweave skills on this round can use your Control
+- **LifeWeave Enhancement (Control)**: Any creature you used your LifeWeave skills on this round can use your Control
   attribute as a replacement for any one physical attribute.
 
 **StealthWeave**: Your nanites gain the ability to alter the reflected light from their surface.
@@ -177,10 +178,10 @@ their choice and 3 Reserve.
 | Level | Benefit                                                      | Credit Cost |
 |-------|--------------------------------------------------------------|-------------|
 | 1     | 5 Attribute Points, 4 Reserve, 1 Codex, Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +1 Codex                                 | 10,000      |
+| 2     | +1 Attribute Point, +1 Weave                                 | 10,000      |
 | 3     | +1 Attribute Point, Max Attribute Cap becomes 5              | 20,000      |
-| 4     | +1 Attribute Point, +1 Codex                                 | 40,000      |
+| 4     | +1 Attribute Point, +1 Weave                                 | 40,000      |
 | 5     | +1 Attribute Point, Max Attribute Cap becomes 6              | 70,000      |
-| 6     | +1 Attribute Point, +1 Codex                                 | 110,000     |
+| 6     | +1 Attribute Point, +1 Weave                                 | 110,000     |
 
 * This cost is only applicable if the Nanite Weaver class was not gained with your starting class.

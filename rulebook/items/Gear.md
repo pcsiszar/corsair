@@ -17,8 +17,8 @@
 
 * **Jetpack (Xm):** Once per round, you can use the Jetpack to move, using the Jetpack's Thrust attribute to roll. When
   you do, you can buy 4 meters of movement with every Success Point and your base movement becomes X meters. You can
-  move in any direction, ignore difficult terrain, and you can hover, but you must descend to solid ground at the end of
-  the round. As long as you can activate the jetpack, you can damage from falling.
+  move in any direction, ignore difficult terrain, and you can hover, but you must descend to solid ground directly
+  beneath you at the end of the Player Turn. As long as you can activate the jetpack, you ignore damage from falling.
 
 * **Zipline (Xm):** A Cable Launcher that comes with a built-in cable with a length of X meters. You can deploy it
   between

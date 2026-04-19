@@ -18,14 +18,7 @@ thoughts, the detached drone can reconfigure its physical geometry into a heavy 
 medic, a blade-heavy duelist for silent engagements, or a walking tank that generates a localized energy shield to
 protect the entire cell.
 
-#### Physical Characteristics
-
-The Exodrone is built on a humanoid chassis, matching the size, shape, and limb structure of a typical humanoid. It can
-interact with its environment and use most standard equipment as a person would.
-
 ## Attributes
-
-#### The Exodrone's Attributes
 
 The Exodrone possesses its own set of physical attributes that mirror your own:
 
@@ -36,8 +29,7 @@ The Exodrone possesses its own set of physical attributes that mirror your own:
 * **Precision:** Corresponds to Finesse.
 
 At character creation, you can distribute 5 points among your Exodrone's Power, Speed, and Precision attributes. The
-maximum value for any single attribute at creation is 4. You can leave an Attribute at 0, but that means the Exodrone is
-incapable of doing tests requiring that Attribute and fails automatically.
+maximum value for any single attribute at creation is 4. You can leave an Attribute at 0.
 
 ## Basic Mechanics
 
@@ -64,6 +56,7 @@ Charges. Certain skills require you to spend these Charges to power your abiliti
 manage your battery power.
 
 You gain 2 Battery Charges at the beginning of the Round if the Exodrone is attached to you.
+If you are in place-to-place or day-to-day pacing, you recharge your full Battery instead.
 
 When your Exodrone would take damage, it instead loses a Battery Charge for every 4 points of damage, rounded down.
 If it runs out of charges, it stops all functions until it gains a Charge
@@ -117,9 +110,9 @@ Assault Module
 | Name           | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |:---------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Stepping Stone | 2            | On the next Movement Action you take, you can detach from the Exodrone at any point during your movement. At that point, either you or the Exodrone can perform a separate movement action, using the result of your original roll, without it costing additional AP.                                                                                                                                                                    |
-| Jet Boost      | 3            | On your next Movement Action you take while the Exodrone is attached, your base speed is 16 meters and you can buy 4 additional meters of movement per Success Point. You can move in any direction and also ignore Difficult Terrain. You can also use this skill to prevent fall damage, even when it's not your turn.                                                                                                                 |
+| Jet Boost      | 3            | On your next Movement Action you take while the Exodrone is attached, your base speed is 16 meters and you can buy 4 additional meters of movement per Success Point. You can move in any direction and also ignore Difficult Terrain and falling damage, but you fall to ground immediately at the end of the Player Turn. You can also use this skill to prevent fall damage, even when it's not your turn.                            |
 | Spider Climb   | 1            | Until the end of turn, the Exodrone's limbs can stick to any surface. It can also halve the distance of any movement forced upon it.                                                                                                                                                                                                                                                                                                     |
-| Take Off       | 2            | On its next Movement Action you take while the Exodrone is detached, its base speed is 16 meters and it can buy 4 additional meters of movement per Success Point. It can move in any direction and also ignore Difficult Terrain. It can also use this skill to prevent fall damage, even when it's not your turn.                                                                                                                      |
+| Take Off       | 2            | On its next Movement Action you take while the Exodrone is detached, its base speed is 16 meters and it can buy 4 additional meters of movement per Success Point. It can move in any direction and also ignore Difficult Terrain and falling damage, but . It can also use this skill to prevent fall damage, even when it's not your turn.                                                                                             |
 | Launch Pad     | 3            | While detached, the Exodrone reconfigures itself as a launch pad. When a creature moves into the same space as the Exodrone, or start's it's movement from there, you can give it an additional 16 meters of movement, which it can take in any direction. That movement always gets used up first, and it ignores Difficult Terrain and falling damage. The only action the Exodrone can take is revert to it's standard mode for free. |
 
 Recon Module
@@ -147,9 +140,9 @@ Seraph Module
 You unlock class mods slots at certain progression levels. You can buy Class Mods for 25,000 Credits each. You can
 replace your current mod with a different on you own during your day-to-day.
 
-### Grandmaster-at-Arms
+### Extra Battery
 
-**Effect**: When using an activated mounted weapon, you gain +1 Upgrade.
+**Effect**: You gain +2 Maximum Battery Capacitys.
 
 ### Protective Coating
 

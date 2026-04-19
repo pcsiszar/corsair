@@ -98,18 +98,6 @@ Massive weapons requiring significant strength to wield, offering overwhelming f
 | **KSK "Kraken"**  | 1 / 2 / 3 / 2      | 0   | +2        | 2           | 5    | 13,500 |             |
 | **CQC "Typhoon"** | 4 / 2 / 0 / -      | 4   | +2        | 2           | 5    | 15,000 |             |
 
-## Heavy Weapons
-
-Massive weapons requiring significant strength to wield, offering overwhelming firepower.
-
-| Weapon Name       | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Penetration | Load | Cost   | Description |
-|:------------------|:-------------------|:----|:----------|:------------|:-----|:-------|:------------|
-| **CF "Basilisk"** | 1 / 4 / 2 / 0      | 2   | +2        | 0           | 5    | 9,000  |             |
-| **VWS "Dread"**   | 2 / 3 / 1 / 0      | 3   | +0        | 3           | 5    | 9,500  |             |
-| **PA "Tiger"**    | 2 / 2 / 2 / 1      | 2   | +2        | 1           | 5    | 11,000 |             |
-| **KSK "Kraken"**  | 1 / 2 / 3 / 2      | 0   | +2        | 2           | 5    | 13,500 |             |
-| **CQC "Typhoon"** | 4 / 2 / 0 / -      | 4   | +2        | 2           | 5    | 15,000 |             |
-
 ## Blast Weapons
 
 Massive weapons requiring significant strength to wield, offering overwhelming firepower.

@@ -1,55 +1,60 @@
-# Class: The Conduit
+# Class: The Vanguard
 
 ## Description
 
-The Conduit is the cell’s living battery and high-intensity shock trooper, defined by the volatile relationship between
-their biology and the Aether Core implanted within their chest. This core constantly generates a specialized strain of
-biotic nanomachines that flow through the user's veins like a secondary circulatory system. As these "Aether-cells"
-circulate, they build up a massive internal charge that the Conduit must periodically vent through devastating physical
-feats. Visually, a Conduit is a walking storm of elemental energy; the coursing ether leaves glowing, vein-like marks
-across their limbs and permanently alters the color of their eyes and hair to match their specific elemental attunement.
-
-The core utility of the Conduit lies in the management and release of this built-up pressure, manifesting as either
-Lightning, Frost, or Fire. By surging the Aether-cells through their muscles, the Conduit can execute near-instant
-bursts of movement that blur the vision of onlookers or trigger a state of rapid molecular reconstruction for
-near-instant regeneration of lethal wounds. When the charge reaches its peak, it can be expelled in localized,
-devastating blasts that can shatter armor or incinerate high-density alloys. This makes the Conduit a terrifying
-presence on the battlefield—a warrior who grows more dangerous as the conflict drags on, literally glowing with the
-lethal potential of the storm trapped inside their veins.
-
 ## Attributes
 
-The Conduit's three primary attributes correspond to the elements they harness:
+The Vanguard's three primary attributes correspond to the different forms of their Board can take:
 
-- **Flame**: The embodiment of destruction and aggression.
-- **Frost**: The essence of preservation, control, and entropy.
-- **Lightning**: The spark of speed, precision, and chain reactions.
+- **Shield**: The toughness and strength of it's shield form.
+- **Glider**: The speed and manoeuvrability of its hoverboard form.
+- **Cannon**: The power and precision of its ranged weapon form.
 
-At character creation, you can distribute 5 points among your Flame, Frost, and Lightning attributes. The
+At character creation, you can distribute 5 points among your Shield, Glider, and Cannon attributes. The
 maximum value for any single attribute at creation is 4. You can leave an Attribute at 0.
 
 ## Mechanics
 
-### Charge
+### Vanguard Forms
 
-Conduit abilities revolve around the **Charge** mechanic. The Aether Core hums, growing louder and brighter as energy
-accumulates.
+The Vanguard's Board has three different forms, corresponding to the three attributes in its kit. Each form has
+different benefits.
 
-- **Amp Abilities**: These abilities channel energy into the Conduit's body, building up elemental Charge.
-    - Using an Amp ability of the *same* element as your current Charges increases your Charge count by 1 (up to a
-      maximum).
-    - Using an Amp ability of a *different* element purges the old energy, resetting Charges to 0 before applying the
-      new element's effect.
-    - If you hold the maximum number of Charges, you cannot use an Amp ability of that same element; the vessel is full.
-    - Activating an Amp ability of a specific element suppresses any active effects from other elements.
+*Shield:* While in Shield Form, your Physical Protection increases by half your Shield Attribute, rounded down. You can
+also use the Shield as a melee weapon using your Strength and Shield attributes to perform melee attacks. You can also
+use your Shield attribute to contest most forms of harm coming your way.
 
-- **Burst Abilities**: These abilities vent the stored energy in a devastating release.
-    - Burst abilities can only be used if you have at least 1 Charge.
-    - You can only use the Burst variant corresponding to your current elemental Charge.
-    - Using a Burst ability consumes *all* current Charges. The power of the ability scales with the number of Charges
-      consumed ($N$).
+*Glider:* While in Glider Form, you can use your Glider Attribute in any movement action you take. You can also ignore
+Difficult Terrain and falling damage and can move in any direction, but you fall to ground immediately at the end of the
+Player Turn.
 
----
+*Cannon:* While in Cannon Form, you can make a ranged attack using your Board. Its accuracy is half your Cannon
+attribute rounded up at short and medium range and half your Cannon attribute rounded down at long and extreme ranges.
+It's damage bonus is half your Cannon attribute while its Rate of Fire and Penetration are both 0.
+
+You can never use two different Vanguard attributes in any test.
+
+### Switching Forms
+
+Whenever you take a test that uses one of your Vanguard attributes, you immediately switch to that Form. You don't have
+to be in that form to start, your switch happens prior to taking the test. Until the next time you take a test with the
+Vanguard Attribute, you remain in that form.
+
+### Charge Up
+
+When you want to swap to a different form without doing anything else, you can take a special Success Test where you
+charge up the energies of the Board in it's desired form, called Charging Up. When you Charge Up, you roll a Success
+Test and bank the result for later use. Whenever you roll Success in any Test using any Vanguard attribute, you can
+decide if you want to use the banked result or the one you just rolled.
+
+### Combos
+
+Your special skills manifest from using multiple Vanguard Attributes prior to activating the skill. The skills can have
+any combination of the following criteria for activation:
+
+- *Starting Form:* A skill can require that you must be in a specific Vanguard Form in order to use it.
+- *Form Charge:* A skill can require that you must have a banked Charge from a specific Vanguard attribute.
+- *Attribute Use:* A skill can require that you must have used a specific Vanguard attribute in the current turn.
 
 ## Skills
 

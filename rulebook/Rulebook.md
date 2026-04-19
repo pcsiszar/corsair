@@ -722,10 +722,9 @@ Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calcula
       Each point of RoF spent allows you to reroll one die. You can use this on either the Action Roll (to ensure a hit)
       or the Success Roll (to increase damage), but the total number of rerolls across both steps cannot exceed the
       weapon's RoF.
-    * **Example:** A character with an Accuracy of 6 and Finesse of 4 fires an SMG (RoF 4) at a target. They roll their
-      initial pool. Unhappy with the result, they spend 2 points of RoF to reroll two low dice on their Action Roll to
-      ensure a hit. They then spend 1 point of RoF to reroll a die on their Success Roll to maximize damage. They have
-      used 3 of their 4 RoF capacity.
+    * **Spill:** When making an attack with a ranged weapon, if your target shares the same space with other
+      creatures you'd want to attack, you can have the leftover damage spill over to your next target. You can do this a
+      number of times equal to your Rate of Fire attribute.
 
 * **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as
   +1, +2, or +3.
@@ -1078,6 +1077,19 @@ character. Understanding how multiple characters occupy and interact within a si
 A single 4x4 meter space can comfortably house up to **4** standard-sized creatures. The absolute maximum capacity of a
 single space is **8** standard-sized creatures. Many actions, especially melee attacks and certain Teamwork maneuvers,
 will require you to be in the same space as your target or ally.
+
+#### Damage Spill
+
+Sometimes, you have the means to finish multiple hostiles in one attack. When you successfully downed a hostile with
+damage left to spare, you can have the leftover points of damage spill over to another creature occupying the same space
+as the original target.
+
+When attacking in melee, you can repeat the damage spillover any number of times as long as you have damage left over
+from your initial attack, there are still hostile creatures in the space of your original target, and you fully downed
+your previous target.
+
+When attacking at range, you can only have damage spill over to a maximum number of targets equal to your weapon's Rate
+of Fire. If that is 0, you cannot have the damage spill over to even a single target.
 
 #### Outnumbering
 
