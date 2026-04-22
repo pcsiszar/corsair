@@ -68,20 +68,25 @@ any combination of the following criteria for activation:
 
 **Repulse:** You can contest the next attack using your Shield, without paying any Action Points.
 
-*Requires:Shield Charge, Shield Form*
+*Requires: Shield Charge, Shield Form*
 
 **Turbo Slam:** Your next melee attack using your Shield shoves your target up to a number of meters back equal to the
 amount of damage dealt. If the target collides with a barrier during that movement, it stops and recieves extra damage
 equal to your Shield attribute.
 
-*Requires:Glider Move*
+*Requires: Glider Move*
 
 **Meteor Slam:** Roll a Success Test using Shield. You deal damage to every creature in your current space equal to the
 result plus your Shield Attribute. If the space had Difficult Terrain, or Cover, those are also removed.
 
-*Requires:Cannon Charge, Glider Move*
+*Requires: Cannon Charge, Glider Move*
 
-###                               
+**Switch Block:** Whenever you contest an incoming attack using your Shield, you can bank the result die as a Charge
+from the Form you swapped out of.
+
+*Requires: Any Non-Shield Form*
+
+###                                                             
 
 ## Class Mods
 
