@@ -66,27 +66,62 @@ any combination of the following criteria for activation:
 
 ### Shield Skills
 
-**Repulse:** You can contest the next attack using your Shield, without paying any Action Points.
+**Repulse:**  You can contest the next attack using your Shield, and add your Charge die to the roll, which is then
+expended. This contest is free and does not require Action Points.
 
 *Requires: Shield Charge, Shield Form*
 
-**Turbo Slam:** Your next melee attack using your Shield shoves your target up to a number of meters back equal to the
-amount of damage dealt. If the target collides with a barrier during that movement, it stops and recieves extra damage
-equal to your Shield attribute.
+**Turbo Slam:** You slam into an enemy shield first. Your next melee attack using your Shield shoves your target up to a
+number of meters back equal to the amount of damage dealt. If the target collides with a barrier during that movement,
+it stops and recieves extra damage equal to your Shield attribute.
 
 *Requires: Glider Move*
 
-**Meteor Slam:** Roll a Success Test using Shield. You deal damage to every creature in your current space equal to the
-result plus your Shield Attribute. If the space had Difficult Terrain, or Cover, those are also removed.
+**Thunder Crash:** You slam into the ground with a massive shockwave. Roll a Success Test with Shield, adding your
+Charge
+die to the roll which is then expended. You deal damage to every creature in your current space equal to the result
+plus the sum of your Shield and Cannon Attribute. If the space had Difficult Terrain, or Cover, those are also removed.
 
 *Requires: Cannon Charge, Glider Move*
 
-**Switch Block:** Whenever you contest an incoming attack using your Shield, you can bank the result die as a Charge
-from the Form you swapped out of.
+**Shield Throw:** You can throw your shield and have it come back to you immediately after.Your melee attack range is
+extended to 20 meters as long as you're using your Shield.
 
-*Requires: Any Non-Shield Form*
+*Requires: Glider Charge*
 
-###                                                             
+**Kinetic Bash:** You smash your shield into an enemy and release built up kinetic energy. When you land a melee
+attack, add your Charge die to the attack roll which is then consumed. You also deal bonus damage equal to your Shield
+Attribute.
+
+*Requires: Cannon Charge*
+
+**Impact Dynamo:** When you are hit by an area attack, automatically drop the highest dice in the damage roll and gain
+the same dice as a Shield Charge.
+
+*Requires: Shield Form*
+
+**Bull Rush:** Roll a Success Test with your Charge Die, which is then expended. You move a number of meters equal to
+twice the result. You can choose to move any creatures up to large size in the spaces you crossed to an adjacent space
+to where they originally were. If you do, they take damage equal to your Shield Attribute.
+
+*Requires: Glider Charge*
+
+**Tactical Barricade:** Roll a Simple Test with Shield, adding your Charge Die, which is then expended. For each die
+with a value 8 or higher, you can increase the Physical Protection of any creature in your space by 2 when an attack
+lands on him, until the end of the round, as long as you are in Shield Form when the attack lands. You can only add this
+Protection boost once per attack.
+
+*Requires: Shield Charge*
+
+**Jump Pad:** Whenever a friendly and willing creature would make a movement action that intersects with your
+current space, you can use your shield as a launch pad and give the target additional meters of movement equal to twice
+your Shield Attribute, which they can use to move in any direction, but they fall immediately at the end of the Player
+Turn if not on solid ground. Additionally, they ignore difficult terrain they would cross during and after crossing your
+space.
+
+*Requires: Shield Form*
+
+###                                                                                                                                                      
 
 ## Class Mods
 
