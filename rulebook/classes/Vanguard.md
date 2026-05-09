@@ -26,11 +26,14 @@ While in Shield Form, your Physical Protection increases by half your Shield Att
 can also use the Shield as a melee weapon using your Strength and Shield attributes to perform melee attacks. You can
 also use your Shield attribute to contest most forms of harm coming your way.
 
+You typically rely on Strength while in Shield form.
+
 **Glider:**
 
 While in Glider Form, you can use your Glider Attribute in any movement action you take. You can also ignore
-Difficult Terrain and falling damage and can move in any direction, but you fall to ground immediately at the end of the
-Player Turn.
+Difficult Terrain and fall damage.
+
+You typically rely on Agility while in Glider form.
 
 **Cannon:**
 
@@ -38,7 +41,7 @@ While in Cannon Form, you can make a ranged attack using your Board. Its accurac
 attribute rounded up at short and medium range and half your Cannon attribute rounded down at long and extreme ranges.
 It's damage bonus is half your Cannon attribute while its Rate of Fire and Penetration are both 0.
 
-You can never use two different Vanguard attributes in any test.
+You typically rely on Finesse while in Cannon form.
 
 ### Switching Forms
 
@@ -78,8 +81,8 @@ it stops and recieves extra damage equal to your Shield attribute.
 *Requires: Glider Move*
 
 **Thunder Crash:** You slam into the ground with a massive shockwave. Roll a Success Test with Shield, adding your
-Charge
-die to the roll which is then expended. You deal damage to every creature in your current space equal to the result
+Charge die to the roll which is then expended. You deal damage to every creature in your current space equal to the
+result
 plus the sum of your Shield and Cannon Attribute. If the space had Difficult Terrain, or Cover, those are also removed.
 
 *Requires: Cannon Charge, Glider Move*
@@ -121,7 +124,34 @@ space.
 
 *Requires: Shield Form*
 
-###                                                                                                                                                      
+### Glider Skills
+
+**Hitchhiker:** When you take a Movement Action using Glider, you can have another willing creature travel with you,
+without paying any AP.
+
+*Requires: Glider Form*
+
+**Watchtower:** You fly straight up into the air and take an elevated position 8 meters above ground. You get +2
+Protection bonus against ranged attacks from ground level. You can float in place as long as you remain in Glider Form
+and retain your Charge.
+
+*Requires: Shield Charge*
+
+**Bombing Run:** When you make a Movement Action using Glider, you can add your charge die to the roll, which is then
+expended. You can fly 8 meters above ground for the duration of your movement. In addition, you can deal damage equal to
+the highest dice value in your Movement Action to all creatures in any one space you move through.
+
+*Requires: Cannon Charge*
+
+**Hit and Run:** As part of making a melee attack, you can move a number of spaces equal to your Glider Attribute. You
+can move before or after making the attack, regardless if it succeeds.
+
+*Requires: Glider Move*
+
+**Takeoff:** When you make a Movement Action with your Glider, you can add your charge die to the roll which is the then
+expended. You can move in any directions, not just along solid surfaces.
+
+*Requires: Glider Charge*
 
 ## Class Mods
 
