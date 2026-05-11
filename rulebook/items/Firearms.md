@@ -14,10 +14,10 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
 ## Weapon Statistics Explained
 
 - **Accuracy**:
-    * **Short Range:** 0-3 spaces or ~0-25m
-    * **Medium Range:** 4-6 spaces or ~25-50m
-    * **Long Range:** 7-12 spaces or ~50-100m
-    * **Extreme Range:** 13+ spaces or ~100m+
+    * **Short Range:** 0-5 spaces or ~0-20m
+    * **Medium Range:** 6-12 spaces or ~20-50m
+    * **Long Range:** 13-20 spaces or ~50-100m
+    * **Extreme Range:** 20+ spaces or ~100m+
 - **Rate of Fire (RoF)**: The number of times the weapon can be fired in a single round, or the number of additional
   targets that can be hit with a single attack action.
 - **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.

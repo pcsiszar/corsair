@@ -170,6 +170,39 @@ off at your will.
   your attacks gain an Upgrade against targets within the area. While the nanites are not recalled, you can repeat the
   test and reposition the nanites for no additional Reserve cost.
 
+## Class Mods
+
+You unlock class mods slots at certain progression levels. You can buy Class Mods for 25,000 Credits each. You can
+replace your current mod with a different on you own during your day-to-day.
+
+### Extra Reserve
+
+**Effect**: You gain +1 Reserve.
+
+### Prime Weave
+
+**Effect**: Choose a Weave you learned. Any test using the chosen Weave gains +1 Upgrade. You can modify the
+selected Weave during your day-to-day.
+
+### Favored Method
+
+**Effect**: Choose Create, Modify, or Control. Any test using the chosen Attribute gains +1 Upgrade. You can modify the
+selected Attribute during your day-to-day.
+
+### Woven Bond
+
+**Effect**: You gain +1 Upgrade on any test using your Created or Modified equipment.
+
+### Weave Infusion
+
+**Effect**: You can spend 1 extra Reserve on any Success Test using your Weaves to gain 3 extra Success Points. The
+extra Reserve becomes available when the original Reserve spent on the test becomes available again.
+
+## Progression
+
+The Exodrone can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the Exodrone's
+capabilities.
+
 ## Progression
 
 At character creation, distribute 5 points among Create, Control, and Modify (max 4). They start out with 1 Codex of
@@ -177,11 +210,10 @@ their choice and 3 Reserve.
 
 | Level | Benefit                                                      | Credit Cost |
 |-------|--------------------------------------------------------------|-------------|
-| 1     | 5 Attribute Points, 4 Reserve, 1 Codex, Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +1 Weave                                 | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5              | 20,000      |
-| 4     | +1 Attribute Point, +1 Weave                                 | 40,000      |
+| 1     | 7 Attribute Points, 4 Reserve, 1 Weave, Max Attribute Cap: 4 | 50,000*     |
+| 2     | +1 Attribute Point, +1 Weave, +1 Mod Slot                    | 10,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5 +1 Weave     | 20,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot, +1 Weave                    | 40,000      |
 | 5     | +1 Attribute Point, Max Attribute Cap becomes 6              | 70,000      |
-| 6     | +1 Attribute Point, +1 Weave                                 | 110,000     |
 
 * This cost is only applicable if the Nanite Weaver class was not gained with your starting class.

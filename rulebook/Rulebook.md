@@ -993,7 +993,7 @@ Navigating the battlefield is crucial for survival. Positioning can determine co
 engage or evade foes.
 
 In combat, you can spend **1 Action Token** to move. When you move, you perform a Success Test, typically with Agility,
-then move a number of meters equal to twice the result, plus your base speed, by default, 8 meters.
+then move a number of meters equal to the result, plus your base speed, by default, 4 meters.
 
 The Success Test is typically made with your **Agility** attribute, representing your ability to run, climb, and vault
 across the terrain. The GM may call for a different attribute based on the situation (e.g., Strength for climbing a
@@ -1001,15 +1001,14 @@ sheer cliff).
 
 #### Movement on a Grid
 
-For ease of play, it is recommended to use a grid with squares or hexes representing **8 meters by 8 meters**. When
-using a grid, your movement is calculated as follows:
+For ease of play, it is recommended to use a grid with squares or hexes representing an **4 meter diameter circle**.
+When using a grid, your movement is calculated as follows:
 
-* Your base speed of 8 meters translates to **1 space**.
-* Your Success Test adds additional movement. For every 8 full meters rolled on your test, you can move 1 additional
-  space. For example, a roll of 8 lets you move 2 extra spaces. A perfect roll of 12 on a d12 would grant you an
-  additional **3 spaces**.
+* Your base speed of 4 meters translates to **1 space**.
+* Your Success Test adds additional movement. You divide the number of meters rolled on your test by four, rounding up
+  and move an additional number of spaces equal to the result.
 
-This means a single move action can cover a maximum of 32 meters (4 spaces). Since a player can spend multiple Action
+This means a single move action can cover a maximum of 16 meters (4 spaces). Since a player can spend multiple Action
 Points on movement, the potential distances can be significant.
 
 #### Contesting Movement
@@ -1062,12 +1061,6 @@ On a grid, this means that moving into a space containing difficult terrain (suc
 vegetation) costs **8 meters** of your movement instead of the usual 4 meters. This rule also applies if the *boundary*
 between two otherwise clear spaces is difficult, such as when you are climbing up to a higher ledge or vaulting over a
 barricade.
-
-Because a single move action only provides a base of 12 meters (3 spaces) of movement before the Success Test,
-entering even a single space of difficult terrain can significantly reduce the distance you can cover. For example, with
-a
-base speed of 12 meters, you could move 1 space into difficult terrain (costing 8m) and then 1 space on clear terrain
-(costing 4m), for a total of 2 spaces moved.
 
 ### Space and Occupancy
 
@@ -1206,4 +1199,10 @@ move,
 they have to pay 1 AP to contest the roll.
 
 If the defender would be moving out from, or would be moving through space with Difficult Terrain, the AP cost of
-contesting increases by 1 for each space with Difficult Terrain involved. 
+contesting increases by 1 for each space with Difficult Terrain involved.
+
+#### Verticality
+
+When verticality plays a factor in combat, the different vertical levels are treated as separate grids stacked on top of
+each other. The height difference between the grids is 2 meters. This means that a guard firing from a 4 meter tall
+watchtower is 2 layers above ground level.

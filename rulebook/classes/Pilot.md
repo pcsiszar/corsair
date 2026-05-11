@@ -167,13 +167,12 @@ instead of 2 at the beginning of the current one.
 The Exodrone can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the Exodrone's
 capabilities.
 
-| Level | Benefit                                                                           | Credit Cost |
-|:------|:----------------------------------------------------------------------------------|:------------|
-| 1     | 5 Attribute Points, Basic Module, All skills in Basic Module Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +3 Skill Points, +1 Module,                                   | 10,000      |
-| 3     | +1 Attribute Point, +3 Skill Points, Max Attribute Cap becomes 5                  | 20,000      |
-| 4     | +1 Attribute Point, +3 Skill Points, +1 Module                                    | 40,000      |
-| 5     | +1 Attribute Point, +3 Skill Points, Max Attribute Cap becomes 6                  | 70,000      |
-| 6     | +1 Attribute Point, +3 Skill Points, +1 Module                                    | 110,000     |
+| Level | Benefit                                                           | Credit Cost |
+|:------|:------------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points, Basic Module, +1 Module, Max Attribute Cap: 4 | 50,000*     |
+| 2     | +1 Attribute Point, +1 Module, +1 Mod Slot                        | 10,000      |
+| 3     | +1 Attribute Point, +1 Module, Max Attribute Cap +1               | 20,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot                                   | 40,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap +1                          | 70,000      |
 
 * This cost is only applicable if the Exodrone Pilot class was not gained with your starting class.
