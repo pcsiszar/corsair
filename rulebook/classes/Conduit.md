@@ -47,7 +47,7 @@ accumulates.
     - Burst abilities can only be used if you have at least 1 Charge.
     - You can only use the Burst variant corresponding to your current elemental Charge.
     - Using a Burst ability consumes *all* current Charges. The power of the ability scales with the number of Charges
-      consumed ($N$).
+      consumed ($X$).
 
 ---
 
@@ -84,16 +84,16 @@ by 1.
 chosen Conduit Attribute and how your current stack of Amp Projectiles. Each stack's effect is cumulative.
 
 - **Flame**:
-    1. Your ranged weapons gain +1 Damage and +1 Accuracy
-    2. Your ranged weapons gains +1 Damage
-    3. Set your ranged weapon's Rate of Fire to 0, and it's Penetration to your Flame Attribute.
+    1. Your ranged weapon gains +1 Damage but cannot fire beyond Medium Range.
+    2. Your ranged weapon gains +1 Damage but cannot fire beyond Short Range.
+    3. Set your ranged weapon's Rate of Fire to 0, and it's Damage Bonus to your Flame Attribute.
 - **Frost**:
-    1. Your ranged weapons gain +1 Damage.
-    2. Your ranged attack decrease the target's Protection by 1 until the end of the round.
-    3. Set your ranged weapon's Penetration to 0, and it's Damage Bonus to your half your Frost Attribute, rounded up.
+    1. Your ranged weapon gains +1 Rate of Fire if they have at least 0.
+    2. Your ranged weapon gains +1 Rate of Fire if they have at least 0.
+    3. Set your ranged weapon's Penetration to 0, and it's Rate of Fire to your Frost Attribute, if it has at least 1.
 - **Lightning**:
-    1. Your ranged attacks deal +1 Damage
-    2. Your ranged attacks gain +2 Penetration
+    1. Your ranged weapon gains +1 Penetration and +1 Accuracy beyond Short Range (if they have at least 0)
+    2. Your ranged weapon gains +1 Penetration and +1 Accuracy beyond Medium Range (if they have at least 0)
     3. Set your weapon's Rate of Fire to 0, and it's Penetration to your Lightning Attribute
 
 #### Amp Strikes
@@ -127,23 +127,34 @@ track segments at the end of every round.
 
 #### Amp Aura
 
-*An aura of elemental power surrounds you, and imbues your allies.*
-You gain a triggered effect corresponding to your Conduit Attribute. The number of times the effect can trigger per
-round increases by one for stack of this Amp skill.
+*You emit a faint aura that imbues and empowers your allies.*
+**Effect**:Make a Simple Test with the chosen Conduit Attribute. On a success, you gain a triggered effect corresponding
+to your Conduit Attribute. The number of times the effect can trigger per round increases by one for each stack of this
+Amp skill.
+
+- **Flame**: You or an ally in your space making a test with Charisma or Strength receives an Upgrade.
+- **Frost**: You or an ally in your space making a test with Finesse or Knowledge receives an Upgrade.
+- **Lightning**: You or an ally in your space making a test with Agility or Instinct receives an Upgrade.
+
+#### Amp Surge
+
+*You channel your power into an already manifested Amp Skill to reach it's full potential.*
+**Effect**Select an already activated Amp Skill and roll a Simple Test with its Conduit Attribute. On a Success, you
+gain 2 Charges and 2 stacks of the selected Amp Skill.
 
 - **Flame**: You or an ally in your space making a melee attack receives an Upgrade.
 - **Frost**: You or an ally in your space making a ranged attack receives an Upgrade.
-- **Lightning**: You or an ally contesting an attack receives an Upgrade.
+- **Lightning**: You gain 1 Upgrade when contesting any attack made against you and .
 
-#### Amp Aura
+#### Amp Swap
 
-*An aura of elemental power surrounds you, and imbues your allies.*
-You gain a triggered effect corresponding to your Conduit Attribute. The number of times the effect can trigger per
-round increases by one for stack of this Amp skill.
+*You change the swelling energies within you to gain a different set of powers.*
+Select an already activated Amp Skill and roll a Simple Test with its Conduit Attribute. On a Success, replace all
+stacks of that Amp Skill with a different Amp Skill.
 
 - **Flame**: You or an ally in your space making a melee attack receives an Upgrade.
 - **Frost**: You or an ally in your space making a ranged attack receives an Upgrade.
-- **Lightning**: You or an ally contesting an attack receives an Upgrade.
+- **Lightning**: You gain 1 Upgrade when contesting any attack made against you and .
 
 ---
 
@@ -155,33 +166,33 @@ round increases by one for stack of this Amp skill.
 
 *You explode into motion, leaving a trail of elemental residue as you dash across the battlefield.*
 **Effect**: When taking a Movement Action, you gain flying for the duration of the movement and can move additional
-number of spaces equal to twice the amount of Charges consumed ($N$).
+number of spaces equal to twice the amount of Charges consumed ($X$).
 
-- **Flame**: Burning Trail. All creatures in the spaces you move through take damage equal to your Flame attribute.
-- **Frost**: Frozen Waists. Any space you move through becomes Difficult Terrain until the end of the round.
-- **Lightning**: Thunder Crash. All creatures in the space where you end your movement take $N$ times
-  *Lightning* damage.
+- **Flame**: All creatures in up $X$ spaces you move through take damage equal to your Flame attribute.
+- **Frost**:  All creatures in the space where you end your movement, and $X$ spaces behind it take damage equal to your
+  Frost attribute.
+- **Lightning**: All creatures in the space where you end your movement take $X$ times *Lightning* damage.
 
 #### Nova Burst
 
 *You release a burst of destructive energy.*
-**Effect**: Make a special Area Attack against your current space. Make a Simple Test with your Conduit
-Attribute. For every dice landing 8+, the damage you deal increases by Conduit Attribute, up to  $N$ times.
+**Effect**: You can trigger this any time during the Player Turn. Deal damage to all creatures in your
+space equal to $X$ times your Conduit Attribute.
 
 - **Flame**: You may increase the radius by 1 space.
-- **Frost**: You may push all creatures in the space up to $N$ spaces away.
+- **Frost**: You may push all creatures in the space 1 space away.
 - **Lightning**: You may choose which targets take damage
 
 #### Healing Burst
 
-*You vent excess energy to revitalize yourself and allies, the Aether Core glowing with soothing light.*
-**Effect**: Make a Success Roll using your current Conduit Attribute. You heal an amount of light wounds equal to the
-result.
+*You vent excess energy to revitalize yourself and allies.*
+**Effect**: You can trigger this any time during the Player Turn. Heal an amount of light wounds on you or an ally in
+your space equal to $X$ times your Conduit Attribute.
 
-- **Flame**: Warmth spreads to others. Heal $N$ additional creatures in your space.
-- **Frost**: Ice reinforces your form. Grant temporary Physical track segments equal to the total rolled.
-- **Lightning**: A quick jolt. Heal only the amount of the single highest die. However, you may trigger this ability
-  again for free once per Player Turn, up to $N$ total times. You may target other creatures in your space.
+- **Flame**: Heal the creature for the same amount at the end of the round.
+- **Frost**: If the target's condition track is full, you create a temporary buffer track that lasts until it's filled.
+  Multiple uses of this effect don't stack, they override each other. The buffer track's segments cannot be healed.
+- **Lightning**: You can spread the healing across multiple creatures in your space.
 
 #### Torrent Burst
 
@@ -254,10 +265,9 @@ skill, but any Charge you have left are lost at the end of the Player Turn.
 
 **Effect**: Increase your maximum Charges to 4.
 
-### ReCycle
+### Balance
 
-**Effect**: When you cycle between elemental charges, you keep the ongoing effects of the cycled out element until the
-end of the Player Turn.
+**Effect**: As long as you don't have the same Amp Skill activated twice, you can activate a fourth skill.
 
 ---
 
