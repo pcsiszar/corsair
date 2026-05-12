@@ -165,65 +165,67 @@ stacks of that Amp Skill with a different Amp Skill.
 #### Motion Burst
 
 *You explode into motion, leaving a trail of elemental residue as you dash across the battlefield.*
-**Effect**: When taking a Movement Action, you gain flying for the duration of the movement and can move additional
-number of spaces equal to twice the amount of Charges consumed ($X$).
+**Effect**: You can trigger this any time you take a movement action. Gain flying for the duration of the movement and
+can move additional number of spaces equal to twice the amount of Charges consumed ($X$).
 
-- **Flame**: All creatures in up $X$ spaces you move through take damage equal to your Flame attribute.
-- **Frost**:  All creatures in the space where you end your movement, and $X$ spaces behind it take damage equal to your
-  Frost attribute.
-- **Lightning**: All creatures in the space where you end your movement take $X$ times *Lightning* damage.
+- **Flame**: All creatures in the spaces you move into take damage equal to your Flame Attribute.
+- **Frost**: All creatures in the spaces you move into have their movement halved until the next Player Turn.
+- **Lightning**: Your next melee attack deals bonus damage equal to your Lightning Attribute.
 
-#### Nova Burst
+#### Impact Burst
 
-*You release a burst of destructive energy.*
-**Effect**: You can trigger this any time during the Player Turn. Deal damage to all creatures in your
-space equal to $X$ times your Conduit Attribute.
+*You channel every bit of elemental energy into a single strike.*
+**Effect**: You can trigger this any time you make a melee attack. Deal bonus damage equal to $2X$.
 
-- **Flame**: You may increase the radius by 1 space.
-- **Frost**: You may push all creatures in the space 1 space away.
-- **Lightning**: You may choose which targets take damage
+- **Flame**: Your attack gains bonus Damage equal to $X$.
+- **Frost**: Your attack pushes the target $X$ spaces back and halves it's movement speed until the next Player
+  Turn.
+- **Lightning**: You can move up to $X$ spaces before or making the attack.
 
 #### Healing Burst
 
 *You vent excess energy to revitalize yourself and allies.*
-**Effect**: You can trigger this any time during the Player Turn. Heal an amount of light wounds on you or an ally in
-your space equal to $X$ times your Conduit Attribute.
+**Effect**: Make a Success Roll using $X$ for the number of dice you roll. You can heal a total number of light wounds
+equal to the result for any willing creature in your space. You can distribute this healing any way you want to among
+eligible targets.
 
-- **Flame**: Heal the creature for the same amount at the end of the round.
-- **Frost**: If the target's condition track is full, you create a temporary buffer track that lasts until it's filled.
-  Multiple uses of this effect don't stack, they override each other. The buffer track's segments cannot be healed.
-- **Lightning**: You can spread the healing across multiple creatures in your space.
+- **Flame**: You can also heal your Flame attribute's amount of Light wounds on any healed creature's Physical Track.
+- **Frost**: You can also heal your Frost attribute's amount of Light wounds on any healed creature's Mental Track.
+- **Lightning**: You can also revive a creature who's bleeding out, unconscious, or died during this round, and heal an
+  amount of Light wounds equal to your Lightning attribute.
 
 #### Torrent Burst
 
 *You unleash a continuous stream of destruction, sweeping across the battlefield like a hose of pure energy.*
-**Effect**: Make a special Area Attack against a target space within 20 meters. Make a Success Test with your Conduit
-attribute. Attribute. Deal damage equal to the highest die. You may repeat this attack (targeting the same or adjacent
-space) up to $N$ times this round.
+**Effect**: Until the end of the Player Turn, you can make a special Area Attack against a target space within 20
+meters. Make Success Test with your Conduit attribute and deal damage to all creatures in the target space equal to the
+result. You may repeat this attack (targeting the same or adjacent space) up to $X$ times in succession, even if you
+spent enough AP for the Player Turn to end.
 
-- **Flame**: Burning flames. Deal bonus damage equal to your Flame the first time you hit a creature during the round.
-- **Frost**: Numbing cold. Any creature hit has their movement speed halved for the duration of the round.
-- **Lightning**: Forked lightning. You can target an additional adjacent space with each attack.
+- **Flame**: .
+- **Frost**: Any creature hit has their movement speed halved for the duration of the round.
+- **Lightning**: You can choose which targets in the space take damage.
 
 #### Supercharge Burst
 
 *You push the Aether Core to its limit, overflowing with power that enhances every action.*
-**Effect**: Trigger at any time during the Player Turn. Consumes all Charges ($N$). For the rest of the Round, gain an
-amount of **Upgrades** to tests using specific Attributes equal to your corresponding Conduit Attribute. Ongoing Amp
-abilities remain active until the end of the round.
+**Effect**: Trigger at any time during the Player Turn. For the rest of the Round, you cannot use Amp or Burst skills,
+but gain $X$ amount of **Upgrades** to tests using specific Attributes corresponding to the used Conduit Attribute.
+Ongoing Amp skills remain active until the end of the round.
 
-- **Flame**: **Strength** or **Charisma**
-- **Frost**: **Finesse** or **Knowledge**
-- **Lightning**: **Agility** or **Instinct**
+- **Flame**: Strength, Charisma, or Flame
+- **Frost**: Finesse, Knowledge, or Frost
+- **Lightning**: Agility, Instinct or Lightning
 
-#### Reactive Burst
+#### Lance Burst
 
-*Your energy flares instinctively to negate incoming harm, a shield of pure element springing to life.*
-**Effect**: Trigger when you or an ally in the same space is targeted by an attack. Consume all charges ($N$).
+*Your energy bursts forth like an avalanche, blasting all enemies in a straight line.*
+**Effect**: Select an adjacent space and make a Success Roll with your used Conduit Attribute. Every creature in that
+space and up to $X$ spaces behind it take damage equal to the result, plus your Conduit Attribute.
 
-- **Flame**: Vaporize projectiles. Reduce ranged damage taken by $N \times$ **Flame**.
-- **Frost**: Harden your skin against blows. Reduce melee damage taken by $N \times$ **Frost**.
-- **Lightning**: Disperse energy. Reduce Area Attack damage taken by $N \times$ **Lightning**.
+- **Flame**: Trigger a blast at the furthest affected space, dealing damage to all spaces adjacent to it.
+- **Frost**: Sweep every creature up and push them to the furthest affected space.
+- **Lightning**: You can choose which creatures in the affected spaces take damage.
 
 #### Displacer Burst
 
