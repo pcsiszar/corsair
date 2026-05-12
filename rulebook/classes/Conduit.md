@@ -199,12 +199,13 @@ eligible targets.
 *You unleash a continuous stream of destruction, sweeping across the battlefield like a hose of pure energy.*
 **Effect**: Until the end of the Player Turn, you can make a special Area Attack against a target space within 20
 meters. Make Success Test with your Conduit attribute and deal damage to all creatures in the target space equal to the
-result. You may repeat this attack (targeting the same or adjacent space) up to $X$ times in succession, even if you
-spent enough AP for the Player Turn to end.
+result. You may repeat this attack (targeting the same or adjacent space) up to $X$ times in succession in the current
+Player Turn, even if you spent enough AP for the Player Turn to end.
 
-- **Flame**: .
-- **Frost**: Any creature hit has their movement speed halved for the duration of the round.
-- **Lightning**: You can choose which targets in the space take damage.
+- **Flame**: Creatures hit take +1 bonus damage, increased by 1 for each successive hit they take from this skill durint
+  the Player Turn.
+- **Frost**: Creatures hit are pushed back 1 space and have their movement speed halved.
+- **Lightning**: Creatures that are hit three times by this skill until the end of the Player Turn lose 1 AP.
 
 #### Supercharge Burst
 
