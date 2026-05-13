@@ -195,7 +195,7 @@ A Complex Test is a two-step process:
    your action fails.
 2. **The Success Roll:** If your Action Roll is a success (at least one die shows 8 or higher), you then determine the
    *quality* of your success. You take a number of dice from the successful roll equal to the **lower** of the two
-   Attributes, and roll them again. The highest value on these dice becomes your "success points."
+   Attributes. The highest value on these dice becomes your "success points."
 
 Essentially, a Complex Test combines a Simple Test to see if you hit, and a Success Test to see how well you hit.
 
