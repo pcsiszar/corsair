@@ -1009,9 +1009,3 @@ they have to pay 1 AP to contest the roll.
 
 If the defender would be moving out from, or would be moving through space with Difficult Terrain, the AP cost of
 contesting increases by 1 for each space with Difficult Terrain involved.
-
-#### Verticality
-
-When verticality plays a factor in combat, the different vertical levels are treated as separate grids stacked on top of
-each other. The height difference between the grids is 2 meters. This means that a guard firing from a 4 meter tall
-watchtower is 2 layers above ground level.

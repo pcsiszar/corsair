@@ -1,6 +1,6 @@
 # License
 
-This work, "Corsair: Ride the Starlight", is licensed under the Creative Commons Attribution 4.0 International License.
+This work is licensed under the Creative Commons Attribution 4.0 International License.
 
 ## Human-Readable Summary
 
