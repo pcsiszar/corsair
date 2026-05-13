@@ -37,7 +37,7 @@ keeping the smaller worlds from drifting out of their assigned rings.
 ## The Binary Pairs: The Sister Worlds
 
 Most of the habitable real estate exists as Binary Pairs. These are two Earth-sized planets orbiting a shared center
-of gravity, which in turn orbits a Gas Giant. Because the two worlds are only 100,000 km apart, they have stopped
+of gravity, which in turn orbits a Gas Giant. Because the two worlds are only 40,000 km apart, they have stopped
 spinning independently and "stare" at each other eternally. From one side of your world, the Sister Planet hangs
 motionless in the sky—a massive marble that never rises or sets. Once every 30-hour "day," the Sister Planet passes
 directly in front of the sun. This causes a total solar eclipse known as the Daily Shadow, a brief hour of cool

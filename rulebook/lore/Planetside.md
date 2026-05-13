@@ -11,7 +11,7 @@ landscape.
 Because the two Earth-sized worlds are **tidally locked**, the Sister Planet does not rise or set. If you are on the
 side of the world facing it, it is a permanent fixture of your life.
 
-* **A World in the Sky:** At only 100,000 km away, the Sister Planet appears roughly **40 times larger** than the Moon
+* **A World in the Sky:** At only 40,000 km away, the Sister Planet appears roughly **40 times larger** than the Moon
   looks from Earth. It is so close that you can watch its weather systems crawl across continents, see the glow of its
   evening lights, and distinguish its oceans from its forests with the naked eye.
 * **The 30-Hour Phase Cycle:** The Sister Planet goes through a full cycle of phases—from a thin silver crescent to a "
