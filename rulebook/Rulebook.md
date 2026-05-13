@@ -83,7 +83,28 @@ To play Corsair, you will need a few things:
 
 ## Chapter 2: The World of Corsair
 
-[Introduction to the Lore](lore/Introduction)
+Corsair takes place in the far future where humanity, and a number of other civilizations fled their home systems and
+found their new home in a far away place among the stars. They arrived as newcomers to a seemingly abandoned solar
+system packed to the brim with over a hundred habitable planets, and called it the Sphere.
+
+It's been 500 years since they first landed on one many planetary bodies in the giant constellation, and the
+colonization effort is progressing slowly but steadily under the watchful eye of the Flotilla, a military organization
+established to be an independent guardian of all the colonies in the Sphere. It's charter states that while it holds no
+authority planetside, and colonies have the right of self-determination, it has full control over the void.
+
+This agreement is not without its flaws though. When trouble crosses the boundaries between the jurisdiction of the
+Flotilla and the colonies, you need people that have the backing of both in order to confront it, wherever it goes.
+These people are called Corsairs, individuals with a proven record of excellence, vouched for by the biggest powers in
+known space. While most people regard them as nothing more than glorified bounty-hunters, they have the authority to do
+as they see fit in order to uphold peace and prosperity in the Sphere.
+
+Their actions don't come without consequences though, everything they do is judged harshly by a jury made up of the
+sponsors of the Corsair organization, the Flotilla, the colonies, corporations and other powerful groups. If they step
+out of line, their privileged status can be revoked just as quickly as it is granted. Because of this, most Corsair work
+is contract work for one or more of these sponsors to stay in their good graces.
+
+At the end of the day, you have a ship, your crew, and plenty of top-notch gear, which is more than enough to make a
+difference. Now's the time to put it to good use.
 
 ## Chapter 3: Core Mechanics
 
