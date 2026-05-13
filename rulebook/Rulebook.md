@@ -249,7 +249,7 @@ The game distinguishes between three types of scenes based on their scope: **Mom
 Think of the scene type as a camera lens. The GM can zoom in for a close-up on a dramatic confrontation or zoom out to
 quickly cover a long journey.
 
-* **Day to Day:** This is the most "zoomed-out" level of play. It's used to cover long periods of time where the
+* **Day to Day:** This is the most "zoomed-out" level of play. It's used to cover long periods of time in which the
   characters are engaged in ongoing activities, but nothing requires immediate, second-by-second attention. This could
   be a day spent repairing the ship, a week of interstellar travel, or a month of downtime in a bustling city.
 
@@ -258,8 +258,7 @@ quickly cover a long journey.
   is more fluid here than in Moment to Moment play, but the focus is on a single, contiguous area.
 
 * **Moment to Moment:** This is the most "zoomed-in" level of play, where every second counts. This is for high-stakes
-  situations like combat, a frantic chase, or a tense negotiation. The action is broken down into **Rounds** and **Turns
-  ** to manage the chaos.
+  situations like combat, a frantic chase, or a tense negotiation.
 
 ### Zooming In and Out
 
@@ -267,9 +266,7 @@ The GM can transition between scene types as the story demands.
 
 * **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example,
   while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly
-  shifting the scene to Moment to Moment. When you zoom in, the current round of the broader scene immediately ends. *
-  *Any unspent Action Tokens from the broader scene are lost.** Characters then get a fresh set of Action Tokens for the
-  new scene.
+  shifting the scene to Moment to Moment.
 
 * **Zooming Out:** Conversely, after a firefight is over (Moment to Moment), the GM can "zoom out" to Place to Place to
   cover the rest of the crew's exploration of the area, or even further to Day to Day to cover their journey to the next
@@ -285,9 +282,23 @@ scene's pacing, where every character present has an opportunity to act. This en
 manageable and that the spotlight is shared. At the beginning of each round, every character gets a fresh set of Action
 Tokens.
 
+### Action Tokens
+
+Action Tokens are the currency you spend to perform significant actions, especially those requiring a Test. **At the
+start of each round, every Player Character gets 4 Action Tokens.**
+
+Here's how you spend them in any scene type:
+
+* **Simple or Success Test:** 1 Action Token
+* **Complex Test:** 2 Action Tokens
+* **Contesting a Test:** 1 Action Token
+
+Minor actions that don't require a test, like speaking a short sentence, moving a few steps, or dropping an item, do not
+cost any Action Tokens. Unspent Action Tokens are lost at the end of the round.
+
 ### Turns
 
-Each round is divided into two turns: the **Player Turn** and the **GM Turn**.
+Each round is divided into multiple turns of two different types: The **Player Turn** and the **GM Turn**.
 
 * **Player Turn:** During the Player Turn, the players decide and declare what their characters are doing. A crucial
   aspect of the Player Turn is its free-form nature. **Players can act in any order they wish.** You can coordinate your
@@ -302,58 +313,13 @@ The turn swaps from the players to the GM (or vice versa) after the active side 
 Tokens and resolved their last action. The round concludes when both sides choose to "pass," meaning they have no
 further actions to take. Every round starts with the Player Turn first.
 
-Most rounds will fly by due to the players beingrounded with no NPCs, or NPCs that generally don't wish to affect
+Most rounds will fly by due to the players being grounded with no NPCs, or NPCs that generally don't wish to affect
 the player characters. Therefore, most rounds will be rather one-sided, but that is a good thing as the GM already has
 a lot of work just arbitrating the player characters' narrations.
 
 When a player action would cause an NPC to go from a passive to an active participant in the scene, they become active
 and receive their Action Tokens next round, meaning each player character has a chance to act before the GM gets to
 react with NPCs.
-
-### Danger and Complications
-
-The universe is a dangerous place, and even the most carefully planned operations can be disrupted by unforeseen events.
-To represent this, the GM can use the **Danger Level** mechanic.
-
-At the start of every scene, the GM will set a Danger Level, a number from 0 to 6. This number represents how perilous
-the environment is.
-
-* **Danger 0:** A completely safe environment, like a trusted friend's apartment or a secured private starship.
-* **Danger 1-2:** A typical city street or a sparsely populated wilderness. There's a small chance of running into
-  trouble.
-* **Danger 3-4:** A restricted area, a dangerous alien jungle, or the territory of a hostile gang. Trouble is likely.
-* **Danger 5-6:** A high-security military base on high alert, the nest of a terrifying creature, or the middle of a
-  chaotic battlefield. Danger is almost certain.
-
-#### The Danger Roll
-
-At the end of any round, the GM has the option to make a **Danger Roll**. They roll a number of d10s equal to the
-scene's Danger Level. This is a special kind of Complex Test:
-
-1. The GM rolls the dice.
-2. Keep the ones that rolled 8 or higher and then roll with them again.
-3. The highest result from these re-rolled dice adds additional Danger Points equal to its value for that round.
-
-The GM can then spend these Danger Points to introduce new actors or complications into the scene. This could be a
-security patrol stumbling upon the players, a sudden environmental hazard, or a group of hungry alien predators catching
-the players' scent.
-
-The GM is never forced to make a Danger Roll, nor are they required to spend the points they generate. This mechanic is
-a tool for the GM to add tension and unpredictability to a scene, making the world feel more alive and reactive.
-
-### Action Tokens in Detail
-
-Action Tokens are the currency you spend to perform significant actions, especially those requiring a Test. **At the
-start of each round, every Player Character gets 4 Action Tokens.** This is true for all scene types.
-
-Here's how you spend them in any scene type:
-
-* **Simple or Success Test:** 1 Action Token
-* **Complex Test:** 2 Action Tokens
-* **Contesting a Test:** 1 Action Token
-
-Minor actions that don't require a test, like speaking a short sentence, moving a few steps, or dropping an item, do not
-cost any Action Tokens. Unspent Action Tokens are lost at the end of the round.
 
 ### Pushing Your Limits: Spending More Than 2 Tokens
 
@@ -398,91 +364,6 @@ dynamic, cinematic action. Don't be afraid to combine actions, work together, an
 At the heart of every Corsair story are the Player Characters (PCs), the daring protagonists whose actions shape the
 narrative. This chapter will guide you through the process of creating your own unique character, from their core
 abilities to their specialized skills and equipment.
-
-### Character Origins
-
-Before they were Corsairs, every adventurer had a life. They came from all walks of life, and the advanced technology
-that defines their current path was acquired through various, often dramatic, means. At character creation, you will
-choose two aspects of your background: your **Origin**, which describes who you were, and your **Acquisition**, which
-explains how you came to possess the specialized equipment that sets you apart. These choices shape your character's
-story.
-
-#### Your Origin
-
-Choose one of the following Origins for your character.
-
-* **Academic:** You were a researcher, scientist, or scholar, like a doctor or technician. You gain an additional skill
-  level in a skill related to a field of knowledge (e.g., Medicine, Engineering). You also gain 1 Upgrade on social
-  tests with other Academics.
-
-
-* **Artisan:** You were an artist, craftsperson, or entertainer. You gain a skill level in a skill related to crafting,
-  artistry, or performance. You also gain 1 Upgrade on social tests with other Artisans.
-
-
-* **Corporate:** You were a bureaucrat, manager, or agent in a large corporation. You gain a skill level in a skill
-  related
-  to negotiation, bureaucracy, or leadership. You also gain 1 Upgrade on social tests with other Corporate characters.
-
-
-* **Laborer:** You were a miner, factory worker, cargo hauler, or other skilled laborer. You're used to hard work and
-  getting your hands dirty. You gain a skill level in a skill related to manual labor, repair, or operating heavy
-  machinery. You also gain 1 Upgrade on social tests with other Laborers.
-
-
-* **Military:** You were a soldier, a peacekeeper, law enforcement, or part of a corporate security force. You are
-  trained
-  in combat and discipline. You gain a skill level in a skill related to combat, tactics, or discipline. You also gain 1
-  Upgrade on social tests with other Military personnel.
-
-
-* **Nobility:** You were born into a life of privilege, part of a wealthy family or a powerful political dynasty. You
-  are used to getting your way. You gain a skill level in a skill related to social etiquette, diplomacy, or commanding
-  authority. You also gain 1 Upgrade on social tests with other Nobility.
-
-
-* **Underworld:** You have a criminal past. You might have been a thief, a smuggler, a gangster, or a con artist. You
-  gain a skill level in a skill related to crime, smuggling, or navigating the black market. You also gain 1 Upgrade on
-  social tests with other members of the Underworld.
-
-
-* **Fringe:** You grew up on the fringes of civilized space, in a remote colony, a nomadic fleet, or a forgotten
-  outpost. You are a survivor. You gain a skill level in a skill related to survival, scavenging, or navigating
-  hazardous environments. You also gain 1 Upgrade on social tests with other Fringe dwellers.
-
-
-* **Clandestine:** You worked in the shadows for a government agency, a corporation, or a secret society. You are a spy,
-  an assassin, or an intelligence analyst. You gain a skill level in a skill related to stealth, deception, or
-  espionage. You also gain 1 Upgrade on social tests with other Clandestine operatives.
-
-#### Your Acquisition
-
-Choose how you acquired the piece of high-tech equipment that defines your class.
-
-* **Bought and Paid For:** You purchased your gear, legally or on the black market. It's yours, no strings attached.
-* **Bound by Oath:** Your equipment was entrusted to you as part of a solemn duty or a sacred vow. It might be a family
-  heirloom or a symbol of office.
-* **Built from Scratch:** You designed and constructed your equipment yourself. It's a reflection of your own genius and
-  hard work.
-* **Gifted for Free:** The equipment was given to you, no strings attached. It could have been a gift from a mentor, a
-  reward for a past heroic deed, or perhaps you just have a face that people trust.
-* **Lost and Found:** You discovered your equipment by chance—in a derelict ship, a forgotten ruin, or a dusty old
-  crate.
-* **Stolen or Borrowed:** You "liberated" your equipment from its previous owner. Whether they deserved it or not is up
-  to you.
-
-### Classes
-
-This section will detail the various classes available to players.
-
-#### Class Abilities
-
-Unless stated otherwise, if class abilities create a persistent effect, they last until the pacing of the story changes
-into a pacing that covers longer periods of time than when the effect was created, OR they fall unconscious. An ability
-used in moment-to-moment pacing lasts until they story moves to place-to-place pacing. When it's used in place-to-place,
-it persists when the story moves to moment-to-moment, and keeps going when it switches back to place-to-place, but ends
-when we swap to day-to-day pacing. An ability creating a persistent effect would last indefinitely, if not for the
-characters' need to sleep, which ends all ongoing special effects that they created.
 
 ### Core Attributes
 
@@ -772,27 +653,6 @@ Gear is a broad category encompassing all other mechanically significant items t
 These items often provide special properties, unique abilities, or situational advantages. Gear can be anything from a
 single-use consumable to a complex device with ongoing effects.
 
-##### Types of Gear
-
-* **Consumables:** These are items that are expended upon use. Some, like grenades, are single-use. Others, like
-  Medkits, have a number of uses before they are depleted.
-    * *Example - Medkit:* A Medkit is a crucial consumable used for the First Aid action. It has a **Quality**
-      attribute and a set number of **Uses**. When performing First Aid, its Quality is paired with your Knowledge or
-      Finesse. Each use is expended whether the test is successful or not. Their uses can be replenished with Medical
-      Supplies.
-    * *Other Examples:* Grenades (dealing area-of-effect damage), or stim-packs (providing temporary Attribute
-      boosts).
-
-* **Cooldown Gear:** Some gear operates on a cooldown system. After activation, these items become temporarily
-  unavailable for a set number of rounds or until a specific condition is met. Jetpacks, for instance, might allow for a
-  burst of movement but then require several rounds to recharge.
-
-* **Permanent/Toggleable Gear:** This type of gear provides a continuous benefit or can be activated/deactivated at
-  will. Mag-boots, which allow a character to walk on metallic surfaces regardless of gravity, are an example of
-  permanent gear. A protective thermal layer, which can be toggled on or off to provide environmental resistance, is an
-  example of toggleable gear. These items typically don't have a limited number of uses, but their effects might be
-  situational or require an Action Token to activate/deactivate.
-
 ## Chapter 7: Tracks and Effects
 
 In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, challenges, or the progression of
@@ -865,53 +725,21 @@ goal, it can also be used to create an Effect, representing a tactical advantage
 alteration to the scene. The emphasis is on *how* you achieve something, and the creative narration that accompanies
 your actions.
 
-Every Effect has an associated **Success Point Cost** that must be paid from the Success Points generated by a
-successful test. This means that even if you succeed at a test, you might choose to spend some or all of your Success
-Points not on direct progress, but on creating a beneficial Effect.
+Effects are activated usually via sacrificing dice from Success Rolls that landed 8 or higher. Each additional die
+sacrificed will increase the effect's level by one.
 
-Crucially, for an Effect to persist, it must have an **Anchor**: a specific, ongoing, and tangible condition that is
-named when the Effect is created. The Effect remains active only as long as its Anchor condition is met. As soon as that
-condition ceases to be true, the Effect immediately ends.
+#### Removing Effects
 
-The key to a good Anchor is that it must be **tangential and specific**. It should be a concrete, observable state
-within the game world, not a general or abstract character state. The Anchor connects the mechanical Effect to the
-game's narrative.
+Any active Effect can be actively removed by a character through a "Cleansing" action. This represents an attempt to
+actively
+undo the Effect.
 
-For example, good Anchors would be:
+To attempt to cleanse an Effect, a character must make a Simple Test with the appropriate attributes. Each dice landing
+8 or higher will cause the effect's level to drop by one, and disappear when it hits level 0.
 
-* "As long as the enemy is prone"
-* "As long as they have dust in their eyes"
-* "As long as I am wearing this specific disguise"
-* "As long as I am staying behind this crate"
-
-These are all specific, verifiable conditions within the game world. In contrast, vague or overly broad conditions make
-poor Anchors because they are difficult to adjudicate and lack narrative grounding. Examples of bad Anchors include:
-
-* "As long as I am hidden" (Too general. Hidden from whom? Where? What constitutes being hidden?)
-* "As long as I am motivated" (This is an internal character state, not an observable, external condition.)
-* "As long as I am in a superior position" (Too abstract. What defines a "superior position"?)
-
-When you create an Effect, your narration must clearly establish the Anchor and how your action creates it. For
-instance, instead of saying "I want to create a Downgrade effect on the guard," you would say, "I kick dust into the
-guard's eyes, making it harder for them to see." The Anchor is "dust in the guard's eyes," and the Effect (a Downgrade
-on their perception or attack tests) lasts as long as that is true.
-
-#### Cleansing Effects
-
-Any active Effect can be removed by a character through a "Cleansing" action. This represents an attempt to actively
-
-undo the condition that Anchors the Effect.
-
-To attempt to cleanse an Effect, a character must spend **1 Action Token** and describe how they are trying to remove
-the
-
-Effect's Anchor. This is a **Success Test**, where the GM determines the most appropriate Attribute for the action. The
-
-Action Token is spent regardless of the outcome.
-
-To successfully cleanse the Effect, the result of the Success Test must be **equal to or greater than the number of
-
-Success Points** that were originally spent to create the Effect.
+Other than the actively removing the effect, any character might do something that would "break" the effect. If for
+example you knocked an enemy prone using an effect, the character can simply stand up on their turn and end the effect.
+It's important to realize what the conditions are for effects to persist and keep or dismiss them accordingly.
 
 #### Upgrade/Downgrade Effect
 
@@ -924,32 +752,14 @@ creating a disadvantage for another. For example, if a character is knocked "Pro
 attacking them might receive an Upgrade, as the prone character is an easier target. Conversely, the prone character
 would receive a Downgrade on their own attack rolls, as it is much harder to fight effectively from the ground.
 
-* **Cost:** One level of the Upgrade/Downgrade Effect costs **4 Success Points**.
-* **Stacking:** You can purchase up to **3 levels** of this Effect for a total of 12 Success Points. Each level grants
-  one Upgrade or one Downgrade, depending on whether the effect is beneficial or detrimental.
-
-Your narration must establish the Anchor for the effect. For example, to give an ally an Upgrade,
-you might say, "I'll lay down covering fire, keeping that turret suppressed." The Anchor is "the turret is suppressed,"
-and the Upgrade might apply to your ally's movement tests to get past it.
+* **Stacking:** You can purchase up to **3 levels** of this Effect. Each level grants one Upgrade or one Downgrade,
+  depending on whether the effect is beneficial or detrimental.
 
 #### Blocker Effect
 
 A **Blocker Effect** prevents a creature or creatures from performing a specific action or accessing a certain area.
 This effect is highly narrative-dependent and requires the GM's interpretation of what can reasonably be blocked by your
 action.
-
-* **Cost:** The cost of a Blocker Effect is variable, with a **minimum cost of 8 Success Points** and a maximum of 12.
-  You cannot create a Blocker Effect by spending fewer than 8 Success Points. The more points spent, the more
-  difficult the effect is to overcome.
-* **Sustaining the Effect:** A Blocker Effect lasts only as long as its Anchor remains true. The nature of the Anchor
-  determines what is required to sustain the effect. Some Anchors may require the creator's constant attention, while
-  others are self-sufficient once created.
-    * *Example (Active Anchor):* If you narrate "pinning a guard to the ground," your Anchor is "the guard is pinned."
-      This requires your continuous effort; you cannot move away from the guard without the Anchor failing and the
-      effect ending.
-    * *Example (Passive Anchor):* If you narrate "throwing a net over a drone, tangling its propellers," the Anchor is
-      "the drone is tangled in the net." This effect persists without any further action from you. The drone remains
-      blocked until it successfully cleanses the effect (e.g., by cutting itself free).
 
 The GM will determine the appropriate Attribute Pair for the blocked creature's Success Test to cleanse the effect,
 based on their narration of how they attempt to overcome the block.
@@ -960,48 +770,27 @@ A **Triggered Effect** allows you to set up a future action or consequence that 
 met. The Success Points you generate from your test are "stored" and then applied to the triggered action when its
 condition is fulfilled.
 
-* **Cost:** The cost of a Triggered Effect is **variable**, depending on the complexity and impact of the action you
-  wish to trigger. The GM will determine the Success Point cost based on the narrative and mechanical implications.
-* **Setting up the Trigger:** When you declare a Triggered Effect, you must clearly define:
-    1. **The Trigger Condition:** What specific event or circumstance will cause the effect to activate? (e.g., "When
-       the enemy opens that door," "If the alarm sounds," "When the target moves into the open.")
-    2. **The Action/Consequence:** What will happen when the trigger condition is met? (e.g., "I shoot them," "The
-       explosive detonates," "The force field activates.")
-* **Action Token Expenditure for Complex Tests:** If the action you wish to trigger would normally require a **Complex
-  Test** (which costs 2 Action Tokens), you can spend **1 Action Token** when you set up the Triggered
-  Effect (performing the initial Success Test). The second Action Token is then spent at the moment the effect is
-  triggered. If the Triggered Effect activates during the GM's turn, the second Action Token is spent without affecting
-  the current turn's Action Token limits, allowing for dynamic reactions without penalizing player actions in subsequent
-  turns.
-* **Examples:**
-    * **Setting a Trap:** You spend Success Points to set a tripwire connected to a grenade. The trigger condition is "
-      an enemy crosses the tripwire." The action is "the grenade detonates." This requires only 1 Action Token.
-    * **Holding a Chokepoint:** You narrate "bracing yourself at the doorway, ready to fire at anyone who comes
-      through." The trigger condition is "an enemy enters the doorway." The action is "you shoot them." This requires 2
-      Action Tokens, 1 when you set it up, one when you shoot.
+Unlike most effects, with the triggered effect you put aside the dice you pay for it and will use it's result when the
+trigger occurs.
 
-#### Movement Effect
+#### Push Effect
 
-A **Movement Effect** allows you to use the Success Points from a test to
-reposition another creature. This is useful for repositioning, escaping, or forcing opponents into disadvantageous
-positions.
+A **Movement Effect** allows you to reposition another creature. This is useful for repositioning, escaping, or forcing
+opponents into disadvantageous positions.
 
-* **Moving Another Creature:** You can move another creature 1 space at a cost of **4 Success Points**. You can choose
-  to
-  travel with them, moving to the same space.
+* **Moving Another Creature:** You can move another creature 1 space at a cost of 1 sacrificed die. You can choose
+  to travel with them, moving to the same space. You can push multiple creatures with the same roll as long as you are
+  in the same space.
     * **Unwilling Creature:** Forcing an unwilling creature to move requires you to generate the Success Points from a
       **Complex Test** (e.g., a Strength + Strength test to shove them).
     * **Willing Creature:** Moving a willing creature (e.g., pulling an ally to safety) requires you to generate the
       Success Points from a **Success Test**.
 
-The GM will adjudicate the feasibility and narrative justification of Movement Effects.
-
 ## Chapter 8: Combat
 
 In the world of Corsair, conflict is inevitable. Whether facing down a squad of corporate enforcers, battling a
-monstrous
-alien in the depths of a derelict ship, or engaging in a desperate dogfight in the void of space, combat is a thrilling
-and dangerous part of your adventures.
+monstrous alien in the depths of a derelict ship, or engaging in a desperate dogfight in the void of space, combat is a
+thrilling and dangerous part of your adventures.
 
 When a conflict turns violent and every action matters, the game shifts into **Moment to Moment** pacing. The following
 rules govern combat encounters. While you can resolve combat using "theatre of the mind," using a grid-based battle

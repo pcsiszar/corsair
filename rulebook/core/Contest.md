@@ -11,19 +11,13 @@ follows:
    the contest.
 3. **The Contest Roll:** The contester rolls a number of d10s equal to the chosen Attribute's value.
 4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of
-   the
-   contested character's highest dice. The dice that are eliminated are always the highest results in the contested
+   the contested character's highest dice. The dice that are eliminated are always the highest results in the contested
    character's pool.
 
-You **successfully contest** a test if your contest roll causes a meaningful negative outcome for the contested
-character. For
-example, turning their successful attack into a miss, or significantly reducing the damage or effect of their action.
-Traits like *Counterstrike* trigger off of this condition.
-
-You **successfully contest** a test if your contest roll eliminates every 8+ die from the contested roll.
+You **resist** a test if your contest roll eliminates every 8+ die from the contested roll.
 
 You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the
-Success Test generates 0 Success Points and turns into a failure.
+Success Test generates 0 Success Points even if there are dice that are yet to be eliminated.
 
 #### Contest Example
 
