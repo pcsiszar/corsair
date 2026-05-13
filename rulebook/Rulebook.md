@@ -159,15 +159,14 @@ Simple, Success, and Complex.
 
 A Simple Test is used when the outcome of an action is binary: you either succeed or you fail. There is no middle
 ground. To make a Simple Test, you form a dice pool by taking a number of ten-sided dice (d10s) equal to the higher of
-the two Attributes in the pair. You are aiming to get a final result of 8 or higher to succeed.
+the two Attributes in the pair. In order to succeed, you need at least one of the dice to roll an 8 or higher. If it
+does, you succeed, if it doesn't you fail.
 
 Examples of Simple Tests include:
 
 * Leaping across a chasm.
-* Forcing open a locked door.
-* Quickly downloading a file from an unsecured terminal.
-* Shooting a target that is either hit or missed.
-* Resisting the effects of a toxin.
+* Sneaking through a patrolled corridor.
+* Disarming a trap.
 
 #### Success Tests
 
@@ -196,7 +195,7 @@ A Complex Test is a two-step process:
    your action fails.
 2. **The Success Roll:** If your Action Roll is a success (at least one die shows 8 or higher), you then determine the
    *quality* of your success. You take a number of dice from the successful roll equal to the **lower** of the two
-   Attributes. The highest value on these dice becomes your "success points."
+   Attributes, and roll them again. The highest value on these dice becomes your "success points."
 
 Essentially, a Complex Test combines a Simple Test to see if you hit, and a Success Test to see how well you hit.
 
