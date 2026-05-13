@@ -129,7 +129,7 @@ everything can have Attributes.
 
 While characters have core Attributes representing their physical and mental capabilities, the concept extends to all
 corners of the game. A weapon might have **Rate of Fire** and **Accuracy** as Attributes. A jetpack could have a
-**Mobility** Attribute, while a cybernetic arm might have a **Power** rating. A starship is defined by a whole range of
+**Thrust** Attribute, while a cybernetic arm might have a **Power** rating. A starship is defined by a whole range of
 Attributes, such as its **Thrusters**, **Hull**, and **Scanners**. These ratings are the primary factor in determining
 the outcome of an action. A higher Attribute value signifies greater capability, directly impacting the dice rolls
 you'll make during the game.
