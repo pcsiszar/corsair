@@ -90,11 +90,13 @@ chosen Conduit Attribute and how your current stack of Amp Projectiles. Each sta
 - **Frost**:
     1. Your ranged weapon gains +1 Rate of Fire if they have at least 0.
     2. Your ranged weapon gains +1 Rate of Fire if they have at least 0.
-    3. Set your ranged weapon's Penetration to 0, and it's Rate of Fire to your Frost Attribute, if it has at least 1.
+    3. Set your ranged weapon's Rate of Fire to your Frost Attribute, if it has at least 1.
 - **Lightning**:
-    1. Your ranged weapon gains +1 Penetration and +1 Accuracy beyond Short Range (if they have at least 0)
-    2. Your ranged weapon gains +1 Penetration and +1 Accuracy beyond Medium Range (if they have at least 0)
-    3. Set your weapon's Rate of Fire to 0, and it's Penetration to your Lightning Attribute
+    1. Your ranged weapon gains +1 Accuracy beyond Short Range (if they have at least 0)
+    2. Your ranged weapon gains +1 Accuracy beyond Medium Range (if they have at least 0)
+    3. Set your weapon's Rate of Fire to 0, it's Accuracy to your Lightning Attribute on short range, one less for
+       Medium, two less for Long, three less for Extreme. If your weapon couldn't beyond a specific range, it now can,
+       as long as this ability is active and the weapon's new Accuracy is not negative.
 
 #### Amp Strikes
 
@@ -104,15 +106,15 @@ chosen Conduit Attribute and how your current stack of Amp Strikes. Each stack's
 
 - **Flame**:
     1. Set your attribute based damage bonuses on your melee weapons to use either Strength or Flame.
-    2. Set your melee weapon's Penetration equal to your Flame Attribute.
+    2. Your weapon gains +1 Reach.
     3. Your melee attacks deal +2 Damage.
 - **Frost**:
     1. Set your attribute based damage bonuses on your melee weapons to use either Finesse or Frost.
-    2. Set your melee weapon's Penetration equal to your Frost Attribute.
-    3. Your melee attack decrease the target's Protection by 1 until the end of the round.
+    2. Your weapon gains +1 Reach.
+    3. Your attacks decrease the target's Physical Protection by 1 until the next Player Turn.
 - **Lightning**:
     1. Set your attribute based damage bonuses on your melee weapons to use either Agility or Lightning.
-    2. Set your melee weapon's Penetration equal to your Lightning Attribute.
+    2. Your weapon gains +1 Reach.
     3. Your first melee attack each round deals +3 Damage.
 
 #### Amp Regen
@@ -243,12 +245,15 @@ space and up to $X$ spaces behind it take damage equal to the result, plus your 
 
 *You focus your elemental energies into a small, piercing projectiles.*
 **Effect**: Trigger any time during the player turn. Until the end of the turn, you can make a ranged attack up to 24
-meters using your appropriate Conduit Attribute in place of Accuracy.
+meters using your appropriate Conduit Attribute in place of Finesse and Accuracy and $X$ as the Damage bonus. You can
+repeat this attack up to $X$ times until the end of the round.
 
-- **Flame**: Explosive force. Select $N$ additional targets in your space. They take $N \times$ **Flame** damage and are
-  pushed the same distance.
-- **Frost**: Encase in ice. Spend Success Points equal to $N \times$ **Frost** to buy **Blocker** effects.
-- **Lightning**: **.
+- **Flame**: If you have unspent charges at the end of the round, you gain a Flame charge with a free activation
+  of an Amp skill.
+- **Frost**: If you have unspent charges at the end of the round, you gain a Frost charge with a free activation
+  of an Amp skill.
+- **Lightning**: If you have unspent charges at the end of the round, you gain a Lightning charge with a free activation
+  of an Amp skill.
 
 ---
 
@@ -271,7 +276,7 @@ of charges you lose.
 **Effect**: When using a Burst Skill, you can choose to retain some of your Charges instead of spending them on the
 skill, but any Charge you have left are lost at the end of the Player Turn.
 
-### Jump Start
+### Wellspring
 
 **Effect**: When you use an Amp Skill and have Zero Charges (in any element), you generate 2 Charges instead of 1.
 
@@ -281,7 +286,8 @@ skill, but any Charge you have left are lost at the end of the Player Turn.
 
 ### Balance
 
-**Effect**: As long as you don't have the same Amp Skill activated twice, you can activate a fourth skill.
+**Effect**: As long as you don't have the same Amp Skill activated twice, you can activate an additional skill
+automatically for free.
 
 ---
 
