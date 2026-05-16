@@ -60,22 +60,22 @@ accumulates.
 #### Amp Body
 
 *Elemental energy floods your muscles, pushing them beyond natural limits.*
-**Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, increase the matching Physical Attribute
-by 1.
+**Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, grant +1 Upgrade to any test with the
+matching Physical Attribute.
 
-- **Flame**: Increase **Strength**.
-- **Frost**: Increase **Finesse**.
-- **Lightning**: Increase **Agility**.
+- **Flame**: +1 Upgrade to **Strength** tests.
+- **Frost**: +1 Upgrade to **Finesse** tests.
+- **Lightning**: +1 Upgrade to **Agility** tests.
 
 #### Amp Psyche
 
 *The hum of the core sharpens your mind, accelerating your thoughts to match the element.*
-**Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, increase the matching Mental Attribute
-by 1.
+**Effect**: Make a Simple Test with the chosen Conduit Attribute. On a success, grant +1 Upgrade to any test with the
+matching Mental Attribute.
 
-- **Flame**: Increase **Charisma**.
-- **Frost**: Increase **Knowledge**.
-- **Lightning**: Increase **Instinct**.
+- **Flame**: +1 Upgrade to **Charisma** tests.
+- **Frost**: +1 Upgrade to **Knowledge** tests.
+- **Lightning**: +1 Upgrade to **Instinct** tests.
 
 #### Amp Projectiles
 
@@ -168,9 +168,10 @@ stacks of that Amp Skill with a different Amp Skill.
 **Effect**: You can trigger this any time you take a movement action. Gain flying for the duration of the movement and
 can move additional number of spaces equal to twice the amount of Charges consumed ($X$).
 
-- **Flame**: All creatures in the spaces you move into take damage equal to your Flame Attribute.
+- **Flame**: All creatures in the spaces you move through or into take damage equal to your Flame Attribute.
 - **Frost**: All creatures in the spaces you move into have their movement halved until the next Player Turn.
-- **Lightning**: Your next melee attack deals bonus damage equal to your Lightning Attribute.
+- **Lightning**: All creatures in the spaces you move into discard their highest die on their first test until the next
+  Player Turn.
 
 #### Impact Burst
 
@@ -197,26 +198,36 @@ eligible targets.
 #### Torrent Burst
 
 *You unleash a continuous stream of destruction, sweeping across the battlefield like a hose of pure energy.*
-**Effect**: Until the end of the Player Turn, you can make a special Area Attack against a target space within 20
+**Effect**: Until the end of the Player Turn, you can make a special Area Attack against a target space within 12
 meters. Make Success Test with your Conduit attribute and deal damage to all creatures in the target space equal to the
 result. You may repeat this attack (targeting the same or adjacent space) up to $X$ times in succession in the current
 Player Turn, even if you spent enough AP for the Player Turn to end.
 
-- **Flame**: Creatures hit take +1 bonus damage, increased by 1 for each successive hit they take from this skill durint
+- **Flame**: Creatures hit take +1 bonus damage, increased by 1 for each successive hit they take from this skill during
   the Player Turn.
 - **Frost**: Creatures hit are pushed back 1 space and have their movement speed halved.
-- **Lightning**: Creatures that are hit three times by this skill until the end of the Player Turn lose 1 AP.
+- **Lightning**: Any creatures hit automatically discard the highest die they roll on the first test they take during
+  the next GM turn.
 
-#### Supercharge Burst
+#### Athletic Burst
 
-*You push the Aether Core to its limit, overflowing with power that enhances every action.*
-**Effect**: Trigger at any time during the Player Turn. For the rest of the Round, you cannot use Amp or Burst skills,
-but gain $X$ amount of **Upgrades** to tests using specific Attributes corresponding to the used Conduit Attribute.
-Ongoing Amp skills remain active until the end of the round.
+*You push the Aether Core to its limit, overflowing with power that enhances a specific physical aspect.*
+**Effect**: Trigger at any time during the Player Turn. Until the end of the Round, you cannot use Amp or Burst skills,
+but increase one of your Physical Attributes by $X$. Any Amp you have also remain active until the end of the Round.
 
-- **Flame**: Strength, Charisma, or Flame
-- **Frost**: Finesse, Knowledge, or Frost
-- **Lightning**: Agility, Instinct or Lightning
+- **Flame**: Increase Strength by $X$.
+- **Frost**: Increase Finesse by $X$.
+- **Lightning**: Increase Agility by $X$.
+
+#### Cerebral Burst
+
+*You push the Aether Core to its limit, overflowing with power that enhances a specific physical aspect.*
+**Effect**: Trigger at any time during the Player Turn. Until the end of the Round, you cannot use Amp or Burst skills,
+but increase one of your Mental Attributes by $X$. Any Amp you have also remain active until the end of the Round.
+
+- **Flame**: Increase Charisma by $X$.
+- **Frost**: Increase Knowledge by $X$.
+- **Lightning**: Increase Instinct by $X$.
 
 #### Lance Burst
 
@@ -228,16 +239,16 @@ space and up to $X$ spaces behind it take damage equal to the result, plus your 
 - **Frost**: Sweep every creature up and push them to the furthest affected space.
 - **Lightning**: You can choose which creatures in the affected spaces take damage.
 
-#### Displacer Burst
+#### Bolt Burst
 
-*You strike with kinetic force, sending foes flying with an explosion of contact.*
-**Effect**: Trigger when making a melee attack. Deal $N$ bonus damage. You may push the target $N$ spaces.
+*You focus your elemental energies into a small, piercing projectiles.*
+**Effect**: Trigger any time during the player turn. Until the end of the turn, you can make a ranged attack up to 24
+meters using your appropriate Conduit Attribute in place of Accuracy.
 
 - **Flame**: Explosive force. Select $N$ additional targets in your space. They take $N \times$ **Flame** damage and are
   pushed the same distance.
 - **Frost**: Encase in ice. Spend Success Points equal to $N \times$ **Frost** to buy **Blocker** effects.
-- **Lightning**: Thunderclap. Deal damage to all creatures in the target's landing space equal to $N \times$ **Lightning
-  **.
+- **Lightning**: **.
 
 ---
 
