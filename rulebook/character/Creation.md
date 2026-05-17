@@ -2,7 +2,8 @@
 
 ## Sponsor
 
-Choose a sponsor:
+Choose a sponsor from below. At most two players can have the same common sponsor and two players cannot choose the same
+exotic sponsor.
 
 Common sponsors:
 
