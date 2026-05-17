@@ -1,5 +1,22 @@
 # Character Creation
 
+## Sponsor
+
+Choose a sponsor:
+
+Common sponsors:
+
+- **Flotilla**
+- **Colonial**
+- **Corporate**
+
+Exotic sponsors
+
+- **Union**
+- **Nobility**
+- **Academy**
+- **Religion**
+
 ## Heritage & Race
 
 Choose two heritages. You can pick the same option twice.
@@ -54,7 +71,7 @@ Equip the following to your character:
 
 * **Armor:** [Basic Combatwear](../items/Armor.md) (Combat Armor)
 * **Weapons:**
-    * [CF "Needle"](../items/Melee.md) (Dagger)
+    * [CF "Spike"](../items/Melee.md) (Dagger)
     * [VWS "Scrapper"](../items/Firearms.md) (Pistol)
 * **Gear:**
     * [Commlink](../items/Gear.md) (Basic Gear)
@@ -63,12 +80,40 @@ Equip the following to your character:
 
 Then choose two of the following:
 
-* **Grenadier Kit:**
-    * 2 [Flashbang](../items/Gear.md) (Consumable)
-    * 1 [Smoke Grenade](../items/Gear.md) (Consumable)
-    * 2 [Frag Grenade](../items/Gear.md) (Consumable)
-
 * **Duelist Kit:**
-  * 2 [Flashbang](../items/Gear.md) (Consumable)
-  * 1 [Smoke Grenade](../items/Gear.md) (Consumable)
-  * 2 [Frag Grenade](../items/Gear.md) (Consumable)
+    * 1 [KSK "Eel"](../items/Melee.md) (Rapier)
+    * 1 [PA "Saber"](../items/Melee.md) (Scimitar)
+    * 1 [VWS "Splitter"](../items/Melee.md) (Battleaxe)
+
+* **Marksman Kit:**
+    * 1 [KSK "Narwhal"](../items/Firearms.md)
+
+* **Assault Kit:**
+    * 1 [VWS "Buster"](../items/Firearms.md)
+
+* **Gunslinger Kit:**
+    * 2 [CF "Cobra"](../items/Firearms.md)
+
+* **Grenadier Kit:**
+    * 2 [Flashbang](../items/Gear.md) (Ordnance)
+    * 1 [Smoke Grenade](../items/Gear.md) (Ordnance)
+    * 2 [Frag Grenade](../items/Gear.md) (Ordnance)
+
+* **Warden Kit:**
+    * 1 [Deployable Cover (Medium)](../items/Gear.md) (Fortification Gear)
+
+* **Medic Kit:**
+    * 4 [Medi-Kit](../items/Gear.md) (Consumable)
+    * 4 [Nerve-Blue Pills](../items/Gear.md) (Consumable)
+
+* **Cocktail Kit:**
+    * 1 [SharpX](../items/Gear.md) (Consumable)
+    * 1 [Nitro](../items/Gear.md) (Consumable)
+    * 1 [Rizz](../items/Gear.md) (Consumable)
+    * 1 [Edgedance](../items/Gear.md) (Consumable)
+    * 1 [Roid](../items/Gear.md) (Consumable)
+
+* **Spy Kit:**
+    * 1 [Thieves Tools](../items/Gear.md) (Clandestine Gear)
+    * 1 [Disguise Kit](../items/Gear.md) (Clandestine Gear)
+    * 1 ["Spider" Cyberdeck](../items/Gear.md) (Clandestine Gear)

@@ -33,9 +33,9 @@
 
 | Item                          | Properties            | Load | Cost   | Description |
 |:------------------------------|:----------------------|:-----|:-------|:------------|
-| **Deployable Cover (Light)**  |                       | 1    | 5,000  |             |
-| **Deployable Cover (Medium)** |                       | 2    | 8,000  |             |
-| **Deployable Cover (Heavy)**  |                       | 3    | 12,000 |             |
+| **Deployable Cover (Light)**  |                       | 2    | 5,000  |             |
+| **Deployable Cover (Medium)** |                       | 3    | 8,000  |             |
+| **Deployable Cover (Heavy)**  |                       | 4    | 12,000 |             |
 | **APS Beacon**                | Area-Attack Defense 5 | 3    | 25,000 |             |
 | **Smartpod**                  | Smartpod 3            | 3    | 36,000 |             |
 
@@ -129,7 +129,7 @@
 * **Locksmith (X):** Contains the tools necessary for breaking and entering, from basic tools like lockpicks and
   crowbars to laser cutters.
 * **Imposter (X):** Contains the necessary tools for creating disguises and fake documents.
-* **Cyberdeck (X):** Contains equipment for jamming communications, hacking electronic systems, and bypassing
+* **Hacking (X):** Contains equipment for jamming communications, hacking electronic systems, and bypassing
   digital security.
 
 ## Detection Gear

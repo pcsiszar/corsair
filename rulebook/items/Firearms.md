@@ -38,11 +38,11 @@ Small, one-handed weapons ideal for backup or close-quarters defense.
 |:--------------------|:-------------------|:----|:----------|:-----|:------|:------------|
 | **VWS "Scrapper"**  | 2 / 1 / - / -      | 0   | +1        | 1    | 900   |             |
 | **KSK "Squid"**     | 2 / 1 / - / -      | 2   | +0        | 1    | 1,500 |             |
-| **CQC "Snowball"**  | 1 / 0 / - / -      | 0   | +3        | 1    | 2,300 |             |
+| **CQC "Snowball"**  | 1 / 1 / - / -      | 0   | +3        | 1    | 2,300 |             |
 | **CF "Cobra"**      | 2 / 1 / 0 / -      | 1   | +1        | 1    | 3,500 |             |
 | **CQC "Avalanche"** | 3 / 2 / - / -      | 0   | +1        | 1    | 4,200 |             |
 | **PA "Serval"**     | 2 / 2 / 1 / -      | 1   | +0        | 1    | 4,800 |             |
-| **KSK "Walrus"**    | 2 / 0 / - / -      | 0   | +4        | 1    | 5,200 |             |
+| **KSK "Walrus"**    | 2 / 1 / - / -      | 0   | +4        | 1    | 5,200 |             |
 
 ## Small Arms
 
@@ -50,10 +50,10 @@ Rapid-fire weapons designed for suppressing enemies at short range.
 
 | Weapon Name        | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
 |:-------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **VWS "Shredder"** | 3 / 0 / - / -      | 4   | +1        | 2    | 3,500 |             |
+| **VWS "Shredder"** | 3 / 1 / - / -      | 4   | +1        | 2    | 3,500 |             |
 | **CQC "Cyclone"**  | 3 / 1 / 0 / -      | 3   | +0        | 2    | 4,000 |             |
 | **CF "Raptor"**    | 2 / 1 / 1 / -      | 2   | +1        | 2    | 4,200 |             |
-| **VWS "Buster"**   | 1 / 0 / - / -      | 0   | +3        | 2    | 4,500 |             |
+| **VWS "Buster"**   | 3 / 1 / - / -      | 1   | +3        | 2    | 4,500 |             |
 | **KSK "Narwhal"**  | 2 / 2 / 1 / 0      | 1   | +1        | 2    | 5,000 |             |
 | **PA "Cheetah"**   | 4 / 2 / - / -      | 3   | +0        | 2    | 5,500 |             |
 
