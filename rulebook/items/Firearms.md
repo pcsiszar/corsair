@@ -19,15 +19,13 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
     * **Long Range:** 13-20 spaces or ~50-100m
     * **Extreme Range:** 20+ spaces or ~100m+
 - **Rate of Fire (RoF):** This stat represents the weapon's capacity for rapid fire and its ability to engage multiple
-  targets.
-    * **Rerolls:** When making an attack with a ranged weapon, you can spend points of RoF to reroll dice in your pool.
-      Each point of RoF spent allows you to reroll one die. You can use this on either the Action Roll (to ensure a hit)
-      or the Success Roll (to increase damage), but the total number of rerolls across both steps cannot exceed the
-      weapon's RoF.
-    * **Spill:** When making an attack with a ranged weapon, if your target shares the same space with other
-      creatures you'd want to attack, you can have the leftover damage spill over to your next target. You can do this a
-      number of times equal to your Rate of Fire attribute.
-
+  targets. On each attack, gain Rapid Fire points equal to your weapon's Rate of Fire attribute and spend it on any of
+  the following options:
+    - Once per the Success roll and once per the Action roll, spend $X$ Rapid Fire to reroll $X$ dice.
+    - Discard any die with value 8 or higher during the Action roll, or the Success roll to gain +1 Damage on the
+      current attack.
+    - After the attack, spend one point to have the leftover damage spill over to another creature in the target's
+      space.
 - **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.
 - **Load**: The weight and bulk of the weapon.
 - **Cost**: The average market price in Credits.
@@ -38,9 +36,9 @@ Small, one-handed weapons ideal for backup or close-quarters defense.
 
 | Weapon Name         | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
 |:--------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **VWS "Scrapper"**  | 2 / 0 / - / -      | 1   | +1        | 1    | 900   |             |
+| **VWS "Scrapper"**  | 2 / 1 / - / -      | 0   | +1        | 1    | 900   |             |
 | **KSK "Squid"**     | 2 / 1 / - / -      | 2   | +0        | 1    | 1,500 |             |
-| **CQC "Raindrop"**  | 1 / 0 / - / -      | 0   | +3        | 1    | 2,300 |             |
+| **CQC "Snowball"**  | 1 / 0 / - / -      | 0   | +3        | 1    | 2,300 |             |
 | **CF "Cobra"**      | 2 / 1 / 0 / -      | 1   | +1        | 1    | 3,500 |             |
 | **CQC "Avalanche"** | 3 / 2 / - / -      | 0   | +1        | 1    | 4,200 |             |
 | **PA "Serval"**     | 2 / 2 / 1 / -      | 1   | +0        | 1    | 4,800 |             |

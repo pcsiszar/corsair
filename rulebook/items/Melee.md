@@ -17,18 +17,19 @@ between life and death. Melee weapons are defined by their **Reach**, **Damage B
 
 ## Melee Weapons
 
-| Weapon Name         | Reach                  | Dmg Bonus             | Load | Cost   | Description                                                                      |
-|:--------------------|:-----------------------|:----------------------|:-----|:-------|:---------------------------------------------------------------------------------|
-| **KSK "Dart"**      | 0                      | `Fin/3`               | 1/4  | 100    | A simple yet well-balanced throwing knife.                                       |
-| **CF "Scalefist"**  | 0                      | `Str/2 + 2`           | 1/2  | 300    | A scaled and riveted glove with padding to protect the  wearer's hand            |
-| **CF "Needle"**     | 1                      | `Fin/2 + 2`           | 1    | 500    | A simple dagger usable for throwing or up close melee.                           |
-| **VWS "Tomahawk"**  | 1                      | `Str/2 + 2`           | 1    | 1,000  | A crude but effective throwable hatchet.                                         |
-| **VWS "Shocker"**   | 0                      | `+4 (Once per round)` | 1    | 2,000  | A glove with an attached taser, a boosting impact, but needing time to recharge. |
-| **PA "Claw"**       | 1                      | `Fin/2 + 1`           | 1    | 5,000  |                                                                                  |
-| **PA "Fang"**       | 1                      | `Fin/2 + 2`           | 1    | 5,000  |                                                                                  |
-| **CF "Toad"**       | 2 (3 while two handed) | `Str/2 + 2`           | 2    | 8,000  | An studded collapsible staff                                                     |
-| **CQC "Dusk"**      | 2                      | `Agi/2 +2`            | 2    | 10,000 | A black katana with a purple hue, often wielded in pair.                         |
-| **CQC "Dawn"**      | 2                      | `Agi/2 +2`            | 2    | 10,000 | A black katana with a orange hue, often wielded in pair.                         |
-| **KSK "Swordfish"** | 2                      | `Fin/2 + 2`           | 2    | 12,000 | An elegant rapier that's wielded by the most elite duelists.                     |
-| **KSK "Sharkfin"**  | 3                      | `Str + 4`             | 3    | 20,000 | A large, thruster assisted, two-handed battleaxe                                 |
-| **VWS "Claymore"**  | 3                      | `Agi + 3 or Str +3`   | 3    | 23,000 | A balanced two-handed sword that's surprisingly agile for it's size.             |
+| Weapon Name         | Reach                  | Dmg Bonus             | Load | Cost   | Description |
+|:--------------------|:-----------------------|:----------------------|:-----|:-------|:------------|
+| **KSK "Dart"**      | 0                      | `Fin/3`               | 1/4  | 100    |             |
+| **CF "Scalefist"**  | 0                      | `Str/2 + 1`           | 1/2  | 300    |             |
+| **PA "Tigerpaw"**   | 0                      | `Agi/2 + 1`           | 1/2  | 450    |             |
+| **VWS "Shocker"**   | 0                      | `+3 (Once per round)` | 1/2  | 600    |             |
+| **CF "Spike"**      | 1                      | `Fin/2 + 1`           | 1    | 850    |             |
+| **VWS "Tomahawk"**  | 1                      | `Str/2 + 2`           | 1    | 1,000  |             |
+| **PA "Claw"**       | 1                      | `Agi/2 + 2`           | 1    | 5,000  |             |
+| **PA "Fang"**       | 1                      | `Fin/2 + 2`           | 1    | 5,000  |             |
+| **CF "Toad"**       | 2 (3 while two handed) | `Str/2 + 2`           | 2    | 8,000  |             |
+| **CQC "Dawn"**      | 2                      | `Agi/2 + 3`           | 2    | 10,000 |             |
+| **KSK "Swordfish"** | 2                      | `Fin/2 + 3`           | 2    | 12,000 |             |
+| **CQC "Dusk"**      | 2                      | `Str/2 + 3`           | 2    | 10,000 |             |
+| **KSK "Sharkfin"**  | 3                      | `Str + 4`             | 3    | 20,000 |             |
+| **VWS "Claymore"**  | 3                      | `Agi + 3 or Str +3`   | 3    | 23,000 |             |

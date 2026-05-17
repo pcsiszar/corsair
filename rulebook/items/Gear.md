@@ -58,23 +58,26 @@
 
 ## Explosives
 
-| Item                         | Properties                                             | Load | Cost  | Description                              |
-|:-----------------------------|:-------------------------------------------------------|:-----|:------|:-----------------------------------------|
-| **Flashbang**                | Area Attack (1H4d10, 4m Radius), Debuff                | 1    | 250   |                                          |
-| **Smoke Grenade**            | Area Obscurance (12m Radius)                           | 1    | 300   |                                          |
-| **Frag Grenade**             | Area Attack (2H2d10, 4m Radius)                        | 1    | 1,500 |                                          |
-| **HE Grenade**               | Area Attack (2H3d8, 4m Radius), Penetration 2          | 1    | 2,000 |                                          |
-| **Explosive Ammo**           |                                                        | 1    | 2,500 | Generic Ammunition for Explosive Weapons | 
-| **Remote Detonation Charge** | Area Attack (3H3d8, 12m Radius), Remote, Penetration 3 | 2    | 5,000 |                                          |
+| Item                         | Properties                                     | Load | Cost  | Description                              |
+|:-----------------------------|:-----------------------------------------------|:-----|:------|:-----------------------------------------|
+| **Flashbang**                | Ordenance 5, Area Stun, 4m Radius)             | 1    | 250   |                                          |
+| **Smoke Grenade**            | Area Obscurance (8m Radius)                    | 1    | 300   |                                          |
+| **Frag Grenade**             | Ordenance 4, Area Blast 3, 8m Radius)          | 1    | 1,500 |                                          |
+| **HE Grenade**               | Ordenance 5, Area Blast 5, 4m Radius)          | 1    | 2,000 |                                          |
+| **Explosive Ammo**           |                                                | 1    | 2,500 | Generic Ammunition for Explosive Weapons | 
+| **Remote Detonation Charge** | Ordenance 7, Area Blast 5, 12m Radius), Remote | 2    | 5,000 |                                          |
 
 ### Special Properties
 
-* **Area Attack (XHXdY, R m Radius):** The explosive makes an area attack with a dice pool of XdY, and the result is the
-  sum of the H highest dice. The attack has a radius of R meters.
-* **Debuff:** The result of the Area Attack roll can only be spent on Upgrade/Downgrade effects and Blocker effects.
-* **Area Obscurance (Xm Radius):** This explosive creates a cloud of smoke with the specified radius, blocking line of
-  sight.
-* **Remote:** This detonates remotely, placing it ing it takes 1 AP and detonating it takes another.
+* **Ordnance (X):** An attribute denoting how potent an explosive is.
+* **Radius (X):** How far the area of effect reaches.
+* **Area Stun:** The explosive doesn't damage, but stuns instead. For each dice with a value 8 or higher, any creature
+  in the space discards it's highest die in it's next roll until the next Player Turn.
+* **Area Obscurance:** This explosive creates a cloud of smoke with the specified radius, blocking line
+  of sight.
+* **Area Blast (X):** The explosive deals massive damage. For each dice with a value 8 or higher, any creature in the
+  space takes additional damage equal to $X$
+* **Remote:** You can trigger this explosion later at any time using a triggered effect.
 
 ## Consumables
 
