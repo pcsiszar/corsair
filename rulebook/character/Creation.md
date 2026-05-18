@@ -10,10 +10,10 @@ Common sponsors:
 - **Flotilla**
 - **Colonial**
 - **Corporate**
+- **Union**
 
 Exotic sponsors
 
-- **Union**
 - **Nobility**
 - **Academy**
 - **Religion**
