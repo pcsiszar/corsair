@@ -70,7 +70,7 @@ Lvl 3 costs 3 Skill Points)
 
 Equip the following to your character:
 
-* **Armor:** [Basic Combatwear](../items/Armor.md) (Combat Armor)
+* **Armor:** [Armor Jacket](../items/Armor.md) (Combat Armor)
 * **Weapons:**
     * [CF "Spike"](../items/Melee.md) (Dagger)
     * [VWS "Scrapper"](../items/Firearms.md) (Pistol)
@@ -118,3 +118,18 @@ Then choose two of the following:
     * 1 [Thieves Tools](../items/Gear.md) (Clandestine Gear)
     * 1 [Disguise Kit](../items/Gear.md) (Clandestine Gear)
     * 1 ["Spider" Cyberdeck](../items/Gear.md) (Clandestine Gear)
+
+## Class
+
+Choose a class:
+
+- **Conduit**: *An elemental powerhouse with fire, ice, and lightning flowing through their veins.*
+- **Hazard**: *A cocktail kid with chemicals that can make his allies better and his enemies worse in various ways.*
+- **Pilot**: *A versatile operator with a modular exoskeleton that can be piloted remotely.*
+- **Vanguard**: *A fighter with slab of metal that can transform into a shield, a gun, or a hoverboard.*
+- **Weaver**: *A true artist with nanomachines that can take whatever form they desire.*
+
+## Credits
+
+You start with 5,000 Credits, that you can also use to buy yourself whatever gear you want, or keep it for later.
+You can sell items in your selected kits for **20%** of their orginal price.

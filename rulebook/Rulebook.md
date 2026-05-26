@@ -25,8 +25,8 @@
     - [Rounds](#rounds)
     - [Turns](#turns)
     - [Danger and Complications](#danger-and-complications)
-    - [Action Tokens in Detail](#action-tokens-in-detail)
-    - [Pushing Your Limits: Spending More Than 2 Tokens](#pushing-your-limits-spending-more-than-2-tokens)
+    - [Action Points in Detail](#action-Points-in-detail)
+    - [Pushing Your Limits: Spending More Than 2 Points](#pushing-your-limits-spending-more-than-2-tokens)
 - [Chapter 5: Player Characters](#chapter-5-player-characters)
     - [Character Origins](#character-origins)
     - [Core Attributes](#core-attributes)
@@ -159,7 +159,8 @@ Simple, Success, and Complex.
 
 A Simple Test is used when the outcome of an action is binary: you either succeed or you fail. There is no middle
 ground. To make a Simple Test, you form a dice pool by taking a number of ten-sided dice (d10s) equal to the higher of
-the two Attributes in the pair. In order to succeed, you need at least one of the dice to roll an 8 or higher. If it
+the two Attributes in the pair. In order to succeed, you need at least one of the dice to roll an 8 or higher (also
+called a *Hit*). If it
 does, you succeed, if it doesn't you fail.
 
 Examples of Simple Tests include:
@@ -275,26 +276,23 @@ The GM can transition between scene types as the story demands.
 This system allows the game to maintain a cinematic pace, focusing on the exciting parts and glossing over the mundane
 without losing track of the characters' contributions.
 
+### Action Points
+
+Action Points are the currency you spend to perform significant actions, especially those requiring a Test. Every player
+has a maximum of 3 Action Points.
+
+Every test you take, whether it be Simple, Success or Complex, requires 1 Action Point.
+
+In some cases the GM might also call on you to spend an Action Point without taking a test, for example in order to
+transit from one major location to the next.
+
 ### Rounds
 
 Within any scene, the action is broken down into **Rounds**. A round is a period of in-game time appropriate to the
 scene's pacing, where every character present has an opportunity to act. This ensures that the chaos of a situation is
-manageable and that the spotlight is shared. At the beginning of each round, every character gets a fresh set of Action
-Tokens.
+manageable and that the spotlight is shared.
 
-### Action Tokens
-
-Action Tokens are the currency you spend to perform significant actions, especially those requiring a Test. **At the
-start of each round, every Player Character gets 4 Action Tokens.**
-
-Here's how you spend them in any scene type:
-
-* **Simple or Success Test:** 1 Action Token
-* **Complex Test:** 2 Action Tokens
-* **Contesting a Test:** 1 Action Token
-
-Minor actions that don't require a test, like speaking a short sentence, moving a few steps, or dropping an item, do not
-cost any Action Tokens. Unspent Action Tokens are lost at the end of the round.
+At the start of every Round, every creature refills their Action Points to the maximum.
 
 ### Turns
 
@@ -310,7 +308,7 @@ Each round is divided into multiple turns of two different types: The **Player T
   turn is skipped, and it's the Player's Turn again.
 
 The turn swaps from the players to the GM (or vice versa) after the active side has spent a total of 2 or more Action
-Tokens and resolved their last action. The round concludes when both sides choose to "pass," meaning they have no
+Points and resolved their last action. The round concludes when both sides choose to "pass," meaning they have no
 further actions to take. Every round starts with the Player Turn first.
 
 Most rounds will fly by due to the players being grounded with no NPCs, or NPCs that generally don't wish to affect
@@ -318,13 +316,25 @@ the player characters. Therefore, most rounds will be rather one-sided, but that
 a lot of work just arbitrating the player characters' narrations.
 
 When a player action would cause an NPC to go from a passive to an active participant in the scene, they become active
-and receive their Action Tokens next round, meaning each player character has a chance to act before the GM gets to
+and receive their Action Points next round, meaning each player character has a chance to act before the GM gets to
 react with NPCs.
 
-### Pushing Your Limits: Spending More Than 2 Tokens
+### Going First
 
-While the turn in a Moment to Moment scene passes after a side has spent 2 Action Tokens, individual characters are not
-limited to spending only 2 tokens per turn. There are several ways a character can perform more actions and push their
+During the first turn of every round, both the players and the GM have the option to state they would like to go first.
+If they do, they have to bid an Action Point, from any creature in the scene that they control. If only one side bids,
+they automatically go first, but the Action Point is considered to be spent, counting against the 2 AP per Turn limit.
+
+If both sides bid, the creatures bidding roll an (Agility + Instinct) Simple Test. The side with more dice landing 8 or
+higher goes first. For the loosing side, this counts as an AP spent out of turn, meaning that their AP is gone, but it
+doesn't count against their 2 AP limit for the next turn.
+
+In case of a tie, or when neither side bids, the players go first.
+
+### Pushing Your Limits: Spending More Than 2 Points
+
+While the turn in a Moment to Moment scene passes after a side has spent 2 Action Points, individual characters are not
+limited to spending only 2 Points per turn. There are several ways a character can perform more actions and push their
 limits.
 
 #### Combining Actions
@@ -332,31 +342,31 @@ limits.
 A character can choose to perform multiple actions in a sequence. For example, a character could first perform a Simple
 Action and then a Complex Action.
 
-* **Example:** Jax is in a firefight in a cantina and wants to shoot his pistol (a Complex Test, 2 Tokens) at a drone
+* **Example:** Jax is in a firefight in a cantina and wants to shoot his pistol (a Complex Test, 2 Points) at a drone
   across the room. He's out in the open and needs cover. Jax's player can declare: "First, I'm going to flip this heavy
-  table over to use as cover (a Success Test, 1 Token, to see how good the cover is), and then I'll fire my pistol from
-  behind it (a Complex Test, 2 Tokens)." In this sequence, Jax spends a total of 3 Action Tokens. The GM determines the
+  table over to use as cover (a Success Test, 1 Point, to see how good the cover is), and then I'll fire my pistol from
+  behind it (a Complex Test, 2 Points)." In this sequence, Jax spends a total of 3 Action Points. The GM determines the
   quality of the cover based on the Success Test, which might provide an Upgrade to his contest rolls. Because the
-  players have spent more than 2 tokens, the turn would then pass to the GM after Jax resolves his shot.
+  players have spent more than 2 Points, the turn would then pass to the GM after Jax resolves his shot.
 
 #### Teamwork Actions
 
 Teamwork allows multiple characters to contribute to a single goal. When characters use Teamwork, they can spend their
-Action Tokens to contribute to the collective effort. This can easily lead to the player side spending more than 2
-Action Tokens.
+Action Points to contribute to the collective effort. This can easily lead to the player side spending more than 2
+Action Points.
 
 * **Example:** The crew needs to get through a crowded checkpoint without drawing attention. The GM rules this will be a
   Teamwork action, requiring each character to make a Success Test to see how well they blend in.
-    * Silas, a master of disguise, decides to create a distraction (a Success Test, 1 Token).
+    * Silas, a master of disguise, decides to create a distraction (a Success Test, 1 Point).
     * Griz, a large and imposing figure, tries to look inconspicuous by pretending to be a simple cargo hauler (a
-      Success Test, 1 Token).
+      Success Test, 1 Point).
     * Jax, ever the opportunist, tries to flirt with one of the guards to divert their attention (a Success Test, 1
-      Token).
-      The players have now collectively spent 3 Action Tokens. They can then use the Teamwork rules to swap dice results
+      Point).
+      The players have now collectively spent 3 Action Points. They can then use the Teamwork rules to swap dice results
       to ensure everyone succeeds, representing them covering for each other's mistakes and successfully navigating the
       checkpoint as a cohesive unit.
 
-The flexibility of the turn structure and Action Token system is designed to encourage creative problem-solving and
+The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
 
 ## Chapter 5: Player Characters
@@ -644,7 +654,7 @@ Protection score, which do stack.
 
 While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often
 bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of
-Action Tokens each round.
+Action Points each round.
 
 #### Gear
 
@@ -800,7 +810,7 @@ map is highly recommended to add tactical depth and clarity to character and ene
 Navigating the battlefield is crucial for survival. Positioning can determine cover, line of sight, and your ability to
 engage or evade foes.
 
-In combat, you can spend **1 Action Token** to move. When you move, you perform a Success Test, typically with Agility,
+In combat, you can spend **1 Action Point** to move. When you move, you perform a Success Test, typically with Agility,
 then move a number of meters equal to the result, plus your base speed, by default, 4 meters.
 
 The Success Test is typically made with your **Agility** attribute, representing your ability to run, climb, and vault
@@ -839,7 +849,7 @@ contest the movement. The contest follows the standard rules for Contesting a Te
 ##### Contesting Movement Example
 
 **The Scenario:** Jax is attempting to run past a burly corporate enforcer to reach a control panel. Jax's player spends
-1 Action Token for a move action and makes an **Agility** Success Test to determine the total distance. Jax has an
+1 Action Point for a move action and makes an **Agility** Success Test to determine the total distance. Jax has an
 Agility of 4 and rolls `[9, 7, 5, 2]`. The highest die is a 9, so he can move his base 3 spaces + 2 extra spaces (from
 the 9, which is 8m, so 2 spaces), for a total of 5 spaces.
 

@@ -2,22 +2,23 @@ Often, a test isn't just against a static obstacle; it's against an active oppon
 character is the target of another character's test (like being shot at, deceived, or tackled), they have the
 opportunity to contest.
 
-A contest happens after the attacker has rolled their dice, but before the outcome is determined. The process is as
-follows:
+In order to contest an action taken by another creature, you must be in proximity to its target. This often means being
+in the same space. For example, you can contest an attack coming at you or an ally in your space, and you can contest an
+enemy's movement crossing your space. On the other hand you cannot contest a hostile creature reviving an ally 40
+meters away by shooting at them.
 
-1. **The Contester Narrates:** The contesting player describes how their character is trying to resist the action. Are
-   they dodging, raising a shield, shouting a counter-argument, or bracing for impact?
-2. **The GM Chooses an Attribute:** Based on the contester's narration, the GM chooses a single, relevant Attribute for
-   the contest.
-3. **The Contest Roll:** The contester rolls a number of d10s equal to the chosen Attribute's value.
-4. **Eliminating Dice:** For every die in the contest roll that scores an 8 or higher, the contester eliminates one of
-   the contested character's highest dice. The dice that are eliminated are always the highest results in the contested
-   character's pool.
+To perform a Contest, simply roll a Simple Test determined by the GM and then use each dice landing 8 or higher to
+eliminate the highest dice from the roll you contested.
 
 You **resist** a test if your contest roll eliminates every 8+ die from the contested roll.
 
 You can contest Success Tests as well. If, after contesting, no 8+ dice remain in the contested character's pool, the
 Success Test generates 0 Success Points even if there are dice that are yet to be eliminated.
+
+You can also contest actions that would normally not require a test. A typical example would be shushing someone before
+they could speak, or preventing an enemy you knocked prone from standing up. When this happens, you declare your intent
+to contest, and the contested creature then must decide if they are willing to do a Simple Test in order to perform
+their intended action, which you can then contest, or simply forego it altogether.
 
 #### Contest Example
 
