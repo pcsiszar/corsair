@@ -20,10 +20,10 @@ Critical Effects.
 
 For every Hit spent on this effect, you increase the total Succes Points you score by +2.
 
-## Split Effect
+## Chain Effect
 
 If your narration is aimed at, or can feasibly include you affecting multiple targets with your action, you can spend
-your Hits on Split Effect.
+your Hits on a Chain Effect.
 
 For each Hit, you can choose an additional target in range and generate Success Points to be used on it equal to the
 used die, plus any bonuses you had for the original target. When used in an attack, the targets must be in the
@@ -31,7 +31,7 @@ same space.
 
 ## Move Effect
 
-If your narration is aimed at, or can feasibly include you moving another creature, you can spend your Hits on creating
+If your narration is aimed at, or can feasibly include you moving another creature, you can spend your Hits on
 a Move Effect.
 
 For each Hit, you can move the target creature 1 space. As long as your narration is compatible with this, you can
@@ -59,9 +59,9 @@ succeeds in taking an action that could break your concentration (like attacking
 position to react to your Trigger, you can throw away a Hit you saved to maintain concentration. Otherwise, you loose
 the Effect.
 
-## Active Blocker Effect
+## Blocker Effect
 
-If your narration is aimed at stopping a specific thing from happening in the future, you can spend your Hits on Active
+If your narration is aimed at stopping a specific thing from happening in the future, you can spend your Hits on a
 Blocker Effects.
 
 For each Hit, you can contest the action you specified for free, as long as you remain in a position to contest it.
@@ -70,3 +70,21 @@ While in preparation to contest, you are considered to be concentrating. If you 
 succeeds in taking an action that could break your concentration (like attacking), as long as you are still in a
 position to contest the specified action, you can throw away a Hit you saved to maintain concentration. Otherwise, you
 loose the Effect.
+
+## Setup Effect
+
+If your narration is aimed at doing something in the present that will actively benefit an action in the future, you can
+spend your Hits on a Setup Effect.
+
+For each Hit, you set aside, you can add that dice later with the same value you rolled on it to a future test where
+your prior action could feasibly influence its outcome.
+
+## Disruption Effect
+
+If your narration is aimed at doing something in the present that will actively hinder an action in the future, you can
+spend your Hits on a Disruption Effect.
+
+For each Hit, you set aside, you can eliminate a Hit scored in a future test during the current round where your prior
+action could feasibly influence its outcome.
+
+
