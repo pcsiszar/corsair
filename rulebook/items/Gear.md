@@ -83,13 +83,13 @@
 
 | Item                    | Properties                                                | Load | Cost   |
 |:------------------------|:----------------------------------------------------------|:-----|:-------|
-| **Medi-Spray**          | Lesser Healing (2d2, Physical)                            | 1/4  | 800    |
-| **Medi-Kit**            | Lesser Healing (2d4, Physical)                            | 1/2  | 1,600  |
-| **Trauma-Kit**          | Lesser Healing (2d6, Physical)                            | 1    | 5,000  |
-| **Phoenix-Kit**         | Greater Healing (2d8, Physical)                           | 2    | 10,000 |
-| **Nerve-Blue Inhaler**  | Lesser Healing (2d2, Mental)                              | 1/4  | 500    |
-| **Nerve-Blue Pills**    | Lesser Healing (2d4, Mental)                              | 1/2  | 1,250  |
-| **Nerve-Blue Injector** | Greater Healing (2d6, Mental), Volatile 1, Fleeting       | 1    | 3,500  |
+| **Medi-Spray**          | Medicine 2, Lesser Physical Healing 1/3                   | 1/4  | 800    |
+| **Medi-Kit**            | Medicine 3  Lesser Physical Healing 1/2                   | 1/2  | 1,600  |
+| **Trauma-Kit**          | Medicine 4  Lesser Physical Healing 1/1                   | 1    | 5,000  |
+| **Phoenix-Kit**         | Medicine 4  Greater Physical Healing 1/1                  | 2    | 10,000 |
+| **Nerve-Blue Inhaler**  | Medicine 2  Lesser Mental Healing 1/3                     | 1/4  | 500    |
+| **Nerve-Blue Pills**    | Medicine 3  Lesser Mental Healing 1/2                     | 1/2  | 1,250  |
+| **Nerve-Blue Injector** | Medicine 4  Lesser Mental Healing 1/1                     | 1    | 3,500  |
 | **SharpX**              | Stimulant (Instinct 1, Knowledge 1), Volatile 2, Fleeting | 1    | 4,000  |
 | **Nitro**               | Stimulant (Agility 1), Volatile 2, Fleeting               | 1    | 5,000  |
 | **Rizz**                | Stimulant (Charisma 1), Volatile 2, Fleeting              | 1    | 6,000  |
@@ -98,12 +98,14 @@
 
 ### Special Properties
 
-* **Lesser Healing (XdY, Track):** When you use this item, you heal for the amount rolled on the specified track (
-  Physical or Mental). This cannot heal aggravated damage.
-* **Greater Healing (XdY, Track):** When you use this item, you heal for the amount rolled on the specified track. You
-  can use 2 points of healing to remove 1 point of aggravated damage.
+* **Medicine ($X$):** An attribute denoting how potent a healing item is.
+* **Lesser Healing ($1/X$, Track):** When you use this item, you heal yourself or an ally in your space for one segment
+  per $X$ Success Points rolled, on the specified track (Physical or Mental). This cannot heal aggravated damage.
+* **Greater Healing ($1/X$, Track):** When you use this item, you heal yourself or an ally in your space for one segment
+  per $X$ Success Points rolled, on the specified track (Physical or Mental). This can heal aggravated damage, but for
+  double to cost.
 * **Stimulant:** Increases an Attribute temporarily by the specified amount. Taking another Stimulant that increases the
-  same Attribute overrides the effect.
+  same Attribute overrides the current Stimulant effect.
 * **Volatile (X):** When you use this item, you take unmitigated damage equal to X. If you take a Volatile substance
   while you are under the effect of another Volatile substance, you take additional damage equal to the total number of
   Volatile substances in your system.
@@ -112,25 +114,26 @@
 
 ## Clandestine Gear
 
-| Item                         | Properties  | Load | Cost   | Description |
-|:-----------------------------|:------------|:-----|:-------|:------------|
-| **Thieves Tools**            | Locksmith 2 | 2    | 1,000  |             |
-| **Journeyman Thieves Tools** | Locksmith 3 | 2    | 12,000 |             |
-| **Expert Thieves Tools**     | Locksmith 4 | 2    | 25,000 |             |
-| **Disguise Kit**             | Forgery 2   | 2    | 1,000  |             |
-| **Journeyman Disguise Kit**  | Forgery 3   | 3    | 12,000 |             |
-| **Expert Disguise Kit**      | Forgery 4   | 3    | 25,000 |             |
-| **"Spider" Cyberdeck**       | Hacking 2   | 2    | 1,000  |             |
-| **"Mantis" Cyberdeck**       | Hacking 3   | 3    | 12,000 |             |
-| **"Centipede" Cyberdeck**    | Hacking 4   | 3    | 25,000 |             |
+| Item                         | Properties               | Load | Cost   | Description |
+|:-----------------------------|:-------------------------|:-----|:-------|:------------|
+| **Thieves Tools**            | Locksmith 2              | 2    | 1,000  |             |
+| **Journeyman Thieves Tools** | Locksmith 4              | 2    | 12,000 |             |
+| **Expert Thieves Tools**     | Locksmith 6              | 2    | 25,000 |             |
+| **Infiltrator Kit**          | Forgery 2, Disguise 2    | 2    | 1,000  |             |
+| **Spy Kit**                  | Forgery 4, Disguise 4    | 3    | 12,000 |             |
+| **Chameleon Kit**            | Forgery 6, Disguise 6    | 3    | 25,000 |             |
+| **"Spider" Cyberdeck**       | Interfacing 3, Hacking 2 | 2    | 1,000  |             |
+| **"Mantis" Cyberdeck**       | Interfacing 5, Hacking 4 | 3    | 12,000 |             |
+| **"Scorpion" Cyberdeck**     | Interfacing 7, Hacking 6 | 3    | 25,000 |             |
 
 ### Special Properties
 
-* **Locksmith (X):** Contains the tools necessary for breaking and entering, from basic tools like lockpicks and
-  crowbars to laser cutters.
-* **Imposter (X):** Contains the necessary tools for creating disguises and fake documents.
-* **Hacking (X):** Contains equipment for jamming communications, hacking electronic systems, and bypassing
-  digital security.
+* **Locksmith (X):** An attribute denoting how potent an item is in dismantling or bypassing mechanical locks.
+* **Forger (X):** An attribute denoting how potent an item is in creating convincing replicas.
+* **Disguise (X):** An attribute denoting how potent an item is in creating disguises.
+* **Hacking (X):** An attribute denoting how potent an item is at bending electronic devices to their will.
+* **Interfacing (X):** An attribute denoting how potent an item is at interfacing with electronic devices to serve their
+  intended functions.
 
 ## Detection Gear
 
