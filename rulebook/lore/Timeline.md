@@ -188,62 +188,27 @@ even on Landfall.
 **105 AA**
 Trade shipping lanes are slowly established the binary moon pair.
 
-**110 AA**
-Settlements and special interest groups around Raindrop and Suncatcher form a group called the Trade Alliance. It has
+**101 AA**
+Settlements and special interest groups around Raindrop and Suncatcher form a group called the Alliance. It has
 far less jurisdiction than the Council, but it serves to facilitate dialog and mediation between its members.
 
-**120 AA**
+**110 AA**
 High Shore station slots into the L1 point between Raindrop and Suncatcher, founded by the Trade Alliance.
 
-**130 AA**
-A giant subterranean creature attacks starts terrorizing new settlements around a particular region on Raindrop. That
-area becomes increasingly lawless on a planet that already lacked stable law enforcement.
+**115 AA**
+A giant subterranean creature nicknamed the Sandwyrm attacks starts terrorizing new settlements around a particular
+region on Suncatcher. That area becomes increasingly lawless on a planet that already lacked stable law enforcement.
 
-**133 AA**
-Raindrop develops new oceanic farming technologies to become largely self-sufficient in terms of food, tanking the
-economic might of Suncatcher and subsequently, and subsequently, their power in the Trade Alliance.
+**120 AA**
+Piracy starts becoming a problem on the trade lane and most trails lead back to Suncatcher. While Bounty Hunters start
+to profit from the new situation, there are calls from both the Council and the Alliance to establish a joint defense
+and peacekeeper fleet.
 
-**135 AA**
-More and more conflicts start to arise regarding resource extraction around Fume. While the Trade Alliance and the
-Council both take legislative steps to punish aggression, the interested parties find ways of circumventing these.
+**124 AA**
+Talks finalize regarding the defense fleet and the Flotilla is formed with it's governing Board made up of an equal
+number of representatives between the Alliance and the Council.
 
-**136 AA**
-Fume sees it's first pirate attack. Aerospace corporations become more focused on designing and building combat ships.
-
-**138 AA**
-Piracy and armed space conflicts intensify and the Council and the Alliance just now wake up to realizing the need for
-real military power in space. Talks ensue to fund a joint effort together, but until an agreement can be made on how
-this peacekeeping force should be governed, both parties try to assemble something that resembles a fleet.
-
-**140 AA**
-Talks of a united space peacekeeping force are going nowhere as they catch wind of Suncatcher sending delegations to
-Waypoint to discuss options for Suncatcher to join the Council. Raindrop leverages the water railguns to make the
-increasingly frustrated populace of Suncatcher abandon seeking help from Fume 1.
-
-**150 AA**
-The joint peacekeeping force is entirely abandoned and the Alliance and Council both develop independent fleets,
-although not an insignificant portion of combatworthy spaceships in Fume still belong to mercenaries, pirates, and
-corporate security forces.
-
-**162 AA**
-While hostilities remain minimal around Fume, they intensify around Fume's neighbouring gas giants, Wanabo and X'aara.
-The Alliance is considering plans of expansion, while the Council would prefer a safer approach with a minimal presence
-outside of Fume.
-
-**165 AA**
-More and more ships just quietly disappear around the neighbouring gas giants. Rumors have it that races from Fume are
-not alone out there.
-
-**166 AA**
-Captains of independent ships start banding together to investigate the strange phenomenons and disappearances. Their
-findings point to an alien scavenger race with advanced technology conducting raids around the area. With their current
-technology however, taking down a single Scav ship proves to be a challenge.
-
-**168 AA**
-On Landfall, the biggest underground Precursor Vault was discovered to date. The SRC begins work on gaining access to
-it, but it proves an extremely difficult task.
-
-**170 AA**
+**127 AA**
 The subterranean predator from Suncatcher becomes more active and more destructive. Multiple efforts are made to take
 down this Sandwyrm, including orbital strikes from Raindrop railguns and other ships but that only angered the beast
 further. At the peak of the hunt for the Sandwyrm, it fully emerged from the surface, took flight, and headed for the
@@ -251,12 +216,43 @@ Raindrop railgun encampments. While they seemed to do some damage to it's dracon
 guns until suddenly, the underwater Leviathan detected long ago by the scanners came to the surface and dragged the
 Sandwyrm to the depths.
 
-**171 AA**
-Suncatcher suffers majorly with the railguns down and not shooting water.
+**128 AA**
+A full-blown crisis erupts due to food shortages on Raindrop and Suncatcher. The Flotilla and all available ships
+mobilize to deliver shipments.
 
-**172 AA**
-A large contingent of Scav ships enters Skyfall's atmosphere. They demolish the majority of Cloudspire, and
-pilfer the SRC Research base that housed the remains of Stormdrinker and many of the uncovered Precursor relics.
+**129 AA**
+A raiding party of a unknown alien race nicknamed the Scavs attack Skyreach. They demolish the majority of Cloudspire,
+and pilfer the SRC Research base that housed the remains of Stormdrinker and many of the uncovered Precursor relics.
 
-**173 AA**
+**130 AA**
+The Flotilla begins to fall apart due to the calls from the Council to focus on patrol and defense, while the Alliance
+is still in need of aid and is calling on all available vessels to provide shipments of food and basic necessities.
 
+**131 AA**
+The Scavs launch another raid, this time on Crossroads. This time, the Flotilla contingent manages to repell the
+attackers but at a massive cost.
+
+**132 AA**
+With the weakened state of the Flotilla, piracy picks back up again, with this time even raids against Landfall and it's
+farms. The Council and the Alliance both withdraw from the Flotilla and begin to fund their own independent militaries.
+Remnants of the Flotilla galvanize under one it's charismatic commanders named Velen Redmane.
+
+**135 AA**
+The Suncatcher and Raindrop famine subsides when Raindrop finally reconstructs the water railguns and also begins
+cultivating new, genetically engineered plants that is capable of feeding i's population and can be grown in the
+water.
+
+**140 AA**
+The Alliance and the Council begin discussions about how to share the resources around Fume, which consist mostly of the
+radiation bombarded smaller moons much closer to the gas giant. Rare minerals and fusion fuel are becoming more and more
+valuable as both parties become more and more focused on establishing their military might.
+
+**143 AA**
+Sponsored corporations begin the first asteroid mining operations close to Fume. After an initial period of tense
+encounters between Alliance and Council affiliated parties, the Flotilla remnants begin acting as freelance
+peacekeepers.
+
+**145 AA**
+The SRC discovers the biggest Precursor Vault ever seen on one of the closer moons to Fume. In order to ensure that
+whatever is found there is not spirited away and hoarded by either the Alliance or the Council, the SRC starts working
+with the Flotilla to open the Vault and face whatever lies inside.
