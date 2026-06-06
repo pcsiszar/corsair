@@ -256,3 +256,69 @@ peacekeepers.
 The SRC discovers the biggest Precursor Vault ever seen on one of the closer moons to Fume. In order to ensure that
 whatever is found there is not spirited away and hoarded by either the Alliance or the Council, the SRC starts working
 with the Flotilla to open the Vault and face whatever lies inside.
+
+**146 AA**
+A giant vessel similiar to the one that brought down Stormdrinker. It heads towards Landfall and Skyreach and unleashes
+a full invasion against the moons. The strangest part is that the populace are not killed but abducted, to a man. All
+the while this is going on, the remaining forces try to conduct strikes against the invading ship to no avail. The
+Evergaol, as they begin calling it just sits in orbit for a year while more and more colonists are transported to it.
+
+**147 AA**
+The Vault on the small moon of Fume is finally opened and a full-fledged Precursor ship is housed inside. The Flotilla
+commandeers it, names it Orion and begins planning a rescue mission to get back the kidnapped colonists. Their final
+plan involves crashing into the Evergaol from above and forcing it down onto Landfall's surface. A small strike force
+enters the crashed ship and disables it, deactivating the robot invasion force as well. The attack is later classified
+as an automated Precursor defensive measure.
+
+**148 AA**
+After being widely regarded as heroes and with generous backing, the Flotilla reclaims it's official role as the
+independent peacekeeping and defense force it was originally meant to be.
+
+**151 AA**
+The Flotilla succesfully intercepts and prevents a Scav raid heading for Fume.
+
+**155 AA**
+The restoration efforts see the Fume and it's moons brought back to the level prior to the invasion.
+
+**157 AA**
+A large incident between the Flotilla and Suncatcher ignites calls for reform. The Flotilla and the colonies sign the
+Skyline Accords that establish the jurisdiction of the Flotilla in space and the planetary governments in the gravity
+wells. The governing body of the Flotilla is established, made up from the veteran high ranking officers and
+representatives from the colonies, called the Admiralty Board.
+
+**162 AA**
+Further frictions prompt the establishment of the Corsairs with the newly added partner members of the Board, made up of
+corporations and other large interplanetary groups that heavily supported the Flotilla.
+
+**165 AA**
+Yet another alien race is discovered when the probes sent into the other neighbouring gas giants orbit, X'ara, comes
+back with readings that indicate inhabitants on one of the binary moons. Furthermore, the inhabitants of the Fume orbits
+receive a transmission from these aliens, seemingly calling on them to meet for talks.
+
+**166 AA**
+The new species sends a delegation to the edge of Fume. After some time, proper ways of communications are established
+and talks begins in earnest. They introduce themselves as the Ancestrals, and claim to be descendents of the Precursors,
+who they worship as Gods who have ascended to a higher being. They claim that the Evergaol was commanded by such a
+higher being as well, the Praetor, and that it is, or was, one of the malevolent ones that haunt the Sphere. They claim
+that while the Sphere is theirs by birthright, they allow the spherites to dwell on their planets except for the two
+they claim as they own, Irul'loa Irul'lia. As for their part, they wished for free passage to any of the planets, even
+spherite colonies. After some deliberation, they came to the agreement that a consulate will be established on Irul,
+where the Ancestrals that wished to go on a Pilgrimage to travel will register there, and through the Consulate, a very
+limited number of spherites will be granted access to the moons.
+
+**175 AA**
+The first colonies are established on X'ara's other moons, Avon'rea and Avon'roa. They later become a frequented
+Pilgrimage destination for both the Ancestrals and Preservationist leaning Spherites as the former group discovers the
+cultural displays of the latter to be greatly endearing.
+
+**182 AA**
+The Flotilla fleet becomes a dominant force in not only the Fume and X'ara orbits, but begins earnestly patrolling
+Wanabo, Fume's other neighbour. At this point, the Flotilla has prevented more than a dozen Scav raids and pirate
+attacks, while the Corsair program has proven effective in addressing smaller interplanetary frictions, but not without
+some incidents, causing some Corsair cells to go rogue.
+
+**200 AA**
+The Flotilla meets and defeats a smaller contingent of Abductors in Wanabo, and declares it safe for colonization.
+
+**215 AA**
+Colonies are established on all of Wanabo's moons, Trenchier, Thromburg, Kedania and Loan.
