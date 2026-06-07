@@ -318,7 +318,14 @@ attacks, while the Corsair program has proven effective in addressing smaller in
 some incidents, causing some Corsair cells to go rogue.
 
 **200 AA**
-The Flotilla meets and defeats a smaller contingent of Abductors in Wanabo, and declares it safe for colonization.
+The Flotilla meets and defeats a smaller contingent of Abductors in Wanabo.
 
-**215 AA**
-Colonies are established on all of Wanabo's moons, Trenchier, Thromburg, Kedania and Loan.
+**205 AA**
+An outpost is established on one of Wanabo's moons, Loan, but the Flotilla maintains that it
+is unsafe for colonization, but fringe groups find a way to settle there anyways.
+
+**212 AA**
+A research team exploring Karak, Loan's sister moon, is violently repelled by the local fauna that seemed to have
+been genetically modified.
+
+
