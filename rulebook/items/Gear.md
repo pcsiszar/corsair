@@ -18,7 +18,8 @@
 * **Jetpack (Xm):** Once per round, you can use the Jetpack to move, using the Jetpack's Thrust attribute to roll. When
   you do, you can buy 4 meters of movement with every Success Point and your base movement becomes X meters. You can
   move in any direction, ignore difficult terrain, and you can hover, but you must descend to solid ground directly
-  beneath you at the end of the Player Turn. As long as you can activate the jetpack, you ignore damage from falling.
+  beneath you at the end of the Player Turn. You ignore falling damage as long as the jetpack remains functional and
+  strapped to your back.
 
 * **Zipline (Xm):** A Cable Launcher that comes with a built-in cable with a length of X meters. You can deploy it
   between
@@ -60,10 +61,10 @@
 
 | Item                         | Properties                                     | Load | Cost  | Description                              |
 |:-----------------------------|:-----------------------------------------------|:-----|:------|:-----------------------------------------|
-| **Flashbang**                | Ordenance 5, Area Stun, 4m Radius)             | 1    | 250   |                                          |
-| **Smoke Grenade**            | Area Obscurance (8m Radius)                    | 1    | 300   |                                          |
-| **Frag Grenade**             | Ordenance 4, Area Blast 3, 8m Radius)          | 1    | 1,500 |                                          |
-| **HE Grenade**               | Ordenance 5, Area Blast 5, 4m Radius)          | 1    | 2,000 |                                          |
+| **Flashbang**                | Ordenance 5, Area Stun, 4m Radius              | 1    | 250   |                                          |
+| **Smoke Grenade**            | Area Obscurance, 8m Radius                     | 1    | 300   |                                          |
+| **Frag Grenade**             | Ordenance 4, Blast 3, 8m Radius                | 1    | 1,500 |                                          |
+| **HE Grenade**               | Ordenance 5, Blast 5, 4m Radius                | 1    | 2,000 |                                          |
 | **Explosive Ammo**           |                                                | 1    | 2,500 | Generic Ammunition for Explosive Weapons | 
 | **Remote Detonation Charge** | Ordenance 7, Area Blast 5, 12m Radius), Remote | 2    | 5,000 |                                          |
 
@@ -75,7 +76,7 @@
   in the space discards it's highest die in it's next roll until the next Player Turn.
 * **Area Obscurance:** This explosive creates a cloud of smoke with the specified radius, blocking line
   of sight.
-* **Area Blast (X):** The explosive deals massive damage. For each dice with a value 8 or higher, any creature in the
+* **Blast (X):** The explosive deals massive damage. For each dice with a value 8 or higher, any creature in the
   space takes additional damage equal to $X$
 * **Remote:** You can trigger this explosion later at any time using a triggered effect.
 

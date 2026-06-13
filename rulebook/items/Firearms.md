@@ -18,14 +18,8 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
     * **Medium Range:** 6-12 spaces or ~20-50m
     * **Long Range:** 13-20 spaces or ~50-100m
     * **Extreme Range:** 20+ spaces or ~100m+
-- **Rate of Fire (RoF):** This stat represents the weapon's capacity for rapid fire and its ability to engage multiple
-  targets. On each attack, gain Rapid Fire points equal to your weapon's Rate of Fire attribute and spend it on any of
-  the following options:
-    - Once per the Success roll and once per the Action roll, spend $X$ Rapid Fire to reroll $X$ dice.
-    - Discard any die with value 8 or higher during the Action roll, or the Success roll to gain +1 Damage on the
-      current attack.
-    - After the attack, spend one point to have the leftover damage spill over to another creature in the target's
-      space.
+- **Rate of Fire (RoF):** A limit activate a total number of Crit and Split effects per attack equal to the
+  weapon's Rate of Fire attribute.
 - **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.
 - **Load**: The weight and bulk of the weapon.
 - **Cost**: The average market price in Credits.

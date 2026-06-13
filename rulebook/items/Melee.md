@@ -17,27 +17,21 @@ between life and death. Melee weapons are defined by their **Reach**, **Damage B
 
 ## Melee Weapons
 
-| Weapon Name            | Reach                  | Dmg Bonus                                 | Load | Cost   | Description |
-|:-----------------------|:-----------------------|:------------------------------------------|:-----|:-------|:------------|
-| **KSK "Dart"**         | 0                      | `+ 1`                                     | 1/4  | 100    |             |
-| **CF "Scalefist"**     | 0                      | `+ Str/3 + 1`                             | 1/2  | 300    |             |
-| **CF "Talon"**         | 1                      | `+ Str/3 + 1`                             | 1    | 850    |             |
-| **PA "Tigerpaw"**      | 0                      | `+ Str/2 + 1`                             | 1/2  | 900    |             |
-| **VWS "Shocker"**      | 0                      | `+ 3 (Once per round)`                    | 1    | 1,100  |             |
-| **CQC "Twilight"**     | 1                      | `+ Str/2 + 1`                             | 1    | 1,100  |             |
-| **KSK "Eel"**          | 2                      | `+ Str/2 + 1`                             | 2    | 2,000  |             |
-| **PA "Fang"**          | 1                      | `+ Str/2 + 2`                             | 1    | 3,000  |             |
-| **CF "Spike"**         | 3                      | `+ Str/3 + 1`                             | 3    | 4,500  |             |
-| **KSK "Sharkfin"**     | 2                      | `+ Str/2 + 2`                             | 2    | 5,000  |             |
-| **VWS "Greatsword"**   | 3                      | `+ Str + 1`                               | 3    | 6,000  |             |
-| **CF "Toad"**          | 2 (3 while two handed) | `+ Str/2 + 2`                             | 2    | 8,000  |             |
-| **CQC "Dawn"**         | 2                      | `+ Str/2 + 2 (+3 when wielded with Dusk)` | 2    | 10,000 |             |
-| **CQC "Dusk"**         | 2                      | `+ Str/2 + 2 (+3 when wielded with Dawn)` | 2    | 10,000 |             |
-| **PA "Tigerpaw"**      | 0                      | `+ Str/2 + 2`                             | 1/2  | 11,000 |             |
-| **PA "Claw"**          | 1                      | `+ Str/3 + 3`                             | 1    | 12,000 |             |
-| **VWS "Battleaxe"**    | 3                      | `+ Str + 2`                               | 3    | 15,000 |             |
-| **KSK "Swordfish"**    | 2                      | `+ Str/3 + 3`                             | 2    | 16,000 |             |
-| **CF "Dragontooth"**   | 1                      | `+ Str/2 + 3`                             | 1    | 18,000 |             |
-| **VWS "Helmsplitter"** | 3                      | `+ Str + 3`                               | 3    | 20,000 |             |
-| **PA "Saber"**         | 2                      | `+ Str/2 + 4`                             | 2    | 25,000 |             |
-| **VWS "Claymore"**     | 4                      | `+ Str + 4`                               | 4    | 30,000 |             |
+| Weapon Name          | Reach | Dmg Bonus             | Load | Cost | Description |
+|:---------------------|:------|:----------------------|:-----|:-----|:------------|
+| **KSK "Dart"**       | 0     | `+ 1`                 | 1/4  |      |             |
+| **VSW "Knuckle"**    | 0     | `+ Str/3`             | 1/2  |      |             |
+| **CF "Talon"**       | 0     | `+ Str/3 + 1`         | 1/2  |      |             |
+| **PA "Claw"**        | 0     | `+ Str/3 + 2`         | 1/2  |      |             |
+| **VWS "Shocker"**    | 0     | `+ 3 (Once per turn)` | 1/2  |      |             |
+| **KSK "Eel"**        | 1     | `+ Str/3 + 1`         | 1    |      |             |
+| **PA "Fang"**        | 1     | `+ Str/3 + 2`         | 1    |      |             |
+| **CQC "Twilight"**   | 1     | `+ Str/3 + 3`         | 1    |      |             |
+| **KSK "Swordfish"**  | 2     | `+ Str/3 + 1`         | 2    |      |             |
+| **CF "Dragontooth"** | 2     | `+ Str/3 + 2`         | 2    |      |             |
+| **CQC "Dawn"**       | 2     | `+ Str/3 + 3`         | 2    |      |             |
+| **CF "Toad"**        | 3     | `+ Str/2 + 2`         | 3    |      |             |
+| **KSK "Sharkfin"**   | 3     | `+ Str/2 + 3`         | 3    |      |             |
+| **VWS "Greatsword"** | 3     | `+ Str/2 + 4`         | 3    |      |             |
+| **CQC "Dusk"**       | 4     | `+ Str/2 + 4`         | 4    |      |             |
+| **VWS "Claymore"**   | 4     | `+ Str/2 + 5`         | 4    |      |             |
