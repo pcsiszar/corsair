@@ -203,30 +203,30 @@ replace your current mod with a different on you own during your day-to-day.
 
 ### Duality
 
-**Effect**: You can hold Charges of two different elements simultaneously. The maximum number of Charges you can hold
-remains the same (shared between both elements). When you use a Burst Skill, you consume all charges, but only charges
-of the element corresponding to the Burst Skill contribute to the corresponding effect ($N$). When you Amp an
-elemental charge that you hold, but you are at maximum capacity, you override the charge of the other element. When you
-Amp an elemental charge that you don't hold, and you already hold two different elemental charges, you decide which type
-of charges you lose.
+You can hold Charges of two different elements simultaneously. The maximum number of Charges you can hold
+remains the same (shared between both elements). When you use a Burst Skill, you still consume all charges. When you Amp
+an elemental charge that you hold, but you are at maximum capacity, you override the charge of the other element. When
+you Amp an elemental charge that you don't hold, and you already hold two different elemental charges, you decide which
+type of charges you lose.
 
-### Chain Burst
+### Continuity
 
-**Effect**: When using a Burst Skill, you can choose to retain some of your Charges instead of spending them on the
+When using a Burst Skill, you can choose to retain some of your Charges instead of spending them on the
 skill, but any Charge you have left are lost at the end of the Player Turn.
 
-### Wellspring
+### Courage
 
-**Effect**: When you use an Amp Skill and have Zero Charges (in any element), you generate 2 Charges instead of 1.
+When activating an Amp Skill, you can choose to generate double the charge, by forgoing the activation of any beneficial
+effect of your Amp Skill.
 
-### Overflow
+### Depth
 
-**Effect**: Increase your maximum Charges to 4.
+Increase your maximum Charges to 4.
 
 ### Balance
 
-**Effect**: As long as you don't have the same Amp Skill activated twice, you can activate an additional skill
-automatically for free.
+As long as you don't have the same Amp Skill activated twice, you can treat one Amp skill you have activated as if it
+was already activated twice.
 
 ---
 
