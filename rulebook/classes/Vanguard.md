@@ -105,9 +105,6 @@ target.
 
 **Gun Shield:** You can use two-handed firearms while in Shield Form.
 
-**Impact Dynamo:** Once per round, when you fully reduce the incoming damage from an attack that successfully landed on
-you, you gain a Shield Charge.
-
 *Requires: Shield Form*
 
 **Tactical Barricade:** Roll a Simple Test with Shield, adding your Boost Die, which is then expended. For each Hit you
@@ -164,12 +161,6 @@ space you moved through, or flied above.
 can move before or after making the attack, regardless if it succeeds. This movement cannot be contested.
 
 *Requires: Glider Move*
-
-**Liftoff:** Make a success roll with Glider, adding your Boost die which is then consumed. You can fly a number of
-meters directly upwards equal to half the result. For each hit you sacrifice, you can have another creature in your
-space move along with you. You all fall at the end of the player turn.
-
-*Requires: Glider Boost*
 
 ### Cannon Skills
 
@@ -228,12 +219,6 @@ move yourself to any space along the line of the attack between you and the crea
 space. If you move, this also counts as a Glider Move.
 
 *Requires: Shield Boost*
-
-**Fusion Cannon:** You can modify your Cannon into a Fusion Cannon, incorporating a weapon from your inventory that's
-Load 4 or less. For every statistic of the gun, it uses the statistic that's better. You can swap freely between normal
-form and Fusion Cannon form freely.
-
-*Requires: Cannon Form*
 
 ## Class Mods
 
