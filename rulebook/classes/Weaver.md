@@ -45,11 +45,11 @@ to try and force it open or Create + Finesse to create a lock pick, or Create + 
 alter it slightly to fit the keyhole, or Modify + Control to alter an existing key or make the lock fit that key
 instead.
 
-Each Weaver has a set amount of Reserve, starting with 4, stored away that increases with the Level of the class. All
-usage of your nanite abilities requires at least 1 Reserve. A single point of Reserve is about 1 liter worth of nanites
-stowed away in a cansiter or hovering around the user. The density of the material the nanites can make varies,
-stretched to its limits, 1 Reserve can make a 24 meter rope, or a 1 square meter surface, or a soccer ball sized sphere,
-but you can find references of what you can make with what amount of reserve.
+Each Weaver has a set amount of Reserve, starting with 3. All usage of your nanite abilities requires at least 1
+Reserve. A single point of Reserve is about 1 liter worth of nanites stowed away in a cansiter or hovering around the
+user. The density of the material the nanites can make varies, stretched to its limits, 1 Reserve can make a 24 meter
+rope, or a 1 square meter surface, or a soccer ball sized sphere, but you can find references of what you can make with
+what amount of reserve.
 
 You can only use your nanite powers to create, control or modify in the space you occupy.
 
