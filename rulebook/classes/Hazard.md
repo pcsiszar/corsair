@@ -2,11 +2,11 @@
 
 ## Description
 
-The Hazard is a rogue-alchemist and combat chemist, defined by a compact, high-pressure ChemPack and a slick network of
-reinforced tubing that traces the anatomy of their limbs. Often seen wearing a low-profile breather mask to navigate
-their own volatile workspace, the Hazard uses an integrated conduit system to pump pressurized reagents directly to
-their hands or weapon systems. Their presence is marked by the sharp scent of ozone and the subtle, rhythmic pulse of
-fluids moving through their sleeves as they tap into their stored reserves.
+The Hazard is a rogue-alchemist and combat chemist, defined by a compact, high-pressure Catalyst Chamber and a slick
+network of reinforced tubing that traces the anatomy of their limbs. Often seen wearing a low-profile breather mask to
+navigate their own volatile workspace, the Hazard uses an integrated conduit system to pump pressurized reagents
+directly to their hands or weapon systems. Their presence is marked by the sharp scent of ozone and the subtle, rhythmic
+pulse of fluids moving through their sleeves as they tap into their stored reserves.
 
 The Hazard’s utility relies on three distinct chemical reservoirs housed within the ChemPack:
 
@@ -31,24 +31,27 @@ maximum value for any single attribute at creation is 4. You can leave an Attrib
 
 ## Basic Mechanics
 
-### Reservoirs
+### Pressure
 
-Each attribute in the class has a corresponding reservoir in the ChemPack that recharges slowly. Every skill the Hazard
-has uses one or more dosage of the specific attribute's reservoir. Each of the three reservoirs have ten doses.
+The Hazard has a Pressure meter that indicates the conditions of the Catalyst Chamber. More Pressure means more potent
+brews, but also a greater chance of things going wrong. The Pressure Levels of the Catalyst Chamber go from 0 to 3.
 
-If you are in place-to-place, or day-to-day pacing, you recharge all your reservoirs to full.
+Every Hazard Skill either makes the Pressure go up or down by a set amount. If a Skill use would make the Pressure
+exceed its upper or lower bound, it cannot be used.
 
-### Delivery
+### Volatile Die
 
-In order for your reagents to take effect, they have to make their way to their intended destination. The Hazard can
-make that happen in a number of ways. These are called vectors. Every skill specifies what vectors it's compatible with,
-meaning what methods of delivery the reagent involved in the skill supports.
+The Hazard has access to a special die called the Volatile Die. It's size corresponds to the Pressure Level, you don't
+get one on Pressure 0, it's a d8 on Pressure 1, d10 on Pressure 2, and d12 on Pressure 3.
 
-- **Contact**: You apply your reagents directly to willing creatures.
-- **Strike**: You coat your limbs or melee weapons and deliver the reagent via a melee attack.
-- **Dart**: You fill a specialized syringe that can be fired from most ranged weapons.
-- **Spray**: You disperse the reagent in single space, the one you occupy, or an adjecent one.
-- **Blast**: You fill a detonating canister that can be thrown up to 40 meters.
+You can add the Volatile Die to any test you roll with Hazard Attributes and any other test your skills would allow you
+to. When the Volatile Die rolls a Hit, you take 2 damage, and you roll the Volatile Die again to determine your new
+Pressure Level:
+
+- 1,2,3 : Pressure 3
+- 4,5,6 : Pressure 2
+- 7,8,9 : Pressure 1
+- 10,11,12 : Pressure 0
 
 ### Hazard Skills
 
