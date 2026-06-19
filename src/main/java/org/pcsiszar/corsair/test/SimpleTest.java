@@ -8,7 +8,7 @@ import java.util.Comparator;
 
 public class SimpleTest extends Test<SimpleResult> {
 
-  private SimpleTest(AttributePair attributePair) {
+  public SimpleTest(AttributePair attributePair) {
     super(attributePair);
   }
 

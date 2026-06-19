@@ -72,7 +72,7 @@ public class DicePool {
   }
 
   public void downgrade(int n) {
-    if (state != PoolState.ASSEMBLED || state != PoolState.UPGRADED) {
+    if (state != PoolState.ASSEMBLED && state != PoolState.UPGRADED) {
       throw new IllegalStateException("Downgrades has to happen before the roll.");
     }
     int remainingDowngrades = downgradeInitialPool(n);
