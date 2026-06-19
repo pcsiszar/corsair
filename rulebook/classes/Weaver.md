@@ -36,33 +36,47 @@ maximum value for any single attribute at creation is 4. You can leave an Attrib
 
 When you make use of your nanites, you will roll with one or more of the Weaver's attributes if a test is required. By
 default, you are only allowed to create, control and modify objects that do not have statistics associated with them.
-This means weapons, armor, cover, healing equipment is off the table unless you unlock that ability by learning a Nanite
-Skill.
+This means weapons, armor, cover, and healing equipment are off the table unless you unlock that ability by learning a
+Nanite Skill.
 
 To use your nanites during a test you must describe what the nanites create or modify for you, or how controlling the
-nanites in your creation helps you in achieving your goal. For a locked door, use Create + Strength to create a crowbar
-to try and force it open or Create + Finesse to create a lock pick, or Create + Control to try and create a key then
-alter it slightly to fit the keyhole, or Modify + Control to alter an existing key or make the lock fit that key
-instead.
+nanites in your creation helps you in achieving your goal.
+
+Here are some examples across different situations:
+
+*Locked door:* Use **Create + Strength** to forge a crowbar and lever it open, **Create + Finesse** to shape a
+lockpick and work the tumblers yourself, **Create** to form a key shaped to fit the lock, **Modify** to reshape an
+existing key or alter the lock to accept it, or **Control + Finesse** to guide the nanites themselves to manipulate
+the tumblers directly.
+
+*Chasing or being chased:* Use **Create + Control** to form a slick panel of nanite material and flick it under a
+pursuer's feet (or **Create + Finesse** if you'd rather guide it precisely yourself), **Control + Agility** to fling
+a created object into a pursuer's path, or **Modify + Agility** to rapidly widen a gap in a wall or grate you're
+squeezing through.
+
+*Social situation:* Use **Create + Charisma** to produce convincing forged documents, ID cards, or prop evidence on
+the spot, or **Modify + Charisma** to subtly alter an existing document's text or seal to match a forgery.
+
+*Gaining information:* Use **Create + Instinct** to construct a simple listening device or reflective surface to peer
+around a corner, or **Control + Instinct** to guide a nanite thread under a door to feel out what's on the other side.
 
 Each Weaver has a set amount of Reserve, starting with 3. All usage of your nanite abilities requires at least 1
-Reserve. A single point of Reserve is about 1 liter worth of nanites stowed away in a cansiter or hovering around the
-user. The density of the material the nanites can make varies, stretched to its limits, 1 Reserve can make a 24 meter
-rope, or a 1 square meter surface, or a soccer ball sized sphere, but you can find references of what you can make with
-what amount of reserve.
+Reserve. A single point of Reserve is about 1 liter worth of nanites stowed away in a canister or hovering around the
+user. The density of the material the nanites can make varies; stretched to its limits, 1 Reserve can make a 24 meter
+rope, or a 1 square meter surface, or a soccer ball sized sphere.
 
 You can only use your nanite powers to create, control or modify in the space you occupy.
 
-Everything you create has a Load of 0 and every modification you make to equipment preserves their original Load.
+Everything you create has a Load of 0 and every modification you make to equipment preserves its original Load.
 
 You can command a nanite creation or modification to disassemble and return to you at any time for free, at which point
-you regain the reserve spent on it.
+you regain the Reserve spent on it.
 
-**1 Reserve** : Handheld tools, a helmet, a shield, a sword, a pistol, a blanket, a pair of handcuffs, general
-equipment in the 1-2 Load Range.
-**2 Reserve**: A ladder, a chair, a full set of clothes, a large blanket.
+**1 Reserve**: Handheld tools, a rope, a grappling hook, a simple container, a pair of handcuffs,
+general equipment in the 1-2 Load range.
+**2 Reserve**: A full ladder, a chair, a large container, a full set of clothes, a large blanket,
 general equipment in the 3-4 Load range.
-**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit ,general equipment in the 5-6 Load range.
+**3 Reserve**: A bench, a thick 1m x 1m wall, a space suit, general equipment in the 5-6 Load range.
 
 ## Skills
 

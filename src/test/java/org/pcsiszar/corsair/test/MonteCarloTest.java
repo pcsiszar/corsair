@@ -80,9 +80,9 @@ class MonteCarloTest {
     System.out.println("| Lower Attr | Upgrades | Downgrades | Avg Success Points |");
     System.out.println("|------------|----------|------------|--------------------|");
 
-    int[] lowerAttrs = { 1, 2, 4, 6, 8 };
-    int[] upgradesList = { 0, 1, 3, 5 };
-    int[] downgradesList = { 0, 1, 3, 5 };
+    int[] lowerAttrs = { 1, 2, 3, 4, 5, 6, 7 };
+    int[] upgradesList = { 0, 1, 2, 3 };
+    int[] downgradesList = { 0, 1, 2, 3 };
 
     for (int lower : lowerAttrs) {
       for (int upgrades : upgradesList) {

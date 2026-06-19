@@ -8,25 +8,27 @@ navigate their own volatile workspace, the Hazard uses an integrated conduit sys
 directly to their hands or weapon systems. Their presence is marked by the sharp scent of ozone and the subtle, rhythmic
 pulse of fluids moving through their sleeves as they tap into their stored reserves.
 
-The Hazard’s utility relies on three distinct chemical reservoirs housed within the ChemPack:
+The Hazard's utility relies on three distinct chemical reservoirs housed within the ChemPack:
 
-The first reservoir contains distilled corrosive acids and debilitating toxins designed to liquefy defenses and
-compromise enemy systems. Whether through coated blades or pressurized sprays, the Hazard uses this supply to dissolve
-structural obstacles and wither an opponent’s effectiveness. The second reservoir holds highly combustible compounds and
-unstable fuels, utilized to trigger localized explosions or sustained bursts of intense flame for area denial and raw
-destruction. Finally, a third tank stores concentrated restorative serums and stimulants; by injecting these reagents,
-the Hazard can accelerate cellular repair and sharpen cognitive focus, ensuring their allies remain peak-functional even
-in the most lethal environments.
+The first reservoir contains distilled corrosive acids and debilitating toxins. These substances are designed to
+penetrate biological systems and compromise them from within — withering an opponent's effectiveness long after
+contact. The second reservoir holds explosive and volatile compounds: fast-acting agents that react on contact with air
+or impact, delivering immediate, catastrophic force in a radius the Hazard controls. Finally, a third tank stores
+concentrated restorative serums and cognitive stimulants; by dosing allies or themselves, the Hazard can sharpen
+reflexes, accelerate healing, and push their cell to peak performance even in the most lethal environments.
 
 ## Attributes
 
-* **Venom:** The ability to synthesize and control toxic and acidic reagents.
+* **Venom:** The ability to synthesize and deploy toxic, acidic, and debilitating substances. Venoms work their way
+  into a target's biology, degrading them from the inside out.
 
-* **Fuel:** The ability to synthesize and control combustible reagents.
+* **Hazard:** The ability to synthesize and detonate explosive and volatile compounds. Hazard reagents act immediately
+  and violently on contact, dealing direct damage.
 
-* **Serum:** The ability to synthesize and control healing and enhancing reagents.
+* **Serum:** The ability to synthesize and administer restorative and enhancing serums. Serums work within a
+  creature's biology to improve their performance.
 
-At character creation, you can distribute 5 points among your Venom, Fuel, and Serum attributes. The
+At character creation, you can distribute 5 points among your Venom, Hazard, and Serum attributes. The
 maximum value for any single attribute at creation is 4. You can leave an Attribute at 0.
 
 ## Basic Mechanics
@@ -53,9 +55,27 @@ Pressure Level:
 - 7,8,9 : Pressure 1
 - 10,11,12 : Pressure 0
 
+### Basic Attribute Uses
+
+Each attribute has a baseline use that does not require any skill:
+
+**Venom — Apply Downgrade.** As an action, you can dose a creature in your space with a debilitating substance.
+Roll a Success Test with Venom. The resulting Success Points establish a Downgrade effect on that creature. This
+Downgrade is permanent until removed, and a single creature can only be affected by one Venom effect from you at
+a time. You can have a maximum number of active Venom effects equal to your Venom attribute's value.
+
+**Hazard — Ranged Attack.** As an action, you can hurl or detonate a volatile compound against a target in your
+space. Make a ranged attack using your Hazard attribute. This attack can only target creatures or objects in the
+same space as you.
+
+**Serum — Apply Upgrade.** As an action, you can dose yourself or a willing creature in your space with an
+enhancing serum. Roll a Success Test with Serum. The resulting Success Points establish an Upgrade effect on that
+creature. This Upgrade is permanent until removed, and a single creature can only benefit from one Serum effect
+from you at a time. You can have a maximum number of active Serum effects equal to your Serum attribute's value.
+
 ### Hazard Skills
 
-You use your attributes with class specific skills you unlock as you progress with the class.
+You can further expand your arsenal with class specific skills you unlock as you progress with the class.
 
 ## Skills
 

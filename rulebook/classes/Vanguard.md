@@ -53,11 +53,26 @@ Vanguard Attribute, you remain in that form.
 
 ### Boosts & Revving Up
 
-When you want to swap to a different form without doing anything else, you can take a special Success Test where you
-Boostup the energies of the Board in it's desired form, called Revving Up. When you Rev Up, you roll a Success
-Test and bank the result for later use. Whenever you roll Success in any Test using any Vanguard attribute, you can
-decide if you want to use the banked result or the one you just rolled. This is called a Boost, and it corresponds to
-the Vanguard Attribute you used in generating it. Different types of Boost are good for activating different skills.
+A **Boost** is a single banked die associated with one of your three Vanguard Attributes. You can only hold one Boost
+at a time. Different types of Boost are good for activating different skills.
+
+**Gaining a Boost.** Whenever you roll a test that uses a Vanguard Attribute and you do not currently have a Boost,
+you may set aside one die from that roll that shows an **8 or higher** before counting your result. That die becomes
+your Boost and corresponds to the Vanguard Attribute you used in the roll. The set-aside die does not contribute to
+the roll's success.
+
+**Revving Up.** When you want to swap to a different form without doing anything else, you can take a special Success
+Test called **Revving Up**. Roll a Success Test with the Vanguard Attribute of the form you want to switch into; you
+immediately switch to that form. You may then bank **any one die** from the result as your Boost (not limited to dice
+that rolled 8 or higher), corresponding to the Attribute you used. The remaining dice count toward the Success Test's
+result as normal.
+
+Revving Up counts as a Form Move.
+
+**Spending a Boost.** Whenever you roll a test that uses any Vanguard Attribute (Shield, Glider, or Cannon), you may
+spend your Boost die by adding it to the roll. 
+You can choose to add the Boost die before or after the initial roll. Once spent, the Boost is gone.
+
 
 ### Skills
 
