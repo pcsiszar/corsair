@@ -970,51 +970,16 @@ provided Protection benefit is reduced by 1.
 #### Cover Facing
 
 Using cover effectively is about more than just standing behind something; it's about angling yourself against incoming
-fire. When you take cover in a space, you must declare the **facing** of your cover. This represents which side of your
-space the physical cover is on, and where you are concentrating your defense.
+fire. The first time you take an attack where you'd benefit from the bonus, you draw a line from the attacker and
+whichever side of your space it crosses becomes side that grants you the bonus. This represents which side of the
+physical cover in your space you are on.
 
-To determine the bonus you receive, the GM will draw a line from the center of the attacker's space to the center of
-your space.
+When the line of attack crosses a corner, both adjecent sides become covering sides.
 
-* **Full Bonus:** If the line of attack crosses the side you chose as your cover's facing, you receive the full
-  Protection bonus from the cover.
+On any subsequent attacks during the turn:
+
+* **Full Bonus:** If the line of attack crosses the covering side, you receive the full Protection bonus from the cover.
 * **Reduced Bonus:** If the line of attack crosses one of the two sides *adjacent* to your chosen facing, the
-  Protection bonus is reduced by 1. (A +3 bonus becomes +2, a +2 becomes +1, and a +1 becomes 0).
+  Protection bonus is reduced by 1 on a hex grid, and by 2 on a square grid.
 * **No Bonus:** If the line of attack crosses the side *not* adjacent your chosen facing, you gain no benefit from the
   cover against that attack. You are considered exposed.
-
-### Area Attacks
-
-Some weapons and abilities allow you to target one or more spaces instead of specific creatures. These are called Area
-Attacks. The rules for the attack will specify a formula, such as `H2{3d8}`.
-
-* **H** stands for "Highest".
-* The first number (e.g., `2`) is the number of dice to keep and sum for damage.
-* The dice expression (e.g., `{3d8}`) is the type and number of dice to roll.
-
-Resolving an Area Attack is a multi-step process:
-
-1. **Attacker Rolls:** The attacker rolls the specified dice (e.g., `3d8`).
-2. **Determine Potential Damage:** The attacker identifies the number of highest dice indicated by the formula (e.g.,
-   the 2
-   highest) and adds their values together. This total is the potential damage for the attack.
-3. **Defenders Contest:** Each creature in the targeted spaces can make a standard contest roll.
-4. **Calculate Final Damage:** For each success (8+) a defender gets on their contest roll, they remove one of the dice
-   from the attacker's potential damage sum, starting with the highest value. The sum of the remaining dice is the final
-   damage that defender takes.
-
-**Example:** An attack is `H2{3d8}` and the attacker rolls `[8, 2, 1]`.
-
-* The potential damage is **10** (from adding the two highest dice, `8 + 2`).
-* **Player 1** is in the area and makes a contest roll, getting one success. This success removes the highest die (the
-  `8`) from the sum. Player 1 takes **2** damage (from the remaining `2`).
-* **Player 2** is also in the area and gets two successes on their contest roll. These successes remove the two highest
-  dice (`8` and `2`). Player 2 takes **0** damage.
-
-The cost for contesting an Area attack depends on how far the creature is from a space that is considered safe from the
-attack. Creatures adjacent to a safe space contest the Area attack for free. For each additional space they have to
-move,
-they have to pay 1 AP to contest the roll.
-
-If the defender would be moving out from, or would be moving through space with Difficult Terrain, the AP cost of
-contesting increases by 1 for each space with Difficult Terrain involved.
