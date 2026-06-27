@@ -273,4 +273,4 @@ selected Attribute during your day-to-day.
 | 4     | +1 Attribute Point, +1 Mod Slot, Unlock 2 Skills          | 40,000      |
 | 5     | +1 Attribute Point, Max Attribute Cap +1                  | 70,000      |
 
-* This cost is only applicable if the Conduit class was not gained with your starting class.
+* This cost is only applicable if the Vanguard class was not gained with your starting class.

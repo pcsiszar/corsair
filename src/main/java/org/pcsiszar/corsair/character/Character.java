@@ -5,8 +5,6 @@ import lombok.Data;
 import lombok.Setter;
 import org.pcsiszar.corsair.dice.Die;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Queue;
 import java.util.LinkedList;
@@ -120,6 +118,7 @@ public class Character {
   }
 
   public int getRemainingPhysicalHp() {
-    return physicalTrack.getTracks().stream().mapToInt(org.pcsiszar.corsair.track.Track::getFinalValue).sum() - getTotalPhysicalDamage();
+    return physicalTrack.getTracks().stream().mapToInt(org.pcsiszar.corsair.track.Track::getFinalValue).sum()
+        - getTotalPhysicalDamage();
   }
 }

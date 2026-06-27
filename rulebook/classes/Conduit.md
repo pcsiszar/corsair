@@ -30,10 +30,37 @@ maximum value for any single attribute at creation is 4. You can leave an Attrib
 
 ## Mechanics
 
+### Basic Attribute Uses
+
+A Conduit's elemental nature leaks into the physical world, allowing them to affect their environment and substitute
+their class attributes during tests.
+
+**Minor Touch Effects:**
+Even without a test, you can channel raw energy through your touch to produce minor, narrative-only effects:
+
+- **Flame:** Warm an object, melt thin frost, dry a wet garment, or spark a pilot light.
+- **Frost:** Cool a beverage, freeze small amounts of standing water, or soothe a minor burn.
+- **Lightning:** Deliver a mild static shock, light up a low-voltage indicator, or clear static from a screen.
+
+**Attribute Substitutions:**
+During a Test, you can substitute a Conduit attribute for a standard attribute if the context fits, provided you
+currently hold **at least 1 Charge** of that element:
+
+- **Flame** can be substituted for **Strength** or **Charisma**.
+- **Frost** can be substituted for **Finesse** or **Knowledge**.
+- **Lightning** can be substituted for **Agility** or **Instinct**.
+
+Performing an Attribute Substitution does not consume or generate charges.
+
 ### Charge
 
-Conduit skills revolve around the **Charge** mechanic. The Aether Core can hold 3 charges at maximum, increasing it's
-charge by each use of an Amp Skill and using up all charges when using a Burst Skill.
+Conduit skills revolve around the **Charge** mechanic. The Aether Core can hold 3 charges at maximum, increasing its
+charge by each use of an Amp Skill or the Channel action, and using up all charges when using a Burst Skill.
+
+**Channel:**
+As an action, you can focus on your Aether Core to generate energy. Choose Flame, Frost, or Lightning and make a Success
+Test using that Conduit Attribute. For each Hit you sacrifice from this roll, you gain **1 Charge** of that element (
+subject to standard Charge limits).
 
 When you learn an Amp Skill or Burst Skill, you learn all variants of it for each Element.
 

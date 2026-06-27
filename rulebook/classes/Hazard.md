@@ -44,7 +44,8 @@ exceed its upper or lower bound, it cannot be used.
 ### Volatile Die
 
 The Hazard has access to a special die called the Volatile Die. It's size corresponds to the Pressure Level, you don't
-get one on Pressure 0, it's a d8 on Pressure 1, d10 on Pressure 2, and d12 on Pressure 3.
+get one on Pressure 0, it's a d8 on Pressure 1, d10 on Pressure 2, and d12 on Pressure 3. The Volatile Die cannot be
+upgraded or downgraded by any other means.
 
 You can add the Volatile Die to any test you roll with Hazard Attributes and any other test your skills would allow you
 to. When the Volatile Die rolls a Hit, you take 2 damage, and you roll the Volatile Die again to determine your new
@@ -60,12 +61,12 @@ Pressure Level:
 Each attribute has a baseline use that does not require any skill:
 
 **Venom — Apply Downgrade.** As an action, you can dose a creature in your space with a debilitating substance.
-Roll a Success Test with Venom. The resulting Success Points establish a Downgrade effect on that creature. This
+You can make a melee attack against a creature with Venom, and use any hits generated to create Downgrade Effects. This
 Downgrade is permanent until removed, and a single creature can only be affected by one Venom effect from you at
 a time. You can have a maximum number of active Venom effects equal to your Venom attribute's value.
 
-**Hazard — Ranged Attack.** As an action, you can hurl or detonate a volatile compound against a target in your
-space. Make a ranged attack using your Hazard attribute. This attack can only target creatures or objects in the
+**Hazard — Melee Attack.** As an action, you can hurl or detonate a volatile compound against a target in your
+space. Make a melee attack using your Hazard attribute. This attack can only target creatures or objects in the
 same space as you.
 
 **Serum — Apply Upgrade.** As an action, you can dose yourself or a willing creature in your space with an
@@ -75,72 +76,199 @@ from you at a time. You can have a maximum number of active Serum effects equal 
 
 ### Hazard Skills
 
-You can further expand your arsenal with class specific skills you unlock as you progress with the class.
+You can further expand your arsenal with class-specific skills you unlock as you progress with the class. These skills
+are grouped into themed **Kits**, each containing three distinct abilities.
 
 ## Skills
 
-### Venom Skills
+### Medic Kit
 
-**Acid Spray**: You spray an area with caustic liquid. Roll a Success roll with Venom. Every creature in a
-target adjacent space takes damage equal to the result. Until the end of the round, their Physical Protection is reduced
-by your Venom attribute's value.
+* **First Aid**
+    * *Pressure Change*: `-1 Pressure`
+    * *Effect*: Choose a creature in your space and make a Success Test with **Serum**. For every 2 Success Points, heal
+      1 light wound on the target plus an additional amount of light wounds equal to your Pressure.
 
-**Acidic Shot**: You fill a special cartridge that can be fired from most firearms that spreads acid over the
-target that's hit, temporarily reducing their armor's effectiveness. Choose a firearm in your loadout and make a ranged
-attack with it, while treating its Rate of Fire as 0. If it hits, you reduce their physical protection equal to your
-Venom attribute until the end of the round, and you deal damage to them equal to the result of a Success Roll with
-Venom.
+* **Regenerator**
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Roll a Simple Test with **Serum**.For every Hit you sacrifice, you can apply the following effect to a
+      creature in your space: the next time that creature takes physical damage, they then immediately heal an amount of
+      light wounds equal to your Serum Attribute. A creature can have multiple applications of this effect at the same
+      time.
 
-**Cloudkill**: You lob a canister full of toxic and venomous gas. Target a space up to 40 meters and roll a
-Success Test with Venom. Every creature except you, in the targeted space, and every adjacent one, as well as any
-creature that enters these spaces until the end of the turn one takes damage equal to the number of success points you
-roll, ignoring any Physical Protection equal to your Venom attribute.
+* **Defibrillator**: You use an electrical discharge to jolt a creature back to consciousness and heal their wounds, or
+  shock an enemy.
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Choose a creature in your space. If it's unconcious, make a Success Test with **Serum** and for every 2
+      Success Points, heal 1 light wound on the target and an amount of aggravated damage equal to your Pressure. If
+      it's concious, make a melee attack with **Hazard** and gain a damage bonus equal to your Pressure.
 
-**Maddening Shot**: You fill a special cartridge that can be fired from most firearms that injects a
-a special formula into the target that's hit, making them go berserk. Choose a firearm in your loadout and make a ranged
-attack with it, while treating its Rate of Fire as 0. If it hits, you can roll a success roll with Venom. The resulting
-points then establish a blocker effect that prevents the target from being able to tell friend from foe, and attacking
-anyone but the nearest living creature.
+### Booster Kit
 
-**Paralyzing Blade**: You coat a melee weapon with a venom. Choose a melee weapon in your loadout.
-Until the beginning of the next round, when you land a melee attack with that weapon, you roll the Damage with your
-Venom attribute. If your target is biological, the resulting points also establish a blocker effect that prevents the
-target you attacked from moving.
+* **Micro-Booster**
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Whenever you, or a creature in your space takes an action, you can add your Volatile Die to the all
+      rolls involved in the test.
 
-**Paralyzing Shot**: You fill a special cartridge that can be fired from most firearms that injects a
-paralytic agent into the target that's hit. Choose a firearm in your loadout and make a ranged attack with it, while
-treating its Rate of Fire as 0. If it hits, you can roll a success roll with Venom. The resulting points then establish
-a blocker effect that prevents the target you attacked from moving.
+* **Maximum Effort**:
+    * *Pressure Change*: `-2 Pressure`
+    * *Effect*: Roll a Simple Test with **Serum**. For every Hit you sacrifice, you can apply the following effect to a
+      creature in your space: You gain +1 Upgrade to all tests using at least 1 until the end of the round.
 
-**Tear Gas**: You lob a canister full of choking and blinding gas. Target a space up to 40 meters and roll a
-Success Test with Venom. Every creature except you, in the targeted space, and every adjacent one, as well as any
-creature that enters these spaces until the end of the turn one receives a Upgrade/Downgrade effect established by the
-Success Points you roll.
+* **Adrenaline Rush**:
+    * *Pressure Change*: `-3 Pressure`
+    * *Effect*: Roll a Simple Test with **Serum**. For every Hit you sacrifice, you can temporarily grant 1 AP to a
+      creature in your space, which is lost at the beginning of the next Player Turn.
 
-**Venomous Blade**: You coat a melee weapon with a venom. Choose a melee weapon in your loadout.
-Until the beginning of the next round, when you land a melee attack with that weapon, you roll the Damage with your
-Venom attribute. If your target is biological, the weapon receives an additional damage bonus equal to your Venom
-Attribute.
+### Poison Kit
 
-**Plague walk**: You start oozing a toxic mist, enveloping you and the surrounding area. Roll a Success Test using
-Venom. Until the end of the turn, every creature except you in the space you occupy or move through since activating
-this ability takes damage equal to the number of success points you roll, ignoring any Physical Protection equal to your
-Venom attribute.
+* **Envenom**: Coat your weapon with deadly poison.
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Make a melee attack. You can use your **Venom** Attribute for the
+      Success Roll, and gain +1 damage to the attack per Pressure level. You can add any Downgrade using this skill that
+      you could normally add using **Venom**.
+
+* **Decay**: Activate the toxins you embedded to cause direct harm.
+    * *Pressure Change*: `-3 Pressure`
+    * *Effect*: Make a Success Test with Venom. Deal damage equal
+      to the result to all creatures affected by your Venom Downgrades, which are then consumed.
+
+* **Cloudkill**: Lob a grenade full of pressurized toxic gas.
+    * *Pressure Change*: `+3 Pressure`
+    * *Effect*: Choose a space within Short Range and make a Success Test
+      using **Venom**. For every Hit you sacrifice, you can apply 1 level of a Venom Downgrade to all creatures whithin
+      a 4-meter radius of the target space. Creatures in the affected area cannot see outside and creatures outside the
+      area cannot see into or through the cloud.
+
+### Pyro Kit
+
+* **Firebolt**
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Make a ranged attack in Short range using **Hazard**. You gain +1 damage to the attack per Pressure
+      level.
+
+* **Flamestrike**
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Choose space within Short Range and make a Success Test using **Hazard**. All creatures in the space
+      take damage equal to the result. You gain +1 damage to the attack per Pressure level.
+
+* **Flame Ward**:
+    * *Pressure Change*: `-3 Pressure`
+    * *Effect*: Contest an attack using Hazard without paying any AP. The attacker also takes damage equal to the
+      highest remaining dice you rolled, if they are in the same space.
+
+### Caustic Kit
+
+* **Corrosive Spray**
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Make a melee attack with Venom. For each hit you sacrifice from the Success Roll, you can decrease the
+      Physical Protection of the target by 1.
+
+* **Caustic Bullets**:
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Make a ranged attack using a Firearm. The weapon loses any Damage Bonus it would normally provide, but
+      it ignores the target's Physical Protection entirely.
+
+* **Acid Trail**:
+    * *Pressure Change*: `-2 Pressure`
+    * *Effect*: Make a movement action. You can deal damage to all creatures in the spaces you move through equal to
+      your Hazard Attribute. In addition, every time you enter a space, you can decrease the Cover Rating of that space
+      by 1.
+
+### Ooze Kit
+
+* **Rubberband**
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Choose a creature within short range and make a Simple Test using Serum. For each hit you sacrifice, you
+      can move the creature 4 meters closer to you, if it's large or smaller, or move yourself 4 meters closer to it. If
+      you end up in the same space, you can make a Success Roll with Serum without paying any AP and deal damage to the
+      target equal to the result.
+
+* **Slimeball**:
+    * *Pressure Change*: `-2 Pressure`
+    * *Effect*: Make a ranged attack using a Venom. Instead of dealing damage, you can sacrifice hits on the Success
+      Roll to generate a blocker effect that prevents the target from using their legs, or a blocker effect that
+      prevents them from using their hands.
+
+* **Trailblazer**:
+    * *Pressure Change*: `-1 Pressure`
+    * *Effect*: Make a movement action using **Serum**. Until the start of your next turn, all spaces you move through
+      are treated as difficult terrain.
+
+### Smoke Kit
+
+* **Smoke Screen**
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Make a Simple Test with **Hazard**. For each hit you sacrifice, you can choose a space within short
+      range to deploy a smoke screen in. Creatures in the smoke cannot see out of it and creatures outside the smoke
+      cannot see
+      into our through it. Every creature in the smoke also receives 2 Downgrades for any test requiring sight. The
+      smoke screen lasts until the end of the round.
+
+* **Gas Canister**:
+    * *Pressure Change*: `+2 Pressure`
+    * *Effect*: Choose a space within short range, then roll with either **Venom** or **Serum** to apply the appropriate
+      Upgrade or Downgrade effect to any creatures in the space. Sacrificing one hit applies the effect to only one
+      creature of your choice, not all of them.
+
+* **Ninja Vanish**:
+    * *Pressure Change*: `-2 Pressure`
+    * *Effect*: Contest an attack using **Hazard**, then drop a smoke screen in your current space. Creatures in the
+      smoke cannot see out of it and creatures outside the smoke cannot see into our through it. The smoke screen lasts
+      until the end of the round.
+
+### Psychedelic Kit
+
+* **Ear Bug**
+    * *Pressure Change*: `+1 Pressure`
+    * *Effect*: Take a social action against a creature or creatures in short range. You can add your Volatile Die to
+      the roll and receive Upgrades equal to the highest level of your Venom Downgrade active on any one creature you
+      speak to.
+
+* **Lullaby**:
+    * *Pressure Change*: `-1 Pressure`
+    * *Effect*: Make a Success Test using **Serum**. For every 2 Success Points, you can heal 1 light stress on a
+      creature in the same space.
+
+* **Rampage**:
+    * *Pressure Change*: `+3 Pressure`
+    * *Effect*: Make a Simple Test using **Venom**. For each Hit you sacrifice, you can turn each level of a Venom
+      Downgrade into a Rampage Effect. A rampaging creature will always try to attack the nearest creature in Short
+      Range, friend or foe. If no other creature is within range, it will pass its turn. After the end of the GM turn,
+      clear one level of Rampage Effect.
 
 ## Class Mods
 
+* **Adaptive Reagent**
+    * *Effect*: When you activate a skill that can targe one or more creatures in your space, you can also target
+      creatures that have an active **Upgrade** or **Downgrade** effect created by your **Serums** or **Venoms**.
+
+* **Burst Dampener**
+    * *Effect*: You take only 1 damage when the Volatile Die rolls a Hit. You can also modify the the value rolled on
+      the Volatile Die when determining the new Pressure Level by 1.
+
+* **Redline Engine**
+    * *Effect*: You can exceed the maximum Pressure level, but whenever you do, you take 2 damage for each level and you
+      roll a d10 Volatile Die to determine the new Pressure Level.
+
+* **Dart Launcher**
+    * *Effect*: Skills and abilities that target a single creature in your space can now be used from 1 space away.
+      Whenever a skill or ability would require a melee attack to be used on the target, you can instead make a ranged
+      attack against the target as long as it's in short range.
+
 ## Progression
 
-The Chempack can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the Chempack's
+The ChemPack can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the ChemPack's
 capabilities.
 
-| Level | Benefit                                                                           | Credit Cost |
-|:------|:----------------------------------------------------------------------------------|:------------|
-| 1     | 5 Attribute Points, Basic Module, All skills in Basic Module Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +3 Skill Points, +1 Module,                                   | 10,000      |
-| 3     | +1 Attribute Point, +3 Skill Points, Max Attribute Cap becomes 5                  | 20,000      |
-| 4     | +1 Attribute Point, +3 Skill Points, +1 Module                                    | 40,000      |
-| 5     | +1 Attribute Point, +3 Skill Points, Max Attribute Cap becomes 6                  | 70,000      |
-| 6     | +1 Attribute Point, +3 Skill Points, +1 Module                                    | 110,000     |
+At character creation, distribute 5 points among Venom, Hazard, and Serum (max 4). You start out with 1 Kit of your
+choice.
 
-* This cost is only applicable if the Exodrone Pilot class was not gained with your starting class.
+| Level | Benefit                                                          | Credit Cost |
+|:------|:-----------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Pressure: 3, 1 Kit | 50,000*     |
+| 2     | +1 Attribute Point, +1 Kit, +1 Mod Slot                          | 10,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Kit          | 20,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot                                  | 40,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap becomes 6                  | 70,000      |
+
+* This cost is only applicable if the Hazard class was not gained with your starting class.
