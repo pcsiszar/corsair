@@ -1,7 +1,7 @@
 Sometimes, a single character isn't enough for the job. When multiple characters cooperate on the same task at the same
-time—like forcing open a blast door, sneaking past a patrol, or laying down covering fire—they can use Teamwork.
+time—like forcing open a blast door, sneaking past a patrol, or laying down covering fire—they can use **Teamwork**.
 
-Any character's test can be turned into a Teamwork Test by additional characters declaring their intent to join. A
+Any character's test can be turned into a **Teamwork Test** by additional characters declaring their intent to join. A
 creature can join on a test if:
 
 - The participants are close to each other. (In combat, they must share the same space.)
@@ -10,12 +10,9 @@ creature can join on a test if:
   to the same destination)
 - The action can be reasonably performed by multiple people at the same time.
 
-After everyone declared their intent to join and paid the associated costs, all participants roll the same test, but
-after each roll, any two players can swap any amount of dice between their pools. The goal of this exchange should be to
-ensure that characters with excess high value dice pass off their results to players who rolled low.
+After everyone has declared their intent to join and paid the associated costs, all participants roll the same test. After each roll, any two players can swap any amount of dice between their pools. The goal of this exchange is to ensure that characters with excess high-value dice pass off their results to players who rolled low.
 
-This can be used during both the Action Roll and the Success Roll of a Complex Test. When contesting a Teamwork
-action, the contester removes the highest dice for each 8+ from across all the participating players' pools.
+This can be used during both the **Action Roll** and the **Success Roll** of a **Complex Test**. When contesting a **Teamwork Action Roll**, the contester removes the highest die for each 8+ from across all participating players' pools. In a **Teamwork Success Test**, each 8+ on a **Contest Roll** eliminates the highest die the contested character rolled.
 
 For example, a group trying to sneak past a patrol would all make a **Finesse + Agility** test. One might describe
 themselves as sticking to the shadows, while another mentions timing their steps with the guard's, but the underlying
@@ -23,8 +20,7 @@ test is the same.
 
 Conversely, if one player tries to sneak (**Finesse + Agility**) while another creates a distraction by talking to the
 guards (**Presence + Knowledge**), these are considered separate actions. They contribute to the same overall goal, but
-they are not a single Teamwork action and cannot swap dice. The success of one action might, however, grant an **Upgrade
-** to the other, as determined by the GM.
+they are not a single **Teamwork** action and cannot swap dice. The success of one action might, however, grant an **Upgrade** to the other, as determined by the GM.
 
 #### Teamwork Example
 

@@ -14,12 +14,12 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
 ## Weapon Statistics Explained
 
 - **Accuracy**:
-    * **Short Range:** 0-5 spaces or ~0-20m
-    * **Medium Range:** 6-12 spaces or ~20-50m
-    * **Long Range:** 13-20 spaces or ~50-100m
+    * **Short Range:** 0–5 spaces or ~0–20m
+    * **Medium Range:** 6–12 spaces or ~20–50m
+    * **Long Range:** 13–20 spaces or ~50–100m
     * **Extreme Range:** 20+ spaces or ~100m+
-- **Rate of Fire (RoF):** A limit activate a total number of Crit and Split effects per attack equal to the
-  weapon's Rate of Fire attribute.
+- **Rate of Fire (RoF)**: A limit to activating a total number of Crit and Split effects per attack equal to the
+  weapon's **Rate of Fire** Attribute.
 - **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.
 - **Load**: The weight and bulk of the weapon.
 - **Cost**: The average market price in Credits.
@@ -104,14 +104,13 @@ Massive weapons requiring significant strength to wield, offering overwhelming f
 | Weapon Name        | Range (S/M/L/E) | Special Properties                     | Dmg | Load | Cost   | Description |
 |:-------------------|:----------------|:---------------------------------------|:----|:-----|:-------|:------------|
 | **CF "Basilisk"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (3H3d8, 4m Radius)   | 0   | 4    | 26,000 |             |
-| **CQC "Vulcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d10, 12m Radius) | 0   | 4    | 31,500 |             |
+| **CQC "Volcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d10, 12m Radius) | 0   | 4    | 31,500 |             |
 | **VWS "Rocket"**   | 1 / 1 / 1 / -   | Ammo, Area Attack (1H1d12, 4m Radius)  | +6  | 5    | 40,000 |             |
 | **PA "Manticore"** | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d8, 4m Radius)   | +7  | 5    | 55,000 |             |
-|                    |
 
 ### Special Properties
 
-**Ammo** Consumes 1 Explosive Ammo when fired
+**Ammo**: Consumes 1 Explosive Ammo when fired.
 
 ## Weapon Upgrades
 
@@ -120,15 +119,15 @@ Corsairs to fine-tune their weapons to better suit their combat style.
 
 ### Upgrade Kits
 
-An Upgrade Kit is a consumable item that can be applied to any firearm.
+An **Upgrade Kit** is a consumable item that can be applied to any firearm.
 
-* **Effect:** Permanently increases one of the weapon's attributes by **+1**. This can be applied to:
-    * **Accuracy:** Increase the accuracy rating at a single range band (e.g., Short Range Accuracy +1).
-    * **Rate of Fire (RoF):** Increase the weapon's RoF by 1.
-    * **Damage Bonus:** Increase the weapon's flat Damage Bonus by 1.
-    * **Penetration:** Increase the weapon's Penetration by 1.
-* **Limit:** A single weapon can only be modified by an Upgrade Kit a maximum of **3 times**.
-* **Reallocation:** The bonuses granted by Upgrade Kits are not set in stone. During a **Day-to-Day** scene, a character
+* **Effect**: Permanently increases one of the weapon's attributes by **+1**. This can be applied to:
+    * **Accuracy**: Increase the accuracy rating at a single range band (e.g., Short Range Accuracy +1).
+    * **Rate of Fire (RoF)**: Increase the weapon's RoF by 1.
+    * **Damage Bonus**: Increase the weapon's flat Damage Bonus by 1.
+    * **Penetration**: Increase the weapon's Penetration by 1.
+* **Limit**: A single weapon can only be modified by an **Upgrade Kit** a maximum of **3 times**.
+* **Reallocation**: The bonuses granted by **Upgrade Kits** are not set in stone. During a **Day-to-Day** scene, a character
   can spend **1 Action Point (AP)** to reallocate the bonus points on a weapon. For example, you could move a point from
   Damage Bonus to RoF, or shift an Accuracy bonus from Short Range to Long Range. This represents stripping the weapon
   down and swapping out modular components.

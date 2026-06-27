@@ -10,20 +10,20 @@ void. Armors are defined by their **Protection**, **Special Properties**, **Load
 - **Load**: The weight and bulk of the armor, which counts against a character's carrying capacity.
 - **Cost**: The average market price in Credits.
 
-## Speciality Armor
+## Specialty Armor
 
 | Armor Name          | Protection | Special Properties         | Load | Cost   | Description                                                                                                              |
 |:--------------------|:-----------|:---------------------------|:-----|:-------|:-------------------------------------------------------------------------------------------------------------------------|
 | **VWS "Hauler"**    | 1          | Tactical Webbing 6         | 3    | 8,000  | This absurd assortment of straps and pockets allows the user to carry obscene amounts of weight.                         |
-| **KSK "Sealskin"**  | 1          | Sealed                     | 2    | 12,000 | The cheapest space suit available on the market that can withstand the void and hazardous environment alike              |
-| **CQC "Voidlight"** | 2          | Enhanced Stealth 3, Sealed | 3    | 78,500 | The absolute peak of stealth technology, this piece of tech allows it's wearer to hide even on the hull of a spacecraft. |
+| **KSK "Sealskin"**  | 1          | Sealed                     | 2    | 12,000 | The cheapest space suit available on the market that can withstand the void and hazardous environment alike.             |
+| **CQC "Voidlight"** | 2          | Enhanced Stealth 3, Sealed | 3    | 78,500 | The absolute peak of stealth technology, this piece of tech allows its wearer to hide even on the hull of a spacecraft.  |
 
 ## Combat Armor
 
 | Armor Name               | Protection | Special Properties | Load | Cost    | Description                                                                                                                                                                                                        |
 |:-------------------------|:-----------|:-------------------|:-----|:--------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Improvised Armor**     | 1          | -                  | 1    | 500     | The local equivalent of strapping sheets of metal to your body where you can. Barely better than nothing                                                                                                           |
-| **Armor Jacket**         | 2          | -                  | 2    | 2,000   | Endlessly customizatble, stylish, armored, the staple clothing item for most non-uniformed combatant.                                                                                                              |
+| **Improvised Armor**     | 1          | -                  | 1    | 500     | The local equivalent of strapping sheets of metal to your body where you can. Barely better than nothing.                                                                                                          |
+| **Armor Jacket**         | 2          | -                  | 2    | 2,000   | Endlessly customizable, stylish, armored: the staple clothing item for most non-uniformed combatants.                                                                                                              |
 | **VWS "Foxhide"**        | 3          | -                  | 3    | 5,000   | A common choice for security personnel and independent contractors, offering decent protection without excessive bulk.                                                                                             |
 | **KSK "Fishbones"**      | 3          | Tactical Webbing 2 | 4    | 9,000   | Rugged and adaptable, the 'Fishbones' is a favorite among salvage crews and asteroid miners for its integrated webbing that makes carrying essential tools effortless.                                             |
 | **VWS "Wolfhide"**       | 4          | -                  | 4    | 14,000  | A heavier variant of the VWS combat suit, the 'Wolfhide' provides enhanced ballistic and energy protection for those operating in higher-threat environments.                                                      |
@@ -31,7 +31,7 @@ void. Armors are defined by their **Protection**, **Special Properties**, **Load
 | **CF "Salamander Skin"** | 3          | Reactive Armor 2   | 4    | 35,000  | This lightweight yet resilient armor utilizes adaptive thermoreactive plating, allowing it to dynamically disperse incoming energy and kinetic impacts, akin to a salamander shedding its skin.                    |
 | **VWS "Bearhide"**       | 5          | -                  | 5    | 40,000  | The 'Bearhide' offers substantial protection, favored by heavy assault teams and those expecting severe engagements. Its robust plating can withstand considerable punishment.                                     |
 | **KSK "Sharkbones"**     | 5          | Tactical Webbing 2 | 6    | 52,000  | An up-armored version of the 'Fishbones' line, the 'Sharkbones' maintains its utility with integrated webbing while providing superior ballistic protection for hazardous duty environments.                       |
-| **CF "Drakescale"**      | 5          | Reactive Armor 3   | 6    | 58,000  | Utilizing advanced energy-dispersing fields, the 'Drakescale' actively counters incoming attacks, making it ideal for high-intensity firefights where every point of defense matters.                              |                                                                                                         |
+| **CF "Drakescale"**      | 5          | Reactive Armor 3   | 6    | 58,000  | Utilizing advanced energy-dispersing fields, the 'Drakescale' actively counters incoming attacks, making it ideal for high-intensity firefights where every point of defense matters.                              |
 | **PA "Tiger stripe"**    | 5          | Enhanced Stealth 2 | 6    | 60,000  | An advanced stealth suit, the 'Tiger Stripe' offers superior acoustic and thermal dampening, allowing for deeper infiltration and more complex covert operations.                                                  |
 | **VWS "Ironhide"**       | 6          | -                  | 7    | 75,000  | The pinnacle of VWS heavy combat suits, the 'Ironhide' is designed for maximum survivability in the most extreme combat zones, offering unparalleled ballistic and energy resistance.                              |
 | **KSK "Whalebones"**     | 5          | Tactical Webbing 3 | 7    | 120,000 | The ultimate evolution of the KSK 'bones' series, the 'Whalebones' combines heavy-duty ballistic protection with extensive tactical webbing, making it indispensable for extended operations and extreme loadouts. |
@@ -40,16 +40,16 @@ void. Armors are defined by their **Protection**, **Special Properties**, **Load
 
 ## Special Properties
 
-* **Enhanced Stealth X:** The armor utilizes sound-dampening materials, thermal masking, and matte coatings to blend
+* **Enhanced Stealth X**: The armor utilizes sound-dampening materials, thermal masking, and matte coatings to blend
   into the environment. The wearer gains **X Upgrades** to any test where the primary goal is remaining undetected.
-* **Tactical Webbing X:** The armor features specialized pouches, magnetic clamps, and load-bearing harnesses. Items
+* **Tactical Webbing X**: The armor features specialized pouches, magnetic clamps, and load-bearing harnesses. Items
   with a total Load of **X** or less can be carried on the armor itself without counting against the character's total
   Load limit.
-* Reactive Armor X: The armor is equipped with energy-dispersing fields that actively counter incoming attacks. When the
-  wearer takes damage from an attack, they get a free Contest against the Damage Roll, rolling a number of **d12s**
-  equal to **X**. If the dice rolled fails to negate damage, they can be rolled again the next time the wearer takes
-  damage from an attack. All Reactive Armor dice recharge at the beginning of the Round.
-* Sealed: The armor is hermetically sealed and has built-in thermal layers and an internal oxygen supply, allowing
+* **Reactive Armor X**: The armor is equipped with energy-dispersing fields that actively counter incoming attacks. When the
+  wearer takes damage from an attack, they get a free **Contest** against the Damage Roll, rolling a number of **d12s**
+  equal to **X**. If the dice rolled fail to negate damage, they can be rolled again the next time the wearer takes
+  damage from an attack. All Reactive Armor dice recharge at the beginning of the **Round**.
+* **Sealed**: The armor is hermetically sealed and has built-in thermal layers and an internal oxygen supply, allowing
   it to operate in hazardous environments like vacuum or toxic atmospheres.
 
 ## Armor Mods
