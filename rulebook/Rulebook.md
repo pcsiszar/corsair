@@ -77,22 +77,22 @@ To play Corsair, you will need a few things:
 
 ## Chapter 2: The World of Corsair
 
-Corsair takes place in the far future where humanity, and a number of other civilizations fled their home systems and
+Corsair takes place in the far future where humanity and a number of other civilizations fled their home systems and
 found their new home in a far away place among the stars. They arrived as newcomers to a seemingly abandoned solar
-system packed to the brim with over a hundred habitable planets, and called it the Sphere.
+system packed to the brim with over a hundred habitable planets and called it the Sphere.
 
-It's been 500 years since they first landed on one many planetary bodies in the giant constellation, and the
+It's been 500 years since they first landed on many planetary bodies in the giant constellation, and the
 colonization effort is progressing slowly but steadily under the watchful eye of the Flotilla, a military organization
-established to be an independent guardian of all the colonies in the Sphere. It's charter states that while it holds no
+established to be an independent guardian of all the colonies in the Sphere. Its charter states that while it holds no
 authority planetside, and colonies have the right of self-determination, it has full control over the void.
 
-This agreement is not without its flaws though. When trouble crosses the boundaries between the jurisdiction of the
-Flotilla and the colonies, you need people that have the backing of both in order to confront it, wherever it goes.
+This agreement is not without its flaws, though. When trouble crosses the boundaries between the jurisdiction of the
+Flotilla and the colonies, you need people that have the backing of both to confront it, wherever it goes.
 These people are called Corsairs, individuals with a proven record of excellence, vouched for by the biggest powers in
 known space. While most people regard them as nothing more than glorified bounty-hunters, they have the authority to do
-as they see fit in order to uphold peace and prosperity in the Sphere.
+as they see fit to uphold peace and prosperity in the Sphere.
 
-Their actions don't come without consequences though, everything they do is judged harshly by a jury made up of the
+Their actions don't come without consequences; everything they do is judged harshly by a jury made up of the
 sponsors of the Corsair organization, the Flotilla, the colonies, corporations and other powerful groups. If they step
 out of line, their privileged status can be revoked just as quickly as it is granted. Because of this, most Corsair work
 is contract work for one or more of these sponsors to stay in their good graces.
@@ -104,8 +104,8 @@ difference. Now's the time to put it to good use.
 
 In Corsair, the story unfolds through a conversation between the players and the Game Master (GM). The players narrate
 the actions of their characters, describing what they want to do, where they want to go, and what they say. The GM, in
-turn, narrates the world around the characters. The GM describes the environment, controls the non-player characters (
-NPCs), and explains how the world reacts to the players' actions.
+turn, narrates the world around the characters. The GM describes the environment, controls the non-player characters,
+and explains how the world reacts to the players' actions.
 
 Most of the time, this back-and-forth is all that's needed. If a player says, "I walk across the room and open the
 door," and there's no reason they couldn't, the GM simply says, "Okay, you open the door and see..."
@@ -130,7 +130,7 @@ you'll make during the game.
 
 ### Attribute Pairs
 
-When a situation calls for a dice roll, the GM will determine the two most relevant Attributes to form an **Attribute
+When a situation calls for a die roll, the GM will determine the two most relevant Attributes to form an **Attribute
 Pair**. This pair becomes the foundation of the test. The choice of Attributes is always dependent on the context of the
 action being performed. It's important to note that the same Attribute can be selected twice if the action calls for a
 focused application of that single quality. For example, lifting a heavy crate might call for a **Strength + Strength**
@@ -822,6 +822,25 @@ When using a grid, your movement is calculated as follows:
 
 This means a single move action can cover a maximum of 16 meters (4 spaces). Since a player can spend multiple Action
 Points on movement, the potential distances can be significant.
+
+#### Verticality
+
+Since the world is not a 2D plane, you can move up and down as well as left and right. When the situation introduces
+verticality, you can model this by adding more layers of flat horizontal grids on top of each other. These layers are
+separated by 2 meters, and moving up and down between layers is always considered difficult terrain, unless of course,
+you fall. When you fall, more than 2 meters, you take damage equal to three times the number of meters you fell, and the
+damage is not reduced by Protection. Stories in a building while not exactly 2 meters high, roughly correspond to
+layers.
+
+#### Flying
+
+Flying is a type of movement that allows you to use your movement to move in the air, as if on solid ground.
+Ascending 2 meters is still considered to be difficult terrain even while flying; this means to rise 2
+meters, you still need to use 4 meters of your movement. Moving downwards or horizontally while flying uses your
+movement as if you were on solid ground.
+
+During the turn you lose flight, you can remain in the space you occupy in the air until the end of the turn, and you
+fall to the ground at the end of the turn, taking falling damage if you fell more than 2 meters.
 
 #### Contesting Movement
 
