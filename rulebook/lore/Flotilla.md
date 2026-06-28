@@ -1,29 +1,24 @@
 ## The Flotilla: Sovereignty of the Void
 
-The establishment of the **Flotilla** was the definitive response to a systemic crisis. As the initial 150-year peace of
-the Awakening eroded, the Sphere-born found themselves on the brink of fratricide. It was not a single event, but a
-mounting tension between the ancestral terrestrialists of **Landfall** and the industrial pioneers of **Skyreach** that
-threatened to ignite the first interplanetary war.
+The **Flotilla** was established to address systemic instability and prevent civil war between the Spherite colonies. As
+the initial post-Awakening peace declined, increasing tension between the agricultural communities of **Landfall** and
+the industrial sectors of **Skyreach** necessitated a neutral, system-wide peacekeeping force.
 
-### The Great Mediator: Velen Redmane
+### Velen Redmane and the Formation of the Flotilla
 
-By the time **Velen Redmane** rose to prominence, the four moons of **Fume** were a powder keg. Resource disputes and
-the perceived hoarding of Precursor technology from Skyreach had pushed planetary governments toward open conflict.
-Redmane, a charismatic Troll with a long history in the orbital shipyards, realized that as long as the planets fought
-over the dirt, they remained vulnerable to any external threat that might emerge from the deep black.
+By the time **Velen Redmane** rose to prominence, resource disputes and the concentration of Precursor technology on
+Skyreach had significantly strained interplanetary relations. Redmane, a prominent figure in the orbital shipyards,
+proposed that the security of the Sphere depended on removing the void from planetary jurisdiction.
 
-His argument was simple yet transformative: the Sphere-born could not afford a civil war while the void remained an
-unpoliced frontier. He convinced voidfaring crews, engineers, and soldiers from across the system that the only way to
-prevent war was to remove the "battlefield" from planetary jurisdiction. By declaring the void an independent territory
-governed by a neutral military organization, he effectively froze the conflict. The Flotilla materialized as a third
-sovereign power, creating a state of **forced codependence**: the Flotilla holds no authority on the planet surfaces,
-and the planetary governments hold no authority once a hull clears the atmosphere.
+His proposal established the void as an independent territory governed by a neutral military organization. This created
+a state of **forced codependence**: the Flotilla manages all orbital and trans-atmospheric activity, while planetary
+governments maintain jurisdiction over terrestrial surfaces.
 
 ### The Charter of the Void and the One-Year Tour
 
-The founding **Charter** codified the Flotilla’s core identity as the ultimate shield of the Sphere-born. It does not
-impose taxes or tithes; instead, it operates as a corporate-military state. Any activity in the vacuum—transit, mining,
-or research—must be purchased through the Flotilla.
+The founding **Charter** defines the Flotilla as the primary defense for the Sphere-born. It operates as a
+corporate-military state where all orbital activity—including transit, mining, and research—is regulated and funded
+through the Flotilla’s administrative framework.
 
 To ensure the organization remains tied to the people it protects and doesn't become a detached caste of "
 void-dwellers," the Flotilla operates on the **One-Year Tour** system. Citizens from all four moons—Landfall, Skyreach,
@@ -42,18 +37,18 @@ strategic objective) and a **Corps** (their technical specialty).
 
 The Wings determine the "Why" of a member's current assignment.
 
-* **Administrative Wing:** The most populous wing, managing the High Court, HR, and the complex legal contracts for
-  transit and resource extraction. They settle disputes between planetary interests.
-* **Transport Wing:** Manages the logistical arteries of the system, overseeing the safe movement of cargo and personnel
-  between the four moons.
-* **Patrol Wing:** The "constabulary" of the void, utilizing small-scale ships to police controlled space and deter
-  piracy.
-* **Scout Wing:** The forward eyes of the Sphere-born, dedicated to intelligence gathering and exploratory missions into
-  the outer rings.
-* **Shield Wing:** Responsible for the static defense of the system, maintaining the massive orbital stations and
-  defensive arrays.
-* **Sword Wing:** The Flotilla’s "mailed fist," consisting of massive Strike Cruisers deployed only for high-intensity
-  threat response.
+* **Administrative Wing:** Overseen by **Civil Admiral Hesperia Sol**, they manage the High Court, auditing, and the
+  complex legal contracts for transit and resource extraction.
+* **Transport Wing:** Directed by **Logistics Admiral Gorthan Vane**, this wing manages the logistical arteries of the
+  system, overseeing railgun arrays and the movement of cargo between moons.
+* **Patrol Wing:** Commanded by **Patrol Admiral Kaelen Vance**, this force serves as the "constabulary" of the void,
+  policing shipping lanes and responding to distress signals.
+* **Scout Wing:** Operated by **Intelligence Admiral Siveer**, these are the forward eyes of the Sphere, dedicated to
+  signal intelligence and reconnaissance in the outer rings.
+* **Shield Wing:** Led by **Defense Admiral Brak-Tor**, this wing is responsible for the static defense of the system,
+  maintaining the massive orbital stations and defensive arrays.
+* **Sword Wing:** Under the direct command of **Sword Admiral Elara Thorne**, this is the Flotilla’s primary offensive
+  force, consisting of strike cruisers reserved for high-intensity tactical response.
 
 #### The Corps (Occupational Duty)
 
@@ -73,8 +68,6 @@ The Corps determine the "How" of a member's daily life.
 
 ### Current Status: The Watchful Eye
 
-Today, the Flotilla is a gargantuan presence in the Fume system. While it maintains a strict policy of planetary
-non-interference, its "Sword" and "Shield" wings are a constant reminder that the void is no longer lawless. The
-organization is currently focused on consolidating its strength; while the call to explore other gas giants grows
-louder, the High Command remains cautious. They have turned the space around Fume into a fortress, ensuring that if any
-mysterious forces return, they will find a unified front rather than a collection of divided moons.
+Today, the Flotilla is the dominant presence in the Fume system. While it maintains a policy of planetary
+non-interference, its defensive and offensive wings ensure orbital security. The organization is currently focused on
+consolidating its presence in the Fume system before considering expanded operations in other gas giant orbits.

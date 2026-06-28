@@ -267,7 +267,7 @@ Evergaol, as they begin calling it just sits in orbit for a year while more and 
 The Vault on the small moon of Fume is finally opened and a full-fledged Precursor ship is housed inside. The Flotilla
 commandeers it, names it Orion and begins planning a rescue mission to get back the kidnapped colonists. Their final
 plan involves crashing into the Evergaol from above and forcing it down onto Landfall's surface. A small strike force
-enters the crashed ship and disables it, deactivating the robot invasion force as well. The attack is later classified
+enters the crashed ship and disables it, deactivating the invasion force as well. The attack is later classified
 as an automated Precursor defensive measure.
 
 **148 AA**
@@ -321,11 +321,11 @@ some incidents, causing some Corsair cells to go rogue.
 The Flotilla meets and defeats a smaller contingent of Abductors in Wanabo.
 
 **205 AA**
-An outpost is established on one of Wanabo's moons, Loan, but the Flotilla maintains that it
+An outpost is established on one of Wanabo's moons, Kazahn, but the Flotilla maintains that it
 is unsafe for colonization, but fringe groups find a way to settle there anyways.
 
 **212 AA**
-A research team exploring Karak, Loan's sister moon, is violently repelled by the local fauna that seemed to have
+A research team exploring Karak, Kazahn sister moon, is violently repelled by the local fauna that seemed to have
 been genetically modified.
 
 
