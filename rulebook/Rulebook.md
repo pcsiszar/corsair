@@ -997,7 +997,7 @@ On any subsequent attacks during the turn:
 * **No Bonus:** If the line of attack crosses the side *not* adjacent to the covering side, you gain no benefit from the
   cover against that attack. You are considered exposed.
 
-## Chapter 9: Downtime
+## Chapter 9: Day-to-Day Life
 
 Not every moment of a Corsair's life is filled with tense, adrenaline-inducing moments. They are people like any other.
 They need to be able to rest and relax, not to mention shopping for essentials and better gear, or travel from one
@@ -1025,6 +1025,27 @@ Whatever the case, upon completion, the terminal on the ship will be notified an
 Corsair Cell's account.
 
 The cell can also abandon a contract, however, this is usually frowned upon and will impact the reputation of
-the cell at bes
+the cell at best, and trigger an audit by the oversight board at worst.
 
-t, and trigger an audit by the oversight board at worst. 
+### Rest and Relaxation
+
+Stress and injuries are an unavoidable part of life when you are on a Corsair. Most are easy to recover from, but some
+take longer to heal.
+
+Resting is an action you can take in day-to-day pacing to recover Aggravated Wounds on your Physical Condition Track.
+When you rest, you roll a Success Test using Endurance. You immediately heal all light stress and wounds, and you can
+heal one Aggravated Wound per 2 Success Points.
+
+Relaxation is the equivalent of Resting on the Mental side, you take the Success Test using Willpower and can heal one
+Aggravated Stress per 2 Success Points on the Mental Condition track.
+
+Both of these actions can be performed on your ship, or anywhere civilization has taken hold.
+
+### Travel
+
+### Shopping
+
+What's all those Credits are good for if you can't spend them on anything? If you want that premium gear, you are going
+to have to find a place to buy it from. To buy items, you first need to be planetside on a colonized world. Going
+shopping takes 1 AP for each item category you want to buy (e.g.,firearms, armor, mobility gear, explosives, etc.).
+You also need the money to pay for the items.
