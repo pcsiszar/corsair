@@ -93,7 +93,7 @@ known space. While most people regard them as nothing more than glorified bounty
 as they see fit to uphold peace and prosperity in the Sphere.
 
 Their actions don't come without consequences; everything they do is judged harshly by a jury made up of the
-sponsors of the Corsair organization, the Flotilla, the colonies, corporations and other powerful groups. If they step
+sponsors of the Corsair organization, the Flotilla, the colonies, corporations, and other powerful groups. If they step
 out of line, their privileged status can be revoked just as quickly as it is granted. Because of this, most Corsair work
 is contract work for one or more of these sponsors to stay in their good graces.
 
@@ -275,7 +275,7 @@ without losing track of the characters' contributions.
 Action Points are the currency you spend to perform significant actions, especially those requiring a Test. Every player
 has a maximum of 3 Action Points.
 
-Every test you take, whether it be Simple, Success or Complex, requires 1 Action Point.
+Every test you take, whether it be Simple, Success, or Complex, requires 1 Action Point.
 
 In some cases the GM might also call on you to spend an Action Point without taking a test, for example in order to
 transit from one major location to the next.
@@ -672,7 +672,7 @@ or actions are taken. When a Track is completely filled, the event or situation 
 #### Track Size
 
 The GM determines the size of a Track based on the complexity or difficulty of the situation it represents.
-Standard Track sizes come in multiples of 8, 10 or 12, depending on how arduous and long the task is and how many
+Standard Track sizes come in multiples of 8, 10, or 12, depending on how arduous and long the task is and how many
 Actions you think the players should spend on completing said task.
 
 The GM might also use Tracks with more or fewer segments for very specific situations, but the above variants should be
@@ -992,7 +992,39 @@ When the line of attack crosses a corner, both adjecent sides become covering si
 On any subsequent attacks during the turn:
 
 * **Full Bonus:** If the line of attack crosses the covering side, you receive the full Protection bonus from the cover.
-* **Reduced Bonus:** If the line of attack crosses one of the two sides *adjacent* to your chosen facing, the
+* **Reduced Bonus:** If the line of attack crosses one of the two sides *adjacent* to the covering side, the
   Protection bonus is reduced by 1 on a hex grid, and by 2 on a square grid.
-* **No Bonus:** If the line of attack crosses the side *not* adjacent your chosen facing, you gain no benefit from the
+* **No Bonus:** If the line of attack crosses the side *not* adjacent to the covering side, you gain no benefit from the
   cover against that attack. You are considered exposed.
+
+## Chapter 9: Downtime
+
+Not every moment of a Corsair's life is filled with tense, adrenaline-inducing moments. They are people like any other.
+They need to be able to rest and relax, not to mention shopping for essentials and better gear, or travel from one
+place to the next, take on personal projects and, of course, look for the next big contract.
+
+One thing to never forget is that time is always ticking. Most contracts have a deadline, and they don't stay open
+forever. Even if you are working on other endevours or are just relaxing, the ship still needs fuel and supplies to
+operate, which comes out of your pocket.
+
+### Contracts
+
+The one thing every Corsair ship has is the contract terminal, which is directly linked to Redmane Station's central
+Corsair Contract Board. Corsair Cells are only allowed to take on one contract at a time, but as long as they are
+eligible to work on one, the terminal will display the list of available contracts. A cell might also be contacted
+directly by one of their sponsors to nudge them into a contract.
+
+A contract will always list who it is from, the objective, the reward, which is most often credits, and a deadline.
+After accepting a contract, the poster will be notified and a short brief is transmitted to the terminal for the cell to
+review. Sometimes the poster will directly contact the cell, but this is more often not the case.
+
+The brief will also contain the precise requirements for fulfilling the job, which is usually confirmed by a third
+party. For example, for bounties, almost any law enforcement office can provide a confirmation for a completed
+contract. Escort, recovery or rescue missions will have a designated destination where the contract is fulfilled.
+Whatever the case, upon completion, the terminal on the ship will be notified and the payment will be forwarded to the
+Corsair Cell's account.
+
+The cell can also abandon a contract, however, this is usually frowned upon and will impact the reputation of
+the cell at bes
+
+t, and trigger an audit by the oversight board at worst. 
