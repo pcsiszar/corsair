@@ -167,7 +167,7 @@ corporations, begin to establish themselves there.
 
 **75 AA**
 Corporations and Preservationists alike recognize that they will never be the primary power on either Landfall or
-Nimbus. They realize their ideal society, they seek to be the first to colonize the other binary moon pair around
+Nimbus. They realize their ideal society, they seek to be the first to colonize the other binary moon pairs around
 their gas giant, Fume.
 
 **90 AA**

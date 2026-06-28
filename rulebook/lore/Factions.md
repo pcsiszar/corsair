@@ -191,9 +191,40 @@ OBJECTIVE: Track down and neutralize the 'Gravel-Gnash' pirate cell operating ne
 NOTE: Target is heavily armed with stolen Flotilla ordnance.
 [<<END_TRANSMISSION]
 
+##### 5. Karst
+
+Governed by the **Karst Subterranean Assembly**, this moon is a landscape of collapse where the primary habitation
+exists within massive, bioluminescent cavern networks. Karst is a source of rare geothermal minerals and unique
+biological compounds. Contracts generally involve cavern security, navigating unstable geological zones, and resource
+recovery from deep-earth pockets.
+
+[>>CONTRACT_POSTING]
+ISSUED-AT: 267-133 15:20:00
+ID: SOV-KRS-771
+SPONSOR: Karst Subterranean Assembly
+TYPE: CAVERN_SECURITY
+OBJECTIVE: Clear a path through the 'Crystal Maze' for a geological survey team.
+NOTE: High probability of seismic activity. Bring thermal scanners.
+[<<END_TRANSMISSION]
+
+##### 6. Rime
+
+The **Rime Coastal Directorate** manages the narrow habitable ring of this ice-locked world. Rime is a center for
+cryogenic research and long-range orbital monitoring. Due to its extreme climate and tidal-warmed sea, the Directorate
+frequently utilizes Corsairs for ice-shelf stabilization, research facility protection, and deep-sea retrieval.
+
+[>>CONTRACT_POSTING]
+ISSUED-AT: 267-134 08:30:00
+ID: SOV-RIM-339
+SPONSOR: Rime Coastal Directorate
+TYPE: RESEARCH_FACILITY_PROTECTION
+OBJECTIVE: Secure Research Station 'Frost-Point' during the orbital eclipse.
+NOTE: Expect extreme temperatures and potential hull-stress issues.
+[<<END_TRANSMISSION]
+
 #### The Moons of X'ara
 
-##### 5. Avon'rea
+##### 7. Avon'rea
 
 Managed by the **Pilgrimage Consulate**, Avon'rea serves as a cultural and diplomatic interface. The government
 prioritizes religious freedom and stable relations with the Ancestrals. Contracts include diplomatic escort, site
@@ -208,7 +239,7 @@ OBJECTIVE: Escort an Ancestral delegation from Avon'roa to the Irul Consulate.
 NOTE: High visibility. Cultural sensitivity protocols strictly enforced.
 [<<END_TRANSMISSION]
 
-##### 6. Avon'roa
+##### 8. Avon'roa
 
 Governed by the **Ancestral Interface Bureau**, Avon'roa handles the logistical and administrative aspects of
 Spherite-Ancestral interactions. Contracts focus on trade logistics and the recovery of Ancestral artifacts from
@@ -225,7 +256,7 @@ NOTE: Sculpture is fragile and requires specialized containment.
 
 #### The Moons of Wanabo
 
-##### 7. Kazahn
+##### 9. Kazahn
 
 The **Kazahn Independent Collective** represents the interests of fringe groups and independent miners operating outside
 major Flotilla oversight. The Collective focuses on local defense, infrastructure protection, and search-and-rescue
@@ -240,7 +271,7 @@ OBJECTIVE: Locate missing surveyor team on the surface of Karak.
 NOTE: Beware of aggressive local fauna. Extraction is the priority.
 [<<END_TRANSMISSION]
 
-##### 8. Karak
+##### 10. Karak
 
 Karak is managed by the **Karak Containment Authority**, a scientific and security task force. The moon is under strict
 quarantine due to hazardous modified fauna. Contracts are typically specialized operations involving data retrieval or

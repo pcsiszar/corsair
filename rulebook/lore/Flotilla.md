@@ -1,18 +1,20 @@
-## The Flotilla: Sovereignty of the Void
+## The Flotilla
 
 The **Flotilla** was established to address systemic instability and prevent civil war between the Spherite colonies. As
 the initial post-Awakening peace declined, increasing tension between the agricultural communities of **Landfall** and
 the industrial sectors of **Nimbus** necessitated a neutral, system-wide peacekeeping force.
 
-### The Charter of the Void and the One-Year Tour
+### The Charter
 
 The founding **Charter** defines the Flotilla as the primary defense for the Sphere-born. It operates as a
 corporate-military state where all orbital activity—including transit, mining, and research—is regulated and funded
 through the Flotilla’s administrative framework.
 
+#### The One-Year Tour
+
 To ensure the organization remains tied to the people it protects and doesn't become a detached caste of
-"void-dwellers", the Flotilla operates on the **One-Year Tour** system. Citizens from all four moons—Landfall, Nimbus,
-Pelagia, and Suncatcher—enlist for one-year rotations. This constant cycle of personnel ensures that every family in
+"void-dwellers", the Flotilla operates on the **One-Year Tour** system. Citizens from all six moons—Landfall, Nimbus,
+Pelagia, Suncatcher, Karst, and Rime—enlist for one-year rotations. This constant cycle of personnel ensures that every family in
 the system has a stake in the Flotilla’s success and prevents any single planet from feeling alienated from the system's
 defense.
 
