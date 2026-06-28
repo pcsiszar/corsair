@@ -77,7 +77,7 @@ looms large over their new home.
 
 **11 AA**
 The Sphere Research Center (SRC) detects a major, consistent energy signature emanating from within the frequent,
-violent storms on Landfall's sister moon, now officially dubbed "Skyreach." Initial probes are unable to penetrate the
+violent storms on Landfall's sister moon, now officially dubbed "Nimbus." Initial probes are unable to penetrate the
 atmospheric disturbances to identify the source.
 
 **12 AA**
@@ -102,7 +102,7 @@ individual racial identities lead some communities to become more racially homog
 their ideology Preservationism.
 
 **18 AA**
-A specialized, heavily armored reconnaissance drone is successfully deployed into the storms of Skyreach. It transmits
+A specialized, heavily armored reconnaissance drone is successfully deployed into the storms of Nimbus. It transmits
 limited data from the Eye of the Storm, before being destroyed by a massive creature the researchers name Stormdrinker.
 
 **20 AA**
@@ -127,7 +127,7 @@ significant step towards a unified and organized society, right as the first gen
 adulthood.
 
 **30 AA**
-An unknown ship was detected entering Skyreach's atmosphere and heading for the eye. After a three-day period, the
+An unknown ship was detected entering Nimbus's atmosphere and heading for the eye. After a three-day period, the
 vessel leaves, and the energy signature from the moon dissapears.
 
 **31 AA**
@@ -137,7 +137,7 @@ agree to send an expedition to study the remains and the sister moon itself.
 
 **33 AA**
 The expedition launches with the first manned outbound transport built since the Awakening. They bring back a sample of
-the dragon's corpse and a set of readings that say that despite the intense storms, Skyreach is perfectly habitable in
+the dragon's corpse and a set of readings that say that despite the intense storms, Nimbus is perfectly habitable in
 select highland zones that reach above the low hanging clouds.
 
 **34 AA**
@@ -147,15 +147,15 @@ The dragon's remains yield a huge breakthrough in propulsion research and materi
 Scientists from the SRC propose a new prototype fusion drive for ships.
 
 **37 AA**
-The Council approves the establishment of a permanent research base on Skyreach.
+The Council approves the establishment of a permanent research base on Nimbus.
 
 **39 AA**
-The second Skyreach expedition launches on the Birdy, the first ever ship with the Draco Fusion Drive.
+The second Nimbus expedition launches on the Birdy, the first ever ship with the Draco Fusion Drive.
 
 **45 AA**
-A new major settlement is established around the SRC base on Skyreach its citizens dub Cloudspire. The Council is
+A new major settlement is established around the SRC base on Nimbus its citizens dub Cloudspire. The Council is
 struggling to keep up with the evolving circumstances, but manages to reform itself yet again to make sure that the
-Skyreach receives proper representation as well.
+Nimbus receives proper representation as well.
 
 **54 AA**
 An unique simmetry is developed on the sister moons where the poles of Cloudspire and Crossroads are the beacons of the
@@ -163,23 +163,23 @@ Integrationist agenda while the halves facing away from each other are populated
 Preservationist ideals. With the Council having trouble monitoring those halves, a lot of private interests, like
 corporations, begin to establish themselves there.
 
-**62 AA** Waypoint station built and deployed at the L1 point between Skyreach and Landfall.
+**62 AA** Waypoint station built and deployed at the L1 point between Nimbus and Landfall.
 
 **75 AA**
 Corporations and Preservationists alike recognize that they will never be the primary power on either Landfall or
-Skyreach. They realize their ideal society, they seek to be the first to colonize the other binary moon pair around
+Nimbus. They realize their ideal society, they seek to be the first to colonize the other binary moon pair around
 their gas giant, Fume.
 
 **90 AA**
-A new set of colony ships depart for Suncatcher and Raindrop. While neither planet is as suitable as Landfall to support
+A new set of colony ships depart for Suncatcher and Pelagia. While neither planet is as suitable as Landfall to support
 a large population due to one having too much water and the other having too little, the plans are already in motion to
-build massive railguns to shoot water from Raindrop to Suncatcher and establish an agricultural base there.
+build massive railguns to shoot water from Pelagia to Suncatcher and establish an agricultural base there.
 
 **93 AA**
-The Raindrop colony discovers a massive sea creature underneath its vast ocean.
+The Pelagia colony discovers a massive sea creature underneath its vast ocean.
 
 **95 AA**
-The first water capsules begin falling on Suncatcher, shot from massive railguns on Raindrop.
+The first water capsules begin falling on Suncatcher, shot from massive railguns on Pelagia.
 
 **100 AA**
 The Suncatcher colony is established and begins a stable food production, and some of it becomes famous and sought after
@@ -189,11 +189,11 @@ even on Landfall.
 Trade shipping lanes are slowly established the binary moon pair.
 
 **101 AA**
-Settlements and special interest groups around Raindrop and Suncatcher form a group called the Alliance. It has
+Settlements and special interest groups around Pelagia and Suncatcher form a group called the Alliance. It has
 far less jurisdiction than the Council, but it serves to facilitate dialog and mediation between its members.
 
 **110 AA**
-High Shore station slots into the L1 point between Raindrop and Suncatcher, founded by the Trade Alliance.
+High Shore station slots into the L1 point between Pelagia and Suncatcher, founded by the Trade Alliance.
 
 **115 AA**
 A giant subterranean creature nicknamed the Sandwyrm attacks starts terrorizing new settlements around a particular
@@ -210,18 +210,18 @@ number of representatives between the Alliance and the Council.
 
 **127 AA**
 The subterranean predator from Suncatcher becomes more active and more destructive. Multiple efforts are made to take
-down this Sandwyrm, including orbital strikes from Raindrop railguns and other ships but that only angered the beast
+down this Sandwyrm, including orbital strikes from Pelagia railguns and other ships but that only angered the beast
 further. At the peak of the hunt for the Sandwyrm, it fully emerged from the surface, took flight, and headed for the
-Raindrop railgun encampments. While they seemed to do some damage to it's draconic form, it destroyed several of the
+Pelagia railgun encampments. While they seemed to do some damage to it's draconic form, it destroyed several of the
 guns until suddenly, the underwater Leviathan detected long ago by the scanners came to the surface and dragged the
 Sandwyrm to the depths.
 
 **128 AA**
-A full-blown crisis erupts due to food shortages on Raindrop and Suncatcher. The Flotilla and all available ships
+A full-blown crisis erupts due to food shortages on Pelagia and Suncatcher. The Flotilla and all available ships
 mobilize to deliver shipments.
 
 **129 AA**
-A raiding party of a unknown alien race nicknamed the Scavs attack Skyreach. They demolish the majority of Cloudspire,
+A raiding party of a unknown alien race nicknamed the Scavs attack Nimbus. They demolish the majority of Cloudspire,
 and pilfer the SRC Research base that housed the remains of Stormdrinker and many of the uncovered Precursor relics.
 
 **130 AA**
@@ -238,7 +238,7 @@ farms. The Council and the Alliance both withdraw from the Flotilla and begin to
 Remnants of the Flotilla galvanize under one it's charismatic commanders named Velen Redmane.
 
 **135 AA**
-The Suncatcher and Raindrop famine subsides when Raindrop finally reconstructs the water railguns and also begins
+The Suncatcher and Pelagia famine subsides when Pelagia finally reconstructs the water railguns and also begins
 cultivating new, genetically engineered plants that is capable of feeding i's population and can be grown in the
 water.
 
@@ -258,7 +258,7 @@ whatever is found there is not spirited away and hoarded by either the Alliance 
 with the Flotilla to open the Vault and face whatever lies inside.
 
 **146 AA**
-A giant vessel similiar to the one that brought down Stormdrinker. It heads towards Landfall and Skyreach and unleashes
+A giant vessel similiar to the one that brought down Stormdrinker. It heads towards Landfall and Nimbus and unleashes
 a full invasion against the moons. The strangest part is that the populace are not killed but abducted, to a man. All
 the while this is going on, the remaining forces try to conduct strikes against the invading ship to no avail. The
 Evergaol, as they begin calling it just sits in orbit for a year while more and more colonists are transported to it.

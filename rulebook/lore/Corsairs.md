@@ -11,8 +11,8 @@ Corsairs are specialists granted a cross-jurisdictional mandate to operate in bo
 The Corsair system is decentralized and operates through the **Corsair Cell**. Each cell is a small, autonomous group of
 **3 to 5 specialists** based on a single, high-performance vessel.
 
-This small-scale structure is a strategic choice: a single vessel can operate in crowded spaceports like **Raindrop**,
-dock at **Skyreach** refineries, or land at fringe outposts on **Kazahn** without the political implications of a
+This small-scale structure is a strategic choice: a single vessel can operate in crowded spaceports like **Pelagia**,
+dock at **Nimbus** refineries, or land at fringe outposts on **Kazahn** without the political implications of a
 military deployment. This versatility allows cells to handle investigations and tactical operations that would otherwise
 be complicated by interplanetary bureaucracy.
 

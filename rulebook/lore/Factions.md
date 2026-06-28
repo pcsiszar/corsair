@@ -146,24 +146,24 @@ OBJECTIVE: Provide security for the 'Unity Festival' at the First Landing site.
 NOTE: High probability of Preservationist protests. Non-lethal force only.
 [<<END_TRANSMISSION]
 
-##### 2. Skyreach
+##### 2. Nimbus
 
-The **Skyreach Industrial Council** manages the moon's technological and industrial output. Operations are centered in
+The **Nimbus Industrial Council** manages the moon's technological and industrial output. Operations are centered in
 Cloudspire and focus on the extraction and refinement of materials from Precursor vaults. Contracts involve corporate
 security, prototype recovery, and technical espionage.
 
 [>>CONTRACT_POSTING]
 ISSUED-AT: 267-130 10:45:00
 ID: SOV-SKY-442
-SPONSOR: Skyreach Industrial Council
+SPONSOR: Nimbus Industrial Council
 TYPE: CORPORATE_RECOVERY
 OBJECTIVE: Recover stolen graviton-shunt prototypes from a Scavenger stash in the Fume rings.
 NOTE: Prototypes are highly volatile. Bring them back intact.
 [<<END_TRANSMISSION]
 
-##### 3. Raindrop
+##### 3. Pelagia
 
-Governed by the **Blue-Water Cooperative**, Raindrop is the system's primary source of organic nutrients. The moon's
+Governed by the **Blue-Water Cooperative**, Pelagia is the system's primary source of organic nutrients. The moon's
 economy is based on kelp-farming and maritime logistics. Due to hazardous weather and vast oceanic areas, the
 Cooperative relies on Corsairs for maritime protection and cargo recovery.
 
