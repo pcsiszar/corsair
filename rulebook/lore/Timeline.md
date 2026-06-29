@@ -1,364 +1,454 @@
 ## Timeline
 
-**? BA - The Exodus**
-The four great races – Humanity, Naga, Craggen, and Sylvan – launch their colossal colony ships, fleeing an unspecified
-cosmic threat that looms over their home systems. The journey is long, shrouded in the stasis of cryo-sleep.
+### The Era of Arrival & Survival (0 AA – 10 AA)
 
-**0 AA (After Awakening)**
-The cryo-chambers hiss open, and the four races awaken not in their intended destination, but on an unknown, verdant
-planet. Their massive colony ships, though damaged, lie scattered nearby. Ship logs reveal a startling anomaly: an
-unknown, colossal entity towed their vessels across vast interstellar distances, depositing them here before vanishing.
-The logs are corrupted, offering few answers beyond the dire necessity of their exodus. The newly awakened name their
-new home "Landfall."
+#### ? BA — The Exodus
 
-**1 AA**
-The initial efforts on Landfall begin. The four races, recognizing their shared predicament, immediately start
-establishing a common language and forming a provisional council with members randomly selected from each race. Their
-collective focus is on survival and stability: securing safe shelter, establishing reliable water sources, cultivating
-food, and efficiently utilizing the advanced equipment salvaged from their colony ships. This year marks the beginning
-of the five-year period dedicated to building the first permanent settlement, named Crossroads, and laying the basic
-essentials for their new society.
+The four great races—Humanity, Naga, Craggen, and Sylvan—launch their colossal colony ships, fleeing an unspecified
+cosmic threat looming over their home systems. The journey is long, shrouded in the stasis of cryo-sleep.
 
-**2 AA**
-Organized expeditions begin to venture beyond the immediate vicinity of Crossroads. Teams composed of all four races
-map local resources, identify safe zones, and encounter the diverse, often bioluminescent, flora and fauna of Landfall.
-Initial surveys confirm the planet's rich biodiversity and stable ecosystem. However, these forays also uncover strange
-energy signatures and fragments of advanced, non-native technology. The council, suspecting an ancient, highly advanced
-civilization engineered their new home, tentatively dubs them the "Precursors."
+#### 0 AA — After Awakening
 
-**3 AA**
-Engineers and scientists from all races collaborate to fully salvage and integrate technology from the derelict colony
-ships. Advanced fabrication units are brought online, allowing for the production of more sophisticated tools and
-infrastructure. Initial attempts are made to reverse-engineer and replicate some of the newly discovered Precursor
-components, though their true purpose and function remain largely a mystery. This year sees significant advancements in
-infrastructure within Crossroads, demonstrating the power of their combined intellect.
+The cryo-chambers hiss open. The four races awaken not at their intended destination, but on an unknown, verdant planet
+with their massive, damaged colony ships scattered nearby. Ship logs reveal a startling anomaly: an unknown, colossal
+entity towed their vessels across vast interstellar distances, depositing them here before vanishing. The newly awakened
+name their new home **Landfall**.
 
-**4 AA**
-During a deep-range scouting mission, a Sylvan exploration team stumbles upon a massive, ancient Precursor Site. It
-manifests as an intricate complex of crystalline structures, humming with an unknown energy. While clearly artificial,
-the site proves to be an impenetrable vault, resisting all attempts at entry or analysis. Its existence deepens the
-mystery of the Precursors and fuels intense scientific curiosity and debate among the council.
+#### 1 AA — Foundation of Crossroads
 
-**5 AA**
-Crossroads thrives, now a bustling hub of activity and a symbol of inter-racial unity. The first large-scale
-agricultural
-cycle, utilizing genetically adapted crops from their homeworlds and native Landfall species, yields an unprecedented
-harvest, ensuring food security for the growing population. The provisional council formalizes its structure,
-establishing
-departments for research, defense, and expansion, solidifying the foundation of their new civilization on Landfall.
+Initial efforts on Landfall begin. The four races establish a common language and form a provisional council. Their
+focus is purely on immediate survival: securing shelter, water, and food using salvaged equipment. Construction begins
+on their first permanent settlement, **Crossroads**. Built from stone, timber, and hulls salvaged from early colony
+ships, it establishes a intentionally low-slung, rustic footprint that eschews supermassive vertical structures.
 
-**6 AA**
-A momentous event occurs with the birth of the first inter-species child, a testament to the genetic compatibility of
-the four races. This, coupled with growing theories about the Precursors' intervention in their respective evolutionary
-paths, gives rise to Integrationism. This social and semi-religious movement promotes inter-species solidarity,
-cooperation, and integration as the path to their collective future.
+#### 2 AA — The Precursor Hypothesis
 
-**7 AA**
-Extensive astronomical observations begin to map the entirety of the Sphere. Scientists discover an unusually high
-concentration of Dark Matter throughout the system, far exceeding natural levels. Further analysis points to massive
-arrays positioned at the edge of the Sphere as the probable cause, hinting at the Precursors' immense engineering
-capabilities. Other Precursor installations are observed across the system, but no clear signs of an active civilization
-are detected.
+Organized expeditions venture beyond Crossroads. Teams map local resources and encounter the diverse, bioluminescent
+flora and fauna of Landfall. These forays uncover strange energy signatures and fragments of highly advanced, non-native
+technology. The council, suspecting an ancient civilization engineered their new home, tentatively dubs them the *
+*Precursors**.
 
-**8 AA**
+#### 3 AA — Technological Integration
+
+Engineers and scientists collaborate to fully integrate salvaged ship tech. Advanced fabrication units are brought
+online, allowing the production of more sophisticated tools. Initial attempts are made to reverse-engineer Precursor
+components, though their true design mechanics remain largely a mystery.
+
+#### 4 AA — Discovery of the First Vault
+
+During a deep-range scouting mission, a Sylvan exploration team stumbles upon a massive Precursor site: an intricate
+complex of crystalline structures humming with unknown energy. The site proves to be an impenetrable vault, resisting
+all initial attempts at entry or analysis.
+
+#### 5 AA — Formalization of the Council
+
+Crossroads thrives as a bustling hub of inter-racial unity. The first large-scale agricultural cycle, utilizing
+genetically adapted crops from their homeworlds and native Landfall species, yields an unprecedented harvest. The
+provisional council formalizes its structure, establishing departments for research, defense, and expansion.
+
+#### 6 AA — Birth of Integrationism
+
+The birth of the first inter-species child sparks a profound socio-cultural shift. Coupled with growing theories about
+the Precursors' intervention in their respective evolutionary paths, this gives rise to **Integrationism**—a social
+movement promoting inter-species solidarity and total cultural fusion as the path to their collective future.
+
+#### 7 AA — Systemic Mapping
+
+Extensive astronomical observations begin to map the entirety of the local orbital system (The Sphere). Scientists
+discover an unusually high concentration of Dark Matter throughout the system. Further analysis points to massive arrays
+positioned at the edge of the Sphere as the source, hinting at the Precursors' immense engineering capabilities.
+
+#### 8 AA — Institutional Civil Building
+
 The Council shifts its primary focus from immediate survival to establishing a stable socio-economic base for the people
-of Crossroads. Plans are laid and construction begins for essential public institutions, including schools, hospitals,
-and various public service bureaus, aiming to create a robust and equitable society.
+of Crossroads. Construction begins on essential public institutions, including schools, hospitals, and civil service
+bureaus.
 
-**9 AA**
-Recognizing the profound mysteries surrounding the Precursors and the unique environment of the Sphere, the Council
-establishes the Sphere Research Center (SRC). Its mandate is to lead scientific inquiry into Precursor technology, the
-anomalous Dark Matter, and the overall mechanics of their new solar system.
+#### 9 AA — Foundation of the SRC
 
-**10 AA**
-Crossroads continues to grow and develop, with the first public institutions nearing completion. The diverse population,
-united by the Integrationist ideals, works collaboratively towards a shared future, even as the enigma of the Precursors
-looms large over their new home.
+Recognizing the profound mysteries surrounding Precursor technology and the anomalous physics of the system, the Council
+establishes the **Sphere Research Center (SRC)** to lead scientific inquiry.
 
-**11 AA**
-The Sphere Research Center (SRC) detects a major, consistent energy signature emanating from within the frequent,
-violent storms on Landfall's sister moon, now officially dubbed "Nimbus." Initial probes are unable to penetrate the
-atmospheric disturbances to identify the source.
+#### 10 AA — Maturity of the Capital
 
-**12 AA**
-An SRC-led expedition successfully breaches the outer defenses of the Precursor Site discovered in 4 AA. However, the
-team is met with automated defense platforms that halt their progress, preventing further entry and causing significant
-casualties. The Council debates the ethics and risks of further attempts.
+Crossroads cements its place as a thriving civil capital. The diverse population, united by Integrationist ideals, works
+collaboratively toward a shared future, even as the enigma of the Precursors looms large.
 
-**13 AA**
+---
+
+### The Sister Moon Expansion (11 AA – 74 AA)
+
+#### 11 AA — The Nimbus Signal
+
+The SRC detects a major, consistent energy signature emanating from within the frequent, violent storms of Landfall's
+binary sister moon, officially dubbed **Nimbus**. Initial probes are unable to penetrate the thick atmospheric
+disturbances.
+
+#### 12 AA — First Vault Incident
+
+An SRC-led expedition breaches the outer layers of the Precursor Vault discovered in 4 AA. The team is met with
+automated defense platforms, halting progress and causing significant casualties. The Council debates the ethics of
+further vault exploration.
+
+#### 13 AA — Vandal’s Workshop
+
 Human engineer Norman van Dahl establishes "Vandal's Workshop," a private enterprise dedicated to designing and
-manufacturing the next generation of personal weapons. His innovative approach integrates salvaged technologies and
-design principles from all four races, quickly gaining a reputation for powerful and adaptable armaments.
+manufacturing personal weapons. His innovative approach integrates design principles from all four races, quickly
+earning a system-wide reputation for adaptable armaments.
 
-**14 AA**
-A second, more heavily armed and prepared expedition successfully neutralizes the automated defenses and plunders the
-Precursor Vault. The SRC begins intensive study of the retrieved relics. The most significant discovery is the ability
-of many artifacts to convert the mass of the dense Dark Matter surrounding them into usable energy, hinting at a
-revolutionary power source.
+#### 14 AA — The Dark Matter Breakthrough
 
-**15 AA**
-While Integrationism continues to foster inter-species unity, a counter-current emerges. Concerns about the erosion of
-individual racial identities lead some communities to become more racially homogenous and isolated and start calling
-their ideology Preservationism.
+A second, heavily armed expedition neutralizes the automated defenses of the Precursor Vault. The SRC begins an
+intensive study of the retrieved relics. The most significant discovery is the ability of these artifacts to convert the
+mass of local Dark Matter into clean, usable energy.
 
-**18 AA**
-A specialized, heavily armored reconnaissance drone is successfully deployed into the storms of Nimbus. It transmits
-limited data from the Eye of the Storm, before being destroyed by a massive creature the researchers name Stormdrinker.
+#### 15 AA — The Preservationist Backlash
 
-**20 AA**
-The provisional Council, recognizing the growing complexity of their society, undergoes a significant restructuring. New
-departments are created to manage trade, inter-settlement relations, and long-term strategic planning, reflecting the
-transition from a survival-focused outpost to a burgeoning civilization.
+While Integrationism continues to dominate the capitals, a counter-current emerges. Concerns about the erosion of
+distinct racial identities lead some communities to isolate themselves. This ideological movement, emphasizing cultural
+purity and independence, names itself **Preservationism**.
 
-**22 AA**
-A significant number of people start expanding into the further reaches of Landfall to be the first to tap into the
-riches of the land and partly to establish more independence from the Council who's less equipped to enforce its rule
-across greater distances. Many of the newly established settlements are subscribers to the Preservationist ideals.
+#### 18 AA — The Stormdrinker Data
 
-**25 AA**
+A specialized, heavily armored reconnaissance drone penetrates the storms of Nimbus. It transmits limited data from the
+eye of the storm before being violently destroyed by a massive, aerial organism the researchers name **Stormdrinker**.
+
+#### 20 AA — Bureaucratic Restructuring
+
+The Council undergoes a massive administrative overhaul to manage growing trade networks, independent outward
+settlements, and long-term strategic planning.
+
+#### 22 AA — The Preservationist Diaspora
+
+Significant populations begin expanding into the further reaches of Landfall. Seeking autonomy from the centralized
+Council, many of these frontier settlements strongly align with Preservationist ideals.
+
+#### 25 AA — The First Orbital Survey
+
 Utilizing advanced propulsion systems derived from salvaged ship components, the SRC launches its first long-range
-orbital survey craft into the Sphere. The mission aims to gather more detailed data on the Dark Matter arrays and other
-Precursor installations observed from Landfall.
+orbital survey craft into the Sphere to study the outer Dark Matter arrays.
 
-**28 AA**
-The Council formally adopts the "Landfall Charter," a foundational document outlining the rights and responsibilities
-of all inhabitants, the structure of governance, and the shared vision for their future on the planet. This marks a
-significant step towards a unified and organized society, right as the first generation of born on Landfall reaches
-adulthood.
+#### 28 AA — The Landfall Charter
 
-**30 AA**
-An unknown ship was detected entering Nimbus's atmosphere and heading for the eye. After a three-day period, the
-vessel leaves, and the energy signature from the moon dissapears.
+The Council formally adopts the "Landfall Charter," a foundational document outlining civil rights, governance
+structures, and a unified vision for the planet, just as the first native-born generation of Landfall reaches adulthood.
 
-**31 AA**
-A second probe finds the carcass of Stormdrinker, now confirmed to be a massive dragon-like creature, and signs of
-battle on a large scale, using weapons that melted and slashed mountains. In the same year, the SRC and the Council
-agree to send an expedition to study the remains and the sister moon itself.
+#### 30 AA — The Eye of the Storm Incident
 
-**33 AA**
-The expedition launches with the first manned outbound transport built since the Awakening. They bring back a sample of
-the dragon's corpse and a set of readings that say that despite the intense storms, Nimbus is perfectly habitable in
-select highland zones that reach above the low hanging clouds.
+An unidentified spacecraft is detected entering the Nimbus atmosphere and heading directly into the eye of the storm.
+After a three-day period, the vessel departs, and the massive energy signature previously broadcasting from the moon
+vanishes.
 
-**34 AA**
-The dragon's remains yield a huge breakthrough in propulsion research and material sciences.
+#### 31 AA — The Slain Dragon
 
-**36 AA**
-Scientists from the SRC propose a new prototype fusion drive for ships.
+A follow-up probe finds the carcass of Stormdrinker—now confirmed to be a massive, dragon-like creature—alongside signs
+of an earth-shattering battle that melted and slashed mountain ranges. The SRC and Council immediately authorize a
+manned expedition to study the remains.
 
-**37 AA**
-The Council approves the establishment of a permanent research base on Nimbus.
+#### 33 AA — Manned Flight to Nimbus
 
-**39 AA**
-The second Nimbus expedition launches on the Birdy, the first ever ship with the Draco Fusion Drive.
+The expedition launches using the first outbound transport built since the Awakening. They retrieve samples of the
+dragon's corpse and confirm that despite the intense storm systems, Nimbus is perfectly habitable in select
+high-altitude plateau zones that rise above the low-hanging, gas-choked clouds.
 
-**45 AA**
-A new major settlement is established around the SRC base on Nimbus its citizens dub Cloudspire. The Council is
-struggling to keep up with the evolving circumstances, but manages to reform itself yet again to make sure that the
-Nimbus receives proper representation as well.
+#### 34 AA — The Draco Breakthrough
 
-**54 AA**
-An unique simmetry is developed on the sister moons where the poles of Cloudspire and Crossroads are the beacons of the
-Integrationist agenda while the halves facing away from each other are populated by settlements subscribing to the
-Preservationist ideals. With the Council having trouble monitoring those halves, a lot of private interests, like
-corporations, begin to establish themselves there.
+Analysis of the dragon's remains yields monumental breakthroughs in propulsion research and materials science, unlocking
+physical capabilities previously unseen by the four races.
 
-**62 AA** Waypoint station built and deployed at the L1 point between Nimbus and Landfall.
+#### 36 AA — The Fusion Proposal
 
-**75 AA**
-Corporations and Preservationists alike recognize that they will never be the primary power on either Landfall or
-Nimbus. They realize their ideal society, they seek to be the first to colonize the other binary moon pairs around
-their gas giant, Fume.
+Scientists from the SRC propose a new prototype ship drive utilizing the unique properties derived from the Nimbus
+discoveries.
 
-**90 AA**
-A new set of colony ships depart for Suncatcher and Pelagia. While neither planet is as suitable as Landfall to support
-a large population due to one having too much water and the other having too little, the plans are already in motion to
-build massive railguns to shoot water from Pelagia to Suncatcher and establish an agricultural base there.
+#### 37 AA — Nimbus Outpost Authorized
 
-**91 AA**
-The Ballistic Logistics Corridors: The deployment of the Pelagia-Suncatcher railguns requires the calculation
-of complex three-body trajectories (Pelagia, Suncatcher, and the gas giant Fume). "High Shore" station at L1 is
-established early as a tracking hub because early water-ice payloads occasionally deviate due to Fume’s variable
-magnetospheric drag, risking catastrophic surface impacts on Suncatcher.
+The Council officially approves funding and resources to establish a permanent research base on the high-altitude
+plateaus of Nimbus.
 
-**93 AA**
-The Pelagia colony discovers a massive sea creature underneath its vast ocean.
+#### 39 AA — Launch of the Birdy
 
-**95 AA**
-The first water capsules begin falling on Suncatcher, shot from massive railguns on Pelagia.
+The second Nimbus expedition launches aboard the *Birdy*, the first spacecraft equipped with the operational **Draco
+Fusion Drive**.
 
-**100 AA**
-The Suncatcher colony is established and begins a stable food production, and some of it becomes famous and sought after
-even on Landfall.
+#### 45 AA — The Rise of Cloudspire
 
-**105 AA**
-Trade shipping lanes are slowly established the binary moon pair.
+A major urban settlement rapidly grows around the SRC base on Nimbus. Its citizens dub it **Cloudspire**. The Council
+reforms its structure to grant Nimbus proper civil and legislative representation.
 
-**101 AA**
-Settlements and special interest groups around Pelagia and Suncatcher form a group called the Alliance. It has
-far less jurisdiction than the Council, but it serves to facilitate dialog and mediation between its members.
+#### 54 AA — The Great Ideological Symmetry
 
-**110 AA**
-High Shore station slots into the L1 point between Pelagia and Suncatcher, founded by the Trade Alliance.
+A unique geographic and political paradigm develops across the sister moons. The facing poles of Cloudspire and
+Crossroads become the brilliant, hyper-connected beacons of the Integrationist agenda. In contrast, the hemispheres
+facing away from each other are populated by insular Preservationist settlements. As the Council struggles to police
+these outer faces, private corporations step in to establish dominant administrative strongholds.
 
-**115 AA**
-A giant subterranean creature nicknamed the Sandwyrm attacks starts terrorizing new settlements around a particular
-region on Suncatcher. That area becomes increasingly lawless on a planet that already lacked stable law enforcement.
+#### 62 AA — Waypoint Station
 
-**120 AA**
-Piracy starts becoming a problem on the trade lane and most trails lead back to Suncatcher. While Bounty Hunters start
-to profit from the new situation, there are calls from both the Council and the Alliance to establish a joint defense
-and peacekeeper fleet.
+The Waypoint orbital station is successfully built and deployed at the L1 Lagrangian point between Nimbus and Landfall,
+stabilizing the massive trade and transit corridor between the two worlds.
 
-**124 AA**
-Talks finalize regarding the defense fleet and the Flotilla is formed with it's governing Board made up of an equal
-number of representatives between the Alliance and the Council.
+---
 
-**127 AA**
-The subterranean predator from Suncatcher becomes more active and more destructive. Multiple efforts are made to take
-down this Sandwyrm, including orbital strikes from Pelagia railguns and other ships but that only angered the beast
-further. At the peak of the hunt for the Sandwyrm, it fully emerged from the surface, took flight, and headed for the
-Pelagia railgun encampments. While they seemed to do some damage to it's draconic form, it destroyed several of the
-guns until suddenly, the underwater Leviathan detected long ago by the scanners came to the surface and dragged the
-Sandwyrm to the depths.
+### The Lagrangian Frontier & The Trade Wars (75 AA – 128 AA)
 
-**128 AA**
-A full-blown crisis erupts due to food shortages on Pelagia and Suncatcher. The Flotilla and all available ships
-mobilize to deliver shipments.
+#### 75 AA — The Rush to the Trojans
 
-**129 AA**
-A raiding party of a unknown alien race nicknamed the Scavs attack Nimbus. They demolish the majority of Cloudspire,
-and pilfer the SRC Research base that housed the remains of Stormdrinker and many of the uncovered Precursor relics.
+Ambitious corporations and radical Preservationist factions realize they will never hold major political sway in the
+centers of Landfall or Nimbus. Seeking to build their own ideal societies, they look to the uncolonized binary moon
+pairs orbiting their local gas giant, **Fume**.
 
-**130 AA**
-The Flotilla begins to fall apart due to the calls from the Council to focus on patrol and defense, while the Alliance
-is still in need of aid and is calling on all available vessels to provide shipments of food and basic necessities.
+#### 90 AA — Colonization of Pelagia and Suncatcher
 
-**131 AA**
-The Scavs launch another raid, this time on Crossroads. This time, the Flotilla contingent manages to repell the
-attackers but at a massive cost.
+Colony ships depart for the L4 Trojan worlds: the ocean moon **Pelagia** and the desert moon **Suncatcher**. Because
+neither planet is perfectly hospitable on its own, an audacious engineering plan is set in motion to build massive
+planetary railguns designed to blast water-ice payloads from Pelagia directly into Suncatcher's arid basins.
 
-**132 AA**
-With the weakened state of the Flotilla, piracy picks back up again, with this time even raids against Landfall and it's
-farms. The Council and the Alliance both withdraw from the Flotilla and begin to fund their own independent militaries.
-Remnants of the Flotilla galvanize under one it's charismatic commanders named Velen Redmane.
+#### 91 AA — The Ballistic Logistics Corridors
 
-**135 AA**
-The Suncatcher and Pelagia famine subsides when Pelagia finally reconstructs the water railguns and also begins
-cultivating new, genetically engineered plants that is capable of feeding i's population and can be grown in the
-water.
+The deployment of the Pelagia-Suncatcher railguns requires the calculation of complex three-body trajectories. **High
+Shore Station** is established early at the local L1 point as a tracking hub, because early water-ice payloads
+occasionally deviate due to Fume's variable magnetospheric drag, risking catastrophic surface impacts.
 
-**140 AA**
-The Alliance and the Council begin discussions about how to share the resources around Fume, which consist mostly of the
-radiation bombarded smaller moons much closer to the gas giant. Rare minerals and fusion fuel are becoming more and more
-valuable as both parties become more and more focused on establishing their military might.
+#### 93 AA — The Leviathan Scan
 
-**143 AA**
-Sponsored corporations begin the first asteroid mining operations close to Fume. After an initial period of tense
-encounters between Alliance and Council affiliated parties, the Flotilla remnants begin acting as freelance
-peacekeepers.
+The deep-sea sensors of the burgeoning Pelagia colony detect an ultra-massive biological signature resting deep within
+the planet's abyssal trenches.
 
-**145 AA**
-The SRC discovers the biggest Precursor Vault ever seen on one of the closer moons to Fume. In order to ensure that
-whatever is found there is not spirited away and hoarded by either the Alliance or the Council, the SRC starts working
-with the Flotilla to open the Vault and face whatever lies inside.
+#### 95 AA — First Waterfall from the Skies
 
-**146 AA**
-A giant vessel similiar to the one that brought down Stormdrinker. It heads towards Landfall and Nimbus and unleashes
-a full invasion against the moons. The strangest part is that the populace are not killed but abducted, to a man. All
-the while this is going on, the remaining forces try to conduct strikes against the invading ship to no avail. The
-Evergaol, as they begin calling it just sits in orbit for a year while more and more colonists are transported to it.
+The first water capsules fired from Pelagia’s planetary railguns successfully impact Suncatcher’s targeted collection
+basins.
 
-**147 AA**
-The Vault on the small moon of Fume is finally opened and a full-fledged Precursor ship is housed inside. The Flotilla
-commandeers it, names it Orion and begins planning a rescue mission to get back the kidnapped colonists. Their final
-plan involves crashing into the Evergaol from above and forcing it down onto Landfall's surface. A small strike force
-enters the crashed ship and disables it, deactivating the invasion force as well. The attack is later classified
-as an automated Precursor defensive measure.
+#### 100 AA — Suncatcher Agricultural Boom
 
-**148 AA**
-After being widely regarded as heroes and with generous backing, the Flotilla reclaims it's official role as the
-independent peacekeeping and defense force it was originally meant to be.
+The Suncatcher colony stabilizes its water grid and establishes a robust agricultural base on its equatorial savannas.
+Its unique produce quickly becomes a luxury commodity sought after back on Landfall.
 
-**151 AA**
-The Flotilla succesfully intercepts and prevents a Scav raid heading for Fume.
+#### 101 AA — Formation of the Trade Alliance
 
-**155 AA**
-The restoration efforts see the Fume and it's moons brought back to the level prior to the invasion.
+Settlements and corporate interest groups around Pelagia and Suncatcher form the **Trade Alliance**. Holding far less
+centralized jurisdiction than the Landfall Council, it serves primarily to facilitate corporate mediation and resource
+distribution.
 
-**157 AA**
-A large incident between the Flotilla and Suncatcher ignites calls for reform. The Flotilla and the colonies sign the
-Skyline Accords that establish the jurisdiction of the Flotilla in space and the planetary governments in the gravity
-wells. The governing body of the Flotilla is established, made up from the veteran high ranking officers and
-representatives from the colonies, called the Admiralty Board.
+#### 105 AA — The Inter-Binary Shipping Lanes
 
-**162 AA**
-Further frictions prompt the establishment of the Corsairs with the newly added partner members of the Board, made up of
-corporations and other large interplanetary groups that heavily supported the Flotilla.
+Regular trade shipping lanes are formally established across the Fume system, connecting the primary pair (
+Landfall/Nimbus) with the leading Trojan pair (Pelagia/Suncatcher).
 
-**165 AA**
-With the Fume system's Primary and Leading pairs stabilized, the focus of expansion shifts toward the Trailing Trojans:
-Karst and Rime. While long identified by early SRC surveys, these worlds remained untouched due to the extreme
-environmental challenges they presented.
+#### 110 AA — High Shore Integration
 
-**168 AA**
-The "Deep-Core Survey" missions land on Karst. High-thrust fusion drives allow for rapid deployment of heavy drilling
-rigs, bypassing the unstable surface. The discovery of vast, geothermally heated cavern systems and inland seas
-confirms the planet's habitability. However, the SRC documents the first encounter with a primitive intelligent
-species—the Lithari. Upon confirmation of their intelligence, the Admiralty Board immediately halts all settlement
-efforts on Karst.
+High Shore station is expanded and fully integrated into the L1 point between Pelagia and Suncatcher, operating as the
+official administrative capital of the Trade Alliance.
 
-**170 AA**
-The "Non-Interference Protocol" is ratified by the Council and the Admiralty Board, strictly prohibiting any Sphereborn
-presence on Karst until the Lithari achieve independent spaceflight. All resources and personnel previously slated
-for Karst are redirected to Rime. The "Inner Face Expedition" on Rime is expanded into a full-scale colonial effort,
-accelerating the construction of coastal cities.
+#### 115 AA — Terror in the Badlands
 
-**172 AA**
-The "L5 Transit Network" is fully established. Trade lanes are secured by the Flotilla, ensuring that water from
-Pelagia and food from Suncatcher reach the burgeoning colonies on Rime. While Karst is bypassed, its proximity
-requires the Flotilla to establish a high-security monitoring station at the Karst-Rime L1 point to enforce the
-Non-Interference Protocol.
+A gargantuan, subterranean predator nicknamed the **Sandwyrm** begins terrorizing mining outposts on Suncatcher. The
+targeted region—dubbed the **Badlands**—becomes an increasingly lawless territory where outlaws and rogue prospectors
+operate out of rustic, Western-style outposts like the frontier hub of **Dustwall**.
 
-**175 AA**
-The colonization of Rime enters its most intensive phase. While Karst remains a silent, Flotilla-monitored
-non-interference
-zone, the coastal ring of Rime becomes a thriving industrial and research hub. This marks the completion of the
-expansion into the Fume track, with the Sphereborn occupying five of the six worlds and maintaining a strict
-orbital watch over the sixth.
+#### 120 AA — The Rise of Interplanetary Piracy
 
-**180 AA**
-Yet another alien race is discovered when the probes sent into the other neighbouring gas giants orbit, X'ara, comes
-back with readings that indicate inhabitants on one of the binary moons. Furthermore, the inhabitants of the Fume orbits
-receive a transmission from these aliens, seemingly calling on them to meet for talks.
+Piracy becomes a severe threat along the shipping lanes, with most raider trails leading back into the lawless canyons
+of Suncatcher. While bounty hunters profit immensely from the chaos, both the Council and the Trade Alliance call for a
+unified military response.
 
-**181 AA**
-The new species sends a delegation to the edge of Fume. After some time, proper ways of communications are established
-and talks begins in earnest. They introduce themselves as the Ancestrals, and claim to be descendents of the Precursors,
-who they worship as Gods who have ascended to a higher being. They claim that the Evergaol was commanded by such a
-higher being as well, the Praetor, and that it is, or was, one of the malevolent ones that haunt the Sphere. They claim
-that while the Sphere is theirs by birthright, they allow the spherites to dwell on their planets except for the two
-they claim as they own, Irul'loa Irul'lia. As for their part, they wished for free passage to any of the planets, even
-spherite colonies. After some deliberation, they came to the agreement that a consulate will be established on Irul,
-where the Ancestrals that wished to go on a Pilgrimage to travel will register there, and through the Consulate, a very
-limited number of spherites will be granted access to the moons.
+#### 124 AA — Formation of the Flotilla
 
-**185 AA**
-The first colonies are established on X'ara's other moons, Avon'rea and Avon'roa. They later become a frequented
-Pilgrimage destination for both the Ancestrals and Preservationist-leaning Spherites as the former group discovers the
-cultural displays of the latter to be greatly endearing.
+Following intense negotiations, the **Flotilla** is officially formed. This independent joint defense and peacekeeper
+fleet is governed by a unified **Admiralty Board**, featuring an equal number of representatives from the Council and
+the Trade Alliance.
 
-**200 AA**
-The Flotilla fleet becomes a dominant force in not only the Fume and X'ara orbits, but begins earnestly patrolling
-Wanabo, Fume's other neighbour. At this point, the Flotilla has prevented more than a dozen Scav raids and pirate
-attacks, while the Corsair program has proven effective in addressing smaller interplanetary frictions, but not without
-some incidents, causing some Corsair cells to go rogue.
+#### 127 AA — The Clash of the Great Beasts
 
-**205 AA**
-An outpost is established on one of Wanabo's moons, Kazahn, but the Flotilla maintains that it
-is unsafe for colonization, but fringe groups find a way to settle there anyways.
+The Suncatcher Sandwyrm grows radically more destructive. When desperate orbital strikes from Pelagia's railguns fail to
+kill it, the enraged beast sprouts wings, takes flight, and breaks orbit, soaring across the void to strike the Pelagian
+railgun encampments. As it tears through the oceanic defense networks, the abyssal **Leviathan** suddenly breaches the
+ocean surface, dragging the airborne dragon down into the crushing depths of Pelagia's oceans.
 
-**212 AA**
-A research team exploring Karak, Kazahn sister moon, is violently repelled by the local fauna that seemed to have
-been genetically modified.
+#### 128 AA — The Inter-Binary Famine
 
+The destruction of the planetary railguns throws both Pelagia and Suncatcher into a catastrophic food and water
+shortage. The Flotilla mobilizes every available asset to escort emergency relief shipments across the system.
+
+---
+
+### The Scavenger Wars & The Precursor Invasion (129 AA – 164 AA)
+
+#### 129 AA — The Sack of Cloudspire
+
+A highly aggressive, unknown alien race nicknamed the **Scavs** launches a surprise raid on Nimbus. Utilizing brutal
+orbital bombardment, they demolish the majority of Cloudspire's high-altitude arcologies and plunder the SRC research
+base, stealing the stored remains of Stormdrinker and an array of critical Precursor relics.
+
+#### 130 AA — Fracturing of the Flotilla
+
+The Flotilla faces an internal political crisis. The Council demands the fleet pivot entirely to military patrols
+against the Scavs, while the Trade Alliance insists vessels remain deployed to mitigate the ongoing famine on the Trojan
+worlds.
+
+#### 131 AA — The Battle of Crossroads
+
+The Scavs launch a devastating raid against Landfall, targeting the capital. A defensive contingent of Flotilla ships
+manages to repel the attackers before they can level the rustic capital, but the victory comes at a massive cost of
+lives and ships.
+
+#### 132 AA — The Dissolution and Redmane's Remnants
+
+With the Flotilla severely weakened, piracy skyrockets, extending to raids on Landfall’s domestic farms. Both the
+Council and the Alliance formally withdraw their funding from the joint fleet to build independent, nationalistic
+militaries. A large contingent of veteran Flotilla crews refuse to abandon their posts, galvanizing under a charismatic
+commander named **Velen Redmane** to operate as an independent peacekeeping faction.
+
+#### 135 AA — Resolution of the Famine
+
+The Trojan famine finally subsides as Pelagia reconstructs its water railguns and implements advanced, genetically
+engineered aquaculture that allows massive food cultivation directly within its open oceans.
+
+#### 140 AA — The Cold War of Fume
+
+The Alliance and the Council enter tense territorial disputes over the resource-rich, radiation-bombarded inner moons
+closest to the gas giant Fume. Rare minerals and fusion fuels become highly contested as both factions aggressively
+build up their militaries.
+
+#### 143 AA — Rise of Corporate Mining
+
+Sponsored corporations begin full-scale asteroid mining operations close to Fume's rings. Redmane’s Flotilla remnants
+act as freelance, third-party peacekeepers to prevent localized skirmishes from escalating into full-blown war.
+
+#### 145 AA — Discovery of the Grand Vault
+
+The SRC discovers the largest Precursor Vault ever recorded on an inner moon of Fume. To ensure neither the Council nor
+the Alliance hoards whatever lies inside, the SRC secretly coordinates with Redmane’s Flotilla to open the vault.
+
+#### 146 AA — Arrival of the Evergaol
+
+A colossal, moon-sized Precursor warship—structurally similar to the vessel that killed Stormdrinker decades prior—warps
+into the system. It heads directly for the primary pair and initiates a chilling invasion. Instead of executing mass
+casualties, the automated ship systematically abducts the colonists, transporting entire populations into its hold.
+Conventional military strikes by the Council and Alliance fleets prove completely useless; the dreadnought, dubbed the *
+*Evergaol**, settles into a terrifying, silent orbit.
+
+#### 147 AA — The Fall of the Evergaol
+
+The Grand Vault near Fume is successfully opened, revealing a fully intact, operational Precursor dreadnought. The
+Flotilla commandeers the vessel, naming it the **Orion**. Commander Redmane executes a desperate rescue strategy,
+launching the *Orion* from deep space to strike the *Evergaol* from above, forcing the invading titan down through the
+atmosphere.
+
+The *Evergaol* violently impacts the surface of Landfall, creating the massive, scarred exclusion zone known as the
+**Evergaol Crash Site**. A Flotilla strike team infiltrates the crashed hull, disabling its primary matrix and
+deactivating the automated invasion forces across the moon, but Velem perishes during the final assault.
+
+#### 148 AA — Reclamation of the Mandate
+
+Hailed as the saviors of civilization, Redmane's faction receives overwhelming public and financial backing. The
+Flotilla is officially reinstated as the supreme, independent peacekeeping and defense force of the Sphere.
+
+#### 151 AA — The Battle of Fume Rings
+
+The revitalized Flotilla successfully intercepts and completely decimates a massive Scav vanguard fleet heading for the
+inner industrial moons of Fume.
+
+#### 155 AA — The Great Reconstruction
+
+System-wide restoration efforts are completed. The cities of Landfall and the arcologies of Nimbus are fully rebuilt to
+pre-invasion standards, though Cloudspire leans heavily into its glowing neon aesthetic, and Crossroads firmly preserves
+its rustic, historical architecture.
+
+#### 157 AA — The Skyline Accords
+
+Following legal frictions regarding corporate sovereignty, the Flotilla and the planetary governments sign the **Skyline
+Accords**. This treaty establishes the strict jurisdiction of the Flotilla over open space, while leaving planetary
+gravity wells to local governments. The governing body is reorganized into the **Admiralty Board**, consisting of
+veteran officers and colonial representatives.
+
+#### 162 AA — Formation of the Corsairs
+
+Further economic friction prompts the integration of major interplanetary mining corporations into the Admiralty Board.
+This leads to the creation of the **Corsairs**—privateer cells authorized by the Flotilla to enforce space lanes, though
+several rogue cells quickly break off to operate as independent privateers.
+
+---
+
+### The Trailing Trojans & The Ancestral Contact (165 AA – 212 AA)
+
+#### 165 AA — Turn to the L5 Trojans
+
+With the primary and leading pairs stabilized, expansion efforts turn toward the trailing Lagrangian point worlds: *
+*Karst** and **Rime**.
+
+#### 168 AA — The Discovery of the Lithari
+
+Deep-Core Survey missions land on Karst, using heavy drilling rigs to pierce its jagged surface. They discover vast,
+geothermally warmed cavern networks, inland seas, and bioluminescent forests. However, the SRC documents the system's
+first encounter with a native, primitive intelligent species—the tribal hunters known as the **Lithari**. The Admiralty
+Board immediately halts all colonial development.
+
+#### 170 AA — The Non-Interference Protocol
+
+The Council and Admiralty Board ratify the **Non-Interference Protocol**, placing Karst under an absolute blockade to
+protect the Lithari until they achieve independent spaceflight. All colonial resources are redirected to **Rime**,
+accelerating the construction of cities within its single, geothermally warmed coastal ring.
+
+#### 172 AA — The L5 Transit Grid
+
+The L5 transit network is secured by the Flotilla. To ensure the complete isolation of the Lithari, the Flotilla
+constructs a high-security monitoring station at the Karst-Rime L1 point, strictly enforcing the blockade.
+
+#### 175 AA — Completion of the Fume Track
+
+The colonization of Rime achieves total stability, operating as a booming industrial and research hub. This marks the
+complete utilization of the Fume orbital track, with the Sphereborn occupying five of its worlds and standing vigil over
+the sixth.
+
+#### 180 AA — First Contact with X'ara
+
+Long-range probes sent into the neighboring gas giant system, **X'ara**, return startling data: an engineered,
+synchronized six-world binary track mirroring Fume's layout, inhabited by an advanced civilization. Soon after, the
+worlds of Fume receive an enigmatic system-wide transmission inviting them to a diplomatic summit.
+
+#### 181 AA — The Ancestral Treaty
+
+An alien delegation arrives at the edge of Fume, introducing themselves as the **Ancestrals**. They claim to be the
+direct genetic descendants of the Precursors, whom they worship as ascended deities. They reveal that the *Evergaol* was
+an automated security fortress commanded by a malevolent Precursor mind known as the *Praetor*.
+
+While asserting that the Sphere is their divine birthright, the Ancestrals grant the Spherites the right to remain on
+their current worlds, excluding the sovereign Ancestral home worlds of **Irul’lia (Irul 1)** and **Irul’oa (Irul 2)**.
+The treaty establishes free transit for Ancestral pilgrims across Spherite space. In return, a single, heavily fortified
+**Flotilla Consulate** is established on the surface of **Irul 1**—the sole enclave where Spherites are legally
+permitted to clear customs and interface with the reclusive, hyper-advanced Ancestral society.
+
+#### 185 AA — The Opening of the Avon and Oran Worlds
+
+Spherite pioneers begin settling the remaining worlds of the X'ara track under strict treaty guidelines. The L4 Trojan
+pair, **Avon’ria (Avon 1)** and **Avon’oa (Avon 2)**, evolves into a vibrant cultural melting pot. The
+Ancestral-dominated Avon 1 hosts solemn, historical rituals, while the Spherite-leaning Avon 2 becomes world-famous for
+its chaotic, colorful art festivals—displays that the highly formal Ancestrals find deeply endearing.
+
+Concurrently, the L5 Trojan pair, **Oran’ria (Oran 1)** and **Oran’oa (Oran 2)**, is declared sacred ground, completely
+closed to permanent industrial colonization. **Oran 1** becomes the premier pilgrimage destination in the Sphere,
+drawing travelers to witness the impossible, mirror-polished rock faces, the singing stone monuments nestled in fields
+of black flowers, and the gargantuan tree that grew around a massive waterfall to perfectly steer its flow—artistic
+masterpieces left behind by an ancient Precursor visitor.
+
+#### 200 AA — Pax Flotilla & The Rogue Corsairs
+
+The Flotilla fleet reaches the absolute zenith of its military power, actively patrolling the space lanes of Fume,
+X'ara, and the neighboring gas giant system, **Wanabo**. While the fleet successfully neutralizes over a dozen major
+Scav raids, the Corsair program suffers structural decay, with several heavily armed corporate cells going completely
+rogue.
+
+#### 205 AA — The Outpost of Kazahn
+
+The Flotilla establishes a strategic military outpost on **Kazahn**, a moon of Wanabo. Despite official declarations
+that the moon's volatile ecosystem makes it entirely unsafe for civilian colonization, heavily armed fringe groups and
+rogue survivalists manage to establish illegal, subterranean frontier settlements.
+
+#### 212 AA — The Karak Incident
+
+A combined SRC and Flotilla research team exploring **Karak**, Kazahn's binary sister moon, is violently repelled by an
+undocumented, highly aggressive local fauna. Genetic sequencing of the organisms reveals terrifying evidence of
+deliberate, weaponized Precursor genetic modification, sparking fears of what lies dormant within the unexplored nodes
+of the Sphere.
