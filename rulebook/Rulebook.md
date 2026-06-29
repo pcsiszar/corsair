@@ -1039,13 +1039,31 @@ heal one Aggravated Wound per 2 Success Points.
 Relaxation is the equivalent of Resting on the Mental side, you take the Success Test using Willpower and can heal one
 Aggravated Stress per 2 Success Points on the Mental Condition track.
 
-Both of these actions can be performed on your ship, or anywhere civilization has taken hold.
+Both of these actions can be performed on your ship or anywhere civilization has taken hold.
 
 ### Travel
+
+Every ship in the Fume system is equipped with fusion drives capable of traveling with constant burn. This means that
+the distances between the binary moons can be traversed in a matter of hours, provided you are willing to endure a full
+g during the journey.
+
+Interplanetary travel is strictly a day-to-day matter and requires each participating player to pay 1 AP. Because a
+day-to-day turn is roughly 8 hours, you can complete a journey between any two moons around the same gas giant whithin
+that time, takeoff and landing included.
+
+Traveling between adjacent gas giants or crossing between the rings takes longer, a full day, during which you can still
+take actions, but strictly aboard the ship.
+
+Traveling on the surface of the Moon is a bit more complicated and depends largely on the situation. The GM will let you
+know how long it will take you to reach your intended destination, but it is always worth it having a vehicle at hand
+when you are planning to go long distances on the surface.
 
 ### Shopping
 
 What's all those Credits are good for if you can't spend them on anything? If you want that premium gear, you are going
-to have to find a place to buy it from. To buy items, you first need to be planetside on a colonized world. Going
-shopping takes 1 AP for each item category you want to buy (e.g.,firearms, armor, mobility gear, explosives, etc.).
-You also need the money to pay for the items.
+to have to find a place to buy it from. To buy items, you first need to be planetside on a colonized moon. A shopping
+trip will usually transition you to place-to-place pacing, and each stop will usually cost you 1 AP to conduct your
+business there. Since there's no general store for Corsair business, this usually means that you will have to visit
+multiple places per equipment category you buy.
+
+Transitioning to 

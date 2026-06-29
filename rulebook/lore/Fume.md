@@ -52,7 +52,11 @@ This pair showcases the extreme effects of gravitational tidal friction on plane
 * **Karst :** Karst’s surface is a landscape of collapse. Centuries of tidal flexing have
   shattered the crust into a network of massive cenotes and sinkholes. The surface is essentially a barren, razor-sharp
   plateau. However, the true geography of Karst lies beneath; the planet’s interior is hollowed into massive, cavernous
-  networks filled with geothermally heated inland seas and bioluminescent forests.
+  networks filled with geothermally heated inland seas and bioluminescent forests. This subterranean ecosystem is home 
+  to the **Lithari**, a primitive intelligent species of tribal hunters. Following their discovery, the Flotilla 
+  enacted the **Non-Interference Protocol**, declaring Karst a non-interference zone. All Sphereborn presence is strictly 
+  prohibited, and the Flotilla maintains a permanent orbital blockade to ensure the Lithari remain undisturbed until 
+  they achieve spaceflight capability.
 * **Rime :** Rime is defined by its extreme albedo. The Outer Face is locked under a permanent,
   kilometers-thick ice sheet that reflects the majority of incoming stellar radiation. The planet’s geography is a
   gradient of temperature: the outer hemisphere is a frozen wasteland, while the Inner Face features a single,

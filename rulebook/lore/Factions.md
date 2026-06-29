@@ -24,9 +24,10 @@ contracts to Corsair Cells.
 
 The Administrative Wing manages the Flotilla's civil operations, legal framework, and bureaucratic infrastructure.
 Overseen by **Civil Admiral Hesperia Sol**, the wing processes transit permits, audits resource consumption, and
-mediates contractual disputes. It ensures the "Charter of the Void" is enforced across all jurisdictions. For a Corsair
-Cell, Administrative contracts typically involve legal investigation, forensic auditing, or serving warrants in regions
-where regular Flotilla military presence would be politically sensitive.
+mediates contractual disputes. It ensures the "Charter of the Void" and the "Non-Interference Protocol" (prohibiting 
+contact with indigenous species) are enforced across all jurisdictions. For a Corsair Cell, Administrative contracts 
+typically involve legal investigation, forensic auditing, or serving warrants in regions where regular Flotilla 
+military presence would be politically sensitive.
 
 [>>CONTRACT_POSTING]
 ISSUED-AT: 267-122 09:15:22
@@ -191,20 +192,22 @@ OBJECTIVE: Track down and neutralize the 'Gravel-Gnash' pirate cell operating ne
 NOTE: Target is heavily armed with stolen Flotilla ordnance.
 [<<END_TRANSMISSION]
 
-##### 5. Karst
+##### 5. Karst (Non-Interference Zone)
 
-Governed by the **Karst Subterranean Assembly**, this moon is a landscape of collapse where the primary habitation
-exists within massive, bioluminescent cavern networks. Karst is a source of rare geothermal minerals and unique
-biological compounds. Contracts generally involve cavern security, navigating unstable geological zones, and resource
-recovery from deep-earth pockets.
+Karst is currently under a total planetary blockade enforced by the Flotilla. Following the discovery of the 
+**Lithari**, the Admiralty Board ratified the **Non-Interference Protocol**, prohibiting all civilian and commercial 
+activity within the moon's gravity well. There is no local government or Sphereborn habitation. Any Corsair 
+contracts involving Karst are issued exclusively by the Flotilla's Administrative or Patrol wings and typically 
+involve intercepting smugglers, recovering unauthorized automated sensor arrays, or enforcing the "No-Contact" 
+perimeter.
 
 [>>CONTRACT_POSTING]
 ISSUED-AT: 267-133 15:20:00
-ID: SOV-KRS-771
-SPONSOR: Karst Subterranean Assembly
-TYPE: CAVERN_SECURITY
-OBJECTIVE: Clear a path through the 'Crystal Maze' for a geological survey team.
-NOTE: High probability of seismic activity. Bring thermal scanners.
+ID: FLT-KRS-009
+SPONSOR: Flotilla Administrative Wing
+TYPE: PERIMETER_ENFORCEMENT
+OBJECTIVE: Intercept a suspected smuggler vessel 'The Shadow-Step' entering Karst's upper atmosphere.
+NOTE: Do not enter the lower atmosphere. Use non-lethal disabling fire if possible.
 [<<END_TRANSMISSION]
 
 ##### 6. Rime

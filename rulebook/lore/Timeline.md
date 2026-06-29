@@ -175,6 +175,12 @@ A new set of colony ships depart for Suncatcher and Pelagia. While neither plane
 a large population due to one having too much water and the other having too little, the plans are already in motion to
 build massive railguns to shoot water from Pelagia to Suncatcher and establish an agricultural base there.
 
+**91 AA**
+The Ballistic Logistics Corridors: The deployment of the Pelagia-Suncatcher railguns requires the calculation
+of complex three-body trajectories (Pelagia, Suncatcher, and the gas giant Fume). "High Shore" station at L1 is
+established early as a tracking hub because early water-ice payloads occasionally deviate due to Fume’s variable
+magnetospheric drag, risking catastrophic surface impacts on Suncatcher.
+
 **93 AA**
 The Pelagia colony discovers a massive sea creature underneath its vast ocean.
 
@@ -291,11 +297,42 @@ Further frictions prompt the establishment of the Corsairs with the newly added 
 corporations and other large interplanetary groups that heavily supported the Flotilla.
 
 **165 AA**
+With the Fume system's Primary and Leading pairs stabilized, the focus of expansion shifts toward the Trailing Trojans:
+Karst and Rime. While long identified by early SRC surveys, these worlds remained untouched due to the extreme
+environmental challenges they presented.
+
+**168 AA**
+The "Deep-Core Survey" missions land on Karst. High-thrust fusion drives allow for rapid deployment of heavy drilling
+rigs, bypassing the unstable surface. The discovery of vast, geothermally heated cavern systems and inland seas
+confirms the planet's habitability. However, the SRC documents the first encounter with a primitive intelligent
+species—the Lithari. Upon confirmation of their intelligence, the Admiralty Board immediately halts all settlement
+efforts on Karst.
+
+**170 AA**
+The "Non-Interference Protocol" is ratified by the Council and the Admiralty Board, strictly prohibiting any Sphereborn
+presence on Karst until the Lithari achieve independent spaceflight. All resources and personnel previously slated
+for Karst are redirected to Rime. The "Inner Face Expedition" on Rime is expanded into a full-scale colonial effort,
+accelerating the construction of coastal cities.
+
+**172 AA**
+The "L5 Transit Network" is fully established. Trade lanes are secured by the Flotilla, ensuring that water from
+Pelagia and food from Suncatcher reach the burgeoning colonies on Rime. While Karst is bypassed, its proximity
+requires the Flotilla to establish a high-security monitoring station at the Karst-Rime L1 point to enforce the
+Non-Interference Protocol.
+
+**175 AA**
+The colonization of Rime enters its most intensive phase. While Karst remains a silent, Flotilla-monitored
+non-interference
+zone, the coastal ring of Rime becomes a thriving industrial and research hub. This marks the completion of the
+expansion into the Fume track, with the Sphereborn occupying five of the six worlds and maintaining a strict
+orbital watch over the sixth.
+
+**180 AA**
 Yet another alien race is discovered when the probes sent into the other neighbouring gas giants orbit, X'ara, comes
 back with readings that indicate inhabitants on one of the binary moons. Furthermore, the inhabitants of the Fume orbits
 receive a transmission from these aliens, seemingly calling on them to meet for talks.
 
-**166 AA**
+**181 AA**
 The new species sends a delegation to the edge of Fume. After some time, proper ways of communications are established
 and talks begins in earnest. They introduce themselves as the Ancestrals, and claim to be descendents of the Precursors,
 who they worship as Gods who have ascended to a higher being. They claim that the Evergaol was commanded by such a
@@ -306,19 +343,16 @@ spherite colonies. After some deliberation, they came to the agreement that a co
 where the Ancestrals that wished to go on a Pilgrimage to travel will register there, and through the Consulate, a very
 limited number of spherites will be granted access to the moons.
 
-**175 AA**
+**185 AA**
 The first colonies are established on X'ara's other moons, Avon'rea and Avon'roa. They later become a frequented
-Pilgrimage destination for both the Ancestrals and Preservationist leaning Spherites as the former group discovers the
+Pilgrimage destination for both the Ancestrals and Preservationist-leaning Spherites as the former group discovers the
 cultural displays of the latter to be greatly endearing.
 
-**182 AA**
+**200 AA**
 The Flotilla fleet becomes a dominant force in not only the Fume and X'ara orbits, but begins earnestly patrolling
 Wanabo, Fume's other neighbour. At this point, the Flotilla has prevented more than a dozen Scav raids and pirate
 attacks, while the Corsair program has proven effective in addressing smaller interplanetary frictions, but not without
 some incidents, causing some Corsair cells to go rogue.
-
-**200 AA**
-The Flotilla meets and defeats a smaller contingent of Abductors in Wanabo.
 
 **205 AA**
 An outpost is established on one of Wanabo's moons, Kazahn, but the Flotilla maintains that it
@@ -327,5 +361,4 @@ is unsafe for colonization, but fringe groups find a way to settle there anyways
 **212 AA**
 A research team exploring Karak, Kazahn sister moon, is violently repelled by the local fauna that seemed to have
 been genetically modified.
-
 
