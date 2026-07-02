@@ -19,9 +19,9 @@ through the Flotilla’s administrative framework.
 #### The One-Year Tour
 
 To ensure the organization remains tied to the people it protects and doesn't become a detached caste of
-"void-dwellers", the Flotilla operates on the **One-Year Tour** system. Citizens from the five colonized 
-moons—Landfall, Nimbus, Pelagia, Suncatcher, and Rime—enlist for one-year rotations. This constant cycle of 
-personnel ensures that every family in the system has a stake in the Flotilla’s success and prevents any single 
+"void-dwellers", the Flotilla operates on the **One-Year Tour** system. Citizens from the five colonized
+moons—Landfall, Nimbus, Pelagia, Suncatcher, and Rime—enlist for one-year rotations. This constant cycle of
+personnel ensures that every family in the system has a stake in the Flotilla’s success and prevents any single
 planet from feeling alienated from the system's defense.
 
 ---
@@ -33,26 +33,56 @@ strategic objective) and a **Corps** (their technical specialty).
 
 #### The Wings (Strategic Function)
 
-The Wings determine the "Why" of a member's current assignment.
+##### 1. Administrative Wing
 
-* **Administrative Wing:** Overseen by **Civil Admiral Hesperia Sol**, they manage the High Court, auditing, and the
-  complex legal contracts for transit and resource extraction. They also oversee the **Non-Interference Protocol**, which 
-  strictly prohibits contact with indigenous species like the Lithari to ensure their development remains entirely 
-  undisturbed.
-* **Transport Wing:** Directed by **Logistics Admiral Gorthan Vane**, this wing manages the logistical arteries of the
-  system, overseeing railgun arrays and the movement of cargo between moons in the Fume, X'ara, and Wanabo orbits.
-* **Patrol Wing:** Commanded by **Patrol Admiral Kaelen Vance**, this force serves as the "constabulary" of the void,
-  policing shipping lanes and responding to distress signals.
-* **Scout Wing:** Operated by **Intelligence Admiral Siveer**, these are the forward eyes of the Sphere, dedicated to
-  signal intelligence and reconnaissance in the outer rings.
-* **Shield Wing:** Led by **Defense Admiral Brak-Tor**, this wing is responsible for the static defense of the system,
-  maintaining the massive orbital stations and defensive arrays.
-* **Sword Wing:** Under the direct command of **Sword Admiral Elara Thorne**, this is the Flotilla’s primary offensive
-  force, consisting of strike cruisers reserved for high-intensity tactical response.
+The Administrative Wing manages the Flotilla's civil operations, legal framework, and bureaucratic infrastructure.
+Overseen by **Civil Admiral Hesperia Sol**, the wing processes transit permits, audits resource consumption, and
+mediates contractual disputes. It ensures the "Charter of the Void" and the "Non-Interference Protocol" (prohibiting
+contact with indigenous species) are enforced across all jurisdictions. For a Corsair Cell, Administrative contracts
+typically involve legal investigation, forensic auditing, or serving warrants in regions where regular Flotilla
+military presence would be politically sensitive.
+
+##### 2. Transport Wing
+
+The Transport Wing maintains the logistical infrastructure connecting the system's moons. Directed by **Logistics
+Admiral Gorthan Vane**, the wing coordinates freighter convoys, manages deep-space fuel depots, and oversees the railgun
+arrays used for long-range resource transit. They ensure that essential supplies move between Fume, X'ara, and Wanabo
+without interruption. Corsairs working for Transport are typically tasked with reclaiming hijacked vessels, clearing
+hazards from shipping lanes, or escorting high-priority cargo through sectors with known Scavenger activity.
+
+##### 3. Patrol Wing
+
+The Patrol Wing serves as the primary law enforcement arm of the Flotilla. Commanded by **Patrol Admiral Kaelen Vance**,
+this force conducts customs inspections, responds to distress beacons, and performs routine sensor sweeps of the
+shipping lanes. They are the first line of defense against piracy and unauthorized orbital activity. Corsair missions
+for this wing usually involve anti-piracy operations, search-and-rescue in remote orbits, or providing security at
+frontier outposts where Flotilla reach is limited.
+
+##### 4. Scout Wing
+
+The Scout Wing is responsible for intelligence gathering and long-range reconnaissance. Operated by **Intelligence
+Admiral Siveer**, the wing monitors sensor arrays, analyzes signal patterns, and tracks unidentified vessels near the
+edges of Flotilla space. They focus on detecting Scavenger movements and identifying anomalies in "The Veil." Corsairs
+under their employ are often tasked with recovering Precursor artifacts, performing deep-space surveillance, or
+investigating new astronomical phenomena.
+
+##### 5. Shield Wing
+
+The Shield Wing is responsible for the static defense of the Sphere, including orbital arrays and fortress-stations. Led
+by **Defense Admiral Brak-Tor**, the wing manages hull integrity, point-defense systems, and station security. They
+ensure that primary colonies and research outposts remain secure from external threats. Corsairs are called upon to act
+as rapid-response units for stations under siege, suppress internal security breaches, or perform critical repairs under
+combat conditions.
+
+##### 6. Sword Wing
+
+The Sword Wing is the Flotilla’s primary offensive strike force, deployed when high-intensity force is required. Under
+the command of **Sword Admiral Elara Thorne**, this wing maintains a fleet of strike cruisers and specializes in
+boarding maneuvers and tactical engagements. They are the ultimate deterrent against large-scale threats. For Corsairs,
+the Sword Wing offers high-risk contracts involving assaults on pirate strongholds, neutralizing rogue warships, or
+serving as vanguard units in fleet actions.
 
 #### The Corps (Occupational Duty)
-
-The Corps determine the "How" of a member's daily life.
 
 * **Marine Corps:** Personnel trained for boarding actions, station security, and small-scale infantry combat.
 * **Fighter Corps:** The elite pilots handling high-maneuverability interceptors.

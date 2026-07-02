@@ -437,7 +437,7 @@ masterpieces left behind by an ancient Precursor visitor.
 
 The Flotilla fleet reaches the absolute zenith of its military power, actively patrolling the space lanes of Fume,
 X'ara, and the neighboring gas giant system, **Wanabo**. While the fleet successfully neutralizes over a dozen major
-Scav raids, the Corsair program suffers structural decay, with several heavily armed corporate cells going completely
+Scav raids, the Corsair program suffers some structural decay, with a few heavily armed corporate cells going completely
 rogue.
 
 #### 205 AA — The Outpost of Kazahn
