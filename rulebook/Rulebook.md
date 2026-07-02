@@ -255,21 +255,6 @@ quickly cover a long journey.
 * **Moment to Moment:** This is the most "zoomed-in" level of play, where every second counts. This is for high-stakes
   situations like combat, a frantic chase, or a tense negotiation.
 
-### Zooming In and Out
-
-The GM can transition between scene types as the story demands.
-
-* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example,
-  while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly
-  shifting the scene to Moment to Moment.
-
-* **Zooming Out:** Conversely, after a firefight is over (Moment to Moment), the GM can "zoom out" to Place to Place to
-  cover the rest of the crew's exploration of the area, or even further to Day to Day to cover their journey to the next
-  star system.
-
-This system allows the game to maintain a cinematic pace, focusing on the exciting parts and glossing over the mundane
-without losing track of the characters' contributions.
-
 ### Action Points
 
 Action Points are the currency you spend to perform significant actions, especially those requiring a Test. Every player
@@ -277,7 +262,7 @@ has a maximum of 3 Action Points.
 
 Every test you take, whether it be Simple, Success, or Complex, requires 1 Action Point.
 
-In some cases the GM might also call on you to spend an Action Point without taking a test, for example in order to
+In some cases the GM might also call on you to spend an Action Point without taking a test, for example, to
 transit from one major location to the next.
 
 ### Rounds
@@ -286,7 +271,15 @@ Within any scene, the action is broken down into **Rounds**. A round is a period
 scene's pacing, where every character present has an opportunity to act. This ensures that the chaos of a situation is
 manageable and that the spotlight is shared.
 
+A round in moment-to-moment pacing is only a dozen or so seconds long. In place-to-place pacing, a round might last from
+minutes to a few hours, while in day-to-day pacing, it's a full day.
+
 At the start of every Round, every creature refills their Action Points to the maximum.
+
+When the round ends, the GM gets an opportunity to introduce new characters into the scene, based on the broader scope
+of the scene that's playing out and the amount of time that passed during the round. This can be new reinforcements
+arriving in a moment-to-moment gunfight, or an inspection from the local authorities while you are going place-to-place.
+This also lets the GM advance the plot via NPCs that are acting outside the ongoing scene.
 
 ### Turns
 
@@ -362,6 +355,23 @@ Action Points.
 
 The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
+
+### Zooming In and Out
+
+The GM can transition between scene types as the story demands.
+
+* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example,
+  while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly
+  shifting the scene to moment-to-moment. When you are zooming in, set aside any Action Points you had in the broader
+  pacing. You then begin a new round, in the new pacing, refilling to your Action Point Max. You retain any ongoing
+  effects you created in a broader pacing.
+
+* **Zooming Out:** Conversely, after a firefight is over (Moment to Moment), the GM can "zoom out" to place-to-place to
+  cover the rest of the crew's exploration in the area, or even further to day-to-day to cover their journey to the next
+  star system. When you are zooming out, you first lose all action points you currently have, then continue the round in
+  the new broader pacing. If you previously set aside any Action Points when zooming in from new pacing when zooming in,
+  regain those Action Points, minus one to signify the time spent in the narrower pacing. If it's the first time zooming
+  out to a specific pacing, you gain your full Action Point Max, minus one.
 
 ## Chapter 5: Player Characters
 
@@ -1065,5 +1075,3 @@ to have to find a place to buy it from. To buy items, you first need to be plane
 trip will usually transition you to place-to-place pacing, and each stop will usually cost you 1 AP to conduct your
 business there. Since there's no general store for Corsair business, this usually means that you will have to visit
 multiple places per equipment category you buy.
-
-Transitioning to 
