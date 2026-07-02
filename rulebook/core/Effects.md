@@ -64,27 +64,13 @@ the Effect.
 If your narration is aimed at stopping a specific thing from happening in the future, you can spend your Hits on a
 Blocker Effects.
 
-For each Hit, you can contest the action you specified for free, as long as you remain in a position to contest it.
+For each Hit you set aside, you can negate the highest die scored on a test that is taken to perform the action you wish
+to block. Once you negate a die, the Hit you set aside is used up. The effect ends when you run out of Hits.
 
-While in preparation to contest, you are considered to be concentrating. If you take any other test, or a creature
-succeeds in taking an action that could break your concentration (like attacking), as long as you are still in a
-position to contest the specified action, you can throw away a Hit you saved to maintain concentration. Otherwise, you
-loose the Effect.
+If the action does not normally require a test, the creature wanting to perform it has to succeed on a Simple Test to
+do it.
 
-## Setup Effect
+## Persistent Blocker Effect
 
-If your narration is aimed at doing something in the present that will actively benefit an action in the future, you can
-spend your Hits on a Setup Effect.
-
-For each Hit, you set aside, you can add that dice later with the same value you rolled on it to a future test where
-your prior action could feasibly influence its outcome.
-
-## Disruption Effect
-
-If your narration is aimed at doing something in the present that will actively hinder an action in the future, you can
-spend your Hits on a Disruption Effect.
-
-For each Hit, you set aside, you can eliminate a Hit scored in a future test during the current round where your prior
-action could feasibly influence its outcome.
-
-
+A blocker effect where the number of hits you set aside resets for each action you block. The effect ends when a test
+succeeds despite it being blocked or when the conditions for the effect are no longer met. 
