@@ -20,7 +20,7 @@ about how they spend their most precious resource: time.
   rounds. Deploying automated turrets, hacking local security grids, or reinforcing cover are all narrative
   actions that provide mechanical advantages once the boundary is crossed.
 * **Mechanical advantages:** Make sure that the players actually feel the impact of the prepwork. Use Upgrade/Downgrade
-  effects, Triggered effects, Disruption effects, and other mechanics to make sure that they the characters are rewarded
+  effects, Triggered effects, Blocker effects, and other mechanics to make sure that they the characters are rewarded
   for their efforts.
 
 ## Tool: Objective Deadlines
@@ -97,22 +97,6 @@ characters might not yet possess. By telegraphing upcoming threats, you build dr
   impending arrival or event, you give players a round or two to reposition, set traps, or change their strategy
   before the threat manifests.
 
-## Tool: Pacing and Narrative "Beats"
-
-Rounds and turns aren't just for combat; they are units of storytelling that help manage the flow of the game.
-
-* **The Round Summary (The Recap):** Use the pause between rounds to recap the chaos in a cinematic way. This
-  provides a narrative breath, re-orients the players after a flurry of AP spending, and builds excitement for
-  the next round.
-* **Pacing Shifts as Consequence:** Use time to govern the "camera" of the game. If a player fails a critical test
-  during slow place-to-place pacing, "Zoom In" to moment-to-moment action as guards burst through the door,
-  making the shift in pacing feel like a direct result of their actions.
-* **The Cliffhanger Transition:** End a round on a dramatic reveal or a sudden change in the situation—like the
-  arrival of a known rival or a massive explosion. This leaves the players to stew on the new threat while they
-  reset their Action Points for the next round.
-* **Emotional Grounding:** Use the brief moment between rounds to describe a character's internal state—their
-  ragged breathing, the adrenaline surge, or the silence after a massive blast. This grounds the mechanical
-  action in the lived experience of the characters.
 
 ## Tool: Pressure through Action Point Scarcity
 
