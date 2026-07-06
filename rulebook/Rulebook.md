@@ -1017,6 +1017,57 @@ One thing to never forget is that time is always ticking. Most contracts have a 
 forever. Even if you are working on other endevours or are just relaxing, the ship still needs fuel and supplies to
 operate, which comes out of your pocket.
 
+### Supplies
+
+Supply represents your crew's total remaining operational runway. Instead of tracking separate numbers for food, reactor
+coolant, and engine fuel, the entire vessel runs on a single, unified daily consumption rate.
+
+#### Consuming Supplies
+
+At the end of every day in-game, deduct one Supply from the ship's hold.
+If you wish to travel to another planet, the costs vary based on the distance.
+Anywhere around the orbit of a moon, including traveling to its sister moon, costs one Supply.
+Anywere around the orbit of the Gas Giant, including traveling to one of its Binary Moons costs two Supplies.
+If you want to trave anywhere further in the Sphere, it costs three Supplies.
+
+---
+
+#### 🛑 2. Zero-Supply Penalties (The Stall)
+
+The moment your Supply pool hits 0, the ship enters **Stall Status** and the crew begins to rot. At the start of every
+day spent at 0 Supply, apply the following flat penalties:
+
+* **The Ship Stalls:** All passive benefits from ship modules (medical bays, workspaces) are disabled. Shields and hull
+  damage cannot be repaired during downtime.
+* **The Crew Suffers:** Every crew member immediately takes **1 Wound** and **1 Stress**.
+* **The Progress Freezes:** Due to exhaustion and starvation, characters **cannot spend AP to gain XP** or train stats.
+
+---
+
+## 💰 3. Logistics & Cargo Limits
+
+Because the daily consumption numbers are lower and cleaner, cargo holds and purchase tiers scale down to match, keeping
+the economic decisions tight.
+
+### Hull Capacity Ceilings
+
+* **Light Chassis:** Max **10 Supply** *(5 days of travel)*
+* **Medium Frigate:** Max **20 Supply** *(10 days of travel)*
+* **Heavy Destroyer:** Max **40 Supply** *(20 days of travel)*
+* **Flagship (Grade S):** Max **80 Supply** *(40 days of travel)*
+
+### Purchasing & Bulk Discounts
+
+Supply can be replenished at any civilized port. Buying in bulk remains the most cost-effective way to fuel
+long-distance deployments.
+
+| Purchase Type            | Amount of Supply | Total Credit Cost          | Effective Cost Per Supply                    |
+|--------------------------|------------------|----------------------------|----------------------------------------------|
+| **Emergency Rations**    | 1 Supply         | $\$2,000 \text{ Credits}$  | $\$2,000 \text{ Credits}$                    |
+| **Standard Crate**       | 5 Supply         | $\$8,000 \text{ Credits}$  | $\$1,600 \text{ Credits}$ *(Save $\$2,000$)* |
+| **Sponsor Cargo Pallet** | 10 Supply        | $\$12,000 \text{ Credits}$ | $\$1,200 \text{ Credits}$ *(Save $\$8,000$)* |
+| **Industrial Haul**      | 20 Supply        | $\$20,000 \text{ Credits}$ | $\$1,000 \text{ Credits}$ *(Half Price!)*    |
+
 ### Contracts
 
 The one thing every Corsair ship has is the contract terminal, which is directly linked to Redmane Station's central
@@ -1035,7 +1086,13 @@ Whatever the case, upon completion, the terminal on the ship will be notified an
 Corsair Cell's account.
 
 The cell can also abandon a contract, however, this is usually frowned upon and will impact the reputation of
-the cell at best, and trigger an audit by the oversight board at worst.
+the cell at best and trigger an audit by the oversight board at worst.
+
+| Mission Tier | Risk & Operational Scope            | Individual Payout                         | Base Rep Gain        | Max Sponsor Bonus    |
+|--------------|-------------------------------------|-------------------------------------------|----------------------|----------------------|
+| **Tier 1**   | **Low-Risk / Local Interdiction**   | **$\$3,750 - \$5,000 \text{ Credits}$**   | **$+1 \text{ Rep}$** | **$+1 \text{ Rep}$** |
+| **Tier 2**   | **Mid-Risk / Cross-Jurisdictional** | **$\$10,000 - \$15,000 \text{ Credits}$** | **$+3 \text{ Rep}$** | **$+2 \text{ Rep}$** |
+| **Tier 3**   | **High-Risk / Systemic Crisis**     | **$\$25,000+ \text{ Credits}$**           | **$+7 \text{ Rep}$** | **$+3 \text{ Rep}$** |
 
 ### Rest and Relaxation
 

@@ -79,7 +79,8 @@ ship can take, how it moves through space, and how it is customized for war.
 The Hull represents the ship's physical integrity and structural health—its primary hit point bar. Because hard sci-fi
 vessels lack energy shields, any weapon hit that penetrates point-defense grids strikes the hull directly.
 
-Your ship's Hull Condition Track is split into smaller tracks whose size is equal to the Ship's Hull Rating. The Hull Rating is always an even number.
+Your ship's Hull Condition Track is split into smaller tracks whose size is equal to the Ship's Hull Rating. The Hull
+Rating is always an even number.
 The number of smaller tracks is dependent on the ship's size, usually ranging from 3 to 6. A typical Corsair ship has
 four tracks, with length ranging between 8 and 12 segments.
 
@@ -162,13 +163,16 @@ repair drones and navigation. This is a core ship Attribute and is used for a nu
 
 ### 5. Internal Modules
 
-Internal modules are specialized systems installed within a ship's hull to enhance its operational capabilities. A ship has a limited capacity for **Module Slots** based on its size class:
+Internal modules are specialized systems installed within a ship's hull to enhance its operational capabilities. A ship
+has a limited capacity for **Module Slots** based on its size class:
 
-*   **Small**: 4 Module Slots
-*   **Medium**: 8 Module Slots
-*   **Large**: 12 Module Slots
+* **Small**: 4 Module Slots
+* **Medium**: 8 Module Slots
+* **Large**: 12 Module Slots
 
-Each internal module has a **Slot Cost** (usually 1 or 2) that counts against this total. See the [Internal Modules](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/ships/Internal_Modules.md) list for available upgrades, their costs, and slot requirements.
+Each internal module has a **Slot Cost** (usually 1 or 2) that counts against this total. See
+the [Internal Modules](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/ships/Internal_Modules.md) list for
+available upgrades, their costs, and slot requirements.
 
 ---
 
@@ -221,4 +225,6 @@ These are the actions and benefits available to each of the three core seats.
         * *Weapons* – **Accuracy** and **Tracking**
         * *Systems* – **Systems**
         * *Engines* – **Acceleration** and **Maneuverability**.
+
+
 
