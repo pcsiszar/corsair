@@ -3,14 +3,14 @@
 "Effects" are a crucial element of narrative-driven gameplay, allowing players to influence the environment
 and their opponents in dynamic ways beyond simply succeeding at a task. While a successful test might directly achieve a
 goal, it can also be used to create an Effect, representing a tactical advantage, a narrative twist, or a significant
-alteration to the scene. The emphasis is on *how* you achieve something, and the creative narration that accompanies
-your actions.
+alteration to the scene. The emphasis is on *how* you achieve something and the creative narration that goes
+with your actions.
 
 ## Activating Effects
 
-To activate the effect you either need to aim specifically for the effect in the narration, or do something close enough
+To activate the effect, you either need to aim specifically for the effect in the narration or do something close enough
 to it that the effect could feasibly be established as part of the narration. Activating effects as the results are
-rolled and trying to score Effects is possible, but always ask: Is this effect you are trying to accomplish possible
+rolled and trying to score Effects is possible, but always ask: Is this effect you are trying to achieve possible
 with you using this Attribute Pair?
 
 ## Crit Effect
@@ -39,7 +39,7 @@ choose to move alongside the creature at no extra cost.
 
 ## Upgrade/Downgrade Effect
 
-If your narration is aimed at, or can feasibly include you creating a situation that is advantageous to you and/or
+If your narration is aimed at, or can feasibly include you creating a situation that is beneficial to you and/or
 disadvantageous to your opponents, you can spend your Hits on creating an Upgrade/Downgrade Effect.
 
 Creatures interacting with the created effect receive the appropriate +1 Upgrade or Downgrade on any relevant tests.
@@ -51,12 +51,12 @@ If your narration is aimed at performing an action in the future when a specific
 activate a Trigger Effect. You can decide if you want to act immediately before or after the trigger.
 
 You spend the Action Point immediately and specify what the trigger is, and what you attempt to do when it happens, and
-roll the test as if it happened now. If your roll an Action roll, and it fails, you fail to establish the effect. If you
+roll the test as if it happened now. If you roll an Action roll, and it fails, you fail to establish the effect. If you
 roll a Success Roll, set aside the highest dice you rolled. Set aside any Hits you scored on any roll also.
 
 While waiting for the trigger, you are considered to be concentrating. If you take any other test, or a creature
 succeeds in taking an action that could break your concentration (like attacking), as long as you are still in a
-position to react to your Trigger, you can throw away a Hit you saved to maintain concentration. Otherwise, you loose
+position to react to your Trigger, you can throw away a Hit you saved to maintain concentration. Otherwise, you lose
 the Effect.
 
 ## Blocker Effect
@@ -72,5 +72,10 @@ do it.
 
 ## Persistent Blocker Effect
 
-A blocker effect where the number of hits you set aside resets for each action you block. The effect ends when a test
-succeeds despite it being blocked or when the conditions for the effect are no longer met. 
+A blocker effect where the number of hits you can discard on a contested test resets after each action you block. The
+effect ends when a test succeeds despite it being blocked or when the conditions for the effect are no longer met.
+
+## Removing Effects
+
+As long as a creature is in a position to attempt to remove an ongoing effect, they can roll a Simple Test to remove one
+Hit that was set aside for the effect.

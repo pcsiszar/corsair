@@ -6,6 +6,13 @@
 - [Chapter 1: What is a Roleplaying Game?](#chapter-1-what-is-a-roleplaying-game)
     - [What You'll Need](#what-youll-need)
 - [Chapter 2: The World of Corsair](#chapter-2-the-world-of-corsair)
+    - [Introduction to the Sphere](lore/Introduction.md)
+    - [Planets and Systems](lore/Sphere.md)
+    - [The Fume System](lore/Fume.md)
+    - [The X'ara System](lore/X'ara.md)
+    - [The Flotilla](lore/Flotilla.md)
+    - [The Corsairs](lore/Corsairs.md)
+    - [Timeline of the Sphere](lore/Timeline.md)
 - [Chapter 3: Core Mechanics](#chapter-3-core-mechanics)
     - [Attributes](#attributes)
     - [Attribute Pairs](#attribute-pairs)
@@ -22,26 +29,51 @@
     - [Rounds](#rounds)
     - [Turns](#turns)
     - [Going First](#going-first)
-    - [Pushing Your Limits: Spending More Than 2 Points](#pushing-your-limits-spending-more-than-2-points)
+    - [Pushing Your Limits](#pushing-your-limits-spending-more-than-2-points)
 - [Chapter 5: Player Characters](#chapter-5-player-characters)
+    - [Character Creation](character/Creation.md)
+    - [Classes](#classes)
+        - [Conduit](classes/Conduit.md)
+        - [Hazard](classes/Hazard.md)
+        - [Pilot](classes/Pilot.md)
+        - [Vanguard](classes/Vanguard.md)
+        - [Weaver](classes/Weaver.md)
+    - [Traits](character/Traits.md)
+    - [Character Advancement](character/Advancement.md)
     - [Core Attributes](#core-attributes)
     - [Derived Attributes](#derived-attributes)
     - [Skills](#skills)
     - [Condition Tracks](#condition-tracks)
     - [Taking Damage and Healing](#taking-damage-and-healing)
     - [Consequences of Filled Tracks](#consequences-of-filled-tracks)
-    - [Traits](#traits)
 - [Chapter 6: Equipment](#chapter-6-equipment)
     - [Load](#load)
     - [Equipment Categories](#equipment-categories)
+    - [Firearms](items/Firearms.md)
+    - [Melee Weapons](items/Melee.md)
+    - [Armor](items/Armor.md)
+    - [Gear](items/Gear.md)
 - [Chapter 7: Tracks and Effects](#chapter-7-tracks-and-effects)
     - [What are Tracks?](#what-are-tracks)
-    - [Effects](#effects)
+    - [Effects](core/Effects.md)
 - [Chapter 8: Combat](#chapter-8-combat)
     - [Movement](#movement)
     - [Space and Occupancy](#space-and-occupancy)
     - [Close Quarters Combat (CQC)](#close-quarters-combat-cqc)
     - [Cover](#cover)
+- [Chapter 9: Starships and Space Combat](#chapter-9-starships-and-space-combat)
+    - [Ship Rules](ships/Ship_Rules.md)
+    - [Ship Weapons](ships/Ship_Weapons.md)
+    - [Internal Modules](ships/Internal_Modules.md)
+    - [The Hangar Bay](ships/Hangar_Bay.md)
+- [Chapter 10: Day-to-Day Life](#chapter-10-day-to-day-life)
+    - [Supplies](#supplies)
+    - [Contracts](#contracts)
+    - [Rest and Relaxation](#rest-and-relaxation)
+    - [Travel](#travel)
+- [Chapter 11: Running the Game](#chapter-11-running-the-game)
+    - [NPC Guidelines](gm/NPC_Guidelines.md)
+    - [Time Management](gm/Time_Management.md)
 
 ## Introduction
 
@@ -81,24 +113,31 @@ Corsair takes place in the far future where humanity and a number of other civil
 found their new home in a far away place among the stars. They arrived as newcomers to a seemingly abandoned solar
 system packed to the brim with over a hundred habitable planets and called it the Sphere.
 
-It's been 500 years since they first landed on many planetary bodies in the giant constellation, and the
-colonization effort is progressing slowly but steadily under the watchful eye of the Flotilla, a military organization
-established to be an independent guardian of all the colonies in the Sphere. Its charter states that while it holds no
-authority planetside, and colonies have the right of self-determination, it has full control over the void.
+### Introduction to the Sphere
 
-This agreement is not without its flaws, though. When trouble crosses the boundaries between the jurisdiction of the
-Flotilla and the colonies, you need people that have the backing of both to confront it, wherever it goes.
-These people are called Corsairs, individuals with a proven record of excellence, vouched for by the biggest powers in
-known space. While most people regard them as nothing more than glorified bounty-hunters, they have the authority to do
-as they see fit to uphold peace and prosperity in the Sphere.
+For a detailed introduction to the Sphere, its history, and the role of Corsairs, see
+the [Introduction](lore/Introduction.md).
 
-Their actions don't come without consequences; everything they do is judged harshly by a jury made up of the
-sponsors of the Corsair organization, the Flotilla, the colonies, corporations, and other powerful groups. If they step
-out of line, their privileged status can be revoked just as quickly as it is granted. Because of this, most Corsair work
-is contract work for one or more of these sponsors to stay in their good graces.
+### Planets and Systems
 
-At the end of the day, you have a ship, your crew, and plenty of top-notch gear, which is more than enough to make a
-difference. Now's the time to put it to good use.
+The Sphere is a vast engineered system. Detailed information on its planets and major systems can be found in the
+following documents:
+
+- [The Sphere](lore/Sphere.md): General overview of the engineered solar system.
+- [The Fume System](lore/Fume.md): Details on the Fume system and its binary moons.
+- [The X'ara System](lore/X'ara.md): Information about the X'ara system and its unique characteristics.
+
+### Organizations
+
+Key organizations that shape life and law in the void:
+
+- [The Flotilla](lore/Flotilla.md): The independent guardian of the void.
+- [The Corsairs](lore/Corsairs.md): Specialized agents operating under the mandate of the Sphere's powers.
+
+### History
+
+For a comprehensive timeline of events from the arrival at Landfall to the present day, see
+the [Timeline of the Sphere](lore/Timeline.md).
 
 ## Chapter 3: Core Mechanics
 
@@ -302,13 +341,13 @@ Most rounds will fly by due to the players being grounded with no NPCs, or NPCs 
 the player characters. Therefore, most rounds will be rather one-sided, but that is a good thing as the GM already has
 a lot of work just arbitrating the player characters' narrations.
 
-When a player action would cause an NPC to go from a passive to an active participant in the scene, they become active
+When a player action causes an NPC to go from a passive to an active participant in the scene, they become active
 and receive their Action Points next round, meaning each player character has a chance to act before the GM gets to
 react with NPCs.
 
 ### Going First
 
-During the first turn of every round, both the players and the GM have the option to state they would like to go first.
+During the first turn of every round, both the players and the GM can state they would like to go first.
 If they do, they have to bid an Action Point, from any creature in the scene that they control. If only one side bids,
 they automatically go first, but the Action Point is considered to be spent, counting against the 2 AP per Turn limit.
 
@@ -318,40 +357,25 @@ doesn't count against their 2 AP limit for the next turn.
 
 In case of a tie, or when neither side bids, the players go first.
 
-### Pushing Your Limits: Spending More Than 2 Points
-
-While the turn in a Moment to Moment scene passes after a side has spent 2 Action Points, individual characters are not
-limited to spending only 2 Points per turn. There are several ways a character can perform more actions and push their
-limits.
-
-#### Combining Actions
-
-A character can choose to perform multiple actions in a sequence. For example, a character could first perform a Simple
-Action and then a Complex Action.
-
-* **Example:** Jax is in a firefight in a cantina and wants to shoot his pistol (a Complex Test, 2 Points) at a drone
-  across the room. He's out in the open and needs cover. Jax's player can declare: "First, I'm going to flip this heavy
-  table over to use as cover (a Success Test, 1 Point, to see how good the cover is), and then I'll fire my pistol from
-  behind it (a Complex Test, 2 Points)." In this sequence, Jax spends a total of 3 Action Points. The GM determines the
-  quality of the cover based on the Success Test, which might provide an Upgrade to his contest rolls. Because the
-  players have spent more than 2 Points, the turn would then pass to the GM after Jax resolves his shot.
-
-#### Teamwork Actions
+### Teamwork Actions
 
 Teamwork allows multiple characters to contribute to a single goal. When characters use Teamwork, they can spend their
-Action Points to contribute to the collective effort. This can easily lead to the player side spending more than 2
-Action Points.
+Action Points to contribute to the collective effort. While players spending Action Points to participate in a Teamwork
+Test counts towards the 2AP per Turn limit, reaching the limit doesn't stop additional characters from participating.
+The turn will only end once the Teamwork Test has resolved.
 
-* **Example:** The crew needs to get through a crowded checkpoint without drawing attention. The GM rules this will be a
-  Teamwork action, requiring each character to make a Success Test to see how well they blend in.
-    * Silas, a master of disguise, decides to create a distraction (a Success Test, 1 Point).
-    * Griz, a large and imposing figure, tries to look inconspicuous by pretending to be a simple cargo hauler (a
-      Success Test, 1 Point).
-    * Jax, ever the opportunist, tries to flirt with one of the guards to divert their attention (a Success Test, 1
-      Point).
-      The players have now collectively spent 3 Action Points. They can then use the Teamwork rules to swap dice results
-      to ensure everyone succeeds, representing them covering for each other's mistakes and successfully navigating the
-      checkpoint as a cohesive unit.
+
+
+**Example:** The crew needs to get through a crowded checkpoint without drawing attention. The GM rules this will be a
+Teamwork action, requiring each character to make a Success Test to see how well they blend in.
+
+* Silas, a master of disguise, decides to create a distraction and scores 2 hits.
+* Griz, a large and imposing figure, tries to look inconspicuous by pretending to be a simple cargo hauler, but
+  fails miserably, socring no hits.
+* Jax, ever the opportunist, tries to flirt with one of the guards to divert their attention, scoring just one hit.
+
+The players have now collectively spent 3 Action Points. Silas swaps one of their hits for one of Griz's dice,
+representing them covering for each other's mistakes and successfully navigating the checkpoint as a cohesive unit.
 
 The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
@@ -375,9 +399,34 @@ The GM can transition between scene types as the story demands.
 
 ## Chapter 5: Player Characters
 
-At the heart of every Corsair story are the Player Characters (PCs), the daring protagonists whose actions shape the
-narrative. This chapter will guide you through the process of creating your own unique character, from their core
-abilities to their specialized skills and equipment.
+Your character is your avatar in the world of Corsair. They are the protagonist of the stories you tell, and their
+skills,
+attributes, and traits will determine their success or failure.
+
+### Character Creation
+
+Creating a character involves choosing a sponsor, heritage, and race, as well as distributing points to attributes and
+skills. For the full step-by-step process, see [Character Creation](character/Creation.md).
+
+### Classes
+
+Classes define your character's specialized role and unique abilities. Choose one of the following classes:
+
+- [Conduit](classes/Conduit.md): Elemental powerhouses.
+- [Hazard](classes/Hazard.md): Chemical specialists.
+- [Pilot](classes/Pilot.md): Modular exoskeleton operators.
+- [Vanguard](classes/Vanguard.md): Shield and heavy weapon experts.
+- [Weaver](classes/Weaver.md): Nanomachine artists.
+
+### Traits
+
+Traits are unique qualities or backgrounds that provide specific benefits or flavor to your character. See the full list
+of [Traits](character/Traits.md).
+
+### Character Advancement
+
+As you complete contracts and survive the dangers of the Sphere, your character will grow in power. For rules on
+spending experience points and improving your stats, see [Character Advancement](character/Advancement.md).
 
 ### Core Attributes
 
@@ -482,7 +531,7 @@ carries over to the next track in the sequence.
 
 Each of these three tracks has a size equal to **4 + your relevant Derived Attribute**.
 
-* **Physical Track Sizes:** Each of your three Physical tracks has a size oWhenf **4 + Endurance**.
+* **Physical Track Sizes:** Each of your three Physical tracks has a size of **4 + Endurance**.
 * **Mental Track Sizes:** Each of your three Mental tracks has a size of **4 + Willpower**.
 
 The consequences of filling these tracks will be detailed in the next section.
@@ -560,10 +609,6 @@ same set of tracks, locking the first available segment.
   controlled by the GM. The character will most likely act on pure survival instinct, either fleeing the scene in a
   blind panic or lashing out recklessly at the source of their distress.
 
-### Traits
-
-[Traits](character/Traits.md)
-
 ## Chapter 6: Equipment
 
 Not every item a character carries has a significant mechanical impact on the game. Everyday objects like personal
@@ -587,10 +632,9 @@ exactly what you need to carry a vital piece of salvage or a mission-critical ob
 Equipment is divided into three major categories:
 
 * **Weapons:** Anything designed to inflict physical harm, from vibro-knives and plasma pistols to heavy repeating
-  blasters.
-* **Armor:** Protective gear worn to reduce or negate incoming damage.
-* **Gear:** A broad category that includes everything else of mechanical importance. This covers items like med-kits,
-  explosives, advanced scanner units, and other consumables or specialized tools.
+  blasters. See [Firearms](items/Firearms.md) and [Melee Weapons](items/Melee.md).
+* **Armor:** Protective gear worn to reduce or negate incoming damage. See [Armor](items/Armor.md).
+* **Gear:** A broad category that includes everything else of mechanical importance. See [Gear](items/Gear.md).
 
 #### Weapons
 
@@ -732,72 +776,7 @@ When a Track is full, the event it tracks is resolved.
 
 ### Effects
 
-In Corsair, "Effects" are a crucial element of narrative-driven gameplay, allowing players to influence the environment
-and their opponents in dynamic ways beyond simply succeeding at a task. While a successful test might directly achieve a
-goal, it can also be used to create an Effect, representing a tactical advantage, a narrative twist, or a significant
-alteration to the scene. The emphasis is on *how* you achieve something, and the creative narration that accompanies
-your actions.
-
-Effects are activated usually via sacrificing dice from Success Rolls that landed 8 or higher. Each additional die
-sacrificed will increase the effect's level by one.
-
-#### Removing Effects
-
-Any active Effect can be actively removed by a character through a "Cleansing" action. This represents an attempt to
-actively
-undo the Effect.
-
-To attempt to cleanse an Effect, a character must make a Simple Test with the appropriate attributes. Each dice landing
-8 or higher will cause the effect's level to drop by one, and disappear when it hits level 0.
-
-Other than the actively removing the effect, any character might do something that would "break" the effect. If for
-example you knocked an enemy prone using an effect, the character can simply stand up on their turn and end the effect.
-It's important to realize what the conditions are for effects to persist and keep or dismiss them accordingly.
-
-#### Upgrade/Downgrade Effect
-
-When your narration describes an action that would give you or an ally an advantage, or put an opponent at a
-disadvantage, you can create an **Upgrade/Downgrade Effect**. This effect directly manipulates the dice pools of future
-tests.
-
-This Effect is often symmetrical, meaning a single Anchor can create an advantage for one character while simultaneously
-creating a disadvantage for another. For example, if a character is knocked "Prone" (the Anchor), any character
-attacking them might receive an Upgrade, as the prone character is an easier target. Conversely, the prone character
-would receive a Downgrade on their own attack rolls, as it is much harder to fight effectively from the ground.
-
-* **Stacking:** You can purchase up to **3 levels** of this Effect. Each level grants one Upgrade or one Downgrade,
-  depending on whether the effect is beneficial or detrimental.
-
-#### Blocker Effect
-
-A **Blocker Effect** prevents a creature or creatures from performing a specific action or accessing a certain area.
-This effect is highly narrative-dependent and requires the GM's interpretation of what can reasonably be blocked by your
-action.
-
-The GM will determine the appropriate Attribute Pair for the blocked creature's Success Test to cleanse the effect,
-based on their narration of how they attempt to overcome the block.
-
-#### Triggered Effect
-
-A **Triggered Effect** allows you to set up a future action or consequence that will occur when a specific condition is
-met. The Success Points you generate from your test are "stored" and then applied to the triggered action when its
-condition is fulfilled.
-
-Unlike most effects, with the triggered effect you put aside the dice you pay for it and will use it's result when the
-trigger occurs.
-
-#### Push Effect
-
-A **Movement Effect** allows you to reposition another creature. This is useful for repositioning, escaping, or forcing
-opponents into disadvantageous positions.
-
-* **Moving Another Creature:** You can move another creature 1 space at a cost of 1 sacrificed die. You can choose
-  to travel with them, moving to the same space. You can push multiple creatures with the same roll as long as you are
-  in the same space.
-    * **Unwilling Creature:** Forcing an unwilling creature to move requires you to generate the Success Points from a
-      **Complex Test** (e.g., a Strength + Strength test to shove them).
-    * **Willing Creature:** Moving a willing creature (e.g., pulling an ally to safety) requires you to generate the
-      Success Points from a **Success Test**.
+For the full list of available effects and the rules for activating and removing them, see [Effects](core/Effects.md).
 
 ## Chapter 8: Combat
 
@@ -1007,7 +986,33 @@ On any subsequent attacks during the turn:
 * **No Bonus:** If the line of attack crosses the side *not* adjacent to the covering side, you gain no benefit from the
   cover against that attack. You are considered exposed.
 
-## Chapter 9: Day-to-Day Life
+## Chapter 9: Starships and Space Combat
+
+In the vast void of the Sphere, your ship is more than just transportation—it is your lifeline, your base of operations,
+and your most powerful weapon. This chapter covers the rules for operating starships and engaging in tactical space
+combat on both the Macro-Grid and the Dogfight scale.
+
+### Ship Rules
+
+Starships are defined by their Size Class, Hull Rating, Armor, and Engine performance. For a complete breakdown of how
+ships function and the rules for Newtonian movement in the void, see [Ship Rules](ships/Ship_Rules.md).
+
+### Ship Weapons
+
+From rapid-fire Point-Defense Cannons to devastating Spinal Coilguns, ship-mounted weaponry is essential for any Corsair
+vessel. Detailed profiles for all available ordnance can be found in [Ship Weapons](ships/Ship_Weapons.md).
+
+### Internal Modules
+
+Customize your vessel with specialized internal systems like Injector Seats, Auto-Loaders, and Enhanced Sensor Suites.
+For the full catalog of upgrades, see [Internal Modules](ships/Internal_Modules.md).
+
+### The Hangar Bay
+
+Need a ship to get started? The Hangar Bay features a collection of pre-configured starship models, from the starter
+Kestrel to the massive Leviathan dreadnought. Review the fleet in the [Hangar Bay](ships/Hangar_Bay.md).
+
+## Chapter 10: Day-to-Day Life
 
 Not every moment of a Corsair's life is filled with tense, adrenaline-inducing moments. They are people like any other.
 They need to be able to rest and relax, not to mention shopping for essentials and better gear, or travel from one
@@ -1124,3 +1129,24 @@ to have to find a place to buy it from. To buy items, you first need to be plane
 trip will usually transition you to place-to-place pacing, and each stop will usually cost you one Action Point to
 conduct your business there. Since there's no general store for Corsair business, this usually means that you will have
 to visit multiple places per equipment category you buy.
+
+### Training
+
+You can also hone your body, mind, and skills when you have some time on your hands. You can spend one Action Point
+during the day-to-day to train and gain 1 XP.
+
+## Chapter 11: Running the Game
+
+Being a Game Master in Corsair is about more than just adjudicating rules; it's about building a living, reactive world
+and challenging your players with tactical encounters and compelling narratives.
+
+### NPC Guidelines
+
+Designing balanced and engaging enemies is simplified with our NPC tier and category system. Learn how to build grunts,
+elites, and bosses in the [NPC Guidelines](gm/NPC_Guidelines.md).
+
+### Time Management
+
+Managing the flow of time and the transition between different pacing modes (Moment to Moment, Place to Place, Day to
+Day) is crucial for a smooth game. For tips and rules on handling the clock,
+see [Time Management](gm/Time_Management.md).
