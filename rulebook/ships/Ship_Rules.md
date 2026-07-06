@@ -141,7 +141,9 @@ Ship Weapons have the following characteristics:
   once per turn.
 
 * **Ammunition:** The number of times the weapon can be fired, total. Most weapons don't require ammo, but heavier
-  weapons have a limited amount of ammo and once it's depleted, it must be resupplied.
+  weapons have a limited amount of ammo and once it's depleted, it must be resupplied. Refilling the ammo storage of a
+  weapon costs 2,000 Credits for Small Weapons, 4,000 Credits for Medium Weapons, and 8,000 Credits for Large Weapons,
+  and can be done in any civilized port.
 
 ### 4. Systems
 

@@ -1025,38 +1025,15 @@ coolant, and engine fuel, the entire vessel runs on a single, unified daily cons
 #### Consuming Supplies
 
 At the end of every day in-game, deduct one Supply from the ship's hold.
-If you wish to travel to another planet, the costs vary based on the distance.
-Anywhere around the orbit of a moon, including traveling to its sister moon, costs one Supply.
-Anywere around the orbit of the Gas Giant, including traveling to one of its Binary Moons costs two Supplies.
-If you want to trave anywhere further in the Sphere, it costs three Supplies.
 
----
+If at the end of the day, you have no Supplies left, starting from the next day:
 
-#### 🛑 2. Zero-Supply Penalties (The Stall)
+* All passive benefits from ship modules (medical bays, workspaces) are disabled.
+* Ship damage cannot be repaired
+* Every crew member takes **1 Wound** and **1 Stress**.
+* Characters **cannot spend AP to gain XP** or train stats.
 
-The moment your Supply pool hits 0, the ship enters **Stall Status** and the crew begins to rot. At the start of every
-day spent at 0 Supply, apply the following flat penalties:
-
-* **The Ship Stalls:** All passive benefits from ship modules (medical bays, workspaces) are disabled. Shields and hull
-  damage cannot be repaired during downtime.
-* **The Crew Suffers:** Every crew member immediately takes **1 Wound** and **1 Stress**.
-* **The Progress Freezes:** Due to exhaustion and starvation, characters **cannot spend AP to gain XP** or train stats.
-
----
-
-## 💰 3. Logistics & Cargo Limits
-
-Because the daily consumption numbers are lower and cleaner, cargo holds and purchase tiers scale down to match, keeping
-the economic decisions tight.
-
-### Hull Capacity Ceilings
-
-* **Light Chassis:** Max **10 Supply** *(5 days of travel)*
-* **Medium Frigate:** Max **20 Supply** *(10 days of travel)*
-* **Heavy Destroyer:** Max **40 Supply** *(20 days of travel)*
-* **Flagship (Grade S):** Max **80 Supply** *(40 days of travel)*
-
-### Purchasing & Bulk Discounts
+#### Purchasing Supplies
 
 Supply can be replenished at any civilized port. Buying in bulk remains the most cost-effective way to fuel
 long-distance deployments.
@@ -1067,6 +1044,14 @@ long-distance deployments.
 | **Standard Crate**       | 5 Supply         | $\$8,000 \text{ Credits}$  | $\$1,600 \text{ Credits}$ *(Save $\$2,000$)* |
 | **Sponsor Cargo Pallet** | 10 Supply        | $\$12,000 \text{ Credits}$ | $\$1,200 \text{ Credits}$ *(Save $\$8,000$)* |
 | **Industrial Haul**      | 20 Supply        | $\$20,000 \text{ Credits}$ | $\$1,000 \text{ Credits}$ *(Half Price!)*    |
+
+#### Cargo Holds
+
+Your ship can carry a limited number of supplies, which depends on its size.
+
+* **Small Ships:** Max **10 Supply**
+* **Medium Ships:** Max **20 Supply**
+* **Large Ships:** Max **30 Supply**
 
 ### Contracts
 
@@ -1114,21 +1099,28 @@ Every ship in the Fume system is equipped with fusion drives capable of travelin
 the distances between the binary moons can be traversed in a matter of hours, provided you are willing to endure a full
 g during the journey.
 
-Interplanetary travel is strictly a day-to-day matter and requires each participating player to pay 1 AP. Because a
-day-to-day turn is roughly 8 hours, you can complete a journey between any two moons around the same gas giant whithin
-that time, takeoff and landing included.
+Interplanetary travel is strictly a lengthy matter and can consume entire turns in place-to-place or
+day-to-day pacing. To board the ship and begin traveling, all passengers are required to switch to the pacing in
+which the travel can take place and spend one Action Point in that pacing. While the ship is in transit, you can take
+actions as normal.
 
-Traveling between adjacent gas giants or crossing between the rings takes longer, a full day, during which you can still
-take actions, but strictly aboard the ship.
+Traveling also burns fuel, which is represented by having to burn Supplies when you travel. The cost varies based on
+distance.
 
 Traveling on the surface of the Moon is a bit more complicated and depends largely on the situation. The GM will let you
 know how long it will take you to reach your intended destination, but it is always worth it having a vehicle at hand
 when you are planning to go long distances on the surface.
 
+| Distance                                   | Time                             | Fuel Cost  |
+|--------------------------------------------|----------------------------------|------------|
+| Between Sibling Moons                      | 1 place-to-place turn (~ 1 hour) | 1 Supply   |
+| Between Binary Moons around the same Giant | 1 day-to-day turn (~ 8 hours)    | 2 Supplies |
+| Between adjacent gas giants                | 3 day-to-day turns               | 4 Supplies |
+
 ### Shopping
 
 What's all those Credits are good for if you can't spend them on anything? If you want that premium gear, you are going
 to have to find a place to buy it from. To buy items, you first need to be planetside on a colonized moon. A shopping
-trip will usually transition you to place-to-place pacing, and each stop will usually cost you 1 AP to conduct your
-business there. Since there's no general store for Corsair business, this usually means that you will have to visit
-multiple places per equipment category you buy.
+trip will usually transition you to place-to-place pacing, and each stop will usually cost you one Action Point to
+conduct your business there. Since there's no general store for Corsair business, this usually means that you will have
+to visit multiple places per equipment category you buy.
