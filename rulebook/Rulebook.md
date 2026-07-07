@@ -404,9 +404,10 @@ skills,
 attributes, and traits will determine their success or failure.
 
 ### Character Creation
-
 Creating a character involves choosing a sponsor, heritage, and race, as well as distributing points to attributes and
 skills. For the full step-by-step process, see [Character Creation](character/Creation.md).
+
+You can download a printable [Character Sheet](character/Character_Sheet.html) to record your character's details.
 
 ### Classes
 

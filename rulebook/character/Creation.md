@@ -2,20 +2,16 @@
 
 ## Sponsor
 
-Choose a sponsor from the options below. No more than two players may choose the same common sponsor, and no two players may choose the same exotic sponsor.
+Choose a sponsor from the options below. No more than two players may choose the same common sponsor, and no two players
+may choose the same exotic sponsor.
 
-Common sponsors:
+Sponsor options:
 
-- **Flotilla**
-- **Colonial**
-- **Corporate**
-- **Union**
-
-Exotic sponsors:
-
-- **Nobility**
-- **Academy**
-- **Religion**
+- **Flotilla:** The independent interstellar defense force of Spherite civilization.
+- **Colonial:** The governing bodies of the colonies established in the Sphere.
+- **Corporate:** Megacorporations that have interests on many different moons in the Sphere.
+- **Civilian:** Unions, religious groups, political movements, or other NGOs.
+- **Private:** A very powerful individual, or a tiny group of elites, practically nobility in all but name.
 
 ## Heritage & Race
 
@@ -26,9 +22,10 @@ Choose two heritages. You can pick the same option twice.
 - **Craggen**: Gain +1 **Finesse** or +1 **Knowledge**
 - **Sylvan**: Gain +1 **Strength** or +1 **Charisma**
 
-Based on the heritages, choose a race. You can select a race as long as you have at least one heritage belonging to that race. You also gain a special trait with your race selection.
+Based on the heritages, choose a race. You can select a race as long as you have at least one heritage belonging to that
+race. You also gain a special trait with your race selection.
 
-- **Human**: *Your average humanoid*
+- **Human**: *Your average human*
     - Requires **Human** heritage
 - **Drakeling**: *Scaly humanoid with horns or antlers, and small tails*
     - Requires **Human** or **Naga** heritage
@@ -51,13 +48,19 @@ Based on the heritages, choose a race. You can select a race as long as you have
 
 ## Attributes
 
-Spend 10 Creation Points to increase your six core Attributes: **Strength**, **Finesse**, **Agility**, **Charisma**, **Knowledge**, and **Instinct**. Your Attributes start at 1 and can go up to a maximum of 5 during character creation. Increasing an Attribute by 1 costs 1 Creation Point up to level 4. Increasing an Attribute's value from 4 to 5 costs 2 Creation Points.
+Spend 10 Creation Points to increase your six core Attributes: **Strength**, **Finesse**, **Agility**, **Charisma**, *
+*Knowledge**, and **Instinct**. Your Attributes start at 1 and can go up to a maximum of 5 during character creation.
+Increasing an Attribute by 1 costs 1 Creation Point up to level 4. Increasing an Attribute's value from 4 to 5 costs 2
+Creation Points.
 
-Heritage increases are applied prior to Creation Point distribution, meaning if you want to increase an Attribute to 5, you cannot use the Heritage +1 to avoid paying 2 Creation Points for going from 4 to 5.
+Heritage increases are applied prior to Creation Point distribution, meaning if you want to increase an Attribute to 5,
+you cannot use the Heritage +1 to avoid paying 2 Creation Points for going from 4 to 5.
 
 ## Skills
 
-Spend 6 Skill Points to purchase Skills for your character. A level 1 Skill costs 1 Skill Point. Increasing a Skill's level by 1 costs an amount of Skill Points equal to the new level of the Skill (e.g., Lvl 1 -> Lvl 2 costs 2 Skill Points, Lvl 2 -> Lvl 3 costs 3 Skill Points).
+Spend 6 Skill Points to purchase Skills for your character. A level 1 Skill costs 1 Skill Point. Increasing a Skill's
+level by 1 costs an amount of Skill Points equal to the new level of the Skill (e.g., Lvl 1 -> Lvl 2 costs 2 Skill
+Points, Lvl 2 -> Lvl 3 costs 3 Skill Points).
 
 ## Starter Kit
 
@@ -124,4 +127,10 @@ Choose a class:
 
 ## Credits
 
-You start with 5,000 Credits, which you can use to purchase any desired gear or keep for later. You can sell items in your selected kits for **20%** of their original price.
+You start with 5,000 Credits, which you can use to purchase any desired gear or keep for later. You can sell items in
+your selected kits for **20%** of their original price.
+
+## Character Sheet
+
+You can download and print the [Corsair Character Sheet](Character_Sheet.html) to keep track of your character's stats,
+equipment, and progress.
