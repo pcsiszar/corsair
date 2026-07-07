@@ -81,7 +81,7 @@ vessels lack energy shields, any weapon hit that penetrates point-defense grids 
 
 Your ship's Hull Condition Track is split into smaller tracks whose size is equal to the Ship's Hull Rating. The Hull
 Rating is always an even number.
-The number of smaller tracks is dependent on the ship's size, usually ranging from 3 to 6. A typical Corsair ship has
+The number of smaller tracks is dependent on the ship's size, usually ranging from 4 to 6. A typical Corsair ship has
 four tracks, with length ranging between 8 and 12 segments.
 
 Your Hull Condition Track takes damage exactly like a character's Health Track. When a single track is filled, it

@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Corsair — Crew Sheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap"
+          rel="stylesheet"/>
+    <style>
+        /* ======================================================  TOKENS  */
+        :root {
+            --black: #080a0c;
+            --dark: #10131a;
+            --mid: #181c24;
+            --surface: #1d2130;
+            --border: #2a3040;
+            --accent: #c8a84b;
+            --accent-dim: #7a6428;
+            --red: #a02828;
+            --text: #ccc7ba;
+            --text-dim: #6a6458;
+            --text-muted: #3e3c36;
+            --stripe: rgba(200, 168, 75, 0.03);
+        }
+
+        /* ======================================================  RESET  */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 8.5pt;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: var(--black);
+            color: var(--text);
+            line-height: 1.25;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* ======================================================  PRINT  */
+        @page {
+            size: A4;
+            margin: 4mm;
+        }
+
+        @media print {
+            body {
+                background: #fff !important;
+            }
+
+            :root {
+                --black: #fff;
+                --dark: #f5f3ee;
+                --mid: #ede9e0;
+                --surface: #e8e4da;
+                --border: #bfb090;
+                --accent: #7a6020;
+                --accent-dim: #5a4410;
+                --red: #8b1a1a;
+                --text: #181410;
+                --text-dim: #5a5040;
+                --text-muted: #8a7860;
+                --stripe: rgba(90, 68, 16, 0.04);
+            }
+        }
+
+        /* ======================================================  PAGE SHELL  */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 4mm;
+            padding: 4mm 5mm;
+            background: var(--dark);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* subtle graph-paper texture */
+        .page::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-size: 18px 18px;
+            pointer-events: none;
+        }
+
+        /* ======================================================  MASTHEAD  */
+        .masthead {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 3mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .mh-logo {
+            background: var(--accent);
+            color: var(--black);
+            padding: 3mm 5mm 3mm 4mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
+            padding-right: 13mm;
+            min-width: 22mm;
+        }
+
+        .mh-logo svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--black);
+        }
+
+        .mh-logo .logo-text {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 6pt;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .mh-title {
+            padding: 2.5mm 4mm;
+            flex: 1;
+        }
+
+        .mh-title h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 18pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .mh-title .sub {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 7.5pt;
+            letter-spacing: 0.28em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        /* Name field in masthead right */
+        .mh-name {
+            border-left: 1px solid var(--border);
+            padding: 2.5mm 3.5mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 64mm;
+        }
+
+        .mh-name label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1mm;
+        }
+
+        .mh-name .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 5.5mm;
+        }
+
+        /* ======================================================  IDENTITY ROW (top of creation)  */
+        .identity-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            margin-bottom: 3mm;
+        }
+
+        .id-field {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 2mm 2.5mm 1.5mm;
+        }
+
+        .id-field label {
+            display: block;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            color: var(--accent-dim);
+            text-transform: uppercase;
+            margin-bottom: 1mm;
+        }
+
+        .id-field .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 5mm;
+        }
+
+        /* ======================================================  CARD  */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            margin-bottom: 2mm;
+        }
+
+        .card-hd {
+            background: var(--mid);
+            border-bottom: 2px solid var(--accent-dim);
+            padding: 1.5mm 2.5mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .card-hd svg {
+            width: 11px;
+            height: 11px;
+            fill: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card-hd h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8.5pt;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent);
+            flex: 1;
+        }
+
+        .card-hd .hd-note {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+        }
+
+        .card-body {
+            padding: 2mm 2.5mm;
+        }
+
+        /* ======================================================  ATTRIBUTES  */
+        .attr-group-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 1.5mm;
+            padding-bottom: 0.5mm;
+        }
+
+        .attr-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2px;
+            margin-bottom: 1.5mm;
+        }
+
+        .attr-block {
+            background: var(--mid);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 1.5mm;
+            padding: 1mm 1.5mm;
+        }
+
+        .attr-box {
+            width: 8mm;
+            height: 8mm;
+            border: 2px solid var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 13pt;
+            font-weight: 900;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .attr-meta {
+        }
+
+        .attr-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text);
+        }
+
+        .attr-code {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+        }
+
+        /* Endurance / Willpower note below each group */
+        .attr-derived-note {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+            text-align: right;
+            padding: 0.5mm 0 0;
+            margin-bottom: 2mm;
+            border-top: 1px dashed var(--border);
+            padding-top: 1mm;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .attr-derived-note .dn-label {
+            color: var(--text-dim);
+        }
+
+        .attr-derived-note .dn-box {
+            border-bottom: 1px solid var(--accent-dim);
+            min-width: 7mm;
+            height: 4mm;
+            display: inline-block;
+            font-size: 8pt;
+            font-family: 'Barlow Condensed', sans-serif;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* ======================================================  GAMBIT — GENERIC SLOTS  */
+        .gambit-slots {
+            display: flex;
+            gap: 3mm;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2.5mm 0 1.5mm;
+        }
+
+        .g-slot {
+            width: 11mm;
+            height: 11mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            /* generic die shape — rhombus-ish */
+            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
+            position: relative;
+        }
+
+        .gambit-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        /* ======================================================  SKILLS  */
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .skill-table th {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 1mm 2mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .skill-table td {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5mm 2mm;
+            vertical-align: middle;
+        }
+
+        .skill-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .skill-table .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 4.5mm;
+        }
+
+        .pip-row {
+            display: flex;
+            gap: 2px;
+            justify-content: center;
+        }
+
+        .pip {
+            width: 10px;
+            height: 20px;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        /* ======================================================  CONDITION CIRCLES  */
+        .condition-section {
+            margin-bottom: 3mm;
+        }
+
+        .ct-type-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            padding: 1mm 2mm;
+            border: 1px solid;
+            display: inline-block;
+            margin-bottom: 2mm;
+        }
+
+        .ct-type-label.phys {
+            color: #c06848;
+            border-color: #6a3020;
+            background: rgba(176, 64, 40, 0.07);
+        }
+
+        .ct-type-label.ment {
+            color: #6888c0;
+            border-color: #203060;
+            background: rgba(64, 80, 176, 0.07);
+        }
+
+        .ct-consequence {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+            margin-left: 2mm;
+        }
+
+        .circles-row {
+            display: flex;
+            writing-mode: vertical-lr;
+            align-items: center;
+            justify-content: center;
+
+            gap: 4mm;
+            padding: 1mm 0mm 2mm;
+        }
+
+        .condition-circle-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5mm;
+        }
+
+        .condition-circle {
+            width: 60mm;
+            height: 18mm;
+            border: 2px solid var(--border);
+            background: var(--mid);
+            position: relative;
+        }
+
+        /* Roman numeral label centered in circle */
+        .condition-circle::after {
+            content: attr(data-num);
+            position: absolute;
+            bottom: 3mm;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7pt;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .cc-label {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6pt;
+            color: var(--text-dim);
+            letter-spacing: 0.1em;
+        }
+
+        .ct-hint {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 0 2mm;
+        }
+
+        /* ======================================================  TRAITS  */
+        .trait-row {
+            display: grid;
+            grid-template-columns: 1fr 11mm;
+            gap: 2mm;
+            align-items: center;
+            padding: 1.5mm 2mm;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .trait-row:nth-child(even) {
+            background: var(--stripe);
+        }
+
+        .trait-row .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 4.5mm;
+        }
+
+        .trait-status {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5px;
+        }
+
+        .trait-status .ub {
+            width: 7px;
+            height: 7px;
+            border: 1px solid var(--border);
+            background: var(--mid);
+        }
+
+        .trait-status .ul {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 4.5pt;
+            color: var(--text-muted);
+        }
+
+        /* ======================================================  XP / CREDITS / CELL RANK  */
+        .xc-block {
+            background: var(--mid);
+            border: 1px solid var(--border);
+            padding: 1.5mm 2mm;
+        }
+
+        .xc-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1mm;
+        }
+
+        .xc-value {
+            border-bottom: 2px solid var(--accent-dim);
+            min-height: 7mm;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 17pt;
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        .rank-field {
+            display: flex;
+            align-items: center;
+            gap: 3mm;
+            padding: 2mm 2.5mm;
+        }
+
+        .rank-box {
+            width: 12mm;
+            height: 12mm;
+            border: 2px solid var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 20pt;
+            font-weight: 900;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .rank-ladder {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+            line-height: 1.7;
+        }
+
+        /* ======================================================  EQUIPMENT (one column)  */
+        .eq-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .eq-table th {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 1mm 2mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .eq-table td {
+            padding: 1.5mm 2mm;
+            border-bottom: 1px solid var(--border);
+            vertical-align: bottom;
+        }
+
+        .eq-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .eq-table .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 4mm;
+        }
+
+        /* load tally at bottom of equipment */
+        .load-tally {
+            background: var(--mid);
+            border-top: 2px solid var(--accent-dim);
+            padding: 2mm 2.5mm;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 3mm;
+            align-items: center;
+        }
+
+        .lt-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+        }
+
+        .lt-formula {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+        }
+
+        .lt-value {
+            border-bottom: 2px solid var(--accent-dim);
+            min-width: 18mm;
+            height: 7mm;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 14pt;
+            font-weight: 900;
+            color: var(--accent);
+            text-align: right;
+        }
+
+        /* ======================================================  NOTES  */
+        .note-line {
+            border-bottom: 1px solid var(--border);
+            height: 7mm;
+        }
+
+        /* ======================================================  UTILITY  */
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, var(--accent-dim), transparent);
+            margin: 2mm 0;
+        }
+
+        .micro-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 1mm;
+        }
+
+        .page-foot {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.3em;
+            color: var(--text-muted);
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 3mm;
+        }
+
+        /* ======================================================  LAYOUT  */
+        .grid-main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3mm;
+            align-items: start;
+        }
+
+        .page-header-strip {
+            display: flex;
+            align-items: center;
+            gap: 3mm;
+            margin-bottom: 3mm;
+            padding-bottom: 1.5mm;
+            border-bottom: 2px solid var(--accent-dim);
+        }
+
+        .ph-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7.5pt;
+            letter-spacing: 0.3em;
+            color: var(--accent);
+            text-transform: uppercase;
+        }
+
+        .ph-div {
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+        }
+
+        .ph-right {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.5pt;
+            color: var(--text-dim);
+        }
+    </style>
+</head>
+<body>
+
+<!-- ████████████████████████  PAGE 1  ████████████████████████ -->
+<div class="page">
+
+    <!-- MASTHEAD -->
+    <div class="masthead">
+        <div class="mh-logo">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                <circle cx="12" cy="12" r="1.5"/>
+            </svg>
+            <span class="logo-text">Corsair</span>
+        </div>
+        <div class="mh-title">
+            <h1>Crew Sheet</h1>
+            <div class="sub">Flotilla Dossier · Corsair Record</div>
+        </div>
+        <div class="mh-name">
+            <label>Rank</label>
+            <div class="fl"></div>
+        </div>
+    </div>
+
+    <!-- IDENTITY ROW — first character creation choices -->
+    <div class="identity-row">
+        <div class="id-field">
+            <label>Cell Name</label>
+            <div class="fl"></div>
+        </div>
+        <div class="id-field">
+            <label>Ship Name</label>
+            <div class="fl"></div>
+        </div>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid-main">
+
+        <!-- ════ COLUMN 1 ════ -->
+        <div>
+            <!-- ATTRIBUTES -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="2" y="10" width="3" height="4"/>
+                        <rect x="19" y="10" width="3" height="4"/>
+                        <rect x="5" y="8" width="2" height="8"/>
+                        <rect x="17" y="8" width="2" height="8"/>
+                        <rect x="7" y="11" width="10" height="2"/>
+                    </svg>
+                    <h2>Ship Attributes</h2>
+                </div>
+                <div class="card-body">
+                    <div class="attr-group-label">Body</div>
+                    <div class="attr-row">
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Hull</div>
+                                <div class="attr-code">HLL</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Armor</div>
+                                <div class="attr-code">ARM</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attr-group-label">Engine</div>
+                    <div class="attr-row">
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Acceleration</div>
+                                <div class="attr-code">ACC</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Maneuvering</div>
+                                <div class="attr-code">MVR</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="attr-group-label">Systems</div>
+                    <div class="attr-row">
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Systems</div>
+                                <div class="attr-code">SYS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONDITION TRACKS -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                    <h2>Condition Tracks</h2>
+                </div>
+                <div class="card-body" style="padding: 1.5mm 2.5mm;">
+                    <div class="condition-section">
+                        <div style="display:flex;align-items:baseline;gap:2mm;margin-bottom:1mm;">
+                            <span class="ct-type-label phys"
+                                  style="font-size:6.5pt;padding:0.5mm 1.5mm;">⚡ Hull</span>
+                        </div>
+                        <div class="circles-row" style="gap:2mm;">
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="I"></div>
+                            </div>
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="II"></div>
+                            </div>
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="III"></div>
+                            </div>
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="IV"></div>
+                            </div>
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="V"></div>
+                            </div>
+                            <div class="condition-circle-wrap">
+                                <div class="condition-circle" data-num="VI"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ════ COLUMN 2 ════ -->
+        <div>
+            <!-- REPUTATION -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 20h9"/>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                    </svg>
+                    <h2>Reputation</h2>
+                </div>
+                <div class="card-body" style="padding:0;">
+                    <table class="skill-table">
+                        <thead>
+                        <tr>
+                            <th style="width:15%;">Rank</th>
+                            <th style="width:85%;text-align:center;">Rtg</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <div class="attr-name">Prestige</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="attr-name">S-Rank</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="attr-name">A-Rank</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="attr-name">B-Rank</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="attr-name">C-Rank</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="attr-name">D-Rank</div>
+                            </td>
+                            <td>
+                                <div class="pip-row">
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                    <div class="pip"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TRAITS -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    <h2>Internal Modules</h2>
+                </div>
+                <div class="card-body" style="padding:0;">
+                    <div class="trait-row" style="padding:1mm 2mm; font-size:5pt;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ul">U/M</div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                    <div class="trait-row" style="padding:1mm 2mm;">
+                        <div class="fl"></div>
+                        <div class="trait-status">
+                            <div class="ub"></div>
+                            <div class="ub"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- WEAPONS -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M18 6L6 18M8 6h10v10"/>
+                    </svg>
+                    <h2>Weapons</h2>
+                </div>
+                <div class="card-body" style="padding:0;">
+                    <table class="eq-table">
+                        <thead>
+                        <tr>
+                            <th style="width:20%;">Name</th>
+                            <th style="width:10%;">Type</th>
+                            <th style="width:50%;">Accuracy/Tracking</th>
+                            <th style="width:10%;">Dmg</th>
+                            <th style="width:10%;">Rof</th>
+                            <th style="width:10%;">Ammo</th>
+
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                            <td>
+                                <div class="fl"></div>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <!-- Credits & Supplies -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 6v6l4 2"/>
+                    </svg>
+                    <h2>Ship Fund & Supplies</h2>
+                </div>
+                <div class="card-body">
+                    <div class="xc-block" style="margin-bottom:2px;">
+                        <div class="xc-label">Ship Fund</div>
+                        <div class="xc-value"></div>
+                    </div>
+                    <div class="xc-block">
+                        <div class="xc-label">Supplies</div>
+                        <div class="xc-value" style="font-size:14pt;min-height:6mm;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /col3 -->
+</div>
+</body>
+</html>
