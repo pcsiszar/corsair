@@ -15,9 +15,9 @@ defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetra
 
 - **Accuracy**:
     * **Short Range:** 0–5 spaces or ~0–20m
-    * **Medium Range:** 6–12 spaces or ~20–50m
-    * **Long Range:** 13–20 spaces or ~50–100m
-    * **Extreme Range:** 20+ spaces or ~100m+
+    * **Medium Range:** 6–12 spaces or ~20–40m
+    * **Long Range:** 13–20 spaces or ~40–80m
+    * **Extreme Range:** 20+ spaces or ~80m+
 - **Rate of Fire (RoF)**: A limit to activating a total number of Crit and Split effects per attack equal to the
   weapon's **Rate of Fire** Attribute.
 - **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.

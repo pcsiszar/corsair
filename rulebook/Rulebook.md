@@ -364,8 +364,6 @@ Action Points to contribute to the collective effort. While players spending Act
 Test counts towards the 2AP per Turn limit, reaching the limit doesn't stop additional characters from participating.
 The turn will only end once the Teamwork Test has resolved.
 
-
-
 **Example:** The crew needs to get through a crowded checkpoint without drawing attention. The GM rules this will be a
 Teamwork action, requiring each character to make a Success Test to see how well they blend in.
 
@@ -404,6 +402,7 @@ skills,
 attributes, and traits will determine their success or failure.
 
 ### Character Creation
+
 Creating a character involves choosing a sponsor, heritage, and race, as well as distributing points to attributes and
 skills. For the full step-by-step process, see [Character Creation](character/Creation.md).
 
@@ -825,9 +824,9 @@ layers.
 #### Flying
 
 Flying is a type of movement that allows you to use your movement to move in the air, as if on solid ground.
-Ascending 2 meters is still considered to be difficult terrain even while flying; this means to rise 2
-meters, you still need to use 4 meters of your movement. Moving downwards or horizontally while flying uses your
-movement as if you were on solid ground.
+Ascending costs double; this means to ascend 2 meters, you need to use 4 meters of your movement. Moving downwards
+or horizontally while flying uses your movement as if you were on solid ground. You ignore Difficult Terrain while
+flying.
 
 During the turn you lose flight, you can remain in the space you occupy in the air until the end of the turn, and you
 fall to the ground at the end of the turn, taking falling damage if you fell more than 2 meters.

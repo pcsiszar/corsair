@@ -35,12 +35,12 @@ maximum value for any single Attribute at creation is 4. You can leave an Attrib
 
 The Exodrone has two distinct modes: Attached and Detached.
 
-* **Attached Mode:** When wearing the Exodrone, you can push your physical capabilities beyond their normal limits.
-  When you make a test involving **Strength**, **Agility**, or **Finesse**, the owner may choose to substitute their own Attribute
-  with the Exodrone's corresponding Attribute (Power, Speed, or Precision).
+* **Attached Mode:** While wearing the Exodrone, you can rely on it to do the heavy lifting for you.
+  When you make a test involving **Strength**, **Agility**, or **Finesse**, the owner may choose to substitute their own
+  Attribute with the Exodrone's corresponding Attribute (Power, Speed, or Precision).
 
-* **Detached Mode:** When the Exodrone is detached from you, you can command it at will. It can take actions using
-  Attributes. It can gain Action Points via skills, but can always use the Action Points of the Pilot.
+* **Detached Mode:** While the Exodrone is detached from you, you can command it at will. It can take actions using
+  its own Attributes. It can gain Action Points via skills, but can always use the Action Points of the Pilot.
 
 ## Exo-Skills
 
@@ -48,29 +48,33 @@ A Pilot customizes and trains with their Exodrone extensively, allowing them to 
 of the drone. These skills are unlocked via installable Modules, and you start out with a Basic Module, plus a module of
 your choice.
 
-You can activate an Exo-Skill at any time, and using them does not require Action Points.
+You can activate an Exo-Skill at any time.
+
+If a skill refers to the Exodrone without mentioning Attached or Detached Mode, if the Pilot is in Attached Mode, the
+Pilot is effectively considered as the Exodrone, from the skill's perspective, except that the skill will always use the
+Exodrone's Attributes, and not the Pilot's.
 
 ### Batteries
 
-The Exodrone's power source is its batteries carried on the back. They can contain up to a total amount of 10 Battery
-Charges. Certain skills require you to spend these Charges to power your abilities, but some also help you to better
-manage your battery power.
+The Exodrone's power source is its batteries carried on the back. They can contain up to a total number of 10 Batteries.
+Exo-Skills require you to spend these Batteries to power your abilities.
 
 Each skill will tell you how much it consumes. Some skills increase their cost the more they are used in the same
-Round (denoted with an $X$ in the cost, where $X$ is the number of times you used that skill in the round before).
+Round (denoted with an $X$ in the cost, where $X$ is the number of times you used that skill in the round before). If it
+is the first time using a skill in a round, $X$ is 0.
 
-You gain 2 Battery Charges at the beginning of the Round if the Exodrone is attached to you.
+You recharge two Batteries at the beginning of the Round if the Exodrone is attached to you.
 If you are in place-to-place or day-to-day pacing, you recharge your full Battery instead.
 
-When your Exodrone would take damage, it instead loses a Battery Charge for every 3 points of damage, rounded down.
-If it runs out of charges, it stops all functions until it gains a Charge and cannot be used until it regains at least 1
-Battery Charge.
+When your Exodrone would take damage, it instead loses a Battery for every 3 points of damage, rounded down.
+If it runs out of Batteries, it stops all functions until it recharges a Battery and cannot be used until it recharges
+at least one Battery.
 
 ## Skills
 
-#### Skill List
+You start with the Basic Module of Exo-Skills, and you unlock additional Modules as you progress in the class.
 
-Basic Module
+#### Basic Module
 
 | Name   | Battery Cost | Description                                              |
 |:-------|:-------------|:---------------------------------------------------------|
@@ -78,52 +82,52 @@ Basic Module
 | Pilot  | $4$          | Grant 1 AP to the Exodrone while it is in Detached Mode. |
 | Attach | $0$          | Attach the Exodrone while it is in the same space.       |
 
-Wingman Module
+#### Wingman Module
 
-| Name        | Battery Cost | Description                                                                                                                                                      |
-|:------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Boost       | $2 + 2X$     | The Exodrone gains +1 **Upgrade** to any one of its Attributes until the beginning of the next Player Turn.                                                      |
-| Twin Charge | 1            | The next time you take a Movement Action during the current turn, the Exodrone also takes a Movement Action for free.                                            |
-| Tag Team    | 3            | The next melee attack you make during the current turn, the Exodrone participates as a **Teamwork** Action for free, as long as it's detached and in the same space. |
+| Name        | Battery Cost | Description                                                                                                                 |
+|:------------|:-------------|:----------------------------------------------------------------------------------------------------------------------------|
+| Boost       | $2 + X$      | The Exodrone gains +1 **Upgrade** to any one of its Exodrone Attributes until the beginning of the next Player Turn.        |
+| Double Move | $2 + 2X$     | When yout take a Movement Action during the current turn, the Exodrone also takes a Movement Action for free.               |
+| Tag Team    | $3$          | While detached, the Exodrone participates in your action using **Teamwork** for free, as long as in the same space as  you. |
 
-Warden Module
+#### Warden Module
 
-| Name        | Battery Cost | Description                                                                                                                                                                                                                    |
-|:------------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Armor Up    | $1 + X$      | Gain +1 Protection until the end of the Round while in Attached Mode.                                                                                                                                                          |
-| Guard Duty  | $2 + X$      | Contest an attack against the Exodrone, without it costing AP. If the Exodrone is in Detached Mode, it can contest an attack against any creature in the same space.                                                           |
-| Shield Dome | $1 + X$      | While detached, the Exodrone reconfigures itself as a shield generator until the end of the turn, increasing the Cover Rating of its current space by +1. The only action it can take is revert to its standard mode for free. |
+| Name      | Battery Cost | Description                                                                                                                                                                                                                         |
+|:----------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Armadillo | $1 + X$      | Gain +1 Protection until the end of the Round while in Attached Mode.                                                                                                                                                               |
+| Guardian  | $2 + X$      | When the Exodrone would contest an attack, they can do so for free.                                                                                                                                                                 |
+| Barricade | $1 + X$      | While detached, the Exodrone reconfigures itself as deployable mobile cover until the end of the turn, increasing the Cover Rating of its current space by +1. The only action it can take is revert to its standard mode for free. |
 
-Duelist Module
+#### Duelist Module
 
 | Name          | Battery Cost | Description                                                                                                                                                                                                                                                                                                               |
 |:--------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Shadow Strike | $4$          | After successfully landing a melee attack, you can have the Exodrone land a follow-up attack, adding bonus damage to your attack equal to the corresponding Exodrone Attribute of any of your own Physical Attribute that you used when making the attack, as long as it is in Attached Mode or in the same space as you. |
 | Ripple Blades | $2$          | The Exodrone gains access to two wrist-mounted energy blades until the end of the round with the following profile: `Dmg: +3, Reach: 2`.                                                                                                                                                                                  |
-| Plasma Glaive | $3$          | The Exodrone gains access to a two-handed energy polearm until the end of the round with the following profile: `Dmg: +6, Reach: 4`.                                                                                                                                                                                        |
+| Plasma Glaive | $3$          | The Exodrone gains access to a two-handed energy polearm until the end of the round with the following profile: `Dmg: +6, Reach: 4`.                                                                                                                                                                                      |
 
-Arsenal Module
+#### Arsenal Module
 
-| Name           | Battery Cost | Description                                                                                                                                        |
-|:---------------|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name           | Battery Cost | Description                                                                                                                                         |
+|:---------------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Laser Rifle    | $3$          | The Exodrone gains access to a wrist-mounted plasma rifle until the end of the round with the following profile: `Acc: [3/2/1/-], Dmg: +2, RoF: 2`. |
 | Ion Cannon     | $3$          | The Exodrone can fire a single shot from a shoulder-mounted laser with the following profile: `Acc: [1/4/3/2], Dmg: +5, RoF: 0`.                    |
-| Plasma Grenade | $3$          | The Exodrone can lob a powerful grenade with the following profile: `Area Attack, Ordnance 4, 4m Radius`.                                         |
+| Plasma Grenade | $3$          | The Exodrone can lob a powerful grenade with the following profile: `Area Attack, Ordnance 4, 4m Radius`.                                           |
 
 Assault Module
 
-| Name          | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                   |
-|:--------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Full Throttle | $3$          | Until the end of the Player Turn, you can declare a melee attack against a creature 16 meters away from you and move into that creature's space as part of the attack.                                                                                                                                                                                        |
-| Spider Climb  | $1$          | Until the end of the round, you can stick to and move on any surface as if it were regular terrain.                                                                                                                                                                                                                                                            |
-| Jump Pack     | $3$          | On your next movement until the end of the Player Turn, you gain a Thrusters Attribute equal to your highest Exodrone Attribute. When you use your Thrusters to move, your base movement speed is 8 meters, you double the number of meters rolled in your movement action, and you can fly for your entire movement. You fall at the end of the Player Turn. |
+| Name          | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                            |
+|:--------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Full Throttle | $3$          | Until the end of the Player Turn, you can declare a melee attack against a creature 12 meters away from you and move into that creature's space as part of the attack.                                                                                                                                                                                                 |
+| Spider Climb  | $1$          | Until the end of the round, the Exodrone can stick to and move on any surface as if it were regular terrain.                                                                                                                                                                                                                                                           |
+| Jump Pack     | $3$          | On your next movement until the end of the Player Turn, the Exodrone gain a Thrusters Attribute equal to your highest Exodrone Attribute. When you use your Thrusters to move, your base movement speed is 8 meters, you double the number of meters rolled in your movement action, and you can fly for your entire movement. You fall at the end of the Player Turn. |
 
 Recon Module
 
-| Name           | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                                                               |
-|:---------------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sensor Suite   | $3$          | Until the end of the round, the Exodrone gains a fourth Exodrone Attribute called Sensors, which corresponds to Instinct. Its value is equal to the highest Exodrone Attribute out of Power, Speed, and Precision.                                                                                                                                                                                         |
-| Proximity Scan | $1$          | The Exodrone scans a 20-meter radius for either living creatures or electronic devices. You learn their approximate position and size, but nothing else.                                                                                                                                                                                                                                                  |
+| Name           | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:---------------|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sensor Suite   | $3$          | Until the end of the round, the Exodrone gains a fourth Exodrone Attribute called Sensors, which corresponds to Instinct. Its value is equal to the highest Exodrone Attribute out of Power, Speed, and Precision.                                                                                                                                                                                           |
+| Proximity Scan | $1$          | The Exodrone scans a 20-meter radius for either living creatures or electronic devices. You learn their approximate position and size, but nothing else.                                                                                                                                                                                                                                                     |
 | Omni Tool      | $3$          | While detached, the Exodrone reconfigures itself as an interfacing device. It attaches to a device, mechanical or electronic, and can force it to take actions that the device could otherwise take, including malfunctioning behavior. The Exodrone uses its highest Attribute for any tests to manipulate the device. The only other action the Exodrone can take is revert to its standard mode for free. |
 
 ### Seraph Module
@@ -131,7 +135,7 @@ Recon Module
 | Name         | Battery Cost | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |:-------------|:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | First Aid    | $1 + X$      | While the Exodrone is attached, it can heal 2 light wounds for the wearer for every Battery Charge spent. While detached, it can instead heal 2 light wounds for any creatures in the same space.                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Healer Darts | 2            | The Exodrone gains access to a wrist-mounted dartgun until the end of the round with the following profile: `Acc: [3/2/1/-], Dmg: 0, RoF: 0`. When these Darts hit their target, they heal 1 light wound for every 2 Success Points instead of dealing damage.                                                                                                                                                                                                                                                                                                                                                    |
+| Healer Darts | 2            | The Exodrone gains access to a wrist-mounted dartgun until the end of the round with the following profile: `Acc: [3/2/1/-], Dmg: 0, RoF: 0`. When these Darts hit their target, they heal 1 light wound for every 2 Success Points instead of dealing damage.                                                                                                                                                                                                                                                                                                                                                   |
 | Phoenix Egg  | 7            | While detached, the Exodrone reconfigures itself as a medical device. It attaches to a creature and can perform a special healing action, taking a Success Test using its highest Attribute and healing 1 light wound for every 2 Success Points or 1 aggravated wound for every 4 Success Points. Any damage the creature would take is instead taken by the Exodrone. This healing can also revive creatures that died during the current round. The only action the Exodrone can take is revert to its standard mode for free, and the creature cannot take any action while the Exodrone is attached at all. |
 
 ## Class Mods
@@ -141,26 +145,27 @@ replace your current mod with a different one you own during your day-to-day.
 
 ### Extra Battery
 
-**Effect**: The max number of Battery Charges you can hold is increased to 12.
+**Effect**: The max number of Batteries you can hold is increased to 12.
 
-### Protective Coating
+### Remote Charging
 
-**Effect**: The Exodrone loses 1 Battery Charge for every 4 points of damage it receives instead of 3.
+**Effect**: The Exodrone loses one Battery for every 4 points of damage it receives instead of 3 and can gaine Batteries
+even in detached mode.
 
 ### Biomechanical Dynamo
 
 **Effect**: While in Attached Mode, you may sacrifice **Hits** on any test that uses your own Physical Attributes to
-increase your Battery Charges by 1 for each **Hit**.
+increase your Battery by 1 for each **Hit** you sacrifice.
 
-### Hydraulics Tuning
+### Turbo Boost
 
-**Effect**: Choose Power, Speed, or Precision. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify the
-selected Attribute during your day-to-day.
+**Effect**: After using an Exodrone Skill, any test using a chosen Exodrone Attribute gains +1 Upgrade until the end of
+the Player Turn.
 
-### Charge Recycling
+### Charger Mode
 
-**Effect**: Every subsequent skill use during a single Player Turn costs 1 Battery Charge less if it's the first time
-you used the skill during the round.
+**Effect**: If you didn't use a skill that requires a Battery and didn't use the Exodrone's Attributes on any
+test, you regain two more Batteries at the end of the Round.
 
 ## Progression
 
