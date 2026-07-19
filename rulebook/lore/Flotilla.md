@@ -9,8 +9,11 @@ peacekeeping force to protect the trade lanes and maintain order between the moo
 ### The Charter and the Admiralty Board
 
 The Flotilla operates under the **Skyline Accords**, which establish its jurisdiction over orbital space while
-recognizing the sovereignty of planetary governments within their gravity wells. It is governed by the
-**Admiralty Board**, a council of senior officers and planetary representatives based at **Redmane Station**.
+recognizing the sovereignty of planetary governments within their gravity wells. 
+
+Daily operations and military command are governed by the **Admiralty Board**, a council of senior officers based at **Redmane Station**. However, to ensure the Flotilla remains accountable to the worlds it protects, the Admiralty Board must answer to the **High Council**. 
+
+The High Council is a political body composed of delegates from all the colonized moons and major colonial interests. This assembly holds legislative authority over the Flotilla’s budget, mandate, and long-term deployment strategies. Through the High Council, the colonies have a direct say in Flotilla policy, treaty negotiations, and any changes to the founding **Charter**, preventing the military organization from acting unilaterally or encroaching on planetary sovereignty.
 
 The founding **Charter** defines the Flotilla as the primary defense for the Sphere-born. It operates as a
 corporate-military state where all orbital activity—including transit, mining, and research—is regulated and funded

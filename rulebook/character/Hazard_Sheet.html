@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Hazard Class Sheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+        /* ======================================================  TOKENS  */
+        :root {
+            --black: #080a0c;
+            --dark: #10131a;
+            --mid: #181c24;
+            --surface: #1d2130;
+            --border: #2a3040;
+            --accent: #c8a84b;
+            --accent-dim: #7a6428;
+            --red: #a02828;
+            --text: #ccc7ba;
+            --text-dim: #6a6458;
+            --text-muted: #3e3c36;
+            --stripe: rgba(200, 168, 75, 0.03);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 8.2pt;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: var(--black);
+            color: var(--text);
+            line-height: 1.25;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @page {
+            size: A4;
+            margin: 4mm;
+        }
+
+        @media print {
+            body {
+                background: #ffffff !important;
+            }
+
+            :root {
+                --black: #ffffff;
+                --dark: #ffffff;
+                --mid: #ffffff;
+                --surface: #ffffff;
+                --border: #888888;
+                --accent: #000000;
+                --accent-dim: #333333;
+                --red: #8b1a1a;
+                --text: #000000;
+                --text-dim: #333333;
+                --text-muted: #666666;
+                --stripe: transparent;
+            }
+
+            .page {
+                background: #ffffff !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none !important;
+            }
+
+            .page::before {
+                display: none !important;
+            }
+
+            .mh-logo {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid #000000 !important;
+                clip-path: none !important;
+                padding-right: 5mm !important;
+                min-width: unset !important;
+            }
+
+            .mh-logo svg {
+                fill: #000000 !important;
+            }
+
+            .card-hd {
+                border-bottom-width: 1px !important;
+            }
+
+            .card-hd svg {
+                fill: #000000 !important;
+            }
+
+            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub {
+                background: #ffffff !important;
+                border-color: #000000 !important;
+            }
+
+            .skill-table th {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-bottom: 1px solid #000000 !important;
+            }
+
+            .fl, .note-line {
+                border-bottom-color: #888888 !important;
+            }
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 4mm;
+            padding: 4mm 5mm;
+            background: var(--dark);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-size: 18px 18px;
+            pointer-events: none;
+        }
+
+        .masthead {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 3mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .mh-logo {
+            background: var(--accent);
+            color: var(--black);
+            padding: 3mm 5mm 3mm 4mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
+            padding-right: 13mm;
+            min-width: 22mm;
+        }
+
+        .mh-logo svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--black);
+        }
+
+        .mh-logo .logo-text {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 6pt;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .mh-title {
+            padding: 2.5mm 4mm;
+            flex: 1;
+        }
+
+        .mh-title h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 16pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .mh-title .sub {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 7.5pt;
+            letter-spacing: 0.28em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .mh-name {
+            border-left: 1px solid var(--border);
+            padding: 2.5mm 3.5mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 64mm;
+        }
+
+        .mh-name label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1mm;
+        }
+
+        .mh-name .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 5.5mm;
+        }
+
+        .identity-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2px;
+            margin-bottom: 3mm;
+        }
+
+        .id-field {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 2mm 2.5mm 1.5mm;
+        }
+
+        .id-field label {
+            display: block;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            color: var(--accent-dim);
+            text-transform: uppercase;
+            margin-bottom: 1mm;
+        }
+
+        .id-field .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 5mm;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            margin-bottom: 2.5mm;
+        }
+
+        .card-hd {
+            background: var(--mid);
+            border-bottom: 2px solid var(--accent-dim);
+            padding: 1.5mm 2.5mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .card-hd svg {
+            width: 11px;
+            height: 11px;
+            fill: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card-hd h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8.5pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            flex: 1;
+        }
+
+        .card-body {
+            padding: 2mm 2.5mm;
+        }
+
+        .attr-group-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 1.5mm;
+            padding-bottom: 0.5mm;
+        }
+
+        .attr-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2px;
+            margin-bottom: 1.5mm;
+        }
+
+        .attr-block {
+            background: var(--mid);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 1.5mm;
+            padding: 1.2mm 1.5mm;
+        }
+
+        .attr-box {
+            width: 8mm;
+            height: 8mm;
+            border: 2px solid var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 13pt;
+            font-weight: 900;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .attr-meta {
+            flex: 1;
+        }
+
+        .attr-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text);
+        }
+
+        .attr-code {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+        }
+
+        .gambit-slots {
+            display: flex;
+            gap: 3mm;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1.5mm 0;
+        }
+
+        .g-slot {
+            width: 10mm;
+            height: 10mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
+            position: relative;
+        }
+
+        .gambit-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .skill-table th {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 1.5mm 2mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .skill-table td {
+            border-bottom: 1px solid var(--border);
+            padding: 2mm 2.2mm;
+            vertical-align: top;
+        }
+
+        .skill-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .pip-row {
+            display: flex;
+            gap: 2px;
+            justify-content: center;
+        }
+
+        .pip {
+            width: 8px;
+            height: 14px;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, var(--accent-dim), transparent);
+            margin: 2mm 0;
+        }
+
+        .xc-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1.2mm;
+        }
+
+        .rules-text {
+            font-family: 'Barlow', sans-serif;
+            font-size: 7.2pt;
+            color: var(--text);
+            line-height: 1.3;
+        }
+
+        .rules-text p {
+            margin-bottom: 1.5mm;
+        }
+
+        .rules-text ul {
+            margin-left: 4.5mm;
+            margin-bottom: 1.5mm;
+        }
+
+        .rules-text li {
+            margin-bottom: 0.5mm;
+        }
+
+        .grid-main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3.5mm;
+            align-items: start;
+        }
+
+        .page-foot {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.3em;
+            color: var(--text-muted);
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: auto;
+            padding-top: 3mm;
+        }
+
+        .checkbox-cell {
+            width: 5%;
+            text-align: center;
+            vertical-align: middle !important;
+        }
+
+        .checkbox-box {
+            width: 3.5mm;
+            height: 3.5mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            margin: 0 auto;
+        }
+
+        .skill-name-col {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 8pt;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        .skill-cost {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.5pt;
+            color: var(--text-dim);
+            margin-top: 0.5mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    <circle cx="12" cy="12" r="1.5" />
+                </svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Class Sheet: The Hazard</h1>
+                <div class="sub">Flotilla Dossier · Specialization Record</div>
+            </div>
+            <div class="mh-name">
+                <label>Agent Name</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- IDENTITY ROW -->
+        <div class="identity-row">
+            <div class="id-field">
+                <label>Player Name</label>
+                <div class="fl"></div>
+            </div>
+            <div class="id-field">
+                <label>Class Level <span class="lt-formula">[1 to 5]</span></label>
+                <div class="fl"></div>
+            </div>
+            <div class="id-field">
+                <label>Active Class Mods</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- MAIN GRID -->
+        <div class="grid-main">
+
+            <!-- COLUMN 1: RULES & ATTRIBUTES -->
+            <div>
+                <!-- ATTRIBUTES CARD -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="2" y="10" width="3" height="4" />
+                            <rect x="19" y="10" width="3" height="4" />
+                            <rect x="5" y="8" width="2" height="8" />
+                            <rect x="17" y="8" width="2" height="8" />
+                            <rect x="7" y="11" width="10" height="2" />
+                        </svg>
+                        <h2>Hazard Attributes</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="attr-row">
+                            <div class="attr-block">
+                                <div class="attr-box"></div>
+                                <div class="attr-meta">
+                                    <div class="attr-name">Venom</div>
+                                    <div class="attr-code">VNM (Debilitation)</div>
+                                </div>
+                            </div>
+                            <div class="attr-block">
+                                <div class="attr-box"></div>
+                                <div class="attr-meta">
+                                    <div class="attr-name">Hazard</div>
+                                    <div class="attr-code">HZD (Immediate Force)</div>
+                                </div>
+                            </div>
+                            <div class="attr-block">
+                                <div class="attr-box"></div>
+                                <div class="attr-meta">
+                                    <div class="attr-name">Serum</div>
+                                    <div class="attr-code">SRM (Restoration)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRESSURE & VOLATILE DIE -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                        <h2>Catalyst Chamber</h2>
+                    </div>
+                    <div class="card-body">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <div class="xc-label">Pressure Level</div>
+                                <div style="display: flex; gap: 2.5mm; margin-top: 1mm;">
+                                    <div class="attr-box" style="width:7mm; height:7mm; font-size:9pt;" title="Pressure 0">0</div>
+                                    <div class="attr-box" style="width:7mm; height:7mm; font-size:9pt;" title="Pressure 1">1</div>
+                                    <div class="attr-box" style="width:7mm; height:7mm; font-size:9pt;" title="Pressure 2">2</div>
+                                    <div class="attr-box" style="width:7mm; height:7mm; font-size:9pt;" title="Pressure 3">3</div>
+                                </div>
+                            </div>
+                            <div style="text-align: right;">
+                                <div class="xc-label">Volatile Die</div>
+                                <div class="attr-box" style="width:16mm; height:8mm; font-size:9pt; margin-top: 1mm;" title="Volatile Die">No/d8/d10/d12</div>
+                            </div>
+                        </div>
+                        <div class="gambit-note" style="margin-top: 2.5mm;">Pressure 1 = d8 · Pressure 2 = d10 · Pressure 3 = d12</div>
+                    </div>
+                </div>
+
+                <!-- BASIC MECHANICS CARD -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="12" y1="16" x2="12" y2="12"/>
+                            <line x1="12" y1="8" x2="12.01" y2="8"/>
+                        </svg>
+                        <h2>Core Mechanics</h2>
+                    </div>
+                    <div class="card-body rules-text">
+                        <p><strong>Pressure:</strong> Skills adjust Pressure up/down. Pressure cannot exceed bounds (0-3). Higher pressure scales Volatile Die.</p>
+                        <p><strong>Volatile Die:</strong> Add to any Hazard Attribute test. If Volatile Die rolls a <strong>Hit</strong>, take 2 damage and reroll the Volatile Die to reset Pressure:</p>
+                        <ul>
+                            <li>1-3: Pressure 3 | 4-6: Pressure 2</li>
+                            <li>7-9: Pressure 1 | 10-12: Pressure 0</li>
+                        </ul>
+                        <p><strong>Baseline Actions (No Skill required):</strong></p>
+                        <ul>
+                            <li><strong>Venom (Apply Downgrade):</strong> Melee attack. Hits create Downgrades (permanent until cleared). Max active = Venom Attribute.</li>
+                            <li><strong>Hazard (Melee Attack):</strong> Melee attack in own space. Immediate damage force.</li>
+                            <li><strong>Serum (Apply Upgrade):</strong> Success Test. SP establishes permanent Upgrade. Max active = Serum Attribute.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 2: SKILLS & MODS -->
+            <div>
+                <div class="card" style="margin-bottom: 2mm;">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                        </svg>
+                        <h2>Hazard Kits &amp; Formulas</h2>
+                    </div>
+                    <div class="card-body" style="padding: 0;">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th class="checkbox-cell">Lrn</th>
+                                    <th style="width: 25%;">Kit Skills</th>
+                                    <th style="width: 70%;">Formulas &amp; Chemical Reactions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Medic Kit</div>
+                                        <div class="skill-cost">First Aid (-1 Prs)</div>
+                                        <div class="skill-cost">Regen (+2 Prs)</div>
+                                        <div class="skill-cost">Defib (+1 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>First Aid:</strong> Heal (1 LW per 2 SP) + Pressure on target in same space.<br/>
+                                        <strong>Regenerator:</strong> Simple Test. Hits give target deferred healing of Serum value when hit.<br/>
+                                        <strong>Defibrillator:</strong> Unconscious: restore target (1 LW per 2 SP) + Pressure (Agg). Conscious: Hazard melee attack + Pressure Dmg.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Booster Kit</div>
+                                        <div class="skill-cost">Micro (+1 Prs)</div>
+                                        <div class="skill-cost">Max Eff (-2 Prs)</div>
+                                        <div class="skill-cost">Adren (-3 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Micro-Booster:</strong> Add Volatile Die to all tests in space for a creature's action.<br/>
+                                        <strong>Maximum Effort:</strong> Hits give targets +1 Upgrade on all tests using at least 1 Hit.<br/>
+                                        <strong>Adrenaline Rush:</strong> Simple Test. Hits grant 1 temporary AP to targets.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Poison Kit</div>
+                                        <div class="skill-cost">Envenom (+1 Prs)</div>
+                                        <div class="skill-cost">Decay (-3 Prs)</div>
+                                        <div class="skill-cost">Cloud (+3 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Envenom:</strong> Melee attack using Venom. +1 Dmg per Pressure. Apply Venom Downgrades.<br/>
+                                        <strong>Decay:</strong> Venom Success Test. Consumes active Venom Downgrades to deal result in damage.<br/>
+                                        <strong>Cloudkill:</strong> Grenade (Short Range). Hits apply 1 level of Venom Downgrade to all in 4m radius. Blocks sight.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Pyro Kit</div>
+                                        <div class="skill-cost">Firebolt (+1 Prs)</div>
+                                        <div class="skill-cost">Flamestrike (+2)</div>
+                                        <div class="skill-cost">Ward (-3 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Firebolt:</strong> Short Range ranged attack using Hazard. +1 Dmg per Pressure level.<br/>
+                                        <strong>Flamestrike:</strong> Hazard Success Test in space. Dmg to all = result + Pressure level.<br/>
+                                        <strong>Flame Ward:</strong> Free contest. Attacker takes damage = highest remaining die rolled.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Caustic Kit</div>
+                                        <div class="skill-cost">Spray (+2 Prs)</div>
+                                        <div class="skill-cost">Bullets (+1 Prs)</div>
+                                        <div class="skill-cost">Trail (-2 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Corrosive Spray:</strong> Venom melee. Sacrifice hits to permanently reduce target's Protection by 1.<br/>
+                                        <strong>Caustic Bullets:</strong> Firearm attack. Ignores all Physical Protection but loses standard weapon damage bonus.<br/>
+                                        <strong>Acid Trail:</strong> Move. Deal Hazard Dmg to all passed creatures. Reduce Cover Ratings by 1.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Ooze Kit</div>
+                                        <div class="skill-cost">Rubberband (+2)</div>
+                                        <div class="skill-cost">Slimeball (-2)</div>
+                                        <div class="skill-cost">Trail (-1 Prs)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Rubberband:</strong> Move target closer (4m per hit). Serum Success Roll to damage on overlap.<br/>
+                                        <strong>Slimeball:</strong> Venom ranged. Sacrifice hits to lock target's legs or hands.<br/>
+                                        <strong>Trailblazer:</strong> Move using Serum. All traversed spaces become difficult terrain for round.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- CLASS MODS CARD -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                        <h2>Class Modifications</h2>
+                    </div>
+                    <div class="card-body" style="padding: 0;">
+                        <table class="skill-table">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Adaptive Reagent</td>
+                                    <td class="rules-text">Can target creatures in space who have active Upgrades/Downgrades created by you.</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Burst Dampener</td>
+                                    <td class="rules-text">Take only 1 damage on Volatile Die hit. Modify Volatile resets by +/- 1.</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Redline Engine</td>
+                                    <td class="rules-text">Can exceed max Pressure level. Take 2 damage per extra level; roll d10 Volatile reset.</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Dart Launcher</td>
+                                    <td class="rules-text">In-space skills can target 1 space away. Melee triggers become Short Range attacks.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="page-foot">
+            Corsair RPG · Hazard Class Sheet · System Document
+        </div>
+    </div>
+</body>
+
+</html>

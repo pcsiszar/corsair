@@ -135,12 +135,11 @@ attacks.
 **BindWeave**: Your nanites gain the ability to stick to any surface they touch, and this effect can be toggled on and
 off at your will.
 
-- **BindWeave Infusion (Create)**: Any item you create can now turn its surface sticky. You roll Create for any
-  downgrade or blocker effect this might create.
-- **BindWeave Coating (Modify)**: You coat the surface of a creature or object no larger than a standard-sized
-  creature's handprint, with fingers extended, making it stick, costing 1 Reserve. If you wish to use this as a
-  Downgrade or Blocker effect, roll Modify for any downgrade or
-  blocker effect this might create. The target must be in the same space as you.
+- **BindWeave Infusion (Create)**: Any item you create can now turn its surface or parts of its surface sticky on
+  demand. You roll Create for any effect you wish to create with this capability.
+- **BindWeave Coating (Modify)**: You coat the surface an item or a creature you are holding in an area no larger than
+  two of your handprints. You can turn the surface or parts of it sticky with your nanites on demand. You roll Modify
+  for any effect you wish to create with this capability.
 - **BindWeave Yank (Control)**: Your nanites, even in their primal form, can be used to yank a creature or object. For 1
   **Reserve** that recharges at the end of the round, you roll a **Success Test** or **Complex Test** with Control +
   Control depending on whether the creature wants to be willingly moved or not. For every 2 Success Points, the target

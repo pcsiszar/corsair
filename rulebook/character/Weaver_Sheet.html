@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Weaver Class Sheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+        /* ======================================================  TOKENS  */
+        :root {
+            --black: #080a0c;
+            --dark: #10131a;
+            --mid: #181c24;
+            --surface: #1d2130;
+            --border: #2a3040;
+            --accent: #c8a84b;
+            --accent-dim: #7a6428;
+            --accent2: #5b8fa8;
+            --accent2-dim: #345a6b;
+            --red: #a02828;
+            --text: #ccc7ba;
+            --text-dim: #6a6458;
+            --text-muted: #3e3c36;
+            --stripe: rgba(200, 168, 75, 0.03);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 8.2pt;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: var(--black);
+            color: var(--text);
+            line-height: 1.25;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @page {
+            size: A4;
+            margin: 4mm;
+        }
+
+        @media print {
+            body {
+                background: #ffffff !important;
+            }
+
+            :root {
+                --black: #ffffff;
+                --dark: #ffffff;
+                --mid: #ffffff;
+                --surface: #ffffff;
+                --border: #888888;
+                --accent: #000000;
+                --accent-dim: #333333;
+                --accent2: #333333;
+                --accent2-dim: #555555;
+                --red: #8b1a1a;
+                --text: #000000;
+                --text-dim: #333333;
+                --text-muted: #666666;
+                --stripe: transparent;
+            }
+
+            .page {
+                background: #ffffff !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none !important;
+            }
+
+            .page::before {
+                display: none !important;
+            }
+
+            .mh-logo {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid #000000 !important;
+                clip-path: none !important;
+                padding-right: 5mm !important;
+                min-width: unset !important;
+            }
+
+            .mh-logo svg {
+                fill: #000000 !important;
+            }
+
+            .card-hd {
+                border-bottom-width: 1px !important;
+            }
+
+            .card-hd svg {
+                fill: #000000 !important;
+            }
+
+            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub, .tier-cost, .die-footprint, .die-pip {
+                background: #ffffff !important;
+                border-color: #000000 !important;
+            }
+
+            .skill-table th {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-bottom: 1px solid #000000 !important;
+            }
+
+            .fl, .note-line {
+                border-bottom-color: #888888 !important;
+            }
+
+            .method-badge {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-color: #000000 !important;
+            }
+
+            .rule-box, .rule-box.accent-red {
+                border-left-color: #000000 !important;
+                background: #ffffff !important;
+            }
+
+            .weave-group-end td {
+                border-bottom: 1.5px solid #000000 !important;
+            }
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto 4mm;
+            padding: 4mm 5mm;
+            background: var(--dark);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-size: 18px 18px;
+            pointer-events: none;
+        }
+
+        .masthead {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 3mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .mh-logo {
+            background: var(--accent);
+            color: var(--black);
+            padding: 3mm 5mm 3mm 4mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
+            padding-right: 13mm;
+            min-width: 22mm;
+        }
+
+        .mh-logo svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--black);
+        }
+
+        .mh-logo .logo-text {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 6pt;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .mh-title {
+            padding: 2.5mm 4mm;
+            flex: 1;
+        }
+
+        .mh-title h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 16pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .mh-title .sub {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 7.5pt;
+            letter-spacing: 0.28em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .mh-name {
+            border-left: 1px solid var(--border);
+            padding: 2.5mm 3.5mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 64mm;
+        }
+
+        .mh-name label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1mm;
+        }
+
+        .mh-name .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 5.5mm;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            margin-bottom: 2.5mm;
+        }
+
+        .card-hd {
+            background: var(--mid);
+            border-bottom: 2px solid var(--accent-dim);
+            padding: 1.5mm 2.5mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .card-hd svg {
+            width: 11px;
+            height: 11px;
+            fill: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card-hd h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8.5pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            flex: 1;
+        }
+
+        .card-body {
+            padding: 2mm 2.5mm;
+        }
+
+        .attr-group-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 1.5mm;
+            padding-bottom: 0.5mm;
+        }
+
+        .attr-row {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2px;
+            margin-bottom: 1.5mm;
+        }
+
+        .attr-block {
+            background: var(--mid);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 1.5mm;
+            padding: 1.2mm 1.5mm;
+        }
+
+        .attr-box {
+            width: 8mm;
+            height: 8mm;
+            border: 2px solid var(--accent-dim);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 13pt;
+            font-weight: 900;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .attr-meta {
+            flex: 1;
+        }
+
+        .attr-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text);
+        }
+
+        .attr-code {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+        }
+
+        .gambit-slots {
+            display: flex;
+            gap: 3mm;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1.5mm 0;
+        }
+
+        .g-slot {
+            width: 10mm;
+            height: 10mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
+            position: relative;
+        }
+
+        .gambit-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .skill-table th {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 1.5mm 2mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .skill-table td {
+            border-bottom: 1px solid var(--border);
+            padding: 1.6mm 2.2mm;
+            vertical-align: top;
+        }
+
+        .skill-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .pip-row {
+            display: flex;
+            gap: 2px;
+            justify-content: center;
+        }
+
+        .pip {
+            width: 8px;
+            height: 14px;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .die-footprint {
+            width: 12mm;
+            height: 12mm;
+            margin-top: 1mm;
+            border: 1.5px solid var(--accent-dim);
+            background: var(--surface);
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 0.9mm;
+            padding: 1.3mm;
+        }
+
+        .die-pip {
+            border: 1px solid var(--accent-dim);
+            border-radius: 50%;
+            background: var(--mid);
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, var(--accent-dim), transparent);
+            margin: 2mm 0;
+        }
+
+        .xc-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 1.2mm;
+        }
+
+        .rules-text {
+            font-family: 'Barlow', sans-serif;
+            font-size: 7.2pt;
+            color: var(--text);
+            line-height: 1.3;
+        }
+
+        .rules-text p {
+            margin-bottom: 1.5mm;
+        }
+
+        .rules-text ul {
+            margin-left: 4.5mm;
+            margin-bottom: 1.5mm;
+        }
+
+        .rules-text li {
+            margin-bottom: 0.5mm;
+        }
+
+        .grid-main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3.5mm;
+            align-items: start;
+        }
+
+        .page-foot {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            letter-spacing: 0.3em;
+            color: var(--text-muted);
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: auto;
+            padding-top: 3mm;
+        }
+
+        .checkbox-cell {
+            width: 5%;
+            text-align: center;
+            vertical-align: middle !important;
+        }
+
+        .checkbox-box {
+            width: 3.5mm;
+            height: 3.5mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            margin: 0 auto;
+        }
+
+        .skill-name-col {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 8pt;
+            text-transform: uppercase;
+            color: var(--accent);
+            vertical-align: middle !important;
+        }
+
+        .skill-cost {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.5pt;
+            color: var(--text-dim);
+            margin-top: 0.5mm;
+            text-align: center;
+            vertical-align: middle !important;
+        }
+
+        /* ===================================================  NANITE ACTIONS  */
+        .tier-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1mm;
+            margin-bottom: 2.2mm;
+        }
+
+        .tier-row {
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+            background: var(--mid);
+            border: 1px solid var(--border);
+            padding: 1.2mm 2mm;
+        }
+
+        .tier-cost {
+            width: 6.5mm;
+            height: 6.5mm;
+            flex-shrink: 0;
+            border: 1.5px solid var(--accent);
+            color: var(--accent);
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 8.5pt;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--surface);
+        }
+
+        .tier-desc {
+            font-size: 7pt;
+            color: var(--text);
+            flex: 1;
+        }
+
+        .tier-load {
+            color: var(--text-dim);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6pt;
+        }
+
+        .rule-box {
+            border-left: 2px solid var(--accent-dim);
+            background: var(--mid);
+            padding: 1.2mm 2.2mm;
+            margin-bottom: 1.5mm;
+        }
+
+        .rule-box:last-child {
+            margin-bottom: 0;
+        }
+
+        .rule-box-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            font-weight: 700;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.6mm;
+        }
+
+        .rule-box p {
+            font-size: 7pt;
+            color: var(--text);
+            line-height: 1.32;
+        }
+
+        .rule-box.accent-red {
+            border-left-color: var(--red);
+        }
+
+        .rule-box.accent-red .rule-box-label {
+            color: var(--red);
+        }
+
+        /* ===================================================  METHOD BADGES  */
+        .method-badge {
+            display: inline-block;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 6pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 0.6mm 1.6mm;
+            border: 1px solid;
+            white-space: nowrap;
+        }
+
+        .method-badge.create {
+            color: var(--accent);
+            border-color: var(--accent-dim);
+            background: rgba(200, 168, 75, 0.08);
+        }
+
+        .method-badge.modify {
+            color: var(--accent2);
+            border-color: var(--accent2-dim);
+            background: rgba(91, 143, 168, 0.08);
+        }
+
+        .method-badge.control {
+            color: var(--red);
+            border-color: var(--red);
+            background: rgba(160, 40, 40, 0.08);
+        }
+
+        .weave-table td {
+            vertical-align: middle;
+        }
+
+        .weave-table .method-cell {
+            width: 13%;
+            text-align: center;
+        }
+
+        .weave-group-end td {
+            border-bottom: 1.5px solid var(--accent-dim);
+        }
+    </style>
+</head>
+
+<body>
+<div class="page">
+    <!-- MASTHEAD -->
+    <div class="masthead">
+        <div class="mh-logo">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                <circle cx="12" cy="12" r="1.5" />
+            </svg>
+            <span class="logo-text">Corsair</span>
+        </div>
+        <div class="mh-title">
+            <h1>Class Sheet: The Weaver</h1>
+            <div class="sub">Flotilla Dossier · Specialization Record</div>
+        </div>
+        <div class="mh-name">
+            <label>Agent Name</label>
+            <div class="fl"></div>
+        </div>
+    </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid-main">
+
+        <!-- COLUMN 1: RULES & ATTRIBUTES -->
+        <div>
+            <!-- ATTRIBUTES CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="2" y="10" width="3" height="4" />
+                        <rect x="19" y="10" width="3" height="4" />
+                        <rect x="5" y="8" width="2" height="8" />
+                        <rect x="17" y="8" width="2" height="8" />
+                        <rect x="7" y="11" width="10" height="2" />
+                    </svg>
+                    <h2>Weaver Attributes</h2>
+                </div>
+                <div class="card-body">
+                    <div class="attr-row">
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Create</div>
+                                <div class="attr-code">CRT (Craft items)</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Control</div>
+                                <div class="attr-code">CTL (Manipulate)</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Modify</div>
+                                <div class="attr-code">MDF (Alter items)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESERVOIR -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    </svg>
+                    <h2>Nanite Reservoir</h2>
+                </div>
+                <div class="card-body">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <div class="xc-label">Stowed Reserve (Start 3)</div>
+                            <div class="die-footprint">
+                                <div class="die-pip"></div>
+                                <div class="die-pip"></div>
+                                <div class="die-pip"></div>
+                                <div class="die-pip"></div>
+                                <div class="die-pip"></div>
+                                <div class="die-pip"></div>
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="xc-label">Max Reserve</div>
+                            <div class="attr-box" style="width: 9mm; height: 9mm; margin: 1mm 0 0 auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BASIC MECHANICS CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="16" x2="12" y2="12"/>
+                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                    </svg>
+                    <h2>Nanite Actions</h2>
+                </div>
+                <div class="card-body">
+                    <div class="xc-label" style="margin-bottom: 1mm;">Reserve Costs</div>
+                    <div class="tier-grid">
+                        <div class="tier-row">
+                            <div class="tier-cost">1</div>
+                            <div class="tier-desc">Handheld tools, rope, grapple hook <span class="tier-load">(Load 1–2)</span></div>
+                        </div>
+                        <div class="tier-row">
+                            <div class="tier-cost">2</div>
+                            <div class="tier-desc">Ladder, chair, clothing, blanket <span class="tier-load">(Load 3–4)</span></div>
+                        </div>
+                        <div class="tier-row">
+                            <div class="tier-cost">3</div>
+                            <div class="tier-desc">Bench, thick 1m x 1m wall, space suit <span class="tier-load">(Load 5–6)</span></div>
+                        </div>
+                    </div>
+                    <div class="rule-box">
+                        <div class="rule-box-label">Restrictions</div>
+                        <p>Weapons, armor, cover, and healing items are off-limits unless unlocked via Weave skills. Creations/modifications have 0 Load. Action range is your current space.</p>
+                    </div>
+                    <div class="rule-box accent-red">
+                        <div class="rule-box-label">Disassembly</div>
+                        <p>Command creations to disassemble at any time for free to instantly regain spent Reserve.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CLASS MODS CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    <h2>Class Modifications</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table">
+                        <thead>
+                        <tr>
+                            <th class="checkbox-cell">Act</th>
+                            <th style="width: 26%;">Mod</th>
+                            <th>Effect</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col">Extra Reserve</td>
+                            <td class="rules-text">You gain +1 Reserve.</td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col">Prime Weave</td>
+                            <td class="rules-text">Choose a learned Weave. Any test using it gains +1 Upgrade. Reassignable day-to-day.</td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col">Favored Method</td>
+                            <td class="rules-text">Choose Create, Modify, or Control. Any test using it gains +1 Upgrade. Reassignable day-to-day.</td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col">Woven Bond</td>
+                            <td class="rules-text">Gain +1 Upgrade on any test using your Created or Modified equipment.</td>
+                        </tr>
+                        <tr>
+                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col">Weave Infusion</td>
+                            <td class="rules-text">Spend 1 extra Reserve on a Weave Success Test for +3 Success Points. Recharges with the original.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 2: WEAVES -->
+        <div>
+            <div class="card" style="margin-bottom: 2mm;">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                    </svg>
+                    <h2>Nanite Weaves</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table weave-table">
+                        <thead>
+                        <tr>
+                            <th class="checkbox-cell">Lrn</th>
+                            <th style="width: 16%;">Weave</th>
+                            <th style="width: 8%; text-align: center;">Res</th>
+                            <th style="width: 13%; text-align: center;">Method</th>
+                            <th>Effect</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!-- HardWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">HardWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Shield:</strong> Success Test. +1 Prot per 3 SP.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Armor:</strong> Success Test. +1 Armor Prot per 4 SP.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Block:</strong> 1 Res. Use Control for free contest roll.</td>
+                        </tr>
+
+                        <!-- SliceWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">SliceWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Blade:</strong> +1 Dmg or Reach per 2 SP.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Edge:</strong> Success Test. Weapon gains +1 Dmg/Reach per 3 SP.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Slash:</strong> Success Test. Deal Control + Control Dmg in adjacent space.</td>
+                        </tr>
+
+                        <!-- BoltWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">BoltWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Gun:</strong> +1 Acc (Short/Med) or +1 Dmg per 2 SP.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Bullet:</strong> +1 Acc (all ranges) or +1 Dmg per 3 SP.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Throw:</strong> Launch creation to deal Control Success Test Dmg (40m range).</td>
+                        </tr>
+
+                        <!-- FloatWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">FloatWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Infusion:</strong> Creation floats and moves with Control Hand.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Wings:</strong> Success Test. Target moves 2m/SP and hovers.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Hand:</strong> Success Test. Move target item (Load 2 max) 1m/SP.</td>
+                        </tr>
+
+                        <!-- BindWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">BindWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Infusion:</strong> Make creation sticky. Roll Create for Downgrades.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Coating:</strong> Handprint-size coating. Target sticks (Modify roll).</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Yank:</strong> Success Test. Move willing/unwilling target 4m per 2 SP.</td>
+                        </tr>
+
+                        <!-- LifeWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">LifeWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Elixir:</strong> Consumable (Heal 1 LW/Stress per 2 SP on consumption).</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Heal:</strong> Heal 2 LW per 3 SP to target in space.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Enhance:</strong> Healed target uses your Control instead of physical attributes.</td>
+                        </tr>
+
+                        <!-- StealthWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">StealthWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Infusion:</strong> Sacrifice hits for a Persistent Blocker vs. perceiving the object.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Coating:</strong> Success Test. Sacrifice hits for a Persistent Blocker on a creature/object.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Veil:</strong> Success Test. Sacrifice hits for a Blocker; lasts until next Player Turn.</td>
+                        </tr>
+
+                        <!-- CyberWeave -->
+                        <tr>
+                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
+                            <td class="skill-name-col" rowspan="3">CyberWeave</td>
+                            <td class="skill-cost" rowspan="3">1</td>
+                            <td class="method-cell"><span class="method-badge create">Create</span></td>
+                            <td class="rules-text"><strong>Drone:</strong> Success Test. +1 Interfacing or Sensors per 2 SP. Moves 20m/round; breaks on damage or &gt;40m away.</td>
+                        </tr>
+                        <tr>
+                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
+                            <td class="rules-text"><strong>Virus:</strong> Device in space performs, glitches, or damages itself. Repeatable within 40m, no extra Res.</td>
+                        </tr>
+                        <tr class="weave-group-end">
+                            <td class="method-cell"><span class="method-badge control">Control</span></td>
+                            <td class="rules-text"><strong>Swarm:</strong> Success Test on 4m radius. +1 Upgrade per 2 SP vs. targets in area; free reposition.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-foot">
+        Corsair RPG · Weaver Class Sheet · System Document
+    </div>
+</div>
+</body>
+
+</html>
