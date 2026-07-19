@@ -8,61 +8,81 @@ with your actions.
 
 ## Activating Effects
 
-To activate the effect, you either need to aim specifically for the effect in the narration or do something close enough
-to it that the effect could feasibly be established as part of the narration. Activating effects as the results are
-rolled and trying to score Effects is possible, but always ask: Is this effect you are trying to achieve possible
-with you using this Attribute Pair?
+To activate the effect, you need to sacrifice Hits during either a Success Roll or an Action Roll, depending on what the
+specific effect says.
+
+In your narration, you also either need to aim specifically for the effect in the narration or do something
+close enough to it that the effect could feasibly be established as part of the narration. Activating effects as the
+results are rolled is allowed at the GM's discretion, where the main deciding factor should be:
+Is this effect you are trying to achieve possible with you using this Attribute Pair and part of this narration?
 
 ## Crit Effect
 
-Whenever your narration results in a success roll, either in a Success or Complex Test, you can spend your Hits on
-Critical Effects.
+Crit Effects are the most generic type of effect, which can be activated during any Success Roll.
 
-For every Hit spent on this effect, you increase the total Succes Points you score by +2.
+For every Hit you spend on this effect, you increase the total Succes Points you score on the Success Roll by 2.
 
 ## Chain Effect
 
-If your narration is aimed at, or can feasibly include you affecting multiple targets with your action, you can spend
-your Hits on a Chain Effect.
+Chain effects can be activated during any Action Roll that is part of an action that is performed against a specific
+target, out of multiple eligible ones. Most commonly, it is activated during an attack when fighting multiple opponents.
 
-For each Hit, you can choose an additional target in range and generate Success Points to be used on it equal to the
-used die, plus any bonuses you had for the original target. When used in an attack, the targets must be in the
-same space.
+For each Hit you spend on this effect, you can choose an additional target against whom you also could have taken the
+same test, except when taking Upgrades and Downgrades into account. If this is a Complex Test, you roll your Success
+Test normally and use the highest result when calculating Success Points on all targets.
 
-## Move Effect
+You cannot chain actions that already affect multiple targets. You can chain actions that require spending a resource,
+but you must spend that resource for each target you chain.
 
-If your narration is aimed at, or can feasibly include you moving another creature, you can spend your Hits on
-a Move Effect.
+## Push Effect
 
-For each Hit, you can move the target creature 1 space. As long as your narration is compatible with this, you can
-choose to move alongside the creature at no extra cost.
+If your narration is aimed at, or can feasibly include you moving another creature, you can spend your Hits scored on a
+Success Roll on a Push Effect.
+
+For each Hit, you can move the target creature horizontally for up to 4 meters. As long as your narration is compatible
+with this, you can choose to move alongside the creature at no extra cost.
+
+Pushing a willing creature is a Success Test, pushing an unwilling creature is a Complex Test.
 
 ## Upgrade/Downgrade Effect
 
 If your narration is aimed at, or can feasibly include you creating a situation that is beneficial to you and/or
-disadvantageous to your opponents, you can spend your Hits on creating an Upgrade/Downgrade Effect.
+disadvantageous to your opponents, you can spend your Hits scored on either an Action Roll to create
+an Upgrade/Downgrade Effect.
 
 Creatures interacting with the created effect receive the appropriate +1 Upgrade or Downgrade on any relevant tests.
 Further hits can increase the level of this effect, granting +1 Upgrade or Downgrade for each level.
 
+An Upgrade/Downgrade Effect only lasts until all levels of it are removed, or the condition that created it is no longer
+relevant. For example, if you knock a creature prone to give yourself an Upgrade when attacking them, but don't take
+measures to prevent them from standing up on their turn, they will simply do so and end the effect.
+
 ## Trigger Effect
 
 If your narration is aimed at performing an action in the future when a specific triggering event occurs, you can
-activate a Trigger Effect. You can decide if you want to act immediately before or after the trigger.
+activate a Trigger Effect.
 
-You spend the Action Point immediately and specify what the trigger is, and what you attempt to do when it happens, and
-roll the test as if it happened now. If you roll an Action roll, and it fails, you fail to establish the effect. If you
-roll a Success Roll, set aside the highest dice you rolled. Set aside any Hits you scored on any roll also.
+You spend the Action Point immediately and specify what the trigger is and what you attempt to do when it happens.
+Immediately after the trigger occurs, you can roll the test you want to perform to determine whether you succeed or
+fail.
 
 While waiting for the trigger, you are considered to be concentrating. If you take any other test, or a creature
-succeeds in taking an action that could break your concentration (like attacking), as long as you are still in a
-position to react to your Trigger, you can throw away a Hit you saved to maintain concentration. Otherwise, you lose
-the Effect.
+succeeds at an action that could break your concentration (like attacking), you lose the Effect.
+
+The action point expenditure counts against the turn limit during the turn it was spent, not the turn the effect was
+triggered. You can use Teamwork in combination with a Trigger Effect as long as the trigger and the action are the same
+for all participants. Like with normal Teamwork, you can exceed the turn limit when participants declare they want to
+join.
+
+## Persistent Trigger Effect
+
+A Persistent Trigger Effect is a Trigger Effect that you don't have to concentrate on.
+This effect is usually reserved for items you use, such as traps.
 
 ## Blocker Effect
 
-If your narration is aimed at stopping a specific thing from happening in the future, you can spend your Hits on a
-Blocker Effects.
+If your narration is aimed at stopping or hindering a specific thing from happening in the future, you can spend your
+Hits scored on an Action Roll to create a Blocker Effects.
 
 For each Hit you set aside, you can negate the highest die scored on a test that is taken to perform the action you wish
 to block. Once you negate a die, the Hit you set aside is used up. The effect ends when you run out of Hits.
@@ -72,8 +92,11 @@ do it.
 
 ## Persistent Blocker Effect
 
-A blocker effect where the number of hits you can discard on a contested test resets after each action you block. The
-effect ends when a test succeeds despite it being blocked or when the conditions for the effect are no longer met.
+A Persistent Blocker effect is a Blocker Effect where the number of hits you can discard on a contested test resets
+after each action you block. The effect ends when a test succeeds despite it being blocked or when the conditions for
+the effect are no longer met.
+
+This effect is usually reserved for items you use, such as disguises or restraints.
 
 ## Removing Effects
 

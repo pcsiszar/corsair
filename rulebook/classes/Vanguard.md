@@ -10,9 +10,6 @@ The Vanguard's three primary Attributes correspond to the different forms their 
 - **Glider**: The speed and maneuverability of its hoverboard form.
 - **Cannon**: The power and precision of its ranged weapon form.
 
-At character creation, you can distribute 5 points among your Shield, Glider, and Cannon Attributes. The
-maximum value for any single Attribute at creation is 4. You can leave an Attribute at 0.
-
 ## Mechanics
 
 ### Vanguard Forms
@@ -23,15 +20,15 @@ different benefits.
 **Shield:**
 
 While in Shield Form, your Physical Protection increases by half your Shield Attribute, rounded down. You
-can also use the Shield as a melee weapon, using your **Strength** and Shield Attributes to perform melee attacks. You can
-also use your Shield Attribute to contest most forms of harm coming your way. You have one hand occupied while in Shield
-Form.
+can also use the Shield as a melee weapon, using your **Strength** and Shield Attributes to perform melee attacks. You
+can also use your Shield Attribute to contest most forms of harm coming your way. You have one hand occupied while in
+Shield Form.
 
 You typically rely on **Strength** while in Shield Form.
 
 **Glider:**
 
-While in Glider Form, you can use your Glider Attribute in any movement action you take. You can also ignore
+While in Glider Form, you can use your Glider Attribute in any movement action you take. You also ignore
 Difficult Terrain and fall damage. While in the air, you can move horizontally or downward, but not upward, and only
 using your Glider Attribute. You have both hands free while in Glider Form.
 
@@ -53,8 +50,8 @@ Vanguard Attribute, you remain in that form.
 
 ### Boosts & Revving Up
 
-A **Boost** is a single banked die associated with one of your three Vanguard Attributes. You can only hold one **Boost**
-at a time. Different types of **Boost** are good for activating different skills.
+A **Boost** is a single banked die associated with one of your three Vanguard Attributes. You can only hold one
+**Boost** at a time. Different types of **Boost** are good for activating different skills.
 
 **Gaining a Boost.** Whenever you roll a test that uses a Vanguard Attribute and you do not currently have a **Boost**,
 you may set aside one die from that roll that shows an **8 or higher** before counting your result. That die becomes
@@ -62,23 +59,22 @@ your **Boost** and corresponds to the Vanguard Attribute you used in the roll. T
 the roll's success.
 
 **Revving Up.** When you want to swap to a different form without doing anything else, you can take a special **Success
-Test** called **Revving Up**. Roll a **Success Test** with the Vanguard Attribute of the form you want to switch into; you
-immediately switch to that form. You may then bank **any one die** from the result as your **Boost** (not limited to dice
-that rolled 8 or higher), corresponding to the Attribute you used. The remaining dice count toward the **Success Test**'s
-result as normal.
+Test** called **Revving Up**. Roll a **Success Test** with the Vanguard Attribute of the form you want to switch into;
+you immediately switch to that form. You may then bank **any one die** from the result as your **Boost** (not limited to
+dice that rolled 8 or higher), corresponding to the Attribute you used.
 
 **Revving Up** counts as a Form Move.
 
 **Spending a Boost.** Whenever you roll a test that uses any Vanguard Attribute (Shield, Glider, or Cannon), you may
-spend your **Boost** die by adding it to the roll. 
+spend your **Boost** die by adding it to the roll.
 You can choose to add the **Boost** die before or after the initial roll. Once spent, the **Boost** is gone.
 
 ### Skills
 
-Your special skills manifest from using multiple Vanguard Attributes prior to activating the skill. The skills can have
+Your special skills manifest from using multiple Vanguard Attributes before activating the skill. The skills can have
 any combination of the following criteria for activation:
 
-- **Starting Form:** A skill can require that you must be in a specific Vanguard Form in order to use it.
+- **Starting Form:** A skill can require that you must be in a specific Vanguard Form to use it.
 - **Form Boost:** A skill can require that you must have a banked **Boost** from a specific Vanguard Attribute.
 - **Form Move:** A skill can require that you must have used a specific Vanguard Attribute or Skill in the current turn.
 
@@ -88,7 +84,21 @@ When you activate a skill, you swap to the corresponding Vanguard Form, even if 
 
 ## Skills
 
+Skills are learned in groups of 3. You start with 3 and can learn more as you progress with the class.
+
 ### Shield Skills
+
+**Shield Throw:** You can throw your shield and have it come back to you immediately after. Your melee attack range is
+extended to 20 meters as long as you're using your Shield.
+
+*Requires: Glider Boost*
+
+**Ricochet:** When using Shield Throw, you can add your **Boost** die to the roll, which is then expended. If you hit
+your
+initial target, you can then have all other hostile creatures in the same space take the same damage as the original
+target.
+
+*Requires: Glider Boost, Shield Form*
 
 **Repulse:** You can contest an attack using your Shield, and add your **Boost** die to the roll, which is then
 expended. This contest is free and does not require Action Points.
@@ -106,24 +116,13 @@ directly below you, ignoring fall damage, and dealing damage to a single creatur
 If you have any active **Boost**, you can instead deal damage to all creatures in the space equal to one roll of your
 **Boost** die, which is expended, plus your Shield Attribute.
 
-**Shield Throw:** You can throw your shield and have it come back to you immediately after. Your melee attack range is
-extended to 20 meters as long as you're using your Shield.
-
-*Requires: Glider Boost*
-
-**Ricochet:** When using Shield Throw, you can add your **Boost** die to the roll, which is then expended. If you hit your
-initial target, you can then have all other hostile creatures in the same space take the same damage as the original
-target.
-
-*Requires: Glider Boost, Shield Form*
-
 **Gun Shield:** You can use two-handed firearms while in Shield Form.
 
 *Requires: Shield Form*
 
-**Tactical Barricade:** Roll a **Simple Test** with Shield, adding your **Boost** die, which is then expended. For each **Hit** you
-sacrifice, you can increase the Physical Protection of any creature in your space by 2 when an attack lands on them,
-until the end of the round, as long as you are in Shield Form when the attack lands. You can only add this
+**Tactical Barricade:** Roll a **Simple Test** with Shield, adding your **Boost** die, which is then expended. For each
+**Hit** you sacrifice, you can increase the Physical Protection of any creature in your space by 2 when an attack lands
+on them, until the end of the round, as long as you are in Shield Form when the attack lands. You can only add this
 Protection boost once per attack.
 
 *Requires: Shield Boost*
@@ -140,13 +139,15 @@ movement. You fall at the end of the Player Turn.
 
 *Requires: Glider Move*
 
-**Rocketeer:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which is then
+**Rocketeer:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which is
+then
 expended. You can fly for the duration of the movement. You fall at the end of the Player Turn.
 
 *Requires: Glider Boost*
 
 **Windsurfer:** Instead of falling at the end of the Player Turn, you can remain floating at your current altitude. If
-you change out of Glider Form or lose your **Boost**, you fall at the end of the Player Turn. You can move horizontally as
+you change out of Glider Form or lose your **Boost**, you fall at the end of the Player Turn. You can move horizontally
+as
 long as you are using your Glider to move.
 
 *Requires: Glider Form, Glider Boost*
@@ -159,9 +160,9 @@ with you, without paying any AP. You can pick up and put down the creature at an
 
 *Requires: Glider Move*
 
-**Vanguard Charge:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which is then
-expended. For each **Hit** you sacrifice, you can deal damage equal to your Shield Attribute to one creature in any
-space you moved through, and may push that creature 4 meters in any direction if it's large or smaller.
+**Vanguard Charge:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which
+is then expended. For each **Hit** you sacrifice, you can deal damage equal to your Shield Attribute to one creature in
+any space you moved through, and may push that creature 4 meters in any direction if it's large or smaller.
 
 *Requires: Shield Boost*
 
@@ -206,14 +207,14 @@ broken.
 
 *Requires: Glider Boost*
 
-**Rocket Jump:** Make a **Success Roll** using your Cannon Attribute, adding your **Boost** die, which is then consumed. You can
-deal damage to every creature in your space equal to your Cannon Attribute, and then fly a number of meters equal to the
-result.
+**Rocket Jump:** Make a **Success Roll** using your Cannon Attribute, adding your **Boost** die, which is then consumed.
+You can deal damage to every creature in your space equal to your Cannon Attribute, and then fly a number of meters
+equal to the result.
 
 *Requires: Glider Boost*
 
-**Assault Cannon:** You can modify your Cannon to make it into an Assault Cannon. Your Assault Cannon has one less Accuracy
-on all ranges, and it has a Damage Bonus of 2 and a Rate of Fire of 2. You can swap freely between normal
+**Assault Cannon:** You can modify your Cannon to make it into an Assault Cannon. Your Assault Cannon has one less
+Accuracy on all ranges, and it has a Damage Bonus of 2 and a Rate of Fire of 2. You can swap freely between normal
 form and Assault Cannon form as long as you have the required **Boost**.
 
 *Requires: Cannon Boost*
@@ -225,12 +226,12 @@ gain an additional Damage Bonus equal to your Cannon Attribute.
 
 **Follow Up:** After successfully landing an attack, you can pay 1 AP to land a follow-up shot, adding bonus damage to
 the attack equal to your Cannon Attribute. This swaps you into Cannon Form. You can execute this move even if the Player
-Turn would normally end.
+Turn would otherwise end.
 
-**Hook Shot:** Make a ranged attack against a creature in short range. After dealing damage, you can move the creature
-if it's large or smaller to any space along the line of the attack between you and it, including your space, and then
-move yourself to any space along the line of the attack between you and the creature's new position, including its
-space. If you move, this also counts as a Glider Move.
+**Hook Shot:** Make a ranged attack against a creature in short range. After dealing with damage, you can move the
+creature if it's large or smaller to any space along the line of the attack between you and it, including your space.
+Then, move yourself to any space along the line of the attack between you and the creature's new position, including
+its space. If you move, this also counts as a Glider Move.
 
 *Requires: Shield Boost*
 
@@ -253,23 +254,25 @@ replace your current mod with a different one you own during your day-to-day.
 
 ### Custom Build
 
-**Effect**: Choose Shield, Glider, or Cannon. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify the
+**Effect**: Choose Shield, Glider, or Cannon. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify
+the
 selected Attribute during your day-to-day.
 
 ### Boost Recycling
 
-**Effect**: Once per round, if you have a **Boost**, you can **Rev Up** by expending your current **Boost** instead of paying 1 AP.
+**Effect**: Once per round, if you have a **Boost**, you can **Rev Up** by expending your current **Boost** instead of
+paying 1 AP.
 
 ## Progression
 
 ## Vanguard Progression
 
-| Level | Benefit                                                   | Credit Cost |
-|:------|:----------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Unlock 5 Skills | 50,000*     |
-| 2     | +1 Attribute Point, +1 Mod Slot, Unlock 4 Skills          | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap +1, Unlock 3 Skills | 20,000      |
-| 4     | +1 Attribute Point, +1 Mod Slot, Unlock 2 Skills          | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1                  | 70,000      |
+| Level | Benefit                                             | Credit Cost |
+|:------|:----------------------------------------------------|:------------|
+| 1     | 7 Attribute Points, Max Attribute Cap: 4, +3 Skills | 100,000*    |
+| 2     | +1 Attribute Point, +1 Class Mod Slot, +3 Skills    | 20,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap +1, +3 Skills | 40,000      |
+| 4     | +1 Attribute Point, +1 Class Mod Slot, +3 Skills    | 75,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap +1            | 150,000     |
 
 * This cost is only applicable if the Vanguard class was not gained with your starting class.

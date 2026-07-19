@@ -9,10 +9,10 @@ circulate, they build up a massive internal charge that the Conduit must periodi
 feats. Visually, a Conduit is a walking storm of elemental energy; the coursing ether leaves glowing, vein-like marks
 across their limbs and permanently alters the color of their eyes and hair to match their specific elemental attunement.
 
-The core utility of the Conduit lies in the management and release of this built-up pressure, manifesting as either
-Lightning, Frost, or Fire. By surging the Aether-cells through their muscles, the Conduit can execute near-instant
-bursts of movement that blur the vision of onlookers or trigger a state of rapid molecular reconstruction for
-near-instant regeneration of lethal wounds. When the charge reaches its peak, it can be expelled in localized,
+The core utility of the Conduit lies in the management and release of this built-up elemental charge, manifesting as
+either Lightning, Frost, or Fire. By surging the Aether-cells through their muscles, the Conduit can execute
+near-instant bursts of movement that blur the vision of onlookers or trigger a state of rapid molecular reconstruction
+for near-instant regeneration of lethal wounds. When the charge reaches its peak, it can be expelled in localized,
 devastating blasts that can shatter armor or incinerate high-density alloys. This makes the Conduit a terrifying
 presence on the battlefield—a warrior who grows more dangerous as the conflict drags on, literally glowing with the
 lethal potential of the storm trapped inside their veins.
@@ -30,8 +30,8 @@ maximum value for any single Attribute at creation is 4. You can leave an Attrib
 
 ## Mechanics
 
-A Conduit's elemental nature leaks into the physical world, allowing them to affect their environment and substitute
-their class Attributes during tests.
+A Conduit's elemental nature leaks into the physical world, allowing them to affect their environment and become a
+terrific close combatant.
 
 **Minor Touch Effects:**
 Even without a test, you can channel raw energy through your touch to produce minor, narrative-only effects:
@@ -40,167 +40,144 @@ Even without a test, you can channel raw energy through your touch to produce mi
 - **Frost**: Cool a beverage, freeze small amounts of standing water, or soothe a minor burn.
 - **Lightning**: Deliver a mild static shock, light up a low-voltage indicator, or clear static from a screen.
 
-**Channel:**
-As an action, you can focus on your Aether Core to generate energy. Choose Flame, Frost, or Lightning and make a
-**Success Test** using that Conduit Attribute. For each **Hit** you sacrifice from this roll, you gain **1 Charge** of
-that element (subject to standard Charge limits).
+**Melee Combat:**
+You can use any one Conduit Attribute to make melee attacks, but the attack has to be made with the corresponding core
+Attribute. These attacks have 3 Reach and a damage bonus equal to half your Conduit Attribute used in the
+attack (rounded up).
 
-**Attribute Substitutions:**
-During a test, you can substitute a Conduit Attribute for one of your Core Attributes, provided
-you currently hold **at least 1 Charge** of that element:
+- **Flame**: Unleash blasts and bolts of fire, directing the flames with pure might, using Strength.
+- **Frost**: Wield and throw frozen daggers of ice, piercing weak points using Finesse.
+- **Lightning**: Blitz your foes with a barrage of blows, with Lightning augmenting your Agility.
 
-- **Flame** can be substituted for **Strength** or **Charisma**.
-- **Frost** can be substituted for **Finesse** or **Knowledge**.
-- **Lightning** can be substituted for **Agility** or **Instinct**.
+**Effect Synergies**
+Specific Conduit Attributes can deliver a more potent version of a specific effect.
+
+- **Flame**: When taking a test that uses your Flame attribute, your Crit Effects grant you 3 Success Points
+  instead of 2.
+- **Frost**: When taking a test that uses your Frost attribute, your Blocker Effects act as if they were Permanent
+  Blocker Effects until the end of the Round they were created in.
+- **Lightning**: When taking a test that uses your Lightning attribute, your Chain Effects also increase your Success
+  Points by 1, and you can spend any dice that rolled 7 or higher to activate them instead of the normal 8 or higher.
 
 ### Charge
 
-Conduit skills revolve around the **Charge** mechanic. The Aether Core can hold 3 charges at maximum, increasing its
-charge count with each use of an Amp Skill or the **Channel** action, and using up all charges when using a Burst Skill.
+Conduit skills revolve around the **Charge** mechanic. The Conduit Plates can hold up to 3 Charges, increasing its
+charge count with each use of an Amp Skill and using up all charges when using a Burst Skill.
 
-When you learn an Amp Skill or Burst Skill, you learn all variants of it for each Element.
+Amp and Burst Skills are learned in pairs.
 
 - **Amp Skills**: These abilities channel energy into the Conduit's body, building up elemental **Charge**.
     - Using an Amp Skill with no **Charge** grants you one **Charge** of the same element type as the Amp Skill.
     - Using an Amp Skill of the *same* element as your current Charges increases your **Charges** by one, up to the
       maximum number of Charges you can hold.
+    - You cannot activate an elemental variant of an Amp Skill if you already hold the maximum number of Charges for
+      that element.
     - Using an Amp Skill of a *different* element resets your Charges to 0 before applying the new element's effect.
-    - Activating an Amp Skill of a specific element suppresses any active effects from other elements.
-    - You can only activate a single Amp Skill at a time.
+    - You can only activate a single Amp Skill per action.
 
 - **Burst Skills**: These abilities vent the stored energy in a devastating release.
-    - Burst Skills can only be used if you have at least one **Charge**.
+    - Burst Skills can only be used if you have three **Charges**.
     - You can only use the Burst variant corresponding to your current elemental **Charge**.
-    - Using a Burst Skill consumes *all* current Charges. The power of the Skill scales with the number of Charges
-      consumed ($X$).
+    - Using a Burst Skill consumes *all* current Charges.
 
 ---
 
 ## Skills
 
-### Amp Skills
+### Amped Body & Physical Burst
 
-*You begin with knowledge of two Amp Skills. You unlock more as you level up.*
+**Amped Body:** Activate when taking an action using the corresponding Physical Attribute. Gain +1 **Upgrade** to any
+test with the matching Physical Attribute.
 
-#### Amp Body
-
-Activate when taking an action using the corresponding Physical Attribute. Gain +1 **Upgrade** to any test with
-the matching Physical Attribute.
+**Physical Burst:** Activate at any time. Until the end of the Round, You gain +1 **Upgrade** to any test that uses a
+Physical or Conduit attribute of the corresponding elemental Charge. You can also substitute the corresponding Conduit
+Attribute for any matching Physical Attribute used in the test. This ability ends early if you gain a different
+elemental Charge than the one it was activated with.
 
 - **Flame**: Strength.
 - **Frost**: Finesse.
 - **Lightning**: Agility.
 
-#### Amp Psyche
+### Amped Mind & Mental Burst
 
-Activate when taking an action using the corresponding Mental Attribute. Gain +1 **Upgrade** to any test with
-the matching Mental Attribute.
+**Amped Mind:** Activate when taking an action using the corresponding Mental Attribute. Gain +1 **Upgrade** to any
+test with the matching Physical Attribute.
+
+**Mental Burst:** Activate at any time. Until the end of the Round, You gain +1 **Upgrade** to any test that uses a
+Mental or Conduit attribute of the corresponding elemental Charge. You can also substitute the corresponding Conduit
+Attribute for any matching Mental Attribute used in the test. This ability ends early if you gain a different
+elemental Charge than the one it was activated with.
 
 - **Flame**: Charisma.
 - **Frost**: Knowledge.
 - **Lightning**: Instinct.
 
-#### Amp Projectiles
+### Amped Shot & Blast Burst
 
-Activate when making a ranged attack using a firearm. Gain the appropriate effect based on the
+**Amped Shot:** Activate when making a ranged attack using a firearm. Gain the appropriate effect based on the
 chosen Conduit Attribute.
 
-- **Flame**: You gain +1 Damage at Short Range for each Charge you have.
-- **Frost**: You gain +1 Damage at Medium Range for each Charge you have.
-- **Lightning**: You gain +1 Damage at Long or Extreme Range for each Charge you have.
+- **Flame**: You gain +1 Damage for each Charge you have.
+- **Frost**: You can reroll a total number of dice across all rolls in a test equal the number of Charges you have. You
+  cannot reroll a die you already rerolled in the same roll.
+- **Lightning**: When activating your first Chain Effect during the test, you can target a number of additional
+  creatures equal to the number of Charges you currently have.
 
-#### Amp Strikes
+**Blast Burst:** Target a space in Short Range and make a **Success Roll** using your Conduit Attribute corresponding to
+your current Charges.
 
-Activate when making a melee attack. Gain the appropriate effect based on the
-chosen Conduit Attribute.
+- **Flame**: You deal damage to every creature equal the result in an 8-meter radius around the target space.
+- **Frost**: You deal damage to every creature in a 90-degree cone, 12 meters wide, originating from you. The cone
+  starts from your space or an adjacent one, determined by you.
+- **Lightning**: You deal damage to up to three chosen creatures equal to the result in your space, the target space, or
+  any space in between the two that intersects with the line of the attack. You can activate Chain Effects to increase
+  the number of targets.
 
-- **Flame**: You can treat a 6+ as a Hit for activating Crit Effects up to a number of times equal to your Charges.
-- **Frost**: You can treat a 6+ as a Hit for activating Blocker Effects up to a number of times equal to your Charges.
-- **Lightning**: You can treat a 6+ as a Hit for activating Chain Effects up to a number of times equal to your Charges.
+### Amped Sprint & Motion Burst
 
-#### Amp Motion
+**Amped Sprint:** Activate when making a movement action. You can take your movement using the chosen Conduit Attribute.
 
-Activate when taking a movement action. Gain the appropriate effect based on your chosen Conduit Attribute.
+**Motion Burst:** As part of making a melee attack, you can move a number of meters equal to your Conduit Attribute
+times 4. You can move only before making the attack, not after. You gain additional benefits based on the Elemental
+Charges used.
 
-- **Flame**: You can make your movement actions using your Flame Attribute, and Crit Effects also allow you to fly for 4
-  meters of your movement, up to a number of times equal to your Charges.
-- **Frost**: You can make your movement actions using your Frost Attribute, and you can have any space you move through
-  become difficult terrain until the end of the Round, up to a number of times equal to your Charges.
-- **Lightning**: You can make your movement actions using your Lightning Attribute, and Crit Effects increase your
-  Success Points by 3 instead of 2, up to a number of times equal to your Charges.
+- **Flame**: You can fly while moving and have every creature in the space take the same damage as your initial target.
+- **Frost**: You can make every space you move through become difficult terrain, to which you are immune to until the
+  end of the Round. You can forego the attack and instead create Cover in your final destination with a rating of 2.
+- **Lightning**: You can use your excess movement to move after making the attack, and your movement cannot be
+  contested. Additionally, when you activate a Chain Effect, you can target any creature in a space you moved through.
 
-#### Amp Defense
+### Amped Regen & Healing Burst
 
-Activate whenever hit by an attack. Grant the appropriate effect based on the chosen Conduit Attribute.
+**Amped Regen:** Activate by taking a Success Test using your chosen Conduit Attribute.
 
-- **Flame**: Mele. You can only use this ability once per Turn.
-- **Frost**: You gain +1 Protection for each Charge you have. You can only use this ability once per Turn.
-- **Lightning**: Gain +1 **Upgrade** when contesting an attack, and you can contest an attack using your Lightning
-  Attribute.
+- **Flame**: Heal one Light Wounds for yourself for every two Success Points.
+- **Frost**: Heal one Light Wounds for yourself or an ally in the same space for every three Success Points.
+- **Lightning**: Gain a temporary plus 1 to your Protection that's lost after the first time you take damage for every
+  three Success Points.
 
----
+**Healing Burst:** Activate at any time.
 
-### Burst Skills
+- **Flame**: You heal your Flame Attribute plus your Toughness amount of Light Wounds.
+- **Frost**: You heal your Frost Attribute amount of Light Wounds for yourself or an ally in the same space.
+- **Lightning**: Until the end of the Round, if you are downed, you immediately heal an amount of Light Wounds equal to
+  your Lightning Attribute and get back up.
 
-*You begin with knowledge of one Burst Skill. You unlock more as you level up.*
+### Amped Defense & Shield Burst
 
-#### Momentum Burst
+**Amped Defense:** Activate when contesting an attack. Grant the appropriate effect based on the chosen Conduit
+Attribute. When you contest the attack, you can do so using your Conduit Attribute corresponding to your chosen element.
 
-Activate this any time you would take a movement action. You must use your Conduit Attribute corresponding to your
-current Charges to move. You gain flying for the duration of the movement and can move an additional 8 meters for each
-Charge consumed ($X$). You fall at the end of the Player Turn. You can also select up to $X$ spaces you moved through.
-All creatures in the selected spaces take damage equal to your Conduit Attribute used to make the move.
+- **Flame**: You deal damage equal to your Flame Attribute to a creature in your space.
+- **Frost**: You gain +2 Protection, for this attack only.
+- **Lightning**: For this attack, only dice rolling 9 or higher count as hits. This can change the hit into a miss.
 
-#### Impact Burst
+**Shield Burst:** Activate when contesting an attack. You can contest the attack for free, using your Conduit Attribute
+corresponding to your current Charges. You can also activate an enhanced version of your Amped Defense Skill.
 
-Make an unarmed melee attack. You must use your Conduit Attribute corresponding to your
-current Charges for both the Action Roll and the Success Roll. For each Charge you consumed ($X$), you can:
-
-- Increase the damage dealt by $X$.
-- Hit another creature in the same space.
-- Push all creatures hit by the attack 4 meters in any direction and increase the damage dealt by 1.
-
-#### Torrent Burst
-
-Select an adjacent space and make a **Success Roll** using the Conduit Attribute corresponding to your current Charges.
-Every
-creature in that space, and the one behind it, takes damage equal to the result. Additionally, for
-each Charge, you can:
-
-- Extend the attack 1 space in the same line and increase its damage by 1.
-- Have the attack detonate in the final affected space in a 4m radius and increase its damage by 1.
-- Have 1 creature not take damage from the attack and increase its damage by 1.
-
-#### Healing Burst
-
-Make a **Success Roll** using the Conduit Attribute corresponding to your current Charges. For every 2 Success Points,
-you can
-heal 1 light wound on any creature in the same space. Additionally, for each Charge you consumed ($X$), you can:
-
-- Heal a creature for an additional $X$ light wounds.
-- Heal 1 aggravated wound.
-- Replicate the healing a creature received on one of its Condition Tracks to the other.
-
-#### Barrage Burst
-
-Select a space in Short Range and make a **Success Roll**, using your Conduit Attribute corresponding to your current
-Charges. Every creature in the selected space takes damage equal to the result. For each Charge you consume ($X$), you
-can:
-
-- Pay 1 AP to increase the damage by $X$.
-- Pay 1 AP to select an additional target space adjacent to any previously selected ones.
-- Have 1 creature not take damage from the roll.
-
-#### Shield Burst
-
-Activate this any time an attack would land on you. If you contest that attack, you can use your Conduit Attribute
-corresponding to your current Charges and gain +1 **Upgrade** for each Charge you consumed ($X$). Regardless of whether
-you contested the attack or not, for each Charge you consumed, you can:
-
-- Decrease the damage taken by $X$.
-- Have the attacker discard their highest die on the **Success Roll**.
-- Deal damage equal to the Conduit Attribute corresponding to your current Charges to the attacker if they are in the
-  same space.
+- **Flame**: You deal damage equal to your Flame Attribute to all creatures in your space.
+- **Frost**: You gain +4 Protection, for this attack only.
+- **Lightning**: For this attack, only dice rolling 10 or higher count as hits. This can change the hit into a miss.
 
 ---
 
@@ -217,24 +194,25 @@ an elemental charge that you hold, but you are at maximum capacity, you override
 you Amp an elemental charge that you don't hold, and you already hold two different elemental charges, you decide which
 type of charges you lose.
 
-### Continuity
+### Infinity
 
-When using a Burst Skill, you can choose to retain some of your Charges instead of spending them on the
-skill, but any Charges you have left are lost at the end of the Player Turn.
+You can keep activating Amp Skills even when you hold the maximum number of Charges for an element.
 
-### Courage
+### Intensity
 
-When activating an Amp Skill, you can choose to generate double the charge by forgoing the activation of any beneficial
-effect of your Amp Skill.
+You can generate charges by sacrificing Hits on any test using your Conduit Attributes. The Charge you generate is of
+the corresponding type to the Conduit Attribute used in the test.
 
-### Depth
+### Finality
 
-Increase your maximum Charges to 4.
+You can use a Burst Skill even when not having three Charges, but when you do, you cannot gain Charges until the end of
+the
+Round.
 
-### Balance
+### Ingenuity
 
-As long as you don't have the same Amp Skill activated twice, you can treat one Amp skill you have activated as if it
-was already activated twice.
+When you would lose your charges when you Amp a different element than the one you already hold, you can instead choose
+to convert all your charges into the new element.
 
 ---
 
@@ -245,12 +223,12 @@ was already activated twice.
 At character creation, distribute 5 points among Flame, Frost, and Lightning (max 4). The Aether Core can be upgraded by
 spending Credits.
 
-| Level | Benefit                                                             | Credit Cost |
-|:------|:--------------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Charges: 3, +3 Skills | 50,000*     |
-| 2     | +1 Attribute Point, +1 Mod Slot, +2 Skills                          | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap +1, +2 Skills                 | 20,000      |
-| 4     | +1 Attribute Point, +1 Mod Slot                                     | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1                            | 70,000      |
+| Level | Benefit                                                           | Credit Cost |
+|:------|:------------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Charges: 3, 1 Skill | 100,000*    |
+| 2     | +1 Attribute Point, +1 Mod Slot, +1 Skills                        | 20,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap +1, +1 Skills               | 40,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot                                   | 75,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap +1                          | 150,000     |
 
 * This cost is only applicable if the Conduit class was not gained with your starting class.

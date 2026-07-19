@@ -28,9 +28,6 @@ The Exodrone possesses its own set of physical Attributes that mirror your own:
 
 * **Precision**: Corresponds to **Finesse**.
 
-At character creation, you can distribute 5 points among your Exodrone's Power, Speed, and Precision Attributes. The
-maximum value for any single Attribute at creation is 4. You can leave an Attribute at 0.
-
 ## Exodrone Modes
 
 The Exodrone has two distinct modes: Attached and Detached.
@@ -174,10 +171,10 @@ capabilities.
 
 | Level | Benefit                                                           | Credit Cost |
 |:------|:------------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Basic Module, +1 Module, Max Attribute Cap: 4 | 50,000*     |
-| 2     | +1 Attribute Point, +1 Module, +1 Mod Slot                        | 10,000      |
-| 3     | +1 Attribute Point, +1 Module, Max Attribute Cap +1               | 20,000      |
-| 4     | +1 Attribute Point, +1 Mod Slot                                   | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1                          | 70,000      |
+| 1     | 7 Attribute Points, Basic Module, +1 Module, Max Attribute Cap: 4 | 100,000*    |
+| 2     | +1 Attribute Point, +1 Module, +1 Mod Slot                        | 20,000      |
+| 3     | +1 Attribute Point, +1 Module, Max Attribute Cap +1               | 40,000      |
+| 4     | +1 Attribute Point, +1 Mod Slot, +1 Module                        | 75,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap +1                          | 150,000     |
 
 * This cost is only applicable if the Exodrone Pilot class was not gained with your starting class.

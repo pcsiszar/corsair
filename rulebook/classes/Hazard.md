@@ -44,7 +44,8 @@ exceed its upper or lower bound, it cannot be used.
 ### Volatile Die
 
 The Hazard has access to a special die called the Volatile Die. Its size corresponds to the Pressure Level: you don't
-get one at Pressure 0, it is a d8 at Pressure 1, a d10 at Pressure 2, and a d12 at Pressure 3. The Volatile Die cannot be
+get one at Pressure 0, it is a d8 at Pressure 1, a d10 at Pressure 2, and a d12 at Pressure 3. The Volatile Die cannot
+be
 upgraded or downgraded by any other means.
 
 You can add the Volatile Die to any test you roll with Hazard Attributes and any other test your skills would allow you
@@ -61,7 +62,8 @@ Pressure Level:
 Each Attribute has a baseline use that does not require any skill:
 
 **Venom — Apply Downgrade.** As an action, you can dose a creature in your space with a debilitating substance.
-You can make a melee attack against a creature with Venom, and use any **Hits** generated to create **Downgrade** Effects. This
+You can make a melee attack against a creature with Venom, and use any **Hits** generated to create **Downgrade**
+Effects. This
 **Downgrade** is permanent until removed, and a single creature can only be affected by one Venom effect from you at
 a time. You can have a maximum number of active Venom effects equal to your Venom Attribute's value.
 
@@ -70,7 +72,8 @@ space. Make a melee attack using your Hazard Attribute. This attack can only tar
 same space as you.
 
 **Serum — Apply Upgrade.** As an action, you can dose yourself or a willing creature in your space with an
-enhancing serum. Roll a **Success Test** with Serum. The resulting Success Points establish an **Upgrade** effect on that
+enhancing serum. Roll a **Success Test** with Serum. The resulting Success Points establish an **Upgrade** effect on
+that
 creature. This **Upgrade** is permanent until removed, and a single creature can only benefit from one Serum effect
 from you at a time. You can have a maximum number of active Serum effects equal to your Serum Attribute's value.
 
@@ -85,12 +88,14 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **First Aid**
     * *Pressure Change*: `-1 Pressure`
-    * *Effect*: Choose a creature in your space and make a **Success Test** with **Serum**. For every 2 Success Points, heal
+    * *Effect*: Choose a creature in your space and make a **Success Test** with **Serum**. For every 2 Success Points,
+      heal
       1 light wound on the target plus an additional amount of light wounds equal to your Pressure.
 
 * **Regenerator**
     * *Pressure Change*: `+2 Pressure`
-    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can apply the following effect to a
+    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can apply the following
+      effect to a
       creature in your space: the next time that creature takes physical damage, they then immediately heal an amount of
       light wounds equal to your Serum Attribute. A creature can have multiple applications of this effect at the same
       time.
@@ -98,7 +103,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 * **Defibrillator**: You use an electrical discharge to jolt a creature back to consciousness and heal their wounds, or
   shock an enemy.
     * *Pressure Change*: `+1 Pressure`
-    * *Effect*: Choose a creature in your space. If it is unconscious, make a **Success Test** with **Serum** and for every 2
+    * *Effect*: Choose a creature in your space. If it is unconscious, make a **Success Test** with **Serum** and for
+      every 2
       Success Points, heal 1 light wound on the target and an amount of aggravated damage equal to your Pressure. If
       it is conscious, make a melee attack with **Hazard** and gain a damage bonus equal to your Pressure.
 
@@ -111,12 +117,14 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Maximum Effort**:
     * *Pressure Change*: `-2 Pressure`
-    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can apply the following effect to a
+    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can apply the following
+      effect to a
       creature in your space: You gain +1 **Upgrade** to all tests using at least 1 until the end of the round.
 
 * **Adrenaline Rush**:
     * *Pressure Change*: `-3 Pressure`
-    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can temporarily grant 1 AP to a
+    * *Effect*: Roll a **Simple Test** with **Serum**. For every **Hit** you sacrifice, you can temporarily grant 1 AP
+      to a
       creature in your space, which is lost at the beginning of the next Player Turn.
 
 ### Poison Kit
@@ -124,7 +132,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 * **Envenom**: Coat your weapon with deadly poison.
     * *Pressure Change*: `+1 Pressure`
     * *Effect*: Make a melee attack. You can use your **Venom** Attribute for the
-      **Success Roll**, and gain +1 damage to the attack per Pressure level. You can add any **Downgrade** using this skill that
+      **Success Roll**, and gain +1 damage to the attack per Pressure level. You can add any **Downgrade** using this
+      skill that
       you could normally add using **Venom**.
 
 * **Decay**: Activate the toxins you embedded to cause direct harm.
@@ -135,7 +144,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 * **Cloudkill**: Lob a grenade full of pressurized toxic gas.
     * *Pressure Change*: `+3 Pressure`
     * *Effect*: Choose a space within Short Range and make a **Success Test**
-      using **Venom**. For every **Hit** you sacrifice, you can apply 1 level of a Venom **Downgrade** to all creatures within
+      using **Venom**. For every **Hit** you sacrifice, you can apply 1 level of a Venom **Downgrade** to all creatures
+      within
       a 4-meter radius of the target space. Creatures in the affected area cannot see outside, and creatures outside the
       area cannot see into or through the cloud.
 
@@ -148,7 +158,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Flamestrike**
     * *Pressure Change*: `+2 Pressure`
-    * *Effect*: Choose a space within Short Range and make a **Success Test** using **Hazard**. All creatures in the space
+    * *Effect*: Choose a space within Short Range and make a **Success Test** using **Hazard**. All creatures in the
+      space
       take damage equal to the result. You gain +1 damage to the attack per Pressure level.
 
 * **Flame Ward**:
@@ -160,7 +171,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Corrosive Spray**
     * *Pressure Change*: `+2 Pressure`
-    * *Effect*: Make a melee attack with Venom. For each **Hit** you sacrifice from the **Success Roll**, you can decrease the
+    * *Effect*: Make a melee attack with Venom. For each **Hit** you sacrifice from the **Success Roll**, you can
+      decrease the
       Physical Protection of the target by 1.
 
 * **Caustic Bullets**:
@@ -178,9 +190,11 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Rubberband**
     * *Pressure Change*: `+2 Pressure`
-    * *Effect*: Choose a creature within short range and make a **Simple Test** using Serum. For each **Hit** you sacrifice, you
+    * *Effect*: Choose a creature within short range and make a **Simple Test** using Serum. For each **Hit** you
+      sacrifice, you
       can move the creature 4 meters closer to you, if it's large or smaller, or move yourself 4 meters closer to it. If
-      you end up in the same space, you can make a **Success Roll** with Serum without paying any AP and deal damage to the
+      you end up in the same space, you can make a **Success Roll** with Serum without paying any AP and deal damage to
+      the
       target equal to the result.
 
 * **Slimeball**:
@@ -198,15 +212,18 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Smoke Screen**
     * *Pressure Change*: `+2 Pressure`
-    * *Effect*: Make a **Simple Test** with **Hazard**. For each **Hit** you sacrifice, you can choose a space within short
+    * *Effect*: Make a **Simple Test** with **Hazard**. For each **Hit** you sacrifice, you can choose a space within
+      short
       range to deploy a smoke screen in. Creatures in the smoke cannot see out of it, and creatures outside the smoke
-      cannot see into or through it. Every creature in the smoke also receives 2 **Downgrades** for any test requiring sight. The
+      cannot see into or through it. Every creature in the smoke also receives 2 **Downgrades** for any test requiring
+      sight. The
       smoke screen lasts until the end of the round.
 
 * **Gas Canister**:
     * *Pressure Change*: `+2 Pressure`
     * *Effect*: Choose a space within short range, then roll with either **Venom** or **Serum** to apply the appropriate
-      **Upgrade** or **Downgrade** effect to any creatures in the space. Sacrificing one **Hit** applies the effect to only one
+      **Upgrade** or **Downgrade** effect to any creatures in the space. Sacrificing one **Hit** applies the effect to
+      only one
       creature of your choice, not all of them.
 
 * **Ninja Vanish**:
@@ -220,7 +237,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 * **Ear Bug**
     * *Pressure Change*: `+1 Pressure`
     * *Effect*: Take a social action against a creature or creatures in short range. You can add your Volatile Die to
-      the roll and receive **Upgrades** equal to the highest level of your Venom **Downgrade** active on any one creature you
+      the roll and receive **Upgrades** equal to the highest level of your Venom **Downgrade** active on any one
+      creature you
       speak to.
 
 * **Lullaby**:
@@ -230,7 +248,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Rampage**:
     * *Pressure Change*: `+3 Pressure`
-    * *Effect*: Make a **Simple Test** using **Venom**. For each **Hit** you sacrifice, you can turn each level of a Venom
+    * *Effect*: Make a **Simple Test** using **Venom**. For each **Hit** you sacrifice, you can turn each level of a
+      Venom
       **Downgrade** into a Rampage Effect. A rampaging creature will always try to attack the nearest creature in Short
       Range, friend or foe. If no other creature is within range, it will pass its turn. After the end of the GM Turn,
       clear one level of Rampage Effect.
@@ -246,7 +265,8 @@ are grouped into themed **Kits**, each containing three distinct abilities.
       the Volatile Die when determining the new Pressure Level by 1.
 
 * **Redline Engine**
-    * *Effect*: You can exceed the maximum Pressure level, but whenever you do, you take 2 damage for each level, and you
+    * *Effect*: You can exceed the maximum Pressure level, but whenever you do, you take 2 damage for each level, and
+      you
       roll a d10 Volatile Die to determine the new Pressure Level.
 
 * **Dart Launcher**
@@ -264,10 +284,10 @@ choice.
 
 | Level | Benefit                                                          | Credit Cost |
 |:------|:-----------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Pressure: 3, 1 Kit | 50,000*     |
-| 2     | +1 Attribute Point, +1 Kit, +1 Mod Slot                          | 10,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Kit          | 20,000      |
-| 4     | +1 Attribute Point, +1 Mod Slot                                  | 40,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6                  | 70,000      |
+| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Pressure: 3, 1 Kit | 100,000*    |
+| 2     | +1 Attribute Point, +1 Class Mod Slot, +1 Kit                    | 20,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Kit          | 40,000      |
+| 4     | +1 Attribute Point, +1 Class Mod Slot, +1 Kit                    | 75,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap becomes 6                  | 150,000     |
 
 * This cost is only applicable if the Hazard class was not gained with your starting class.
