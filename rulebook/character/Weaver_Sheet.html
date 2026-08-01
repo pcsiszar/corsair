@@ -586,33 +586,51 @@
 
         /* ===================================================  METHOD BADGES  */
         .method-badge {
-            display: inline-block;
+            display: block;
+            width: 100%;
+            text-align: center;
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 700;
             font-size: 6pt;
             letter-spacing: 0.12em;
             text-transform: uppercase;
-            padding: 0.6mm 1.6mm;
-            border: 1px solid;
+            padding: 0.6mm 1mm;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            background: var(--mid);
             white-space: nowrap;
         }
 
         .method-badge.create {
-            color: var(--accent);
-            border-color: var(--accent-dim);
-            background: rgba(200, 168, 75, 0.08);
+            color: var(--text);
+            border-color: var(--border);
         }
 
         .method-badge.modify {
-            color: var(--accent2);
-            border-color: var(--accent2-dim);
-            background: rgba(91, 143, 168, 0.08);
+            color: var(--text);
+            border-color: var(--border);
         }
 
         .method-badge.control {
-            color: var(--red);
-            border-color: var(--red);
-            background: rgba(160, 40, 40, 0.08);
+            color: var(--text);
+            border-color: var(--border);
+        }
+        .round-icon {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            margin-left: 1.5mm;
+            color: var(--accent);
+        }
+
+        .round-icon svg {
+            width: 11px;
+            height: 11px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 1.5;
+            stroke-linecap: round;
+            stroke-linejoin: round;
         }
 
         .weave-table td {
@@ -621,7 +639,7 @@
 
         .weave-table .method-cell {
             width: 13%;
-            text-align: center;
+            text-align: left;
         }
 
         .weave-group-end td {
@@ -705,22 +723,19 @@
                     <h2>Nanite Reservoir</h2>
                 </div>
                 <div class="card-body">
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
-                        <div>
-                            <div class="xc-label">Stowed Reserve (Start 3)</div>
-                            <div class="die-footprint">
-                                <div class="die-pip"></div>
-                                <div class="die-pip"></div>
-                                <div class="die-pip"></div>
-                                <div class="die-pip"></div>
-                                <div class="die-pip"></div>
-                                <div class="die-pip"></div>
-                            </div>
-                        </div>
-                        <div style="text-align: right;">
-                            <div class="xc-label">Max Reserve</div>
-                            <div class="attr-box" style="width: 9mm; height: 9mm; margin: 1mm 0 0 auto;"></div>
-                        </div>
+                    <div class="rules-text">
+                        <p><strong>Starting Reserve:</strong> 3 Reserve stowed at creation. All nanite actions and weave skills cost 1 Reserve by default.</p>
+                        <p style="display: flex; align-items: center; gap: 1.5mm; margin-top: 1mm;">
+                            <span class="round-icon" style="margin-left: 0;">
+                                <svg viewBox="0 0 24 24">
+                                    <rect x="6" y="6" width="12" height="15" rx="2"/>
+                                    <line x1="9" y1="3" x2="15" y2="3"/>
+                                    <line x1="9" y1="6" x2="15" y2="6"/>
+                                    <polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/>
+                                </svg>
+                            </span>
+                            <span><strong>End of Round Recharge:</strong> Spent Reserve recharges at the end of the round.</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -825,8 +840,7 @@
                         <thead>
                         <tr>
                             <th class="checkbox-cell">Lrn</th>
-                            <th style="width: 16%;">Weave</th>
-                            <th style="width: 8%; text-align: center;">Res</th>
+                            <th style="width: 18%;">Weave</th>
                             <th style="width: 13%; text-align: center;">Method</th>
                             <th>Effect</th>
                         </tr>
@@ -836,7 +850,6 @@
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">HardWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Shield:</strong> Success Test. +1 Prot per 3 SP.</td>
                         </tr>
@@ -846,14 +859,13 @@
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Block:</strong> 1 Res. Use Control for free contest roll.</td>
+                            <td class="rules-text"><strong>Block:</strong> Use Control for free contest roll.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- SliceWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">SliceWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Blade:</strong> +1 Dmg or Reach per 2 SP.</td>
                         </tr>
@@ -863,31 +875,29 @@
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Slash:</strong> Success Test. Deal Control + Control Dmg in adjacent space.</td>
+                            <td class="rules-text"><strong>Slash:</strong> Success Test. Deal Control + Control Dmg in adjacent space.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- BoltWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">BoltWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Gun:</strong> +1 Acc (Short/Med) or +1 Dmg per 2 SP.</td>
                         </tr>
                         <tr>
                             <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Bullet:</strong> +1 Acc (all ranges) or +1 Dmg per 3 SP.</td>
+                            <td class="rules-text"><strong>Bullet:</strong> +1 Acc (all ranges) or +1 Dmg per 3 SP. Lasts until end of round in which you attack.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Throw:</strong> Launch creation to deal Control Success Test Dmg (40m range).</td>
+                            <td class="rules-text"><strong>Throw:</strong> Launch creation to deal Control Success Test Dmg (40m range).<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- FloatWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">FloatWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Infusion:</strong> Creation floats and moves with Control Hand.</td>
                         </tr>
@@ -897,14 +907,13 @@
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Hand:</strong> Success Test. Move target item (Load 2 max) 1m/SP.</td>
+                            <td class="rules-text"><strong>Hand:</strong> Success Test. Move target item (Load 2 max) 1m/SP.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- BindWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">BindWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Infusion:</strong> Make creation sticky. Roll Create for Downgrades.</td>
                         </tr>
@@ -914,20 +923,19 @@
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Yank:</strong> Success Test. Move willing/unwilling target 4m per 2 SP.</td>
+                            <td class="rules-text"><strong>Yank:</strong> Success Test. Move willing/unwilling target 4m per 2 SP.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- LifeWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">LifeWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Elixir:</strong> Consumable (Heal 1 LW/Stress per 2 SP on consumption).</td>
                         </tr>
                         <tr>
                             <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Heal:</strong> Heal 2 LW per 3 SP to target in space.</td>
+                            <td class="rules-text"><strong>Heal:</strong> Heal 2 LW per 3 SP to target in space.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
@@ -938,7 +946,6 @@
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">StealthWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Infusion:</strong> Sacrifice hits for a Persistent Blocker vs. perceiving the object.</td>
                         </tr>
@@ -948,14 +955,13 @@
                         </tr>
                         <tr class="weave-group-end">
                             <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Veil:</strong> Success Test. Sacrifice hits for a Blocker; lasts until next Player Turn.</td>
+                            <td class="rules-text"><strong>Veil:</strong> Success Test. Sacrifice hits for a Blocker; lasts until next Player Turn.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- CyberWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">CyberWeave</td>
-                            <td class="skill-cost" rowspan="3">1</td>
                             <td class="method-cell"><span class="method-badge create">Create</span></td>
                             <td class="rules-text"><strong>Drone:</strong> Success Test. +1 Interfacing or Sensors per 2 SP. Moves 20m/round; breaks on damage or &gt;40m away.</td>
                         </tr>
