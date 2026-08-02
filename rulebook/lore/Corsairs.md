@@ -8,13 +8,17 @@ Corsairs are operatives granted a cross-jurisdictional mandate to operate in bot
 
 ## Background and Origins
 
-The Corsairs originated as a specialized division within the Patrol Wing following a landmark legal decision that established their jurisdiction to operate seamlessly across both orbital space and planetary surfaces. Initially, their mandate was focused on cross-jurisdictional investigations and bounty hunting. However, as the system proved its utility, both the Flotilla and the planetary colonies began offloading other critical duties. Today, Corsair cells are regularly tasked with localized law enforcement, reconnaissance, search and rescue, and recovery operations—missions ideally suited for a small, versatile crew.
-
-
+The Corsairs originated as a specialized division within the Patrol Wing following a landmark legal decision that
+established their jurisdiction to operate seamlessly across both orbital space and planetary surfaces. Initially, their
+mandate was focused on cross-jurisdictional investigations and bounty hunting. However, as the system proved its
+utility, both the Flotilla and the planetary colonies began offloading other critical duties. Today, Corsair cells are
+regularly tasked with localized law enforcement, reconnaissance, search and rescue, and recovery operations—missions
+ideally suited for a small, versatile crew.
 
 ## Organizational Structure
 
-The Corsair organization stands on three fundamental pillars: the Sponsors, the Oversight Committee, and the Corsair Cells.
+The Corsair organization stands on three fundamental pillars: the Sponsors, the Oversight Committee, and the Corsair
+Cells.
 
 ### The Sponsors
 
@@ -26,20 +30,28 @@ Being a sponsor grants you the right to bring matters to the attention of the Co
 a perceived injustice or a threat investigated or handled, you can directly petition the organization to act.
 
 In exchange, they are required to fund the entry of at least one member into the Corsairs, the majority of which is for
-the ship they will be operating from. Sponsors handpick the individuals who become Corsair agents and provide their initial funding.
+the ship they will be operating from. Sponsors handpick the individuals who become Corsair agents and provide their
+initial funding.
 
-Furthermore, sponsors gain a voice in the organization's governance. Representatives from each sponsor sit on the Sponsor Board, allowing them to vote on broader decisions that concern the organization's overall policies, budget, and leadership.
+Furthermore, sponsors gain a voice in the organization's governance. Representatives from each sponsor sit on the
+Sponsor Board, allowing them to vote on broader decisions that concern the organization's overall policies, budget, and
+leadership.
 
 The biggest sponsors of the Corsairs are the Flotilla and the Colonies, but there are also a number of smaller
 organizations that have been granted sponsorship, such as corporations, NGOs, and even private individuals.
 
 ### The Oversight Committee
 
-To prevent sponsors from wielding the Corsairs as personal weapons or using them to advance partisan agendas, the organization is supervised by the Oversight Committee. This body is composed of former Corsair agents with exemplary service records, alongside civilian officials approved by the Sponsor Board. 
+To prevent sponsors from wielding the Corsairs as personal weapons or using them to advance partisan agendas, the
+organization is supervised by the Oversight Committee. This body is composed of former Corsair agents with exemplary
+service records, alongside civilian officials approved by the Sponsor Board.
 
 The Committee's role is twofold:
-- **Contract Review**: They evaluate all contracts submitted by sponsors to ensure they serve the public interest and the common good, filtering out requests that are purely self-serving or malicious.
-- **Internal Investigations**: They investigate allegations of misconduct or inappropriate behavior by active Corsair agents, holding the authority to hand down disciplinary actions or strip agents of their mandate if found guilty.
+
+- **Contract Review**: They evaluate all contracts submitted by sponsors to ensure they serve the public interest and
+  the common good, filtering out requests that are purely self-serving or malicious.
+- **Internal Investigations**: They investigate allegations of misconduct or inappropriate behavior by active Corsair
+  agents, holding the authority to hand down disciplinary actions or strip agents of their mandate if found guilty.
 
 ### The Corsair Cell: The Fundamental Unit
 
@@ -53,14 +65,25 @@ be complicated by interplanetary bureaucracy.
 
 #### Collaborative Cell Structure & Impartiality
 
-To ensure neutrality, every cell is a mandatory collaboration between different **Sponsors**. Candidates are typically placed into cells with mixed sponsorships. This structure provides a self-policing environment; because members represent different interests, the cell is discouraged from serving any single power's exclusive agenda, enforcing their impartiality.
+To ensure neutrality, every cell is a mandatory collaboration between different **Sponsors**. Candidates are typically
+placed into cells with mixed sponsorships. This structure provides a self-policing environment; because members
+represent different interests, the cell is discouraged from serving any single power's exclusive agenda, enforcing their
+impartiality.
 
 ## Recruitment and Selection
 
-Becoming a Corsair agent is a prestigious but difficult path. There are two primary avenues for entering the organization:
+Becoming a Corsair agent is a prestigious but difficult path. There are two primary avenues for entering the
+organization:
 
 ### The Institutional Path
-Candidates can enlist directly with a major sponsor—such as the Flotilla or a Colonial law enforcement agency—and work their way through the ranks. Outstanding performance, dedication, and recommendation from superiors within these organizations can eventually lead to a nomination for sponsorship as a Corsair agent.
+
+Candidates can enlist directly with a major sponsor—such as the Flotilla or a colonial law enforcement agency—and work
+their way through the ranks. Outstanding performance, dedication, and recommendations from superiors within these
+organizations can eventually lead to a nomination for sponsorship as a Corsair agent.
 
 ### The Freelance Path
-Alternatively, individuals can build a reputation through bounty hunting, security consulting, or other freelance work across the Sphere. When a sponsor cannot find a suitable nominee within their own ranks, they often turn to established freelancers. To facilitate this, retired Corsairs run several smaller organizations and networks dedicated to mentoring promising freelancers; recommendations from these veterans carry significant weight with the Sponsor Board.
+
+Alternatively, individuals can build a reputation through bounty hunting, security consulting, or other freelance work
+across the Sphere. When a sponsor cannot find a suitable nominee within their own ranks, they often turn to established
+freelancers. To facilitate this, retired Corsairs run several smaller organizations and networks dedicated to mentoring
+promising freelancers; recommendations from these veterans carry significant weight with the Sponsor Board.

@@ -256,7 +256,7 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 ## Class Mods
 
-* **Adaptive Reagent**
+* **Reagent Extension**
     * *Effect*: When you activate a skill that can target one or more creatures in your space, you can also target
       creatures that have an active **Upgrade** or **Downgrade** effect created by your **Serums** or **Venoms**.
 
@@ -266,13 +266,16 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 
 * **Redline Engine**
     * *Effect*: You can exceed the maximum Pressure level, but whenever you do, you take 2 damage for each level, and
-      you
-      roll a d10 Volatile Die to determine the new Pressure Level.
+      you roll a d10 Volatile Die to determine the new Pressure Level.
 
 * **Dart Launcher**
     * *Effect*: Skills and abilities that target a single creature in your space can now be used from 1 space away.
       Whenever a skill or ability would require a melee attack to be used on the target, you can instead make a ranged
       attack against the target as long as it is in short range.
+
+* **Deadly Cocktail**
+    * *Effect*: You activate the basic effects of your **Venom** and **Hazard** Attributes, by combining the two in a
+      melee attack. 
 
 ## Progression
 

@@ -9,11 +9,17 @@ peacekeeping force to protect the trade lanes and maintain order between the moo
 ### The Charter and the Admiralty Board
 
 The Flotilla operates under the **Skyline Accords**, which establish its jurisdiction over orbital space while
-recognizing the sovereignty of planetary governments within their gravity wells. 
+recognizing the sovereignty of planetary governments within their gravity wells.
 
-Daily operations and military command are governed by the **Admiralty Board**, a council of senior officers based at **Redmane Station**. However, to ensure the Flotilla remains accountable to the worlds it protects, the Admiralty Board must answer to the **High Council**. 
+Daily operations and military command are governed by the **Admiralty Board**, a council of senior officers based at *
+*Redmane Station**. However, to ensure the Flotilla remains accountable to the worlds it protects, the Admiralty Board
+must answer to the **High Council**.
 
-The High Council is a political body composed of delegates from all the colonized moons and major colonial interests. This assembly holds legislative authority over the Flotilla’s budget, mandate, and long-term deployment strategies. Through the High Council, the colonies have a direct say in Flotilla policy, treaty negotiations, and any changes to the founding **Charter**, preventing the military organization from acting unilaterally or encroaching on planetary sovereignty.
+The High Council is a political body composed of delegates from all the colonized moons and major colonial interests.
+This assembly holds legislative authority over the Flotilla’s budget, mandate, and long-term deployment strategies.
+Through the High Council, the colonies have a direct say in Flotilla policy, treaty negotiations, and any changes to the
+founding **Charter**, preventing the military organization from acting unilaterally or encroaching on planetary
+sovereignty.
 
 The founding **Charter** defines the Flotilla as the primary defense for the Sphere-born. It operates as a
 corporate-military state where all orbital activity—including transit, mining, and research—is regulated and funded
@@ -38,52 +44,83 @@ strategic objective) and a **Corps** (their technical specialty).
 
 ##### 1. Administrative Wing
 
-The Administrative Wing manages the Flotilla's civil operations, legal framework, and bureaucratic infrastructure.
-Overseen by **Civil Admiral Hesperia Sol**, the wing processes transit permits, audits resource consumption, and
-mediates contractual disputes. It ensures the "Charter of the Void" and the "Non-Interference Protocol" (prohibiting
-contact with indigenous species) are enforced across all jurisdictions. For a Corsair Cell, Administrative contracts
-typically involve legal investigation, forensic auditing, or serving warrants in regions where regular Flotilla
-military presence would be politically sensitive.
+The Administrative Wing forms the civic core and fiscal engine of the Flotilla, managing its legal framework, civil
+operations, and bureaucratic infrastructure. Overseen by Civil Admiral Hesperia Sol, the Wing is directly responsible
+for maintaining the organization’s absolute independence and structural solvency.
 
-##### 2. Transport Wing
+Rather than relying on tribute or taxation, the Administrative Wing manages the Flotilla Sovereign Wealth Fund and its
+associated commercial assets. It oversees the system-wide collection of usage fees for Flotilla-owned
+infrastructure—such as the Subspace Relay Array and Lagrange Docking Hubs—and manages the licensing of deep-space drive
+patents and gas-giant harvesting rights. Crucially, the Wing executes all planetary procurement, ensuring that every ton
+of food, reaction mass, and high-tech component acquired from the Colonies is purchased transparently at fair market
+value, preserving the Flotilla's strict non-coercive mandate.
 
-The Transport Wing maintains the logistical infrastructure connecting the system's moons. Directed by **Logistics
-Admiral Gorthan Vane**, the wing coordinates freighter convoys, manages deep-space fuel depots, and oversees the railgun
-arrays used for long-range resource transit. They ensure that essential supplies move between Fume, X'ara, and Wanabo
-without interruption. Corsairs working for Transport are typically tasked with reclaiming hijacked vessels, clearing
-hazards from shipping lanes, or escorting high-priority cargo through sectors with known Scavenger activity.
+For a Corsair Cell, Administrative contracts rarely involve fleet actions; instead, they center on high-stakes
+white-collar enforcement—forensic auditing of rogue corporations attempting to bypass usage fees, investigating
+black-market trade that violates deep-space transit codes, or quietly serving cross-system warrants where a military
+warship deployment would provoke a diplomatic crisis with planetary leadership.
+
+##### 2. Transit Wing
+
+The Transit Wing forms the operational backbone of space travel, maintaining the navigational infrastructure and traffic
+safety networks that connect the system’s planets and moons. Directed by Logistics Admiral Gorthan Vane, the Wing
+coordinates freighter supply corridors, manages deep-space fuel depots.
+
+Beyond logistics, the Transit Wing serves as the system’s primary traffic control and vector enforcement authority. It
+maintains the navigational buoy network, verifies ship transponders, and enforces mandatory vector clearance for all
+fusion-driven vessels to prevent kinetic collision risks or unauthorized planetary approaches. Through its automated
+monitoring systems, the Wing holds the authority to issue remote drive-interlocks to any vessel breaching approved
+flight corridors. For a Corsair Cell, Transit contracts typically involve high-velocity interdictions—reclaiming
+hijacked freighters, investigating vessels operating with tampered drive-interlocks, clearing hazardous debris from
+critical shipping lanes, or escorting high-priority cargo through sectors plagued by Scavenger activity.
 
 ##### 3. Patrol Wing
 
-The Patrol Wing serves as the primary law enforcement arm of the Flotilla. Commanded by **Patrol Admiral Kaelen Vance**,
-this force conducts customs inspections, responds to distress beacons, and performs routine sensor sweeps of the
-shipping lanes. They are the first line of defense against piracy and unauthorized orbital activity. Corsair missions
-for this wing usually involve anti-piracy operations, search-and-rescue in remote orbits, or providing security at
-frontier outposts where Flotilla reach is limited.
+The Patrol Wing serves as the primary law enforcement, maritime safety, and emergency response arm of the Flotilla.
+Commanded by Patrol Admiral Kaelen Vance, this force conducts customs inspections, enforces transponder compliance, and
+performs routine sensor sweeps across all major shipping lanes. Operating as both a peacekeeping force and a system-wide
+Coast Guard, the Wing is responsible for deep-space Search and Rescue (SAR) operations, responding to distress beacons,
+atmospheric breaches, and solar flare emergencies without political bias. They represent the Flotilla's first line of
+deterrence against piracy, smuggling, and unauthorized orbital maneuvers. For a Corsair Cell, Patrol contracts typically
+involve high-risk anti-piracy interdictions, emergency SAR missions in remote or unstable orbits, or providing a
+flexible law-enforcement presence at frontier outposts where deploying heavy Flotilla warships would provoke local
+diplomatic friction.
 
 ##### 4. Scout Wing
 
-The Scout Wing is responsible for intelligence gathering and long-range reconnaissance. Operated by **Intelligence
-Admiral Siveer**, the wing monitors sensor arrays, analyzes signal patterns, and tracks unidentified vessels near the
-edges of Flotilla space. They focus on detecting Scavenger movements and identifying anomalies in "The Veil." Corsairs
-under their employ are often tasked with recovering Precursor artifacts, performing deep-space surveillance, or
-investigating new astronomical phenomena.
+The Scout Wing is responsible for intelligence gathering, deep-space surveillance, and long-range reconnaissance.
+Directed by Intelligence Admiral Siveer, the Wing monitors vast sensor arrays, analyzes subspace signal patterns, and
+tracks unidentified or ballistic-drifting vessels operating along the periphery of Flotilla jurisdiction. They focus on
+predicting Scavenger movements, tracking un-transponded kinetic threats, and monitoring anomalies in "The Veil." Because
+the Scout Wing operates at the absolute edge of mapped space—where Flotilla legal authority is thin and planetary
+treaties do not apply—they rely heavily on independent contractors. Corsairs under Scout contracts are frequently tasked
+with covert deep-space surveillance, investigating unidentified radar contact tracks, recovering sensitive Precursor
+artifacts before commercial prospectors can claim them, or performing hazardous reconnaissance on emergent astronomical
+phenomena.
 
-##### 5. Shield Wing
+##### 5. Bastion Wing
 
-The Shield Wing is responsible for the static defense of the Sphere, including orbital arrays and fortress-stations. Led
-by **Defense Admiral Brak-Tor**, the wing manages hull integrity, point-defense systems, and station security. They
-ensure that primary colonies and research outposts remain secure from external threats. Corsairs are called upon to act
-as rapid-response units for stations under siege, suppress internal security breaches, or perform critical repairs under
-combat conditions.
+The Bastion Wing manages the static defense, heavy industrial infrastructure, and structural backbone of the Flotilla.
+Led by Defense Admiral Brak-Tor, the Wing maintains all non-mobile assets, ranging from fortified orbital defense arrays
+and deep-space relay stations to automated gas-skimmers, Lagrange fuel depots, and asteroid mining foundries. In
+addition to housing the Flotilla's primary industrial extraction assets that fuel the Sovereign Wealth Fund, the Wing
+specializes in station security, heavy hull engineering, and orbital wreckage reclamation. Corsairs are routinely called
+upon by the Bastion Wing to act as rapid-response units for remote mining platforms or stations under siege, suppress
+dangerous internal security breaches, recover derelict station hardware for salvage, or perform critical repairs under
+active combat conditions.
 
 ##### 6. Sword Wing
 
-The Sword Wing is the Flotilla’s primary offensive strike force, deployed when high-intensity force is required. Under
-the command of **Sword Admiral Elara Thorne**, this wing maintains a fleet of strike cruisers and specializes in
-boarding maneuvers and tactical engagements. They are the ultimate deterrent against large-scale threats. For Corsairs,
-the Sword Wing offers high-risk contracts involving assaults on pirate strongholds, neutralizing rogue warships, or
-serving as vanguard units in fleet actions.
+The Sword Wing is the Flotilla’s high-intensity military strike force, deployed only when existential threats demand
+absolute kinetic or energy force. Under the command of Sword Admiral Elara Thorne, this wing maintains a fleet of
+heavily armored strike cruisers and torpedorans, specializing in ship-to-ship tactical engagements, precision missile
+strikes, and high-risk boarding maneuvers. Bound strictly by the Flotilla's non-intervention mandate, the Sword Wing
+cannot be deployed against planetary targets, operating exclusively as a deterrent against rogue armadas, system-wide
+insurgencies, or catastrophic threats to spaceborne civilization. Because deploying a full Sword task force carries
+massive political weight, the Wing frequently uses Corsairs as surgical instruments. For a Corsair Cell, Sword contracts
+offer high-risk, high-reward tactical missions: covertly infiltrating heavily armed pirate strongholds, neutralizing
+rogue fusion-powered warships before they establish an attack vector, or serving as advanced skirmishers ahead of a
+fleet action.
 
 #### The Corps (Occupational Duty)
 
