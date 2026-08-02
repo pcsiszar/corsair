@@ -45,12 +45,11 @@ exceed its upper or lower bound, it cannot be used.
 
 The Hazard has access to a special die called the Volatile Die. Its size corresponds to the Pressure Level: you don't
 get one at Pressure 0, it is a d8 at Pressure 1, a d10 at Pressure 2, and a d12 at Pressure 3. The Volatile Die cannot
-be
-upgraded or downgraded by any other means.
+be upgraded or downgraded by any other means.
 
 You can add the Volatile Die to any test you roll with Hazard Attributes and any other test your skills would allow you
-to. When the Volatile Die rolls a **Hit**, you take 2 damage, and you roll the Volatile Die again to determine your new
-Pressure Level:
+to. When the Volatile Die rolls a **Hit**, you cause a rupture, taking 2 damage, and rolling the Volatile Die again to
+determine your new Pressure Level:
 
 - 1, 2, 3: Pressure 3
 - 4, 5, 6: Pressure 2
@@ -261,21 +260,18 @@ are grouped into themed **Kits**, each containing three distinct abilities.
       creatures that have an active **Upgrade** or **Downgrade** effect created by your **Serums** or **Venoms**.
 
 * **Burst Dampener**
-    * *Effect*: You take only 1 damage when the Volatile Die rolls a **Hit**. You can also modify the value rolled on
-      the Volatile Die when determining the new Pressure Level by 1.
+    * *Effect*: You take only 1 damage when you Rupture.
 
 * **Redline Engine**
-    * *Effect*: You can exceed the maximum Pressure level, but whenever you do, you take 2 damage for each level, and
-      you roll a d10 Volatile Die to determine the new Pressure Level.
+    * *Effect*: You can exceed the maximum Pressure level, but you rupture immediately when you do and take 2 damage for
+      each level you exceed the max by.
 
 * **Dart Launcher**
-    * *Effect*: Skills and abilities that target a single creature in your space can now be used from 1 space away.
-      Whenever a skill or ability would require a melee attack to be used on the target, you can instead make a ranged
-      attack against the target as long as it is in short range.
+    * *Effect*: Skills requiring a melee attack can use a ranged attack in short range instead.
 
 * **Deadly Cocktail**
     * *Effect*: You activate the basic effects of your **Venom** and **Hazard** Attributes, by combining the two in a
-      melee attack. 
+      melee attack.
 
 ## Progression
 
