@@ -30,7 +30,7 @@
         }
 
         html {
-            font-size: 8.2pt;
+            font-size: 7.8pt;
         }
 
         body {
@@ -119,8 +119,8 @@
         .page {
             width: 210mm;
             min-height: 297mm;
-            margin: 0 auto 4mm;
-            padding: 4mm 5mm;
+            margin: 0 auto;
+            padding: 3.5mm 4mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -141,7 +141,7 @@
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 3mm;
+            margin-bottom: 2.5mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
         }
@@ -231,7 +231,7 @@
         .id-field {
             background: var(--surface);
             border: 1px solid var(--border);
-            padding: 2mm 2.5mm 1.5mm;
+            padding: 1.5mm 2mm 1.2mm;
         }
 
         .id-field label {
@@ -282,7 +282,7 @@
         }
 
         .card-body {
-            padding: 2mm 2.5mm;
+            padding: 1.5mm 2.2mm;
         }
 
         .attr-group-label {
@@ -389,7 +389,7 @@
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 2mm 2.2mm;
+            padding: 1.2mm 1.8mm;
             vertical-align: top;
         }
 
@@ -424,6 +424,20 @@
             color: var(--accent-dim);
             margin-bottom: 1.2mm;
         }
+
+        /* OPERATION MODE PANELS */
+        .skill-section-hd td {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt; font-weight: 700;
+            letter-spacing: 0.15em; text-transform: uppercase;
+            color: var(--accent);
+            background: var(--mid) !important;
+            border-top: 1px solid var(--accent-dim);
+            border-bottom: 1px solid var(--accent-dim);
+            padding: 0.3mm 1.8mm !important;
+            line-height: 1;
+        }
+        .skill-section-hd.first td { border-top: none; }
 
         .rules-text {
             font-family: 'Barlow', sans-serif;
@@ -515,22 +529,6 @@
             </div>
         </div>
 
-        <!-- IDENTITY ROW -->
-        <div class="identity-row">
-            <div class="id-field">
-                <label>Player Name</label>
-                <div class="fl"></div>
-            </div>
-            <div class="id-field">
-                <label>Class Level <span class="lt-formula">[1 to 5]</span></label>
-                <div class="fl"></div>
-            </div>
-            <div class="id-field">
-                <label>Active Class Mods</label>
-                <div class="fl"></div>
-            </div>
-        </div>
-
         <!-- MAIN GRID -->
         <div class="grid-main">
 
@@ -605,12 +603,6 @@
                         <h2>Basic Mechanics</h2>
                     </div>
                     <div class="card-body rules-text">
-                        <p><strong>Minor Touch Effects (No roll):</strong></p>
-                        <ul>
-                            <li><strong>Flame:</strong> Warm objects, melt frost, dry garments.</li>
-                            <li><strong>Frost:</strong> Cool beverages, freeze water, soothe burns.</li>
-                            <li><strong>Lightning:</strong> Static shocks, light low-voltage lights.</li>
-                        </ul>
                         <p><strong>Melee Combat:</strong> Melee attacks can use Conduit Attributes matching Strength (Flame), Finesse (Frost), or Agility (Lightning). Reach 3, Dmg Bonus = half Conduit Attribute used (rounded up).</p>
                         <p><strong>Effect Synergies:</strong></p>
                         <ul>
@@ -619,6 +611,63 @@
                             <li><strong>Lightning:</strong> Chains +1 SP; triggers on 7+ dice.</li>
                         </ul>
                         <p><strong>Charges:</strong> Amp skills build element Charges. Bursts require 3 Charges, venting them completely. Changing elements resets charges to 0.</p>
+                    </div>
+                </div>
+
+                <!-- CLASS MODS CARD -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                        <h2>Class Modifications</h2>
+                    </div>
+                    <div class="card-body" style="padding: 0;">
+                        <table class="skill-table">
+                            <thead>
+                                <tr>
+                                    <th class="checkbox-cell">Act</th>
+                                    <th>Modification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Duality</div>
+                                        <div class="rules-text">Hold charges of two elements simultaneously. Max Charges limit is shared. If at max capacity, you override the other element. If you hold two and Amp a third, you decide which you lose.</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Infinity</div>
+                                        <div class="rules-text">You can keep activating Amp Skills even when you hold the maximum number of Charges for an element.</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Intensity</div>
+                                        <div class="rules-text">Generate charges by sacrificing Hits on any test using your Conduit Attributes. The Charge type matches the Attribute used.</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Finality</div>
+                                        <div class="rules-text">Use Burst Skills without 3 Charges, but you cannot gain charges until the end of the round.</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Ingenuity</div>
+                                        <div class="rules-text">When you would lose charges from Ampping a different element, you can instead convert all current charges into the new element.</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -637,124 +686,142 @@
                             <thead>
                                 <tr>
                                     <th class="checkbox-cell">Lrn</th>
-                                    <th style="width: 25%;">Skill Pairs</th>
-                                    <th style="width: 70%;">Elemental Effects &amp; Burst Mechanics</th>
+                                    <th style="width: 25%;">Skill</th>
+                                    <th style="width: 70%;">Description & Mechanics</th>
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr class="skill-section-hd first">
+                                    <td colspan="3">⬡ Amped Body &amp; Phys Burst</td>
+                                </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Body</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Phys Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> +1 Upgrade to test matching Phys Attribute (Flame: STR, Frost: FIN, Lightning: AGI).<br/>
-                                        <strong>Burst:</strong> +1 Upgrade to tests using Phys/Conduit element attributes. Can substitute Conduit Attribute for Physical. Ends if element changes.
+                                        Activate when taking an action using a Physical Attribute (Flame: STR, Frost: FIN, Lightning: AGI). Gain +1 <strong>Upgrade</strong> to the test.
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Phys Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain +1 <strong>Upgrade</strong> to any test using Physical/Conduit attributes of the current element until end of Round. Can substitute Conduit for Physical. Ends if element changes.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="3">⬡ Amped Mind &amp; Mental Burst</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Mind</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Mental Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> +1 Upgrade to test matching Mental Attribute (Flame: CHA, Frost: KNW, Lightning: INS).<br/>
-                                        <strong>Burst:</strong> +1 Upgrade to tests using Mental/Conduit element attributes. Can substitute Conduit Attribute for Mental. Ends if element changes.
+                                        Activate when taking an action using a Mental Attribute (Flame: CHA, Frost: KNW, Lightning: INS). Gain +1 <strong>Upgrade</strong> to the test.
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Mental Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Gain +1 <strong>Upgrade</strong> to any test using Mental/Conduit attributes of the current element until end of Round. Can substitute Conduit for Mental. Ends if element changes.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="3">⬡ Amped Shot &amp; Blast Burst</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Shot</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Blast Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> Firearm Ranged. Flame (+1 Dmg/Chg); Frost (reroll dice = Chg); Lightning (Chain targets +Chg).<br/>
-                                        <strong>Burst:</strong> Ranged roll. Flame (AoE Dmg in 8m radius); Frost (Dmg in 90deg, 12m cone); Lightning (Dmg to 3 targets in line).
+                                        Ranged firearm attack. <strong>Flame:</strong> +1 Dmg/Chg. <strong>Frost:</strong> Reroll dice = Chg. <strong>Lightning:</strong> First Chain targets +Chg creatures.
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Blast Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Success Roll (Conduit) vs Short Range space. <strong>Flame:</strong> Dmg = Result in 8m radius. <strong>Frost:</strong> Dmg in 90° cone, 12m wide. <strong>Lightning:</strong> Dmg to 3 chosen creatures in line of attack (intersecting path).
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="3">⬡ Amped Sprint &amp; Motion Burst</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Sprint</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Motion Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> Move using chosen Conduit Attribute.<br/>
-                                        <strong>Burst:</strong> Melee attack + move meters equal to element x4. Flame (fly, AoE Dmg); Frost (difficult terrain/Rating 2 Cover); Lightning (uncontested movement, hit along path).
+                                        Move using chosen Conduit Attribute instead of physical movement.
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Motion Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Part of Melee attack; move meters = Conduit x4. <strong>Flame:</strong> Fly; every creature in path takes damage. <strong>Frost:</strong> Spaces moved become Difficult Terrain; can forego attack for Rating 2 Cover. <strong>Lightning:</strong> Uncontested; can move after attack.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="3">⬡ Amped Regen &amp; Healing Burst</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Regen</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Healing Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> Success Test. Flame (Heal 1 LW / 2 SP); Frost (Heal self/ally 1 LW / 3 SP); Lightning (Temp +1 Protection).<br/>
-                                        <strong>Burst:</strong> Flame (Heal Flame + Toughness LW); Frost (Heal Frost LW to self/ally); Lightning (Downed: heal Lightning LW and stand up).
+                                        Success Test (Conduit). <strong>Flame:</strong> Heal 1 LW / 2 SP. <strong>Frost:</strong> Heal self/ally in space 1 LW / 3 SP. <strong>Lightning:</strong> Temp +1 Prot (lost after first dmg) / 3 SP.
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td>
+                                        <div class="skill-name-col">Healing Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        <strong>Flame:</strong> Heal Flame+Toughness LW. <strong>Frost:</strong> Heal Frost LW to self/ally. <strong>Lightning:</strong> If downed this round, immediately heal Lightning LW and stand up.
+                                    </td>
+                                </tr>
+                                <tr class="skill-section-hd">
+                                    <td colspan="3">⬡ Amped Def. &amp; Shield Burst</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
                                     <td>
                                         <div class="skill-name-col">Amped Def.</div>
                                         <div class="skill-cost">Amp Skill</div>
-                                        <div class="skill-name-col" style="margin-top:2mm;">Shield Burst</div>
-                                        <div class="skill-cost">Burst (3 Chg)</div>
                                     </td>
                                     <td class="rules-text">
-                                        <strong>Amp:</strong> Contest using Conduit. Flame (Dmg equal to Flame to enemy); Frost (+2 Protection); Lightning (hits require 9+).<br/>
-                                        <strong>Burst:</strong> Free contest using Conduit. Flame (AoE Dmg equal to Flame); Frost (+4 Protection); Lightning (hits require 10+).
+                                        Contest attack using Conduit Attribute. <strong>Flame:</strong> Deal Dmg = Flame to creature in space. <strong>Frost:</strong> +2 Prot. <strong>Lightning:</strong> Hits require 9+ dice.
                                     </td>
                                 </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- CLASS MODS CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                        </svg>
-                        <h2>Class Modifications</h2>
-                    </div>
-                    <div class="card-body" style="padding: 0;">
-                        <table class="skill-table">
-                            <tbody>
                                 <tr>
-                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Duality</td>
-                                    <td class="rules-text">You can hold charges of two elements simultaneously. Max Charges limit is still shared.</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Infinity</td>
-                                    <td class="rules-text">You can continue activating Amp Skills even when at maximum Charges for an element.</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Intensity</td>
-                                    <td class="rules-text">Generate charges by sacrificing Hits on any test using your Conduit Attributes.</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Finality</td>
-                                    <td class="rules-text">Use Burst Skills without 3 Charges, but you cannot gain charges until the end of the round.</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 25%; font-weight: bold; font-size: 7.5pt; color: var(--accent);">Ingenuity</td>
-                                    <td class="rules-text">Convert your current Charges into the new element when using a different Amp Skill.</td>
+                                    <td>
+                                        <div class="skill-name-col">Shield Burst</div>
+                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
+                                    </td>
+                                    <td class="rules-text">
+                                        Free Contest (Conduit). <strong>Flame:</strong> Deal Dmg = Flame to ALL in space. <strong>Frost:</strong> +4 Prot. <strong>Lightning:</strong> Hits require 10+ dice.
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
