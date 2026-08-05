@@ -21,7 +21,7 @@ lethal potential of the storm trapped inside their veins.
 
 The Conduit's three primary Attributes correspond to the elements they harness:
 
-- **Flame**: Corresponds to feats of Strength and Charisma, as well as raw firepower.
+- **Flame**: Corresponds to feats of Strength and Presence, as well as raw firepower.
 - **Frost**: Corresponds to feats of Finesse and Knowledge, as well as defensive utility.
 - **Lightning**: Corresponds to feats of Agility and Instinct, as well as offensive utility.
 
@@ -108,7 +108,7 @@ Mental or Conduit attribute of the corresponding elemental Charge. You can also 
 Attribute for any matching Mental Attribute used in the test. This ability ends early if you gain a different
 elemental Charge than the one it was activated with.
 
-- **Flame**: Charisma.
+- **Flame**: Presence.
 - **Frost**: Knowledge.
 - **Lightning**: Instinct.
 

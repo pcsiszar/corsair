@@ -10,7 +10,7 @@ codebase and rulebooks.
 
 - **American English**: Always use American English spelling conventions.
     - *Yes*: `maneuver`, `maneuverability`, `armor`, `specialized`, `defense`, `neighbor`.
-    - *No*: `manoeuvre`, `manoeurability`, `armour`, `specialised`, `defence`, `neighbour`.
+    - *No*: `manoeuvre`, `manoeurability`, `armour`, `specialised`, `defence`, `neighbour`, `charisma`.
 - **Possessive vs. Contraction**: Pay close attention to "its" vs. "it's".
     - `its`: Possessive pronoun (e.g., "its draconic form", "its special properties").
     - `it's`: Contraction of "it is" or "it has" (e.g., "it's a successful hit", "it's up to the Game Master").
@@ -38,7 +38,7 @@ codebase and rulebooks.
 To make rules easy to scan and read, key mechanical terms must use standard title casing and formatting:
 
 - **Attributes**: Capitalize and bold core Attributes when referring to them mechanically (e.g., **Strength**, **Finesse
-  **, **Agility**, **Charisma**, **Knowledge**, **Instinct**).
+  **, **Agility**, **Presence**, **Knowledge**, **Instinct**).
 - **Attribute Pairs**: Format as **Attribute + Attribute** (e.g., **Finesse + Agility**, **Presence + Knowledge**).
 - **Test Types**: Capitalize and bold the specific test types: **Simple Test**, **Success Test**, **Complex Test**.
 - **Roll Types**: Capitalize and bold specific rolls: **Action Roll**, **Success Roll**, **Contest Roll**.

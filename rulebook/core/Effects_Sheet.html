@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Rules Quick Reference: Effects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+        /* ======================================================  TOKENS  */
+        :root {
+            --black: #080a0c;
+            --dark: #10131a;
+            --mid: #181c24;
+            --surface: #1d2130;
+            --border: #2a3040;
+            --accent: #c8a84b;
+            --accent-dim: #7a6428;
+            --red: #a02828;
+            --text: #ccc7ba;
+            --text-dim: #6a6458;
+            --text-muted: #3e3c36;
+            --stripe: rgba(200, 168, 75, 0.03);
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 7.8pt;
+        }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: var(--black);
+            color: var(--text);
+            line-height: 1.25;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        @page {
+            size: A4;
+            margin: 4mm;
+        }
+
+        @media print {
+            body {
+                background: #ffffff !important;
+            }
+
+            :root {
+                --black: #ffffff;
+                --dark: #ffffff;
+                --mid: #ffffff;
+                --surface: #ffffff;
+                --border: #888888;
+                --accent: #000000;
+                --accent-dim: #333333;
+                --red: #8b1a1a;
+                --text: #000000;
+                --text-dim: #333333;
+                --text-muted: #666666;
+                --stripe: transparent;
+            }
+
+            .page {
+                background: #ffffff !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none !important;
+            }
+
+            .page::before {
+                display: none !important;
+            }
+
+            .mh-logo {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid #000000 !important;
+                clip-path: none !important;
+                padding-right: 5mm !important;
+                min-width: unset !important;
+            }
+
+            .mh-logo svg {
+                fill: #000000 !important;
+            }
+
+            .card-hd {
+                border-bottom-width: 1px !important;
+            }
+
+            .card-hd svg {
+                fill: #000000 !important;
+            }
+
+            .skill-table th {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-bottom: 1px solid #000000 !important;
+            }
+
+            .skill-section-hd td {
+                background: #f0f0f0 !important;
+                color: #000000 !important;
+                border-color: #000000 !important;
+            }
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 4mm 5mm;
+            background: var(--dark);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-size: 18px 18px;
+            pointer-events: none;
+        }
+
+        .masthead {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 3mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .mh-logo {
+            background: var(--accent);
+            color: var(--black);
+            padding: 3mm 5mm 3mm 4mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
+            padding-right: 13mm;
+            min-width: 22mm;
+        }
+
+        .mh-logo svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--black);
+        }
+
+        .mh-logo .logo-text {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 6pt;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .mh-title {
+            padding: 2.5mm 4mm;
+            flex: 1;
+        }
+
+        .mh-title h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 16pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .mh-title .sub {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 300;
+            font-size: 7.5pt;
+            letter-spacing: 0.28em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            margin-bottom: 3mm;
+        }
+
+        .card-hd {
+            background: var(--mid);
+            border-bottom: 2px solid var(--accent-dim);
+            padding: 1.5mm 2.5mm;
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .card-hd svg {
+            width: 12px;
+            height: 12px;
+            fill: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card-hd h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 9pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            flex: 1;
+        }
+
+        .card-body {
+            padding: 2.5mm;
+        }
+
+        .skill-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .skill-table th {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7pt;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 1.5mm 2.5mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .skill-table td {
+            border-bottom: 1px solid var(--border);
+            padding: 2mm 2.5mm;
+            vertical-align: top;
+        }
+
+        .skill-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .skill-section-hd td {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--mid) !important;
+            border-top: 1.5px solid var(--accent-dim);
+            border-bottom: 1.5px solid var(--accent-dim);
+            padding: 1mm 2.5mm !important;
+            line-height: 1;
+        }
+
+        .effect-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 9.5pt;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5mm;
+        }
+
+        .effect-meta {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.5pt;
+            color: var(--text-dim);
+            margin-bottom: 1mm;
+        }
+
+        .rules-text {
+            font-family: 'Barlow', sans-serif;
+            font-size: 7.8pt;
+            color: var(--text);
+            line-height: 1.35;
+        }
+
+        .rules-text p {
+            margin-bottom: 1mm;
+        }
+
+        .rules-text strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .grid-main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4mm;
+        }
+
+        .page-foot {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            letter-spacing: 0.3em;
+            color: var(--text-muted);
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: auto;
+            padding-top: 4mm;
+        }
+
+        .intro-text {
+            margin-bottom: 4mm;
+            padding: 0 2mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    <circle cx="12" cy="12" r="1.5" />
+                </svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Quick Reference: Effects</h1>
+                <div class="sub">Tactical Maneuvers & Narrative Influence</div>
+            </div>
+        </div>
+
+        <div class="intro-text rules-text">
+            <p><strong>Effects</strong> represent tactical advantages, narrative twists, or scene alterations. To activate an effect, you must <strong>sacrifice Hits</strong> scored during either a <strong>Success Roll</strong> or an <strong>Action Roll</strong>. Your narration must support the effect's manifestation.</p>
+        </div>
+
+        <!-- MAIN GRID -->
+        <div class="grid-main">
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    <h2>Combat & Performance Effects</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 28%;">Effect Name</th>
+                                <th>Activation & Mechanics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="skill-section-hd">
+                                <td colspan="2">Instant Benefits</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Crit Effect</div>
+                                    <div class="effect-meta">Success Roll · Generic</div>
+                                </td>
+                                <td class="rules-text">
+                                    For every <strong>Hit</strong> spent, increase the total <strong>Success Points</strong> scored on the roll by <strong>2</strong>.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Chain Effect</div>
+                                    <div class="effect-meta">Action Roll · Multi-Target</div>
+                                </td>
+                                <td class="rules-text">
+                                    Spend <strong>1 Hit</strong> per additional eligible target. Roll the test normally; the highest result applies to all targets. Must spend resources (ammo, charge) for each target. Cannot chain already multi-target actions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Push Effect</div>
+                                    <div class="effect-meta">Success Roll · Movement</div>
+                                </td>
+                                <td class="rules-text">
+                                    Spend <strong>1 Hit</strong> to move a creature horizontally up to <strong>4 meters</strong>. You may move alongside at no cost. (Willing: Success Test; Unwilling: Complex Test).
+                                </td>
+                            </tr>
+
+                            <tr class="skill-section-hd">
+                                <td colspan="2">Persistent & Tactical Influences</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Upgrade / Downgrade</div>
+                                    <div class="effect-meta">Action Roll · Situational</div>
+                                </td>
+                                <td class="rules-text">
+                                    Spend <strong>Hits</strong> to create situational advantages/disadvantages. Target receives <strong>±1 Upgrade/Downgrade</strong> per level of the effect. Lasts until the creating condition is no longer relevant (e.g., standing up from prone).
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Blocker Effect</div>
+                                    <div class="effect-meta">Action Roll · Hindrance</div>
+                                </td>
+                                <td class="rules-text">
+                                    Set aside <strong>Hits</strong> to stop future actions. Each Hit negates the <strong>highest die</strong> scored on a blocked action's test. If no test is normally required, the target must pass a <strong>Simple Test</strong>. 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Persistent Blocker</div>
+                                    <div class="effect-meta">Action Roll · Continuous</div>
+                                </td>
+                                <td class="rules-text">
+                                    Similar to Blocker, but set-aside Hits <strong>reset</strong> after each blocked action. Ends if a test succeeds despite the block or conditions change. (e.g., Disguises, Restraints).
+                                </td>
+                            </tr>
+
+                            <tr class="skill-section-hd">
+                                <td colspan="2">Timing & Reactions</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Trigger Effect</div>
+                                    <div class="effect-meta">1 AP · Delayed Action</div>
+                                </td>
+                                <td class="rules-text">
+                                    Specify a <strong>trigger event</strong> and an action. When the trigger occurs, immediately roll the test. Requires <strong>Concentration</strong>; taking other tests or being attacked breaks the effect. 1 AP is spent on the turn of declaration.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="effect-name">Persistent Trigger</div>
+                                    <div class="effect-meta">Delayed Action · No Conc.</div>
+                                </td>
+                                <td class="rules-text">
+                                    A Trigger Effect that does <strong>not</strong> require concentration. Typically reserved for items like traps or automated security systems.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <h2>General Effect Rules</h2>
+                </div>
+                <div class="card-body rules-text">
+                    <p><strong>Narrative Consistency:</strong> The GM's deciding factor for an effect is: <em>"Is this effect possible using this Attribute Pair and this narration?"</em></p>
+                    <p><strong>Concentration:</strong> While waiting for a <strong>Trigger</strong>, you are concentrating. If you take any other test or someone succeeds at an action to break your concentration (like an attack), the effect is lost.</p>
+                    <p><strong>Removing Effects:</strong> A creature in a position to remove an ongoing effect can roll a <strong>Simple Test</strong> to remove <strong>one Hit</strong> that was set aside for that effect.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-foot">
+            Corsair RPG · Quick Reference Sheet · System Document
+        </div>
+    </div>
+</body>
+
+</html>

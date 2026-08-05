@@ -20,7 +20,7 @@ Choose two heritages. You can pick the same option twice.
 - **Human**: Gain +2 Skill Points
 - **Naga**: Gain +1 **Agility** or +1 **Instinct**
 - **Craggen**: Gain +1 **Finesse** or +1 **Knowledge**
-- **Sylvan**: Gain +1 **Strength** or +1 **Charisma**
+- **Sylvan**: Gain +1 **Strength** or +1 **Presence**
 
 Based on the heritages, choose a race. You can select a race as long as you have at least one heritage belonging to that
 race. You also gain a special trait with your race selection.
@@ -48,8 +48,8 @@ race. You also gain a special trait with your race selection.
 
 ## Attributes
 
-Spend 10 Creation Points to increase your six core Attributes: **Strength**, **Finesse**, **Agility**, **Charisma**, *
-*Knowledge**, and **Instinct**. Your Attributes start at 1 and can go up to a maximum of 5 during character creation.
+Spend 10 Creation Points to increase your six core Attributes: **Strength**, **Finesse**, **Agility**, **Presence**,
+**Knowledge**, and **Instinct**. Your Attributes start at 1 and can go up to a maximum of 5 during character creation.
 Increasing an Attribute by 1 costs 1 Creation Point up to level 4. Increasing an Attribute's value from 4 to 5 costs 2
 Creation Points.
 
