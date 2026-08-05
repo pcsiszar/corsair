@@ -1,142 +1,180 @@
 # Bestiary: Threats of the Sphere
 
-This catalog provides a selection of ready-to-use NPCs for the Game Master. These entries use the framework established in
-`NPC_Guidelines.md`. Each entry includes a stat block, tactical advice, and lore context.
+This catalog provides a selection of unique and specialized NPCs for the Game Master. These entries use the framework
+established in `NPC_Guidelines.md`. Each entry is defined by its **Properties**, which codify its unique behavior
+and mechanical presence in the Sphere.
 
 ---
 
-## 1. Corporate & Civil Threats
+## 1. Law Enforcement & Military
 
-### Corporate Security Guard
-*Common enforcers for Megacorps like the ones controlling Dustwall or Pelagia's floating islands.*
+### Dustwall Rover
 
-**Category:** Standard | **Tier:** 1 | **Cost:** 1 Point
-* **Phys:** 2 | **Ment:** 2
-* **Acc:** 2 | **DMG Bonus:** +0
-* **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 0
-* **Equipment:** Semi-auto pistol, light armor, tactical radio.
+*Rovers serve as the local law-enforcement in Dustwall, made up mostly from rough and tumble vagabonds, with more
+accurate moral compass than most. They are small in number, but incredibly popular amongst the locals because of their
+tight knit bonds with the community.*
 
-**Tactics:** Security guards usually operate in **Squads**. They use the **Teamwork** action to provide Upgrades to their
-squad leader's attacks. They prioritize cover and will call for reinforcements if the Corsair Cell proves too
-formidable.
+**Category:** Standard | **Tier:** 2
 
----
-
-### Syndicate "Mist-Runner"
-*Specialized criminals operating in the gas-choked ravines beneath Cloudspire. They are masters of low-visibility
-combat.*
-
-**Category:** Standard | **Tier:** 2 | **Cost:** 2 Points
-* **Phys:** 3 | **Ment:** 3
-* **Acc:** 3 | **DMG Bonus:** +1
+* **Phys:** 4 | **Ment:** 4
+* **DMG Bonus:** +1
+* **Move:** 4m | **Acc Array:** 3 / 2 / - / -
 * **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1
-* **Equipment:** Twin knives or SMG, thermal goggles, gas mask.
+* **Protection:** 3
 
-**Tactics:** Mist-Runners use smoke grenades or the natural fog of Nimbus to create **Difficult Terrain** and
-**Obscurity**. They use their high Physical attribute to move quickly through vertical environments, striking from the
-mist before retreating.
+**Properties:**
+
+- Bola Throw: Short Range permanent blocker using a Simple Physical Test.
 
 ---
 
-### Corporate "Hush-Team" Specialist
-*Elite wetwork agents sent to "resolve" problems that legal departments cannot. They are quiet, professional, and
-deadly.*
+### Pelagia Tidewarden
 
-**Category:** Elite | **Tier:** 2 | **Cost:** 4 Points (2 Base + 2 Elite)
-* **Phys:** 3 | **Ment:** 3
-* **Acc:** 3 | **DMG Bonus:** +1
-* **Health (HP):** 20 | **Action Points (AP):** 3
-* **Protection:** 2 (1 Baseline + 1 Elite)
-* **Equipment:** Silenced carbine, high-frequency blade, active camo (1 Hit for Downgrade to attackers).
+*The Tidewardens are fabled to be one of the strongest close-quarters combatants in the Sphere. They are trained in a
+secluded place in Pelagia and sold off individually as bodyguards for the local elites, or in rare cases, off-worlders.*
 
-**Tactics:** Hush-Teams never fight fair. They use the **Trigger** effect to set up ambushes, waiting for a Corsair to
-step into the open. They focus-fire on the most vulnerable cell member (often the Weaver or Conduit).
+**Category:** Elite | **Tier:** 4
+
+* **Phys:** 6 | **Ment:** 5
+* **Reach:** 4 | **DMG Bonus:** +4
+* **Move:** 8m | **Acc Array:** - / - / - / -
+* **Health (HP):** 24 | **Action Points (AP):** 3
+* **Protection:** 3
+
+**Properties:**
+
+* **Legendary Action:** On the beginning of the GM turn, if the Tidewarden has no AP, and the players hadn't passed the
+  round yet, it gains 1 AP. This AP is lost at the end of the turn.
+* **Legendary Reaction:** On the beginning of the Player Turn, if the Tidewarden has no AP, it gains 1 AP. This AP is
+  lost at the end of the turn.
+* **Counter:** When contesting a melee attack, after negating all hits, use the highest remaining dice to deal damage to
+  the attacker.
+
+---
+
+### Nimbus Rapid Response Force (RRF) / Nightwatch Enforcer
+
+*Proud to represent the bleeding edge of the Sphere, the RRF is deployed to respond to within minutes to any threat
+across Nimbus. With their existence itself being sort of an open secret, corporations are happy to grant them access to
+their latest tech, and expect preferential treatment in return. They usually deploy in squads of 4 or 5 in a pitch black
+VTOL craft, sporting weapons and armor even Corsairs never heard of.*
+
+**Category:** Elite | **Tier:** 4
+
+* **Phys:** 5 | **Ment:** 2
+* **DMG Bonus:** +4
+* **Move:** 4m | **Acc Array:** 4 / 4 / 3 / 2
+* **Health (HP):** 24 | **Action Points (AP):** 3
+* **Protection:** 7
+
+**Properties:**
+
+* **Squad Tactics:** When using Teamwork with other Nightwatch Enforcers, all participants receive +1 Upgrade.
+
+---
+
+### Flotilla Marine
+
+*While it might seem out of place to have marines in the Flotilla when it is strictly prohibited to deploy on colonized
+worlds in normal times, the Marines are trained for those abnormal times when it is necessary. They are also exceptional
+at boarding actions and low-gravity engagements.*
+
+**Category:** Standard | **Tier:** 3
+
+* **Phys:** 5 | **Ment:** 3
+* **DMG Bonus:** +3
+* **Move:** 4m | **Acc Array:** 3 / 3 / 2 / 1
+* **Health (HP):** 15 | **Action Points (AP):** 3
+* **Protection:** 5
+
+**Properties:**
+
+* **Squad Tactics:** When using Teamwork with other Flotilla Marines, all participants receive +1 Upgrade.
+* **Zero-G Expert:** Gain an Upgrade and increase base movement by 4m when moving in zero-gravity.
 
 ---
 
 ## 2. Raiders and Outlaws
 
-### Scav Raider
-*Aggressive, nomadic raiders known for their brutal hit-and-run tactics and scavenged, unpredictable technology.*
+### Desert Wraith
 
-**Category:** Standard | **Tier:** 2 | **Cost:** 2 Points
-* **Phys:** 3 | **Ment:** 3
-* **Acc:** 3 | **DMG Bonus:** +1
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1
-* **Equipment:** Scavenged shotgun, rusted plating, stimulant injectors (+1 DMG for 1 turn, then 1 Downgrade).
+*There are many tribes and gangs in the deserts of Suncatcher, but the Desert Wraiths are one of the most secretive and
+dangerous ones. They are a tribal people with deep-rooted hatred for outsiders who and are as ruthless as the deserts
+they inhabit.*
 
-**Tactics:** Scavs are reckless. They often charge into melee, using the **Push** effect to knock Corsairs out of
-defensive positions or into environmental hazards like venting steam.
+**Category:** Standard | **Tier:** 2
 
----
+* **Phys:** 4 | **Ment:** 4
+* **DMG Bonus:** +2
+* **Move:** 4m | **Acc Array:** 3 / 2 / - / -
+* **Health (HP):** 14 | **Action Points (AP):** 3
+* **Protection:** 2
 
-### Scav Warlord
-*A veteran survivor who has unified multiple Scav clans through raw violence and tactical cunning.*
+**Properties:**
 
-**Category:** Boss | **Tier:** 3 | **Cost:** 10 Points (4 Base + 6 Boss)
-* **Phys:** 5 | **Ment:** 4
-* **Acc:** 5 | **DMG Bonus:** +2
-* **Health (HP):** 44 | **Action Points (AP):** 5
-* **Protection:** 4 (2 Baseline + 2 Boss)
-* **Equipment:** Heavy scrap-cannon (AOE), powered gauntlet, command headset.
-
-**Tactics:** The Warlord uses their high AP to act frequently. They often use the **Blocker** effect to suppress the
-Corsairs' strongest attackers while their minions swarm the cell. **Telegraph:** "The Warlord’s cannon begins to glow
-with a sickly green light" (Telegraphs an AOE blast next turn).
+* **Veil of Sand:** Once per turn, the Desert Wraith can create a dust cloud in it's space that prevents creatures from
+  seeing out of, into, or through it. Creatures other than Sand Wraiths in the space receive 1 Downgrade to any test
+  requiring sight.
 
 ---
 
-## 3. Automated & Precursor Threats
+### Leviathan Cultist
 
-### Precursor Sentinel
-*Ancient, floating geometric constructs that guard Vaults and sensitive Precursor sites. They follow rigid,
-mathematical defense protocols.*
+*The Children of the Leviathan are a secret cult operating on Pelagia. They worship the Leviathan, the massive see
+creature dwelling in its vast ocean. Contrary to popular belief, its followers are not bestowed with any special powers
+are properties, other than the seemingly infinitely blind devotion and zeal they possess, almost as if posessed.*
 
-**Category:** Elite | **Tier:** 3 | **Cost:** 6 Points (4 Base + 2 Elite)
-* **Phys:** 5 | **Ment:** 4
-* **Acc:** 5 | **DMG Bonus:** +2
-* **Health (HP):** 24 | **Action Points (AP):** 3
-* **Protection:** 3 (2 Baseline + 1 Elite)
-* **Equipment:** Integrated pulse laser, kinetic shield generator.
+**Category:** Standard | **Tier:** 1
 
-**Tactics:** Sentinels are efficient. They use **Persistent Blockers** to create defensive perimeters around their
-protected objective. They do not feel fear and will fight until destroyed, unless the intruder retreats beyond the
-Vault's threshold.
+* **Phys:** 2 | **Ment:** 1
+* **DMG Bonus:** 0
+* **Move:** 4m | **Acc Array:** - / - / - / -
+* **Health (HP):** 8 | **Action Points (AP):** 3
+* **Protection:** 0
 
 ---
 
-## 4. Xeno-Fauna (Wildlife)
+### Cloudsurfer
 
-### Suncatcher Sand-Stalker
-*An apex predator of the Suncatcher Badlands. These low-slung, reptilian hunters blend perfectly with the wind-scoured
-canyons.*
+*Perhaps the most iconic gang in Cloudspire, the Cloudsurfers are a group of hooligans is known for their brazen acts
+using their hoverboards, on which they soar through the skies of the city, in ways that are almost always illegal. They
+mostly engage in turf wars and vandalism and are not particularly involved with the more mature criminal organizations,
+but they are always happy to lend their skills for the right price.*
 
-**Category:** Standard | **Tier:** 2 | **Cost:** 2 Points
-* **Phys:** 3 | **Ment:** 3
-* **Acc:** 3 | **DMG Bonus:** +1
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1 (Natural scales)
-* **Special:** *Ambush Hunter* — Gains +2 Accuracy on attacks against targets who haven't acted yet this combat.
+**Category:** Standard | **Tier:** 2
 
-**Tactics:** Sand-Stalkers wait for the heat of the day to pass, striking during the **Eclipse** when temperatures drop.
-They use their Physical attribute to burrow into the sand, gaining **Protection** until they strike.
+* **Phys:** 4 | **Ment:** 3
+* **Reach:** 2 | **DMG Bonus:** +3
+* **Move:** 12m | **Acc Array:** 2 / - / - / -
+* **Health (HP):** 13 | **Action Points (AP):** 3
+* **Protection:** 2
+
+**Properties:**
+
+* **Hoverboard:** Once per turn, the Cloudsurfer can use their base movement to fly. They do not fall at the end of the
+  player turn.
 
 ---
 
-### Kazahn "Stitch-Beast"
-*A terrifying example of weaponized Precursor genetic modification found in the subterranean wilds of Kazahn. It is a
-mass of muscle, chitin, and redundant organs.*
+### Jailer Bloodmage
 
-**Category:** Elite | **Tier:** 3 | **Cost:** 6 Points (4 Base + 2 Elite)
-* **Phys:** 5 | **Ment:** 4
-* **Acc:** 5 | **DMG Bonus:** +2
-* **Health (HP):** 24 | **Action Points (AP):** 3
-* **Protection:** 3 (2 Baseline + 1 Elite)
-* **Special:** *Redundant Biology* — The first time this creature is reduced to 0 HP, it immediately recovers 5 HP and
-  becomes **Enraged** (+1 DMG, -1 Protection).
+*While the area around the Evergaol is sealed off, the Jailers are seemingly the only criminal organization that can go
+in and out the Exclusion Zone as they please. Those who meet them often describe them as off-putting and strange, but
+the artifacts they uncover usually fetch a high price. Their higher ranking members are usually known to posess weird
+powers not dissimilar to those granted to Corsairs by their specialized gear.*
 
-**Tactics:** Stitch-Beasts are relentless and instinctive. They ignore cover, charging directly at the nearest threat
-to utilize their **Chain** effect, biting and clawing multiple targets in a single flurry of violence.
+**Category:** Standard | **Tier:** 3 | **Cost:** 4 Points
+
+* **Phys:** 3 | **Ment:** 5
+* **DMG Bonus:** +3
+* **Move:** 4m | **Acc Array:** 3 / - / - / -
+* **Health (HP):** 20 | **Action Points (AP):** 3
+* **Protection:** 3
+
+**Properties:**
+
+* **Crimson Shield:** Once per turn, the Jailer Bloodmage can contest an attack for free.
+* **Piercing Blood:** Once per turn, the Jailer Bloodmage can perform a ranged attack up to Long Range using it's Mental
+  Attribute, with a damage bonus of +5.
+
+---

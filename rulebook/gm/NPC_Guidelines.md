@@ -11,7 +11,7 @@ handle dozens of enemies without getting bogged down in individual stat blocks.
 
 ### 1. Grunts and Minions
 
-Most "cannon fodder"—corporate guards, street thugs, or basic alien drones—use **Uniform Attributes**.
+Most "cannon fodder"—corporate guards, street thugs, or basic alien drones—use **Uniform Attributes**. The GM can quickly assemble these using the **Tier** baselines. Unique mechanical traits for more complex enemies are defined as **Properties**.
 
 * **Physical Attribute:** A single value used for all Strength, Agility, and Finesse tests.
 * **Mental Attribute:** A single value used for all Knowledge, Presence, and Instinct tests.
@@ -24,8 +24,7 @@ When NPCs outnumber players, they should act in **Squads**. A squad should typic
 **Corsair Cell** (the player group) to keep the action economy balanced and the turn order clean.
 
 * **Movement:** A squad moves as a single unit on the same initiative/turn.
-* **Teamwork:** Squad members prioritize the **Teamwork** action. Instead of 4-5 guards making individual attacks, have
-  one leader make the attack while the others "sacrifice" their Action Points to provide **Upgrades** to the leader.
+* **Teamwork:** Squad members prioritize the **Teamwork** action. Instead of 4-5 guards making individual attacks, have one leader make the attack while the others "sacrifice" their Action Points to provide **Upgrades** to the leader. Some elite units have properties that further enhance this (e.g., **Squad Tactics**).
 * **Outnumbering:** Use the **Outnumbering** rules from Chapter 8 to give squads a natural advantage in melee without
   needing complex math.
 
@@ -46,16 +45,26 @@ then apply the **Category** modifiers.
 
 ### Baseline Stats by Tier
 
-| Tier  | Phys | Ment | Acc (Base) | DMG Bonus | Protection |
-|:------|:-----|:-----|:-----------|:----------|:-----------|
-| **1** | 2    | 2    | 2          | +0        | 0          |
-| **2** | 3    | 3    | 3          | +1        | 1          |
-| **3** | 5    | 4    | 5          | +2        | 2          |
-| **4** | 6+   | 5+   | 6+         | +3        | 3          |
+| Tier  | Phys | Ment | Move | DMG Bonus | Protection | Hit Points |
+|:------|:-----|:-----|:-----|:----------|:-----------|:-----------|
+| **1** | 2    | 2    | 4m   | +0        | 0          | 9          |
+| **2** | 3    | 3    | 4m   | +1        | 1          | 12         |
+| **3** | 5    | 5    | 4m   | +2        | 3          | 15         |
+| **4** | 6+   | 6+   | 4m   | +3        | 5          | 18         |
 
 * **Accuracy:** By default, NPC weapon Accuracy is equal to their **Physical** attribute.
+* **Accuracy Array:** For ranged combat, the GM should assign accuracy values for **Short**, **Medium**, **Long**, and **Extreme** ranges based on the NPC's role and equipment.
+* **Movement:** The base distance an NPC can move with a single Action Point. The standard for all Tiers is **4m**. Exceptional cases (e.g., predatory wildlife, high-tech drones) may deviate from this baseline.
 * **Damage Bonus:** Added to the final result of successful attacks.
 * **Protection:** Reduces incoming damage.
+
+### NPC Properties
+
+Rather than generic tactics, unique NPC behaviors should be codified as **Properties**. These are passive or active abilities that define how the NPC interacts with the environment and the Corsairs. 
+
+* **Standard Properties:** Most NPCs have 0-1 properties.
+* **Elite/Boss Properties:** May have 2+ properties.
+* **Cost:** Significant properties might increase the NPC's point cost (refer to the Tier/Category table for guidance).
 
 ### Category Modifiers (HP, AP, & Protection)
 
