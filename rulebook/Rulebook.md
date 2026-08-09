@@ -1082,26 +1082,33 @@ Contracts are the primary way for Corsairs to earn money. There are three differ
   lower end, but there is a chance that the work the Corsairs do will be recognized by the Oversight Comittee for doing
   good. Or they might be reprimanded for overreach and misconduct, based on what shenanigans they got up to.
 
-A contract will always list who it is from, the objective, the reward, which is most often credits, and a deadline.
-After accepting a contract, the poster will be notified and a short brief is transmitted to the terminal for the cell to
-review. Sometimes the poster will directly contact the cell, but this is more often not the case.
-
-The brief will also contain the precise requirements for fulfilling the job, which is usually confirmed by a third
-party. For example, for bounties, almost any law enforcement office can provide a confirmation for a completed
-contract. Escort, recovery or rescue missions will have a designated destination where the contract is fulfilled.
-Whatever the case, upon completion, the terminal on the ship will be notified and the payment will be forwarded to the
-Corsair Cell's account.
-
-The cell can also abandon a contract, however, this is usually frowned upon and will impact the reputation of
-the cell at best and trigger an audit by the oversight board at worst.
+You are free to browse contracts available to you as long as you have a commlink on your person. The full details might
+not be available before you accept the job, but an overview and pay are always included. Once you accept a
+contract, you have a fixed amount of time to complete it.
 
 #### Sanctioned Contracts
 
-| Mission Tier | Risk & Operational Scope            | Individual Payout                         | Base Rep Gain        | Max Sponsor Bonus    |
-|--------------|-------------------------------------|-------------------------------------------|----------------------|----------------------|
-| **Tier 1**   | **Low-Risk / Local Interdiction**   | **$\$3,750 - \$5,000 \text{ Credits}$**   | **$+1 \text{ Rep}$** | **$+1 \text{ Rep}$** |
-| **Tier 2**   | **Mid-Risk / Cross-Jurisdictional** | **$\$10,000 - \$15,000 \text{ Credits}$** | **$+3 \text{ Rep}$** | **$+2 \text{ Rep}$** |
-| **Tier 3**   | **High-Risk / Systemic Crisis**     | **$\$25,000+ \text{ Credits}$**           | **$+7 \text{ Rep}$** | **$+3 \text{ Rep}$** |
+| Mission Tier | Individual Payout                         | Base Rep Gain        | Max Sponsor Bonus    |
+|--------------|-------------------------------------------|----------------------|----------------------|
+| **Tier 1**   | **$\$3,750 - \$5,000 \text{ Credits}$**   | **$+1 \text{ Rep}$** | **$+1 \text{ Rep}$** |
+| **Tier 2**   | **$\$10,000 - \$15,000 \text{ Credits}$** | **$+3 \text{ Rep}$** | **$+2 \text{ Rep}$** |
+| **Tier 3**   | **$\$25,000+ \text{ Credits}$**           | **$+7 \text{ Rep}$** | **$+3 \text{ Rep}$** |
+
+#### Unsanctioned Contracts
+
+| Mission Tier | Individual Payout                         |
+|--------------|-------------------------------------------|
+| **Tier 1**   | **$\$10,000 - \$20,000 \text{ Credits}$** |
+| **Tier 2**   | **$\$20,000 - \$50,000 \text{ Credits}$** |
+| **Tier 3**   | **$\$50,000+ \text{ Credits}$**           |
+
+#### Freelance Contracts
+
+| Mission Tier | Individual Payout                       |
+|--------------|-----------------------------------------|
+| **Tier 1**   | **$\$5,00 - \$1,500 \text{ Credits}$**  |
+| **Tier 2**   | **$\$2,000 - \$5,000 \text{ Credits}$** |
+| **Tier 3**   | **$\$10,000+ \text{ Credits}$**         |
 
 ### Rest and Relaxation
 
