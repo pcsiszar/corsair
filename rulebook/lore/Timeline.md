@@ -277,9 +277,9 @@ shortage. The Flotilla mobilizes every available asset to escort emergency relie
 
 #### 129 AA — The Sack of Cloudspire
 
-A highly aggressive, unknown alien race nicknamed the **Scavs** launches a surprise raid on Nimbus. Utilizing brutal
-orbital bombardment, they demolish the majority of Cloudspire's high-altitude arcologies and plunder the SRC research
-base, stealing the stored remains of Stormdrinker and an array of critical Precursor relics.
+A highly aggressive, unknown alien race nicknamed the **Scavs** launches a surprise raid on Nimbus. Their main target
+were the remains of Stormdrinker's remains and they managed to steal an entire wing before being chased off, but not
+before causing significant damage to the city and its populace.
 
 #### 130 AA — Fracturing of the Flotilla
 
@@ -399,7 +399,7 @@ constructs a high-security monitoring station at the Karst-Rime L1 point, strict
 #### 175 AA — Completion of the Fume Track
 
 The colonization of Rime achieves total stability, operating as a booming industrial and research hub. This marks the
-complete utilization of the Fume orbital track, with the Sphereborn occupying five of its worlds and standing vigil over
+complete utilization of the Fume orbital track, with the Newcomers occupying five of its worlds and standing vigil over
 the sixth.
 
 #### 180 AA — First Contact with X'ara
@@ -414,17 +414,17 @@ An alien delegation arrives at the edge of Fume, introducing themselves as the *
 direct genetic descendants of the Precursors, whom they worship as ascended deities. They reveal that the *Evergaol* was
 an automated security fortress commanded by a malevolent Precursor mind known as the *Praetor*.
 
-While asserting that the Sphere is their divine birthright, the Ancestrals grant the Spherites the right to remain on
+While asserting that the Sphere is their divine birthright, the Ancestrals grant the Newcomers the right to remain on
 their current worlds, excluding the sovereign Ancestral home worlds of **Irul’lia (Irul 1)** and **Irul’oa (Irul 2)**.
-The treaty establishes free transit for Ancestral pilgrims across Spherite space. In return, a single, heavily fortified
-**Flotilla Consulate** is established on the surface of **Irul 1**—the sole enclave where Spherites are legally
+The treaty establishes free transit for Ancestral pilgrims across Newcomer space. In return, a single, heavily fortified
+**Flotilla Consulate** is established on the surface of **Irul 1**—the sole enclave where Newcomers are legally
 permitted to clear customs and interface with the reclusive, hyper-advanced Ancestral society.
 
 #### 185 AA — The Opening of the Avon and Oran Worlds
 
-Spherite pioneers begin settling the remaining worlds of the X'ara track under strict treaty guidelines. The L4 Trojan
+Newcomer pioneers begin settling the remaining worlds of the X'ara track under strict treaty guidelines. The L4 Trojan
 pair, **Avon’ria (Avon 1)** and **Avon’oa (Avon 2)**, evolves into a vibrant cultural melting pot. The
-Ancestral-dominated Avon 1 hosts solemn, historical rituals, while the Spherite-leaning Avon 2 becomes world-famous for
+Ancestral-dominated Avon 1 hosts solemn, historical rituals, while the Newcomer-leaning Avon 2 becomes world-famous for
 its chaotic, colorful art festivals—displays that the highly formal Ancestrals find deeply endearing.
 
 Concurrently, the L5 Trojan pair, **Oran’ria (Oran 1)** and **Oran’oa (Oran 2)**, is declared sacred ground, completely

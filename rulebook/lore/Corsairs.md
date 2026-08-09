@@ -27,7 +27,8 @@ could not exist without the sponsors who grant the means for it to operate, both
 jurisdiction and in terms of funding their existence.
 
 Being a sponsor grants you the right to bring matters to the attention of the Corsair Cells. When you need
-a perceived injustice or a threat investigated or handled, you can directly petition the organization to act.
+a perceived 
+injustice or a threat investigated or handled, you can directly petition the organization to act.
 
 In exchange, they are required to fund the entry of at least one member into the Corsairs, the majority of which is for
 the ship they will be operating from. Sponsors handpick the individuals who become Corsair agents and provide their

@@ -37,7 +37,7 @@ territory of the Ancestrals.
   purple hue. The planet serves as the administrative core of the Ancestral civilization. Its Inner Face is dominated by
   sprawling, highly advanced spires that tap directly into the planetary lithospheric dynamo. While the society here is
   almost entirely closed off to outsiders, the Flotilla is permitted to maintain a single highly secured diplomatic
-  consulate on the surface—the only enclave where Spherites are legally allowed to clear transit protocols and interface
+  consulate on the surface—the only enclave where Newcomers are legally allowed to clear transit protocols and interface
   directly with Ancestral officials.
 * **Irul’oa (Irul 2):** The second world is a protective and industrial counterpart. While its geography matches
   Irul'lia's temperate baseline, high concentrations of surface silicates cause its equatorial savannas to grow stiff,
@@ -57,8 +57,8 @@ evolved into a unique cultural convergence zone, famous across the system for it
   commemorate their history and lineage, celebrating their proximity to the relics of their "Gods."
 * **Avon’oa (Avon 2):** The second Avon world features high surface copper deposits, staining its extensive moss-like
   ground cover an intense, metallic green, with rivers of liquid mercury cutting through the plains. This moon is
-  heavily Spherite-leaning, populated mostly by Preservationist communities. The cultural festivals here are vibrant,
-  chaotic, and artistic, serving as a hub where Spherite subcultures display their unique traditions. The Ancestrals
+  heavily Newcomer-leaning, populated mostly by Preservationist communities. The cultural festivals here are vibrant,
+  chaotic, and artistic, serving as a hub where Newcomer subcultures display their unique traditions. The Ancestrals
   find these cultural displays deeply endearing, making Avon 2 a rare point of genuine, friendly interaction between the
   two civilizations.
 

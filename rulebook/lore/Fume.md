@@ -28,7 +28,7 @@ Situated at the base of the orbital track, these two worlds provide the system�
   forests, mountain ranges, and large, stable basins. Its climate is the most temperate in the Fume cluster, with the
   eclipse serving as a mild seasonal shift.
   The planet’s geopolitical landscape is anchored by two critical locations. **Crossroads**, the oldest city established
-  by the Spherites and the current capital, retains a distinct, historical character. It features low-slung stone and
+  by the Newcomers and the current capital, retains a distinct, historical character. It features low-slung stone and
   timber engineering salvaged from early colony ships, maintaining a rustic, spread-out layout that deliberately avoids
   supermassive vertical structures. In stark contrast lies the **Evergaol Crash Site**, a massive, scarred exclusion
   zone where the hull of the disabled Precursor invasion fortress sits permanently embedded into the crust, serving as a
@@ -78,7 +78,7 @@ This pair showcases the extreme effects of gravitational tidal friction on plane
   geothermally heated inland seas and bioluminescent forests.
   This subterranean ecosystem is home to the **Lithari**, a primitive intelligent species of tribal hunters. Following
   their discovery, the Flotilla enacted the **Non-Interference Protocol**, declaring Karst a non-interference zone. All
-  Sphereborn presence is strictly prohibited, and the Flotilla maintains a permanent orbital blockade to ensure the
+  Newcomer presence is strictly prohibited, and the Flotilla maintains a permanent orbital blockade to ensure the
   Lithari remain undisturbed until they achieve spaceflight capability.
 * **Rime:** Rime is defined by its extreme albedo. The Outer Face is locked under a permanent, kilometers-thick ice
   sheet that reflects the majority of incoming stellar radiation. The planet’s geography is a gradient of temperature:

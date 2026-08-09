@@ -2,7 +2,7 @@
 
 The **Flotilla** is the primary military force in the Sphere and the enforcer of the "Law of the Drift." It originated
 from the unified defense crews of the original colony ships and was formally established to address systemic
-instability as piracy and trade disputes threatened the burgeoning Spherite civilization. Following joint calls from
+instability as piracy and trade disputes threatened the burgeoning Newcomer civilization. Following joint calls from
 the **Crossroads High Council** and the **Trade Alliance**, the Flotilla was formed as a neutral, system-wide
 peacekeeping force to protect the trade lanes and maintain order between the moons.
 
@@ -21,7 +21,7 @@ Through the High Council, the colonies have a direct say in Flotilla policy, tre
 founding **Charter**, preventing the military organization from acting unilaterally or encroaching on planetary
 sovereignty.
 
-The founding **Charter** defines the Flotilla as the primary defense for the Sphere-born. It operates as a
+The founding **Charter** defines the Flotilla as the primary defense for the Newcomers. It operates as a
 corporate-military state where all orbital activity—including transit, mining, and research—is regulated and funded
 through the Flotilla’s administrative framework.
 

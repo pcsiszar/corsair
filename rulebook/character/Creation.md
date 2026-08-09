@@ -7,7 +7,7 @@ may choose the same exotic sponsor.
 
 Sponsor options:
 
-- **Flotilla:** The independent interstellar defense force of Spherite civilization.
+- **Flotilla:** The independent interstellar defense force of Newcomer civilization.
 - **Colonial:** The governing bodies of the colonies established in the Sphere.
 - **Corporate:** Megacorporations that have interests on many different moons in the Sphere.
 - **Civilian:** Unions, religious groups, political movements, or other NGOs.
@@ -61,6 +61,7 @@ you cannot use the Heritage +1 to avoid paying 2 Creation Points for going from 
 Spend 6 Skill Points to purchase Skills for your character. A level 1 Skill costs 1 Skill Point. Increasing a Skill's
 level by 1 costs an amount of Skill Points equal to the new level of the Skill (e.g., Lvl 1 -> Lvl 2 costs 2 Skill
 Points, Lvl 2 -> Lvl 3 costs 3 Skill Points).
+
 
 ## Starter Kit
 

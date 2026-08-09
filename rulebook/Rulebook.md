@@ -110,7 +110,7 @@ To play Corsair, you will need a few things:
 ## Chapter 2: The World of Corsair
 
 Corsair takes place in the far future where humanity and a number of other civilizations fled their home systems and
-found their new home in a far away place among the stars. They arrived as newcomers to a seemingly abandoned solar
+found their new home in a far away place among the stars. They arrived as Newcomers to a seemingly abandoned solar
 system packed to the brim with over a hundred habitable planets and called it the Sphere.
 
 ### Introduction to the Sphere
@@ -1060,10 +1060,27 @@ Your ship can carry a limited number of supplies, which depends on its size.
 
 ### Contracts
 
-The one thing every Corsair ship has is the contract terminal, which is directly linked to Redmane Station's central
-Corsair Contract Board. Corsair Cells are only allowed to take on one contract at a time, but as long as they are
-eligible to work on one, the terminal will display the list of available contracts. A cell might also be contacted
-directly by one of their sponsors to nudge them into a contract.
+Contracts are the primary way for Corsairs to earn money. There are three different types of contracts:
+
+- **Sanctioned Contracts:** These are missions that are submitted by a sponsor and reviewed by the Oversight Comittee.
+  These are jobs that require the exact skills and authority of a Corsair, while also deemed worthy of serving the
+  common good in one capacity or another. If conflict is involved, it is most likely against criminal elements,
+  dangerous beasts, or hostile aliens. A cell is required to complete sanctioned contracts at regular frequencies,
+  or at least prove that they served their functions as interstellar law-enforcement agents in some other way, or face
+  penalties for slacking off. These jobs are also the most straightforward way to climb the ranks and earn yourselves a
+  better ship.
+- **Unsanctioned Contracts:** These are missions that are forwarded to a specific Corsair Cell directly by a sponsor.
+  These also require skills the Corsairs possess, but the contract giver would prefer no-one else to know about the job
+  being done. The pay is usually leagues better, but absolute discretion is a strict requirement. Getting caught doing
+  illegal activities or abusing their authority outside sanctioned work gets you fast-tracked towards severe
+  penalties, the worst of which is total and irrevocable expulsion from the Corsairs, accompanied by jail time, from
+  which the only escape is going rogue.
+- **Freelance Contracts:** These are jobs that are not necessarily meant for Corsairs, but they provide a way for all
+  free-spirited, daring, and capable individuals to earn money. These jobs can be posted by anyone and accepted by
+  anyone, and is the primary way for would be Corsairs to get some experience and get noticed by potential sponsors.
+  Nevertheless, many Corsairs still take on these odd jobs to get some additional income. They pay for these is on the
+  lower end, but there is a chance that the work the Corsairs do will be recognized by the Oversight Comittee for doing
+  good. Or they might be reprimanded for overreach and misconduct, based on what shenanigans they got up to.
 
 A contract will always list who it is from, the objective, the reward, which is most often credits, and a deadline.
 After accepting a contract, the poster will be notified and a short brief is transmitted to the terminal for the cell to
@@ -1077,6 +1094,8 @@ Corsair Cell's account.
 
 The cell can also abandon a contract, however, this is usually frowned upon and will impact the reputation of
 the cell at best and trigger an audit by the oversight board at worst.
+
+#### Sanctioned Contracts
 
 | Mission Tier | Risk & Operational Scope            | Individual Payout                         | Base Rep Gain        | Max Sponsor Bonus    |
 |--------------|-------------------------------------|-------------------------------------------|----------------------|----------------------|

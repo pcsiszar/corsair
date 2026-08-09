@@ -7,9 +7,9 @@ character's physical or mental Attributes.
 ## Experience Points
 
 To increase your attributes, advance your skills, and master traits, you need Experience Points (XP). XP is earned in
-two
-ways, training, and missions. Training is the process of learning new skills and improving existing. To train, you need
-to spend 1 AP during day-to-day pacing, which can be performed anywhere, even onboard your ship, or out in the wilds.
+two ways, training, and missions. Training is the process of learning new skills and improving existing. To train, you
+need to spend 1 AP during day-to-day pacing, which can be performed anywhere, even onboard your ship, or out in the
+wilds.
 
 The other way to earn XP is by spending Gambit on tests. Any time you spend Gambit on a test you would have otherwise
 failed. It doesn't matter if you fail or succeed after adding Gambit, and it doesn't matter how many Gambits you spend

@@ -92,7 +92,7 @@
 | **Nerve-Blue Injector** | Medicine 4  Lesser Mental Healing 1/1                     | 1    | 3,500  |
 | **SharpX**              | Stimulant (Instinct 1, Knowledge 1), Volatile 2, Fleeting | 1    | 4,000  |
 | **Nitro**               | Stimulant (Agility 1), Volatile 2, Fleeting               | 1    | 5,000  |
-| **Rizz**                | Stimulant (Charisma 1), Volatile 2, Fleeting              | 1    | 6,000  |
+| **Rizz**                | Stimulant (Presence 1), Volatile 2, Fleeting              | 1    | 6,000  |
 | **Edgedance**           | Stimulant (Finesse 1, Instinct 1), Volatile 2, Fleeting   | 1    | 7,000  |
 | **Roid**                | Stimulant (Strength 2), Volatile 3, Fleeting              | 1    | 8,000  |
 
