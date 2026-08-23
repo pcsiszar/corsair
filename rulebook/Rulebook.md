@@ -43,16 +43,12 @@
     - [Core Attributes](#core-attributes)
     - [Derived Attributes](#derived-attributes)
     - [Skills](#skills)
-    - [Condition Tracks](#condition-tracks)
-    - [Taking Damage and Healing](#taking-damage-and-healing)
-    - [Consequences of Filled Tracks](#consequences-of-filled-tracks)
+    - [Condition](#condition)
 - [Chapter 6: Equipment](#chapter-6-equipment)
-    - [Load](#load)
-    - [Equipment Categories](#equipment-categories)
-    - [Firearms](items/Firearms.md)
-    - [Melee Weapons](items/Melee.md)
-    - [Armor](items/Armor.md)
-    - [Gear](items/Gear.md)
+    - [Firearms](equipment/Firearms.md)
+    - [Melee Weapons](equipment/Melee.md)
+    - [Armor](equipment/Armor.md)
+    - [Gear](equipment/Gear.md)
 - [Chapter 7: Tracks and Effects](#chapter-7-tracks-and-effects)
     - [What are Tracks?](#what-are-tracks)
     - [Effects](core/Effects.md)
@@ -510,205 +506,13 @@ define your character, it does not restrict the skill's mechanical benefit. The 
 test made with its linked Attribute Pair, regardless of the specific action being performed. The name is primarily a
 narrative tool, and the mechanics are tied only to the Attributes.
 
-### Condition Tracks
+### Condition
 
-Condition Tracks are a measure of your character's ability to withstand the physical and mental rigors of a life of
-adventure. Instead of a single pool of hit points, your character has two sets of Condition Tracks: Physical and Mental.
-These tracks represent your resilience against injury, fatigue, stress, and fear.
-
-#### Physical and Mental Tracks
-
-* **Physical Tracks:** These tracks measure your character's physical well-being. They are affected by injury, poison,
-  fatigue, and other physical hardships. The size of your Physical Tracks is determined by your **Endurance**.
-* **Mental Tracks:** These tracks represent your character's mental and emotional state. They are affected by stress,
-  fear, intimidation, and psychological trauma. The size of your Mental Tracks is determined by your **Willpower**.
-
-#### The Three Tracks
-
-Both the Physical and Mental categories are further divided into three individual, linked tracks. When your character
-takes damage or stress, they will mark off boxes on the first track. Once a track is full, any further damage or stress
-carries over to the next track in the sequence.
-
-Each of these three tracks has a size equal to **4 + your relevant Derived Attribute**.
-
-* **Physical Track Sizes:** Each of your three Physical tracks has a size of **4 + Endurance**.
-* **Mental Track Sizes:** Each of your three Mental tracks has a size of **4 + Willpower**.
-
-The consequences of filling these tracks will be detailed in the next section.
-
-### Taking Damage and Healing
-
-Your Condition Tracks are filled by taking damage and are cleared when you receive healing. The process is not always
-straightforward, as some wounds are more serious than others.
-
-#### Aggravated Damage
-
-When an incoming source of damage or stress is enough to completely fill one of your three condition tracks, you risk
-taking **Aggravated Damage**. Any damage that overflows from the filled track does not simply carry over to the next
-one. Instead, for each point of overflow damage, one segment on the *next* track becomes **locked**.
-
-Locked segments are a form of aggravated damage. They still count as filled boxes for the purpose of determining if a
-track is full, but they cannot be cleared by most common forms of healing.
-
-#### Healing and Recovery
-
-Healing is divided into two types, based on its ability to repair serious harm.
-
-* **Lesser Healing:** This is the most common type of healing. It can clear standard damage from your tracks, but it
-  **cannot** clear locked (Aggravated) segments.
-* **Greater Healing:** This is a more powerful and intensive form of healing required to clear locked segments. Each
-  locked segment costs **2 Success Points** to heal, while standard segments cost 1.
-
-Your access to different types of healing depends on the current scene's scope.
-
-* **Moment to Moment:** In the heat of combat or a crisis, options are limited to specialized equipment (like
-  stim-packs) or unique character abilities, which are governed by their specific rules.
-
-* **Place to Place:** When the crew has a moment to catch their breath, the following **Lesser Healing** options become
-  available.
-    * **Short Rest:** Once per round, a character can take a moment to recuperate by making a **Success Test** using
-      **Endurance + Willpower**. The character heals 1 segment for every 2 Success Points generated, rounded down. They
-      can choose to apply this healing to either their Physical or Mental tracks.
-    * **Dedicated Items:** The healing items used in moment to moment gameplay are still available here, plus the longer
-      time frame allows for other, more efficient options as well, such as a Medkit. These are governed by their
-      specific rules.
-
-* **Day to Day:** During extended downtime, characters have access to **Greater Healing**.
-    * **Long Rest:** When resting for a significant period, a character makes a **Success Test** using **Endurance +
-      Willpower**. The Success Points from this test can be spent to heal segments on *both* their Physical and Mental
-      tracks. Standard segments cost 1 Success Point, while locked (Aggravated) segments cost 2.
-    * **Dedicated Items and Places:** Not only you will gain access to more items that are dedicated to healing you long
-      term, you can visit places that are dedicated to making you feel better, such as clinics, or a medbay on your
-      ship. These are yet again governed by their specific rules.
-
-### Consequences of Filled Tracks
-
-Filling your Condition Tracks has immediate and severe consequences. These rules apply when your entire set of three
-Physical or three Mental tracks is completely filled.
-
-Once a set of tracks is full, any additional damage of that same type automatically becomes aggravated damage in that
-same set of tracks, locking the first available segment.
-
-#### Physical Track Consequences
-
-* **All Tracks Filled:** When all three of your Physical tracks are filled with damage (a mix of standard and/or
-  aggravated), your character falls **Unconscious**. They are unable to act and are at the mercy of the situation. They
-  remain unconscious until at least one segment of damage is cleared.
-
-* **All Tracks Filled with Aggravated Damage:** If every single segment of your three Physical tracks is filled with
-  aggravated damage, your character **Dies**. There is no coming back from this.
-
-#### Mental Track Consequences
-
-* **All Tracks Filled:** When all three of your Mental tracks are filled with damage (but not all of it is aggravated),
-  your character is mentally overwhelmed. They immediately **lose all dice in their Gambit pool**, and they **cannot
-  earn or spend Gambit**. This state persists until at least one segment of mental damage is cleared.
-
-* **All Tracks Filled with Aggravated Damage:** If every single segment of your three Mental tracks is filled with
-  aggravated damage, your character's mind breaks. The player **loses control of the character**, who is now temporarily
-  controlled by the GM. The character will most likely act on pure survival instinct, either fleeing the scene in a
-  blind panic or lashing out recklessly at the source of their distress.
+[Condition](character/Condition.md)
 
 ## Chapter 6: Equipment
 
-Not every item a character carries has a significant mechanical impact on the game. Everyday objects like personal
-commlinks, apartment keys, or sentimental trinkets are assumed to be part of a character's belongings without needing
-specific rules. However, items that provide a distinct advantage in challenging situations—from weapons and armor to
-specialized tools—are classified as Equipment. These items are governed by the **Load** system.
-
-### Load
-
-Every piece of mechanically significant equipment has a **Load** value, which represents its weight, size, and
-cumbersomeness. A character's ability to carry this equipment is limited by their physical strength.
-
-Your character's maximum Load capacity is **12 + (Strength x 2)**.
-
-This limit is absolute; a character cannot carry items with a total Load value exceeding this capacity under any
-circumstances. It is often a wise tactical decision to leave some of your Load capacity unused. An open slot might be
-exactly what you need to carry a vital piece of salvage or a mission-critical objective you discover on the job.
-
-### Equipment Categories
-
-Equipment is divided into three major categories:
-
-* **Weapons:** Anything designed to inflict physical harm, from vibro-knives and plasma pistols to heavy repeating
-  blasters. See [Firearms](items/Firearms.md) and [Melee Weapons](items/Melee.md).
-* **Armor:** Protective gear worn to reduce or negate incoming damage. See [Armor](items/Armor.md).
-* **Gear:** A broad category that includes everything else of mechanical importance. See [Gear](items/Gear.md).
-
-#### Weapons
-
-Weapons are divided into two main types: Melee and Ranged. While they function differently, all weapons share a common
-statistic: the Damage Bonus.
-
-**Damage Bonus**
-
-The Damage Bonus is a flat value added to the success points you generate on a successful attack roll. However, these
-bonus points can only be used to increase the damage dealt and cannot be used for any other purpose.
-
----
-
-##### Melee Weapons
-
-Melee weapons are designed for close-quarters combat. They have two unique characteristics: Reach and their method of
-calculating their Damage Bonus.
-
-* **Reach:** This stat determines the effective distance of a melee weapon. When your weapon's Reach is greater than
-  your opponent's, you receive Upgrades to your attack test. Furthermore, if you are using a battle map for combat, a
-  weapon with a Reach of 3 or more allows you to attack opponents in adjacent spaces, not just your own.
-
-* **Damage Bonus:** The Damage Bonus for melee weapons is often derived from your character's Physical Attributes. For
-  example, a weapon's bonus might be calculated as `Strength / 3` or `(Agility / 3) + 1`. The result of these
-  calculations is always rounded down to the nearest whole number.
-
----
-
-##### Ranged Weapons
-
-Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calculate their Damage Bonus.
-
-* **Accuracy:** This is the primary attribute for all ranged weapons, and any attack made with one **must** include its
-  Accuracy rating as part of the attribute pair (most commonly **Finesse + Accuracy**). A weapon's Accuracy is not a
-  single value, but an array of four values corresponding to the distance to the target:
-    * **Short Range:** 0-5 spaces or ~0-20m
-    * **Medium Range:** 6-12 spaces or ~20-50m
-    * **Long Range:** 13-25 spaces or ~50-100m
-    * **Extreme Range:** 26+ spaces or ~100m+
-
-- **Rate of Fire (RoF):** This stat represents the weapon's capacity for rapid fire and its ability to engage multiple
-  targets. On each attack, gain *Rapid Fire* points equal to your weapon's Rate of Fire attribute and spend it on any of
-  the following options:
-    - Once per the Success roll and once per the Action roll, spend $X$ **Rapid Fire** to reroll $X$ dice.
-    - Spend 1 **Rapid Fire** to discard any die with value 8 or higher during the Action roll, or the Success roll to
-      gain +1 Damage on the current attack.
-    - After the attack, spend one **Rapid Fire** to have the leftover damage spill over to another creature in the
-      target's space.
-
-* **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as
-  +1, +2, or +3.
-
-#### Armor
-
-Armor is any type of protective gear worn by a character to contest against harm. Its primary function is to reduce the
-amount of damage you take from attacks.
-
-The main attribute for any piece of armor is its **Protection** value. Protection provides a flat reduction that you can
-apply to incoming conventional damage. For example, if you are hit by an attack that would normally deal 5 points of
-damage, and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
-
-If you have multiple sources that provide a flat Protection value (such as from armor and certain Traits), you only
-apply the highest value; they do not stack. This is different from effects or bonuses that specifically add to your
-Protection score, which do stack.
-
-While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often
-bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of
-Action Points each round.
-
-#### Gear
-
-Gear is a broad category encompassing all other mechanically significant items that don't fall under Weapons or Armor.
-These items often provide special properties, unique abilities, or situational advantages. Gear can be anything from a
-single-use consumable to a complex device with ongoing effects.
+[Equipment](equipment/Equipment.md)
 
 ## Chapter 7: Tracks and Effects
 
@@ -1099,12 +903,12 @@ contract, you have a fixed amount of time to complete it.
 Stress and injuries are an unavoidable part of life when you are on a Corsair. Most are easy to recover from, but some
 take longer to heal.
 
-Resting is an action you can take in day-to-day pacing to recover Aggravated Wounds on your Physical Condition Track.
+Resting is an action you can take in day-to-day pacing to recover Aggravated Wounds on your Physical Condition.
 When you rest, you roll a Success Test using Endurance. You immediately heal all light stress and wounds, and you can
 heal one Aggravated Wound per 2 Success Points.
 
 Relaxation is the equivalent of Resting on the Mental side, you take the Success Test using Willpower and can heal one
-Aggravated Stress per 2 Success Points on the Mental Condition track.
+Aggravated Stress per 2 Success Points on your Mental Condition.
 
 Both of these actions can be performed on your ship or anywhere civilization has taken hold.
 
