@@ -891,19 +891,6 @@ A single 4x4 meter space can comfortably house up to **4** standard-sized creatu
 single space is **8** standard-sized creatures. Many actions, especially melee attacks and certain Teamwork maneuvers,
 will require you to be in the same space as your target or ally.
 
-#### Damage Spill
-
-Sometimes, you have the means to finish multiple hostiles in one attack. When you successfully downed a hostile with
-damage left to spare, you can have the leftover points of damage spill over to another creature occupying the same space
-as the original target.
-
-When attacking in melee, you can repeat the damage spillover any number of times as long as you have damage left over
-from your initial attack, there are still hostile creatures in the space of your original target, and you fully downed
-your previous target.
-
-When attacking at range, you can only have damage spill over to a maximum number of targets equal to your weapon's Rate
-of Fire. If that is 0, you cannot have the damage spill over to even a single target.
-
 #### Outnumbering
 
 Ganging up on a foe is a valid and effective tactic. When you and your allies outnumber your opponents within a single
@@ -913,15 +900,12 @@ You receive a number of **Upgrades** on your melee attack tests equal to the dif
 creatures and hostile creatures in that space. For example, if 3 allies are in a space with 1 enemy, all allies would
 receive 2 Upgrades (3 - 1 = 2) on their melee attacks against that enemy.
 
-#### Overcrowding
+#### Melee
 
-While packing into a single space can be advantageous, it can also become a chaotic hindrance. When more than 4
-creatures occupy the same space, it becomes **Overcrowded**.
-
-* An Overcrowded space is considered **Difficult Terrain** for any character moving within or into it.
-* Furthermore, the GM may impose a **Downgrade** on certain actions if the overcrowding would logically interfere with
-  them. Trying to swing a large axe or take careful aim with a rifle would be much harder when you are packed
-  shoulder-to-shoulder with 5 other people.
+You can attack a creature in the same space as you, or an adjacent space. When you attack a creature in an adjacent
+space, you move into it, provided it holds less than 4 creatures. If it does, you simply perform the attack from your
+current space, but as if you, and all your allies in your space were in the space of the creature you attacked (for
+outnumbering purposes).
 
 #### Creature Size
 

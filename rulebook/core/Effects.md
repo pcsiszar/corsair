@@ -16,13 +16,11 @@ close enough to it that the effect could feasibly be established as part of the 
 results are rolled is allowed at the GM's discretion, where the main deciding factor should be:
 Is this effect you are trying to achieve possible with you using this Attribute Pair and part of this narration?
 
-## Crit Effect
+## Action Effects
 
-Crit Effects are the most generic type of effect, which can be activated during any Success Roll.
+You can activate Action Effects during an Action Roll.
 
-For every Hit you spend on this effect, you increase the total Succes Points you score on the Success Roll by 2.
-
-## Chain Effect
+### Chain Effect
 
 Chain effects can be activated during any Action Roll that is part of an action that is performed against a specific
 target, out of multiple eligible ones. Most commonly, it is activated during an attack when fighting multiple opponents.
@@ -34,28 +32,24 @@ Test normally and use the highest result when calculating Success Points on all 
 You cannot chain actions that already affect multiple targets. You can chain actions that require spending a resource,
 but you must spend that resource for each target you chain.
 
-## Push Effect
+### Push Effect
 
-If your narration is aimed at, or can feasibly include you moving another creature, you can spend your Hits scored on a
-Success Roll on a Push Effect.
+Use your hits to push a target 4 meters. You can move along with the target if you wish to.
 
-For each Hit, you can move the target creature horizontally for up to 4 meters. As long as your narration is compatible
-with this, you can choose to move alongside the creature at no extra cost.
+### Upgrade/Downgrade Effect
 
-Pushing a willing creature is a Success Test, pushing an unwilling creature is a Complex Test.
+Use your hits to upgrade or downgrade a dice for any later roll related to an advantage or disadvantage you create. You
+can use this on the Success Roll of the current Complex Test.
 
-## Upgrade/Downgrade Effect
+## Success Effects
 
-If your narration is aimed at, or can feasibly include you creating a situation that is beneficial to you and/or
-disadvantageous to your opponents, you can spend your Hits scored on either an Action Roll to create
-an Upgrade/Downgrade Effect.
+You can activate Success Effects during a Success Roll.
 
-Creatures interacting with the created effect receive the appropriate +1 Upgrade or Downgrade on any relevant tests.
-Further hits can increase the level of this effect, granting +1 Upgrade or Downgrade for each level.
+### Crit Effect
 
-An Upgrade/Downgrade Effect only lasts until all levels of it are removed, or the condition that created it is no longer
-relevant. For example, if you knock a creature prone to give yourself an Upgrade when attacking them, but don't take
-measures to prevent them from standing up on their turn, they will simply do so and end the effect.
+Crit Effects are the most generic type of effect, which can be activated during any Success Roll.
+
+For every Hit you spend on this effect, you increase the total Succes Points you score on the Success Roll by 2.
 
 ## Trigger Effect
 

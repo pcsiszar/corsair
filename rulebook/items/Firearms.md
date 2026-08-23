@@ -61,7 +61,7 @@ Versatile primary weapons that balance range, power, and fire rate.
 | **CQC "Zephyr"**  | 3 / 1 / 1 / 0      | 4   | +0        | 3    | 6,500 |             |
 | **VWS "Vandal"**  | 3 / 2 / 1 / 0      | 2   | +2        | 3    | 7,200 |             |
 | **PA "Panther"**  | 2 / 3 / 2 / 1      | 1   | +1        | 3    | 7,500 |             |
-| **CQC "Thunder"** | 3 / 2 / 1 / -      | 2   | +1        | 3    | 8,000 |             |
+| **CQC "Thunder"** | 3 / 2 / 1 / -      | 2   | +3        | 3    | 8,000 |             |
 
 ## Shotguns
 
@@ -101,12 +101,12 @@ Massive weapons requiring significant strength to wield, offering overwhelming f
 
 Massive weapons requiring significant strength to wield, offering overwhelming firepower.
 
-| Weapon Name        | Range (S/M/L/E) | Special Properties                     | Dmg | Load | Cost   | Description |
-|:-------------------|:----------------|:---------------------------------------|:----|:-----|:-------|:------------|
-| **CF "Basilisk"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (3H3d8, 4m Radius)   | 0   | 4    | 26,000 |             |
-| **CQC "Volcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d10, 12m Radius) | 0   | 4    | 31,500 |             |
-| **VWS "Rocket"**   | 1 / 1 / 1 / -   | Ammo, Area Attack (1H1d12, 4m Radius)  | +6  | 5    | 40,000 |             |
-| **PA "Manticore"** | 1 / 1 / 1 / -   | Ammo, Area Attack (2H2d8, 4m Radius)   | +7  | 5    | 55,000 |             |
+| Weapon Name        | Range (S/M/L/E) | Special Properties                  | Dmg | Load | Cost   | Description |
+|:-------------------|:----------------|:------------------------------------|:----|:-----|:-------|:------------|
+| **CF "Basilisk"**  | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 4, 4m Radius  | 0   | 4    | 26,000 |             |
+| **CQC "Volcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 2, 12m Radius | 0   | 4    | 31,500 |             |
+| **VWS "Rocket"**   | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 4, 4m Radius  | +6  | 5    | 40,000 |             |
+| **PA "Manticore"** | 1 / 1 / 1 / -   | Ammo, Area Attack, ORD 5, 4m Radius | +7  | 5    | 55,000 |             |
 
 ### Special Properties
 
