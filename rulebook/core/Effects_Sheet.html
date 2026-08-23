@@ -346,7 +346,7 @@
         </div>
 
         <div class="intro-text rules-text">
-            <p><strong>Effects</strong> represent tactical advantages, narrative twists, or scene alterations. To activate an effect, you must <strong>sacrifice Hits</strong> scored during either a <strong>Success Roll</strong> or an <strong>Action Roll</strong>. Your narration must support the effect's manifestation.</p>
+            <p><strong>Effects</strong> represent tactical advantages, narrative twists, or scene alterations. To activate an effect, you must <strong>sacrifice Hits</strong> (dice showing 8+) scored during either a <strong>Success Roll</strong> or an <strong>Action Roll</strong>. Your declared narration must align logically with the effect and chosen Attribute Pair.</p>
         </div>
 
         <!-- MAIN GRID -->
@@ -374,7 +374,7 @@
                                     <div class="effect-meta">Success Roll · Generic</div>
                                 </td>
                                 <td class="rules-text">
-                                    For every <strong>Hit</strong> spent, increase the total <strong>Success Points</strong> scored on the roll by <strong>2</strong>.
+                                    For every <strong>Hit</strong> spent on a Success Roll, add <strong>+2 Success Points</strong> to your total outcome (applied to the highest remaining die).
                                 </td>
                             </tr>
                             <tr>
@@ -383,16 +383,16 @@
                                     <div class="effect-meta">Action Roll · Multi-Target</div>
                                 </td>
                                 <td class="rules-text">
-                                    Spend <strong>1 Hit</strong> per additional eligible target. Roll the test normally; the highest result applies to all targets. Must spend resources (ammo, charge) for each target. Cannot chain already multi-target actions.
+                                    Spend <strong>1 Hit</strong> per additional target eligible for the test. Complex Tests use a single Success Roll applied to all targets. Must pay resource costs for each target. Cannot chain multi-target actions. Ranged attacks must target the same range band; combined Chain and Crit cannot exceed weapon Rate of Fire.
                                 </td>
                             </tr>
                             <tr>
                                 <td>
                                     <div class="effect-name">Push Effect</div>
-                                    <div class="effect-meta">Success Roll · Movement</div>
+                                    <div class="effect-meta">Success Roll · Melee / Physical</div>
                                 </td>
                                 <td class="rules-text">
-                                    Spend <strong>1 Hit</strong> to move a creature horizontally up to <strong>4 meters</strong>. You may move alongside at no cost. (Willing: Success Test; Unwilling: Complex Test).
+                                    Spend <strong>1 Hit</strong> on a Success Roll to displace a target backward up to <strong>4 meters</strong> (you may move along at no cost). Restricted to <strong>melee attacks and physical actions</strong> (cannot be used with ranged attacks or social interactions).
                                 </td>
                             </tr>
 
@@ -402,10 +402,10 @@
                             <tr>
                                 <td>
                                     <div class="effect-name">Upgrade / Downgrade</div>
-                                    <div class="effect-meta">Action Roll · Situational</div>
+                                    <div class="effect-meta">Action Roll · Advantage / Disadvantage</div>
                                 </td>
                                 <td class="rules-text">
-                                    Spend <strong>Hits</strong> to create situational advantages/disadvantages. Target receives <strong>±1 Upgrade/Downgrade</strong> per level of the effect. Lasts until the creating condition is no longer relevant (e.g., standing up from prone).
+                                    Spend <strong>Hits</strong> from an Action Roll to step up or step down a die on subsequent rolls. On Complex Tests, can apply immediately to step up dice on your upcoming Success Roll without specifying the created advantage.
                                 </td>
                             </tr>
                             <tr>
@@ -414,7 +414,7 @@
                                     <div class="effect-meta">Action Roll · Hindrance</div>
                                 </td>
                                 <td class="rules-text">
-                                    Set aside <strong>Hits</strong> to stop future actions. Each Hit negates the <strong>highest die</strong> scored on a blocked action's test. If no test is normally required, the target must pass a <strong>Simple Test</strong>. 
+                                    Set aside <strong>Hits</strong> from an Action Roll to hinder future actions. Each Hit negates the <strong>highest die</strong> scored on an opponent's test attempting the blocked action. If no test is normally required, forces a <strong>Simple Test</strong> first.
                                 </td>
                             </tr>
                             <tr>
@@ -423,29 +423,7 @@
                                     <div class="effect-meta">Action Roll · Continuous</div>
                                 </td>
                                 <td class="rules-text">
-                                    Similar to Blocker, but set-aside Hits <strong>reset</strong> after each blocked action. Ends if a test succeeds despite the block or conditions change. (e.g., Disguises, Restraints).
-                                </td>
-                            </tr>
-
-                            <tr class="skill-section-hd">
-                                <td colspan="2">Timing & Reactions</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="effect-name">Trigger Effect</div>
-                                    <div class="effect-meta">1 AP · Delayed Action</div>
-                                </td>
-                                <td class="rules-text">
-                                    Specify a <strong>trigger event</strong> and an action. When the trigger occurs, immediately roll the test. Requires <strong>Concentration</strong>; taking other tests or being attacked breaks the effect. 1 AP is spent on the turn of declaration.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <div class="effect-name">Persistent Trigger</div>
-                                    <div class="effect-meta">Delayed Action · No Conc.</div>
-                                </td>
-                                <td class="rules-text">
-                                    A Trigger Effect that does <strong>not</strong> require concentration. Typically reserved for items like traps or automated security systems.
+                                    Similar to Blocker, but set-aside Hits <strong>reset</strong> after each blocked attempt. Ends when an action succeeds despite the blocker or conditions expire (e.g., Magnetic Restraints, Smoke Screen).
                                 </td>
                             </tr>
                         </tbody>
@@ -460,8 +438,7 @@
                 </div>
                 <div class="card-body rules-text">
                     <p><strong>Narrative Consistency:</strong> The GM's deciding factor for an effect is: <em>"Is this effect possible using this Attribute Pair and this narration?"</em></p>
-                    <p><strong>Concentration:</strong> While waiting for a <strong>Trigger</strong>, you are concentrating. If you take any other test or someone succeeds at an action to break your concentration (like an attack), the effect is lost.</p>
-                    <p><strong>Removing Effects:</strong> A creature in a position to remove an ongoing effect can roll a <strong>Simple Test</strong> to remove <strong>one Hit</strong> that was set aside for that effect.</p>
+                    <p><strong>Removing Effects:</strong> A creature in a position to remove an ongoing effect can spend <strong>1 Action Point</strong> to make a <strong>Simple Test</strong>, eliminating <strong>1 set-aside Hit</strong> per Hit scored on the test.</p>
                 </div>
             </div>
         </div>
