@@ -26,7 +26,16 @@ Examples should be provided whenever a rule or system is introduced:
 
 ---
 
-## 5. Style Demonstration Example
+## 5. Setting Constraints (Hard Sci-Fi)
+Corsair is set in a **hard science fiction** universe. Traditional science fantasy tropes and speculative soft sci-fi technologies are off-limits across all rulebook text, narrative examples, and mechanical descriptions. Specifically:
+* **No Artificial Gravity**: Describe movement and environments using spin gravity, magnetic boots, tethering, or zero-g physics.
+* **No Plasma Weapons or Energy Shields**: Use grounded kinetic firearms, railguns, lasers, thermal tools, pneumatic gear, or physical armor.
+* **No Faster-Than-Light (FTL) Travel**: Space travel and vessel movement rely on sub-light propulsion, momentum, and orbital mechanics.
+* **No Soft Sci-Fi Tropes**: Avoid concepts like force fields, stasis fields, psionics, or magical technology.
+
+---
+
+## 6. Style Demonstration Example
 
 > ### Example: Combined Mechanics in Action
 > Jax faces down a security guard in close combat and declares, *"I leap forward with a fast, heavy tackle, using my momentum and raw power to drive through their guard."* Based on this description, the Game Master calls for a **Strength (5) + Agility (3)** Complex Test. 
