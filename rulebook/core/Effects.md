@@ -44,7 +44,7 @@ Success Effects are activated during your **Success Roll**, allowing you to ampl
 The **Crit Effect** is the primary Success Effect available across all Success Rolls. By sacrificing Hits from your Success Roll pool, you enhance the impact of your effort. For every Hit you spend on a Crit Effect, you add **+2 Success Points** to your total outcome. This bonus is added directly to the highest remaining die value selected for your Success Points.
 
 ### Push Effect
-A **Push Effect** allows you to leverage raw momentum or physical force to reposition a target. For each Hit sacrificed from your Success Roll, you knock or force the target backward by up to 4 meters. If you wish to maintain pressure or stay in close proximity, you may move along with the target as they are displaced without spending additional movement. Push Effects can only be activated with melee attacks or physical actions; they cannot be activated with ranged attacks or social interactions.
+A **Push Effect** allows you to leverage raw momentum or physical force to reposition a target. For each Hit sacrificed from your Success Roll, you knock or force the target backward by up to 4 meters. If you wish to maintain pressure or stay in close proximity, you may move along with the target as they are displaced without spending additional movement. Push Effects can only be activated if **Strength** (or a similar physical power attribute) is included in the test's Attribute Pair; they cannot be activated with tests relying solely on finesse, mental, or social attributes.
 
 ---
 
@@ -65,7 +65,7 @@ Ongoing environmental hazards, physical restraints, and persistent blockers do n
 > Moving to his Success Roll for his lower Attribute (**Strength 5**), Jax rolls 4d10 and 1d12 (modified by his Upgrade Effect). His roll yields `[5, 6, 7, 8]` on the d10s and `8` on the d12. 
 > 
 > Jax scores two Hits (both `8`s) on his Success Roll. He decides to activate two Success Effects:
-> 1. He spends his first `8` to activate a **Push Effect** (valid for a melee attack), shoving the lead drone back 4 meters directly into its squadmate.
+> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead drone back 4 meters directly into its squadmate.
 > 2. He spends his second `8` to activate a **Crit Effect**, granting **+2 Success Points** to his highest remaining die.
 > 
 > The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), dealing heavy damage to the drone while driving it clear of the doorway.
