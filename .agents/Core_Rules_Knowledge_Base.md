@@ -96,8 +96,8 @@ To activate an effect, sacrifice Hits from an Action Roll or Success Roll as ind
 * **Chain Effect**: Spend 1 Hit per additional target eligible for the same test. (For Complex Tests, make one Success Roll and apply the highest result to all targets. Cannot chain actions that already affect multiple targets; resource costs must be paid per target).
 * **Push Effect**: Spend Hits to push a target 4 meters. You may move along with them.
 * **Upgrade/Downgrade Effect**: Spend Hits to upgrade or downgrade a die on subsequent rolls related to the advantage/disadvantage created (can apply immediately to the current Complex Test's Success Roll).
-* **Blocker Effect**: Spend Hits to hinder a future action. Each set-aside Hit negates the highest die on an opponent's test attempting that action.
-* **Persistent Blocker Effect**: A Blocker Effect where the set-aside Hit pool resets after each blocked action. Ends when an action succeeds despite the blocker or conditions no longer apply.
+* **Blocker Effect**: Spend 2 Hits per set-aside Hit to hinder a future action. Each set-aside Hit negates the highest die on an opponent's test attempting that action.
+* **Persistent Blocker Effect**: A Blocker Effect (costing 2 Hits per set-aside Hit) where the set-aside Hit pool resets after each blocked action. Ends when an action succeeds despite the blocker or conditions no longer apply.
 
 ### Success Effects (Activated on Success Roll)
 * **Crit Effect**: Spend Hits on a Success Roll to increase total Success Points by **+2 per Hit spent**.
