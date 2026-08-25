@@ -29,10 +29,13 @@ If your narration aims to hinder, interrupt, or prevent an enemy from carrying o
 
 Once a set-aside Hit negates an opponent's die, that set-aside Hit is expended and removed from the pool. The Blocker Effect persists until all set-aside Hits are exhausted. If an opponent attempts to perform an action that normally does not require a test (such as opening a latch or standing up), the Blocker Effect forces them to execute a **Simple Test** first; failing to eliminate all set-aside Hits prevents them from completing the action.
 
-### Persistent Blocker Effect
-A **Persistent Blocker Effect** functions similarly to a standard Blocker Effect (costing 2 Hits per set-aside Hit), with one key distinction: the pool of set-aside Hits does not deplete after blocking a single action. Instead, the full number of set-aside Hits resets after each blocked attempt. 
+---
 
-This effect is typically reserved for specialized gear, physical restraints, or elaborate environmental hazards—such as magnetic restraints or a smoke screen. A Persistent Blocker Effect remains active until an opponent succeeds at their action despite the penalty, or until the physical conditions generating the effect are removed or negated.
+## Sustained Effects
+
+Certain Effects can be sustained over time rather than depleting after a single use. An Effect can become a **Sustained Effect** whenever there is an active physical object (such as magnetic restraints, deployed gear, a smoke screen, or specialized equipment) or an ongoing continuous action sustaining it.
+
+When an Effect is sustained, any set-aside Hits or mechanical benefits do not deplete when triggered. Instead, the full pool of set-aside Hits or advantages resets after each affected action or attempt. Sustained Effects can be applied to any Effect type where continuous operation makes logical narrative sense—most commonly Blocker Effects or ongoing Upgrade/Downgrade Effects. A Sustained Effect remains active until an opponent succeeds at an action despite the penalty, or until the physical object or continuous action sustaining it is removed, destroyed, or neutralized.
 
 ---
 
