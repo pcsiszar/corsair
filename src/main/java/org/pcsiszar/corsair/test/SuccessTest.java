@@ -16,7 +16,7 @@ public class SuccessTest extends Test<SuccessResult> {
 
   @Override
   protected DicePool getInitialDicePool(AttributePair attributePair) {
-    return DicePool.ofSize(attributePair.getLower().getValue());
+    return DicePool.ofSize(attributePair.getHigher().getValue());
   }
 
   @Override

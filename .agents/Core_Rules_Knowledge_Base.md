@@ -54,7 +54,7 @@ Used when an action requires determining both **if it succeeds** and **how well 
 
 Used when an action is **guaranteed to succeed**, but the **degree or quality of success** varies based on available time or effort.
 
-* **Dice Pool**: Roll d10s equal to the **lower** Attribute in the pair.
+* **Dice Pool**: Roll d10s equal to the **higher** Attribute in the pair.
 * **Resolution**: The highest single die value in the pool becomes your **Success Points** measuring how effectively the action was performed.
 
 ---

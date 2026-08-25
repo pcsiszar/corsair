@@ -202,7 +202,7 @@ Examples of Simple Tests include:
 
 A Success Test is used for actions that are certain to succeed, but the degree of success is variable. The question
 isn't *if* you can do it, but *how well* you do it in the time available. For a Success Test, you form a dice pool using
-a number of d10s equal to the *lower* of the two Attributes in the pair. The highest single die roll from the pool
+a number of d10s equal to the *higher* of the two Attributes in the pair. The highest single die roll from the pool
 becomes your "success points", which measures how effectively you performed the action.
 
 Examples of Success Tests include:
