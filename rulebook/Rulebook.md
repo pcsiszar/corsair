@@ -31,7 +31,7 @@
     - [Turns](#turns)
     - [Going First](#going-first)
     - [Pushing Your Limits](#pushing-your-limits-spending-more-than-2-points)
-- [Chapter 5: Player Characters](#chapter-5-player-characters)
+- [Chapter 5: Player Characters](character/Player_Characters.md)
     - [Character Creation](character/Creation.md)
     - [Classes](#classes)
         - [Conduit](classes/Conduit.md)
@@ -41,35 +41,34 @@
         - [Weaver](classes/Weaver.md)
     - [Traits](character/Traits.md)
     - [Character Advancement](character/Advancement.md)
-    - [Core Attributes](#core-attributes)
-    - [Derived Attributes](#derived-attributes)
-    - [Skills](#skills)
-    - [Condition](#condition)
-- [Chapter 6: Equipment](#chapter-6-equipment)
-    - [Firearms](equipment/Firearms.md)
-    - [Melee Weapons](equipment/Melee.md)
-    - [Armor](equipment/Armor.md)
-    - [Gear](equipment/Gear.md)
-- [Chapter 7: Tracks](#chapter-7-tracks)
-    - [What are Tracks?](core/Tracks.md#what-are-tracks)
-- [Chapter 8: Combat](#chapter-8-combat)
+    - [Core Attributes](character/Player_Characters.md#core-attributes)
+    - [Derived Attributes](character/Player_Characters.md#derived-attributes)
+    - [Skills](character/Player_Characters.md#skills)
+    - [Condition](character/Player_Characters.md#condition)
+- [Chapter 6: Combat](combat/Combat.md)
     - [Movement](combat/Combat.md#movement)
     - [Space and Occupancy](combat/Combat.md#space-and-occupancy)
     - [Close Quarters Combat (CQC)](combat/Combat.md#close-quarters-combat-cqc)
     - [Cover](combat/Combat.md#cover)
-- [Chapter 9: Starships and Space Combat](#chapter-9-starships-and-space-combat)
+- [Chapter 7: Equipment](equipment/Equipment.md)
+    - [Firearms](equipment/Firearms.md)
+    - [Melee Weapons](equipment/Melee.md)
+    - [Armor](equipment/Armor.md)
+    - [Gear](equipment/Gear.md)
+- [Chapter 8: Starships and Space Combat](ships/Starships.md)
     - [Ship Rules](ships/Ship_Rules.md)
     - [Ship Weapons](ships/Ship_Weapons.md)
     - [Internal Modules](ships/Internal_Modules.md)
     - [The Hangar Bay](ships/Hangar_Bay.md)
-- [Chapter 10: Day-to-Day Life](#chapter-10-day-to-day-life)
-    - [Supplies](#supplies)
-    - [Contracts](#contracts)
-    - [Rest and Relaxation](#rest-and-relaxation)
-    - [Travel](#travel)
-- [Chapter 11: Running the Game](#chapter-11-running-the-game)
+- [Chapter 9: Day-to-Day Life](downtime/Day_to_Day_Life.md)
+    - [Supplies](downtime/Day_to_Day_Life.md#supplies)
+    - [Contracts](downtime/Day_to_Day_Life.md#contracts)
+    - [Rest and Relaxation](downtime/Day_to_Day_Life.md#rest-and-relaxation)
+    - [Travel](downtime/Day_to_Day_Life.md#travel)
+- [Chapter 10: Running the Game](gm/Running_the_Game.md)
     - [NPC Guidelines](gm/NPC_Guidelines.md)
     - [Time Management](gm/Time_Management.md)
+    - [Tracks](gm/Running_the_Game.md#tracks)
 
 ## Introduction
 
@@ -397,328 +396,27 @@ The GM can transition between scene types as the story demands.
 
 ## Chapter 5: Player Characters
 
-Your character is your avatar in the world of Corsair. They are the protagonist of the stories you tell, and their
-skills,
-attributes, and traits will determine their success or failure.
+[Player Characters](character/Player_Characters.md)
 
-### Character Creation
-
-Creating a character involves choosing a sponsor, heritage, and race, as well as distributing points to attributes and
-skills. For the full step-by-step process, see [Character Creation](character/Creation.md).
-
-You can download a printable [Character Sheet](character/Character_Sheet.html) to record your character's details.
-
-### Classes
-
-Classes define your character's specialized role and unique abilities. Choose one of the following classes:
-
-- [Conduit](classes/Conduit.md): Elemental powerhouses.
-- [Hazard](classes/Hazard.md): Chemical specialists.
-- [Pilot](classes/Pilot.md): Modular exoskeleton operators.
-- [Vanguard](classes/Vanguard.md): Shield and heavy weapon experts.
-- [Weaver](classes/Weaver.md): Nanomachine artists.
-
-### Traits
-
-Traits are unique qualities or backgrounds that provide specific benefits or flavor to your character. See the full list
-of [Traits](character/Traits.md).
-
-### Character Advancement
-
-As you complete contracts and survive the dangers of the Sphere, your character will grow in power. For rules on
-spending experience points and improving your stats, see [Character Advancement](character/Advancement.md).
-
-### Core Attributes
-
-Every character in Corsair is defined by six Core Attributes, which represent their fundamental physical and mental
-capabilities. These attributes are rated on a scale from 1 to 10, with 1 being the lowest possible human ability and 10
-being the peak of human potential.
-
-#### Physical Attributes
-
-* **Strength:** This attribute represents a character's raw physical power, their muscular force, and their ability to
-  lift, push, and break things. It's used for tasks like forcing open a jammed airlock, grappling with an opponent, or
-  carrying a heavy load.
-
-* **Agility:** Agility measures a character's speed, reflexes, and overall physical coordination. It's crucial for
-  dodging out of harm's way, navigating treacherous terrain, and performing feats of acrobatics.
-
-* **Finesse:** Finesse represents a character's fine motor skills, precision, and hand-eye coordination. It's used for
-  tasks that require a delicate touch, such as picking a lock, performing surgery, or aiming a weapon with precision.
-
-#### Mental Attributes
-
-* **Knowledge:** This attribute reflects a character's education, their understanding of technical subjects, and their
-  ability to recall information. It's used for tasks like repairing a complex piece of machinery, hacking a computer
-  system, or remembering a critical piece of lore.
-
-* **Presence:** Presence is a measure of a character's force of personality, their charisma, and their ability to
-  command attention. It's crucial for negotiating a deal, intimidating a foe, or inspiring allies.
-
-* **Instinct:** Instinct represents a character's intuition, their gut feelings, and their ability to notice things that
-  others might miss. It's used for tasks like sensing a trap, detecting a lie, or making a snap judgment in a chaotic
-  situation.
-
-### Derived Attributes
-
-From your Core Attributes, you will derive two additional stats: Endurance and Willpower.
-
-* **Endurance:** Your character's Endurance represents their physical resilience and their ability to withstand pain and
-  injury. It is equal to the value of your second-highest Physical Attribute (Strength, Agility, or Finesse).
-
-* **Willpower:** Your character's Willpower represents their mental fortitude and their ability to resist stress, fear,
-  and manipulation. It is equal to the value of your second-highest Mental Attribute (Knowledge, Presence, or Instinct).
-
-### Skills
-
-While attributes represent a character's raw talent, skills represent their trained expertise in a specific area. Skills
-make your character unique and allow them to excel in their chosen fields.
-
-#### Skill Rating and Upgrades
-
-Skills are rated on a scale from 1 to 3. When you make a test using the Attribute Pair associated with one of your
-skills, you automatically receive a number of Upgrades equal to your skill's rating. This represents your character's
-training and experience, giving them a significant advantage in their areas of expertise.
-
-* **Skill 1:** You're trained in this area. You get 1 Upgrade on relevant tests.
-* **Skill 2:** You're a professional. You get 2 Upgrades on relevant tests.
-* **Skill 3:** You're one of the best in the galaxy. You get 3 Upgrades on relevant tests.
-
-#### Naming Your Skills
-
-A key feature of the Corsair skill system is its flexibility. You are encouraged to come up with creative and
-descriptive names for your skills. The only requirement is that the name must logically connect to the Attribute Pair
-it's associated with.
-
-For example, if you have a skill linked to the **Finesse + Agility** pair, you could name it:
-
-* *Gunslinging*
-* *Zero-G Acrobatics*
-* *Sleight of Hand*
-* *Blade Dancer*
-
-If your skill is linked to **Knowledge + Presence**, you might name it:
-
-* *Corporate Law*
-* *Xeno-Linguistics*
-* *Medical Diagnosis*
-* *Ancient History*
-
-This system allows you to tailor your character's abilities to your specific concept. While the name adds flavor and
-helps
-define your character, it does not restrict the skill's mechanical benefit. The Upgrades from a skill apply to **any**
-test made with its linked Attribute Pair, regardless of the specific action being performed. The name is primarily a
-narrative tool, and the mechanics are tied only to the Attributes.
-
-### Condition
-
-[Condition](character/Condition.md)
-
-## Chapter 6: Equipment
-
-[Equipment](equipment/Equipment.md)
-
-## Chapter 7: Tracks
-
-In Corsair, **Tracks** are a versatile mechanic used to represent ongoing situations, challenges, or the progression of
-events that are too complex to be resolved with a single dice roll.
-
-[Tracks](core/Tracks.md)
-
-## Chapter 8: Combat
+## Chapter 6: Combat
 
 In the world of Corsair, conflict is inevitable. When a conflict turns violent and every action matters, the game shifts
 into **Moment to Moment** pacing.
 
 [Combat](combat/Combat.md)
 
-## Chapter 9: Starships and Space Combat
+## Chapter 7: Equipment
 
-In the vast void of the Sphere, your ship is more than just transportation—it is your lifeline, your base of operations,
-and your most powerful weapon. This chapter covers the rules for operating starships and engaging in tactical space
-combat on both the Macro-Grid and the Dogfight scale.
+[Equipment](equipment/Equipment.md)
 
-### Ship Rules
+## Chapter 8: Starships and Space Combat
 
-Starships are defined by their Size Class, Hull Rating, Armor, and Engine performance. For a complete breakdown of how
-ships function and the rules for Newtonian movement in the void, see [Ship Rules](ships/Ship_Rules.md).
+[Starships](ships/Starships.md)
 
-### Ship Weapons
+## Chapter 9: Day-to-Day Life
 
-From rapid-fire Point-Defense Cannons to devastating Spinal Coilguns, ship-mounted weaponry is essential for any Corsair
-vessel. Detailed profiles for all available ordnance can be found in [Ship Weapons](ships/Ship_Weapons.md).
+[Day-to-Day Life](downtime/Day_to_Day_Life.md)
 
-### Internal Modules
+## Chapter 10: Running the Game
 
-Customize your vessel with specialized internal systems like Injector Seats, Auto-Loaders, and Enhanced Sensor Suites.
-For the full catalog of upgrades, see [Internal Modules](ships/Internal_Modules.md).
-
-### The Hangar Bay
-
-Need a ship to get started? The Hangar Bay features a collection of pre-configured starship models, from the starter
-Kestrel to the massive Leviathan dreadnought. Review the fleet in the [Hangar Bay](ships/Hangar_Bay.md).
-
-## Chapter 10: Day-to-Day Life
-
-Not every moment of a Corsair's life is filled with tense, adrenaline-inducing moments. They are people like any other.
-They need to be able to rest and relax, not to mention shopping for essentials and better gear, or travel from one
-place to the next, take on personal projects and, of course, look for the next big contract.
-
-One thing to never forget is that time is always ticking. Most contracts have a deadline, and they don't stay open
-forever. Even if you are working on other endevours or are just relaxing, the ship still needs fuel and supplies to
-operate, which comes out of your pocket.
-
-### Supplies
-
-Supply represents your crew's total remaining operational runway. Instead of tracking separate numbers for food, reactor
-coolant, and engine fuel, the entire vessel runs on a single, unified daily consumption rate.
-
-#### Consuming Supplies
-
-At the end of every day in-game, deduct one Supply from the ship's hold.
-
-If at the end of the day, you have no Supplies left, starting from the next day:
-
-* All passive benefits from ship modules (medical bays, workspaces) are disabled.
-* Ship damage cannot be repaired
-* Every crew member takes **1 Wound** and **1 Stress**.
-* Characters **cannot spend AP to gain XP** or train stats.
-
-#### Purchasing Supplies
-
-Supply can be replenished at any civilized port. Buying in bulk remains the most cost-effective way to fuel
-long-distance deployments.
-
-| Purchase Type            | Amount of Supply | Total Credit Cost          | Effective Cost Per Supply                    |
-|--------------------------|------------------|----------------------------|----------------------------------------------|
-| **Emergency Rations**    | 1 Supply         | $\$2,000 \text{ Credits}$  | $\$2,000 \text{ Credits}$                    |
-| **Standard Crate**       | 5 Supply         | $\$8,000 \text{ Credits}$  | $\$1,600 \text{ Credits}$ *(Save $\$2,000$)* |
-| **Sponsor Cargo Pallet** | 10 Supply        | $\$12,000 \text{ Credits}$ | $\$1,200 \text{ Credits}$ *(Save $\$8,000$)* |
-| **Industrial Haul**      | 20 Supply        | $\$20,000 \text{ Credits}$ | $\$1,000 \text{ Credits}$ *(Half Price!)*    |
-
-#### Cargo Holds
-
-Your ship can carry a limited number of supplies, which depends on its size.
-
-* **Small Ships:** Max **10 Supply**
-* **Medium Ships:** Max **20 Supply**
-* **Large Ships:** Max **30 Supply**
-
-### Contracts
-
-Contracts are the primary way for Corsairs to earn money. There are three different types of contracts:
-
-- **Sanctioned Contracts:** These are missions that are submitted by a sponsor and reviewed by the Oversight Comittee.
-  These are jobs that require the exact skills and authority of a Corsair, while also deemed worthy of serving the
-  common good in one capacity or another. If conflict is involved, it is most likely against criminal elements,
-  dangerous beasts, or hostile aliens. A cell is required to complete sanctioned contracts at regular frequencies,
-  or at least prove that they served their functions as interstellar law-enforcement agents in some other way, or face
-  penalties for slacking off. These jobs are also the most straightforward way to climb the ranks and earn yourselves a
-  better ship.
-- **Unsanctioned Contracts:** These are missions that are forwarded to a specific Corsair Cell directly by a sponsor.
-  These also require skills the Corsairs possess, but the contract giver would prefer no-one else to know about the job
-  being done. The pay is usually leagues better, but absolute discretion is a strict requirement. Getting caught doing
-  illegal activities or abusing their authority outside sanctioned work gets you fast-tracked towards severe
-  penalties, the worst of which is total and irrevocable expulsion from the Corsairs, accompanied by jail time, from
-  which the only escape is going rogue.
-- **Freelance Contracts:** These are jobs that are not necessarily meant for Corsairs, but they provide a way for all
-  free-spirited, daring, and capable individuals to earn money. These jobs can be posted by anyone and accepted by
-  anyone, and is the primary way for would be Corsairs to get some experience and get noticed by potential sponsors.
-  Nevertheless, many Corsairs still take on these odd jobs to get some additional income. They pay for these is on the
-  lower end, but there is a chance that the work the Corsairs do will be recognized by the Oversight Comittee for doing
-  good. Or they might be reprimanded for overreach and misconduct, based on what shenanigans they got up to.
-
-You are free to browse contracts available to you as long as you have a commlink on your person. The full details might
-not be available before you accept the job, but an overview and pay are always included. Once you accept a
-contract, you have a fixed amount of time to complete it.
-
-#### Sanctioned Contracts
-
-| Mission Tier | Individual Payout                         | Base Rep Gain        | Max Sponsor Bonus    |
-|--------------|-------------------------------------------|----------------------|----------------------|
-| **Tier 1**   | **$\$3,750 - \$5,000 \text{ Credits}$**   | **$+1 \text{ Rep}$** | **$+1 \text{ Rep}$** |
-| **Tier 2**   | **$\$10,000 - \$15,000 \text{ Credits}$** | **$+3 \text{ Rep}$** | **$+2 \text{ Rep}$** |
-| **Tier 3**   | **$\$25,000+ \text{ Credits}$**           | **$+7 \text{ Rep}$** | **$+3 \text{ Rep}$** |
-
-#### Unsanctioned Contracts
-
-| Mission Tier | Individual Payout                         |
-|--------------|-------------------------------------------|
-| **Tier 1**   | **$\$10,000 - \$20,000 \text{ Credits}$** |
-| **Tier 2**   | **$\$20,000 - \$50,000 \text{ Credits}$** |
-| **Tier 3**   | **$\$50,000+ \text{ Credits}$**           |
-
-#### Freelance Contracts
-
-| Mission Tier | Individual Payout                       |
-|--------------|-----------------------------------------|
-| **Tier 1**   | **$\$5,00 - \$1,500 \text{ Credits}$**  |
-| **Tier 2**   | **$\$2,000 - \$5,000 \text{ Credits}$** |
-| **Tier 3**   | **$\$10,000+ \text{ Credits}$**         |
-
-### Rest and Relaxation
-
-Stress and injuries are an unavoidable part of life when you are on a Corsair. Most are easy to recover from, but some
-take longer to heal.
-
-Resting is an action you can take in day-to-day pacing to recover Aggravated Wounds on your Physical Condition.
-When you rest, you roll a Success Test using Endurance. You immediately heal all light stress and wounds, and you can
-heal one Aggravated Wound per 2 Success Points.
-
-Relaxation is the equivalent of Resting on the Mental side, you take the Success Test using Willpower and can heal one
-Aggravated Stress per 2 Success Points on your Mental Condition.
-
-Both of these actions can be performed on your ship or anywhere civilization has taken hold.
-
-### Travel
-
-Every ship in the Fume system is equipped with fusion drives capable of traveling with constant burn. This means that
-the distances between the binary moons can be traversed in a matter of hours, provided you are willing to endure a full
-g during the journey.
-
-Interplanetary travel is strictly a lengthy matter and can consume entire turns in place-to-place or
-day-to-day pacing. To board the ship and begin traveling, all passengers are required to switch to the pacing in
-which the travel can take place and spend one Action Point in that pacing. While the ship is in transit, you can take
-actions as normal.
-
-Traveling also burns fuel, which is represented by having to burn Supplies when you travel. The cost varies based on
-distance.
-
-Traveling on the surface of the Moon is a bit more complicated and depends largely on the situation. The GM will let you
-know how long it will take you to reach your intended destination, but it is always worth it having a vehicle at hand
-when you are planning to go long distances on the surface.
-
-| Distance                                   | Time                             | Fuel Cost  |
-|--------------------------------------------|----------------------------------|------------|
-| Between Sibling Moons                      | 1 place-to-place turn (~ 1 hour) | 1 Supply   |
-| Between Binary Moons around the same Giant | 1 day-to-day turn (~ 8 hours)    | 2 Supplies |
-| Between adjacent gas giants                | 3 day-to-day turns               | 4 Supplies |
-
-### Shopping
-
-What's all those Credits are good for if you can't spend them on anything? If you want that premium gear, you are going
-to have to find a place to buy it from. To buy items, you first need to be planetside on a colonized moon. A shopping
-trip will usually transition you to place-to-place pacing, and each stop will usually cost you one Action Point to
-conduct your business there. Since there's no general store for Corsair business, this usually means that you will have
-to visit multiple places per equipment category you buy.
-
-### Training
-
-You can also hone your body, mind, and skills when you have some time on your hands. You can spend one Action Point
-during the day-to-day to train and gain 1 XP.
-
-## Chapter 11: Running the Game
-
-Being a Game Master in Corsair is about more than just adjudicating rules; it's about building a living, reactive world
-and challenging your players with tactical encounters and compelling narratives.
-
-### NPC Guidelines
-
-Designing balanced and engaging enemies is simplified with our NPC tier and category system. Learn how to build grunts,
-elites, and bosses in the [NPC Guidelines](gm/NPC_Guidelines.md).
-
-### Time Management
-
-Managing the flow of time and the transition between different pacing modes (Moment to Moment, Place to Place, Day to
-Day) is crucial for a smooth game. For tips and rules on handling the clock,
-see [Time Management](gm/Time_Management.md).
+[Running the Game](gm/Running_the_Game.md)
