@@ -25,7 +25,7 @@ Characters are defined by six Core Attributes:
 * **Willpower**: Equal to the value of your second-highest Mental Attribute (Knowledge, Presence, Instinct). Represents mental fortitude.
 
 ### Attribute Pairs
-When performing an action requiring a test, the GM pairs the two most relevant Attributes (e.g., **Accuracy + Finesse** or **Strength + Strength**) to form the foundation of the test pool.
+When performing an action requiring a test, the GM pairs the two most relevant Attributes (e.g., **Accuracy + Finesse** or **Strength + Strength**) to form the foundation of the test pool. When a test specifies only a single Attribute, it should be understood as a test where both Attributes in the Attribute Pair are that specified Attribute.
 
 ---
 

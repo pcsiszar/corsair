@@ -168,7 +168,7 @@ When a situation calls for a die roll, the GM will determine the two most releva
 Pair**. This pair becomes the foundation of the test. The choice of Attributes is always dependent on the context of the
 action being performed. It's important to note that the same Attribute can be selected twice if the action calls for a
 focused application of that single quality. For example, lifting a heavy crate might call for a **Strength + Strength**
-test, representing a pure application of raw power.
+test, representing a pure application of raw power. Additionally, when a test specifies only a single Attribute, it should be understood as a test where both Attributes in the Attribute Pair are that specified Attribute.
 
 Here are a few examples of how these might be combined into Attribute Pairs:
 
