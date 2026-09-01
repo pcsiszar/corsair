@@ -1,133 +1,154 @@
 # Firearms
 
-In the Corsair universe, firearms range from reliable kinetic slugthrowers to advanced energy weapons. Each weapon is
-defined by its **Accuracy**, **Rate of Fire (RoF)**, **Damage Bonus**, **Penetration**, and **Load**.
+In the cold vacuum of space, across contested orbital platforms, and inside pressurized ship corridors, firearms are the ultimate arbiters of ranged combat. Ranging from rugged chemical-propellant slugthrowers to electro-thermal chemical (ETC) rifles and high-velocity magnetic rail drivers, firearms give Corsairs the range, stopping power, and suppression capability necessary to overwhelm hostile forces before they can close the distance.
 
-## Prominent Firearm Manufacturers
-
-* Panthera Arms
-* Vandal's Workshop
-* Caldera Foundry
-* Ker'Satz Korp
-* Chidori-Qwei Combatwear
+---
 
 ## Weapon Statistics Explained
 
-- **Accuracy**:
-    * **Short Range:** 0–5 spaces or ~0–20m
-    * **Medium Range:** 6–12 spaces or ~20–40m
-    * **Long Range:** 13–20 spaces or ~40–80m
-    * **Extreme Range:** 20+ spaces or ~80m+
-- **Rate of Fire (RoF)**: A limit to activating a total number of Crit and Split effects per attack equal to the
-  weapon's **Rate of Fire** Attribute.
-- **Damage Bonus**: The flat amount of damage added to the success points of a successful attack.
-- **Load**: The weight and bulk of the weapon.
-- **Cost**: The average market price in Credits.
+Every firearm is defined by its mechanical attributes, which dictate how it performs across tactical engagement distances and how it pairs with your character's combat attributes:
 
-## Handguns
+* **Accuracy (Short / Medium / Long / Extreme):** Firearms are calibrated for specific operational distances. Accuracy provides an array of four numerical ratings corresponding to the four standard combat Range Bands. When making a ranged attack with a firearm, the test is always resolved using **Accuracy + Finesse**, pairing the weapon's Accuracy rating at your target's current range band with your character's Finesse attribute:
+  * **Short Range (S):** 0–5 spaces (~0–20 meters). Tight corridors, cabin breeches, and point-blank skirmishes.
+  * **Medium Range (M):** 6–12 spaces (~20–40 meters). Standard cargo bays, hangar decks, and station concourses.
+  * **Long Range (L):** 13–20 spaces (~40–80 meters). Long maintenance tunnels, external hull gantries, and open terrain.
+  * **Extreme Range (E):** 20+ spaces (~80+ meters). Distant perimeter defense, open planetary surface engagements, and sniper perches. A dash (`-`) indicates the weapon cannot effectively engage targets at that distance.
 
-Small, one-handed weapons ideal for backup or close-quarters defense.
+* **Rate of Fire (RoF):** The weapon's cyclic rate and burst control. Mechanically, RoF establishes a strict upper limit on the total number of **Crit Effects** and **Chain Effects** you can activate on a single attack roll:
+  * **Heavy-Hitters (RoF 0):** High-caliber single-shot rifles, heavy revolvers, and slug guns. They deliver massive kinetic shock on a single impact but lack the burst capacity to trigger RoF-based Crits or Chain onto secondary targets.
+  * **Precision & Semi-Auto (RoF 1):** Standard service pistols, designated marksman rifles, and tactical shotguns that support disciplined shot placement (up to 1 Crit or Chain effect).
+  * **Burst & Automatic (RoF 2):** Versatile assault carbines, combat shotguns, and compact submachine guns that accommodate multiple follow-up impacts or multi-target splits (up to 2 Crit/Chain effects).
+  * **Rapid Suppression & Rotary (RoF 3–4):** High-cyclic automatic rifles, squad automatic weapons, heavy machine guns, and rotary cannons built for wide-angle saturation and suppressive sweeps (up to 3–4 Crit/Chain effects).
 
-| Weapon Name         | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
-|:--------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **VWS "Scrapper"**  | 2 / 1 / - / -      | 0   | +1        | 1    | 900   |             |
-| **KSK "Squid"**     | 2 / 1 / - / -      | 2   | +0        | 1    | 1,500 |             |
-| **CQC "Snowball"**  | 1 / 1 / - / -      | 0   | +3        | 1    | 2,300 |             |
-| **CF "Cobra"**      | 2 / 1 / 0 / -      | 1   | +1        | 1    | 3,500 |             |
-| **CQC "Avalanche"** | 3 / 2 / - / -      | 0   | +1        | 1    | 4,200 |             |
-| **PA "Serval"**     | 2 / 2 / 1 / -      | 1   | +0        | 1    | 4,800 |             |
-| **KSK "Walrus"**    | 2 / 1 / - / -      | 0   | +4        | 1    | 5,200 |             |
+* **Damage Bonus (Dmg Bonus):** A flat numerical value added directly to the total success points generated on a successful attack roll. Heavier weapons firing high-grain ammunition or hyper-velocity darts possess substantially larger flat Damage Bonuses.
 
-## Small Arms
+* **Minimum Strength (Min STR):** Managing heavy recoil impulses and weapon mass requires physical conditioning. Firearms enforce the zero-division handling rule:
+  * **One-Handed Weapons (1H):** If your Strength is lower than the weapon's Min STR, you cannot stabilize the weapon with one hand; you must wield it with **two hands** to attack with it.
+  * **Two-Handed Weapons (2H):** If your Strength is lower than the weapon's Min STR, the weapon is too cumbersome to brace or aim, and you **cannot attack** with it under any circumstances.
 
-Rapid-fire weapons designed for suppressing enemies at short range.
+* **Hands:** Indicates whether the weapon is a sidearm designed for one-handed operation (**1H**) or a shoulder-fired/braced platform requiring both hands (**2H**).
 
-| Weapon Name        | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
-|:-------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **VWS "Shredder"** | 3 / 1 / - / -      | 4   | +1        | 2    | 3,500 |             |
-| **CQC "Cyclone"**  | 3 / 1 / 0 / -      | 3   | +0        | 2    | 4,000 |             |
-| **CF "Raptor"**    | 2 / 1 / 1 / -      | 2   | +1        | 2    | 4,200 |             |
-| **VWS "Buster"**   | 3 / 1 / - / -      | 1   | +3        | 2    | 4,500 |             |
-| **KSK "Narwhal"**  | 2 / 2 / 1 / 0      | 1   | +1        | 2    | 5,000 |             |
-| **PA "Cheetah"**   | 4 / 2 / - / -      | 3   | +0        | 2    | 5,500 |             |
+* **Load:** The mass and physical bulk of the weapon as governed by the inventory Load system.
 
-## Rifles
+* **Cost:** The standard galactic market price in Credits.
 
-Versatile primary weapons that balance range, power, and fire rate.
+---
 
-| Weapon Name       | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
-|:------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **CF "Viper"**    | 2 / 2 / 1 / 0      | 3   | +1        | 3    | 5,500 |             |
-| **CQC "Zephyr"**  | 3 / 1 / 1 / 0      | 4   | +0        | 3    | 6,500 |             |
-| **VWS "Vandal"**  | 3 / 2 / 1 / 0      | 2   | +2        | 3    | 7,200 |             |
-| **PA "Panther"**  | 2 / 3 / 2 / 1      | 1   | +1        | 3    | 7,500 |             |
-| **CQC "Thunder"** | 3 / 2 / 1 / -      | 2   | +3        | 3    | 8,000 |             |
+## Prominent Manufacturers
 
-## Shotguns
+While the firearms catalog lists universal functional archetypes, individual models found across the cosmos are produced by major arms conglomerates:
 
-Devastating close-range weapons that fire a spread of projectiles.
+* **Panthera Arms:** Renowned for sleek, high-tolerance carbines and designated marksman rifles favored by corporate strike teams.
+* **Vandal's Workshop:** Rugged, stamped-sheet kinetic firearms and high-RoF submachine guns built to operate reliably in dirt, sand, and vacuum.
+* **Caldera Foundry:** Heavy-bore kinetic sluggers and devastating trench shotguns designed for brutal close-quarters boarding defense.
+* **Ker'Satz Korp:** Precision magnetic-assisted rail drivers and heavy revolvers engineered for maximum armor penetration and stopping power.
+* **Chidori-Qwei Combatwear:** Lightweight polymer sidearms, integrated smart-linked machine pistols, and rapid-response tactical weapons.
 
-| Weapon Name        | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost  | Description |
-|:-------------------|:-------------------|:----|:----------|:-----|:------|:------------|
-| **CF "Alligator"** | 4 / 1 / - / -      | 1   | +3        | 3    | 4,500 |             |
-| **VWS "Thumper"**  | 2 / 3 / - / -      | 1   | +3        | 3    | 5,000 |             |
-| **KSK "Orca"**     | 3 / 2 / - / -      | 0   | +4        | 3    | 6,000 |             |
-| **PA "Lion"**      | 4 / 2 / - / -      | 2   | +2        | 3    | 7,500 |             |
+---
 
-## Sniper Rifles
+## Firearms Catalog
 
-Precision weapons designed for eliminating targets from extreme distances.
+### Handguns
 
-| Weapon Name         | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost   | Description |
-|:--------------------|:-------------------|:----|:----------|:-----|:-------|:------------|
-| **VWS "Piercer"**   | 2 / 2 / 1 / 1      | 1   | +1        | 4    | 8,000  |             |
-| **PA "Lynx"**       | 0 / 2 / 2 / 1      | 1   | +3        | 4    | 9,500  |             |
-| **CQC "Twilight "** | 1 / 3 / 2 / 2      | 2   | +1        | 4    | 11,000 |             |
-| **CF "Boa"**        | 0 / 2 / 3 / 2      | 0   | +4        | 4    | 13,000 |             |
+Compact sidearms designed for personal defense, emergency boarding backup, and rapid close-quarters deployment.
 
-## Heavy Weapons
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Holdout Pistol** | 2 / 1 / - / - | 1 | 1 | 1H | +0 | 1/2 | 300 | Ultra-compact concealable polymer pistol designed for covert carry and last-ditch defense. |
+| **Service Pistol** | 3 / 2 / 1 / - | 1 | 1 | 1H | +1 | 1 | 800 | Standard-issue semi-automatic sidearm offering reliable cycling and balanced handling. |
+| **Heavy Revolver** | 3 / 2 / 1 / - | 0 | 2 | 1H | +3 | 1 | 1,200 | Large-frame cylinder handgun firing high-grain magnum cartridges with punishing recoil. |
+| **Machine Pistol** | 3 / 2 / - / - | 2 | 2 | 1H | +0 | 1 | 1,500 | Compact automatic handgun capable of dumping high-volume bursts in point-blank skirmishes. |
+| **Hand Cannon** | 2 / 3 / 2 / 0 | 0 | 3 | 1H | +4 | 1 | 2,200 | Massive reinforced handgun chambered in anti-armor kinetic rounds for devastating single shots. |
 
-Massive weapons requiring significant strength to wield, offering overwhelming firepower.
+---
 
-| Weapon Name       | Accuracy (S/M/L/E) | RoF | Dmg Bonus | Load | Cost   | Description |
-|:------------------|:-------------------|:----|:----------|:-----|:-------|:------------|
-| **CF "Basilisk"** | 1 / 4 / 2 / 0      | 2   | +2        | 5    | 9,000  |             |
-| **VWS "Dread"**   | 2 / 3 / 1 / 0      | 3   | +2        | 5    | 9,500  |             |
-| **PA "Tiger"**    | 2 / 2 / 2 / 1      | 2   | +2        | 5    | 11,000 |             |
-| **KSK "Kraken"**  | 1 / 2 / 3 / 2      | 0   | +3        | 5    | 13,500 |             |
-| **CQC "Typhoon"** | 4 / 2 / 0 / -      | 4   | +3        | 5    | 15,000 |             |
+### Submachine Guns & Shotguns
 
-## Blast Weapons
+Close-quarters primary weapons engineered for boarding operations, clearing tight ship bulkheads, and dominating short-range firefights.
 
-Massive weapons requiring significant strength to wield, offering overwhelming firepower.
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Compact SMG** | 4 / 3 / 1 / - | 2 | 2 | 2H | +1 | 2 | 2,000 | Lightweight collapsible submachine gun designed for vehicle crews and shipboard boarding teams. |
+| **Tactical SMG** | 3 / 4 / 2 / 0 | 3 | 2 | 2H | +1 | 2 | 2,800 | Balanced automatic platform featuring integral recoil compensators and high cyclic fire rates. |
+| **Trench Shotgun** | 5 / 2 / - / - | 0 | 2 | 2H | +4 | 2 | 2,400 | Heavy pump-action smoothbore scattergun delivering catastrophic kinetic spread at point-blank range. |
+| **Combat Shotgun** | 4 / 3 / 0 / - | 1 | 3 | 2H | +3 | 3 | 3,500 | Semi-automatic magazine-fed shotgun engineered for rapid room clearing and breaching operations. |
+| **Riot Scattergun** | 4 / 2 / - / - | 2 | 3 | 2H | +2 | 3 | 4,000 | Fully automatic drum-fed scattergun delivering overwhelming short-range projectile swarms. |
 
-| Weapon Name        | Range (S/M/L/E) | Special Properties                  | Dmg | Load | Cost   | Description |
-|:-------------------|:----------------|:------------------------------------|:----|:-----|:-------|:------------|
-| **CF "Basilisk"**  | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 4, 4m Radius  | 0   | 4    | 26,000 |             |
-| **CQC "Volcano"**  | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 2, 12m Radius | 0   | 4    | 31,500 |             |
-| **VWS "Rocket"**   | 1 / 1 / 1 / -   | Ammo, Area Attack ORD 4, 4m Radius  | +6  | 5    | 40,000 |             |
-| **PA "Manticore"** | 1 / 1 / 1 / -   | Ammo, Area Attack, ORD 5, 4m Radius | +7  | 5    | 55,000 |             |
+---
 
-### Special Properties
+### Rifles
 
-**Ammo**: Consumes 1 Explosive Ammo when fired.
+Versatile long guns that balance effective range, stopping power, and tactical flexibility across ship corridors and planetary battlegrounds.
 
-## Weapon Upgrades
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Assault Carbine** | 3 / 3 / 2 / 1 | 2 | 2 | 2H | +2 | 3 | 3,800 | Short-barreled rifle optimized for high mobility, fast target acquisition, and medium-range skirmishes. |
+| **Assault Rifle** | 2 / 4 / 3 / 1 | 2 | 3 | 2H | +2 | 3 | 4,800 | Standard military battle rifle delivering disciplined burst fire and balanced accuracy across all combat zones. |
+| **Battle Rifle** | 2 / 3 / 4 / 2 | 0 | 3 | 2H | +4 | 3 | 5,500 | Heavy-caliber semi-automatic rifle engineered for hard-hitting, armor-cracking kinetic penetration. |
+| **Designated Marksman Rifle (DMR)** | 1 / 3 / 5 / 3 | 1 | 3 | 2H | +4 | 4 | 7,000 | Precision-machined semi-automatic rifle equipped with high-magnification optics for mid-to-long range fire. |
+| **Sniper Rifle** | 0 / 2 / 5 / 4 | 0 | 3 | 2H | +5 | 4 | 9,500 | Long-range bolt-action or precision-lock rifle delivering extreme terminal ballistics at standoff ranges. |
 
-While a stock firearm is a reliable tool, a customized one is an extension of the wielder's will. **Upgrade Kits** allow
-Corsairs to fine-tune their weapons to better suit their combat style.
+---
 
-### Upgrade Kits
+### Heavy Support Weapons
 
-An **Upgrade Kit** is a consumable item that can be applied to any firearm.
+Crew-served and reinforced heavy weapons requiring substantial physical leverage to operate, delivering unmatched suppressive fire and anti-armor kinetic energy.
 
-* **Effect**: Permanently increases one of the weapon's attributes by **+1**. This can be applied to:
-    * **Accuracy**: Increase the accuracy rating at a single range band (e.g., Short Range Accuracy +1).
-    * **Rate of Fire (RoF)**: Increase the weapon's RoF by 1.
-    * **Damage Bonus**: Increase the weapon's flat Damage Bonus by 1.
-    * **Penetration**: Increase the weapon's Penetration by 1.
-* **Limit**: A single weapon can only be modified by an **Upgrade Kit** a maximum of **3 times**.
-* **Reallocation**: The bonuses granted by **Upgrade Kits** are not set in stone. During a **Day-to-Day** scene, a character
-  can spend **1 Action Point (AP)** to reallocate the bonus points on a weapon. For example, you could move a point from
-  Damage Bonus to RoF, or shift an Accuracy bonus from Short Range to Long Range. This represents stripping the weapon
-  down and swapping out modular components.
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Squad Automatic Weapon (SAW)** | 3 / 4 / 3 / 1 | 3 | 4 | 2H | +3 | 4 | 8,500 | Belt-fed light machine gun designed to pin down enemy squads with continuous, sustained automatic fire. |
+| **Heavy Machine Gun (HMG)** | 3 / 5 / 4 / 2 | 4 | 5 | 2H | +4 | 5 | 12,000 | Massive large-caliber machine gun capable of shredding light vehicle plating and reinforced barricades. |
+| **Rotary Autocannon** | 5 / 4 / 2 / 1 | 4 | 5 | 2H | +4 | 5 | 16,000 | Multi-barrel motorized cannon delivering devastating saturation fire at extreme cyclic rates. |
+| **Anti-Materiel Rifle (AMR)** | 0 / 2 / 5 / 5 | 0 | 4 | 2H | +7 | 5 | 15,000 | High-caliber magnetic-assisted anti-tank rifle designed to disable light vehicles and penetrate heavy bulkheads. |
+
+---
+
+## Dual Wielding Firearms
+
+A combatant can choose to wield a one-handed firearm in each hand, laying down intense suppressive fire or engaging multiple targets simultaneously.
+
+* **One-Handed Only:** You can only dual wield firearms with the **1H** designation. You must meet the Minimum Strength requirement of each weapon individually to wield them simultaneously in separate hands.
+* **Combined Firepower (Damage & RoF):** When making a ranged attack while dual wielding two 1H firearms, you combine the offensive output of both weapons, adding together both the flat **Damage Bonus** and the **Rate of Fire (RoF)** of the two firearms.
+* **Worse Accuracy:** Discharging two weapons simultaneously compromises sight alignment and muzzle stability. When resolving the attack test, you must use the **worse (lower) Accuracy rating** at the target's current range band between the two wielded firearms.
+
+---
+
+## Firearm Upgrade Kits
+
+Stock firearms can be customized into precision mastercrafted weapons through high-tolerance machining, carbon-fiber skeletal framing, match-grade barrels, tuned gas pistons, and custom optics. Because each subsequent modification requires increasingly complex gunsmithing, upgrade kits escalate in cost with every installation.
+
+* **Upgrade Limit:** A single firearm can benefit from a maximum of **3 Upgrade Kits** in total.
+* **Tiered Cost Structure:**
+  * **1st Upgrade:** **10,000 Credits**
+  * **2nd Upgrade:** **25,000 Credits**
+  * **3rd Upgrade:** **50,000 Credits**
+* **Upgrade Choices:** Each time an Upgrade Kit is applied, choose one of the following permanent modifications:
+  * **Lightweight Chassis:** Precision skeletonization and ultralight composite furniture reduce the weapon's **Load by 1** (to a minimum of 1/2 Load).
+  * **Lethal Tuning:** Match-grade barrel rifling, bored chambers, or high-pressure gas regulators increase the weapon's flat **Damage Bonus by +1**.
+  * **Recoil Dampening:** Hydraulic buffer tubes, muzzle brakes, or counter-weighted bolts increase the weapon's **Rate of Fire (RoF) by 1**.
+  * **Optic Calibration:** Advanced holographic sights, thermal optics, or precision focal lenses increase the weapon's **Accuracy by +1** at one designated range band (e.g., Medium Range Accuracy +1).
+
+---
+
+## Example: Ranged Combat in Action
+
+> ### Tactical Example: The Hangar Deck Firefight
+> Jax advances down an industrial catwalk overlooking a contested cargo hangar. Positioned **8 spaces (~26 meters)** away behind low freight containers, an armed syndicate mercenary returns fire. The distance places the mercenary squarely at **Medium Range**.
+> 
+> Jax is armed with an **Assault Rifle** (Accuracy `2 / 4 / 3 / 1`, RoF 2, Min STR 3, 2H, Load 3, and a **+2 Damage Bonus**). Jax's character sheet shows **Finesse 5**, **Instinct 3**, and **Strength 4**.
+> 
+> 1. **Determining the Test Pool:** Jax prepares a precision shot, declaring an **Accuracy + Finesse** Complex Test. At Medium Range, the Assault Rifle has an **Accuracy of 4**. Pairing Jax's **Finesse 5** with the rifle's **Accuracy 4**, the higher attribute is Finesse 5 and the lower attribute is Accuracy 4.
+> 
+> 2. **Action Roll (Higher Attribute = Finesse 5):** Jax rolls 5d10 for the Action Roll: `[2, 5, 8, 8, 9]`. The roll yields three Hits (`8`, `8`, and `9`). Because the Action Roll succeeded (at least one 8+), Jax spends one of his extra Hits (`8`) to activate an **Upgrade Effect**, stepping up one die in his upcoming Success Roll from a d10 to a **d12**. Jax retains the remaining Hits for resolution.
+> 
+> 3. **Success Roll (Lower Attribute = Accuracy 4):** Jax now takes a pool equal to the weapon's Accuracy at this range (**4 dice**). With the Upgrade Effect applied, Jax rolls 3d10 and 1d12: rolling `[4, 7, 8]` on the d10s and a `10` on the upgraded d12.
+> 
+> 4. **Activating Effects & RoF Limits:** The Success Roll produced two Hits (`8` and `10`). Jax spends both Hits on **Crit Effects** to maximize damage (+2 Success Points per Crit). Because the Assault Rifle has **RoF 2**, it perfectly accommodates spending 2 Hits on Crits (reaching the rifle's full burst capacity).
+> 
+> 5. **Calculating Total Damage:**
+>    * Highest remaining non-spent die: **7 Success Points**
+>    * Two Crit Effects (+2 each): **+4 Success Points**
+>    * Rifle Flat Damage Bonus: **+2**
+>    * **Total Damage Dealt:** 7 + 4 + 2 = **13 points of damage**.
+> 
+> The high-velocity burst punches through the container seam, striking the mercenary with 13 points of kinetic damage.

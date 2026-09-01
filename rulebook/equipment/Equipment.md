@@ -36,20 +36,17 @@ Melee weapons are engineered for brutal close-quarters combat. Each weapon deals
 
 #### Ranged Weapons
 
-Ranged weapons are defined by their Accuracy, Rate of Fire, and how they calculate their Damage Bonus.
+Ranged weapons are defined by their Accuracy, Rate of Fire, Damage Bonus, and Minimum Strength.
 
-* **Accuracy:** This is the primary attribute for all ranged weapons, and any attack made with one **must** include its Accuracy rating as part of the attribute pair (most commonly **Finesse + Accuracy**). A weapon's Accuracy is not a single value, but an array of four values corresponding to the distance to the target:
-    * **Short Range:** 0-5 spaces or ~0-20m
-    * **Medium Range:** 6-12 spaces or ~20-50m
-    * **Long Range:** 13-25 spaces or ~50-100m
-    * **Extreme Range:** 26+ spaces or ~100m+
+* **Accuracy:** Ranged attacks always pair the weapon's Accuracy at the target's distance with the character's **Finesse** attribute (**Accuracy + Finesse**). Accuracy is listed as an array of four values corresponding to the four standard combat range bands:
+  * **Short Range:** 0–5 spaces (~0–20m)
+  * **Medium Range:** 6–12 spaces (~20–40m)
+  * **Long Range:** 13–20 spaces (~40–80m)
+  * **Extreme Range:** 20+ spaces (~80m+)
+* **Rate of Fire (RoF):** Represents cyclic fire capability and burst control. RoF sets the maximum limit on the total number of **Crit Effects** and **Chain Effects** that can be activated on an attack roll.
+* **Damage Bonus:** A flat integer bonus added directly to the total success points of a successful attack.
 
-- **Rate of Fire (RoF):** This stat represents the weapon's capacity for rapid fire and its ability to engage multiple targets. On each attack, gain *Rapid Fire* points equal to your weapon's Rate of Fire attribute and spend it on any of the following options:
-    - Once per the Success roll and once per the Action roll, spend $X$ **Rapid Fire** to reroll $X$ dice.
-    - Spend 1 **Rapid Fire** to discard any die with value 8 or higher during the Action roll, or the Success roll to gain +1 Damage on the current attack.
-    - After the attack, spend one **Rapid Fire** to have the leftover damage spill over to another creature in the target's space.
-
-* **Damage Bonus:** Unlike melee weapons, the Damage Bonus for ranged weapons is typically a simple, flat value, such as +1, +2, or +3.
+For the full catalog of handguns, submachine guns, shotguns, rifles, heavy support weapons, and weapon upgrade kits, see [Firearms](Firearms.md).
 
 ### Armor
 
