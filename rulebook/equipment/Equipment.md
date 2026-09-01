@@ -30,11 +30,7 @@ The Damage Bonus is a flat value added to the success points you generate on a s
 
 #### Melee Weapons
 
-Melee weapons are designed for close-quarters combat. They have two unique characteristics: Reach and their method of calculating their Damage Bonus.
-
-* **Reach:** This stat determines the effective distance of a melee weapon. When your weapon's Reach is greater than your opponent's, you receive Upgrades to your attack test. Furthermore, if you are using a battle map for combat, a weapon with a Reach of 3 or more allows you to attack opponents in adjacent spaces, not just your own.
-
-* **Damage Bonus:** The Damage Bonus for melee weapons is often derived from your character's Physical Attributes. For example, a weapon's bonus might be calculated as `Strength / 3` or `(Agility / 3) + 1`. The result of these calculations is always rounded down to the nearest whole number.
+Melee weapons are engineered for brutal close-quarters combat. Each weapon deals a specific damage type—**Piercing**, **Slashing**, or **Striking**—which aligns with a favored physical Attribute Pair. Attacking with a weapon's favored pair grants a damage bonus equal to the lower attribute of the test, in addition to the weapon's flat Damage Bonus. For the full catalog of close-quarters weaponry, minimum strength requirements, and combat mechanics, see [Melee Weapons](Melee.md).
 
 ---
 

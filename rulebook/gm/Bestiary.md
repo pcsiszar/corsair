@@ -36,7 +36,7 @@ secluded place in Pelagia and sold off individually as bodyguards for the local 
 **Category:** Elite | **Tier:** 4
 
 * **Phys:** 6 | **Ment:** 5
-* **Reach:** 4 | **DMG Bonus:** +4
+* **DMG Bonus:** +4
 * **Move:** 8m | **Acc Array:** - / - / - / -
 * **Health (HP):** 24 | **Action Points (AP):** 3
 * **Protection:** 3
@@ -144,7 +144,7 @@ but they are always happy to lend their skills for the right price.*
 **Category:** Standard | **Tier:** 2
 
 * **Phys:** 4 | **Ment:** 3
-* **Reach:** 2 | **DMG Bonus:** +3
+* **DMG Bonus:** +3
 * **Move:** 12m | **Acc Array:** 2 / - / - / -
 * **Health (HP):** 13 | **Action Points (AP):** 3
 * **Protection:** 2

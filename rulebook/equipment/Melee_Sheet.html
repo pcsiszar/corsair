@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Melee Weapons & Shields Handout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+        /* ======================================================  TOKENS  */
+        :root {
+            --black: #080a0c;
+            --dark: #10131a;
+            --mid: #181c24;
+            --surface: #1d2130;
+            --border: #2a3040;
+            --border-light: #3a4256;
+            --accent: #c8a84b;
+            --accent-dim: #7a6428;
+            --accent-glow: rgba(200, 168, 75, 0.15);
+            --red: #a02828;
+            --red-dim: #5c1616;
+            --cyan: #29b6f6;
+            --green: #4caf50;
+            --text: #ccc7ba;
+            --text-dim: #6a6458;
+            --text-muted: #3e3c36;
+            --stripe: rgba(200, 168, 75, 0.03);
+
+            --font-title: 'Barlow Condensed', sans-serif;
+            --font-body: 'Barlow', sans-serif;
+            --font-mono: 'Share Tech Mono', monospace;
+        }
+
+        /* ======================================================  RESET  */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 7.6pt;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--black);
+            color: var(--text);
+            line-height: 1.2;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* ======================================================  PRINT STYLES  */
+        @page {
+            size: A4 portrait;
+            margin: 3.5mm;
+        }
+
+        @media print {
+            body {
+                background: #ffffff !important;
+            }
+
+            :root {
+                --black: #ffffff;
+                --dark: #ffffff;
+                --mid: #ffffff;
+                --surface: #ffffff;
+                --border: #888888;
+                --border-light: #cccccc;
+                --accent: #000000;
+                --accent-dim: #333333;
+                --accent-glow: transparent;
+                --red: #8b1a1a;
+                --red-dim: #555555;
+                --text: #000000;
+                --text-dim: #333333;
+                --text-muted: #666666;
+                --stripe: transparent;
+            }
+
+            .page {
+                background: #ffffff !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                border: none !important;
+            }
+
+            .page::before {
+                display: none !important;
+            }
+
+            .mh-logo {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border: 1px solid #000000 !important;
+                clip-path: none !important;
+                padding-right: 4mm !important;
+                min-width: unset !important;
+            }
+
+            .mh-logo svg {
+                fill: #000000 !important;
+            }
+
+            .card-hd {
+                border-bottom-width: 1px !important;
+            }
+
+            .card-hd svg {
+                fill: #000000 !important;
+            }
+
+            .skill-table th,
+            .data-table th {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-bottom: 1px solid #000000 !important;
+            }
+
+            .skill-section-hd td {
+                background: #f0f0f0 !important;
+                color: #000000 !important;
+                border-color: #000000 !important;
+            }
+
+            .fl {
+                border-bottom-color: #888888 !important;
+            }
+
+            .badge, .tag {
+                border: 1px solid #000000 !important;
+                color: #000000 !important;
+                background: #ffffff !important;
+            }
+
+            .pair-pill {
+                background: #ffffff !important;
+                border-color: #000000 !important;
+                color: #000000 !important;
+            }
+        }
+
+        /* ======================================================  PAGE CONTAINER  */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            max-height: 297mm;
+            margin: 0 auto;
+            padding: 3.5mm 4mm;
+            background: var(--dark);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-size: 18px 18px;
+            pointer-events: none;
+        }
+
+        /* ======================================================  MASTHEAD  */
+        .masthead {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 1.5mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            flex-shrink: 0;
+        }
+
+        .mh-logo {
+            background: var(--accent);
+            color: var(--black);
+            padding: 1.5mm 3mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+            padding-right: 9mm;
+            min-width: 17mm;
+            flex-shrink: 0;
+        }
+
+        .mh-logo svg {
+            width: 17px;
+            height: 17px;
+            fill: var(--black);
+        }
+
+        .mh-logo .logo-text {
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: 5pt;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            margin-top: 1px;
+        }
+
+        .mh-title {
+            padding: 1.5mm 3mm;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .mh-title h1 {
+            font-family: var(--font-title);
+            font-weight: 900;
+            font-size: 13pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .mh-title .sub {
+            font-family: var(--font-title);
+            font-weight: 300;
+            font-size: 6.5pt;
+            letter-spacing: 0.25em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            margin-top: 1px;
+        }
+
+        .mh-meta {
+            border-left: 1px solid var(--border);
+            padding: 1.5mm 3mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 44mm;
+        }
+
+        .mh-meta label {
+            font-family: var(--font-title);
+            font-size: 5pt;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            margin-bottom: 0.5mm;
+        }
+
+        .fl {
+            border-bottom: 1px solid var(--border);
+            min-height: 4mm;
+        }
+
+        /* ======================================================  CARDS  */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            margin-bottom: 1.5mm;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-hd {
+            background: var(--mid);
+            border-bottom: 1.5px solid var(--accent-dim);
+            padding: 0.8mm 1.8mm;
+            display: flex;
+            align-items: center;
+            gap: 1.5mm;
+            flex-shrink: 0;
+        }
+
+        .card-hd svg {
+            width: 10px;
+            height: 10px;
+            fill: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card-hd h2 {
+            font-family: var(--font-title);
+            font-size: 7.5pt;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            flex: 1;
+            line-height: 1;
+        }
+
+        .card-body {
+            padding: 1.2mm 1.8mm;
+        }
+
+        .card-body.no-pad {
+            padding: 0;
+        }
+
+        /* ======================================================  DAMAGE MATRIX  */
+        .matrix-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.2mm;
+            margin-bottom: 1.5mm;
+        }
+
+        .matrix-box {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1mm 1.5mm;
+            display: flex;
+            flex-direction: column;
+            border-left: 2px solid var(--accent-dim);
+        }
+
+        .matrix-type {
+            font-family: var(--font-title);
+            font-weight: 700;
+            font-size: 7pt;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .matrix-pair {
+            font-family: var(--font-mono);
+            font-size: 5.5pt;
+            color: var(--text);
+            margin-top: 0.5mm;
+        }
+
+        .matrix-desc {
+            font-family: var(--font-body);
+            font-size: 6pt;
+            color: var(--text-dim);
+            line-height: 1.15;
+            margin-top: 0.5mm;
+        }
+
+        /* ======================================================  TABLES  */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .data-table th {
+            font-family: var(--font-title);
+            font-size: 5.8pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent-dim);
+            text-align: left;
+            padding: 0.8mm 1.5mm;
+            border-bottom: 1px solid var(--accent-dim);
+            background: var(--mid);
+        }
+
+        .data-table td {
+            border-bottom: 1px solid var(--border);
+            padding: 0.8mm 1.5mm;
+            vertical-align: middle;
+            font-size: 6.8pt;
+        }
+
+        .data-table tr:nth-child(even) td {
+            background: var(--stripe);
+        }
+
+        .skill-section-hd td {
+            font-family: var(--font-title);
+            font-size: 5.8pt;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--mid) !important;
+            border-top: 1px solid var(--accent-dim);
+            border-bottom: 1px solid var(--accent-dim);
+            padding: 0.5mm 1.5mm !important;
+            line-height: 1;
+        }
+
+        .weapon-name {
+            font-family: var(--font-title);
+            font-weight: 700;
+            font-size: 7.2pt;
+            color: var(--text);
+            letter-spacing: 0.05em;
+        }
+
+        .pair-pill {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 5.2pt;
+            padding: 0.5px 2.5px;
+            border: 1px solid var(--border-light);
+            color: var(--text-dim);
+            background: var(--mid);
+            text-transform: uppercase;
+        }
+
+        .dmg-badge {
+            font-family: var(--font-title);
+            font-weight: 700;
+            font-size: 7.5pt;
+            color: var(--accent);
+        }
+
+        .cost-col {
+            font-family: var(--font-mono);
+            font-size: 6pt;
+            color: var(--text-dim);
+        }
+
+        /* ======================================================  BOTTOM SPLIT LAYOUT  */
+        .bottom-grid {
+            display: grid;
+            grid-template-columns: 85mm 1fr;
+            gap: 1.5mm;
+            margin-top: 0;
+        }
+
+        .rules-text {
+            font-family: var(--font-body);
+            font-size: 6.5pt;
+            color: var(--text);
+            line-height: 1.25;
+        }
+
+        .rules-text strong {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .rules-text p {
+            margin-bottom: 1mm;
+        }
+
+        .rules-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ======================================================  PAGE FOOTER  */
+        .page-foot {
+            font-family: var(--font-title);
+            font-size: 5.5pt;
+            letter-spacing: 0.3em;
+            color: var(--text-muted);
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: auto;
+            padding-top: 1mm;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /><circle cx="12" cy="12" r="1.5" /></svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Melee Weapons & Shields</h1>
+                <div class="sub">Equipment Reference · Close-Quarters Arsenal</div>
+            </div>
+            <div class="mh-meta">
+                <label>Quartermaster Log / Cell</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- DAMAGE TYPES & FAVORED PAIRS MATRIX -->
+        <div class="matrix-grid">
+            <div class="matrix-box">
+                <div class="matrix-type">
+                    <span>Piercing</span>
+                    <span class="pair-pill">AGI + FIN</span>
+                </div>
+                <div class="matrix-desc">Pinpoint thrusts into armor gaps. Adds lower attribute to damage on test.</div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-type">
+                    <span>Slashing</span>
+                    <span class="pair-pill">AGI + STR</span>
+                </div>
+                <div class="matrix-desc">Sweeping kinetic cuts with body mass. Adds lower attribute to damage on test.</div>
+            </div>
+            <div class="matrix-box">
+                <div class="matrix-type">
+                    <span>Striking</span>
+                    <span class="pair-pill">STR + FIN</span>
+                </div>
+                <div class="matrix-desc">Leveraged bone-crushing blunt trauma. Adds lower attribute to damage on test.</div>
+            </div>
+        </div>
+
+        <!-- WEAPONS TABLE -->
+        <div class="card">
+            <div class="card-hd">
+                <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                <h2>Close-Quarters Weaponry</h2>
+            </div>
+            <div class="card-body no-pad">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 27%;">Weapon Name</th>
+                            <th style="width: 14%;">Damage Type</th>
+                            <th style="width: 17%;">Favored Pair</th>
+                            <th style="width: 9%; text-align: center;">Min STR</th>
+                            <th style="width: 8%; text-align: center;">Hands</th>
+                            <th style="width: 10%; text-align: center;">Dmg Bonus</th>
+                            <th style="width: 6%; text-align: center;">Load</th>
+                            <th style="width: 9%; text-align: right;">Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- LOAD 1/2 -->
+                        <tr class="skill-section-hd">
+                            <td colspan="8">Load 1/2 · Light & Concealed Sidearms</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Shiv / Stiletto</td>
+                            <td>Piercing</td>
+                            <td><span class="pair-pill">Agility + Finesse</span></td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+0</td>
+                            <td style="text-align: center;">1/2</td>
+                            <td style="text-align: right;" class="cost-col">150 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Combat Knife</td>
+                            <td>Slashing</td>
+                            <td><span class="pair-pill">Agility + Strength</span></td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+0</td>
+                            <td style="text-align: center;">1/2</td>
+                            <td style="text-align: right;" class="cost-col">200 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Knuckleduster</td>
+                            <td>Striking</td>
+                            <td><span class="pair-pill">Strength + Finesse</span></td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+0</td>
+                            <td style="text-align: center;">1/2</td>
+                            <td style="text-align: right;" class="cost-col">100 CR</td>
+                        </tr>
+
+                        <!-- LOAD 1 -->
+                        <tr class="skill-section-hd">
+                            <td colspan="8">Load 1 · Standard Combat Implements</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Dagger</td>
+                            <td>Piercing</td>
+                            <td><span class="pair-pill">Agility + Finesse</span></td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+1</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: right;" class="cost-col">400 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Hatchet / Machete</td>
+                            <td>Slashing</td>
+                            <td><span class="pair-pill">Agility + Strength</span></td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+1</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: right;" class="cost-col">500 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Baton / Club</td>
+                            <td>Striking</td>
+                            <td><span class="pair-pill">Strength + Finesse</span></td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+1</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: right;" class="cost-col">300 CR</td>
+                        </tr>
+
+                        <!-- LOAD 2 -->
+                        <tr class="skill-section-hd">
+                            <td colspan="8">Load 2 · Primary Martial Blades & Bludgeons</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Shortsword</td>
+                            <td>Piercing</td>
+                            <td><span class="pair-pill">Agility + Finesse</span></td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+2</td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: right;" class="cost-col">1,200 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Boarding Axe</td>
+                            <td>Slashing</td>
+                            <td><span class="pair-pill">Agility + Strength</span></td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+2</td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: right;" class="cost-col">1,500 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Mace / Crowbar</td>
+                            <td>Striking</td>
+                            <td><span class="pair-pill">Strength + Finesse</span></td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+2</td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: right;" class="cost-col">1,000 CR</td>
+                        </tr>
+
+                        <!-- LOAD 3 -->
+                        <tr class="skill-section-hd">
+                            <td colspan="8">Load 3 · Heavy Arms & Long Weapons</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Spear</td>
+                            <td>Piercing</td>
+                            <td><span class="pair-pill">Agility + Finesse</span></td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: center;">2H</td>
+                            <td style="text-align: center;" class="dmg-badge">+3</td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: right;" class="cost-col">2,200 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Longsword</td>
+                            <td>Slashing</td>
+                            <td><span class="pair-pill">Agility + Strength</span></td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+3</td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: right;" class="cost-col">2,800 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Warhammer</td>
+                            <td>Striking</td>
+                            <td><span class="pair-pill">Strength + Finesse</span></td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: center;">1H</td>
+                            <td style="text-align: center;" class="dmg-badge">+3</td>
+                            <td style="text-align: center;">3</td>
+                            <td style="text-align: right;" class="cost-col">2,400 CR</td>
+                        </tr>
+
+                        <!-- LOAD 4 -->
+                        <tr class="skill-section-hd">
+                            <td colspan="8">Load 4 · Heavy Two-Handed Breachers</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Halberd / Poleaxe</td>
+                            <td>Piercing</td>
+                            <td><span class="pair-pill">Agility + Finesse</span></td>
+                            <td style="text-align: center;">5</td>
+                            <td style="text-align: center;">2H</td>
+                            <td style="text-align: center;" class="dmg-badge">+4</td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: right;" class="cost-col">4,500 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Greatsword</td>
+                            <td>Slashing</td>
+                            <td><span class="pair-pill">Agility + Strength</span></td>
+                            <td style="text-align: center;">5</td>
+                            <td style="text-align: center;">2H</td>
+                            <td style="text-align: center;" class="dmg-badge">+4</td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: right;" class="cost-col">5,000 CR</td>
+                        </tr>
+                        <tr>
+                            <td class="weapon-name">Heavy Maul</td>
+                            <td>Striking</td>
+                            <td><span class="pair-pill">Strength + Finesse</span></td>
+                            <td style="text-align: center;">5</td>
+                            <td style="text-align: center;">2H</td>
+                            <td style="text-align: center;" class="dmg-badge">+4</td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: right;" class="cost-col">4,800 CR</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- BOTTOM GRID: SHIELDS & TACTICAL RULES -->
+        <div class="bottom-grid">
+            <!-- SHIELDS -->
+            <div class="card" style="margin-bottom: 0;">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <h2>Tactical Shields</h2>
+                </div>
+                <div class="card-body no-pad">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Shield Name</th>
+                                <th style="text-align: center;">Prot</th>
+                                <th style="text-align: center;">Min STR</th>
+                                <th style="text-align: center;">Load</th>
+                                <th style="text-align: right;">Cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="weapon-name">Buckler</td>
+                                <td style="text-align: center;" class="dmg-badge">+1</td>
+                                <td style="text-align: center;">2</td>
+                                <td style="text-align: center;">1</td>
+                                <td style="text-align: right;" class="cost-col">800 CR</td>
+                            </tr>
+                            <tr>
+                                <td class="weapon-name">Riot Shield</td>
+                                <td style="text-align: center;" class="dmg-badge">+2</td>
+                                <td style="text-align: center;">4</td>
+                                <td style="text-align: center;">2</td>
+                                <td style="text-align: right;" class="cost-col">2,500 CR</td>
+                            </tr>
+                            <tr>
+                                <td class="weapon-name">Ballistic Shield</td>
+                                <td style="text-align: center;" class="dmg-badge">+3</td>
+                                <td style="text-align: center;">6</td>
+                                <td style="text-align: center;">4</td>
+                                <td style="text-align: right;" class="cost-col">6,500 CR</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- TACTICAL RULES & MODS -->
+            <div class="card" style="margin-bottom: 0;">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+                    <h2>Dual Wielding & Modifications</h2>
+                </div>
+                <div class="card-body rules-text">
+                    <p><strong>Dual Wielding:</strong> Wielding two 1H weapons adds the <strong>flat Damage Bonus of both weapons</strong> to attacks. Choose leading weapon for damage type.</p>
+                    <p><strong>Upgrade Kits (Max 3):</strong> Tiered costs (<strong>10k / 25k / 50k CR</strong>). Each grants: <strong>-1 Load</strong> (min 1/2) OR <strong>+1 Flat Dmg Bonus</strong>.</p>
+                    <p><strong>Shield Rules:</strong> Requires 1H, stacks with armor Protection, cannot be dual wielded.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <div class="page-foot">
+            Corsair RPG · Melee Weapons & Shields Reference Handout · A4 System Document
+        </div>
+    </div>
+</body>
+
+</html>

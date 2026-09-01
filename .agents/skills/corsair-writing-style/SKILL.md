@@ -32,7 +32,8 @@ Text should be calibrated to a **10th to 12th grade reading level**. Sentences s
 
 Examples should be provided whenever a rule or system is introduced:
 * **Grounded Narrative Context**: Always reference characters by name (e.g., Jax) and provide a brief, clear description of the situation to set the scene. Keep the situation simple and easy to follow, avoiding excessive flair, heavy lore, or obscure in-universe terms.
-* **Unified Examples for Linked Rules**: When multiple rules interact (such as attribute selection, test resolution, action effects, and success effects), consolidate them into a single narrative example showing how the connected rules function together in explicit sequence.
+* **Unified Examples for Linked Rules**: When multiple rules interact (such as attribute selection, test resolution, action effects, and success effects), consolidate them into a single narrative example showing how the connected rules function together in explicit sequence. Demonstrate characters actively utilizing tactical Action Effects (e.g., spending extra Action Roll Hits on Upgrade Effects) rather than leaving successes unused.
+* **Functional Equipment Naming**: In gear and equipment tables, use clear, recognizable D&D-style archetype names (e.g., *Combat Knife, Boarding Axe, Shotgun, Riot Shield*) rather than obscure in-universe model numbers, reserving detailed foundry lore for descriptions.
 
 ---
 
