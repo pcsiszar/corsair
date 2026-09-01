@@ -1,25 +1,35 @@
-# Writing Style Guide (Knowledge Base)
+---
+name: corsair-writing-style
+description: >-
+  Narrative voice, structural guidelines, reading level, example requirements, and hard sci-fi setting constraints for Corsair rulebook entries. Use when writing, editing, or formatting rulebook text.
+---
+
+# Corsair Writing Style Guide
 
 This document establishes the narrative voice, structural guidelines, and stylistic standards for writing rulebook entries and mechanics for Corsair. All written content should feel like a classic, welcoming TTRPG rulebook.
 
 ---
 
 ## 1. Paragraph Structure and Text Density
+
 Rulebook text should be composed in complete, well-developed paragraphs rather than fragmented one- or two-sentence bullet points. Mechanical concepts are clearer and more engaging when introduced alongside their narrative rationale. Paragraphs should flow logically from core concepts to specific applications, avoiding choppy, isolated statements.
 
 ---
 
 ## 2. Tone and Voice
+
 The tone must remain friendly, inviting, and encouraging. Speak directly to the reader—both players and Game Masters—as collaborators in creating memorable stories. Mechanics should be stated with clarity and precision, but the overarching voice should feel welcoming rather than clinical or purely technical.
 
 ---
 
 ## 3. Reading Level and Complexity
+
 Text should be calibrated to a **10th to 12th grade reading level**. Sentences should be balanced and varied in structure, utilizing precise, descriptive vocabulary that captures the tone without becoming overly dense, academic, or pedantic.
 
 ---
 
 ## 4. Examples and Linked Rules Integration
+
 Examples should be provided whenever a rule or system is introduced:
 * **Grounded Narrative Context**: Always reference characters by name (e.g., Jax) and provide a brief, clear description of the situation to set the scene. Keep the situation simple and easy to follow, avoiding excessive flair, heavy lore, or obscure in-universe terms.
 * **Unified Examples for Linked Rules**: When multiple rules interact (such as attribute selection, test resolution, action effects, and success effects), consolidate them into a single narrative example showing how the connected rules function together in explicit sequence.
@@ -27,6 +37,7 @@ Examples should be provided whenever a rule or system is introduced:
 ---
 
 ## 5. Setting Constraints (Hard Sci-Fi)
+
 Corsair is set in a **hard science fiction** universe. Traditional science fantasy tropes and speculative soft sci-fi technologies are off-limits across all rulebook text, narrative examples, and mechanical descriptions. Specifically:
 * **No Artificial Gravity**: Describe movement and environments using spin gravity, magnetic boots, tethering, or zero-g physics.
 * **No Plasma Weapons or Energy Shields**: Use grounded kinetic firearms, railguns, lasers, thermal tools, pneumatic gear, or physical armor.

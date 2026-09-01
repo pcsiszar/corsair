@@ -1,6 +1,12 @@
-# Lean Core Rules Reference (Knowledge Base)
+---
+name: corsair-core-rules
+description: >-
+  Lean reference for the core mechanics of Corsair (Attributes, Simple Tests, Complex Tests, Success Tests, Upgrades/Downgrades, Action Points, and Effects). Use when writing, modifying, or reviewing mechanical rules for Corsair.
+---
 
-This document serves as a lean reference for the core mechanics of Corsair. It covers only Attributes, Simple Tests, Complex Tests, Success Tests, Action Points, and Effects.
+# Corsair Core Rules Reference
+
+This document serves as a lean reference for the core mechanics of Corsair. It covers Attributes, Simple Tests, Complex Tests, Success Tests, Action Points, and Effects.
 
 ---
 
