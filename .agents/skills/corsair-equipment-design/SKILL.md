@@ -39,12 +39,17 @@ Mastercrafted equipment upgrades represent high-end precision aerospace machinin
 
 * **Hard Cap:** A single piece of equipment can benefit from a maximum of **3 Upgrade Kits**.
 * **Tiered Escalating Pricing:**
-  * **1st Upgrade:** `10,000 Credits`
-  * **2nd Upgrade:** `25,000 Credits`
-  * **3rd Upgrade:** `50,000 Credits`
+  * **Weapons (Melee & Firearms):**
+    * **1st Upgrade:** `10,000 Credits`
+    * **2nd Upgrade:** `25,000 Credits`
+    * **3rd Upgrade:** `50,000 Credits`
+  * **Armor (Premium Mil-Spec Chassis):**
+    * **1st Upgrade:** `25,000 Credits`
+    * **2nd Upgrade:** `60,000 Credits`
+    * **3rd Upgrade:** `120,000 Credits`
 * **Permanent Choice Per Kit Applied:**
-  * **Weight Reduction / Optimization:** Reduces the item's **Load by 1** (to a minimum of 1/2 Load).
-  * **Performance Enhancement:** Increases the item's primary flat bonus by **+1** (e.g., +1 Flat Damage Bonus for weapons, +1 Physical Protection for armor/shields).
+  * **Weight Reduction / Optimization:** Reduces the item's **Load by 1** (to a minimum of 1/2 Load for weapons, minimum of 1 Load for armor).
+  * **Performance Enhancement:** Increases the item's primary flat bonus by **+1** (e.g., +1 Flat Damage Bonus for weapons, +1 Physical Protection for armor).
 
 ---
 

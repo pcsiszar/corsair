@@ -67,54 +67,54 @@ Points, Lvl 2 -> Lvl 3 costs 3 Skill Points).
 
 Equip the following to your character:
 
-* **Armor:** [Armor Jacket](../items/Armor.md) (Combat Armor)
+* **Armor:** [Armored Jacket](../equipment/Armor.md)
 * **Weapons:**
-    * [CF "Spike"](../items/Melee.md) (Dagger)
-    * [VWS "Scrapper"](../items/Firearms.md) (Pistol)
+    * [Dagger](../equipment/Melee.md)
+    * [Service Pistol](../equipment/Firearms.md)
 * **Gear:**
-    * [Commlink](../items/Gear.md) (Basic Gear)
-    * 4 [Medi-Spray](../items/Gear.md) (Consumable)
-    * 4 [Nerve-Blue Inhaler](../items/Gear.md) (Consumable)
+    * [Commlink](../equipment/Gear.md) (Basic Gear)
+    * 4 [Medi-Spray](../equipment/Gear.md) (Consumable)
+    * 4 [Nerve-Blue Inhaler](../equipment/Gear.md) (Consumable)
 
 Then choose two of the following:
 
 * **Duelist Kit:**
-    * 1 [KSK "Eel"](../items/Melee.md) (Rapier)
-    * 1 [PA "Saber"](../items/Melee.md) (Scimitar)
-    * 1 [VWS "Splitter"](../items/Melee.md) (Battleaxe)
+    * 1 [Shortsword](../equipment/Melee.md)
+    * 1 [Hatchet / Machete](../equipment/Melee.md)
+    * 1 [Boarding Axe](../equipment/Melee.md)
 
 * **Marksman Kit:**
-    * 1 [KSK "Narwhal"](../items/Firearms.md)
+    * 1 [Sniper Rifle](../equipment/Firearms.md)
 
 * **Assault Kit:**
-    * 1 [VWS "Buster"](../items/Firearms.md)
+    * 1 [Assault Rifle](../equipment/Firearms.md)
 
 * **Gunslinger Kit:**
-    * 2 [CF "Cobra"](../items/Firearms.md)
+    * 2 [Heavy Revolver](../equipment/Firearms.md)
 
 * **Grenadier Kit:**
-    * 2 [Flashbang](../items/Gear.md) (Ordnance)
-    * 1 [Smoke Grenade](../items/Gear.md) (Ordnance)
-    * 2 [Frag Grenade](../items/Gear.md) (Ordnance)
+    * 2 [Flashbang](../equipment/Gear.md) (Ordnance)
+    * 1 [Smoke Grenade](../equipment/Gear.md) (Ordnance)
+    * 2 [Frag Grenade](../equipment/Gear.md) (Ordnance)
 
 * **Warden Kit:**
-    * 1 [Deployable Cover (Medium)](../items/Gear.md) (Fortification Gear)
+    * 1 [Deployable Cover (Medium)](../equipment/Gear.md) (Fortification Gear)
 
 * **Medic Kit:**
-    * 4 [Medi-Kit](../items/Gear.md) (Consumable)
-    * 4 [Nerve-Blue Pills](../items/Gear.md) (Consumable)
+    * 4 [Medi-Kit](../equipment/Gear.md) (Consumable)
+    * 4 [Nerve-Blue Pills](../equipment/Gear.md) (Consumable)
 
 * **Cocktail Kit:**
-    * 1 [SharpX](../items/Gear.md) (Consumable)
-    * 1 [Nitro](../items/Gear.md) (Consumable)
-    * 1 [Rizz](../items/Gear.md) (Consumable)
-    * 1 [Edgedance](../items/Gear.md) (Consumable)
-    * 1 [Roid](../items/Gear.md) (Consumable)
+    * 1 [SharpX](../equipment/Gear.md) (Consumable)
+    * 1 [Nitro](../equipment/Gear.md) (Consumable)
+    * 1 [Rizz](../equipment/Gear.md) (Consumable)
+    * 1 [Edgedance](../equipment/Gear.md) (Consumable)
+    * 1 [Roid](../equipment/Gear.md) (Consumable)
 
 * **Spy Kit:**
-    * 1 [Thieves Tools](../items/Gear.md) (Clandestine Gear)
-    * 1 [Disguise Kit](../items/Gear.md) (Clandestine Gear)
-    * 1 ["Spider" Cyberdeck](../items/Gear.md) (Clandestine Gear)
+    * 1 [Thieves Tools](../equipment/Gear.md) (Clandestine Gear)
+    * 1 [Disguise Kit](../equipment/Gear.md) (Clandestine Gear)
+    * 1 ["Spider" Cyberdeck](../equipment/Gear.md) (Clandestine Gear)
 
 ## Class
 

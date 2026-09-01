@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corsair — Tactical Gear Quick Reference</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <style>
+/* ======================================================  TOKENS  */
+:root {
+    --black: #080a0c;
+    --dark: #10131a;
+    --mid: #181c24;
+    --surface: #1d2130;
+    --border: #2a3040;
+    --border-light: #3a4256;
+    --accent: #c8a84b;
+    --accent-dim: #7a6428;
+    --accent-glow: rgba(200, 168, 75, 0.15);
+    --red: #a02828;
+    --red-dim: #5c1616;
+    --cyan: #29b6f6;
+    --green: #4caf50;
+    --text: #ccc7ba;
+    --text-dim: #6a6458;
+    --text-muted: #3e3c36;
+    --stripe: rgba(200, 168, 75, 0.03);
+
+    --font-title: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+}
+
+/* ======================================================  RESET  */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.8pt;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--black);
+    color: var(--text);
+    line-height: 1.18;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* ======================================================  PRINT STYLES  */
+@page {
+    size: A4 portrait;
+    margin: 3.5mm;
+}
+
+@media print {
+    body {
+        background: #ffffff !important;
+    }
+
+    :root {
+        --black: #ffffff;
+        --dark: #ffffff;
+        --mid: #ffffff;
+        --surface: #ffffff;
+        --border: #888888;
+        --border-light: #cccccc;
+        --accent: #000000;
+        --accent-dim: #333333;
+        --accent-glow: transparent;
+        --red: #8b1a1a;
+        --red-dim: #555555;
+        --text: #000000;
+        --text-dim: #333333;
+        --text-muted: #666666;
+        --stripe: transparent;
+    }
+
+    .page {
+        background: #ffffff !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+    }
+
+    .page::before {
+        display: none !important;
+    }
+
+    .mh-logo {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #000000 !important;
+        clip-path: none !important;
+        padding-right: 4mm !important;
+        min-width: unset !important;
+    }
+
+    .mh-logo svg {
+        fill: #000000 !important;
+    }
+
+    .card-hd {
+        border-bottom-width: 1px !important;
+    }
+
+    .card-hd svg {
+        fill: #000000 !important;
+    }
+
+    .eq-table th,
+    .data-table th {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+    }
+
+    .fl {
+        border-bottom-color: #888888 !important;
+    }
+
+    .badge {
+        border: 1px solid #000000 !important;
+        color: #000000 !important;
+        background: #ffffff !important;
+    }
+}
+
+/* ======================================================  PAGE CONTAINER  */
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    max-height: 297mm;
+    margin: 0 auto;
+    padding: 3.5mm 4mm;
+    background: var(--dark);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.page::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+    background-size: 18px 18px;
+    pointer-events: none;
+}
+
+/* ======================================================  MASTHEAD  */
+.masthead {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 1.2mm;
+    border: 1px solid var(--accent-dim);
+    background: var(--mid);
+    flex-shrink: 0;
+}
+
+.mh-logo {
+    background: var(--accent);
+    color: var(--black);
+    padding: 1.2mm 2.2mm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+    padding-right: 7mm;
+    min-width: 15mm;
+    flex-shrink: 0;
+}
+
+.mh-logo svg {
+    width: 14px;
+    height: 14px;
+    fill: var(--black);
+}
+
+.mh-logo .logo-text {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 4.8pt;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-title {
+    padding: 1.2mm 2.2mm;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mh-title h1 {
+    font-family: var(--font-title);
+    font-weight: 900;
+    font-size: 11.5pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.mh-title .sub {
+    font-family: var(--font-title);
+    font-weight: 300;
+    font-size: 5.6pt;
+    letter-spacing: 0.2em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-top: 1px;
+}
+
+.mh-meta {
+    border-left: 1px solid var(--border);
+    padding: 1.2mm 2.2mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 48mm;
+}
+
+.mh-meta label {
+    font-family: var(--font-title);
+    font-size: 5pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent-dim);
+    margin-bottom: 0.3mm;
+}
+
+.fl {
+    border-bottom: 1px solid var(--border);
+    min-height: 3.8mm;
+}
+
+/* ======================================================  LAYOUT GRIDS  */
+.grid-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2mm;
+    flex: 1;
+}
+
+.grid-3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2mm;
+    flex: 1;
+}
+
+.col-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2mm;
+}
+
+/* ======================================================  CARDS  */
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-hd {
+    background: var(--mid);
+    border-bottom: 1px solid var(--accent-dim);
+    padding: 0.6mm 1.4mm;
+    display: flex;
+    align-items: center;
+    gap: 1mm;
+    flex-shrink: 0;
+}
+
+.card-hd svg {
+    width: 8.5px;
+    height: 8.5px;
+    fill: var(--accent);
+    flex-shrink: 0;
+}
+
+.card-hd h2 {
+    font-family: var(--font-title);
+    font-size: 6.8pt;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    flex: 1;
+    line-height: 1;
+}
+
+.card-body {
+    padding: 1mm 1.4mm;
+    flex: 1;
+}
+
+.card-body.no-pad {
+    padding: 0;
+}
+
+/* ======================================================  TABLES  */
+.eq-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.eq-table th {
+    font-family: var(--font-title);
+    font-size: 5.4pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-dim);
+    text-align: left;
+    padding: 0.5mm 0.8mm;
+    border-bottom: 1px solid var(--accent-dim);
+    background: var(--mid);
+}
+
+.eq-table td {
+    border-bottom: 1px solid var(--border);
+    padding: 0.4mm 0.8mm;
+    vertical-align: middle;
+    font-size: 5.8pt;
+}
+
+.eq-table tr:nth-child(even) td {
+    background: var(--stripe);
+}
+
+.num-cell {
+    font-family: var(--font-mono);
+    font-size: 6.2pt;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+}
+
+.num-cell.cost {
+    color: var(--accent);
+    text-align: right;
+}
+
+/* ======================================================  RULES TEXT & BADGES  */
+.rules-text {
+    font-family: var(--font-body);
+    font-size: 5.9pt;
+    color: var(--text);
+    line-height: 1.16;
+}
+
+.rules-text strong {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.badge {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 4.8pt;
+    padding: 0.5px 2px;
+    border: 1px solid var(--border-light);
+    color: var(--text-dim);
+    text-transform: uppercase;
+    background: var(--mid);
+    line-height: 1;
+}
+
+.badge.accent {
+    border-color: var(--accent-dim);
+    color: var(--accent);
+}
+
+.badge.cyan {
+    border-color: rgba(41, 182, 246, 0.4);
+    color: var(--cyan);
+}
+
+.badge.red {
+    border-color: var(--red-dim);
+    color: var(--red);
+}
+
+/* ======================================================  PAGE FOOTER  */
+.page-foot {
+    font-family: var(--font-title);
+    font-size: 5.2pt;
+    letter-spacing: 0.3em;
+    color: var(--text-muted);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: auto;
+    padding-top: 0.8mm;
+    flex-shrink: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="mh-logo">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" /><circle cx="12" cy="12" r="1.5" /></svg>
+                <span class="logo-text">Corsair</span>
+            </div>
+            <div class="mh-title">
+                <h1>Tactical Gear & Field Equipment</h1>
+                <div class="sub">Category Dedicated Attributes, 1 AP Resolution Pairs & Item Catalog</div>
+            </div>
+            <div class="mh-meta">
+                <label>Operator / Max Load Capacity [12 + (STR × 2)]</label>
+                <div class="fl"></div>
+            </div>
+        </div>
+
+        <!-- TOP CARD: CORE GEAR RESOLUTION MATRIX -->
+        <div class="card" style="margin-bottom: 1.2mm;">
+            <div class="card-hd">
+                <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+                <h2>Category Attribute Test Pairs & General Invariants (1 AP per Action)</h2>
+            </div>
+            <div class="card-body rules-text" style="padding: 0.8mm 1.4mm;">
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1mm;">
+                    <div>
+                        <span class="badge accent">Mobility</span>
+                        <div><strong>Jetpack:</strong> Thrust + AGI (Base+SP m)</div>
+                        <div><strong>Climbing:</strong> Grip + STR (8+SP m)</div>
+                    </div>
+                    <div>
+                        <span class="badge cyan">Tech & Infiltration</span>
+                        <div><strong>Mechanic:</strong> Tinkering+KNO / Lock+FIN</div>
+                        <div><strong>Infiltrator:</strong> Disguise+KNO / Forge+FIN</div>
+                    </div>
+                    <div>
+                        <span class="badge accent">Cyber & Sensors</span>
+                        <div><strong>Hacker:</strong> Interfacing+KNO / Hack+KNO</div>
+                        <div><strong>Detection:</strong> Sensors + KNO</div>
+                    </div>
+                    <div>
+                        <span class="badge red">Medical & Repairs</span>
+                        <div><strong>Medical:</strong> Medicine + KNO</div>
+                        <div><strong>Repairs:</strong> Tinkering + KNO (1 HP/SP)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3-COLUMN MAIN LAYOUT -->
+        <div class="grid-3col">
+            <!-- COLUMN 1: MOBILITY & FORTIFICATION -->
+            <div class="col-stack">
+                <!-- MOBILITY -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 2.5a5.5 5.5 0 0 1 5.5 5.5c0 2.22-1.32 4.13-3.21 5l1.71 4.5h-8l1.71-4.5C7.82 12.13 6.5 10.22 6.5 8a5.5 5.5 0 0 1 5.5-5.5z"/></svg>
+                        <h2>1. Mobility Hardware</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Properties</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Light Jump-Pack</strong></td>
+                                    <td>Jetpack (8m), Thrust 3</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">35,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Tactical Jetpack</strong></td>
+                                    <td>Jetpack (12m), Thrust 4</td>
+                                    <td class="num-cell">4</td>
+                                    <td class="num-cell cost">72,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Heavy Jump-Rig</strong></td>
+                                    <td>Jetpack (16m), Thrust 5</td>
+                                    <td class="num-cell">5</td>
+                                    <td class="num-cell cost">120,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Gecko Climbing Kit</strong></td>
+                                    <td>Grip 3, Adhesion</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">18,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zipline Launcher (24m)</strong></td>
+                                    <td>Zipline (24m), 24 HP</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">12,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zipline Launcher (40m)</strong></td>
+                                    <td>Zipline (40m), 24 HP</td>
+                                    <td class="num-cell">4</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Zipline Launcher (72m)</strong></td>
+                                    <td>Zipline (72m), 24 HP</td>
+                                    <td class="num-cell">5</td>
+                                    <td class="num-cell cost">40,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>High-Tensile Rope (40m)</strong></td>
+                                    <td>Utility Cordage</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="font-size: 5.4pt; color: var(--text-dim); padding: 0.5mm 0.8mm;">
+                            <em>Jetpack Crit: +4m/Hit. Charge: 1 AP base flight + Melee Attack.</em>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORTIFICATION -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                        <h2>2. Fortifications & Cover</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Rating / Defense</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Deployable Cover (Light)</strong></td>
+                                    <td>+1 Cover, 12 HP, Prot 4</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">5,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Deployable Cover (Med)</strong></td>
+                                    <td>+2 Cover, 24 HP, Prot 8</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">8,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Deployable Cover (Hvy)</strong></td>
+                                    <td>+3 Cover, 36 HP, Prot 12</td>
+                                    <td class="num-cell">4</td>
+                                    <td class="num-cell cost">12,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>APS Beacon</strong></td>
+                                    <td>Intercept 5, 24 HP (1 Free AP)</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Smartpod Remote Mount</strong></td>
+                                    <td>Automount 3, 12 HP</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">36,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="font-size: 5.4pt; color: var(--text-dim); padding: 0.5mm 0.8mm;">
+                            <em>Deploy / Pick Up: 1 AP. Repairs: Tinkering+KNO (1 HP/SP).</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 2: EXPLOSIVES & MEDICAL -->
+            <div class="col-stack">
+                <!-- EXPLOSIVES & LAUNCHERS -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                        <h2>3. Explosives & Launchers</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Properties</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Flashbang Grenade</strong></td>
+                                    <td>Ordnance 5, Area Stun, 4m</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">250</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Smoke Grenade</strong></td>
+                                    <td>Area Obscurance (8m)</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">300</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Frag Grenade</strong></td>
+                                    <td>Ordnance 4, Blast 3, 8m</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">1,500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>HE Grenade</strong></td>
+                                    <td>Ordnance 5, Blast 5, 4m</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">2,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Remote Demolition</strong></td>
+                                    <td>Ordnance 7, Blast 5, 12m</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">5,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Grenade Launcher Rig</strong></td>
+                                    <td>Delivery (Medium Range)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">8,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Rocket Launcher Rig</strong></td>
+                                    <td>Delivery (Long Range)</td>
+                                    <td class="num-cell">4</td>
+                                    <td class="num-cell cost">22,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Missile Guidance Sys</strong></td>
+                                    <td>Delivery (Extreme Range)</td>
+                                    <td class="num-cell">6</td>
+                                    <td class="num-cell cost">60,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div style="font-size: 5.4pt; color: var(--text-dim); padding: 0.5mm 0.8mm;">
+                            <em>Blast (X): Hits on Success Roll add +X dmg (replaces +2 Crit).</em>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEDICAL SUPPLIES & STIMULANTS -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M19 10.5h-4.5V6h-5v4.5H5v5h4.5V20h5v-4.5H19v-5z"/></svg>
+                        <h2>4. Medical & Pharmaceuticals</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Healing / Boost Rate</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Medi-Spray</strong></td>
+                                    <td>Medicine 2 (Phys Heal 1/3)</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">800</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Medi-Kit</strong></td>
+                                    <td>Medicine 3 (Phys Heal 1/2)</td>
+                                    <td class="num-cell">1/2</td>
+                                    <td class="num-cell cost">1,600</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Trauma-Kit</strong></td>
+                                    <td>Medicine 4 (Phys Heal 1/1)</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">5,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Phoenix Emergency Kit</strong></td>
+                                    <td>Medicine 4 (Greater / Agg)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">10,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Nerve-Blue Inhaler</strong></td>
+                                    <td>Medicine 2 (Mental 1/3)</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Nerve-Blue Pills</strong></td>
+                                    <td>Medicine 3 (Mental 1/2)</td>
+                                    <td class="num-cell">1/2</td>
+                                    <td class="num-cell cost">1,250</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Nerve-Blue Injector</strong></td>
+                                    <td>Medicine 4 (Mental 1/1)</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">3,500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>SharpX Combat Stim</strong></td>
+                                    <td>+1 INS, +1 KNO · Vol 2</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">4,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Nitro Reflex Stim</strong></td>
+                                    <td>+1 AGI · Volatile 2</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">5,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Rizz Pheromone Stim</strong></td>
+                                    <td>+1 PRE · Volatile 2</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">6,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Edgedance Tactical</strong></td>
+                                    <td>+1 FIN, +1 INS · Vol 2</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">7,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Roid Muscle Injector</strong></td>
+                                    <td>+2 STR · Volatile 3</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">8,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COLUMN 3: INFILTRATION, DETECTION & SURVIVAL -->
+            <div class="col-stack">
+                <!-- INFILTRATION & TECH KITS -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M20 8h-3V6.21c0-2.61-1.91-4.94-4.51-5.19C9.51.74 7 3.08 7 6v2H4v14h16V8zm-8 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM9 8V6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9z"/></svg>
+                        <h2>5. Infiltration & Hacker Kits</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Kit Archetype</th>
+                                    <th>Attributes & Tests</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Mechanic's Kit</strong></td>
+                                    <td>Tinker 2 (KNO) · Lock 2 (FIN)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">1,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Engineer's Kit</strong></td>
+                                    <td>Tinker 4 (KNO) · Lock 4 (FIN)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">12,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Maker's Kit</strong></td>
+                                    <td>Tinker 6 (KNO) · Lock 6 (FIN)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Infiltrator Kit</strong></td>
+                                    <td>Disguise 2 (KNO) · Forge 2 (FIN)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">1,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Spy Kit</strong></td>
+                                    <td>Disguise 4 (KNO) · Forge 4 (FIN)</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">12,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Chameleon Kit</strong></td>
+                                    <td>Disguise 6 (KNO) · Forge 6 (FIN)</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>"Spider" Cyberdeck</strong></td>
+                                    <td>Interface 3 (KNO) · Hack 2 (KNO)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">1,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>"Mantis" Cyberdeck</strong></td>
+                                    <td>Interface 5 (KNO) · Hack 4 (KNO)</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">12,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>"Scorpion" Cyberdeck</strong></td>
+                                    <td>Interface 7 (KNO) · Hack 6 (KNO)</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- DETECTION & SURVIVAL -->
+                <div class="card">
+                    <div class="card-hd">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        <h2>6 & 7. Detection & Survival</h2>
+                    </div>
+                    <div class="card-body no-pad">
+                        <table class="eq-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Properties</th>
+                                    <th style="text-align: center;">Ld</th>
+                                    <th style="text-align: right;">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Proximity Sensor</strong></td>
+                                    <td>Scouting 4m Auto-Alert</td>
+                                    <td class="num-cell">1/4</td>
+                                    <td class="num-cell cost">1,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Proximity Radar Suite</strong></td>
+                                    <td>Scouting 20m 360 Sweep</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">25,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Recon Drone</strong></td>
+                                    <td>Fly 20m, Sensors 2 (KNO)</td>
+                                    <td class="num-cell">2</td>
+                                    <td class="num-cell cost">35,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Forensic Sensor Suite</strong></td>
+                                    <td>Sensors 4 (KNO), Analysis</td>
+                                    <td class="num-cell">3</td>
+                                    <td class="num-cell cost">20,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Thermal Hazard Suit</strong></td>
+                                    <td>Immunity, Sealed (12h)</td>
+                                    <td class="num-cell">1</td>
+                                    <td class="num-cell cost">5,000</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Field Rations (1 Week)</strong></td>
+                                    <td>Sustenance</td>
+                                    <td class="num-cell">1/3</td>
+                                    <td class="num-cell cost">50</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Wilderness Camp</strong></td>
+                                    <td>Squad Shelter (4 Crew)</td>
+                                    <td class="num-cell">4</td>
+                                    <td class="num-cell cost">500</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Encrypted Commlink</strong></td>
+                                    <td>Interfacing 2 (KNO)</td>
+                                    <td class="num-cell">0</td>
+                                    <td class="num-cell cost">1,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE FOOTER -->
+        <div class="page-foot">
+            Corsair RPG · Tactical Gear & Field Equipment Quick Reference · A4 System Document
+        </div>
+    </div>
+</body>
+</html>

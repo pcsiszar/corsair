@@ -168,9 +168,7 @@ There are three levels of cover:
 
 #### Destroying Cover
 
-Cover can be destroyed. Light, Medium, and Heavy Cover have 4, 8, and 12 health segments and a Protection of 4, 8, and
-12 respectively. Attacking cover is a Success Test instead of a Complex one. For every 4 damage the cover takes, its
-provided Protection benefit is reduced by 1.
+Cover can be destroyed. Light, Medium, and Heavy Cover have 12, 24, and 36 health segments and an innate Protection of 4, 8, and 12 respectively when directly targeted. Attacking cover is a Success Test instead of a Complex one. For every 12 damage the cover takes, its provided Protection benefit is reduced by 1. Specialized breaching charges, anti-materiel weapons, and demolition explosives specifically ignore cover's innate Protection.
 
 #### Cover Facing
 

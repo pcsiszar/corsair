@@ -50,14 +50,38 @@ For the full catalog of handguns, submachine guns, shotguns, rifles, heavy suppo
 
 ### Armor
 
-Armor is any type of protective gear worn by a character to contest against harm. Its primary function is to reduce the amount of damage you take from attacks.
+Armor is protective gear worn by a character to reduce incoming physical and kinetic damage. Every suit of armor is defined by its **Protection**, **Minimum Strength (Min STR)**, **Load**, and **Cost**.
 
-The main attribute for any piece of armor is its **Protection** value. Protection provides a flat reduction that you can apply to incoming conventional damage. For example, if you are hit by an attack that would normally deal 5 points of damage, and you are wearing armor with a Protection of 2, you would only suffer 3 points of damage.
+* **Protection:** A flat integer reduction applied directly to incoming damage before it affects your health. Armor Protection stacks with bonuses from **Shields** and **Cover**, but a character can only benefit from one worn suit of armor at a time.
+* **Minimum Strength (Min STR):** Armor requires physical conditioning to articulate properly. If your Strength is lower than the armor's Min STR, the suit is too heavy and cumbersome to move in, and **cannot be worn or donned**.
+* **Load:** The mass and physical bulk of the armor, which counts toward your maximum Load capacity.
 
-If you have multiple sources that provide a flat Protection value (such as from armor and certain Traits), you only apply the highest value; they do not stack. This is different from effects or bonuses that specifically add to your Protection score, which do stack.
-
-While heavier armors offer significantly more Protection, they are not without their drawbacks. Such suits are often bulky and power-intensive, and may carry penalties such as a reduction to your total Movement speed or even a loss of Action Points each round.
+For the full catalog of armor archetypes, defense mechanics, and armor upgrade kits, see [Armor](Armor.md).
 
 ### Gear
 
-Gear is a broad category encompassing all other mechanically significant items that don't fall under Weapons or Armor. These items often provide special properties, unique abilities, or situational advantages. Gear can be anything from a single-use consumable to a complex device with ongoing effects.
+Gear is a broad category encompassing all other mission-critical tactical equipment, specialized toolkits, field consumables, and survival hardware that don't fall under Weapons or Armor. Gear is organized into seven tactical categories:
+
+* **Mobility Gear:** Jump-packs, climbing gear, and motorized ziplines for vertical traversal and zero-g mobility.
+* **Fortification Gear:** Deployable cover barricades, active protection defense beacons, and remote weapon mounts.
+* **Explosives & Launchers:** Grenades, demolition charges, and launcher platforms executing high-yield area attacks.
+* **Medical & Consumables:** Trauma kits, neuro-stabilizers, and combat stimulants providing field recovery and biochemical boosts.
+* **Infiltration & Tech Kits:** Mechanic, infiltrator, and hacker toolkits providing dedicated attributes for physical and electronic intrusion.
+* **Detection & Surveillance:** Passive sensors, reconnaissance drones, and forensic spectrometers for gathering situational intelligence.
+* **Survival & Field Utility:** Pressurized environmental suits, encrypted commlinks, and expedition provisions.
+
+Most gear items provide dedicated **Item Attributes** (such as *Thrust*, *Medicine*, *Sensors*, or *Hacking*) that pair with a character's core attributes for tests costing **1 Action Point (AP)**.
+
+For the full catalog of gear items, category attributes, and special properties, see [Gear](Gear.md).
+
+---
+
+## Equipment Damage & Repairs
+
+Deployable gear, fortifications, vehicles, and technological hardware possess structure ratings measured in **Health Points (HP)**. When an item takes damage from enemy fire, detonations, or environmental hazards, its HP is reduced accordingly. If an item is reduced to 0 HP, it is disabled and ceases to function until repaired.
+
+An operator carrying a toolkit with the **Tinkering** attribute can perform field maintenance to restore damaged hardware:
+
+* **Repairing Equipment:** Restoring HP to damaged equipment costs **1 AP** (in structured combat) or standard narrative time (in downtime) and requires a **Success Test** using **Tinkering + Knowledge**.
+* **HP Restored:** The item immediately recovers **1 HP per Success Point** generated on the test, up to its maximum HP rating. Repairing completely destroyed or vaporized equipment may require dedicated workshop facilities and spare components at the GM's discretion.
+
