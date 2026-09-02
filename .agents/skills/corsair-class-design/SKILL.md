@@ -182,5 +182,5 @@ In alignment with [`corsair-writing-style`](file:///c:/Users/csisz/IdeaProjects/
 Every class rulebook file must maintain strict parity with its corresponding printable A4 HTML sheet:
 
 * **Markdown Document Path:** `rulebook/classes/[ClassName].md`
-* **Printable Sheet Path:** `rulebook/character/[ClassName]_Sheet.html`
+* **Printable Sheet Path:** `rulebook/classes/[ClassName]_Sheet.html`
 * **Single-Page A4 Guarantee:** Every class sheet must strictly adhere to [`corsair-printable-sheets`](file:///c:/Users/csisz/IdeaProjects/corsair/.agents/skills/corsair-printable-sheets/SKILL.md), utilizing Barlow typography, tokenized CSS variables, print media queries, and dense multi-column card layouts guaranteed to fit entirely on a single printed A4 page without spilling onto a second page.

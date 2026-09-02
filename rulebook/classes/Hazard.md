@@ -1,6 +1,6 @@
 # Class: The Hazard
 
-*You can download and print the [Hazard Printable Sheet](../character/Hazard_Sheet.html) for play.*
+*You can download and print the [Hazard Printable Sheet](Hazard_Sheet.html) for play.*
 
 ## Description
 

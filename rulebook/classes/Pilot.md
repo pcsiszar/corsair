@@ -1,6 +1,6 @@
 # Class: The Pilot
 
-*You can download and print the [Pilot Printable Sheet](../character/Pilot_Sheet.html) for play.*
+*You can download and print the [Pilot Printable Sheet](Pilot_Sheet.html) for play.*
 
 ## Description
 
