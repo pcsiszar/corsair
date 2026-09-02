@@ -14,7 +14,7 @@ This skill documents the design principles, mathematical rules, naming conventio
 
 * **No Division Formulas:** Never use mathematical division (e.g., `STR/2`, `STR/3`, or `(Agility / 3) + 1`).
 * **Flat Integer Scaling:** All weapon bonuses, armor protections, and stat requirements must use flat integer additions (`+1`, `+2`, `+3`, etc.) or direct attribute references (e.g., *"equal to the lower attribute of the test"*).
-* **Threshold Requirements:** Physical scaling should use minimum attribute thresholds (e.g., **Min STR 4**) with clear binary handling rules (e.g., 1H weapons require two hands if below Min STR; 2H weapons cannot be wielded).
+* **Threshold Requirements:** Physical scaling should use minimum attribute thresholds (e.g., **Min STR 4**) with clear binary handling rules for Melee weapons, Shields, and Armor (e.g., 1H melee weapons require two hands if below Min STR; 2H melee weapons cannot be wielded; armor cannot be donned). Firearms do not use Strength thresholds, relying instead on 1H vs. 2H handling, Rate of Fire (RoF), and Range Band Accuracy.
 
 ---
 

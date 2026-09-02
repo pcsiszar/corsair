@@ -4,10 +4,9 @@ Your character is your avatar in the world of Corsair. They are the protagonist 
 skills,
 attributes, and traits will determine their success or failure.
 
-### Character Creation
+### Character Creation & Modes of Play
 
-Creating a character involves choosing a sponsor, heritage, and race, as well as distributing points to attributes and
-skills. For the full step-by-step process, see [Character Creation](Creation.md).
+Before building characters, the group selects a **Mode of Play** ([Freelancers](Creation.md#1-freelancers-aspirants), [Corsairs](Creation.md#2-corsairs-chartered-cell), or [Rogue Corsairs](Creation.md#3-rogue-corsairs-outlaws)), determining whether the crew possesses official sponsors and a starship. Creating a character then involves selecting a sponsor (or ex-sponsor), race, and class chassis, as well as distributing points to attributes and skills. For the full step-by-step process, see [Character Creation](Creation.md).
 
 You can download a printable [Character Sheet](Character_Sheet.html) to record your character's details.
 

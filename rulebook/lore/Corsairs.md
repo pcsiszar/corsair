@@ -88,3 +88,13 @@ Alternatively, individuals can build a reputation through bounty hunting, securi
 across the Sphere. When a sponsor cannot find a suitable nominee within their own ranks, they often turn to established
 freelancers. To facilitate this, retired Corsairs run several smaller organizations and networks dedicated to mentoring
 promising freelancers; recommendations from these veterans carry significant weight with the Sponsor Board.
+
+## Operational Variations: Freelancers and Rogue Cells
+
+While the standard mandate establishes chartered cells sponsored by major powers and equipped with dedicated starships, two distinct operational variations operate across the Sphere:
+
+### Freelancer Crews (Aspirants)
+Not all who seek to become Corsairs have secured a charter or a ship. Freelancer crews operate on the ground level, taking contract security, planetary tracking, and low-level salvage to prove their capabilities to watching sponsor scouts. Without a personal vessel, they rely on commercial transport, cargo shuttles, and station transit across the Sovereign Moons, striving to build the reputation needed to earn a sponsor's backing.
+
+### Rogue Corsairs (Outlaws)
+At the opposite end of the spectrum are Rogue Corsairs—operatives who were stripped of their mandate by the Oversight Committee, broke strict neutrality protocols, or walked away from corrupt superiors. Operating unregistered, jury-rigged, or re-flagged starships, rogue cells take on high-risk, legally questionable contracts in the grey and black markets. Though officially hunted as outlaws, many maintain precarious backchannel contacts, mutual blackmail arrangements, or clandestine pipelines with their former sponsors.

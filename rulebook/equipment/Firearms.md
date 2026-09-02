@@ -22,10 +22,6 @@ Every firearm is defined by its mechanical attributes, which dictate how it perf
 
 * **Damage Bonus (Dmg Bonus):** A flat numerical value added directly to the total success points generated on a successful attack roll. Heavier weapons firing high-grain ammunition or hyper-velocity darts possess substantially larger flat Damage Bonuses.
 
-* **Minimum Strength (Min STR):** Managing heavy recoil impulses and weapon mass requires physical conditioning. Firearms enforce the zero-division handling rule:
-  * **One-Handed Weapons (1H):** If your Strength is lower than the weapon's Min STR, you cannot stabilize the weapon with one hand; you must wield it with **two hands** to attack with it.
-  * **Two-Handed Weapons (2H):** If your Strength is lower than the weapon's Min STR, the weapon is too cumbersome to brace or aim, and you **cannot attack** with it under any circumstances.
-
 * **Hands:** Indicates whether the weapon is a sidearm designed for one-handed operation (**1H**) or a shoulder-fired/braced platform requiring both hands (**2H**).
 
 * **Load:** The mass and physical bulk of the weapon as governed by the inventory Load system.
@@ -52,13 +48,13 @@ While the firearms catalog lists universal functional archetypes, individual mod
 
 Compact sidearms designed for personal defense, emergency boarding backup, and rapid close-quarters deployment.
 
-| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Holdout Pistol** | 2 / 1 / - / - | 1 | 1 | 1H | +0 | 1/2 | 300 | Ultra-compact concealable polymer pistol designed for covert carry and last-ditch defense. |
-| **Service Pistol** | 3 / 2 / 1 / - | 1 | 1 | 1H | +1 | 1 | 800 | Standard-issue semi-automatic sidearm offering reliable cycling and balanced handling. |
-| **Heavy Revolver** | 3 / 2 / 1 / - | 0 | 2 | 1H | +3 | 1 | 1,200 | Large-frame cylinder handgun firing high-grain magnum cartridges with punishing recoil. |
-| **Machine Pistol** | 3 / 2 / - / - | 2 | 2 | 1H | +0 | 1 | 1,500 | Compact automatic handgun capable of dumping high-volume bursts in point-blank skirmishes. |
-| **Hand Cannon** | 2 / 3 / 2 / 0 | 0 | 3 | 1H | +4 | 1 | 2,200 | Massive reinforced handgun chambered in anti-armor kinetic rounds for devastating single shots. |
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Holdout Pistol** | 2 / 1 / - / - | 1 | 1H | +0 | 1/2 | 300 | Ultra-compact concealable polymer pistol designed for covert carry and last-ditch defense. |
+| **Service Pistol** | 3 / 2 / 1 / - | 1 | 1H | +1 | 1 | 800 | Standard-issue semi-automatic sidearm offering reliable cycling and balanced handling. |
+| **Heavy Revolver** | 3 / 2 / 1 / - | 0 | 1H | +3 | 1 | 1,200 | Large-frame cylinder handgun firing high-grain magnum cartridges with punishing recoil. |
+| **Machine Pistol** | 3 / 2 / - / - | 2 | 1H | +0 | 1 | 1,500 | Compact automatic handgun capable of dumping high-volume bursts in point-blank skirmishes. |
+| **Hand Cannon** | 2 / 3 / 2 / 0 | 0 | 1H | +4 | 1 | 2,200 | Massive reinforced handgun chambered in anti-armor kinetic rounds for devastating single shots. |
 
 ---
 
@@ -66,13 +62,13 @@ Compact sidearms designed for personal defense, emergency boarding backup, and r
 
 Close-quarters primary weapons engineered for boarding operations, clearing tight ship bulkheads, and dominating short-range firefights.
 
-| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Compact SMG** | 4 / 3 / 1 / - | 2 | 2 | 2H | +1 | 2 | 2,000 | Lightweight collapsible submachine gun designed for vehicle crews and shipboard boarding teams. |
-| **Tactical SMG** | 3 / 4 / 2 / 0 | 3 | 2 | 2H | +1 | 2 | 2,800 | Balanced automatic platform featuring integral recoil compensators and high cyclic fire rates. |
-| **Trench Shotgun** | 5 / 2 / - / - | 0 | 2 | 2H | +4 | 2 | 2,400 | Heavy pump-action smoothbore scattergun delivering catastrophic kinetic spread at point-blank range. |
-| **Combat Shotgun** | 4 / 3 / 0 / - | 1 | 3 | 2H | +3 | 3 | 3,500 | Semi-automatic magazine-fed shotgun engineered for rapid room clearing and breaching operations. |
-| **Riot Scattergun** | 4 / 2 / - / - | 2 | 3 | 2H | +2 | 3 | 4,000 | Fully automatic drum-fed scattergun delivering overwhelming short-range projectile swarms. |
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Compact SMG** | 4 / 3 / 1 / - | 2 | 2H | +1 | 2 | 2,000 | Lightweight collapsible submachine gun designed for vehicle crews and shipboard boarding teams. |
+| **Tactical SMG** | 3 / 4 / 2 / 0 | 3 | 2H | +1 | 2 | 2,800 | Balanced automatic platform featuring integral recoil compensators and high cyclic fire rates. |
+| **Trench Shotgun** | 5 / 2 / - / - | 0 | 2H | +4 | 2 | 2,400 | Heavy pump-action smoothbore scattergun delivering catastrophic kinetic spread at point-blank range. |
+| **Combat Shotgun** | 4 / 3 / 0 / - | 1 | 2H | +3 | 3 | 3,500 | Semi-automatic magazine-fed shotgun engineered for rapid room clearing and breaching operations. |
+| **Riot Scattergun** | 4 / 2 / - / - | 2 | 2H | +2 | 3 | 4,000 | Fully automatic drum-fed scattergun delivering overwhelming short-range projectile swarms. |
 
 ---
 
@@ -80,13 +76,13 @@ Close-quarters primary weapons engineered for boarding operations, clearing tigh
 
 Versatile long guns that balance effective range, stopping power, and tactical flexibility across ship corridors and planetary battlegrounds.
 
-| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Assault Carbine** | 3 / 3 / 2 / 1 | 2 | 2 | 2H | +2 | 3 | 3,800 | Short-barreled rifle optimized for high mobility, fast target acquisition, and medium-range skirmishes. |
-| **Assault Rifle** | 2 / 4 / 3 / 1 | 2 | 3 | 2H | +2 | 3 | 4,800 | Standard military battle rifle delivering disciplined burst fire and balanced accuracy across all combat zones. |
-| **Battle Rifle** | 2 / 3 / 4 / 2 | 0 | 3 | 2H | +4 | 3 | 5,500 | Heavy-caliber semi-automatic rifle engineered for hard-hitting, armor-cracking kinetic penetration. |
-| **Designated Marksman Rifle (DMR)** | 1 / 3 / 5 / 3 | 1 | 3 | 2H | +4 | 4 | 7,000 | Precision-machined semi-automatic rifle equipped with high-magnification optics for mid-to-long range fire. |
-| **Sniper Rifle** | 0 / 2 / 5 / 4 | 0 | 3 | 2H | +5 | 4 | 9,500 | Long-range bolt-action or precision-lock rifle delivering extreme terminal ballistics at standoff ranges. |
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Assault Carbine** | 3 / 3 / 2 / 1 | 2 | 2H | +2 | 3 | 3,800 | Short-barreled rifle optimized for high mobility, fast target acquisition, and medium-range skirmishes. |
+| **Assault Rifle** | 2 / 4 / 3 / 1 | 2 | 2H | +2 | 3 | 4,800 | Standard military battle rifle delivering disciplined burst fire and balanced accuracy across all combat zones. |
+| **Battle Rifle** | 2 / 3 / 4 / 2 | 0 | 2H | +4 | 3 | 5,500 | Heavy-caliber semi-automatic rifle engineered for hard-hitting, armor-cracking kinetic penetration. |
+| **Designated Marksman Rifle (DMR)** | 1 / 3 / 5 / 3 | 1 | 2H | +4 | 4 | 7,000 | Precision-machined semi-automatic rifle equipped with high-magnification optics for mid-to-long range fire. |
+| **Sniper Rifle** | 0 / 2 / 5 / 4 | 0 | 2H | +5 | 4 | 9,500 | Long-range bolt-action or precision-lock rifle delivering extreme terminal ballistics at standoff ranges. |
 
 ---
 
@@ -94,12 +90,12 @@ Versatile long guns that balance effective range, stopping power, and tactical f
 
 Crew-served and reinforced heavy weapons requiring substantial physical leverage to operate, delivering unmatched suppressive fire and anti-armor kinetic energy.
 
-| Weapon Name | Accuracy (S/M/L/E) | RoF | Min STR | Hands | Dmg Bonus | Load | Cost | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Squad Automatic Weapon (SAW)** | 3 / 4 / 3 / 1 | 3 | 4 | 2H | +3 | 4 | 8,500 | Belt-fed light machine gun designed to pin down enemy squads with continuous, sustained automatic fire. |
-| **Heavy Machine Gun (HMG)** | 3 / 5 / 4 / 2 | 4 | 5 | 2H | +4 | 5 | 12,000 | Massive large-caliber machine gun capable of shredding light vehicle plating and reinforced barricades. |
-| **Rotary Autocannon** | 5 / 4 / 2 / 1 | 4 | 5 | 2H | +4 | 5 | 16,000 | Multi-barrel motorized cannon delivering devastating saturation fire at extreme cyclic rates. |
-| **Anti-Materiel Rifle (AMR)** | 0 / 2 / 5 / 5 | 0 | 4 | 2H | +7 | 5 | 15,000 | High-caliber magnetic-assisted anti-tank rifle designed to disable light vehicles and penetrate heavy bulkheads. |
+| Weapon Name | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Squad Automatic Weapon (SAW)** | 3 / 4 / 3 / 1 | 3 | 2H | +3 | 4 | 8,500 | Belt-fed light machine gun designed to pin down enemy squads with continuous, sustained automatic fire. |
+| **Heavy Machine Gun (HMG)** | 3 / 5 / 4 / 2 | 4 | 2H | +4 | 5 | 12,000 | Massive large-caliber machine gun capable of shredding light vehicle plating and reinforced barricades. |
+| **Rotary Autocannon** | 5 / 4 / 2 / 1 | 4 | 2H | +4 | 5 | 16,000 | Multi-barrel motorized cannon delivering devastating saturation fire at extreme cyclic rates. |
+| **Anti-Materiel Rifle (AMR)** | 0 / 2 / 5 / 5 | 0 | 2H | +7 | 5 | 15,000 | High-caliber magnetic-assisted anti-tank rifle designed to disable light vehicles and penetrate heavy bulkheads. |
 
 ---
 
@@ -107,7 +103,7 @@ Crew-served and reinforced heavy weapons requiring substantial physical leverage
 
 A combatant can choose to wield a one-handed firearm in each hand, laying down intense suppressive fire or engaging multiple targets simultaneously.
 
-* **One-Handed Only:** You can only dual wield firearms with the **1H** designation. You must meet the Minimum Strength requirement of each weapon individually to wield them simultaneously in separate hands.
+* **One-Handed Only:** You can only dual wield firearms with the **1H** designation (holding one sidearm in each hand).
 * **Combined Firepower (Damage & RoF):** When making a ranged attack while dual wielding two 1H firearms, you combine the offensive output of both weapons, adding together both the flat **Damage Bonus** and the **Rate of Fire (RoF)** of the two firearms.
 * **Worse Accuracy:** Discharging two weapons simultaneously compromises sight alignment and muzzle stability. When resolving the attack test, you must use the **worse (lower) Accuracy rating** at the target's current range band between the two wielded firearms.
 
@@ -135,7 +131,7 @@ Stock firearms can be customized into precision mastercrafted weapons through hi
 > ### Tactical Example: The Hangar Deck Firefight
 > Jax advances down an industrial catwalk overlooking a contested cargo hangar. Positioned **8 spaces (~26 meters)** away behind low freight containers, an armed syndicate mercenary returns fire. The distance places the mercenary squarely at **Medium Range**.
 > 
-> Jax is armed with an **Assault Rifle** (Accuracy `2 / 4 / 3 / 1`, RoF 2, Min STR 3, 2H, Load 3, and a **+2 Damage Bonus**). Jax's character sheet shows **Finesse 5**, **Instinct 3**, and **Strength 4**.
+> Jax is armed with an **Assault Rifle** (Accuracy `2 / 4 / 3 / 1`, RoF 2, 2H, Load 3, and a **+2 Damage Bonus**). Jax's character sheet shows **Finesse 5**, **Instinct 3**, and **Strength 4**.
 > 
 > 1. **Determining the Test Pool:** Jax prepares a precision shot, declaring an **Accuracy + Finesse** Complex Test. At Medium Range, the Assault Rifle has an **Accuracy of 4**. Pairing Jax's **Finesse 5** with the rifle's **Accuracy 4**, the higher attribute is Finesse 5 and the lower attribute is Accuracy 4.
 > 
