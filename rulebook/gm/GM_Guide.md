@@ -68,4 +68,14 @@ especially considering the whole premise of the Corsair Cell makeup is to have p
 beliefs working together, but as the GM, you have a certain amount of responsibility to make sure that neither the topic
 of the disagreements nor the disagreements themselves go to a place that makes your players feel uncomfortable.
 
+---
+
+## Additional GM Resources
+
+* **[Mission Generator](Mission_Generator.md):** Rollable tables to generate contract givers, locations, and mission types on the fly.
+* **[Open Play Contracts](Open_Play_Missions.md):** Ready-to-run contract briefs across Landfall, Nimbus, Pelagia, and Suncatcher.
+* **[Bestiary: Threats of the Sphere](Bestiary.md):** Full adversary stat blocks and combat tactics.
+* **[NPC Guidelines](NPC_Guidelines.md):** Rules for building grunts, elites, and bosses.
+* **[Time Management](Time_Management.md):** Mechanics for clock progression and scene pacing transitions.
+
 

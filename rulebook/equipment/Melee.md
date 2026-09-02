@@ -1,5 +1,7 @@
 # Melee Weapons
 
+*You can download and print the [Melee Weapons Printable Reference Sheet](Melee_Sheet.html) for play.*
+
 In the tight corridors of starships, depressurized maintenance shafts, and claustrophobic orbital stations, discharging a firearm risks puncturing critical hull plating or ricocheting in zero-gravity. In these confined environments, a dependable melee weapon is an indispensable tool for survival. Whether utilizing precision combat knives, weighted riot clubs, or heavy two-handed mauls, close-quarters combat demands physical prowess, tactical positioning, and mastery over your weapon's mechanical profile.
 
 ---

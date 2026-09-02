@@ -1,5 +1,7 @@
 # Effects
 
+*You can download and print the [Effects Quick Reference Sheet](Effects_Sheet.html) for play.*
+
 While succeeding at a test achieves your immediate objective, game mechanics in Corsair invite you to shape the battleground, create tactical openings, and alter the narrative flow of a scene. This is accomplished through **Effects**. Rather than relying solely on standard outcomes, Effects allow you to convert exceptional rolls into dynamic opportunities—turning a single strike into a sweeping attack, driving an opponent backward, or setting up a defensive barrier for an ally.
 
 ## Activating Effects

@@ -1,5 +1,7 @@
 # Class: The Vanguard
 
+*You can download and print the [Vanguard Printable Sheet](../character/Vanguard_Sheet.html) for play.*
+
 ## Description
 
 ## Attributes

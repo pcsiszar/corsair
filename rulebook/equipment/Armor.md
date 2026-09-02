@@ -1,5 +1,7 @@
 # Armor
 
+*You can download and print the [Armor Printable Reference Sheet](Armor_Sheet.html) for play.*
+
 In the perilous expanses of the settled systems, a dependable suit of armor is often the only barrier between a Corsair and lethal trauma. Whether weathering high-velocity kinetic slug rounds in a depressurized corridor, deflecting shrapnel from an explosive hull breach, or absorbing punishing melee impacts during a boarding skirmish, protective gear preserves a combatant's operational capability in the deadliest environments.
 
 ---

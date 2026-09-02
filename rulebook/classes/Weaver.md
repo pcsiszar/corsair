@@ -1,4 +1,6 @@
-### Class: The Weaver
+# Class: The Weaver
+
+*You can download and print the [Weaver Printable Sheet](../character/Weaver_Sheet.html) for play.*
 
 ## Description
 

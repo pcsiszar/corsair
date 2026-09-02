@@ -1,5 +1,7 @@
 # Class: The Conduit
 
+*You can download and print the [Conduit Printable Sheet](../character/Conduit_Sheet.html) for play.*
+
 ## Description
 
 The Conduit is the cell’s living battery and high-intensity shock trooper, defined by the volatile relationship between

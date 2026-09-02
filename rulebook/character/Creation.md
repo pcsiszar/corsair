@@ -206,7 +206,7 @@ Choose one specialized utility kit to complete your operational loadout:
 
 You start with 5,000 Credits, which you can use to purchase any desired gear or keep for later.
 
-## Character Sheet
+## Character & Crew Sheets
 
 You can download and print the [Corsair Character Sheet](Character_Sheet.html) to keep track of your character's stats,
-equipment, and progress.
+equipment, and progress. For campaigns featuring a shared starship (such as *Corsairs* or *Rogue Corsairs*), you can also download and print the [Corsair Crew Sheet](Crew_Sheet.html) to manage bridge stations, vessel damage, and collective cargo.

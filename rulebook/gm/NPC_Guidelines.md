@@ -2,7 +2,7 @@
 
 Designing and running non-player characters (NPCs) in Corsair should be efficient for the Game Master while remaining
 tactically engaging for the players. These guidelines provide a framework for creating enemies that range from
-disposable grunts to formidable bosses.
+disposable grunts to formidable bosses. For a complete catalog of ready-to-run stat blocks utilizing this framework, see the [Bestiary](Bestiary.md).
 
 ## NPC Philosophy: Simplicity and Scale
 

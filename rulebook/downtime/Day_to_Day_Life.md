@@ -70,7 +70,7 @@ Contracts are the primary way for Corsairs to earn money. There are three differ
 
 You are free to browse contracts available to you as long as you have a commlink on your person. The full details might
 not be available before you accept the job, but an overview and pay are always included. Once you accept a
-contract, you have a fixed amount of time to complete it.
+contract, you have a fixed amount of time to complete it. For GMs looking to generate contracts on the fly or select from ready-to-run jobs, see the [Mission Generator](../gm/Mission_Generator.md) and [Open Play Contracts](../gm/Open_Play_Missions.md).
 
 #### Sanctioned Contracts
 

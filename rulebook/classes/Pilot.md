@@ -1,5 +1,7 @@
 # Class: The Pilot
 
+*You can download and print the [Pilot Printable Sheet](../character/Pilot_Sheet.html) for play.*
+
 ## Description
 
 The Pilot is defined by a total neural integration with the Exodrone, a bio-mechanical frame that functions as a

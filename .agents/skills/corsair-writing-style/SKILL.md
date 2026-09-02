@@ -47,7 +47,22 @@ Corsair is set in a **hard science fiction** universe. Traditional science fanta
 
 ---
 
-## 6. Style Demonstration Example
+## 6. Spelling, Grammar, and Capitalization Standards
+
+* **American English**: Always use American English spelling conventions (*maneuver, maneuverability, armor, specialized, defense, neighbor*).
+* **Possessive vs. Contraction**: Strict adherence to `its` (possessive) vs. `it's` (contraction of *it is* / *it has*).
+* **Singular vs. Plural Dice**: Use `die` for singular (*spend a Gambit die, add a Boost die*) and `dice` for plural (*dice pool, roll three dice*).
+* **Relative Pronouns**: Use `who`/`whom` for people and characters; use `that`/`which` for inanimate objects, weapons, tools, and rules.
+* **Mechanical Capitalization**: Key game concepts must be capitalized and bolded where appropriate:
+  * **Attributes**: Capitalize and bold core Attributes (**Strength**, **Finesse**, **Agility**, **Presence**, **Knowledge**, **Instinct**).
+  * **Attribute Pairs**: Format as **Attribute + Attribute** (e.g., **Finesse + Agility**).
+  * **Test & Roll Types**: **Simple Test**, **Success Test**, **Complex Test**, **Action Roll**, **Success Roll**, **Contest Roll**.
+  * **Core Mechanics**: **Gambit**, **Boost**, **Upgrade**, **Downgrade**, **Contest**, **Teamwork**.
+  * **Hits**: Capitalize **Hit** when referring to rolling an 8 or higher on a die.
+
+---
+
+## 7. Style Demonstration Example
 
 > ### Example: Combined Mechanics in Action
 > Jax faces down a security guard in close combat and declares, *"I leap forward with a fast, heavy tackle, using my momentum and raw power to drive through their guard."* Based on this description, the Game Master calls for a **Strength (5) + Agility (3)** Complex Test. 
@@ -57,3 +72,4 @@ Corsair is set in a **hard science fiction** universe. Traditional science fanta
 > Next, Jax moves to the Success Roll for his lower Attribute (**Agility 3**), rolling 2d10 and 1d12: `[6, 7]` on the d10s and a `10` on the d12. The `10` is a Hit, which Jax spends to activate a **Crit Effect**, granting **+2 Success Points**. The highest remaining die is `7`, giving Jax a base of 7 Success Points + 2 from Crit = **9 total Success Points**.
 > 
 > Adding his heavy strike's `+2` Damage Bonus, Jax deals a total of **11 damage** to the guard.
+

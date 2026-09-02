@@ -1,5 +1,7 @@
 # Firearms
 
+*You can download and print the [Firearms Printable Reference Sheet](Firearms_Sheet.html) for play.*
+
 In the cold vacuum of space, across contested orbital platforms, and inside pressurized ship corridors, firearms are the ultimate arbiters of ranged combat. Ranging from rugged chemical-propellant slugthrowers to electro-thermal chemical (ETC) rifles and high-velocity magnetic rail drivers, firearms give Corsairs the range, stopping power, and suppression capability necessary to overwhelm hostile forces before they can close the distance.
 
 ---

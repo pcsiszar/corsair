@@ -23,3 +23,7 @@ For the full catalog of upgrades, see [Internal Modules](Internal_Modules.md).
 
 Need a ship to get started? The Hangar Bay features a collection of pre-configured starship models, from the starter
 Kestrel to the massive Leviathan dreadnought. Review the fleet in the [Hangar Bay](Hangar_Bay.md).
+
+### Crew & Starship Sheet
+
+To track your vessel's hull integrity, bridge stations, power allocation, cargo, and team resources during space operations, download and print the [Corsair Crew & Starship Sheet](../character/Crew_Sheet.html).

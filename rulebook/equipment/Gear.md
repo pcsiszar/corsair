@@ -1,5 +1,7 @@
 # Gear
 
+*You can download and print the [Gear Printable Reference Sheet](Gear_Sheet.html) for play.*
+
 Gear encompasses the broad spectrum of mission-critical tactical equipment, specialized toolkits, refillable field rigs, and survival hardware utilized by operators in the Corsair universe. While weapons and armor govern basic combat survival, gear provides the technical leverage, mobility, intelligence, and utility needed to complete dangerous boarding operations and wilderness expeditions.
 
 Every item in this catalog is defined by its **Properties**, **Load**, **Cost**, and dedicated **Item Attributes**.

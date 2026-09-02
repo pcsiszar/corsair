@@ -14,9 +14,9 @@ This limit is absolute; a character cannot carry items with a total Load value e
 
 Equipment is divided into three major categories:
 
-* **Weapons:** Anything designed to inflict physical harm, from vibro-knives and plasma pistols to heavy repeating blasters. See [Firearms](Firearms.md) and [Melee Weapons](Melee.md).
-* **Armor:** Protective gear worn to reduce or negate incoming damage. See [Armor](Armor.md).
-* **Gear:** A broad category that includes everything else of mechanical importance. See [Gear](Gear.md).
+* **Weapons:** Anything designed to inflict physical harm. See [Firearms](Firearms.md) (printable: [Firearms Sheet](Firearms_Sheet.html)) and [Melee Weapons](Melee.md) (printable: [Melee Sheet](Melee_Sheet.html)).
+* **Armor:** Protective gear worn to reduce or negate incoming damage. See [Armor](Armor.md) (printable: [Armor Sheet](Armor_Sheet.html)).
+* **Gear:** Tactical hardware, refillable rigs, toolkits, and survival kits. See [Gear](Gear.md) (printable: [Gear Sheet](Gear_Sheet.html)).
 
 ### Weapons
 

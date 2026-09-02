@@ -1,5 +1,7 @@
 # Class: The Hazard
 
+*You can download and print the [Hazard Printable Sheet](../character/Hazard_Sheet.html) for play.*
+
 ## Description
 
 The Hazard is a rogue-alchemist and combat chemist, defined by a compact, high-pressure Catalyst Chamber and a slick
