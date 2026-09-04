@@ -23,7 +23,7 @@
         }
 
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-        html { font-size: 7.8pt; }
+        html { font-size: 7.7pt; }
 
         body {
             font-family: 'Barlow', sans-serif;
@@ -49,19 +49,20 @@
             .mh-logo svg { fill:#000 !important; }
             .card-hd { border-bottom-width:1px !important; }
             .card-hd svg { fill:#000 !important; }
-            .attr-box, .pip, .mod-check, .d10-footprint { background:#fff !important; border-color:#000 !important; }
+            .attr-box, .pip, .mod-check, .d10-footprint, .chk-box { background:#fff !important; border-color:#000 !important; }
             .skill-table th { background:#fff !important; color:#000 !important; border-bottom:1px solid #000 !important; }
-            .module-label { border-color:#000 !important; color:#333 !important; }
             .mode-panel { border-color:#000 !important; background:#fff !important; }
             .mode-panel-header { background:#fff !important; border-bottom-color:#000 !important; }
+            .profile-tag { background:#eee !important; color:#000 !important; border:1px solid #999; }
         }
 
         /* PAGE */
         .page {
             width: 210mm;
             min-height: 297mm;
+            max-height: 297mm;
             margin: 0 auto;
-            padding: 3.5mm 4mm;
+            padding: 3mm 4mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -83,206 +84,205 @@
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 2.5mm;
+            margin-bottom: 2mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
         }
         .mh-logo {
             background: var(--accent);
             color: var(--black);
-            padding: 2.5mm 4mm;
+            padding: 2mm 3.5mm;
             display: flex; flex-direction: column;
             align-items: center; justify-content: center;
             clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
-            padding-right: 12mm;
-            min-width: 20mm;
+            padding-right: 11mm;
+            min-width: 19mm;
         }
-        .mh-logo svg { width: 19px; height: 19px; fill: var(--black); }
+        .mh-logo svg { width: 18px; height: 18px; fill: var(--black); }
         .mh-logo .logo-text {
             font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 900; font-size: 6pt;
+            font-weight: 900; font-size: 5.8pt;
             letter-spacing: 0.35em; text-transform: uppercase; margin-top: 1px;
         }
-        .mh-title { padding: 2mm 3.5mm; flex: 1; }
+        .mh-title { padding: 1.5mm 3mm; flex: 1; }
         .mh-title h1 {
             font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 900; font-size: 15.5pt;
+            font-weight: 900; font-size: 15pt;
             letter-spacing: 0.1em; text-transform: uppercase;
             color: var(--accent); line-height: 1;
         }
         .mh-title .sub {
             font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 300; font-size: 7.2pt;
-            letter-spacing: 0.25em; color: var(--text-dim); text-transform: uppercase;
+            font-weight: 300; font-size: 7pt;
+            letter-spacing: 0.22em; color: var(--text-dim); text-transform: uppercase;
         }
         .mh-name {
             border-left: 1px solid var(--border);
-            padding: 2mm 3.5mm;
+            padding: 1.5mm 3mm;
             display: flex; flex-direction: column; justify-content: center;
-            min-width: 58mm;
+            min-width: 56mm;
         }
         .mh-name label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt; letter-spacing: 0.25em; text-transform: uppercase;
-            color: var(--accent-dim); margin-bottom: 0.5mm;
+            font-size: 5.8pt; letter-spacing: 0.22em; text-transform: uppercase;
+            color: var(--accent-dim); margin-bottom: 0.4mm;
         }
-        .mh-name .fl { border-bottom: 1px solid var(--border); min-height: 5mm; }
+        .mh-name .fl { border-bottom: 1px solid var(--border); min-height: 4.5mm; }
 
         /* LAYOUT */
         .grid-main {
             display: grid;
-            grid-template-columns: 68mm 1fr;
-            gap: 2.5mm;
+            grid-template-columns: 69mm 1fr;
+            gap: 2.2mm;
             align-items: start;
             flex: 1;
         }
 
         /* CARDS */
-        .card { background: var(--surface); border: 1px solid var(--border); margin-bottom: 2mm; }
+        .card { background: var(--surface); border: 1px solid var(--border); margin-bottom: 1.8mm; }
         .card-hd {
-            background: var(--mid); border-bottom: 1.5px solid var(--accent-dim);
-            padding: 1.2mm 2.2mm;
-            display: flex; align-items: center; gap: 1.5mm;
+            background: var(--mid); border-bottom: 1.2px solid var(--accent-dim);
+            padding: 1mm 2mm;
+            display: flex; align-items: center; gap: 1.2mm;
         }
-        .card-hd svg { width: 11px; height: 11px; fill: var(--accent); flex-shrink: 0; }
+        .card-hd svg { width: 10px; height: 10px; fill: var(--accent); flex-shrink: 0; }
         .card-hd h2 {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 8.2pt; font-weight: 700; letter-spacing: 0.14em;
+            font-size: 7.8pt; font-weight: 700; letter-spacing: 0.14em;
             text-transform: uppercase; color: var(--accent); flex: 1;
         }
-        .card-body { padding: 1.5mm 2.2mm; }
+        .card-body { padding: 1.2mm 2mm; }
 
         /* ATTRIBUTES */
-        .attr-row { display: grid; grid-template-columns: 1fr; gap: 2px; margin-bottom: 1.2mm; }
+        .attr-row { display: grid; grid-template-columns: 1fr; gap: 2px; margin-bottom: 1mm; }
         .attr-block {
             background: var(--mid); border: 1px solid var(--border);
-            display: flex; align-items: center; gap: 1.2mm; padding: 1mm 1.2mm;
+            display: flex; align-items: center; gap: 1.2mm; padding: 0.8mm 1mm;
         }
         .attr-box {
-            width: 7.5mm; height: 7.5mm;
-            border: 1.5px solid var(--accent-dim);
+            width: 7mm; height: 7mm;
+            border: 1.2px solid var(--accent-dim);
             display: flex; align-items: center; justify-content: center;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 12pt; font-weight: 900; color: var(--accent);
+            font-size: 11pt; font-weight: 900; color: var(--accent);
             flex-shrink: 0;
         }
         .attr-meta { flex: 1; }
         .attr-name {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 7.5pt; font-weight: 700;
+            font-size: 7.2pt; font-weight: 700;
             letter-spacing: 0.08em; text-transform: uppercase; color: var(--text);
         }
-        .attr-code { font-family: 'Share Tech Mono', monospace; font-size: 5.5pt; color: var(--text-dim); }
+        .attr-code { font-family: 'Share Tech Mono', monospace; font-size: 5.4pt; color: var(--text-dim); }
 
         /* BATTERIES & D10 FOOTPRINTS */
-        .pip-row { display: flex; gap: 2px; }
-        .pip { width: 8px; height: 14px; border: 1px solid var(--accent-dim); background: var(--mid); }
         .d10-footprint {
-            width: 9.5mm; height: 9.5mm;
+            width: 8.5mm; height: 8.5mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
             clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
-            margin: 0.5mm auto 0;
+            margin: 0.4mm auto 0;
         }
 
-        /* MODULE SECTION HEADER (inline table row) */
+        /* OPERATION MODE PANELS */
+        .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5mm; margin-bottom: 1.2mm; }
+        .mode-panel { border: 1px solid var(--accent-dim); background: var(--mid); }
+        .mode-panel-header {
+            background: var(--accent-dim);
+            padding: 0.6mm 1.6mm;
+            display: flex; align-items: center; gap: 1.2mm;
+            border-bottom: 1px solid var(--accent-dim);
+        }
+        .mode-panel-header svg { width: 7px; height: 7px; fill: var(--accent); }
+        .mode-panel-header .mode-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.2pt; font-weight: 700;
+            letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+        }
+        .mode-panel-body { padding: 1mm 1.5mm; }
+        .mode-rule { font-family: 'Barlow', sans-serif; font-size: 6.8pt; color: var(--text); line-height: 1.2; }
+        .mode-kw {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 7pt; font-weight: 700;
+            letter-spacing: 0.05em; color: var(--accent);
+            text-transform: uppercase; display: block; margin-bottom: 0.3mm;
+        }
+
+        /* CORE OPS BOX */
+        .core-op-row {
+            display: flex; align-items: baseline; gap: 1mm;
+            padding: 0.5mm 0; border-bottom: 1px solid var(--border);
+            font-family: 'Barlow', sans-serif; font-size: 6.6pt; color: var(--text);
+        }
+        .core-op-row:last-child { border-bottom: none; }
+        .core-op-tag {
+            font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 6.8pt;
+            color: var(--accent); text-transform: uppercase; flex-shrink: 0; min-width: 14mm;
+        }
+        .core-op-cost { font-family: 'Share Tech Mono', monospace; font-size: 5.6pt; color: var(--text-dim); flex-shrink: 0; min-width: 11mm; }
+
+        /* SKILL TABLE */
         .skill-section-hd td {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; font-weight: 700;
+            font-size: 6.4pt; font-weight: 700;
             letter-spacing: 0.15em; text-transform: uppercase;
             color: var(--accent);
             background: var(--mid) !important;
             border-top: 1px solid var(--accent-dim);
             border-bottom: 1px solid var(--accent-dim);
-            padding: 0.3mm 1.8mm !important;
-            line-height: 1;
+            padding: 0.4mm 1.6mm !important;
+            line-height: 1.1;
         }
         .skill-section-hd.first td { border-top: none; }
-
-        /* OPERATION MODE PANELS */
-        .mode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm; }
-        .mode-panel { border: 1px solid var(--accent-dim); background: var(--mid); }
-        .mode-panel-header {
-            background: var(--accent-dim);
-            padding: 0.8mm 2mm;
-            display: flex; align-items: center; gap: 1.5mm;
-            border-bottom: 1px solid var(--accent-dim);
-        }
-        .mode-panel-header svg { width: 8px; height: 8px; fill: var(--accent); }
-        .mode-panel-header .mode-label {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; font-weight: 700;
-            letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent);
-        }
-        .mode-panel-body { padding: 1.5mm 2mm; }
-        .mode-rule { font-family: 'Barlow', sans-serif; font-size: 7.2pt; color: var(--text); line-height: 1.25; }
-        .mode-kw {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 7.5pt; font-weight: 700;
-            letter-spacing: 0.05em; color: var(--accent);
-            text-transform: uppercase; display: block; margin-bottom: 0.4mm;
-        }
-
-        /* SKILL TABLE */
-        .module-label {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; font-weight: 700; letter-spacing: 0.22em;
-            text-transform: uppercase; color: var(--accent-dim);
-            border-top: 1px solid var(--accent-dim);
-            border-bottom: 1px solid var(--border);
-            background: var(--mid);
-            padding: 0.8mm 2mm;
-        }
-        .module-label.first { border-top: none; }
 
         .skill-table { width: 100%; border-collapse: collapse; }
         .skill-table th {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; letter-spacing: 0.15em; text-transform: uppercase;
+            font-size: 6.2pt; letter-spacing: 0.14em; text-transform: uppercase;
             color: var(--accent-dim); text-align: left;
-            padding: 1.2mm 1.8mm;
+            padding: 0.8mm 1.5mm;
             border-bottom: 1px solid var(--accent-dim);
             background: var(--mid);
         }
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 1.2mm 1.8mm;
+            padding: 0.8mm 1.5mm;
             vertical-align: middle;
         }
         .skill-table tr:nth-child(even) td { background: var(--stripe); }
 
-        .chk-cell { width: 5mm; text-align: center; vertical-align: middle; }
-        .chk-box { width: 3.5mm; height: 3.5mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
-        .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:8pt; text-transform:uppercase; color:var(--accent); }
-        .skill-cost { font-family:'Share Tech Mono',monospace; font-size:6.2pt; color:var(--text-dim); white-space:nowrap; }
-        .skill-desc { font-family:'Barlow',sans-serif; font-size:7.2pt; color:var(--text); line-height:1.25; }
+        .chk-cell { width: 4.5mm; text-align: center; vertical-align: middle; }
+        .chk-box { width: 3.2mm; height: 3.2mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
+        .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:7.4pt; text-transform:uppercase; color:var(--accent); }
+        .skill-cost { font-family:'Share Tech Mono',monospace; font-size:5.8pt; color:var(--text-dim); white-space:nowrap; display:block; }
+        .skill-desc { font-family:'Barlow',sans-serif; font-size:6.8pt; color:var(--text); line-height:1.2; }
         .profile-tag {
-            font-family:'Share Tech Mono',monospace; font-size:6pt; color:var(--text-dim);
-            background:var(--border); padding:0 1.2mm; display:inline-block; margin-top:1px;
+            font-family:'Share Tech Mono',monospace; font-size:5.6pt; color:var(--text-dim);
+            background:var(--border); padding:0 1mm; display:inline-block; margin-top:0.5px;
         }
 
         /* CLASS MODS */
         .mod-row {
-            display: grid; grid-template-columns: 4mm 1fr;
-            gap: 1.5mm; align-items: start;
-            padding: 1.5mm 2mm;
+            display: grid; grid-template-columns: 3.5mm 1fr;
+            gap: 1.2mm; align-items: start;
+            padding: 1mm 1.5mm;
             border-bottom: 1px solid var(--border);
         }
         .mod-row:last-child { border-bottom: none; }
         .mod-row:nth-child(even) { background: var(--stripe); }
-        .mod-check { width: 3.5mm; height: 3.5mm; border: 1px solid var(--accent-dim); background: var(--mid); margin-top: 0.5mm; }
-        .mod-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:8pt; text-transform:uppercase; color:var(--accent); margin-bottom:0.4mm; }
-        .mod-desc { font-family:'Barlow',sans-serif; font-size:7.2pt; color:var(--text); line-height:1.25; }
+        .mod-check { width: 3.2mm; height: 3.2mm; border: 1px solid var(--accent-dim); background: var(--mid); margin-top: 0.4mm; }
+        .mod-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:7.4pt; text-transform:uppercase; color:var(--accent); margin-bottom:0.2mm; }
+        .mod-desc { font-family:'Barlow',sans-serif; font-size:6.7pt; color:var(--text); line-height:1.2; }
 
         /* MISC */
-        .xc-label { font-family:'Barlow Condensed',sans-serif; font-size:6.5pt; letter-spacing:0.15em; text-transform:uppercase; color:var(--accent-dim); margin-bottom:1mm; }
-        .gambit-note { font-family:'Barlow Condensed',sans-serif; font-size:6.5pt; font-style:italic; color:var(--text-dim); text-align:center; }
+        .xc-label { font-family:'Barlow Condensed',sans-serif; font-size:6.2pt; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent-dim); margin-bottom:0.8mm; }
+        .gambit-note { font-family:'Barlow Condensed',sans-serif; font-size:6.2pt; font-style:italic; color:var(--text-dim); text-align:center; }
 
         .page-foot {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt; letter-spacing: 0.3em; color: var(--text-muted);
+            font-size: 5.8pt; letter-spacing: 0.28em; color: var(--text-muted);
             text-align: center; text-transform: uppercase;
-            margin-top: auto; padding-top: 2mm;
+            margin-top: auto; padding-top: 1mm;
         }
     </style>
 </head>
@@ -327,25 +327,25 @@
                                 <div class="attr-box"></div>
                                 <div class="attr-meta">
                                     <div class="attr-name">Power</div>
-                                    <div class="attr-code">PWR — mirrors Strength</div>
+                                    <div class="attr-code">PWR — torque &amp; force (STR substitute)</div>
                                 </div>
                             </div>
                             <div class="attr-block">
                                 <div class="attr-box"></div>
                                 <div class="attr-meta">
                                     <div class="attr-name">Speed</div>
-                                    <div class="attr-code">SPD — mirrors Agility</div>
+                                    <div class="attr-code">SPD — response &amp; mobility (AGI substitute)</div>
                                 </div>
                             </div>
                             <div class="attr-block">
                                 <div class="attr-box"></div>
                                 <div class="attr-meta">
                                     <div class="attr-name">Precision</div>
-                                    <div class="attr-code">PRC — mirrors Finesse</div>
+                                    <div class="attr-code">PRC — dexterity &amp; telemetry (FIN substitute)</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="gambit-note">5 points at creation · Max 4 per Attribute</div>
+                        <div class="gambit-note">7 Creation Points · Base 1/1/1 · Starting Cap: 4</div>
                     </div>
                 </div>
 
@@ -353,35 +353,34 @@
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><rect x="2" y="7" width="16" height="10" rx="2"/><path d="M22 11v2"/></svg>
-                        <h2>Power Cells</h2>
+                        <h2>Power Cells — Max 10 (12 w/ Mod)</h2>
                     </div>
                     <div class="card-body">
-                        <div class="xc-label" style="text-align:center; margin-bottom:1.5mm;">Batteries — Max 10</div>
-                        <div style="display:flex; gap:4mm; justify-content:center; align-items:flex-start; margin-bottom:1.5mm;">
+                        <div style="display:flex; gap:4mm; justify-content:center; align-items:flex-start; margin-bottom:1.2mm;">
                             <div style="text-align:center;">
-                                <div class="xc-label" style="text-align:center; margin-bottom:0;">Attached</div>
+                                <div class="xc-label" style="text-align:center; margin-bottom:0;">Attached Pool</div>
                                 <div class="d10-footprint"></div>
                             </div>
                             <div style="text-align:center;">
-                                <div class="xc-label" style="text-align:center; margin-bottom:0;">Detached</div>
+                                <div class="xc-label" style="text-align:center; margin-bottom:0;">Detached Pool</div>
                                 <div class="d10-footprint"></div>
                             </div>
                         </div>
-                        <div class="gambit-note" style="text-align:left; line-height:1.4;">
-                            Attached: +2 batteries/round · Full recharge at day-to-day<br/>
-                            1 Battery lost per 3 pts damage · Deactivates at 0 Batteries<br/>
-                            Skill cost <em style="font-family:'Share Tech Mono',monospace; color:var(--text);">n+X</em>: X = uses of that skill earlier this round
+                        <div class="gambit-note" style="text-align:left; line-height:1.35;">
+                            Attached: +2 Batteries/round · Detached: 0 Batteries/round<br/>
+                            1 Battery lost per 3 dmg taken while detached · Shuts down at 0 Bat<br/>
+                            Refills to maximum (10) during place-to-place or day-to-day pacing
                         </div>
                     </div>
                 </div>
 
-                <!-- OPERATION MODES -->
+                <!-- OPERATION MODES & CORE OPERATIONS -->
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M2 12h4M18 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-                        <h2>Operation Modes</h2>
+                        <h2>Operation Modes &amp; Core Operations</h2>
                     </div>
-                    <div class="card-body" style="padding-bottom:1.5mm;">
+                    <div class="card-body" style="padding-bottom:1.2mm;">
                         <div class="mode-grid">
                             <div class="mode-panel">
                                 <div class="mode-panel-header">
@@ -389,7 +388,7 @@
                                     <span class="mode-label">Attached</span>
                                 </div>
                                 <div class="mode-panel-body">
-                                    <div class="mode-rule"><span class="mode-kw">Attribute Swap</span>Substitute STR, AGI, or FIN with Exodrone's Power, Speed, or Precision. Always uses Exodrone Attributes for skill tests.</div>
+                                    <div class="mode-rule"><span class="mode-kw">Attribute Swap</span>Substitute STR, AGI, FIN with PWR, SPD, PRC on tests.</div>
                                 </div>
                             </div>
                             <div class="mode-panel">
@@ -398,8 +397,30 @@
                                     <span class="mode-label">Detached</span>
                                 </div>
                                 <div class="mode-panel-body">
-                                    <div class="mode-rule"><span class="mode-kw">Remote Command</span>Exodrone acts independently using its own Attributes. It can use the Pilot's AP pool or gain AP through Exo-Skills.</div>
+                                    <div class="mode-rule"><span class="mode-kw">Remote Proxy</span>Acts using PWR, SPD, PRC. Cannot make mental tests.</div>
                                 </div>
+                            </div>
+                        </div>
+                        <div style="border-top:1px solid var(--accent-dim); padding-top:1mm;">
+                            <div class="core-op-row">
+                                <span class="core-op-tag">Detach [Free]</span>
+                                <span class="core-op-cost">0 AP / 0 Bat</span>
+                                <span>Decouple into your space (1/turn).</span>
+                            </div>
+                            <div class="core-op-row">
+                                <span class="core-op-tag">Attach [Free]</span>
+                                <span class="core-op-cost">0 AP / 0 Bat</span>
+                                <span>Dock to spine in same space (1/turn).</span>
+                            </div>
+                            <div class="core-op-row">
+                                <span class="core-op-tag">Command</span>
+                                <span class="core-op-cost">1 Pilot AP</span>
+                                <span>Direct detached Exodrone to act.</span>
+                            </div>
+                            <div class="core-op-row">
+                                <span class="core-op-tag">Overdrive [Free]</span>
+                                <span class="core-op-cost">4 Bat</span>
+                                <span>Grant detached drone 1 AP (0 Pilot AP).</span>
                             </div>
                         </div>
                     </div>
@@ -409,42 +430,42 @@
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                        <h2>Class Mods — 25,000 Cr each</h2>
+                        <h2>Class Mods — 25k Cr (Max 2 Installed)</h2>
                     </div>
                     <div>
                         <div class="mod-row">
                             <div class="mod-check"></div>
                             <div>
-                                <div class="mod-name">Extra Battery</div>
-                                <div class="mod-desc">Max Battery limit increases to 12.</div>
+                                <div class="mod-name">Solid-State Expansion Bank</div>
+                                <div class="mod-desc">Maximum Battery reserve increases from 10 to 12.</div>
                             </div>
                         </div>
                         <div class="mod-row">
                             <div class="mod-check"></div>
                             <div>
-                                <div class="mod-name">Remote Charging</div>
-                                <div class="mod-desc">Lose 1 Battery per 4 pts damage (not 3). Can gain Batteries in Detached Mode.</div>
+                                <div class="mod-name">Tethered Inductive Field</div>
+                                <div class="mod-desc">Lose 1 Bat per 4 dmg (not 3); recharges Batteries while Detached.</div>
                             </div>
                         </div>
                         <div class="mod-row">
                             <div class="mod-check"></div>
                             <div>
                                 <div class="mod-name">Biomechanical Dynamo</div>
-                                <div class="mod-desc">While Attached, sacrifice Hits on own Physical tests to gain 1 Battery per Hit.</div>
+                                <div class="mod-desc">While Attached, sacrifice Hits on own physical tests to gain 1 Bat per Hit.</div>
                             </div>
                         </div>
                         <div class="mod-row">
                             <div class="mod-check"></div>
                             <div>
-                                <div class="mod-name">Turbo Boost</div>
-                                <div class="mod-desc">After using an Exo-Skill, one chosen Exodrone Attribute gains +1 Upgrade until end of Player Turn.</div>
+                                <div class="mod-name">Kinetic Overclock</div>
+                                <div class="mod-desc">After activating a Pilot ability, tests using an Exodrone Attribute gain +1 Upgrade.</div>
                             </div>
                         </div>
                         <div class="mod-row">
                             <div class="mod-check"></div>
                             <div>
-                                <div class="mod-name">Charger Mode</div>
-                                <div class="mod-desc">If no Battery-costing skill was used and no Exodrone Attribute was tested, regain 2 extra Batteries end of Round.</div>
+                                <div class="mod-name">Standby Capacitor Loop</div>
+                                <div class="mod-desc">If no Batteries spent and no Exodrone tests made this round, gain +2 Bat end of Round.</div>
                             </div>
                         </div>
                     </div>
@@ -458,211 +479,187 @@
                 <div class="card">
                     <div class="card-hd">
                         <svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-                        <h2>Exodrone Modules &amp; Skills</h2>
+                        <h2>Exodrone Modules &amp; Abilities</h2>
                     </div>
                     <div>
                         <table class="skill-table">
                             <colgroup>
-                                <col style="width:5mm;"/>
-                                <col style="width:22%;"/>
-                                <col style="width:9%;"/>
+                                <col style="width:4.5mm;"/>
+                                <col style="width:23%;"/>
+                                <col style="width:14%;"/>
                                 <col/>
                             </colgroup>
                             <thead>
                                 <tr>
                                     <th class="chk-cell">Lrn</th>
-                                    <th>Skill</th>
-                                    <th>Cost</th>
-                                    <th>Effect</th>
+                                    <th>Ability</th>
+                                    <th>Tag / Cost</th>
+                                    <th>Effect Description</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <!-- BASIC MODULE -->
-                                <tr class="skill-section-hd first">
-                                    <td colspan="4">⬡ Basic Module — Always Unlocked</td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">—</td>
-                                    <td><span class="skill-name">Detach</span></td>
-                                    <td><span class="skill-cost">0</span></td>
-                                    <td><span class="skill-desc">Detach the Exodrone from the spinal interface.</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">—</td>
-                                    <td><span class="skill-name">Pilot</span></td>
-                                    <td><span class="skill-cost">4</span></td>
-                                    <td><span class="skill-desc">Grant 1 AP to the Exodrone while it is in Detached Mode.</span></td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">—</td>
-                                    <td><span class="skill-name">Attach</span></td>
-                                    <td><span class="skill-cost">0</span></td>
-                                    <td><span class="skill-desc">Reattach while Exodrone occupies the same space.</span></td>
-                                </tr>
-
                                 <!-- WINGMAN MODULE -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Wingman Module</td>
+                                <tr class="skill-section-hd first">
+                                    <td colspan="4">⬡ Wingman Module (Synergy &amp; Coordinated Maneuvers)</td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Boost</span></td>
-                                    <td><span class="skill-cost">2+X</span></td>
-                                    <td><span class="skill-desc">Exodrone gains +1 Upgrade to one Exodrone Attribute until start of next Player Turn.</span></td>
+                                    <td><span class="skill-cost">[Free] 2 Bat</span></td>
+                                    <td><span class="skill-desc">Exodrone gains +1 Upgrade to one Exodrone Attribute until next Player Turn. Limit: 1/turn.</span></td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Double Move</span></td>
-                                    <td><span class="skill-cost">2+2X</span></td>
-                                    <td><span class="skill-desc">When you take a Movement Action, Exodrone also takes a free Movement Action.</span></td>
+                                    <td><span class="skill-cost">[Rdr] 2 Bat</span></td>
+                                    <td><span class="skill-desc">When you take a Movement Action, Exodrone also executes a Movement Action for 0 AP. Limit: 1/round.</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Tag Team</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">While detached and in same space, Exodrone joins your action for free via Teamwork.</span></td>
+                                    <td><span class="skill-cost">[Rdr] 3 Bat</span></td>
+                                    <td><span class="skill-desc">While detached and in same space, Exodrone participates in your action using Teamwork for 0 AP.</span></td>
                                 </tr>
 
                                 <!-- WARDEN MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Warden Module</td>
+                                    <td colspan="4">⬡ Warden Module (Ballistic Fortification &amp; Cover)</td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Armadillo</span></td>
-                                    <td><span class="skill-cost">1+X</span></td>
-                                    <td><span class="skill-desc">Gain +1 Protection until end of Round while in Attached Mode.</span></td>
+                                    <td><span class="skill-cost">[Free] 1 Bat</span></td>
+                                    <td><span class="skill-desc">While in Attached Mode, gain +1 Physical Protection until end of Round. Limit: 1/round.</span></td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Guardian</span></td>
-                                    <td><span class="skill-cost">2+X</span></td>
-                                    <td><span class="skill-desc">Exodrone can contest an incoming attack for free (0 AP).</span></td>
+                                    <td><span class="skill-cost">[Rct] 2 Bat</span></td>
+                                    <td><span class="skill-desc">When the Exodrone is targeted by an attack, it can contest the incoming attack for 0 AP.</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Barricade</span></td>
-                                    <td><span class="skill-cost">1+X</span></td>
-                                    <td><span class="skill-desc">While detached, Exodrone becomes mobile cover: +1 Cover Rating in its space. Only action: revert for free.</span></td>
+                                    <td><span class="skill-cost">[Act] 1 Bat</span></td>
+                                    <td><span class="skill-desc">Detached: anchors into deck as mobile cover (+1 Cover Rating in space). Only action: revert for 0 AP.</span></td>
                                 </tr>
 
                                 <!-- DUELIST MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Duelist Module</td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Shadow Strike</span></td>
-                                    <td><span class="skill-cost">4</span></td>
-                                    <td><span class="skill-desc">After landing a melee attack, Exodrone follows up: bonus damage = matching Exodrone Attribute (Attached or same space).</span></td>
+                                    <td colspan="4">⬡ Duelist Module (Close-Quarters Combat &amp; Breach)</td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
-                                    <td><span class="skill-name">Ripple Blades</span></td>
-                                    <td><span class="skill-cost">2</span></td>
-                                    <td><span class="skill-desc">Deploy wrist energy blades for the round. <span class="profile-tag">Dmg: +3 · Reach: 2</span></span></td>
+                                    <td><span class="skill-name">Shadow Strike</span></td>
+                                    <td><span class="skill-cost">[Rdr] 4 Bat</span></td>
+                                    <td><span class="skill-desc">On melee hit (Attached or same space), Exodrone strikes: bonus Dmg = matching Exodrone Attribute.</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Plasma Glaive</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Deploy two-handed energy polearm for the round. <span class="profile-tag">Dmg: +6 · Reach: 4</span></span></td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Vibro-Blades</span></td>
+                                    <td><span class="skill-cost">[Free] 2 Bat</span></td>
+                                    <td><span class="skill-desc">Deploy twin wrist vibro-blades for round. Dual 1H weapons; choose Slashing or Piercing. <span class="profile-tag">Dmg: +3</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Thermal Lance</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Superheated thrust in space/adjacent. Completely ignores enemy Protection &amp; Cover; breaches bulkheads.</span></td>
                                 </tr>
 
                                 <!-- ARSENAL MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Arsenal Module</td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Laser Rifle</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Deploy wrist plasma rifle for round. <span class="profile-tag">Acc:[3/2/1/–] · Dmg:+2 · RoF:2</span></span></td>
+                                    <td colspan="4">⬡ Arsenal Module (Heavy Weaponry &amp; Fire Support)</td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
-                                    <td><span class="skill-name">Ion Cannon</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Single shoulder laser shot. <span class="profile-tag">Acc:[1/4/3/2] · Dmg:+5 · RoF:0</span></span></td>
+                                    <td><span class="skill-name">Laser Carbine</span></td>
+                                    <td><span class="skill-cost">[Free] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Deploy wrist laser carbine for round. <span class="profile-tag">Acc: [3/2/1/–] · Dmg: +2 · RoF: 2</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Plasma Grenade</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Lob a powerful grenade. <span class="profile-tag">Area Attack · Ordnance 4 · 4m Radius</span></span></td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Shoulder Laser</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Concentrated heavy optical shot from shoulder. <span class="profile-tag">Acc: [1/4/3/2] · Dmg: +5 · RoF: 0</span></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Thermobaric Grenade</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Launch concussion charge into Short space. <span class="profile-tag">Area Attack · Ord 4 · 4m Radius</span></span></td>
                                 </tr>
 
                                 <!-- ASSAULT MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Assault Module</td>
+                                    <td colspan="4">⬡ Assault Module (Kinetic Traversal &amp; Airborne Assault)</td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Full Throttle</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Until end of Player Turn, declare a melee attack against a creature up to 12m away and move into their space as part of the attack.</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Sprint up to 12m in a straight line into hostile space and execute a melee attack as part of action.</span></td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Spider Climb</span></td>
-                                    <td><span class="skill-cost">1</span></td>
-                                    <td><span class="skill-desc">Until end of round, Exodrone can move on any surface as regular terrain.</span></td>
+                                    <td><span class="skill-cost">[Free] 1 Bat</span></td>
+                                    <td><span class="skill-desc">Exodrone gains Surface Adhesion until end of round: moves on walls and ceilings as regular terrain.</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Jump Pack</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Thrusters = highest Exodrone Attribute. Base 8m move, doubled meters, fly entire movement. Falls at end of Player Turn.</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Mobility = Speed. Jetpack flight (base 8m, +1m/SP). Vector Boost: +4m/Hit. Ignores fall Dmg; falls end of turn.</span></td>
                                 </tr>
 
                                 <!-- RECON MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Recon Module</td>
-                                </tr>
-                                <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Sensor Suite</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Exodrone gains Sensors Attribute (= highest Exodrone Attribute, mirrors Instinct) until end of round.</span></td>
+                                    <td colspan="4">⬡ Recon Module (Stealth, Neural Relay &amp; Infiltration)</td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
-                                    <td><span class="skill-name">Proximity Scan</span></td>
-                                    <td><span class="skill-cost">1</span></td>
-                                    <td><span class="skill-desc">Scans 20m radius for living creatures or electronic devices. Returns approximate position and size only.</span></td>
+                                    <td><span class="skill-name">Active Camouflage</span></td>
+                                    <td><span class="skill-cost">[Free] 2 Bat</span></td>
+                                    <td><span class="skill-desc">Chassis gains Persistent Blocker against being spotted/targeted. Unseen tests gain +2 Upgrades.</span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Neural Relay</span></td>
+                                    <td><span class="skill-cost">[Pas] 0 Bat</span></td>
+                                    <td><span class="skill-desc">Detached: you see &amp; hear through drone; it shares your mental Attributes (KNW, PRS, INS) to use gear &amp; tools.</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Omni Tool</span></td>
-                                    <td><span class="skill-cost">3</span></td>
-                                    <td><span class="skill-desc">Detached: interfaces with any device in space, forces actions using highest Attribute. Only other action: revert for free.</span></td>
+                                    <td><span class="skill-cost">[Act] 3 Bat</span></td>
+                                    <td><span class="skill-desc">Detached: interfaces with device, forcing actions using highest Exodrone Attribute. Only action: decouple (0 AP).</span></td>
                                 </tr>
 
                                 <!-- SERAPH MODULE -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">⬡ Seraph Module</td>
+                                    <td colspan="4">⬡ Seraph Module (Trauma Triage &amp; Resuscitation)</td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">First Aid</span></td>
-                                    <td><span class="skill-cost">1+X</span></td>
-                                    <td><span class="skill-desc">Attached: heal 2 LW to wearer per Battery. Detached: heal 2 LW to any creature in same space per Battery.</span></td>
+                                    <td><span class="skill-cost">[Act] 2 Bat</span></td>
+                                    <td><span class="skill-desc">Heals 2 Light Wounds (Attached: Pilot; Detached: any creature in same space). Limit: 1/turn.</span></td>
                                 </tr>
                                 <tr>
                                     <td class="chk-cell"><div class="chk-box"></div></td>
                                     <td><span class="skill-name">Healer Darts</span></td>
-                                    <td><span class="skill-cost">2</span></td>
-                                    <td><span class="skill-desc">Wrist dartgun; hits heal 1 LW per 2 SP instead of dealing damage. <span class="profile-tag">Acc:[3/2/1/–] · Dmg:0 · RoF:0</span></span></td>
+                                    <td><span class="skill-cost">[Act] 2 Bat</span></td>
+                                    <td><span class="skill-desc">Wrist pneumatic launcher; hits heal 1 LW per 2 SP instead of dealing Dmg. <span class="profile-tag">Acc: [3/2/1/–]</span></span></td>
                                 </tr>
                                 <tr>
-                                    <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                    <td><span class="skill-name">Phoenix Egg</span></td>
-                                    <td><span class="skill-cost">7</span></td>
-                                    <td><span class="skill-desc">Detached: attaches to creature (1 LW/2 SP or 1 Agg/4 SP), absorbs all damage, can revive dead from this round. Host cannot act. Only action: revert.</span></td>
+                                    <td class="chk-cell"><div class="chk-box"></div></td>
+                                    <td><span class="skill-name">Trauma Protocol</span></td>
+                                    <td><span class="skill-cost">[Act] 7 Bat</span></td>
+                                    <td><span class="skill-desc">Detached: clamps onto critical ally (heals 1 LW/2 SP or 1 Agg/4 SP; revives dead from this round). Absorbs all damage.</span></td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
