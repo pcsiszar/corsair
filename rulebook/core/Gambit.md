@@ -19,10 +19,10 @@ When a player spends a **Gambit** die, and the dice pool has already been modifi
 
 #### The Golden Rule of Gambit
 
-There is one crucial restriction on using **Gambit**: **a player can either spend or gain Gambit during a turn, but not
-both.** This means that if you spend any **Gambit** from your pool at any point during your turn, you cannot choose to bank
-any dice to earn new **Gambit** for the rest of that turn. Conversely, if you bank a die to earn a **Gambit**, you cannot spend
-any **Gambit** until your next turn begins.
+There is one crucial restriction on using **Gambit**: **a player can either spend or gain Gambit during a test, but not
+both.** This means that if you spend any **Gambit** from your pool on a test, you cannot choose to bank any dice from that
+test to earn new **Gambit**. Conversely, if you bank a die from a roll to earn a **Gambit**, you cannot spend any **Gambit**
+on that same test.
 
 ### Putting It All Together: An Example Test
 

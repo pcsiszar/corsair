@@ -102,9 +102,19 @@
                 fill: #000000 !important;
             }
 
-            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub {
+            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub, .form-slot, .form-track-col {
                 background: #ffffff !important;
                 border-color: #000000 !important;
+            }
+
+            .form-slot-label {
+                color: #888888 !important;
+                opacity: 1 !important;
+            }
+
+            .form-tracker-note {
+                color: #333333 !important;
+                border-top-color: #000000 !important;
             }
 
             .skill-table th {
@@ -329,10 +339,89 @@
             color: var(--text-dim);
         }
 
+        /* 3-COLUMN FORM & BOOST TRACKER */
+        .form-tracker-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5mm;
+            text-align: center;
+        }
+
+        .form-track-col {
+            background: var(--mid);
+            border: 1px solid var(--border);
+            padding: 1.2mm 0.8mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .form-track-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8pt;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .form-track-hands {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            color: var(--text-dim);
+            margin-top: 0.4mm;
+            line-height: 1;
+        }
+
+        .form-slot {
+            width: 12mm;
+            height: 11mm;
+            border: 1.5px solid var(--accent-dim);
+            background: var(--surface);
+            margin: 1.2mm auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .form-slot-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.5pt;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--accent-dim);
+            opacity: 0.55;
+            text-transform: uppercase;
+            pointer-events: none;
+        }
+
+        .form-track-desc {
+            font-family: 'Barlow', sans-serif;
+            font-size: 5.8pt;
+            color: var(--text);
+            line-height: 1.15;
+            margin-top: 0.2mm;
+        }
+
+        .form-tracker-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+            margin-top: 1.2mm;
+            border-top: 1px dashed var(--border);
+            padding-top: 0.8mm;
+            line-height: 1.2;
+        }
+
         /* ONLY SEPARATING ROWS THIN */
         .skill-section-hd td {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.2pt;
             font-weight: 700;
             letter-spacing: 0.15em;
             text-transform: uppercase;
@@ -340,7 +429,7 @@
             background: var(--mid) !important;
             border-top: 1px solid var(--accent-dim);
             border-bottom: 1px solid var(--accent-dim);
-            padding: 0.3mm 1.5mm !important;
+            padding: 0.25mm 1.5mm !important;
             line-height: 1;
             text-align: center;
         }
@@ -357,14 +446,14 @@
             text-transform: uppercase;
             color: var(--accent-dim);
             text-align: left;
-            padding: 1.2mm 1.8mm;
+            padding: 0.8mm 1.5mm;
             border-bottom: 1px solid var(--accent-dim);
             background: var(--mid);
         }
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 0.8mm 1.8mm;
+            padding: 0.45mm 1.4mm;
             vertical-align: middle;
         }
 
@@ -374,9 +463,9 @@
 
         .rules-text {
             font-family: 'Barlow', sans-serif;
-            font-size: 7.2pt;
+            font-size: 6.8pt;
             color: var(--text);
-            line-height: 1.22;
+            line-height: 1.15;
         }
 
         .rules-text p {
@@ -422,7 +511,7 @@
         .skill-name-col {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 700;
-            font-size: 8pt;
+            font-size: 7.5pt;
             text-transform: uppercase;
             color: var(--accent);
         }
@@ -506,23 +595,49 @@
                         <svg viewBox="0 0 24 24">
                             <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/>
                         </svg>
-                        <h2>Board &amp; Boost</h2>
+                        <h2>Board Form &amp; Active Boost Tracker</h2>
                     </div>
                     <div class="card-body">
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <div>
-                                <div class="xc-label">Vanguard Form</div>
-                                <div class="gambit-note" style="text-align: left; line-height: 1.4; margin-top: 0.5mm;">
-                                    [ ] Shield Form (Occupies 1 hand)<br/>
-                                    [ ] Glider Form (Free hands)<br/>
-                                    [ ] Cannon Form (Occupies 2 hands)
+                        <div class="form-tracker-grid">
+                            <!-- SHIELD COLUMN -->
+                            <div class="form-track-col">
+                                <div class="form-track-name">Shield</div>
+                                <div class="form-track-hands">1 Hand</div>
+                                <div class="form-slot" title="Shield Form Slot (Place Token or d10 Boost)">
+                                    <span class="form-slot-label">SHD</span>
+                                </div>
+                                <div class="form-track-desc">
+                                    Prot +SHD/2<br/>
+                                    STR+SHD Melee
                                 </div>
                             </div>
-                            <div style="text-align: right;">
-                                <div class="xc-label">Active Boost</div>
-                                <div class="g-slot" style="margin: 0.5mm auto 0;" title="Banked Boost Die"></div>
-                                <div class="gambit-note" style="margin-top:0.5mm;">(SHD / GLD / CNN)</div>
+                            <!-- GLIDER COLUMN -->
+                            <div class="form-track-col">
+                                <div class="form-track-name">Glider</div>
+                                <div class="form-track-hands">Free Hands</div>
+                                <div class="form-slot" title="Glider Form Slot (Place Token or d10 Boost)">
+                                    <span class="form-slot-label">GLD</span>
+                                </div>
+                                <div class="form-track-desc">
+                                    Flight &amp; Move<br/>
+                                    No Fall Dmg
+                                </div>
                             </div>
+                            <!-- CANNON COLUMN -->
+                            <div class="form-track-col">
+                                <div class="form-track-name">Cannon</div>
+                                <div class="form-track-hands">2 Hands</div>
+                                <div class="form-slot" title="Cannon Form Slot (Place Token or d10 Boost)">
+                                    <span class="form-slot-label">CNN</span>
+                                </div>
+                                <div class="form-track-desc">
+                                    Ranged (CNN)<br/>
+                                    -1 Acc / Range
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-tracker-note">
+                            Place <strong>Token</strong> (Form Only) or <strong>d10</strong> (Active Boost) in active Form box · Slide when swapping
                         </div>
                     </div>
                 </div>
@@ -538,12 +653,12 @@
                         <h2>Board Forms</h2>
                     </div>
                     <div class="card-body rules-text">
-                        <p><strong>Shield:</strong> Phys Protection +SHD/2 (rounded down). Shield is melee weapon (STR + SHD). Use SHD to contest.</p>
+                        <p><strong>Shield:</strong> Phys Protection +SHD/2 (rounded down). Melee weapon (STR + SHD, +lower attr Dmg). Use SHD to contest.</p>
                         <p><strong>Glider:</strong> Use GLD in movement. Ignore difficult terrain &amp; fall damage. Free hands.</p>
                         <p><strong>Cannon:</strong> Ranged weapon attacks. Acc = CNN at short, decreases by 1 per range. 2 hands occupied.</p>
-                        <p><strong>Switching:</strong> Swap form instantly when taking test with corresponding Vanguard Attribute.</p>
-                        <p><strong>Gaining Boost:</strong> Roll Vanguard test without Boost. Set aside one die showing 8+ to bank as Boost die. Max 1.</p>
-                        <p><strong>Revving Up:</strong> Success test to swap forms and bank *any* die as Boost.</p>
+                        <p><strong>Form Rules:</strong> Abilities shift into their Form unless requiring a stance (e.g. Repulse: Shield) or setup (e.g. Turbo Slam: Glider Move; Meteor Crash: 4m+ height).</p>
+                        <p><strong>Gain Boost:</strong> Spend 1 AP to swap forms, OR bank a Hit (8+) from a Vanguard test roll (max 1 die banked).</p>
+                        <p><strong>Spend Boost:</strong> Add d10 to any Vanguard test, or power abilities. Cannot gain and spend Boost on same test.</p>
                     </div>
                 </div>
 
@@ -568,17 +683,17 @@
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Twin Turbo</td>
-                                    <td class="rules-text">Can hold two different Boosts at the same time.</td>
+                                    <td class="rules-text">Can hold up to two Boost dice at the same time.</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Quick Swap</td>
-                                    <td class="rules-text">Once per round, swap board forms instantly without a test.</td>
+                                    <td class="rules-text">Once per round, swap board forms for 0 AP (free action).</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Starter Boost</td>
-                                    <td class="rules-text">Start round with a Boost of value 10 matching current form.</td>
+                                    <td class="rules-text">Start round with a d10 Boost die.</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
@@ -588,7 +703,7 @@
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Boost Recycling</td>
-                                    <td class="rules-text">Once per round, Rev Up by expending current Boost instead of 1 AP.</td>
+                                    <td class="rules-text">Once per round, swap forms by expending current Boost instead of 1 AP.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -603,182 +718,178 @@
                         <svg viewBox="0 0 24 24">
                             <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
                         </svg>
-                        <h2>Vanguard Skills</h2>
+                        <h2>Vanguard Abilities</h2>
                     </div>
                     <div class="card-body" style="padding: 0;">
                         <table class="skill-table">
                             <thead>
                                 <tr>
                                     <th class="checkbox-cell">Lrn</th>
-                                    <th style="width: 23%;">Skill</th>
-                                    <th style="width: 22%;">Requires</th>
-                                    <th style="width: 50%;">Effect Description</th>
+                                    <th style="width: 24%;">Ability</th>
+                                    <th style="width: 18%;">Tag / Form</th>
+                                    <th style="width: 58%;">Effect Description</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <!-- SHIELD SKILLS -->
+                                <!-- SENTINEL COMBO -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">Shield Skills</td>
+                                    <td colspan="4">Sentinel Combo (Shield Breacher &amp; Deflection)</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Shield Throw</td>
-                                    <td class="skill-cost">Glider Boost</td>
-                                    <td class="rules-text">Extend Shield melee range to 20m. Returns instantly.</td>
+                                    <td class="skill-cost">[Act] SHD</td>
+                                    <td class="rules-text">Ranged melee attack up to 20m (STR + SHD). Returns instantly.</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Ricochet</td>
-                                    <td class="skill-cost">GLD Boost, SHD Form</td>
-                                    <td class="rules-text">Add Boost die. On hit, all other enemies in space take same Dmg.</td>
+                                    <td class="skill-cost">[Rdr] SHD</td>
+                                    <td class="rules-text">On Shield Throw hit, spend Boost die: deal same Dmg to all others in target space.</td>
                                 </tr>
                                 <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Repulse</td>
-                                    <td class="skill-cost">SHD Boost, SHD Form</td>
-                                    <td class="rules-text">Contest attack using Shield for free (0 AP) + spend Boost.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Turbo Slam</td>
-                                    <td class="skill-cost">Glider Move</td>
-                                    <td class="rules-text">Melee Shield attack +SHD Dmg. Push target; crash barrier for +SHD Dmg.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Meteor Crash</td>
-                                    <td class="skill-cost">-</td>
-                                    <td class="rules-text">Fall 4m+ on space. Ignore fall Dmg. SHD Dmg to target (or spend Boost for AoE Dmg).</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Gun Shield</td>
-                                    <td class="skill-cost">Shield Form</td>
-                                    <td class="rules-text">You can use two-handed firearms while in Shield Form.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Tactical Barricade</td>
-                                    <td class="skill-cost">Shield Boost</td>
-                                    <td class="rules-text">Simple Shield test + Boost. Sacrifice hits for +2 Phys Prot to allies in space.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Brick Wall</td>
-                                    <td class="skill-cost">Shield Form</td>
-                                    <td class="rules-text">Contesting enemy movement through space deals Dmg equal to highest die eliminated.</td>
-                                </tr>
+                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                     <td class="skill-name-col">Repulse</td>
+                                     <td class="skill-cost">[Rct] SHD</td>
+                                     <td class="rules-text">Requires Shield Form. Contest incoming attack with Shield for 0 AP by spending Boost die.</td>
+                                 </tr>
 
-                                <!-- GLIDER SKILLS -->
+                                <!-- FALLINGSTAR COMBO -->
                                 <tr class="skill-section-hd">
-                                    <td colspan="4">Glider Skills</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Air Trick</td>
-                                    <td class="skill-cost">Glider Move</td>
-                                    <td class="rules-text">Glider move starting from ground lets you fly for 4m.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Rocketeer</td>
-                                    <td class="skill-cost">Glider Boost</td>
-                                    <td class="rules-text">Add Boost to Glider move to fly for full movement duration.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Windsurfer</td>
-                                    <td class="skill-cost">GLD Form &amp; Boost</td>
-                                    <td class="rules-text">Remain floating at altitude; move horizontally while using Glider.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Trick Landing</td>
-                                    <td class="skill-cost">-</td>
-                                    <td class="rules-text">Falling at turn end ignores fall Dmg, grants Boost of current form, swaps to GLD.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hitchhiker</td>
-                                    <td class="skill-cost">Glider Move</td>
-                                    <td class="rules-text">Carry willing ally during Glider move without AP cost.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Vanguard Charge</td>
-                                    <td class="skill-cost">Shield Boost</td>
-                                    <td class="rules-text">Glider move + Boost. Sacrifice hits for SHD Dmg &amp; 4m push on targets passed.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Bombing Run</td>
-                                    <td class="skill-cost">Cannon Boost</td>
-                                    <td class="rules-text">Glider move + Boost. Sacrifice hits for CNN Dmg to space moved through/above.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hit and Run</td>
-                                    <td class="skill-cost">Glider Move</td>
-                                    <td class="rules-text">Move GLD spaces before/after melee attack; movement cannot be contested.</td>
-                                </tr>
-
-                                <!-- CANNON SKILLS -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Cannon Skills</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Twin Cannon</td>
-                                    <td class="skill-cost">Shield Boost</td>
-                                    <td class="rules-text">Dual guns (Acc: Short CNN, Med CNN/2; Dmg +1, RoF 1). No close combat penalty.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Airburst Shot</td>
-                                    <td class="skill-cost">Shield Boost</td>
-                                    <td class="rules-text">Twin Cannon shot + Boost. Push target Dmg meters; crash barrier for +CNN Dmg.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Long Cannon</td>
-                                    <td class="skill-cost">Glider Boost</td>
-                                    <td class="rules-text">Long Cannon form (-2 Acc short, +1 Acc long/extreme; Dmg +1, RoF 1).</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Tracking Shot</td>
-                                    <td class="skill-cost">Glider Boost</td>
-                                    <td class="rules-text">Long Cannon attack. Set aside hits so subsequent shots hit automatically in range.</td>
+                                    <td colspan="4">Fallingstar Combo (Aerial Ascent &amp; Shockwave Dive)</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Rocket Jump</td>
-                                    <td class="skill-cost">Glider Boost</td>
-                                    <td class="rules-text">CNN Success roll + Boost. Deal CNN Dmg to space, fly distance equal to result.</td>
+                                    <td class="skill-cost">[Act] CNN</td>
+                                    <td class="rules-text">Blast ground: CNN Dmg (highest die if Boost). Lift 4m up; spend Hits on Push Effects on self. Counts as Glider Move.</td>
+                                </tr>
+                                <tr>
+                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                     <td class="skill-name-col">Meteor Crash</td>
+                                     <td class="skill-cost">[Act] SHD</td>
+                                     <td class="rules-text">Requires 4m+ height. Dive down; ignore fall Dmg. Deal SHD Dmg to space (+roll Boost die if spent).</td>
+                                 </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Air Trick</td>
+                                    <td class="skill-cost">[Rdr] GLD</td>
+                                    <td class="rules-text">Convert ground Glider move to 4m vertical flight, launching for Meteor Crash.</td>
+                                </tr>
+
+                                <!-- FALCON COMBO -->
+                                <tr class="skill-section-hd">
+                                    <td colspan="4">Falcon Combo (High-Velocity Skirmisher &amp; Flight)</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Rocketeer</td>
+                                    <td class="skill-cost">[Act] GLD</td>
+                                    <td class="rules-text">Fly for Glider move duration. Spend Boost to add die and double rolled distance.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Hit and Run</td>
+                                    <td class="skill-cost">[Rdr] GLD</td>
+                                    <td class="rules-text">Requires Glider Move. Move GLD &times; 4 meters before or after any melee strike uncontested.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Windsurfer</td>
+                                    <td class="skill-cost">[Pas] GLD</td>
+                                    <td class="rules-text">Hover at current altitude instead of falling at turn end. Maneuver horizontally.</td>
+                                </tr>
+
+                                <!-- SCORPION COMBO -->
+                                <tr class="skill-section-hd">
+                                    <td colspan="4">Scorpion Combo (Heavy Artillery &amp; Stinger Follow-Up)</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Assault Cannon</td>
-                                    <td class="skill-cost">Cannon Boost</td>
-                                    <td class="rules-text">Assault Cannon form (-1 Acc all ranges; Dmg +2, RoF 2). Swap with Boost.</td>
+                                    <td class="skill-cost">[Pas] CNN</td>
+                                    <td class="rules-text">Cannon form: +2 Dmg, RoF 2, -1 Acc all ranges. Cannot combine with Long Cannon.</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Charged Shot</td>
-                                    <td class="skill-cost">Cannon Boost</td>
-                                    <td class="rules-text">Assault Cannon shot + Boost. Gain +CNN extra Dmg Bonus.</td>
+                                    <td class="skill-cost">[Act] CNN</td>
+                                    <td class="rules-text">Cannon attack spending Boost die to add die to roll and +CNN bonus Dmg on hit.</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Follow Up</td>
-                                    <td class="skill-cost">Successful hit</td>
-                                    <td class="rules-text">Pay 1 AP for follow-up shot doing +CNN Dmg. Swaps to Cannon Form.</td>
+                                    <td class="skill-cost">[Rdr] CNN</td>
+                                    <td class="rules-text">On any hit, pay 1 AP for snap shot (+CNN Dmg; expend Boost to +roll result Dmg). Swaps to Cannon Form.</td>
+                                </tr>
+
+                                <!-- RHINO COMBO -->
+                                <tr class="skill-section-hd">
+                                    <td colspan="4">Rhino Combo (Tether Pull, Wall-Crush &amp; Lockdown)</td>
                                 </tr>
                                 <tr>
                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                                     <td class="skill-name-col">Hook Shot</td>
-                                    <td class="skill-cost">Shield Boost</td>
-                                    <td class="rules-text">Short range CNN shot. Move target along attack line &amp; pull yourself along line.</td>
+                                    <td class="skill-cost">[Act] CNN</td>
+                                    <td class="rules-text">Tether 16m Simple Test (CNN+FIN). Pull target 4m/Hit; advance into space for highest die contact Dmg. Counts as Glider Move.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Turbo Slam</td>
+                                    <td class="skill-cost">[Act] SHD</td>
+                                    <td class="rules-text">Requires Glider Move. Shield attack +SHD Dmg. Push target; crash barrier for +SHD Dmg again.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Brick Wall</td>
+                                    <td class="skill-cost">[Rct] SHD</td>
+                                    <td class="rules-text">Requires Shield Form. Contest move through space (inc. forced) to halt &amp; deal Dmg.</td>
+                                </tr>
+
+                                <!-- ROOK COMBO -->
+                                <tr class="skill-section-hd">
+                                    <td colspan="4">Rook Combo (Fortified Anchor &amp; Heavy Defense)</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Gun Shield</td>
+                                    <td class="skill-cost">[Pas] SHD</td>
+                                    <td class="rules-text">Wield and fire 2-handed firearms in Shield Form, retaining your +SHD/2 Protection.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Hitchhiker</td>
+                                    <td class="skill-cost">[Rdr] GLD</td>
+                                    <td class="rules-text">Requires Glider Move. Carry 1 ally for 0 AP into space. Spend Boost to add die and carry 2.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Tactical Barricade</td>
+                                    <td class="skill-cost">[Act] SHD</td>
+                                    <td class="rules-text">Spend 1 AP to plant Board: Medium Cover (+2 Prot). Spend Boost for Heavy Cover (+3 Prot).</td>
+                                </tr>
+
+                                <!-- HAWK COMBO -->
+                                <tr class="skill-section-hd">
+                                    <td colspan="4">Hawk Combo (Precision Sniper &amp; Telemetry)</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Long Cannon</td>
+                                    <td class="skill-cost">[Pas] CNN</td>
+                                    <td class="rules-text">Sniper form (-1 Acc Short, +1 Acc Long/Extreme; +2 Dmg at Med+). Cannot combine with Assault Cannon.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Tracking Shot</td>
+                                    <td class="skill-cost">[Act] CNN</td>
+                                    <td class="rules-text">Long Cannon shot (1 AP). Set aside Hits for automatic hits against target this round.</td>
+                                </tr>
+                                <tr>
+                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                                    <td class="skill-name-col">Overwatch</td>
+                                    <td class="skill-cost">[Rct] CNN</td>
+                                    <td class="rules-text">Requires Long Cannon &amp; auto-hit. Pay 1 AP &amp; consume auto-hit: Success Test intercept shot before target acts.</td>
                                 </tr>
                             </tbody>
                         </table>

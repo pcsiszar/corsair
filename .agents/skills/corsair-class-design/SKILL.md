@@ -76,7 +76,7 @@ Every class must be built around a distinct, dynamic mechanical engine that dict
 | **Conduit** | **Charges (0–3)** | Channel elemental energy via Amp abilities to gain Charges; vent all 3 Charges in massive, encounter-shifting Burst releases. |
 | **Hazard** | **Pressure (0–3) & Volatile Die** | Modulate chamber pressure (`-2` to `+3`); higher pressure grants larger Volatile Dice (`d8` → `d10` → `d12`), but rolling an 8+ Hit triggers a self-damaging Rupture. |
 | **Pilot** | **Battery Pool (10 max) & Avatar Stances** | Manage battery reserves; shift dynamically between Attached Mode (augmented personal stats) and Detached Mode (autonomous avatar proxy). |
-| **Vanguard** | **Form Stances & Boost Dice** | Stance-dance between Shield, Glider, and Cannon; bank 8+ Hits as Boost dice to fuel momentum and explosive form transitions. |
+| **Vanguard** | **Form Stances & Boost Dice** | Stance-dance between Shield, Glider, and Cannon; spend 1 AP to swap forms and gain d10 Boost dice to fuel momentum and explosive form transitions. |
 | **Weaver** | **Reserve Pool (4 max) & Nanite Forms** | Allocate liters of physical nanites into persistent equipment/modifications or cycle them through temporary offensive/defensive commands. |
 
 When designing or revising a class engine:
@@ -110,7 +110,7 @@ To prevent skill bloat and maintain manageable decision-making, Class Abilities 
   * **Kits** (e.g., Hazard's Medic Kit, Pyro Kit — 3 abilities per kit).
   * **Modules** (e.g., Pilot's Warden Module, Arsenal Module — 3 abilities per module).
   * **Weaves** (e.g., Weaver's HardWeave, LifeWeave — 3 tripartite aspects: Create, Modify, Control).
-  * **Form Triads** (e.g., Vanguard's grouped Shield, Glider, and Cannon abilities).
+  * **Combos** (e.g., Vanguard's Sentinel, Fallingstar, Falcon, Scorpion, Rhino, Rook, and Hawk Combos — 3 abilities per combo).
   * **Amp & Burst Pairs** (e.g., Conduit's paired charge-builder and charge-spender abilities).
 * **Progression Pacing:** Every class awards new ability packages at a standardized cadence:
   * **Level 1:** Starting package (+ baseline module/touch abilities).

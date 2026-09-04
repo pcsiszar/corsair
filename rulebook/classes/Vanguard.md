@@ -4,6 +4,12 @@
 
 ## Description
 
+The Vanguard is the cell's frontline breaker and kinetic specialist, defined by their neural synchronization with an adaptable multi-segment Board. Mounted along the operative's spine or magnetically clamped to a low-profile tactical harness, this articulated piece of aerospace-grade hardware consists of interlocking ceramic-composite plates, high-torque micro-servos, and pneumatic locking pins. Subdermal balance nodes embedded along the user's calves, spine, and forearms interface directly with the Board's telemetry suite, reading minute shifts in center of mass and transmitting physical feedback at the speed of reflex. In its dormant state, the folded chassis rests as a compact, streamlined dorsal carapace across the operative's back, often scarred by shrapnel deflection or thermal wash from high-speed descents.
+
+In active combat, the Board functions as an instrument of relentless kinetic momentum, transforming between three distinct operational geometries at a moment's notice. When facing suppressive fire, the chassis snaps forward into the Vanguard's off-hand, locking into a broad, reinforced **Shield** engineered to disperse hypersonic kinetic impacts and batter through enemy barricades in close-quarters breaches. When rapid repositioning or flanking becomes necessary, the mechanism deploys beneath the user's boots as a high-velocity hoverboard **Glider**, engaging vectored kinetic thrusters to skim over hazardous terrain, traverse zero-gravity gaps, and launch the operative into aerial drop attacks. When distant threats demand decisive force, the Board hinges outward into a heavy shoulder-slung or hip-braced **Cannon**, cycling high-velocity kinetic penetrators capable of punching clean through bulkhead plating and mechanized armor.
+
+The true tactical depth of the Vanguard lies in the fluid, stance-dancing rhythm of its kinetic engine. Rather than committing to a single combat posture, an experienced Vanguard continuously reconfigures the Board mid-assault, converting the mechanical torque of each form swap into banked **Boost** dice that fuel explosive combo techniques. Whether shattering enemy defensive lines with a boosted shield charge, surfing over crossfire to extract a pinned ally, or laying down devastating artillery blasts from elevated vantage points, the Vanguard commands the pace of engagement. Their presence ensures the cell possesses an immovable defensive anchor, an agile vanguard scout, and a heavy fire-support platform unified in a single operative.
+
 ## Attributes
 
 The Vanguard's three primary Attributes correspond to the different forms their Board can take:
@@ -21,10 +27,7 @@ different benefits.
 
 **Shield:**
 
-While in Shield Form, your Physical Protection increases by half your Shield Attribute, rounded down. You
-can also use the Shield as a melee weapon, using your **Strength** and Shield Attributes to perform melee attacks. You
-can also use your Shield Attribute to contest most forms of harm coming your way. You have one hand occupied while in
-Shield Form.
+While in Shield Form, your Physical Protection increases by half your Shield Attribute, rounded down. You can also use the Shield as a melee weapon, using your **Strength** and Shield Attributes to perform melee attacks. When attacking with your Shield, it functions as a Striking melee weapon, dealing bonus damage equal to the lower Attribute in the pair (**Strength** or Shield). You can also use your Shield Attribute to contest most forms of harm coming your way. You have one hand occupied while in Shield Form.
 
 You typically rely on **Strength** while in Shield Form.
 
@@ -44,198 +47,165 @@ that range. You have both hands occupied in Cannon Form.
 
 You typically rely on **Finesse** while in Cannon Form.
 
-### Switching Forms
+### Switching & Swapping Forms
 
-Whenever you take a test that uses one of your Vanguard Attributes, you immediately switch to that Form. You do not have
-to be in that form to start; your switch happens prior to taking the test. Until the next time you take a test with a
-Vanguard Attribute, you remain in that form.
+The Board is an adaptable kinetic weapon chassis capable of rapid mechanical reconfiguration. Its operational state is governed by two core concepts: your current **Form** and **Form Moves**.
 
-### Boosts & Revving Up
+- **Current Form & Shifting Forms:** Whenever you roll a test that uses one of your Vanguard Attributes (such as a melee attack with **Shield**, a Movement Action with **Glider**, or a ranged attack with **Cannon**) or activate a Vanguard ability, your Board automatically shifts into that Form immediately prior to resolving the action. You remain in that form until your Board transforms again. Taking a test with a Vanguard Attribute or executing an ability inherently counts as a **Form Move** for that Form during the current turn; abilities only explicitly note when they also count as a Form Move for another Form (such as Cannon abilities providing aerial mobility counting as Glider Moves).
+- **Specific Form & Setup Requirements:** While most abilities automatically shift your Board into their associated Form upon activation, certain abilities have specific prerequisites:
+  - **Required Starting Form:** Reactions and defensive stances (such as **Repulse** and **Brick Wall**) require you to *already* be in that specific Form when triggered.
+  - **Form Moves:** Kinetic combo follow-ups (such as **Turbo Slam**, which requires a preceding **Glider Move** like advancing via **Hook Shot** or gliding) require a preceding Form Move to build the necessary momentum.
+  - **Situational Requirements:** Aerial maneuvers (such as **Meteor Crash**) require specific environmental positioning, such as being at an elevated altitude of at least 4 meters above your target, rather than requiring a specific starting form.
 
-A **Boost** is a single banked die associated with one of your three Vanguard Attributes. You can only hold one
-**Boost** at a time. Different types of **Boost** are good for activating different skills.
+### Boosts & Form Momentum
 
-**Gaining a Boost.** Whenever you roll a test that uses a Vanguard Attribute and you do not currently have a **Boost**,
-you may set aside one die from that roll that shows an **8 or higher** before counting your result. That die becomes
-your **Boost** and corresponds to the Vanguard Attribute you used in the roll. The set-aside die does not contribute to
-the roll's success.
+To channel kinetic momentum into explosive combos, the Vanguard banks kinetic energy as **Boost** dice. A **Boost** is a single banked d10 die. You can hold only **one** Boost die at a time in your reserve (unless increased by Class Mods like *Twin Turbo*). Banked **Boost** dice are used to power signature Vanguard combo finishers and riders, or they can be expended to bolster regular actions.
 
-**Revving Up.** When you want to swap to a different form without doing anything else, you can take a special **Success
-Test** called **Revving Up**. Roll a **Success Test** with the Vanguard Attribute of the form you want to switch into;
-you immediately switch to that form. You may then bank **any one die** from the result as your **Boost** (not limited to
-dice that rolled 8 or higher), corresponding to the Attribute you used.
+**Gaining a Boost.** There are two ways to generate and bank a **Boost** die:
+1. **Active Form Swap (1 AP):** When you want to reconfigure your Board and build momentum, you can spend **1 Action Point (1 AP)** to actively swap into any of your three forms (Shield, Glider, or Cannon). Swapping forms immediately places you in the chosen form, counts as a **Form Move** for that form, and grants you a banked **d10 Boost die**. If you already possess a Boost die when you swap forms, the new Boost die replaces the old one.
+2. **Banking a Hit:** Whenever you roll a test that uses a Vanguard Attribute (Shield, Glider, or Cannon) and you do not currently hold a Boost die, you may choose to **bank one Hit (a die showing an 8 or higher)** from that test roll before resolving your result. That banked die does not contribute to the test's successes or effects—instead, you set it aside into your reserve as your banked **d10 Boost die**.
 
-**Revving Up** counts as a Form Move.
+**Spending a Boost.** Whenever you roll a test that uses any Vanguard Attribute (Shield, Glider, or Cannon), you may spend your **Boost** die by rolling it and adding it to the test pool. You can choose to add the **Boost** die before or after your initial roll. Once spent, the **Boost** die is discarded. Additionally, many specialized Vanguard abilities allow you to consume your active **Boost** die to unleash devastating kinetic strikes, high-altitude maneuvers, or heavy artillery blasts.
 
-**Spending a Boost.** Whenever you roll a test that uses any Vanguard Attribute (Shield, Glider, or Cannon), you may
-spend your **Boost** die by adding it to the roll.
-You can choose to add the **Boost** die before or after the initial roll. Once spent, the **Boost** is gone.
+**The Golden Rule of Boosts.** Much like Gambit dice, **you can either spend or gain a Boost during a test or action, but never both.** If you spend or consume a **Boost** die to enhance a roll or activate an ability during an action, you cannot gain, bank, or regain a new **Boost** die from that test or action (for example, you cannot bank a Hit from a test roll where you spent a Boost die). Conversely, if you gain a **Boost** die during an action or test (whether through a 1 AP Form Swap or banking a Hit), you cannot immediately spend or consume that **Boost** die during that same test or action—it is banked to fuel future actions.
 
-### Skills
+## Vanguard Abilities
 
-Your special skills manifest from using multiple Vanguard Attributes before activating the skill. The skills can have
-any combination of the following criteria for activation:
+The Vanguard reconfigures their Board into coordinated combat routines called **Combos**. Each Combo is a specialized package of three synergized abilities designed to flow seamlessly into one another: an opening action or setup, a devastating combo finisher or follow-up, and a responsive tactical rider or passive.
 
-- **Starting Form:** A skill can require that you must be in a specific Vanguard Form to use it.
-- **Form Boost:** A skill can require that you must have a banked **Boost** from a specific Vanguard Attribute.
-- **Form Move:** A skill can require that you must have used a specific Vanguard Attribute or Skill in the current turn.
+Operatives learn one complete Combo (3 abilities) at Level 1, and unlock an additional Combo at Levels 2, 3, and 4. Activating an ability automatically shifts your Board into that ability's **Form**, unless the ability has an explicit requirement (such as already being in that Form, completing a preceding **Form Move**, or occupying an elevated position).
 
-When you activate a skill, you swap to the corresponding Vanguard Form, even if the skill required no roll.
+### Sentinel Combo
 
-**Revving Up** counts as a Form Move.
+The Sentinel Combo emphasizes kinetic frontline defense, utilizing high-velocity shield throws to scatter enemy formations and hard-light kinetic deflection to protect against incoming fire.
 
-## Skills
+**Shield Throw `[Action]`**
+* **Form:** Shield
+* **Effect:** You hurl your Board in Shield Form up to 20 meters as a ranged melee attack (rolling **Strength + Shield**). The Shield ricochets off the target and snaps immediately back to your magnetic gauntlet. It deals your standard Shield melee damage at range.
 
-Skills are learned in groups of 3. You start with 3 and can learn more as you progress with the class.
+**Ricochet `[Rider]`**
+* **Form:** Shield
+* **Trigger:** When your **Shield Throw** successfully hits a target.
+* **Effect:** You may expend your active **Boost** die. If you do, kinetic resonance arcs through the target's space: every other hostile creature in that space suffers damage equal to the damage dealt to the primary target.
 
-### Shield Skills
+**Repulse `[Reaction]`**
+* **Form:** Shield
+* **Requirement:** Shield Form (must already be in Shield Form)
+* **Trigger:** When you are targeted by an attack while in Shield Form.
+* **Effect:** You can contest the incoming attack using your Shield Attribute for **0 AP** by expending your active **Boost** die. Add the **Boost** die directly to your contest roll.
 
-**Shield Throw:** You can throw your shield and have it come back to you immediately after. Your melee attack range is
-extended to 20 meters as long as you're using your Shield.
+### Fallingstar Combo
 
-*Requires: Glider Boost*
+The Fallingstar Combo harnesses explosive vertical lift and high-altitude gravitational kinetic drops, crushing enemy clusters beneath devastating shockwaves.
 
-**Ricochet:** When using Shield Throw, you can add your **Boost** die to the roll, which is then expended. If you hit
-your
-initial target, you can then have all other hostile creatures in the same space take the same damage as the original
-target.
+**Rocket Jump `[Action]`**
+* **Form:** Cannon
+* **Effect:** You angle your Cannon directly into the ground beneath you and fire a high-pressure kinetic blast, rolling a **Cannon Success Test** (you may expend and add your active **Boost** die to this test). The blast deals damage to all creatures in your space equal to your Cannon Attribute; if you expended a **Boost** die on the test, it instead deals damage to all creatures in your space equal to the highest die rolled. The explosion immediately lifts you 4 meters straight up into the air, and you can spend any **Hits** from the test to activate **Push Effects** on yourself. This action also counts as a **Glider Move**.
 
-*Requires: Glider Boost, Shield Form*
+**Meteor Crash `[Action]`**
+* **Form:** Shield
+* **Requirement:** Elevated position (must fall or dive from at least 4 meters above your target space).
+* **Effect:** You slam directly into the space beneath you, ignoring all fall damage. You deal damage equal to your Shield Attribute to all creatures in the target space. If you expend an active **Boost** die, roll the Boost die and add the rolled result to the total damage dealt.
 
-**Repulse:** You can contest an attack using your Shield, and add your **Boost** die to the roll, which is then
-expended. This contest is free and does not require Action Points.
+**Air Trick `[Rider]`**
+* **Form:** Glider
+* **Trigger:** When taking a Movement Action using your Glider (Glider Move) starting from solid ground.
+* **Effect:** You can convert horizontal thrust into vertical flight for up to 4 meters of your movement, easily leaping 4 meters into the air to set up a devastating **Meteor Crash**. You fall at the end of the Player Turn unless sustained by another ability.
 
-*Requires: Shield Boost, Shield Form*
+### Falcon Combo
 
-**Turbo Slam:** You slam into an enemy, shield first. Make a melee attack using your Shield. It deals bonus damage equal
-to your Shield Attribute, and you may push the creature a number of meters equal to the damage dealt if it's large or
-smaller. If it collides with a barrier or cover, it takes damage equal to your Shield Attribute again.
+The Falcon Combo is engineered for rapid skirmishing, frictionless traversal, and high-altitude momentum, allowing the Vanguard to reposition across the battlefield and strike without becoming pinned.
 
-*Requires: Glider Move*
+**Rocketeer `[Action]`**
+* **Form:** Glider
+* **Effect:** You make a Glider Movement Action and fly for the entire duration of the movement. If you expend an active **Boost** die, add the Boost die to your movement test roll; you double the rolled movement distance and fly at extreme velocity without altitude loss until the end of the Player Turn.
 
-**Meteor Crash:** When you fall at least 4 meters at any point during the Player Turn, you can slam into the space
-directly below you, ignoring fall damage, and dealing damage to a single creature equal to your Shield Attribute.
-If you have any active **Boost**, you can instead deal damage to all creatures in the space equal to one roll of your
-**Boost** die, which is expended, plus your Shield Attribute.
+**Hit and Run `[Rider]`**
+* **Form:** Glider
+* **Requirement:** Glider Move (must have completed a Glider Move this turn).
+* **Trigger:** As part of declaring any melee attack.
+* **Effect:** You can move a number of meters equal to your **Glider Attribute × 4 meters** either immediately before or immediately after making the attack. This movement is completely fluid and cannot be contested by enemies.
 
-**Gun Shield:** You can use two-handed firearms while in Shield Form.
+**Windsurfer `[Passive]`**
+* **Form:** Glider
+* **Effect:** While in Glider Form, you do not fall at the end of the Player Turn. Instead, you remain suspended at your current altitude. You can maneuver horizontally across the airspace as long as you use your Glider to move. If you swap out of Glider Form, you fall at the end of that Player Turn.
 
-*Requires: Shield Form*
+### Scorpion Combo
 
-**Tactical Barricade:** Roll a **Simple Test** with Shield, adding your **Boost** die, which is then expended. For each
-**Hit** you sacrifice, you can increase the Physical Protection of any creature in your space by 2 when an attack lands
-on them, until the end of the round, as long as you are in Shield Form when the attack lands. You can only add this
-Protection boost once per attack.
+The Scorpion Combo converts the Vanguard's Board into a heavy ballistic platform, laying down sustained automatic suppressive fire and punishing openings with devastating follow-up cannonades.
 
-*Requires: Shield Boost*
+**Assault Cannon `[Passive]`**
+* **Form:** Cannon
+* **Effect:** Your Board reconfigures into an Assault Cannon. While in Cannon Form, your weapon gains a **Damage Bonus of +2** and a **Rate of Fire of 2**, but suffers **-1 Accuracy** across all range bands. This configuration cannot be combined with **Long Cannon** (if you possess both abilities, you choose which configuration your Cannon Form takes during downtime).
 
-**Brick Wall:** Whenever you contest a creature's movement that crosses your space, you deal damage to them equal to the
-highest die you eliminated from their result.
+**Charged Shot `[Action]`**
+* **Form:** Cannon
+* **Effect:** Make a ranged attack using your Cannon, expending your active **Boost** die. Add the **Boost** die to your attack roll. On a hit, you puncture the target's armor, dealing bonus damage equal to your Cannon Attribute.
 
-*Requires: Shield Form*
+**Follow Up `[Rider]`**
+* **Form:** Any Form
+* **Trigger:** After successfully landing any attack in any form (Shield, Glider, or Cannon).
+* **Effect:** You can immediately pay **1 AP** to deliver a point-blank snap shot with your Cannon against the target, dealing bonus damage equal to your Cannon Attribute. If you expend an active **Boost** die, roll the Boost die and add damage equal to the result you rolled. This attack immediately swaps your Board into Cannon Form. You can execute this follow-up even if the Player Turn would otherwise end.
 
-### Glider Skills
-
-**Air Trick:** When you take a Movement Action using Glider starting from solid ground, you can fly for 4 meters of your
-movement. You fall at the end of the Player Turn.
-
-*Requires: Glider Move*
-
-**Rocketeer:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which is
-then
-expended. You can fly for the duration of the movement. You fall at the end of the Player Turn.
-
-*Requires: Glider Boost*
-
-**Windsurfer:** Instead of falling at the end of the Player Turn, you can remain floating at your current altitude. If
-you change out of Glider Form or lose your **Boost**, you fall at the end of the Player Turn. You can move horizontally
-as
-long as you are using your Glider to move.
-
-*Requires: Glider Form, Glider Boost*
-
-**Trick Landing:** When you fall at the end of the Player Turn, ignore any falling damage, and gain a **Boost**
-corresponding to your current form, then swap to Glider Form.
-
-**Hitchhiker:** When you take a Movement Action using Glider, you can have another willing creature in your space travel
-with you, without paying any AP. You can pick up and put down the creature at any point during your movement.
-
-*Requires: Glider Move*
-
-**Vanguard Charge:** When you make a Movement Action with your Glider, you can add your **Boost** die to the roll, which
-is then expended. For each **Hit** you sacrifice, you can deal damage equal to your Shield Attribute to one creature in
-any space you moved through, and may push that creature 4 meters in any direction if it's large or smaller.
-
-*Requires: Shield Boost*
-
-**Bombing Run:** When you make a Movement Action using Glider, you can add your **Boost** die to the roll, which is then
-expended. For each **Hit** you sacrifice, you can deal damage equal to your Cannon Attribute to all creatures in any one
-space you moved through or flew above.
-
-*Requires: Cannon Boost*
-
-**Hit and Run:** As part of making a melee attack, you can move a number of spaces equal to your Glider Attribute. You
-can move before or after making the attack, regardless of whether it succeeds. This movement cannot be contested.
-
-*Requires: Glider Move*
-
-### Cannon Skills
-
-**Twin Cannon:** You can split your Cannon into two Twin Cannons held in each hand. Each Twin Cannon's Accuracy is
-your Cannon Attribute at short range, half your Cannon Attribute rounded down at medium range, and you cannot fire
-beyond medium range. Each Twin Cannon's Rate of Fire and Damage bonus is equal to 1. You can swap freely between normal
-form and Twin Cannon form as long as you have the required **Boost**. While in Twin Cannon form, you don't receive
-penalties on ranged attacks while in close combat.
-
-*Requires: Shield Boost*
-
-**Airburst Shot:** Make a ranged attack against a creature in short range with your Twin Cannons, adding your **Boost**
-die, which is then expended. You can push that creature a number of meters equal to the damage it suffered if it's large
-or smaller, and if it collided with a barrier or a space with cover, it takes additional damage equal to
-your Cannon Attribute.
-
-*Requires: Shield Boost*
-
-**Long Cannon:** You can modify your Cannon to make it into a Long Cannon. Your Long Cannon has two less Accuracy at
-short range, but one more Accuracy at Long and Extreme Range. It has a Damage Bonus of 1 and a Rate of Fire of 1. You
-can swap freely between normal form and Long Cannon form as long as you have the required **Boost**.
-
-*Requires: Glider Boost*
-
-**Tracking Shot:** Make a ranged attack against a creature using your Long Cannon. For each **Hit** you set aside, any
-subsequent shot you make with your Long Cannon during the round will hit automatically, as long as the target is in
-range of your weapon. If you swap out of Long Cannon Form or the target leaves the weapon's range, the tracking is
-broken.
-
-*Requires: Glider Boost*
-
-**Rocket Jump:** Make a **Success Roll** using your Cannon Attribute, adding your **Boost** die, which is then consumed.
-You can deal damage to every creature in your space equal to your Cannon Attribute, and then fly a number of meters
-equal to the result.
-
-*Requires: Glider Boost*
-
-**Assault Cannon:** You can modify your Cannon to make it into an Assault Cannon. Your Assault Cannon has one less
-Accuracy on all ranges, and it has a Damage Bonus of 2 and a Rate of Fire of 2. You can swap freely between normal
-form and Assault Cannon form as long as you have the required **Boost**.
-
-*Requires: Cannon Boost*
-
-**Charged Shot:** Make a ranged attack using your Assault Cannon, adding your **Boost** die, which is then consumed. You
-gain an additional Damage Bonus equal to your Cannon Attribute.
-
-*Requires: Cannon Boost*
-
-**Follow Up:** After successfully landing an attack, you can pay 1 AP to land a follow-up shot, adding bonus damage to
-the attack equal to your Cannon Attribute. This swaps you into Cannon Form. You can execute this move even if the Player
-Turn would otherwise end.
-
-**Hook Shot:** Make a ranged attack against a creature in short range. After dealing with damage, you can move the
-creature if it's large or smaller to any space along the line of the attack between you and it, including your space.
-Then, move yourself to any space along the line of the attack between you and the creature's new position, including
-its space. If you move, this also counts as a Glider Move.
-
-*Requires: Shield Boost*
+### Rhino Combo
+
+The Rhino Combo focuses on battlefield displacement and immovable close-quarters enforcement, harpooning priority targets, smashing them into structural barriers, and locking down all movement.
+
+**Hook Shot `[Action]`**
+* **Form:** Cannon
+* **Effect:** You fire a high-tensile magnetic kinetic tether from your Cannon at an anchor point or creature up to Short range (16 meters):
+  * **Inanimate Anchor:** You are immediately winched in a straight line directly to the anchor point.
+  * **Hostile Creature:** Roll a **Cannon + Finesse Simple Test**. If no Hits are scored, the shot misses and the tether snaps back. If you score at least one Hit, the tether latches on; you can spend any **Hits** from the roll to activate **Push Effects** that pull the target creature 1 space (4 meters) directly towards you per Hit spent (even if you only roll a single Hit, spending it on this Push Effect still counts the Hook Shot as a success). Following the pull, you may advance along the tether line any number of spaces towards the target (up to entering its space). If you and the target make contact (ending in the same space), you deal collision damage to the target equal to the highest die rolled. This action also counts as a **Glider Move**.
+
+**Turbo Slam `[Action]`**
+* **Form:** Shield
+* **Requirement:** Glider Move (must have completed a Glider Move this turn, such as advancing via **Hook Shot** or Glider movement, to convert kinetic momentum into impact force).
+* **Effect:** Make a melee strike with your Shield, dealing bonus damage equal to your Shield Attribute. If the target is large or smaller, you may push it a number of meters equal to the damage dealt. If the pushed creature collides with solid cover, a bulkhead, or another combatant, it suffers bonus damage equal to your Shield Attribute again.
+
+**Brick Wall `[Reaction]`**
+* **Form:** Shield
+* **Requirement:** Shield Form (must already be in Shield Form)
+* **Trigger:** When a creature attempts to move across or out of your space while you are in Shield Form.
+* **Effect:** Contest the creature's movement using your Shield Attribute. If you succeed, their movement is halted, and they take damage equal to the highest die you eliminated from their roll. You can also trigger this reaction to contest forced movement triggered by your allies during the Player Turn, even if the Player Turn would normally end.
+
+### Rook Combo
+
+The Rook Combo transforms the Vanguard into an immovable battlefield bastion, deploying reinforced fortifications to shelter squad members, ferrying allies rapidly across hostile firing lanes, and returning heavy ranged fire from behind hardened ballistic plating.
+
+**Gun Shield `[Passive]`**
+* **Form:** Shield
+* **Effect:** Your Board's Shield Form incorporates an articulated weapon brace and magnetic clamp. You can wield and fire a two-handed firearm while in Shield Form, retaining your Shield Form's Physical Protection bonus (+SHD/2).
+
+**Hitchhiker `[Rider]`**
+* **Form:** Glider
+* **Requirement:** Glider Move
+* **Trigger:** When declaring a Movement Action using your Glider.
+* **Effect:** One willing ally in your space or an adjacent space can latch onto your harness or board. They are carried with you for the full duration of your movement for **0 AP**, ending their movement in your destination space. If you end your movement by swapping into Shield Form or deploying your **Tactical Barricade**, the hitched ally immediately shares the fortified space and its cover. You can expend an active **Boost** die to add the Boost die to your movement test roll and carry up to two allies simultaneously.
+
+**Tactical Barricade `[Action]`**
+* **Form:** Shield
+* **Cost:** 1 AP
+* **Effect:** You spend 1 AP to drive your Board into the ground, deploying an immovable kinetic barricade that provides **Medium Cover (+2 Protection)** to you and any allies within your space against attacks originating from outside the space. If you expend an active **Boost** die when deploying the barricade, it reinforces into **Heavy Cover (+3 Protection)**. Occupants sheltering behind the barricade are anchored and immune to forced movement (such as push or pull effects). Enemies cannot enter or cross the barricade's space without succeeding on an opposed contest against your **Shield**. You can reclaim the Board back into standard Shield Form for **0 AP** whenever you declare a Movement Action or swap forms.
+
+### Hawk Combo
+
+The Hawk Combo configures the Board into an extreme-range precision marksman rifle, utilizing gyroscopic stabilization, optical magnification, and telemetry tracking to eliminate priority targets across vast engagement distances.
+
+**Long Cannon `[Passive]`**
+* **Form:** Cannon
+* **Effect:** Your Board reconfigures into a precision sniper rifle. While in Cannon Form, your weapon suffers **-1 Accuracy** at Short range, but gains **+1 Accuracy** at Long and Extreme ranges, and deals a **+2 Damage Bonus** against targets at Medium range or farther. This configuration cannot be combined with **Assault Cannon** (if you possess both abilities, you choose which configuration your Cannon Form takes during downtime).
+
+**Tracking Shot `[Action]`**
+* **Form:** Cannon
+* **Cost:** 1 AP
+* **Effect:** Make a ranged attack roll with your Long Cannon against a target in range. For each Hit set aside from the roll, your next subsequent attack against that target during this round hits automatically without requiring an attack roll.
+
+**Overwatch `[Reaction]`**
+* **Form:** Cannon
+* **Cost:** 1 AP
+* **Requirement:** Long Cannon, and an active automatic hit from **Tracking Shot** on the target.
+* **Trigger:** When a target affected by your **Tracking Shot** (with at least one remaining banked automatic hit) declares an action, makes an attack, or moves.
+* **Effect:** You spend 1 AP and consume one banked automatic hit to immediately take an intercepting shot with your Long Cannon before the target's action resolves. Because the shot hits automatically, roll a **Cannon Success Test** to determine your damage dealt (Success Points + weapon Damage Bonus).
 
 ## Class Mods
 
@@ -244,37 +214,36 @@ replace your current mod with a different one you own during your day-to-day.
 
 ### Twin Turbo
 
-**Effect**: You can hold two different **Boosts** at the same time.
+**Effect**: You can hold up to two **Boost** dice at the same time.
 
 ### Quick Swap
 
-**Effect**: Once per round, you can swap forms without it requiring any test.
+**Effect**: Once per round, you can swap forms without spending an Action Point (0 AP).
 
 ### Starter Boost
 
-**Effect**: At the start of the Round, gain a **Boost** with a value of 10 corresponding to your current Form.
+**Effect**: At the start of the Round, gain a d10 **Boost** die.
 
 ### Custom Build
 
 **Effect**: Choose Shield, Glider, or Cannon. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify
-the
-selected Attribute during your day-to-day.
+the selected Attribute during your day-to-day.
 
 ### Boost Recycling
 
-**Effect**: Once per round, if you have a **Boost**, you can **Rev Up** by expending your current **Boost** instead of
+**Effect**: Once per round, if you have an active **Boost**, you can swap forms by expending your current **Boost** instead of
 paying 1 AP.
 
 ## Progression
 
-## Vanguard Progression
+The Vanguard chassis can be upgraded by spending Credits during downtime. Each progression level unlocks new mechanical configurations and tactical packages.
 
-| Level | Benefit                                             | Credit Cost |
-|:------|:----------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, +3 Skills | 100,000*    |
-| 2     | +1 Attribute Point, +1 Class Mod Slot, +3 Skills    | 20,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap +1, +3 Skills | 40,000      |
-| 4     | +1 Attribute Point, +1 Class Mod Slot, +3 Skills    | 75,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1            | 150,000     |
+| Level | Benefit                                                             | Credit Cost |
+|:------|:--------------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points, Max Attribute Cap: 4, Starting Combo (3 Abilities) | 100,000*    |
+| 2     | +1 Attribute Point, +1 Class Mod Slot, +1 Combo (3 Abilities)        | 20,000      |
+| 3     | +1 Attribute Point, Max Attribute Cap +1, +1 Combo (3 Abilities)     | 40,000      |
+| 4     | +1 Attribute Point, +1 Class Mod Slot, +1 Combo (3 Abilities)        | 75,000      |
+| 5     | +1 Attribute Point, Max Attribute Cap +1                            | 150,000     |
 
-* This cost is only applicable if the Vanguard class was not gained with your starting class.
+* This cost is only applicable if the Vanguard class was not chosen as your starting chassis.
