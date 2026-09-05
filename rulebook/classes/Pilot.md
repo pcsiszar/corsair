@@ -200,7 +200,7 @@ Class Mods represent hardware overclocks and specialized chassis alterations. An
 
 *Bypasses factory safety regulators on hydraulic servos, providing sudden surges of motor power immediately following module activations.*
 
-**Effect**: Immediately after activating any Pilot ability, any test using a chosen Exodrone Attribute gains **+1 Upgrade** until the end of the Player Turn.
+**Effect**: Immediately after activating any Pilot ability, any test using a chosen Exodrone Attribute gains **+1 Upgrade** until the end of the Player Turn. This effect stacks.
 
 ### Standby Capacitor Loop
 

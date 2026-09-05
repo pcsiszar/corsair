@@ -31,7 +31,7 @@
         }
 
         html {
-            font-size: 7.4pt;
+            font-size: 7.1pt;
         }
 
         body {
@@ -115,13 +115,19 @@
             .fl, .note-line {
                 border-bottom-color: #888888 !important;
             }
+
+            .tag-badge {
+                border: 1px solid #000000 !important;
+                background: #ffffff !important;
+                color: #000000 !important;
+            }
         }
 
         .page {
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
-            padding: 3.5mm 4mm;
+            padding: 3mm 3.5mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -142,7 +148,7 @@
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 2.5mm;
+            margin-bottom: 2mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
         }
@@ -150,19 +156,19 @@
         .mh-logo {
             background: var(--accent);
             color: var(--black);
-            padding: 2.5mm 4mm;
+            padding: 2mm 3.5mm;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
-            padding-right: 12mm;
-            min-width: 20mm;
+            padding-right: 11mm;
+            min-width: 18mm;
         }
 
         .mh-logo svg {
-            width: 20px;
-            height: 20px;
+            width: 18px;
+            height: 18px;
             fill: var(--black);
         }
 
@@ -172,18 +178,18 @@
             font-size: 6pt;
             letter-spacing: 0.35em;
             text-transform: uppercase;
-            margin-top: 2px;
+            margin-top: 1px;
         }
 
         .mh-title {
-            padding: 2mm 3.5mm;
+            padding: 1.5mm 3mm;
             flex: 1;
         }
 
         .mh-title h1 {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 900;
-            font-size: 15.5pt;
+            font-size: 15pt;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--accent);
@@ -193,7 +199,7 @@
         .mh-title .sub {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 300;
-            font-size: 7.5pt;
+            font-size: 7pt;
             letter-spacing: 0.28em;
             color: var(--text-dim);
             text-transform: uppercase;
@@ -201,80 +207,52 @@
 
         .mh-name {
             border-left: 1px solid var(--border);
-            padding: 2mm 3.5mm;
+            padding: 1.5mm 3mm;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            min-width: 58mm;
+            min-width: 55mm;
         }
 
         .mh-name label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
+            font-size: 5.8pt;
             letter-spacing: 0.25em;
             text-transform: uppercase;
             color: var(--accent-dim);
-            margin-bottom: 1mm;
+            margin-bottom: 0.8mm;
         }
 
         .mh-name .fl {
             border-bottom: 1px solid var(--border);
-            min-height: 5mm;
-        }
-
-        .identity-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 2px;
-            margin-bottom: 3mm;
-        }
-
-        .id-field {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 2mm 2.5mm 1.5mm;
-        }
-
-        .id-field label {
-            display: block;
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
-            letter-spacing: 0.25em;
-            color: var(--accent-dim);
-            text-transform: uppercase;
-            margin-bottom: 1mm;
-        }
-
-        .id-field .fl {
-            border-bottom: 1px solid var(--border);
-            min-height: 5mm;
+            min-height: 4.5mm;
         }
 
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
-            margin-bottom: 2mm;
+            margin-bottom: 1.8mm;
         }
 
         .card-hd {
             background: var(--mid);
             border-bottom: 1.5px solid var(--accent-dim);
-            padding: 1.2mm 2.2mm;
+            padding: 1mm 2mm;
             display: flex;
             align-items: center;
-            gap: 1.5mm;
+            gap: 1.2mm;
         }
 
         .card-hd svg {
-            width: 11px;
-            height: 11px;
+            width: 10px;
+            height: 10px;
             fill: var(--accent);
             flex-shrink: 0;
         }
 
         .card-hd h2 {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 8.2pt;
+            font-size: 8pt;
             font-weight: 700;
             letter-spacing: 0.14em;
             text-transform: uppercase;
@@ -283,25 +261,13 @@
         }
 
         .card-body {
-            padding: 1.5mm 2.2mm;
-        }
-
-        .attr-group-label {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--text-dim);
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 1.5mm;
-            padding-bottom: 0.5mm;
+            padding: 1.2mm 2mm;
         }
 
         .attr-row {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2px;
-            margin-bottom: 1.5mm;
+            gap: 1.5px;
         }
 
         .attr-block {
@@ -310,21 +276,22 @@
             display: flex;
             align-items: center;
             gap: 1.5mm;
-            padding: 1.2mm 1.5mm;
+            padding: 1mm 1.2mm;
         }
 
         .attr-box {
-            width: 8mm;
-            height: 8mm;
-            border: 2px solid var(--accent-dim);
+            width: 7.5mm;
+            height: 7.5mm;
+            border: 1.5px solid var(--accent-dim);
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 13pt;
+            font-size: 11.5pt;
             font-weight: 900;
             color: var(--accent);
             flex-shrink: 0;
+            background: var(--surface);
         }
 
         .attr-meta {
@@ -333,7 +300,7 @@
 
         .attr-name {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 7.5pt;
+            font-size: 7.2pt;
             font-weight: 700;
             letter-spacing: 0.08em;
             text-transform: uppercase;
@@ -342,33 +309,8 @@
 
         .attr-code {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 5.5pt;
+            font-size: 5.2pt;
             color: var(--text-dim);
-        }
-
-        .gambit-slots {
-            display: flex;
-            gap: 3mm;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 1.5mm 0;
-        }
-
-        .g-slot {
-            width: 10mm;
-            height: 10mm;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
-            position: relative;
-        }
-
-        .gambit-note {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
-            font-style: italic;
-            color: var(--text-dim);
-            text-align: center;
         }
 
         .skill-table {
@@ -378,19 +320,19 @@
 
         .skill-table th {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.2pt;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent-dim);
             text-align: left;
-            padding: 0.9mm 1.5mm;
+            padding: 0.6mm 1.2mm;
             border-bottom: 1px solid var(--accent-dim);
             background: var(--mid);
         }
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 0.9mm 1.5mm;
+            padding: 0.6mm 1.2mm;
             vertical-align: top;
         }
 
@@ -398,116 +340,102 @@
             background: var(--stripe);
         }
 
-        .pip-row {
-            display: flex;
-            gap: 2px;
-            justify-content: center;
-        }
-
-        .pip {
-            width: 8px;
-            height: 14px;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-        }
-
-        .divider {
-            height: 1px;
-            background: linear-gradient(90deg, var(--accent-dim), transparent);
-            margin: 2mm 0;
-        }
-
         .xc-label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.2pt;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent-dim);
-            margin-bottom: 1.2mm;
+            margin-bottom: 1mm;
         }
 
         .rules-text {
             font-family: 'Barlow', sans-serif;
-            font-size: 7pt;
+            font-size: 6.7pt;
             color: var(--text);
             line-height: 1.2;
         }
 
         .rules-text p {
-            margin-bottom: 0.8mm;
+            margin-bottom: 0.6mm;
         }
 
         .rules-text ul {
-            margin-left: 3.5mm;
-            margin-bottom: 0.8mm;
+            margin-left: 3mm;
+            margin-bottom: 0.6mm;
         }
 
         .rules-text li {
-            margin-bottom: 0.3mm;
+            margin-bottom: 0.25mm;
         }
 
         .grid-main {
             display: grid;
-            grid-template-columns: 1fr 2fr;
+            grid-template-columns: 1fr 1.75fr;
             gap: 2.5mm;
             align-items: start;
         }
 
         .page-foot {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
+            font-size: 5.8pt;
             letter-spacing: 0.3em;
             color: var(--text-muted);
             text-align: center;
             text-transform: uppercase;
             margin-top: auto;
-            padding-top: 3mm;
+            padding-top: 1.5mm;
         }
 
-        .checkbox-cell {
-            width: 5%;
-            text-align: center;
-            vertical-align: middle !important;
-        }
-
-        .checkbox-box {
-            width: 3.5mm;
-            height: 3.5mm;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-            margin: 0 auto;
-        }
-
-        /* Alias used in legacy class-mods table */
-        .skill-name-col {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 700;
-            font-size: 8pt;
-            text-transform: uppercase;
+        .chk-cell { width: 4.5mm; text-align: center; vertical-align: middle !important; }
+        .chk-box  { width: 3.2mm; height: 3.2mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
+        .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:7.5pt; text-transform:uppercase; color:var(--accent); }
+        .skill-cost { font-family:'Share Tech Mono',monospace; font-size:5.8pt; color:var(--text-dim); white-space:nowrap; }
+        .skill-desc { font-family:'Barlow',sans-serif; font-size:6.7pt; color:var(--text); line-height:1.2; }
+        
+        .tag-badge {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5pt;
             color: var(--accent);
-            vertical-align: top;
+            background: rgba(200, 168, 75, 0.12);
+            border: 1px solid var(--accent-dim);
+            padding: 0 1mm;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: 1mm;
+            vertical-align: middle;
+            text-transform: uppercase;
         }
-
-        /* Pilot-style skill table classes */
-        .chk-cell { width: 5mm; text-align: center; vertical-align: middle; }
-        .chk-box  { width: 3.5mm; height: 3.5mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
-        .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:8pt; text-transform:uppercase; color:var(--accent); }
-        .skill-cost { font-family:'Share Tech Mono',monospace; font-size:6.2pt; color:var(--text-dim); white-space:nowrap; }
-        .skill-desc { font-family:'Barlow',sans-serif; font-size:7.2pt; color:var(--text); line-height:1.25; }
-        .profile-tag { font-family:'Share Tech Mono',monospace; font-size:6pt; color:var(--text-dim); background:var(--border); padding:0 1.2mm; display:inline-block; margin-top:1px; }
 
         .skill-section-hd td {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; font-weight: 700;
+            font-size: 6.2pt; font-weight: 700;
             letter-spacing: 0.15em; text-transform: uppercase;
             color: var(--accent);
             background: var(--mid) !important;
             border-top: 1px solid var(--accent-dim);
             border-bottom: 1px solid var(--accent-dim);
-            padding: 0.2mm 1.5mm !important;
+            padding: 0.2mm 1.2mm !important;
             line-height: 1;
         }
         .skill-section-hd.first td { border-top: none; }
+
+        .gambit-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
+        }
+
+        .skill-name-col {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 7.5pt;
+            text-transform: uppercase;
+            color: var(--accent);
+            vertical-align: top;
+        }
     </style>
 </head>
 
@@ -555,21 +483,21 @@
                             <div class="attr-box"></div>
                             <div class="attr-meta">
                                 <div class="attr-name">Venom</div>
-                                <div class="attr-code">VNM (Debilitation)</div>
+                                <div class="attr-code">VNM · Debilitation, Toxins, Acids</div>
                             </div>
                         </div>
                         <div class="attr-block">
                             <div class="attr-box"></div>
                             <div class="attr-meta">
                                 <div class="attr-name">Hazard</div>
-                                <div class="attr-code">HZD (Immediate Force)</div>
+                                <div class="attr-code">HZD · Explosives, Incendiaries, Force</div>
                             </div>
                         </div>
                         <div class="attr-block">
                             <div class="attr-box"></div>
                             <div class="attr-meta">
                                 <div class="attr-name">Serum</div>
-                                <div class="attr-code">SRM (Restoration)</div>
+                                <div class="attr-code">SRM · Bio-gels, Stimulants, Triage</div>
                             </div>
                         </div>
                     </div>
@@ -585,26 +513,26 @@
                     <h2>Catalyst Chamber</h2>
                 </div>
                 <div class="card-body">
-                    <div class="xc-label" style="text-align:center; margin-bottom:1.5mm;">Pressure · Volatile Die</div>
-                    <div style="display:flex; gap:2mm; justify-content:center;">
-                        <div class="attr-box" style="width:13mm; height:12mm; flex-direction:column; gap:1px; font-size:10pt;" title="Pressure 0 — No die">
+                    <div class="xc-label" style="text-align:center; margin-bottom:1mm;">Chamber Pressure · Volatile Die</div>
+                    <div style="display:flex; gap:1.8mm; justify-content:center;">
+                        <div class="attr-box" style="width:11.5mm; height:10.5mm; flex-direction:column; gap:0.5px; font-size:9.5pt;" title="Pressure 0 — No die">
                             <span>0</span>
-                            <span style="font-size:5.5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">—</span>
+                            <span style="font-size:5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">None</span>
                         </div>
-                        <div class="attr-box" style="width:13mm; height:12mm; flex-direction:column; gap:1px; font-size:10pt;" title="Pressure 1 — d8">
+                        <div class="attr-box" style="width:11.5mm; height:10.5mm; flex-direction:column; gap:0.5px; font-size:9.5pt;" title="Pressure 1 — d8">
                             <span>1</span>
-                            <span style="font-size:5.5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d8</span>
+                            <span style="font-size:5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d8</span>
                         </div>
-                        <div class="attr-box" style="width:13mm; height:12mm; flex-direction:column; gap:1px; font-size:10pt;" title="Pressure 2 — d10">
+                        <div class="attr-box" style="width:11.5mm; height:10.5mm; flex-direction:column; gap:0.5px; font-size:9.5pt;" title="Pressure 2 — d10">
                             <span>2</span>
-                            <span style="font-size:5.5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d10</span>
+                            <span style="font-size:5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d10</span>
                         </div>
-                        <div class="attr-box" style="width:13mm; height:12mm; flex-direction:column; gap:1px; font-size:10pt;" title="Pressure 3 — d12">
+                        <div class="attr-box" style="width:11.5mm; height:10.5mm; flex-direction:column; gap:0.5px; font-size:9.5pt;" title="Pressure 3 — d12">
                             <span>3</span>
-                            <span style="font-size:5.5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d12</span>
+                            <span style="font-size:5pt; font-family:'Share Tech Mono',monospace; color:var(--text-dim); font-weight:400;">d12</span>
                         </div>
                     </div>
-                    <div class="gambit-note" style="margin-top:1.5mm;">Mark active level · Hit on Volatile Die = 2 dmg, reroll to reset</div>
+                    <div class="gambit-note" style="margin-top:1.2mm;">Mandatory on tests when Prs &ge; 1 · Hit (8+) = Rupture (2 LW, vents to Prs 0)</div>
                 </div>
             </div>
 
@@ -619,70 +547,60 @@
                     <h2>Core Mechanics</h2>
                 </div>
                 <div class="card-body rules-text">
-                    <p><strong>Pressure:</strong> Skills adjust Pressure up/down. Pressure cannot exceed bounds (0-3).
-                        Higher pressure scales Volatile Die.</p>
-                    <p><strong>Volatile Die:</strong> Add to any Hazard Attribute test. If Volatile Die rolls a <strong>Hit</strong>,
-                        take 2 damage and reroll the Volatile Die to reset Pressure:</p>
+                    <p><strong>Pressure Engine:</strong> Starts at 0 each encounter (range 0&ndash;3). Abilities alter Pressure up/down; cannot exceed bounds. Rolling Volatile Die is <em>mandatory</em> on Hazard tests when Pressure &ge; 1.</p>
+                    <p><strong>Rupture (Blowout):</strong> When the Volatile Die rolls a Hit (8+), the Hit counts, but the chamber ruptures: suffer <strong>2 Light Wounds</strong> and Pressure <strong>instantly vents to 0</strong>.</p>
+                    <p><strong>Regulate Chamber [Action] (1 AP):</strong> Manually stroke pump (<strong>+1 Pressure</strong>) or purge valve (<strong>&minus;1 Pressure</strong>) without rolling.</p>
+                    <p><strong>Baseline Actions [Action] (1 AP, space/adjacent):</strong></p>
                     <ul>
-                        <li>1-3: Pressure 3 | 4-6: Pressure 2</li>
-                        <li>7-9: Pressure 1 | 10-12: Pressure 0</li>
-                    </ul>
-                    <p><strong>Baseline Actions (No Skill required):</strong></p>
-                    <ul>
-                        <li><strong>Venom (Apply Downgrade):</strong> Melee attack. Hits create Downgrades (permanent
-                            until cleared). Max active = Venom Attribute.
-                        </li>
-                        <li><strong>Hazard (Melee Attack):</strong> Melee attack in own space. Immediate damage force.
-                        </li>
-                        <li><strong>Serum (Apply Upgrade):</strong> Success Test. SP establishes permanent Upgrade. Max
-                            active = Serum Attribute.
-                        </li>
+                        <li><strong>Venom (Debilitating Dose):</strong> Success Test (can be covert). Sacrifice Hits to apply <strong>1 Downgrade per Hit</strong> (permanent until treated, max active = Venom).</li>
+                        <li><strong>Hazard (Explosive Strike):</strong> Melee strike. Deals base striking damage <strong>+ bonus damage equal to Hazard Attribute</strong>.</li>
+                        <li><strong>Serum (Performance Dose):</strong> Success Test. Bind to Core Attribute; sacrifice Hits for <strong>1 Upgrade per Hit</strong> to tests using that Attribute (max active = Serum).</li>
                     </ul>
                 </div>
             </div>
+
             <!-- CLASS MODS CARD -->
             <div class="card">
                 <div class="card-hd">
                     <svg viewBox="0 0 24 24">
-                        <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
                     </svg>
-                    <h2>Class Modifications</h2>
+                    <h2>Class Modifications (25,000 Cr · Max 2)</h2>
                 </div>
                 <div class="card-body" style="padding: 0;">
                     <table class="skill-table">
                         <thead>
                         <tr>
-                            <th class="checkbox-cell">Act</th>
-                            <th style="width: 26%;">Mod</th>
+                            <th class="chk-cell">Act</th>
+                            <th style="width: 28%;">Mod</th>
                             <th>Effect</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Reagent Extension</td>
-                            <td class="rules-text">When you activate a skill targeting creatures in your space, you may also target creatures with an active Upgrade or Downgrade from your Serums or Venoms.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Burst Dampener</td>
-                            <td class="rules-text">You take only 1 damage when you Rupture, and can modify the Volatile Die result for new Pressure Level by ±1.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Redline Engine</td>
-                            <td class="rules-text">You can exceed the maximum Pressure level, but you rupture immediately and take 2 damage per level you exceed the max by.</td>
-                        </tr>
-                        <tr>
-                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
                             <td class="skill-name-col">Dart Launcher</td>
-                            <td class="rules-text">Skills requiring a melee attack can use a ranged attack at short range instead.</td>
+                            <td class="rules-text">You can execute your baseline Attribute actions (Venom, Hazard, and Serum) against targets within Short range instead of melee reach.</td>
                         </tr>
                         <tr>
-                            <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Deadly Cocktail</td>
-                            <td class="rules-text">You can combine Venom and Hazard with your special melee attacks.</td>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Pressure Controls</td>
+                            <td class="rules-text">You can alter the Pressure cost/change of any Hazard ability by <strong>+1</strong> or <strong>&minus;1</strong> (cannot invert positive/negative).</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Critical Rupture</td>
+                            <td class="rules-text">On a Volatile Die Hit (8+), score the Hit and reroll. Keep scoring Hits and rerolling while 8+. Suffer 2 LW and vent to 0 for each Hit scored.</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Catalyst Controls</td>
+                            <td class="rules-text">At the start of each combat round, freely set your Catalyst Chamber Pressure to any value of your choice (0, 1, 2, or 3).</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Redline Engine</td>
+                            <td class="rules-text">You can activate abilities exceeding max Pressure (3). Resolves at Pressure 3, then triggers an immediate Rupture (2 LW, vents to 0).</td>
                         </tr>
                         </tbody>
                     </table>
@@ -690,9 +608,9 @@
             </div>
         </div>
 
-        <!-- COLUMN 2: SKILLS & MODS -->
+        <!-- COLUMN 2: KITS & ABILITIES -->
         <div>
-            <div class="card" style="margin-bottom: 2mm;">
+            <div class="card">
                 <div class="card-hd">
                     <svg viewBox="0 0 24 24">
                         <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
@@ -702,15 +620,15 @@
                 <div>
                     <table class="skill-table">
                         <colgroup>
-                            <col style="width:5mm;"/>
-                            <col style="width:24%;"/>
-                            <col style="width:9%;"/>
+                            <col style="width:4.5mm;"/>
+                            <col style="width:25%;"/>
+                            <col style="width:10%;"/>
                             <col/>
                         </colgroup>
                         <thead>
                             <tr>
                                 <th class="chk-cell">Lrn</th>
-                                <th>Skill</th>
+                                <th>Ability</th>
                                 <th>Pressure</th>
                                 <th>Effect</th>
                             </tr>
@@ -721,22 +639,22 @@
                                 <td colspan="4">⬡ Medic Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">First Aid</span></td>
-                                <td><span class="skill-cost">−1 Prs</span></td>
-                                <td><span class="skill-desc">Success Test with Serum. For every 2 SP, heal 1 LW on a target in your space plus your Pressure in additional LW.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">First Aid</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;1 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Serum Success Test (space/adjacent). Heal 1 Light Wound per 2 SP + extra LW equal to current Pressure.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Regenerator</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Serum. Sacrifice Hits to apply deferred healing: next time that creature takes damage they heal LW equal to your Serum Attribute.</span></td>
+                                <td><span class="skill-name">Regenerator</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;1 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Serum Success Test (space/adjacent). Heal 1 Light Stress per 2 SP + extra Light Stress equal to current Pressure.</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Defibrillator</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Unconscious target: Success Test with Serum — 1 LW per 2 SP + Pressure in Agg. Conscious target: Hazard melee attack + Pressure bonus damage.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Defibrillator</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Unconscious: Serum Success Test (1 LW per 2 SP; heal 1 Agg if Prs &ge; 1). Conscious: Hazard melee strike (+Prs bonus dmg).</span></td>
                             </tr>
 
                             <!-- BOOSTER KIT -->
@@ -744,22 +662,22 @@
                                 <td colspan="4">⬡ Booster Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Micro-Booster</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Whenever you or a creature in your space takes an action, add your Volatile Die to all rolls involved in that test.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Micro-Booster</span> <span class="tag-badge">Rider</span></td>
+                                <td><span class="skill-cost">+1 Prs · 0 AP</span></td>
+                                <td><span class="skill-desc">When you/ally in space or adjacent declare action, add active Volatile Die to all test rolls (Rupture on 8+).</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Maximum Effort</span></td>
-                                <td><span class="skill-cost">−2 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Serum. Sacrifice Hits to grant a creature in your space +1 Upgrade on all tests using at least 1 Hit until end of round.</span></td>
+                                <td><span class="skill-name">Maximum Effort</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Serum Simple Test. Sacrifice Hits to grant +1 Upgrade per Hit to physical tests of creature in space/adjacent until end of round.</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Adrenaline Rush</span></td>
-                                <td><span class="skill-cost">−3 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Serum. Sacrifice Hits to temporarily grant 1 AP to a creature in your space (lost at start of next Player Turn).</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Adrenaline Rush</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;3 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Serum Simple Test. Sacrifice Hits to grant 1 temporary AP per Hit (max 3) to ally in space/adjacent, usable during target's Player Turn.</span></td>
                             </tr>
 
                             <!-- POISON KIT -->
@@ -767,22 +685,22 @@
                                 <td colspan="4">⬡ Poison Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Envenom</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Melee attack with Venom. +1 damage per Pressure level. Apply Venom Downgrades as normal.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Envenom</span> <span class="tag-badge">Rider</span></td>
+                                <td><span class="skill-cost">+1 Prs · 0 AP</span></td>
+                                <td><span class="skill-desc">Coat weapon/ammo. Attack gains +1 damage per Pressure level, and sacrifice Hits to apply 1 Venom Downgrade per Hit.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Decay</span></td>
-                                <td><span class="skill-cost">−3 Prs</span></td>
-                                <td><span class="skill-desc">Success Test with Venom. Deal damage equal to result to all creatures under your Venom Downgrades; those Downgrades are then consumed.</span></td>
+                                <td><span class="skill-name">Decay</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;3 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Venom Success Test. Deal damage = SP + Venom to all targets in Medium range with your Venom Downgrades, consuming them.</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Cloudkill</span></td>
-                                <td><span class="skill-cost">+3 Prs</span></td>
-                                <td><span class="skill-desc">Grenade (Short Range). Success Test with Venom. Sacrifice Hits to apply 1 level of Venom Downgrade to all in 4m radius. Blocks sight in/out of cloud.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Cloudkill</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+3 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Lob aerosol to Short range. Venom Success Test: apply 1 Downgrade per Hit to all in space. Cloud heavily obscures until round end.</span></td>
                             </tr>
 
                             <!-- PYRO KIT -->
@@ -790,22 +708,22 @@
                                 <td colspan="4">⬡ Pyro Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Firebolt</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Ranged attack (Short Range) using Hazard. +1 damage per Pressure level.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Firebolt</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+1 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Hazard ranged attack (Short Range). Deals thermal damage +1 bonus damage per Pressure level.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Flamestrike</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Choose a space (Short Range). Success Test with Hazard — all creatures in space take damage equal to result. +1 damage per Pressure level.</span></td>
+                                <td><span class="skill-name">Flamestrike</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Target space in Short Range. Hazard Success Test: all in space suffer thermal damage equal to SP + current Pressure.</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Flame Ward</span></td>
-                                <td><span class="skill-cost">−3 Prs</span></td>
-                                <td><span class="skill-desc">Free contest using Hazard (0 AP). Attacker also takes damage equal to your highest remaining die rolled if they are in your space.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Flame Ward</span> <span class="tag-badge">Reaction</span></td>
+                                <td><span class="skill-cost">&minus;3 Prs · 0 AP</span></td>
+                                <td><span class="skill-desc">When attacked, contest with Hazard. If attacker occupies your space or adjacent, they take damage = highest remaining die.</span></td>
                             </tr>
 
                             <!-- CAUSTIC KIT -->
@@ -813,22 +731,22 @@
                                 <td colspan="4">⬡ Caustic Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Corrosive Spray</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Melee attack with Venom. Sacrifice Hits to permanently reduce target's Physical Protection by 1 per Hit.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Acid Strike</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Venom melee attack (space/adjacent). Set aside Hits: spend set-aside Hit to ignore target's Physical Protection on next damage.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Caustic Bullets</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Ranged attack using a Firearm. Loses any Damage Bonus but ignores the target's Physical Protection entirely.</span></td>
+                                <td><span class="skill-name">Caustic Bullets</span> <span class="tag-badge">Rider</span></td>
+                                <td><span class="skill-cost">+1 Prs · 0 AP</span></td>
+                                <td><span class="skill-desc">When firing firearm, shot completely ignores target's Physical Protection, but weapon loses standard Damage Bonus.</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Acid Trail</span></td>
-                                <td><span class="skill-cost">−2 Prs</span></td>
-                                <td><span class="skill-desc">Movement action. Deal damage equal to your Hazard Attribute to all creatures in spaces you move through, and reduce Cover Rating of each space by 1.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Metal Transfer</span> <span class="tag-badge">Reaction</span></td>
+                                <td><span class="skill-cost">&minus;2 Prs · 0 AP</span></td>
+                                <td><span class="skill-desc">When ally in Short range attacked, all allies in Short range gain +1 Protection against next damage per active Hit on Venom abilities.</span></td>
                             </tr>
 
                             <!-- OOZE KIT -->
@@ -836,22 +754,22 @@
                                 <td colspan="4">⬡ Ooze Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Rubberband</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Serum (Short Range). Sacrifice Hits to pull target 4m closer per Hit. If you end in same space, make a free Success Roll with Serum to deal damage.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Rubberband</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+1 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Tether Short Range. Anchor = auto-pull; Creature = Serum Simple Test (Hits pull 4m; advance; deal collision dmg on contact).</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Slimeball</span></td>
-                                <td><span class="skill-cost">−2 Prs</span></td>
-                                <td><span class="skill-desc">Ranged attack with Venom. Instead of damage, sacrifice Hits to apply a blocker effect that prevents target from using legs or hands.</span></td>
+                                <td><span class="skill-name">Slimeball</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Venom ranged attack (Short Range). Spend Hits for Blocker Effect: negate highest die on locomotion (legs) or attacks (hands).</span></td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Trailblazer</span></td>
-                                <td><span class="skill-cost">−1 Prs</span></td>
-                                <td><span class="skill-desc">Movement action with Serum. Until start of your next turn, all spaces you move through become difficult terrain.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Slip and Slide</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;1 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Target adjacent spaces up to Pressure: become Difficult Terrain for enemies; grants allies +1 Upgrade on movement tests.</span></td>
                             </tr>
 
                             <!-- SMOKE KIT -->
@@ -859,45 +777,22 @@
                                 <td colspan="4">⬡ Smoke Kit</td>
                             </tr>
                             <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Smoke Screen</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Hazard. Sacrifice Hits to deploy smoke screens in spaces within Short Range. Smoke blocks sight in/out; all in smoke get 2 Downgrades on sight-based tests. Lasts until end of round.</span></td>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Smoke Screen</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Hazard Simple Test. Deploy smoke in Short Range: blocks sight; any creature other than you receives 2 Downgrades on visual tests.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Gas Canister</span></td>
-                                <td><span class="skill-cost">+2 Prs</span></td>
-                                <td><span class="skill-desc">Choose a space (Short Range). Roll Venom or Serum to apply Downgrade or Upgrade to creatures in that space. Sacrifice 1 Hit to target only one creature instead of all.</span></td>
-                            </tr>
-                            <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Ninja Vanish</span></td>
-                                <td><span class="skill-cost">−2 Prs</span></td>
-                                <td><span class="skill-desc">Contest an attack with Hazard (free), then drop a smoke screen in your current space. Smoke blocks sight in/out until end of round.</span></td>
-                            </tr>
-
-                            <!-- PSYCHEDELIC KIT -->
-                            <tr class="skill-section-hd">
-                                <td colspan="4">⬡ Psychedelic Kit</td>
-                            </tr>
-                            <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Ear Bug</span></td>
-                                <td><span class="skill-cost">+1 Prs</span></td>
-                                <td><span class="skill-desc">Social action (Short Range). Add Volatile Die to the roll. Gain Upgrades equal to the highest Venom Downgrade level active on any creature you speak to.</span></td>
+                                <td><span class="skill-name">Gas Canister</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">+2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Lob to Short Range. Roll Venom (Downgrade enemies) or Serum (Upgrade allies) in space. Spend 1 Hit to isolate single target.</span></td>
                             </tr>
                             <tr>
                                 <td class="chk-cell"><div class="chk-box"></div></td>
-                                <td><span class="skill-name">Lullaby</span></td>
-                                <td><span class="skill-cost">−1 Prs</span></td>
-                                <td><span class="skill-desc">Success Test with Serum. For every 2 SP, heal 1 light stress on a creature in your space.</span></td>
-                            </tr>
-                            <tr>
-                                <td class="chk-cell" style="color:var(--text-muted);">·</td>
-                                <td><span class="skill-name">Rampage</span></td>
-                                <td><span class="skill-cost">+3 Prs</span></td>
-                                <td><span class="skill-desc">Simple Test with Venom. Sacrifice Hits to convert Venom Downgrade levels into Rampage Effects: target always attacks nearest creature (friend or foe). One Rampage level clears at end of GM Turn.</span></td>
+                                <td><span class="skill-name">Gas Turbine</span> <span class="tag-badge">Action</span></td>
+                                <td><span class="skill-cost">&minus;2 Prs · 1 AP</span></td>
+                                <td><span class="skill-desc">Next movement test with Hazard: ignore Difficult Terrain and fly. Crit Effects add +4 SP (instead of +2). Ignore falling damage.</span></td>
                             </tr>
                         </tbody>
                     </table>

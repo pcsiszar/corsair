@@ -209,30 +209,28 @@ The Hawk Combo configures the Board into an extreme-range precision marksman rif
 
 ## Class Mods
 
-You unlock class mod slots at certain progression levels. You can buy Class Mods for 25,000 Credits each. You can
-replace your current mod with a different one you own during your day-to-day.
+You unlock class mod sockets at Levels 3 and 5. You can buy Class Mods for 25,000 Credits each. You can
+replace your current mod with a different one you own during downtime.
 
 ### Twin Turbo
 
 **Effect**: You can hold up to two **Boost** dice at the same time.
 
-### Quick Swap
+### Cheat Move
 
-**Effect**: Once per round, you can swap forms without spending an Action Point (0 AP).
+**Effect**: Once per round, you can change forms without spending an Action Point (0 AP) and have it count as a **Form Move**.
 
-### Starter Boost
+### Head Start
 
-**Effect**: At the start of the Round, gain a d10 **Boost** die.
+**Effect**: At the start of the Round, swap to a desired Form for free (0 AP), then, if you do not have **Boost**, gain one.
 
-### Custom Build
+### Hesitation Moves
 
-**Effect**: Choose Shield, Glider, or Cannon. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify
-the selected Attribute during your day-to-day.
+**Effect**: You qualify for Form Move requirements if you have performed a Form Move this Round, not this Turn.
 
-### Boost Recycling
+### Boost Buildup
 
-**Effect**: Once per round, if you have an active **Boost**, you can swap forms by expending your current **Boost** instead of
-paying 1 AP.
+**Effect**: At the end of the Player Turn, if you haven't swapped Forms this turn, gain a **Boost**.
 
 ## Progression
 
