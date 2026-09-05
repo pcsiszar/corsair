@@ -214,10 +214,10 @@ The Pilot chassis can be upgraded by spending Credits during downtime. Each prog
 
 | Level | Benefits Unlocked | Credit Cost |
 | :---: | :--- | :---: |
-| **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1, cap 4), Starting Module (3 Abilities), Battery Engine | **100,000 Credits\*** |
-| **Level 2** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Module (3 Abilities) | **20,000 Credits** |
-| **Level 3** | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Module (3 Abilities) | **40,000 Credits** |
-| **Level 4** | +1 Attribute Point, +1 Class Mod Slot (Slot 2), +1 Module (3 Abilities) | **75,000 Credits** |
-| **Level 5** | +1 Attribute Point, Max Attribute Cap becomes 6 | **150,000 Credits** |
+| **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1), Starting Module (3 Abilities), Battery Engine | **100,000 Credits\*** |
+| **Level 2** | +1 Attribute Point, +1 Module (3 Abilities) | **20,000 Credits** |
+| **Level 3** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Module (3 Abilities) | **40,000 Credits** |
+| **Level 4** | +1 Attribute Point, +1 Module (3 Abilities) | **75,000 Credits** |
+| **Level 5** | +1 Attribute Point, +1 Class Mod Slot (Slot 2) | **150,000 Credits** |
 
 *\*The 100,000 Credit cost for Level 1 applies only when purchasing an additional class chassis after character creation; an operative's starting class is free.*

@@ -133,6 +133,10 @@
             .weave-group-end td {
                 border-bottom: 1.5px solid #000000 !important;
             }
+
+            .skill-cost {
+                color: #222222 !important;
+            }
         }
 
         .page {
@@ -498,11 +502,13 @@
 
         .skill-cost {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 6.5pt;
+            font-size: 5.8pt;
             color: var(--text-dim);
-            margin-top: 0.5mm;
+            margin-top: 0.4mm;
             text-align: center;
-            vertical-align: middle !important;
+            letter-spacing: 0.04em;
+            white-space: nowrap;
+            display: block;
         }
 
         /* ===================================================  NANITE ACTIONS  */
@@ -638,8 +644,8 @@
         }
 
         .weave-table .method-cell {
-            width: 13%;
-            text-align: left;
+            width: 14%;
+            text-align: center;
         }
 
         .weave-group-end td {
@@ -724,7 +730,7 @@
                 </div>
                 <div class="card-body">
                     <div class="rules-text">
-                        <p><strong>Starting Reserve:</strong> 3 Reserve stowed at creation. All nanite actions and weave skills cost 1 Reserve by default.</p>
+                        <p><strong>Starting Reserve:</strong> 4 Reserve stowed at creation. All nanite actions and weave skills cost 1 Reserve by default.</p>
                         <p style="display: flex; align-items: center; gap: 1.5mm; margin-top: 1mm;">
                             <span class="round-icon" style="margin-left: 0;">
                                 <svg viewBox="0 0 24 24">
@@ -771,8 +777,8 @@
                         <p>Weapons, armor, cover, and healing items are off-limits unless unlocked via Weave skills. Creations/modifications have 0 Load. Action range is your current space.</p>
                     </div>
                     <div class="rule-box accent-red">
-                        <div class="rule-box-label">Disassembly</div>
-                        <p>Command creations to disassemble at any time for free to instantly regain spent Reserve.</p>
+                        <div class="rule-box-label">Disassembly [Free]</div>
+                        <p>Command creations to disassemble at any time for free (0 AP) to instantly regain spent Reserve.</p>
                     </div>
                 </div>
             </div>
@@ -802,13 +808,13 @@
                         </tr>
                         <tr>
                             <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Prime Weave</td>
-                            <td class="rules-text">Choose a learned Weave. Any test using it gains +1 Upgrade. Reassignable day-to-day.</td>
+                            <td class="skill-name-col">Reborn Weave</td>
+                            <td class="rules-text">On a Weaver Success Roll, disassemble an enhanced creation/mod to score spent Hits + 8 SP instead.</td>
                         </tr>
                         <tr>
                             <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col">Favored Method</td>
-                            <td class="rules-text">Choose Create, Modify, or Control. Any test using it gains +1 Upgrade. Reassignable day-to-day.</td>
+                            <td class="skill-name-col">Revitalizing Weave</td>
+                            <td class="rules-text">When you recycle a creation/mod, also regain a spent Reserve recharging at end of turn.</td>
                         </tr>
                         <tr>
                             <td class="checkbox-cell"><div class="checkbox-box"></div></td>
@@ -818,7 +824,7 @@
                         <tr>
                             <td class="checkbox-cell"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col">Weave Infusion</td>
-                            <td class="rules-text">Spend 1 extra Reserve on a Weave Success Test for +3 Success Points. Recharges with the original.</td>
+                            <td class="rules-text">Spend 1 extra Reserve on a Weave test for +3 SP, or +1 Hit if successful. Recharges with original.</td>
                         </tr>
                         </tbody>
                     </table>
@@ -840,8 +846,8 @@
                         <thead>
                         <tr>
                             <th class="checkbox-cell">Lrn</th>
-                            <th style="width: 18%;">Weave</th>
-                            <th style="width: 13%; text-align: center;">Method</th>
+                            <th style="width: 17%;">Weave</th>
+                            <th style="width: 14%; text-align: center;">Tag / Method</th>
                             <th>Effect</th>
                         </tr>
                         </thead>
@@ -850,128 +856,175 @@
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">HardWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Shield:</strong> Success Test. +1 Prot per 3 SP.</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Shield [Act]:</strong> Action Roll. 1H shield (+1 Prot base). +1 Prot per Hit.</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Armor:</strong> Success Test. +1 Armor Prot per 4 SP.</td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Armor [Act]:</strong> Action Roll. Reinforce armor in space: +1 Prot per Hit.</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Block:</strong> Use Control for free contest roll.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Rct] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Block [Rct]:</strong> Contest incoming attack using Control for 0 AP.<span class="round-icon" title="Reserve recharges at start of next round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- SliceWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">SliceWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Blade:</strong> +1 Dmg or Reach per 2 SP.</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Blade [Act]:</strong> 1H melee (Dmg +1, declare Pierce/Slash/Strike). +1 Dmg per Hit.</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Edge:</strong> Success Test. Weapon gains +1 Dmg/Reach per 3 SP.</td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Edge [Act]:</strong> Action Roll. Melee weapon in space gains +1 Dmg per Hit.</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Slash:</strong> Success Test. Deal Control + Control Dmg in adjacent space.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Slash [Act]:</strong> Deal SP + Control Slashing Dmg in chosen space.<span class="round-icon" title="Reserve recharges at start of next round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- BoltWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">BoltWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Gun:</strong> +1 Acc (Short/Med) or +1 Dmg per 2 SP.</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Weapon [Act]:</strong> 2H gun (Acc [3/2/1/0], RoF 1, Dmg +1). Hits adjust stats (no dupes).</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Bullet:</strong> +1 Acc (all ranges) or +1 Dmg per 3 SP. Lasts until end of round in which you attack.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Rdr] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Ammo [Rdr]:</strong> Chambered rounds gain +1 Dmg, +1 RoF, or +1 Acc in a band per Hit.</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Throw:</strong> Launch creation to deal Control Success Test Dmg (40m range).<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Bullet [Act]:</strong> Ranged attack at Short range (0–5 spc). Deal SP + Control + 3 kinetic Dmg.<span class="round-icon" title="Reserve recharges at start of next round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- FloatWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">FloatWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Infusion:</strong> Creation floats and moves with Control Hand.</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Pas] 0 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Infusion [Pas]:</strong> Creations hover; hands-free use using Control or Create.</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Wings:</strong> Success Test. Target moves 2m/SP and hovers.</td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Wings [Act]:</strong> Grant Flight (4m, hovers, safe fall); move via Modify/Control test.</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Hand:</strong> Success Test. Move target item (Load 2 max) 1m/SP.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
-                        </tr>
-
-                        <!-- BindWeave -->
-                        <tr>
-                            <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col" rowspan="3">BindWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Infusion:</strong> Make creation sticky. Roll Create for Downgrades.</td>
-                        </tr>
-                        <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Coating:</strong> Handprint-size coating. Target sticks (Modify roll).</td>
-                        </tr>
-                        <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Yank:</strong> Success Test. Move willing/unwilling target 4m per 2 SP.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Wind [Act]:</strong> Gain Flight and use Control on movement until end of turn.<span class="round-icon" title="Reserve recharges at end of turn"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- LifeWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">LifeWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Elixir:</strong> Consumable (Heal 1 LW/Stress per 2 SP on consumption).</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Elixir [Act]:</strong> Consumable injector. Heal 1 Light Wound or Stress per 2 SP.</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Heal:</strong> Heal 2 LW per 3 SP to target in space.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Heal [Act]:</strong> Direct injection in space. Heal 2 Light Wounds per 3 SP.<span class="round-icon" title="Reserve recharges at start of next round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Enhance:</strong> Healed target uses your Control instead of physical attributes.</td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Pas] 0 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Enhance [Pas]:</strong> LifeWeave targets use your Control for any Core Attribute.</td>
                         </tr>
 
-                        <!-- StealthWeave -->
+                        <!-- MirageWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
-                            <td class="skill-name-col" rowspan="3">StealthWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Infusion:</strong> Sacrifice hits for a Persistent Blocker vs. perceiving the object.</td>
+                            <td class="skill-name-col" rowspan="3">MirageWeave</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Pas] 0 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Infusion [Pas]:</strong> Disguise item, use Create in tests, or sac Hits for Blocker.</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Coating:</strong> Success Test. Sacrifice hits for a Persistent Blocker on a creature/object.</td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Coating [Act]:</strong> Disguise target, use Modify in tests, or sac Hits for Blocker.</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Veil:</strong> Success Test. Sacrifice hits for a Blocker; lasts until next Player Turn.<span class="round-icon" title="Reserve recharges at end of round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Veil [Act]:</strong> Mobile space veil (Blocker vs sight/ranged; breaks on attack).<span class="round-icon" title="Reserve recharges at start of next round"><svg viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="15" rx="2"/><line x1="9" y1="3" x2="15" y2="3"/><line x1="9" y1="6" x2="15" y2="6"/><polygon points="13 8 9 14 12 14 11 20 15 14 12 14 13 8" fill="var(--accent)" stroke="none"/></svg></span></td>
                         </tr>
 
                         <!-- CyberWeave -->
                         <tr>
                             <td class="checkbox-cell" rowspan="3"><div class="checkbox-box"></div></td>
                             <td class="skill-name-col" rowspan="3">CyberWeave</td>
-                            <td class="method-cell"><span class="method-badge create">Create</span></td>
-                            <td class="rules-text"><strong>Drone:</strong> Success Test. +1 Interfacing or Sensors per 2 SP. Moves 20m/round; breaks on damage or &gt;40m away.</td>
+                            <td class="method-cell">
+                                <span class="method-badge create">Create</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Drone [Act]:</strong> Crawler (20m/rnd). +1 Interfacing or Sensors per 2 SP (40m max).</td>
                         </tr>
                         <tr>
-                            <td class="method-cell"><span class="method-badge modify">Modify</span></td>
-                            <td class="rules-text"><strong>Virus:</strong> Device in space performs, glitches, or damages itself. Repeatable within 40m, no extra Res.</td>
+                            <td class="method-cell">
+                                <span class="method-badge modify">Modify</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Virus [Act]:</strong> Device in space performs, glitches, or damages itself (40m range).</td>
                         </tr>
                         <tr class="weave-group-end">
-                            <td class="method-cell"><span class="method-badge control">Control</span></td>
-                            <td class="rules-text"><strong>Swarm:</strong> Success Test on 4m radius. +1 Upgrade per 2 SP vs. targets in area; free reposition.</td>
+                            <td class="method-cell">
+                                <span class="method-badge control">Control</span>
+                                <span class="skill-cost">[Act] 1 Res</span>
+                            </td>
+                            <td class="rules-text"><strong>Swarm [Act]:</strong> 4m radius sensor cloud (20m range). +1 Upgrade per 2 SP.</td>
                         </tr>
                         </tbody>
                     </table>

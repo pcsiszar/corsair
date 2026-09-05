@@ -220,17 +220,14 @@ to convert all your charges into the new element.
 
 ## Progression
 
-## Conduit Progression
+At character creation, distribute your 7 Class Creation Points among Flame, Frost, and Lightning (base 1/1/1, starting cap 5). The Aether Core can be upgraded by spending Credits during downtime.
 
-At character creation, distribute 5 points among Flame, Frost, and Lightning (max 4). The Aether Core can be upgraded by
-spending Credits.
-
-| Level | Benefit                                                           | Credit Cost |
-|:------|:------------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Charges: 3, 1 Skill | 100,000*    |
-| 2     | +1 Attribute Point, +1 Mod Slot, +1 Skills                        | 20,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap +1, +1 Skills               | 40,000      |
-| 4     | +1 Attribute Point, +1 Mod Slot                                   | 75,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1                          | 150,000     |
+| Level | Benefit                                                                | Credit Cost |
+|:------|:-----------------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points (base 1/1/1), Max Charges: 3, 1 Starting Skill Pair | 100,000*    |
+| 2     | +1 Attribute Point, +1 Skill Pair                                      | 20,000      |
+| 3     | +1 Attribute Point, +1 Mod Slot (Slot 1), +1 Skill Pair                | 40,000      |
+| 4     | +1 Attribute Point, +1 Skill Pair                                      | 75,000      |
+| 5     | +1 Attribute Point, +1 Mod Slot (Slot 2)                               | 150,000     |
 
 * This cost is only applicable if the Conduit class was not gained with your starting class.

@@ -127,8 +127,8 @@ Class Mods represent hardware overclocks, precision calibrations, and firmware a
 * **Fixed Pool Size:** Exactly **5 distinct Class Mods** are designed for each class.
 * **Universal Pricing:** Each Class Mod costs **25,000 Credits**.
 * **Socket Slots:**
-  * **Slot 1:** Unlocked at **Level 2**.
-  * **Slot 2:** Unlocked at **Level 4**.
+  * **Slot 1:** Unlocked at **Level 3**.
+  * **Slot 2:** Unlocked at **Level 5**.
   * An operative can install a maximum of **2 Class Mods** at a time per chassis.
 * **Downtime Swapping:** Operatives may swap installed mods among those they own during day-to-day pacing.
 * **Design Philosophy (Lateral Rule-Bending):** Mods should **not** provide boring numerical stat bumps (`+1 Attribute`). Instead, they must offer playstyle-defining lateral changes that bend the class engine's hard rules, such as:
@@ -145,11 +145,11 @@ All classes follow a strictly standardized credit-funded upgrade progression fro
 
 | Level | Benefits Unlocked | Credit Cost |
 | :---: | :--- | :---: |
-| **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1, cap 5), Starting Package, Class Engine | **100,000 Credits\*** |
-| **Level 2** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Ability Package | **20,000 Credits** |
-| **Level 3** | +1 Attribute Point, Max Attribute Cap becomes 6, +1 Ability Package | **40,000 Credits** |
-| **Level 4** | +1 Attribute Point, +1 Class Mod Slot (Slot 2), +1 Ability Package | **75,000 Credits** |
-| **Level 5** | +1 Attribute Point, Max Attribute Cap becomes 7 | **150,000 Credits** |
+| **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1), Starting Package, Class Engine | **100,000 Credits\*** |
+| **Level 2** | +1 Attribute Point, +1 Ability Package | **20,000 Credits** |
+| **Level 3** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Ability Package | **40,000 Credits** |
+| **Level 4** | +1 Attribute Point, +1 Ability Package | **75,000 Credits** |
+| **Level 5** | +1 Attribute Point, +1 Class Mod Slot (Slot 2) | **150,000 Credits** |
 
 *\*The 100,000 Credit cost for Level 1 applies only when purchasing an additional class chassis after character creation; an operative's starting class is free.*
 

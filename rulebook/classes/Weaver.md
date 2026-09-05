@@ -4,235 +4,227 @@
 
 ## Description
 
-The Weaver is the cell’s master of molecular manipulation and battlefield adaptation, defined by their total command
-over a specialized reservoir of **Nanites**. These microscopic machines are controlled via a direct neural implant,
-allowing
-the Weaver to telepathically command swarms that behave like a living, metallic fluid. Visually, the Weaver is the most
-distinct member of a cell; because they carry their "ammunition" on their person, their excess nanites often coalesce
-into shifting, iridescent scarves, flowing cloaks, or reinforced layers of clothing that ripple with a subtle,
-mechanical pulse. This gives the Weaver an almost ethereal silhouette, draped in "fabric" that can instantly harden into
-jagged blades or dissolve into a cloud of stinging dust.
+The Weaver is the cell’s master of molecular manipulation and on-the-fly fabrication, defined by total neural command over a specialized chassis housing millions of microscopic **Nanites**. Anchored to the operative's thoracic spine by pressurized titanium-ceramic reservoirs and routed across the body through subdermal micro-manifolds, this liquid-alloy suspension interfaces directly with the central nervous system via a standardized cranial shunt. Visually, a Weaver cuts an unmistakable, iridescent silhouette. Dormant nanite fluid constantly cycles across their person, pooling into shifting metallic scarves, flowing cloaks, or reinforced layers of kinetic weave that shimmer with subtle chromatic pulses. With a single neuro-synaptic impulse, these fluid fabrics can instantly solidify into razor-sharp monomolecular blades, lock into rigid ballistic plating, or atomize into an airborne cloud of micro-mechanical dust.
 
-The core utility of the Weaver lies in their ability to craft and modify equipment on the fly, using their nanite
-reserves to improve the cell's weaponry or forge entirely new tools in seconds. By infusing their swarms with different
-Weaves, the Weaver can fundamentally change the properties of their constructs to suit the mission's needs. A protective
-weave can instantly form a suit of sturdy, bullet-resistant armor around the user or an ally, while a kinetic weave can
-improve nanite-formed edges into blades capable of shearing through reinforced steel. Beyond physical combat, the Weaver
-can deploy their swarm to integrate with and take over electronic circuits, making them the ultimate infiltrators and
-saboteurs in high-tech environments. Whether they are reinforcing a barricade or dismantling a security door from the
-inside out, the Weaver ensures the cell always has the right tool for the job.
+In active combat, the Weaver's reservoir operates under hard-science principles of programmable matter and high-frequency magnetic confinement fields. Billions of microscopic, multi-jointed alloy nodes rapidly interlock at the molecular level, allowing the Weaver to fabricate tools, forge weapons, or reinforce structural bulkheads in mere seconds. The experience of commanding the swarm is intensely tactile; operatives describe a distinct hum along their nerve endings as high-density telemetry streams back through their shunt port, conveying the structural integrity, surface tension, and molecular density of their creations in real time. Rather than carrying cumbersome bags of situational gear, the Weaver carries raw structural potential, reshaping their metallic fluid to solve logistical hurdles or tactical crises as they unfold.
+
+The modular versatility of the Weaver chassis makes it the ultimate force multiplier across all operational theaters. An operative can tune their nanite suspension into solid-state ballistic shields and physical armor to anchor a defensive perimeter, forge high-leverage melee blades or precision-calibrated long guns, weave aerodynamic aerofoils for effortless 3D flight, or flood allied tissue with cellular micro-sutures and clotting agents for emergency field triage. In technical environments, the nanite swarm can infiltrate sealed data ports and electronic consoles, short-circuiting security networks from the inside out. Whatever the mission demands, the Weaver ensures the cell is never without the right tool for the job.
 
 ## Attributes
 
-A Weaver's power is defined by three Attributes:
+A Weaver's power is defined by three Class Attributes:
 
-* **Create**: Craft an object using your nanites.
-
-* **Control**: Manipulate an object using your nanites.
-
-* **Modify**: Alter existing objects using your nanites.
+* **Create**: Molecular structural synthesis, solidifying dormant nanite fluid into functional physical tools, shields, and armaments.
+* **Control**: Telemetric dynamic manipulation, guiding active swarms and directing forged constructs across spatial vectors.
+* **Modify**: Precision lattice bonding, infusing existing equipment, physical structures, and organic tissue with adaptive nanite layers.
 
 ## Basic Mechanics
 
-When you make use of your nanites, you will roll with one or more of the Weaver's Attributes if a test is required. By
-default, you are only allowed to create, control, and modify objects that do not have statistics associated with them.
-This means weapons, armor, cover, and healing equipment are off the table unless you unlock that ability by learning a
-Nanite Skill.
+When utilizing nanite capabilities, you roll tests using your Weaver Attributes. By default, your raw nanites can only create, modify, or manipulate simple objects that do not possess combat statistics or specialized properties—such as basic prybars, ropes, lockpicks, simple furniture, or utilitarian covers. Forging functional weapons, ballistic armor, medical consumables, or electronic viruses requires unlocking the corresponding **Nanite Weaves**.
 
-To use your nanites during a test, you must describe what the nanites create or modify for you, or how controlling the
-nanites in your creation helps you in achieving your goal.
+To execute a nanite test, you declare your narrative action and pair your chosen Weaver Attribute with an appropriate Core Attribute (`Class + Core`), or with another Weaver Attribute (`Class + Class`). For example, you might combine **Create + Strength** to forge a heavy kinetic prybar and wrench open a jammed hatch, pair **Create + Finesse** to fabricate a micro-lockpick and align security tumblers, roll **Control + Instinct** to thread a nanite sensory cable beneath a blast door, or use **Modify + Presence** to subtly alter the identification text and seal on an executive credential.
 
-Here are some examples across different situations:
+### The Nanite Reservoir
 
-*Locked door:* Use **Create + Strength** to forge a crowbar and lever it open, **Create + Finesse** to shape a
-lockpick and work the tumblers yourself, **Create** to form a key shaped to fit the lock, **Modify** to reshape an
-existing key or alter the lock to accept it, or **Control + Finesse** to guide the nanites themselves to manipulate
-the tumblers directly.
+Every Weaver maintains a physical reserve of programmable matter, measured in **Reserve**:
 
-*Chasing or being chased:* Use **Create + Control** to form a slick panel of nanite material and flick it under a
-pursuer's feet (or **Create + Finesse** if you'd rather guide it precisely yourself), **Control + Agility** to fling
-a created object into a pursuer's path, or **Modify + Agility** to rapidly widen a gap in a wall or grate you're
-squeezing through.
+* **Baseline Capacity:** Operatives start with a capacity of **4 Reserve**.
+* **Physical Volume:** A single point of Reserve corresponds to roughly 1 liter of concentrated nanite fluid held within the operative's pressurized dorsal canisters and subcutaneous manifold lines.
+* **Material Scale & Density:** Stretched to its structural limits, 1 Reserve can produce a 24-meter cable, a 1-square-meter rigid surface, or handheld items equivalent to Load 1–2.
+  * **1 Reserve:** Handheld tools, cables, grappling hooks, one-handed weapons, simple containers (Load 1–2 equivalent).
+  * **2 Reserve:** Ladders, chairs, full hazard suits, two-handed firearms, deployable barriers (Load 3–4 equivalent).
+  * **3 Reserve:** Reinforced benches, heavy 1m × 1m blast walls, pressurized airlocks (Load 5–6 equivalent).
+* **Workspace Limitation:** You can only deploy nanites to create, modify, or manipulate objects in the **space you currently occupy**, unless an ability or modification explicitly extends your operational range.
+* **Load Invariant:** All items forged purely from nanites have an effective **Load of 0**. Modifications applied to existing equipment preserve that equipment's original Load.
+* **Instant Disassembly `[Free Action]`:** You can command any active creation or modification to decouple, liquefy, and siphon back into your reservoir at any time for **0 AP**, instantly recovering the spent **Reserve**.
+* **Reserve Cycles:** When an ability specifies that spent Reserve *"recharges at the start of the next round"* or *"recharges at the end of the turn"*, that nanite volume is actively circulating through dynamic micro-currents and cannot be allocated to new creations until the specified duration elapses.
 
-*Social situation:* Use **Create + Charisma** to produce convincing forged documents, ID cards, or prop evidence on
-the spot, or **Modify + Charisma** to subtly alter an existing document's text or seal to match a forgery.
+## Class Abilities
 
-*Gaining information:* Use **Create + Instinct** to construct a simple listening device or reflective surface to peer
-around a corner, or **Control + Instinct** to guide a nanite thread under a door to feel out what's on the other side.
+Weaver abilities are grouped into thematic packages called **Nanite Weaves**. Each Weave is a tripartite suite containing three specialized applications—one for **Create**, one for **Modify**, and one for **Control**. Operatives select one starting Weave at character creation, and unlock an additional Weave at Levels 2, 3, and 4.
 
-Each Weaver has a set amount of **Reserve**, starting at 3. All usage of your nanite abilities requires at least 1
-**Reserve**. A single point of **Reserve** is about 1 liter worth of nanites stowed away in a canister or hovering
-around the
-user. The density of the material the nanites can make varies; stretched to its limits, one **Reserve** can make a
-24-meter rope, or a 1-square-meter surface, or a soccer-ball-sized sphere.
+### HardWeave
 
-You can only use your nanite powers to create, control, or modify in the space you occupy.
+HardWeave configures your nanite swarm into high-density interlocking crystalline lattices engineered to absorb catastrophic kinetic shock and deflect incoming fire.
 
-Everything you create has a Load of 0, and every modification you make to equipment preserves its original Load.
+**HardWeave Shield `[Action]`**
+* **Attribute:** Create
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Micro-crystallized plates interlock across your forearm to form a rigid ballistic barrier.* You forge a physical shield in your space for yourself or an ally. It functions as a **1H shield** (Min STR 0, Load 0) granting a base **+1 Physical Protection Bonus**. Roll an Action Roll using **Create**. Each **Hit** spent increases the shield's Protection Bonus by **+1**.
 
-You can command a nanite creation or modification to disassemble and return to you at any time for free, at which point
-you regain the **Reserve** spent on it.
+**HardWeave Armor `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Adaptive fluid seeps into seams and weave layers, hardening upon impact to distribute concussive force.* You reinforce worn armor on yourself or an ally in your space. Roll an Action Roll using **Modify**. Each **Hit** spent increases the armor's **Physical Protection by +1** until the end of the round.
 
-**1 Reserve**: Handheld tools, a rope, a grappling hook, a simple container, a pair of handcuffs,
-general equipment in the 1–2 Load range.
-**2 Reserve**: A full ladder, a chair, a large container, a full set of clothes, a large blanket,
-general equipment in the 3–4 Load range.
-**3 Reserve**: A bench, a thick 1 m x 1 m wall, a space suit, general equipment in the 5–6 Load range.
+**HardWeave Block `[Reaction]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve (recharges at the start of the next round)
+* **Trigger:** When you or an ally in your space are targeted by an attack.
+* **Effect:** *A reactive burst of pressurized nanites flashes outward to deflect an incoming projectile or blade.* You can contest the incoming attack for **0 AP**, rolling your **Contest Roll** using your **Control** Attribute instead of your standard physical Attributes.
 
-## Skills
+### SliceWeave
 
-Nanite Skills give your nanites enhanced capabilities. A nanite skill has three uses, one for each of your Attributes.
-Learning one skill grants you access to all its uses. When a skill calls for you to use **Reserve**, you can use *
-*Reserve**
-tied up in things you Created or Modified, but you cannot use **Reserve** that has to recharge.
+SliceWeave aligns your nanite swarm into high-density cutting geometries, honing edges to monomolecular sharpness capable of parting composite armor and bone with equal ease.
 
-**HardWeave**: Your nanites gain the ability to bond together into a strong enough form to protect you from incoming
-attacks.
+**SliceWeave Blade `[Action]`**
+* **Attribute:** Create
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Metallic fluid coalesces into an ergonomic hilt and extends a razor-honed blade of solid carbide alloy.* You forge a melee weapon in your space for yourself or an ally. It functions as a **1H melee weapon** (Min STR 0, Load 0, base **Damage Bonus +1**). When forged, declare its damage property: **Piercing** (favored pair **Agility + Finesse**), **Slashing** (favored pair **Agility + Strength**), or **Striking** (favored pair **Strength + Finesse**). Roll an Action Roll using **Create**. Each **Hit** spent increases the weapon's flat **Damage Bonus by +1**.
 
-- **HardWeave Shield (Create)**: You forge a shield for yourself or an ally using your nanites. For 1 **Reserve**, roll
-  a **Success Test** with Create. For every 3 Success Points, the shield's Protection Bonus increases by 1.
-- **HardWeave Armor (Modify)**: You reinforce your or an ally's armor using your nanites. For 1 **Reserve**, roll a
-  **Success Test** with Modify. For every 4 Success Points, you increase their armor's Protection by 1.
-- **HardWeave Block (Control)**: When contesting an attack, instead of it costing 1 AP, you can pay 1 **Reserve** and
-  use Control for the **Contest Roll**. That **Reserve** recharges at the beginning of the next round.
+**SliceWeave Edge `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *A vibrating monomolecular ribbon bonds along the striking edge of an existing weapon.* You reinforce a melee weapon in your space. Roll an Action Roll using **Modify**. Each **Hit** spent increases the weapon's flat **Damage Bonus by +1** until the end of the round.
 
-**SliceWeave**: Your nanites gain the ability to bond together to form a deadly sharp edge.
+**SliceWeave Slash `[Action]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
+* **Effect:** *A scything ribbon of high-velocity nanites lashes across the air in a lethal, sweeping arc.* Select your current space or one adjacent space and roll a **Control Success Test**. You inflict **Slashing** damage equal to your **Success Points + your Control Attribute** to all designated targets in the chosen space. You may spend additional available Reserve (which recharges at the start of the next round) to include one additional space per Reserve spent.
 
-- **SliceWeave Blade (Create)**: Your nanites form a blade that you or your allies can wield. For 1 **Reserve**, roll a
-  **Success Test** with Create. For every 2 Success Points, it receives +1 Damage Bonus, or +1 Reach.
-- **SliceWeave Edge (Modify)**: Your nanites modify the edge of a blade that you or your allies are wielding. For 1
-  **Reserve**, roll a **Success Test** with Modify. For every 3 Success Points, the weapon receives +1 Damage Bonus or
-  +1 Reach.
-- **SliceWeave Slash (Control)**: Your nanites perform a slashing attack against targets around you. For 1 **Reserve**
-  that recharges at the beginning of the next round, you select an adjacent space to you or your current one and roll a
-  **Success Test** using Control. You deal damage equal to the result plus your Control Attribute to any target you
-  choose in the selected space. For each additional **Reserve** you spend, you can choose an additional space.
+### BoltWeave
 
-**BoltWeave**: Your nanites gain the ability to propel themselves with great velocity, acting similarly to bullets.
+BoltWeave structures nanites into high-tolerance magnetic accelerator barrels, tailored propellant chambers, and aerodynamically perfected kinetic sabots.
 
-- **BoltWeave Weapon (Create)**: Your nanites form a ranged weapon that you or your allies can wield. For 1 **Reserve**,
-  roll a  **Success Test** with Create. For every 2 Success Points, it receives +1 Accuracy in the short to medium
-  range, or +1 Damage Bonus.
-- **BoltWeave Bullet (Modify)**: You weave your nanites into bullets that can be loaded into any of your or your allies'
-  ranged weapons. For 1 **Reserve**, you can roll a **Success Test** with Modify. For every 3 Success Points, you can
-  increase the Accuracy of one of your carried weapons across all ranges by one, or increase its Damage Bonus by 1. This
-  bonus lasts until the end of the round in which you attack with the designated weapon.
-- **BoltWeave Throw (Control)**: Anything you create with your nanites can be thrown using your Control Attribute as
-  long as it is in the same space as you. The maximum range is 40 meters. For 1 **Reserve** that recharges at the
-  beginning of the next round, you can launch a created object to deal damage equal to a Control **Success Test**.
+**BoltWeave Weapon `[Action]`**
+* **Attribute:** Create
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Fluid alloy solidifies into a shoulder-fired long gun with calibrated magnetic rails and an optical rail.* You forge a firearm in your space for yourself or an ally. It functions as a **2H firearm** (Min STR 0, Load 0) with a base weapon profile: `Acc: [3 / 2 / 1 / 0], RoF: 1, Dmg: +1`. Roll an Action Roll using **Create**. Each **Hit** spent allows you to calibrate the firearm by selecting one of the following options (you cannot choose the same option twice; different Accuracy band pairs count as separate options):
+  * Increase flat **Damage Bonus by +2**.
+  * Increase **Rate of Fire (RoF) by +2**.
+  * Increase two adjacent **Accuracy bands by +1** each (cannot increase a single band by +2).
 
-**FloatWeave**: Your nanites gain the ability to lift objects and lift themselves while formed into objects.
+**BoltWeave Ammo `[Rider]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve
+* **Trigger:** When you or an ally in your space declare a ranged attack with a firearm.
+* **Effect:** *Chambered ammunition is coated in high-mass sabot jackets and terminal guidance fins.* Roll an Action Roll using **Modify**. Each **Hit** spent grants your choice of:
+  * **+1 Damage Bonus** for the round.
+  * **+1 Rate of Fire (RoF)** for the round.
+  * **+1 Accuracy in a single range band** for the round (this cannot grant the ability to fire at a range band the weapon cannot naturally engage, marked `-`).
 
-- **FloatWeave Infusion (Create)**: Any item you create up to Load 2 can float mid-air and can be moved in any direction
-  using FloatWeave Hand without paying for its **Reserve** cost.
-- **FloatWeave Wings (Modify)**: You weave your nanites into wings attached to you, an allied creature.
-  For 1 **Reserve**, roll a **Success Test** with Modify. For every Success Point, the creature can move up to 2
-  meters in any direction, while ignoring Difficult Terrain. As long as the wings remain attached, the creature can stay
-  hovering in the air, and you can also repeat the **Success Test** for no additional **Reserve** cost to move the
-  creature again.
-- **FloatWeave Hand (Control)**: Your nanites can be used to move objects up to Load 2. For 1 **Reserve** that recharges
-  at the beginning of the next round, roll a **Success Test** using Control. The target object can be moved up to 1
-  meter for each Success Point. If the Weaver wants the object to make complex movements, the GM require a Complex Test.
+**BoltWeave Bullet `[Action]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
+* **Effect:** *Pressurized reservoir coils launch a dense, hyper-velocity slug directly from your harness.* Make a ranged attack against a creature or object within **Short range (0–5 spaces)**, rolling a **Control Success Test**. You inflict kinetic damage equal to your **Success Points + your Control Attribute + 3 Damage Bonus**.
 
-**BindWeave**: Your nanites gain the ability to stick to any surface they touch, and this effect can be toggled on and
-off at your will.
+### FloatWeave
 
-- **BindWeave Infusion (Create)**: Any item you create can now turn its surface or parts of its surface sticky on
-  demand. You roll Create for any effect you wish to create with this capability.
-- **BindWeave Coating (Modify)**: You coat the surface an item or a creature you are holding in an area no larger than
-  two of your handprints. You can turn the surface or parts of it sticky with your nanites on demand. You roll Modify
-  for any effect you wish to create with this capability.
-- **BindWeave Yank (Control)**: Your nanites, even in their primal form, can be used to yank a creature or object. For 1
-  **Reserve** that recharges at the end of the round, you roll a **Success Test** or **Complex Test** with Control +
-  Control depending on whether the creature wants to be willingly moved or not. For every 2 Success Points, the target
-  is moved 4 meters in any direction.
+FloatWeave integrates aerostatic micro-turbines, magnetic repulsion baffles, and aerodynamic surface foils into your constructs to conquer vertical terrain and master 3D movement.
 
-**LifeWeave**: Your nanites gain the ability to heal the wounds of creatures.
+**FloatWeave Infusion `[Passive]`**
+* **Attribute:** Create
+* **Effect:** *Internal counter-grav nodes and micro-thrusters allow forged items to hover weightlessly.* Any item or weapon you create with your nanites gains integrated levitation. These creations hover freely within your space, move alongside you without requiring hands to carry, and can be wielded or operated **hands-free** using your **Control or Create** Attribute in place of the normal required Core Attribute (such as firing a hovering BoltWeave rifle or striking with a floating SliceWeave blade).
 
-- **LifeWeave Elixir (Create)**: For 1 **Reserve**, you can create a consumable that any creature can use to heal their
-  wounds. When consumed, the user rolls a **Success Test** with your Create Attribute. For every 2 Success Points, they
-  can heal 1 light wound or light stress, and for every 4 Success Points, they gain 1 **Upgrade** to their next Test.
-- **LifeWeave Heal (Modify)**: You heal a creature in your space using your nanites. For 1 **Reserve** that recharges
-  at the beginning of the next round, you roll a **Success Test**. For every 3 Success Points, you can heal two light
-  wounds on the target.
-- **LifeWeave Enhancement (Control)**: Any creature you used your LifeWeave skills on this round can use your Control
-  Attribute as a replacement for any one physical Attribute.
+**FloatWeave Wings `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Articulated aerofoil wings of layered composite feather-plates unfold from the recipient's shoulders.* You attach wings to yourself or an ally in your space. The recipient gains **Flight** (base speed 4 meters, ascending costs double, ignores Difficult Terrain, and hovers in place). The recipient is immune to falling damage while the wings remain attached. When the recipient takes a movement action, they may execute their movement by rolling a Success Test using your **Modify** or **Control** Attribute.
 
-**StealthWeave**: Your nanites gain the ability to alter the reflected light from their surface.
+**FloatWeave Wind `[Action]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve (recharges at the end of the turn), 1 AP
+* **Effect:** *A howling micro-vortex of directed air and swirling nanites lifts you bodily into the air.* Until the end of your turn, you gain **Flight** and can use your **Control** Attribute on all Movement Actions.
 
-- **StealthWeave Infusion (Create)**: Any object you create using your nanites can cloak itself. Whenever you use
-  Create, you can sacrifice your hits to create a Persistent Blocker effect that blocks creatures from perceiving the
-  object.
-- **StealthWeave Coating (Modify)**: You coat a creature or object in your nanites to cloak them. For 1 **Reserve**, you
-  roll a **Success Test** using Modify. You can sacrifice your hits to create a Persistent Blocker effect that blocks
-  creatures from perceiving the creature or object.
-- **StealthWeave Veil (Control)**: Your nanites can form an obscuring veil around you. For 1 **Reserve** that recharges
-  at the beginning of the next round, Roll a Success Test using Control. You can sacrifice your hits to create a
-  Persistent Blocker effect that blocks creatures from perceiving the creature or object. This effects ends lasts until
-  the beginning of the next Player Turn.
+### LifeWeave
 
-**CyberWeave**: Your nanites gain the ability to form complex circuits and mechanized joints.
+LifeWeave programs microscopic bio-medical assembler nodes capable of cellular reconstruction, accelerated tissue granulation, and synthetic neural bridging.
 
-- **CyberWeave Drone (Create)**: You create a small crawler drone with six legs, a sensor suite, and a universal
-  interface port. For 1 **Reserve**, you roll a **Success Test** using Create. For every 2 Success Points, you can
-  either buy +1 Interfacing or +1 Sensors, which are the drone's two core Attributes. The drone can move a fixed 20
-  meters per round. As soon as it would take any damage, or would move further than 40 meters away from you, it breaks
-  down into raw nanites.
-- **CyberWeave Virus (Modify)**: You alter an electronic device, making it bend to your will. For 1 **Reserve**, you can
-  make an electronic device in your space perform its standard function, glitch out, or even damage itself. The GM will
-  decide the appropriate test, which you take using Modify. As long as the modification remains in place, you can repeat
-  this without paying additional **Reserve**, and without being in the same space, as long as you are within 40 meters
-  of the device.
-- **CyberWeave Swarm (Control)**: Your nanites spread out to provide tactical information about a small area. For 1
-  **Reserve**, select an area with a radius of 4 meters and roll a **Success Test** using Control. For every 2 Success
-  Points, your attacks gain an **Upgrade** against targets within the area. While the nanites are not recalled, you can
-  repeat the test and reposition the nanites for no additional **Reserve** cost.
+**LifeWeave Elixir `[Action]`**
+* **Attribute:** Create
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Nanites suspend themselves in a concentrated metabolic nutrient fluid inside a sealed autoinjector.* You synthesize a consumable injector (Load 0). When a creature consumes the elixir as an Action, the user rolls a **Create Success Test** using your Create rating. For every **2 Success Points**, the user heals **1 Light Wound or 1 Light Stress**.
+
+**LifeWeave Heal `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
+* **Effect:** *Active medical micro-swarms flood an open wound to cauterize vessels and knit torn flesh.* You inject medical nanites directly into an injured creature occupying your space. Roll a **Modify Success Test**. For every **3 Success Points**, you heal **2 Light Wounds** on the target.
+
+**LifeWeave Enhancement `[Passive]`**
+* **Attribute:** Control
+* **Effect:** *Subdermal nanite filaments weave through muscle fibers and neural pathways to augment physical and mental performance.* Any creature affected by your other LifeWeave abilities can substitute your **Control** Attribute in place of any Core Attribute on their tests until the end of the round.
+
+### MirageWeave
+
+MirageWeave commands nanites to align their surfaces into microscopic refractive lenses, sound-absorbing baffles, and adaptive pigments that bend light, alter physical appearances, and deaden acoustic signatures.
+
+**MirageWeave Infusion `[Passive]`**
+* **Attribute:** Create
+* **Effect:** *Adaptive photonic metamaterials and micro-pigments reshape the surface of your fabrications.* You can alter the visual texture, markings, and finish of any item you create to make it appear authentic, legitimate, or disguised. You may use your **Create** Attribute on any tests made while utilizing the fabricated item. Furthermore, whenever you roll to Create an object, you may sacrifice **Hits** from your Action Roll to establish a **Sustained Blocker Effect** (1 Blocker die per 2 Hits sacrificed) that opposes any attempts by hostile creatures to visually spot, detect, or identify the item.
+
+**MirageWeave Coating `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *A shimmering, light-refracting film crawls across skin, armor, and gear to reshape silhouettes or mimic identities.* You coat a creature or object in your space. You can cosmetically alter the target's physical appearance, colors, uniforms, insignia, or facial features to disguise them. You can also roll **Modify** on tests relying on the coated creature or object to remain unseen or relying on other creatures to believe your disguise is authentic. Additionally, you may roll an Action Roll using **Modify**; for every **2 Hits** sacrificed, you establish a **Sustained Blocker Effect** (1 Blocker die per 2 Hits sacrificed) opposing all attempts to perceive, detect, or target the coated subject from outside its space.
+
+**MirageWeave Veil `[Action]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve (recharges at the start of the next round), 1 AP
+* **Effect:** *An obscuring aerosol cloud of blackout nanites and optical chaff billows outward to shield your cell.* You disperse a mobile veil of refractive nanites that moves with you and covers your current space, shielding everyone within it. Roll an Action Roll using **Control**. For every **2 Hits** sacrificed, you establish a **Blocker Effect** (1 Blocker die per 2 Hits sacrificed) against incoming ranged attacks and visual detection from outside the space. This veil lasts until the beginning of the next Player Turn, but instantly breaks and dissipates if any creature makes an attack from within the veil.
+
+### CyberWeave
+
+CyberWeave configures nanites into conductive micro-circuitry, logic gates, and sensor diodes capable of infiltrating and dominating electronic systems.
+
+**CyberWeave Drone `[Action]`**
+* **Attribute:** Create
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Metallic nodes lock into an articulated hexapod crawler equipped with telemetry cameras and universal data probes.* You assemble a small crawler drone. Roll a **Create Success Test**. For every **2 Success Points**, you allocate **+1 to either Interfacing or Sensors** (the drone's primary Attributes). The drone moves **20 meters per round**. If the drone suffers any damage or moves farther than **40 meters** away from you, it immediately disassembles into raw nanites and its Reserve returns to your pool.
+
+**CyberWeave Virus `[Action]`**
+* **Attribute:** Modify
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *Conductive tendrils burrow through ports and wiring harnesses to hijack hardware commands at the bus level.* You infect an electronic device, computerized console, or electronic lock in your space. Rolling a test using **Modify**, you force the device to execute its standard function, trigger an error, or short-circuit. While the nanites remain embedded, you can command the device to repeat this action without expending additional Reserve, provided you remain within **40 meters**.
+
+**CyberWeave Swarm `[Action]`**
+* **Attribute:** Control
+* **Cost:** 1 Reserve, 1 AP
+* **Effect:** *A dispersed sensor mesh hovers across the battlefield, streaming real-time structural weak points to your HUD.* You deploy a sensor cloud across a designated area with a **4-meter radius** within 20 meters of you. Roll a **Control Success Test**. For every **2 Success Points**, all attacks made by you and your allies against targets within the cloud gain **+1 Upgrade**. While active, you can reposition the cloud to another valid area on your turn for **0 additional Reserve**.
 
 ## Class Mods
 
-You unlock class mod slots at certain progression levels. You can purchase Class Mods for 25,000 Credits each. You can
-replace your current mod with a different one you own during your day-to-day.
+Class Mods represent hardware overclocks, high-volume fluid expansions, and precision neuro-firmware patches installed into your chassis. You unlock mod sockets at Levels 3 and 5, and can install up to two Class Mods simultaneously. Class Mods cost 25,000 Credits each and can be swapped during downtime.
 
 ### Extra Reserve
 
-**Effect**: You gain +1 **Reserve**.
+*Installs auxiliary pressurized titanium fluid canisters and high-output peristaltic micro-pumps along the operative's thoracic frame.*
 
-### Prime Weave
+**Effect**: You gain **+1 Reserve** (increasing your baseline reservoir capacity from 4 to 5).
 
-**Effect**: Choose a Weave you learned. Any test using the chosen Weave gains +1 **Upgrade**. You can modify the
-selected Weave during your day-to-day.
+### Reborn Weave
 
-### Favored Method
+*Installs a high-speed molecular scavenging subroutine that recycles active constructs directly into incoming synthesis calculations.*
 
-**Effect**: Choose Create, Modify, or Control. Any test using the chosen Attribute gains +1 **Upgrade**. You can modify
-the
-selected Attribute during your day-to-day.
+**Effect**: When you would make a **Success Roll** on any test using your Weaver Attributes, you can disassemble an active Creation or Modification that you spent **Hits** to enhance. Instead of rolling the Success Roll, you score as many Hits as you spent on the recycled item, along with **8 Success Points**.
+
+### Revitalizing Weave
+
+*Integrates high-efficiency thermal siphon conduits into the reservoir manifold, rapidly condensing circulating nanite currents back into liquid storage.*
+
+**Effect**: When you recycle a Creation or Modification, you also regain a spent Reserve that would have recharged at the end of the turn.
 
 ### Woven Bond
 
-**Effect**: You gain +1 **Upgrade** on any test using your Created or Modified equipment.
+*Establishes a continuous telemetric feedback link between the operative's cranial shunt and all active nanite constructs.*
+
+**Effect**: You gain **+1 Upgrade** on any test made while using equipment or weapons you have Created or Modified.
 
 ### Weave Infusion
 
-**Effect**: You can spend 1 extra **Reserve** on any **Success Test** using your Weaves to gain 3 extra Success Points.
-The
-extra **Reserve** becomes available when the original **Reserve** spent on the test becomes available again.
+*Bypasses safety flow restrictors on the reservoir manifold, channeling an emergency surge of nanite fluid into an ongoing action.*
+
+**Effect**: When making a test for a Weave ability, you may spend **1 additional Reserve** to add **+3 Success Points** to your total outcome, or to score an additional **Hit** as long as you have already succeeded on the test. The extra Reserve becomes available again whenever the original Reserve spent on the test recharges.
 
 ## Progression
 
-The Nanite Reservoir can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the
-reservoir's
-capabilities.
+The Weaver chassis can be upgraded by spending Credits during downtime. Each progression level unlocks new mechanical capabilities and operational packages.
 
-At character creation, distribute 5 points among Create, Control, and Modify (max 4). You start out with 1 Weave of
-your choice and 4 **Reserve**.
+| Level | Benefits Unlocked | Credit Cost |
+| :---: | :--- | :--- |
+| **Level 1** | Base Chassis, 7 Attribute Points (base 1/1/1), Starting Weave (3 Abilities), 4 Reserve | **100,000 Credits\*** |
+| **Level 2** | +1 Attribute Point, +1 Weave (3 Abilities) | **20,000 Credits** |
+| **Level 3** | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Weave (3 Abilities) | **40,000 Credits** |
+| **Level 4** | +1 Attribute Point, +1 Weave (3 Abilities) | **75,000 Credits** |
+| **Level 5** | +1 Attribute Point, +1 Class Mod Slot (Slot 2) | **150,000 Credits** |
 
-| Level | Benefit                                                      | Credit Cost |
-|-------|--------------------------------------------------------------|-------------|
-| 1     | 7 Attribute Points, 4 Reserve, 1 Weave, Max Attribute Cap: 4 | 100,000*    |
-| 2     | +1 Attribute Point, +1 Class Mod Slot,+1 Weave               | 20,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Weave    | 40,000      |
-| 4     | +1 Attribute Point, +1 Class Mod Slot, +1 Weave              | 75,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6              | 150,000     |
-
-* This cost is only applicable if the Nanite Weaver class was not gained with your starting class.
+*\*The 100,000 Credit cost for Level 1 applies only when purchasing an additional class chassis after character creation; an operative's starting class is free.*

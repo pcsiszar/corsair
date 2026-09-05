@@ -280,15 +280,14 @@ are grouped into themed **Kits**, each containing three distinct abilities.
 The ChemPack can be upgraded by spending Credits. Each level of upgrade provides a significant boost to the ChemPack's
 capabilities.
 
-At character creation, distribute 5 points among Venom, Hazard, and Serum (max 4). You start out with 1 Kit of your
-choice.
+At character creation, distribute your 7 Class Creation Points among Venom, Hazard, and Serum (base 1/1/1, starting cap 5). You start out with 1 Kit of your choice.
 
-| Level | Benefit                                                          | Credit Cost |
-|:------|:-----------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Max Pressure: 3, 1 Kit | 100,000*    |
-| 2     | +1 Attribute Point, +1 Class Mod Slot, +1 Kit                    | 20,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap becomes 5, +1 Kit          | 40,000      |
-| 4     | +1 Attribute Point, +1 Class Mod Slot, +1 Kit                    | 75,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap becomes 6                  | 150,000     |
+| Level | Benefit                                                                | Credit Cost |
+|:------|:-----------------------------------------------------------------------|:------------|
+| 1     | 7 Attribute Points (base 1/1/1), Max Pressure: 3, 1 Starting Kit       | 100,000*    |
+| 2     | +1 Attribute Point, +1 Kit                                             | 20,000      |
+| 3     | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Kit                  | 40,000      |
+| 4     | +1 Attribute Point, +1 Kit                                             | 75,000      |
+| 5     | +1 Attribute Point, +1 Class Mod Slot (Slot 2)                          | 150,000     |
 
 * This cost is only applicable if the Hazard class was not gained with your starting class.

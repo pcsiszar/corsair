@@ -240,10 +240,10 @@ The Vanguard chassis can be upgraded by spending Credits during downtime. Each p
 
 | Level | Benefit                                                             | Credit Cost |
 |:------|:--------------------------------------------------------------------|:------------|
-| 1     | 7 Attribute Points, Max Attribute Cap: 4, Starting Combo (3 Abilities) | 100,000*    |
-| 2     | +1 Attribute Point, +1 Class Mod Slot, +1 Combo (3 Abilities)        | 20,000      |
-| 3     | +1 Attribute Point, Max Attribute Cap +1, +1 Combo (3 Abilities)     | 40,000      |
-| 4     | +1 Attribute Point, +1 Class Mod Slot, +1 Combo (3 Abilities)        | 75,000      |
-| 5     | +1 Attribute Point, Max Attribute Cap +1                            | 150,000     |
+| 1     | 7 Attribute Points (base 1/1/1), Starting Combo (3 Abilities)       | 100,000*    |
+| 2     | +1 Attribute Point, +1 Combo (3 Abilities)                          | 20,000      |
+| 3     | +1 Attribute Point, +1 Class Mod Slot (Slot 1), +1 Combo (3 Abilities) | 40,000      |
+| 4     | +1 Attribute Point, +1 Combo (3 Abilities)                          | 75,000      |
+| 5     | +1 Attribute Point, +1 Class Mod Slot (Slot 2)                      | 150,000     |
 
 * This cost is only applicable if the Vanguard class was not chosen as your starting chassis.
