@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Corsair — Conduit Class Sheet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap"
+          rel="stylesheet"/>
     <style>
         /* ======================================================  TOKENS  */
         :root {
@@ -30,21 +31,21 @@
         }
 
         html {
-            font-size: 7.8pt;
+            font-size: 7.0pt;
         }
 
         body {
             font-family: 'Barlow', sans-serif;
             background: var(--black);
             color: var(--text);
-            line-height: 1.25;
+            line-height: 1.18;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
         }
 
         @page {
             size: A4;
-            margin: 4mm;
+            margin: 3mm;
         }
 
         @media print {
@@ -100,9 +101,13 @@
                 fill: #000000 !important;
             }
 
-            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub {
+            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .charge-box, .charge-dice-zone, .pip, .trait-status .ub {
                 background: #ffffff !important;
                 border-color: #000000 !important;
+            }
+
+            .charge-box-hd, .charge-code, .charge-pip {
+                color: #000000 !important;
             }
 
             .skill-table th {
@@ -114,13 +119,19 @@
             .fl, .note-line {
                 border-bottom-color: #888888 !important;
             }
+
+            .tag-badge {
+                border: 1px solid #000000 !important;
+                background: #ffffff !important;
+                color: #000000 !important;
+            }
         }
 
         .page {
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
-            padding: 3.5mm 4mm;
+            padding: 3mm 3.5mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -133,7 +144,7 @@
             position: absolute;
             inset: 0;
             background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
             background-size: 18px 18px;
             pointer-events: none;
         }
@@ -141,7 +152,7 @@
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 2.5mm;
+            margin-bottom: 1.8mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
         }
@@ -149,19 +160,19 @@
         .mh-logo {
             background: var(--accent);
             color: var(--black);
-            padding: 3mm 5mm 3mm 4mm;
+            padding: 1.8mm 3mm;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
-            padding-right: 13mm;
-            min-width: 22mm;
+            padding-right: 10mm;
+            min-width: 18mm;
         }
 
         .mh-logo svg {
-            width: 20px;
-            height: 20px;
+            width: 17px;
+            height: 17px;
             fill: var(--black);
         }
 
@@ -171,18 +182,18 @@
             font-size: 6pt;
             letter-spacing: 0.35em;
             text-transform: uppercase;
-            margin-top: 2px;
+            margin-top: 1px;
         }
 
         .mh-title {
-            padding: 2.5mm 4mm;
+            padding: 1.2mm 2.5mm;
             flex: 1;
         }
 
         .mh-title h1 {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 900;
-            font-size: 16pt;
+            font-size: 14pt;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--accent);
@@ -192,7 +203,7 @@
         .mh-title .sub {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 300;
-            font-size: 7.5pt;
+            font-size: 6.8pt;
             letter-spacing: 0.28em;
             color: var(--text-dim);
             text-transform: uppercase;
@@ -200,107 +211,67 @@
 
         .mh-name {
             border-left: 1px solid var(--border);
-            padding: 2.5mm 3.5mm;
+            padding: 1.2mm 2.5mm;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            min-width: 64mm;
+            min-width: 50mm;
         }
 
         .mh-name label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
+            font-size: 5.8pt;
             letter-spacing: 0.25em;
             text-transform: uppercase;
             color: var(--accent-dim);
-            margin-bottom: 1mm;
+            margin-bottom: 0.6mm;
         }
 
         .mh-name .fl {
             border-bottom: 1px solid var(--border);
-            min-height: 5.5mm;
-        }
-
-        .identity-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 2px;
-            margin-bottom: 3mm;
-        }
-
-        .id-field {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 1.5mm 2mm 1.2mm;
-        }
-
-        .id-field label {
-            display: block;
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
-            letter-spacing: 0.25em;
-            color: var(--accent-dim);
-            text-transform: uppercase;
-            margin-bottom: 1mm;
-        }
-
-        .id-field .fl {
-            border-bottom: 1px solid var(--border);
-            min-height: 5mm;
+            min-height: 4.2mm;
         }
 
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
-            margin-bottom: 2.5mm;
+            margin-bottom: 1.6mm;
         }
 
         .card-hd {
             background: var(--mid);
-            border-bottom: 2px solid var(--accent-dim);
-            padding: 1.5mm 2.5mm;
+            border-bottom: 1.5px solid var(--accent-dim);
+            padding: 0.8mm 1.8mm;
             display: flex;
             align-items: center;
-            gap: 2mm;
+            gap: 1.2mm;
         }
 
         .card-hd svg {
-            width: 11px;
-            height: 11px;
+            width: 10px;
+            height: 10px;
             fill: var(--accent);
             flex-shrink: 0;
         }
 
         .card-hd h2 {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 8.5pt;
+            font-size: 7.8pt;
             font-weight: 700;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.14em;
             text-transform: uppercase;
             color: var(--accent);
             flex: 1;
         }
 
         .card-body {
-            padding: 1.5mm 2.2mm;
-        }
-
-        .attr-group-label {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
-            letter-spacing: 0.2em;
-            text-transform: uppercase;
-            color: var(--text-dim);
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 1.5mm;
-            padding-bottom: 0.5mm;
+            padding: 1mm 1.8mm;
         }
 
         .attr-row {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2px;
-            margin-bottom: 1.5mm;
+            gap: 1.5px;
         }
 
         .attr-block {
@@ -309,21 +280,22 @@
             display: flex;
             align-items: center;
             gap: 1.5mm;
-            padding: 1.2mm 1.5mm;
+            padding: 0.8mm 1.2mm;
         }
 
         .attr-box {
-            width: 8mm;
-            height: 8mm;
-            border: 2px solid var(--accent-dim);
+            width: 7.2mm;
+            height: 7.2mm;
+            border: 1.5px solid var(--accent-dim);
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 13pt;
+            font-size: 11pt;
             font-weight: 900;
             color: var(--accent);
             flex-shrink: 0;
+            background: var(--surface);
         }
 
         .attr-meta {
@@ -332,7 +304,7 @@
 
         .attr-name {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 7.5pt;
+            font-size: 7.2pt;
             font-weight: 700;
             letter-spacing: 0.08em;
             text-transform: uppercase;
@@ -341,33 +313,8 @@
 
         .attr-code {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 5.5pt;
+            font-size: 5.2pt;
             color: var(--text-dim);
-        }
-
-        .gambit-slots {
-            display: flex;
-            gap: 3mm;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 1.5mm 0;
-        }
-
-        .g-slot {
-            width: 10mm;
-            height: 10mm;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
-            position: relative;
-        }
-
-        .gambit-note {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
-            font-style: italic;
-            color: var(--text-dim);
-            text-align: center;
         }
 
         .skill-table {
@@ -377,19 +324,19 @@
 
         .skill-table th {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.0pt;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent-dim);
             text-align: left;
-            padding: 1.5mm 2mm;
+            padding: 0.5mm 1.0mm;
             border-bottom: 1px solid var(--accent-dim);
             background: var(--mid);
         }
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 1.2mm 1.8mm;
+            padding: 0.5mm 1.0mm;
             vertical-align: top;
         }
 
@@ -397,443 +344,500 @@
             background: var(--stripe);
         }
 
-        .pip-row {
-            display: flex;
-            gap: 2px;
-            justify-content: center;
-        }
-
-        .pip {
-            width: 8px;
-            height: 14px;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-        }
-
-        .divider {
-            height: 1px;
-            background: linear-gradient(90deg, var(--accent-dim), transparent);
-            margin: 2mm 0;
-        }
-
         .xc-label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.0pt;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent-dim);
-            margin-bottom: 1.2mm;
+            margin-bottom: 0.8mm;
         }
-
-        /* OPERATION MODE PANELS */
-        .skill-section-hd td {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt; font-weight: 700;
-            letter-spacing: 0.15em; text-transform: uppercase;
-            color: var(--accent);
-            background: var(--mid) !important;
-            border-top: 1px solid var(--accent-dim);
-            border-bottom: 1px solid var(--accent-dim);
-            padding: 0.3mm 1.8mm !important;
-            line-height: 1;
-        }
-        .skill-section-hd.first td { border-top: none; }
 
         .rules-text {
             font-family: 'Barlow', sans-serif;
-            font-size: 7.2pt;
+            font-size: 6.5pt;
             color: var(--text);
-            line-height: 1.3;
+            line-height: 1.18;
         }
 
         .rules-text p {
-            margin-bottom: 1.5mm;
+            margin-bottom: 0.5mm;
         }
 
         .rules-text ul {
-            margin-left: 4.5mm;
-            margin-bottom: 1.5mm;
+            margin-left: 2.8mm;
+            margin-bottom: 0.5mm;
         }
 
         .rules-text li {
-            margin-bottom: 0.5mm;
+            margin-bottom: 0.2mm;
         }
 
         .grid-main {
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 3.5mm;
+            grid-template-columns: 1fr 1.8fr;
+            gap: 2.2mm;
             align-items: start;
         }
 
         .page-foot {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
+            font-size: 5.8pt;
             letter-spacing: 0.3em;
             color: var(--text-muted);
             text-align: center;
             text-transform: uppercase;
             margin-top: auto;
-            padding-top: 3mm;
+            padding-top: 1mm;
         }
 
-        .checkbox-cell {
-            width: 5%;
-            text-align: center;
-            vertical-align: middle !important;
-        }
+        .chk-cell { width: 4.2mm; text-align: center; vertical-align: middle !important; }
+        .chk-box  { width: 3.2mm; height: 3.2mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
+        .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:7.4pt; text-transform:uppercase; color:var(--accent); }
+        .skill-cost { font-family:'Share Tech Mono',monospace; font-size:5.6pt; color:var(--text-dim); white-space:nowrap; }
+        .skill-desc { font-family:'Barlow',sans-serif; font-size:6.4pt; color:var(--text); line-height:1.16; }
 
-        .checkbox-box {
-            width: 3.5mm;
-            height: 3.5mm;
+        .tag-badge {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 4.8pt;
+            color: var(--accent);
+            background: rgba(200, 168, 75, 0.12);
             border: 1px solid var(--accent-dim);
+            padding: 0 0.8mm;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: 0.8mm;
+            vertical-align: middle;
+            text-transform: uppercase;
+        }
+
+        .skill-section-hd td {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 6.1pt; font-weight: 700;
+            letter-spacing: 0.15em; text-transform: uppercase;
+            color: var(--accent);
+            background: var(--mid) !important;
+            border-top: 1px solid var(--accent-dim);
+            border-bottom: 1px solid var(--accent-dim);
+            padding: 0.2mm 1.0mm !important;
+            line-height: 1;
+        }
+        .skill-section-hd.first td { border-top: none; }
+
+        .charge-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5mm;
+            margin-bottom: 0.8mm;
+        }
+
+        .charge-box {
             background: var(--mid);
-            margin: 0 auto;
+            border: 1.5px solid var(--accent-dim);
+            padding: 0.8mm 1mm;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 12.5mm;
+        }
+
+        .charge-box.flame {
+            border-color: rgba(214, 128, 56, 0.7);
+        }
+
+        .charge-box.frost {
+            border-color: rgba(109, 182, 232, 0.7);
+        }
+
+        .charge-box.lightning {
+            border-color: rgba(183, 142, 232, 0.7);
+        }
+
+        .charge-box-hd {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 7.2pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 0.8mm;
+        }
+
+        .charge-box.flame .charge-box-hd { color: #d68038; }
+        .charge-box.frost .charge-box-hd { color: #6db6e8; }
+        .charge-box.lightning .charge-box-hd { color: #b78ee8; }
+
+        .charge-dice-zone {
+            width: 8mm;
+            height: 8mm;
+            border: 1px dashed var(--accent-dim);
+            background: var(--surface);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+        }
+
+        .charge-code {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 4.8pt;
+            color: var(--text-dim);
+            line-height: 1;
+        }
+
+        .charge-pip {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 900;
+            font-size: 6.8pt;
+            color: var(--text-dim);
+            line-height: 1;
+            margin-top: 0.4px;
+        }
+
+        .gambit-note {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 5.8pt;
+            font-style: italic;
+            color: var(--text-dim);
+            text-align: center;
         }
 
         .skill-name-col {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 700;
-            font-size: 8pt;
+            font-size: 7.2pt;
             text-transform: uppercase;
             color: var(--accent);
-        }
-
-        .skill-cost {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 6.5pt;
-            color: var(--text-dim);
-            margin-top: 0.5mm;
+            vertical-align: top;
         }
     </style>
 </head>
 
 <body>
-    <div class="page">
-        <!-- MASTHEAD -->
-        <div class="masthead">
-            <div class="mh-logo">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                    <circle cx="12" cy="12" r="1.5" />
-                </svg>
-                <span class="logo-text">Corsair</span>
-            </div>
-            <div class="mh-title">
-                <h1>Class Sheet: The Conduit</h1>
-                <div class="sub">Flotilla Dossier · Specialization Record</div>
-            </div>
-            <div class="mh-name">
-                <label>Agent Name</label>
-                <div class="fl"></div>
-            </div>
+<div class="page">
+    <!-- MASTHEAD -->
+    <div class="masthead">
+        <div class="mh-logo">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                <circle cx="12" cy="12" r="1.5"/>
+            </svg>
+            <span class="logo-text">Corsair</span>
         </div>
-
-        <!-- MAIN GRID -->
-        <div class="grid-main">
-
-            <!-- COLUMN 1: RULES & ATTRIBUTES -->
-            <div>
-                <!-- ATTRIBUTES CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <rect x="2" y="10" width="3" height="4" />
-                            <rect x="19" y="10" width="3" height="4" />
-                            <rect x="5" y="8" width="2" height="8" />
-                            <rect x="17" y="8" width="2" height="8" />
-                            <rect x="7" y="11" width="10" height="2" />
-                        </svg>
-                        <h2>Conduit Attributes</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="attr-row">
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Flame</div>
-                                    <div class="attr-code">FLM (STR / CHA)</div>
-                                </div>
-                            </div>
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Frost</div>
-                                    <div class="attr-code">FRT (FIN / KNW)</div>
-                                </div>
-                            </div>
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Lightning</div>
-                                    <div class="attr-code">LTG (AGI / INS)</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- CHARGE TRACKER -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                        </svg>
-                        <h2>Biotic Aether Charges</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="xc-label" style="text-align: center;">Stored Charges (Max 3)</div>
-                        <div class="gambit-slots">
-                            <div class="g-slot" title="Charge 1"></div>
-                            <div class="g-slot" title="Charge 2"></div>
-                            <div class="g-slot" title="Charge 3"></div>
-                        </div>
-                        <div class="gambit-note">Attunement: [ ] Flame · [ ] Frost · [ ] Lightning</div>
-                    </div>
-                </div>
-
-                <!-- BASIC MECHANICS CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="12" y1="16" x2="12" y2="12"/>
-                            <line x1="12" y1="8" x2="12.01" y2="8"/>
-                        </svg>
-                        <h2>Basic Mechanics</h2>
-                    </div>
-                    <div class="card-body rules-text">
-                        <p><strong>Melee Combat:</strong> Melee attacks can use Conduit Attributes matching Strength (Flame), Finesse (Frost), or Agility (Lightning). Reach 3, Dmg Bonus = half Conduit Attribute used (rounded up).</p>
-                        <p><strong>Effect Synergies:</strong></p>
-                        <ul>
-                            <li><strong>Flame:</strong> Crit effects grant 3 SP instead of 2.</li>
-                            <li><strong>Frost:</strong> Blockers act as Permanent Blockers for round.</li>
-                            <li><strong>Lightning:</strong> Chains +1 SP; triggers on 7+ dice.</li>
-                        </ul>
-                        <p><strong>Charges:</strong> Amp skills build element Charges. Bursts require 3 Charges, venting them completely. Changing elements resets charges to 0.</p>
-                    </div>
-                </div>
-
-                <!-- CLASS MODS CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                        </svg>
-                        <h2>Class Modifications</h2>
-                    </div>
-                    <div class="card-body" style="padding: 0;">
-                        <table class="skill-table">
-                            <thead>
-                                <tr>
-                                    <th class="checkbox-cell">Act</th>
-                                    <th>Modification</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Duality</div>
-                                        <div class="rules-text">Hold charges of two elements simultaneously. Max Charges limit is shared. If at max capacity, you override the other element. If you hold two and Amp a third, you decide which you lose.</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Infinity</div>
-                                        <div class="rules-text">You can keep activating Amp Skills even when you hold the maximum number of Charges for an element.</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Intensity</div>
-                                        <div class="rules-text">Generate charges by sacrificing Hits on any test using your Conduit Attributes. The Charge type matches the Attribute used.</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Finality</div>
-                                        <div class="rules-text">Use Burst Skills without 3 Charges, but you cannot gain charges until the end of the round.</div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Ingenuity</div>
-                                        <div class="rules-text">When you would lose charges from Ampping a different element, you can instead convert all current charges into the new element.</div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- COLUMN 2: SKILLS & MODS -->
-            <div>
-                <div class="card" style="margin-bottom: 2mm;">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-                        </svg>
-                        <h2>Amp &amp; Burst Skills</h2>
-                    </div>
-                    <div class="card-body" style="padding: 0;">
-                        <table class="skill-table">
-                            <thead>
-                                <tr>
-                                    <th class="checkbox-cell">Lrn</th>
-                                    <th style="width: 25%;">Skill</th>
-                                    <th style="width: 70%;">Description & Mechanics</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="skill-section-hd first">
-                                    <td colspan="3">⬡ Amped Body &amp; Phys Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Body</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Activate when taking an action using a Physical Attribute (Flame: STR, Frost: FIN, Lightning: AGI). Gain +1 <strong>Upgrade</strong> to the test.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Phys Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Gain +1 <strong>Upgrade</strong> to any test using Physical/Conduit attributes of the current element until end of Round. Can substitute Conduit for Physical. Ends if element changes.
-                                    </td>
-                                </tr>
-                                <tr class="skill-section-hd">
-                                    <td colspan="3">⬡ Amped Mind &amp; Mental Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Mind</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Activate when taking an action using a Mental Attribute (Flame: CHA, Frost: KNW, Lightning: INS). Gain +1 <strong>Upgrade</strong> to the test.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Mental Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Gain +1 <strong>Upgrade</strong> to any test using Mental/Conduit attributes of the current element until end of Round. Can substitute Conduit for Mental. Ends if element changes.
-                                    </td>
-                                </tr>
-                                <tr class="skill-section-hd">
-                                    <td colspan="3">⬡ Amped Shot &amp; Blast Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Shot</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Ranged firearm attack. <strong>Flame:</strong> +1 Dmg/Chg. <strong>Frost:</strong> Reroll dice = Chg. <strong>Lightning:</strong> First Chain targets +Chg creatures.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Blast Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Success Roll (Conduit) vs Short Range space. <strong>Flame:</strong> Dmg = Result in 8m radius. <strong>Frost:</strong> Dmg in 90° cone, 12m wide. <strong>Lightning:</strong> Dmg to 3 chosen creatures in line of attack (intersecting path).
-                                    </td>
-                                </tr>
-                                <tr class="skill-section-hd">
-                                    <td colspan="3">⬡ Amped Sprint &amp; Motion Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Sprint</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Move using chosen Conduit Attribute instead of physical movement.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Motion Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Part of Melee attack; move meters = Conduit x4. <strong>Flame:</strong> Fly; every creature in path takes damage. <strong>Frost:</strong> Spaces moved become Difficult Terrain; can forego attack for Rating 2 Cover. <strong>Lightning:</strong> Uncontested; can move after attack.
-                                    </td>
-                                </tr>
-                                <tr class="skill-section-hd">
-                                    <td colspan="3">⬡ Amped Regen &amp; Healing Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Regen</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Success Test (Conduit). <strong>Flame:</strong> Heal 1 LW / 2 SP. <strong>Frost:</strong> Heal self/ally in space 1 LW / 3 SP. <strong>Lightning:</strong> Temp +1 Prot (lost after first dmg) / 3 SP.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Healing Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        <strong>Flame:</strong> Heal Flame+Toughness LW. <strong>Frost:</strong> Heal Frost LW to self/ally. <strong>Lightning:</strong> If downed this round, immediately heal Lightning LW and stand up.
-                                    </td>
-                                </tr>
-                                <tr class="skill-section-hd">
-                                    <td colspan="3">⬡ Amped Def. &amp; Shield Burst</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell" rowspan="2"><div class="checkbox-box"></div></td>
-                                    <td>
-                                        <div class="skill-name-col">Amped Def.</div>
-                                        <div class="skill-cost">Amp Skill</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Contest attack using Conduit Attribute. <strong>Flame:</strong> Deal Dmg = Flame to creature in space. <strong>Frost:</strong> +2 Prot. <strong>Lightning:</strong> Hits require 9+ dice.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="skill-name-col">Shield Burst</div>
-                                        <div class="skill-cost">Burst Skill (3 Chg)</div>
-                                    </td>
-                                    <td class="rules-text">
-                                        Free Contest (Conduit). <strong>Flame:</strong> Deal Dmg = Flame to ALL in space. <strong>Frost:</strong> +4 Prot. <strong>Lightning:</strong> Hits require 10+ dice.
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
+        <div class="mh-title">
+            <h1>Class Sheet: The Conduit</h1>
+            <div class="sub">Flotilla Dossier · Specialization Record</div>
         </div>
-        <div class="page-foot">
-            Corsair RPG · Conduit Class Sheet · System Document
+        <div class="mh-name">
+            <label>Agent Name</label>
+            <div class="fl"></div>
         </div>
     </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid-main">
+
+        <!-- COLUMN 1: RULES & ATTRIBUTES -->
+        <div>
+            <!-- ATTRIBUTES CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="2" y="10" width="3" height="4"/>
+                        <rect x="19" y="10" width="3" height="4"/>
+                        <rect x="5" y="8" width="2" height="8"/>
+                        <rect x="17" y="8" width="2" height="8"/>
+                        <rect x="7" y="11" width="10" height="2"/>
+                    </svg>
+                    <h2>Conduit Attributes</h2>
+                </div>
+                <div class="card-body">
+                    <div class="attr-row">
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Flame</div>
+                                <div class="attr-code">FLM · Firepower, Combustion · STR / CHA</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Frost</div>
+                                <div class="attr-code">FRT · Cryogenics, Stabilization · FIN / KNW</div>
+                            </div>
+                        </div>
+                        <div class="attr-block">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Lightning</div>
+                                <div class="attr-code">LTG · Galvanic Arcs, Speed · AGI / INS</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CAPACITOR CHARGE TRACKER -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                    </svg>
+                    <h2>Capacitor Plates (Charges)</h2>
+                </div>
+                <div class="card-body">
+                    <div class="charge-grid">
+                        <div class="charge-box flame" title="Flame Charges (Place d6 here)">
+                            <div class="charge-box-hd">Flame</div>
+                            <div class="charge-dice-zone">
+                                <span class="charge-code">FLM</span>
+                                <span class="charge-pip">1–3</span>
+                            </div>
+                        </div>
+                        <div class="charge-box frost" title="Frost Charges (Place d6 here)">
+                            <div class="charge-box-hd">Frost</div>
+                            <div class="charge-dice-zone">
+                                <span class="charge-code">FRT</span>
+                                <span class="charge-pip">1–3</span>
+                            </div>
+                        </div>
+                        <div class="charge-box lightning" title="Lightning Charges (Place d6 here)">
+                            <div class="charge-box-hd">Lightning</div>
+                            <div class="charge-dice-zone">
+                                <span class="charge-code">LTG</span>
+                                <span class="charge-pip">1–3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gambit-note">Place d6 showing Charge level (Max 3) in active box · Slide to swap</div>
+                </div>
+            </div>
+
+            <!-- CORE MECHANICS CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="16" x2="12" y2="12"/>
+                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                    </svg>
+                    <h2>Core Mechanics</h2>
+                </div>
+                <div class="card-body rules-text">
+                    <p><strong>Melee Combat:</strong> Melee attacks can use Conduit Attributes with favored physical Core pairs: <strong>Flame + STR</strong> (Thermal), <strong>Frost + FIN</strong> (Cryogenic), or <strong>Lightning + AGI</strong> (Galvanic). Favored pair grants damage bonus equal to lower attribute in pair.</p>
+                    <p><strong>Effect Synergies:</strong></p>
+                    <ul>
+                        <li><strong>Flame:</strong> Crit Effects grant <strong>3 SP</strong> instead of 2.</li>
+                        <li><strong>Frost:</strong> Blockers and Downgrades become <strong>Sustained Effects</strong> for the round.</li>
+                        <li><strong>Lightning:</strong> Chains grant <strong>+1 SP</strong>; activate on <strong>7+ dice</strong>.</li>
+                    </ul>
+                    <p><strong>Charge Engine:</strong> Amp abilities build +1 Charge of matching element (swapping elements resets charges to 0). Bursts require and consume 3 Charges.</p>
+                    <p><strong>Minor Touch:</strong> Warm/spark (Flame), cool/freeze (Frost), static shock/clear (Lightning) without rolling.</p>
+                </div>
+            </div>
+
+            <!-- CLASS MODS CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    <h2>Class Modifications (25,000 Cr · Max 2)</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table">
+                        <thead>
+                        <tr>
+                            <th class="chk-cell">Act</th>
+                            <th style="width: 26%;">Mod</th>
+                            <th>Effect</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Duality</td>
+                            <td class="rules-text">Hold charges of 2 elements simultaneously (shared max 3). Burst consumes all. Amping overrides when full.</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Infinity</td>
+                            <td class="rules-text">Can activate Amp abilities even when holding max 3 Charges, gaining active effects without gaining charges.</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Intensity</td>
+                            <td class="rules-text">Sacrifice a Hit (8+) on tests using Conduit Attributes to generate 1 matching Charge (up to max capacity).</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Finality</td>
+                            <td class="rules-text">Can activate Burst with &lt;3 Charges, but cannot gain Charges of any element until the end of the round.</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td class="skill-name-col">Ingenuity</td>
+                            <td class="rules-text">When Ampping a different element, convert all existing Charges into the new element instead of losing them.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMN 2: ABILITIES (7 PACKAGES) -->
+        <div>
+            <div class="card">
+                <div class="card-hd">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                    </svg>
+                    <h2>Amp &amp; Burst Packages (1 Starting · +1 per Level 2–4)</h2>
+                </div>
+                <div>
+                    <table class="skill-table">
+                        <colgroup>
+                            <col style="width:4.2mm;"/>
+                            <col style="width:26%;"/>
+                            <col style="width:16%;"/>
+                            <col/>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th class="chk-cell">Lrn</th>
+                            <th>Ability</th>
+                            <th>Cost / Tag</th>
+                            <th>Effect Across Elements</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <!-- 1. RANGED PACKAGE -->
+                        <tr class="skill-section-hd first">
+                            <td colspan="4">⬡ 1. Ranged Package (Amped Shot &amp; Blast Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Shot</span> <span class="tag-badge">Rider</span></td>
+                            <td><span class="skill-cost">0 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">Firearm attack. <strong>Flame:</strong> +1 Dmg/Chg. <strong>Frost:</strong> Reroll dice = Chg across all rolls. <strong>Lightning:</strong> 1st Chain targets +Chg additional creatures.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Blast Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">Success Test vs Short range space. <strong>Flame:</strong> Dmg = SP + Flame in 8m radius. <strong>Frost:</strong> Dmg = SP + Frost in 90° 12m cone + Difficult Terrain. <strong>Lightning:</strong> Dmg = SP + Lightning to 3 creatures in line of fire.</span></td>
+                        </tr>
+
+                        <!-- 2. MELEE PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 2. Melee Package (Amped Strike &amp; Impact Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Strike</span> <span class="tag-badge">Rider</span></td>
+                            <td><span class="skill-cost">0 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">Melee strike. <strong>Flame:</strong> +1 Dmg/Chg or Push target 1 space/Chg. <strong>Frost:</strong> Apply 1 Downgrade/Chg to target's physical tests for round. <strong>Lightning:</strong> Free Chain to +1 adjacent enemy/Chg.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Impact Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">Success Test vs melee target. <strong>Flame:</strong> Target takes SP + Flame + 4 dmg; shockwave deals Flame dmg to enemies in space/adjacent. <strong>Frost:</strong> Dmg = SP + Frost + 3-die Blocker on target. <strong>Lightning:</strong> Dmg = SP + Lightning; arc 8m through target (line takes Lightning dmg).</span></td>
+                        </tr>
+
+                        <!-- 3. MOBILITY PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 3. Mobility Package (Amped Sprint &amp; Motion Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Sprint</span> <span class="tag-badge">Rider</span></td>
+                            <td><span class="skill-cost">0 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">Movement action. <strong>Flame:</strong> +2m move/Chg and can Fly. <strong>Frost:</strong> +2m move/Chg, ignore Diff. Terrain, leave Diff. Terrain trail for round. <strong>Lightning:</strong> +2m move/Chg; uncontested movement.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Motion Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">Move up to Conduit &times; 4 meters. <strong>Flame:</strong> Fly into space; creatures inside take Flame + STR dmg. <strong>Frost:</strong> Spaces moved become Diff. Terrain; deploy Medium Cover (Rating 2, 24 HP) in end space. <strong>Lightning:</strong> Melee strike in path (melee dmg + Lightning); disengage freely; Chains can target any creature traversed.</span></td>
+                        </tr>
+
+                        <!-- 4. DEFENSE PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 4. Defense Package (Amped Defense &amp; Shield Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Def.</span> <span class="tag-badge">Reaction</span></td>
+                            <td><span class="skill-cost">0 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">1/turn when targeted. <strong>Flame:</strong> Attacker in space/adjacent takes Flame + Chg dmg. <strong>Frost:</strong> +1 Protection/Chg against attack. <strong>Lightning:</strong> Attack dice require (7 + Chg)+ to Hit.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Shield Burst</span> <span class="tag-badge">Reaction</span></td>
+                            <td><span class="skill-cost">0 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">Free contest (Conduit) when targeted. <strong>Flame:</strong> Suffer 1/2 dmg; all enemies in space/adjacent take Flame + 3 dmg. <strong>Frost:</strong> +4 Prot for you/ally in space; attacker suffers 1 Downgrade. <strong>Lightning:</strong> Hits require 10s (8s/9s miss); teleport up to 4m after attack.</span></td>
+                        </tr>
+
+                        <!-- 5. RESTORATION PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 5. Restoration Package (Amped Regen &amp; Healing Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Regen</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">Success Test (self/ally in space). <strong>Flame:</strong> Heal 1 LW / 2 SP + Chg extra LW. <strong>Frost:</strong> Heal 1 Stress / 2 SP + Chg extra Stress (or clear burns/toxins). <strong>Lightning:</strong> Grant 1 AP / 2 SP (usable this turn) or temp Protection = Chg.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Healing Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc"><strong>Flame:</strong> Heal Flame + Toughness LW to self/ally in space. <strong>Frost:</strong> Heal Frost LW or Stress to self and all allies in space; clear all Downgrades. <strong>Lightning:</strong> Revive downed ally/self with Lightning LW + 1 AP immediately; if conscious, clear stun, grant +1 AP this turn, and +1 Upgrade for round.</span></td>
+                        </tr>
+
+                        <!-- 6. PROWESS PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 6. Prowess Package (Amped Prowess &amp; Overdrive Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amped Prowess</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc">Non-combat only. Tests using matching element attribute gain Upgrades = Chg. <strong>Flame:</strong> STR / CHA. <strong>Frost:</strong> FIN / KNW. <strong>Lightning:</strong> AGI / INS.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Overdrive Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">When taking any test (in or out of combat) matching element attribute that is NOT an attack: set up to 3 dice in Success Roll to max face value (bank for Gambit or spend for Hits/Crit).</span></td>
+                        </tr>
+
+                        <!-- 7. GEAR SYNTHESIS PACKAGE -->
+                        <tr class="skill-section-hd">
+                            <td colspan="4">⬡ 7. Gear Synthesis Package (Amp Gear &amp; Synthesis Burst)</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
+                            <td><span class="skill-name">Amp Gear</span> <span class="tag-badge">Rider</span></td>
+                            <td><span class="skill-cost">0/1 AP · +1 Chg</span></td>
+                            <td><span class="skill-desc"><strong>Flame:</strong> Melee weapon gains +1 Dmg/Chg, or up to Chg dice Crit on 7+ on Ordnance tests. <strong>Frost:</strong> Reroll up to Chg dice on Finesse gear tests, or healing items gain +Chg SP. <strong>Lightning:</strong> Mobility gear gains Upgrades = Chg, or Hacking/Interfacing tests gain Upgrades = Chg.</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="skill-name">Synthesis Burst</span> <span class="tag-badge">Action</span></td>
+                            <td><span class="skill-cost">1 AP · 3 Chg</span></td>
+                            <td><span class="skill-desc">Synthesize Load 0 one-time item for encounter. <strong>Flame:</strong> Grenade (Ordnance = Flame) or Jetpack (Mobility = Flame, 1 flight). <strong>Frost:</strong> Field Medi-Kit (Medicine = Frost, heals LW) or Glacial Barricade (Medium Cover +2, 24 HP, non-recoverable). <strong>Lightning:</strong> Flashbang (Ordnance = Lightning, Area Stun) or Cyberdeck (Hacking/Interfacing = Lightning, 1 slice).</span></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-foot">
+        Corsair RPG · Conduit Class Sheet · System Document
+    </div>
+</div>
 </body>
 
 </html>
