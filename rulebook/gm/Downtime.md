@@ -104,9 +104,10 @@ Contract payouts and official Corsair sponsorships cover routine and emergency h
 
 When operatives have downtime to spare, they can hone their physiological reflexes, technical expertise, or academic mastery.
 
-Spending **1 Day-to-Day AP** on focused physical conditioning, target shooting, flight simulations, or cyber-warfare theory awards **1 Experience Point (1 XP)**. 
-
-Accumulated Experience Points can be spent at any time during downtime to increase Skills (2 XP per skill rank) or unlock new Traits (costing 2 to 8 XP) according to the character advancement guidelines in [Advancement](../character/Advancement.md) and [Traits](../character/Traits.md).
+* **Training AP Cost & Reward:** Spending **1 Day-to-Day AP** on focused physical conditioning, target shooting, flight simulations, or cyber-warfare theory awards **1 Experience Point (1 XP)**.
+* **Strict Daily Limit:** To reflect the biological and cognitive limits of daily conditioning, an operative can earn a **maximum of 1 XP from Training per 24-hour round** (spending at most 1 Day-to-Day AP on training per day). The remaining 2 AP must be allocated to other activities (such as medical rest, starship repairs, freelance odd jobs, shopping, or personal projects).
+* **Closing the Gap:** Downtime training serves primarily to close the small remaining XP gap (typically 1 to 2 XP) needed to learn a new Skill rank, purchase an appealing Trait, or increase an Attribute after completing an operational mission.
+* **Spending XP:** Accumulated Experience Points can be spent at any time during downtime to increase Skills (2 XP per skill rank), acquire new Traits (costing 2 to 8 XP), or improve Attributes (costing $3 \times \text{target level}$) according to the character advancement guidelines in [Advancement](../character/Advancement.md) and [Traits](../character/Traits.md).
 
 ---
 
@@ -165,23 +166,25 @@ Contracts are the primary lifeblood of a Corsair cell, providing the capital and
 
 ### Mission Payout Scaling
 
-| Contract Tier | Sanctioned Payout (Per Operative) | Base Rep Gain | Unsanctioned Payout (Per Operative) |
-| :--- | :--- | :--- | :--- |
-| **Tier 1 (Local / Precinct)** | $\$3,750 – \$5,000 \text{ Credits}$ | **$+1 \text{ Rep}$** | $\$10,000 – \$20,000 \text{ Credits}$ |
-| **Tier 2 (System / Corporate)**| $\$10,000 – \$15,000 \text{ Credits}$ | **$+3 \text{ Rep}$** | $\$20,000 – \$50,000 \text{ Credits}$ |
-| **Tier 3 (High-Threat / Black-Site)**| $\$25,000+ \text{ Credits}$ | **$+7 \text{ Rep}$** | $\$50,000+ \text{ Credits}$ |
+| Contract Tier | Sanctioned Payout (Per Operative) | Base Rep Gain | Experience Award (Per Operative) | Unsanctioned Payout (Per Operative) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tier 1 (Local / Precinct)** | $\$5,000 – \$7,500 \text{ Credits}$ | **$+1 \text{ Rep}$** | **$+4 \text{ XP}$** | $\$15,000 – \$25,000 \text{ Credits}$ |
+| **Tier 2 (System / Corporate)**| $\$15,000 – \$20,000 \text{ Credits}$ | **$+3 \text{ Rep}$** | **$+8 \text{ XP}$** | $\$35,000 – \$60,000 \text{ Credits}$ |
+| **Tier 3 (High-Threat / Black-Site)**| $\$35,000 – \$50,000+ \text{ Credits}$ | **$+7 \text{ Rep}$** | **$+12 \text{ XP}$** | $\$75,000+ \text{ Credits}$ |
 
 ---
 
 ## 9. Freelance Work & The Master d100 Odd Jobs Table
 
-Between major contracts, Corsairs frequently pick up local freelance work to pocket extra credits, learn station rumors, or pass the time during long layovers. Freelance gigs are mundane, colorful, and often humorous odd jobs posted on dockside bulletin boards, spacer taproom holoboards, or local municipal job networks.
+Between major contracts, Corsairs frequently pick up local freelance work to pocket extra credits, learn station rumors, or pass the time during long layovers. Freelance gigs are mundane, colorful, and often humorous odd jobs posted on dockside bulletin boards, spacer taproom holoboards, or local municipal job networks. 
+
+* **Closing the Gear Gap:** Freelance gigs are primarily designed to close the small financial gap remaining after a major contract payout—allowing an operative to pocket the final $1,000 to $2,000 Credits needed to purchase a high-end weapon upgrade kit, custom cyberdeck module, or piece of armored kit without waiting for another full mission deployment.
 
 ### Resolving a Freelance Gig
 Accepting and completing an odd job takes **1 Day-to-Day AP** (one 8-hour shift). The player rolls a **Simple Test** using the Attribute Pair specified by the gig.
 
 * **Payout Formula:**
-  * **1 or More Hits Scored:** The character successfully completes the job and earns **1,000 Credits base pay**, plus **+500 Credits for each additional Hit scored** beyond the first.
+  * **1 or More Hits Scored:** The character successfully completes the job and earns **500 Credits base pay**, plus **+250 Credits for each additional Hit scored** beyond the first.
   * **0 Hits Scored:** The character earns **0 Credits**. The gig fell through, the employer proved to be a deadbeat, or the job took longer than expected. There is no negative mechanical complication; the operative simply loses that 8-hour shift's earning potential.
 
 ```
@@ -192,13 +195,13 @@ Accepting and completing an odd job takes **1 Day-to-Day AP** (one 8-hour shift)
 +------------------+-----------------------+------------------------------------------------------------------+
 | 0 Hits           | $0 \text{ Credits}$   | Shift wasted; gig falls through or client stiffs on payment.     |
 +------------------+-----------------------+------------------------------------------------------------------+
-| 1 Hit            | $1,000 \text{ Credits}$| Solid work; baseline contract completed without incident.       |
+| 1 Hit            | $500 \text{ Credits}$ | Solid work; baseline contract completed without incident.        |
 +------------------+-----------------------+------------------------------------------------------------------+
-| 2 Hits           | $1,500 \text{ Credits}$| Great efficiency; employer adds a generous performance tip.     |
+| 2 Hits           | $750 \text{ Credits}$ | Great efficiency; employer adds a generous performance tip.      |
 +------------------+-----------------------+------------------------------------------------------------------+
-| 3 Hits           | $2,000 \text{ Credits}$| Exceptional work; client is thrilled and offers a heavy bonus.   |
+| 3 Hits           | $1,000 \text{ Credits}$| Exceptional work; client is thrilled and offers a heavy bonus.  |
 +------------------+-----------------------+------------------------------------------------------------------+
-| 4+ Hits          | $2,500+ \text{ Credits}$| Local legend; employer sings your praises across the concourse.  |
+| 4+ Hits          | $1,250+ \text{ Credits}$| Local legend; employer sings your praises across the concourse.|
 +------------------+-----------------------+------------------------------------------------------------------+
 ```
 
@@ -350,14 +353,14 @@ Whenever an operative browses a local job board, roll **1d100** (or have the pla
 > * **Bazaar Requisitions (Tessa, 1 AP):** Tessa navigates the port’s commercial concourse, purchasing a **Standard Crate of Supplies** (5 Supply for 8,000 Credits) to replenish the cargo hold. (Installing upgrade kits onto gear takes place freely during downtime and costs 0 AP).
 >
 > ### Shift 2: Afternoon Endeavors (3 AP Spent)
-> * **Physical Conditioning (Jax, 1 AP):** Jax heads to the station gym to run high-G centrifuge sprint drills. Spending 1 Day-to-Day AP awards Jax **1 Experience Point (1 XP)**.
-> * **Freelance Gig #01: Lost Featherwing (Silas, 1 AP):** Silas accepts an afternoon freelance gig to catch an escaped songbird inside ventilation conduits. Silas rolls **Instinct (4) + Knowledge (4)** (4d10): `[5, 8, 8, 10]`—three Hits! Silas lures the creature safely into a cage and collects a top-tier payout of **2,000 Credits** ($1,000 base + 2×$500 bonus).
-> * **Freelance Gig #05: Synthwave Bouncer (Tessa, 1 AP):** Tessa works security at an underground modular synthesizer gig, rolling **Strength (3) + Presence (4)** (4d10): `[2, 7, 8, 9]`—two Hits! Tessa escorts out rowdy hecklers without throwing a punch, earning **1,500 Credits** ($1,000 base + $500 bonus).
+> * **Physical Conditioning (Jax, 1 AP):** Jax heads to the station gym to run high-G centrifuge sprint drills. Spending 1 Day-to-Day AP awards Jax **1 Experience Point (1 XP)** (meeting his daily training limit of 1 XP/day).
+> * **Freelance Gig #01: Lost Featherwing (Silas, 1 AP):** Silas accepts an afternoon freelance gig to catch an escaped songbird inside ventilation conduits. Silas rolls **Instinct (4) + Knowledge (4)** (4d10): `[5, 8, 8, 10]`—three Hits! Silas lures the creature safely into a cage and collects a top-tier payout of **1,000 Credits** ($500 base + 2×$250 bonus), pocketing cash to close the gap on a new weapon mod.
+> * **Freelance Gig #05: Synthwave Bouncer (Tessa, 1 AP):** Tessa works security at an underground modular synthesizer gig, rolling **Strength (3) + Presence (4)** (4d10): `[2, 7, 8, 9]`—two Hits! Tessa escorts out rowdy hecklers without throwing a punch, earning **750 Credits** ($500 base + $250 bonus).
 >
 > ### Shift 3: Night Shift (3 AP Spent)
-> * **Freelance Gig #02: Spacer Bar Stand-Up (Jax, 1 AP):** Jax hits the open-mic stage at a bustling dockside pub, rolling **Presence (4) + Presence (4)** (4d10): `[4, 7, 8, 9]`—two Hits! His dry military humor brings down the house, earning him **1,500 Credits** ($1,000 base + $500 bonus).
-> * **Technical Study (Silas, 1 AP):** Silas reviews encrypted sensor telemetry and navigational star charts, earning **1 Experience Point (1 XP)**.
-> * **Flight Simulator Drills (Tessa, 1 AP):** Tessa runs emergency orbital reentry drills, earning **1 Experience Point (1 XP)**.
+> * **Freelance Gig #02: Spacer Bar Stand-Up (Jax, 1 AP):** Jax hits the open-mic stage at a bustling dockside pub, rolling **Presence (4) + Presence (4)** (4d10): `[4, 7, 8, 9]`—two Hits! His dry military humor brings down the house, earning him **750 Credits** ($500 base + $250 bonus).
+> * **Technical Study (Silas, 1 AP):** Silas reviews encrypted sensor telemetry and navigational star charts, earning **1 Experience Point (1 XP)** (meeting his daily training limit of 1 XP/day).
+> * **Flight Simulator Drills (Tessa, 1 AP):** Tessa runs emergency orbital reentry drills, earning **1 Experience Point (1 XP)** (meeting her daily training limit of 1 XP/day).
 >
 > ### End of the Round: 24-Hour Heartbeat
 > Exactly 24 hours elapse aboard Port Zenith as all 9 Day-to-Day Action Points are spent across the three shifts. The GM resolves the universal heartbeat:
