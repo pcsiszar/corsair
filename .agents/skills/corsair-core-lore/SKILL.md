@@ -40,6 +40,7 @@ Layer 1 is the everyday reality experienced by citizens, spacers, and operatives
   * **Freelancers (Aspirants)**: Uncommissioned crews operating on foot, relying on commercial transport, taking low-level contracts to earn sponsor notice and purchase a hull.
   * **Corsairs (Chartered Cell)**: Standard commissioned cells with individual sponsors, a dedicated starship, and cross-jurisdictional legal authority.
   * **Rogue Corsairs (Outlaws)**: Former Corsairs who lost their charter, broke neutrality, or went rogue; operating un-flagged ships in black markets and relying on ex-sponsor backchannels.
+* **MANTLE Chassis & The Freelancer Network**: MANTLE rigs (*Modular Adaptive Neural Transmission Linked Equipment*) are classified as Tier-1 Restricted Military Hardware, legally manufactured and controlled by the Flotilla for specialist strike corps. While commissioned Corsairs receive officially sanctioned frames underwritten by their sponsors, Freelancers acquire their required starting MANTLE either through competitive **Sponsor Candidate Pipelines** (training programs pending formal charter confirmation) or via **The Freelancer Network**—an underground fraternity of retired Corsair veterans, mentors, and dockside armorers who distribute repaired, surplused, or salvaged frames to promising aspirants.
 
 ### 2. The Flotilla
 * **Role**: The primary peacekeeping fleet, maritime safety authority, and void administration for Newcomer civilization, enforcing the "Law of the Drift."
@@ -78,7 +79,7 @@ Layer 1 is the everyday reality experienced by citizens, spacers, and operatives
 
 ### 4. Corporate Feuds & Scavenger Wars (200 – 340 AA)
 * **The Drift Wars**: Bitter He-3 proxy wars over Fume's rings shattered early joint peacekeeping.
-* **The Scavenger Incursions**: Raider armadas of **Scavs** (bio-engineered children of The Collector) invaded Fume and sacked Cloudspire. Commander **Velen Redmane** rallied an independent spacer coalition, winning the **Battle of Fume Rings** (320 AA) and birthing the Flotilla and Skyline Accords (335 AA).
+* **The Scavenger Incursions & Genesis of MANTLEs (315–320 AA)**: Raider armadas of **Scavs** (bio-engineered children of The Collector) invaded Fume and sacked Cloudspire. Facing biologically augmented raiders in hand-to-hand boarding actions, Commander **Velen Redmane** commissioned Fleet-Engineer **Kira Abe** at the **Port Zenith Orbital Engineering Yards** to reverse-engineer inert Precursor Vault neural conduits. This created the first closed-loop **MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*) prototypes, giving strike teams the reflex-speed telemetry needed to win the **Battle of Fume Rings** (320 AA) and birthing the Flotilla and Skyline Accords (335 AA). MANTLE architecture continuously evolved over subsequent centuries, incorporating dragon biology research, new tech from Precursor vaults, and continuous iterative development.
 * **The L5 Boundary (350–380 AA)**: The primitive **Lithari** discovered on fungal moon Karst $\rightarrow$ **Non-Interference Protocol** enacted. Expansion redirected to glacial **Rime**.
 
 ### 5. Multi-System Expansion & Foreign Empires (400 – 518 AA)

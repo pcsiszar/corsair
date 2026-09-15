@@ -10,15 +10,15 @@ Before building characters, the group selects a **Mode of Play** ([Freelancers](
 
 You can download a printable [Character Sheet](Character_Sheet.html) to record your character's details.
 
-### Classes
+### Classes (MANTLE Rigs)
 
-Classes define your character's specialized role and unique abilities. Choose one of the following classes:
+In *Corsair*, your Class represents a proprietary **MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*)—an advanced cybernetic and technological chassis interfacing directly with your central nervous system via a permanent **Neural Control Chip (NCC)**. For complete origins, technical specs, and neuro-biology, see [Classes & The MANTLE System](../classes/Classes.md). Choose one of the following classes:
 
-- [Conduit](../classes/Conduit.md): Elemental powerhouses.
-- [Hazard](../classes/Hazard.md): Chemical specialists.
-- [Pilot](../classes/Pilot.md): Modular exoskeleton operators.
-- [Vanguard](../classes/Vanguard.md): Shield and heavy weapon experts.
-- [Weaver](../classes/Weaver.md): Nanomachine artists.
+- [Conduit](../classes/Conduit.md): Living capacitors and elemental shock troopers.
+- [Hazard](../classes/Hazard.md): Combat alchemists and chemical warfare specialists.
+- [Pilot](../classes/Pilot.md): Neuro-synced exoskeleton and autonomous exodrone operators.
+- [Vanguard](../classes/Vanguard.md): Frontline breakers and morphing kinetic board specialists.
+- [Weaver](../classes/Weaver.md): Molecular fabrication and nanite swarm artisans.
 
 ### Traits
 

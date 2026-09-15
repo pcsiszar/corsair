@@ -34,7 +34,7 @@
     - [Delayed Actions](#delayed-actions)
 - [Chapter 5: Player Characters](character/Player_Characters.md)
     - [Character Creation](character/Creation.md) ([Character Sheet](character/Character_Sheet.html) · [Crew Sheet](character/Crew_Sheet.html))
-    - [Classes](#classes)
+    - [Classes & MANTLE Rigs](classes/Classes.md)
         - [Conduit](classes/Conduit.md) ([Sheet](classes/Conduit_Sheet.html))
         - [Hazard](classes/Hazard.md) ([Sheet](classes/Hazard_Sheet.html))
         - [Pilot](classes/Pilot.md) ([Sheet](classes/Pilot_Sheet.html))

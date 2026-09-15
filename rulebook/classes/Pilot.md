@@ -4,11 +4,11 @@
 
 ## Description
 
-The Pilot is defined by direct neuro-synaptic synchronization with an adaptable Exodrone chassis—a motorized bio-mechanical frame that serves as both a wearable exoskeleton and an autonomous tele-operated proxy. This cybernetic interface links directly into the operative’s motor cortex via standardized cranial shunt ports along the neck and temples, allowing the Pilot to operate the external frame as a natural extension of their own nervous system. Visually, a Pilot presents an imposing, industrial silhouette. Lightweight ceramic-composite plating and subdermal shock-absorbing harnesses fit beneath the Exodrone's shifting mechanical carapace. In its dormant, docked configuration, the chassis folds tightly along the Pilot's spine like a segmented pair of metallic wings, its hydraulic solenoids hissing softly in rhythm with the user's pulse and cooling fans humming against the operative's back.
+The Pilot is defined by direct neuro-synaptic synchronization with a specialized **Pilot-pattern MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*)—a motorized bio-mechanical frame that serves as both a wearable exoskeleton and an autonomous tele-operated Exodrone. Controlled directly through the operative's permanent **Neural Control Chip (NCC)** and cranial shunt ports along the neck and temples, the rig allows the Pilot to operate the external frame as a natural extension of their own nervous system. Visually, a Pilot presents an imposing, industrial silhouette. Lightweight ceramic-composite plating and subdermal shock-absorbing harnesses fit beneath the Exodrone's shifting mechanical carapace. In its dormant, docked configuration, the chassis folds tightly along the Pilot's spine like a segmented pair of metallic wings, its hydraulic solenoids hissing softly in rhythm with the user's pulse and cooling fans humming against the operative's back.
 
 In active combat, the Exodrone acts as an instrument of overwhelming mechanical force, driven by high-density solid-state battery banks and pneumatic actuators. When locked to the operative's spinal harness in Attached Mode, the Exodrone reinforces the Pilot's skeletal structure, allowing them to sprint through heavy automatic fire, shatter reinforced security bulkheads with hydraulic strikes, or stabilize heavy squad weapons without recoil fatigue. The true tactical genius of the chassis emerges when the locking pins disengage, allowing the Exodrone to detach and operate as an independent avatar. Governed by high-frequency telemetry feeds, the detached drone can advance into hazardous breaches, lay down suppressive fire from elevated vantages, provide physical barricades for pinned allies, or administer emergency trauma triage in hot landing zones while the Pilot directs operations from secure cover.
 
-The operational versatility of the Pilot chassis is defined by its modular firmware architecture. Rather than locking the operative into a singular battlefield duty, the Exodrone can be reconfigured with specialized hardware packages between engagements. A Pilot can optimize their frame for close-quarters breach and clear with high-frequency vibro-blades, calibrate its hardpoints into a heavy shoulder-mounted ballistic and laser artillery platform, mount pneumatic vector thrusters for frictionless three-dimensional boarding actions, or equip surgical micro-manipulators for life-saving combat stabilization. In any theater of operations, the Pilot ensures the cell possesses both a fortified anchor and a versatile remote presence capable of shifting the tactical balance at a moment's notice.
+The operational versatility of the Pilot MANTLE chassis is defined by its modular firmware architecture. Rather than locking the operative into a singular battlefield duty, the Exodrone can be reconfigured with specialized hardware packages between engagements. A Pilot can optimize their frame for close-quarters breach and clear with high-frequency vibro-blades, calibrate its hardpoints into a heavy shoulder-mounted ballistic and laser artillery platform, mount pneumatic vector thrusters for frictionless three-dimensional boarding actions, or equip surgical micro-manipulators for life-saving combat stabilization. In any theater of operations, the Pilot ensures the cell possesses both a fortified anchor and a versatile remote presence capable of shifting the tactical balance at a moment's notice.
 
 ## Attributes
 
@@ -103,9 +103,9 @@ The Duelist Module transforms the Exodrone into a lethal close-quarters combatan
 * **Cost:** 1 Battery
 * **Effect:** The Exodrone extends twin wrist-mounted powered weapons of your choice between vibro-blades, shock-batons, or pneumatic spikes, remaining active until the end of the round. They function as dual-wielded 1H melee weapons with a **Damage Bonus of 1 plus your Pilot Level**, allowing you to choose between **Slashing** (favored pair **Agility + Strength**), **Striking** (favored pair **Strength + Finesse**) or **Piercing** (favored pair **Agility + Finesse**) damage for your melee attacks.
 
-**Thermal Lance `[Action]`**
+**Plasma Lance `[Action]`**
 * **Cost:** 2 Batteries, 1 AP
-* **Effect:** The Exodrone locks its articulated frame and unleashes a superheated thermal cutting lance in a devastating thrust against a target or structural barrier. Make a single melee attack using any melee attribute pair, with the following modifiers: **Damage Bonus: +5 + Pilot Level**. This Damage ignores the target's Physical Protection.
+* **Effect:** The Exodrone locks its articulated frame and unleashes a superheated thermal cutting lance in a devastating thrust against a target or structural barrier. Make a single melee attack using any melee attribute pair. On a hit, this attack deals damage with a **Damage Bonus equal to 2 plus your Pilot Level**. This damage completely ignores the target's Physical Protection (including armor, shields, and cover).
 
 ### Arsenal Module
 
@@ -135,7 +135,7 @@ The Assault Module enhances dynamic movement, enabling the Exodrone to scale ver
 * **Cost:** 1 Battery
 * **Effect:** Micro-fiber magnetic clamps engage across the Exodrone’s extremities. Until the end of the round, the Exodrone gains **Surface Adhesion**, allowing it to move across vertical bulkheads and sheer ceilings as regular terrain.
 
-**Jump Pack `[Action]`**
+**Jump Pack `[Free Action]`**
 * **Cost:** 2 Batteries
 * **Effect:** The Exodrone fires integrated vector thrusters, gaining the **Mobility** virtual item attribute equal to 3 + Pilot Class Level. Until the end of round, the Exodrone's and the wearer's base movement speed becomes 12, it may sacrifice Hits on movement tests to gain +4 meters of movement per Hit spent and it and its wearer ignores difficult terrain and all damage from falling until end of turn. If in mid-air, it falls at the end of the Player Turn, taking no damage.
 

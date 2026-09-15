@@ -10,13 +10,14 @@ This skill codifies the architectural rules, mathematical invariants, omnirole p
 
 ---
 
-## 1. In-Universe Chassis Identity & Ownership
+## 1. In-Universe Chassis Identity & Ownership: The MANTLE System
 
-In Corsair, a **Class** is not an abstract RPG profession, calling, or permanent biological destiny. Instead, it represents an advanced, proprietary **cybernetic or technological chassis**—such as subcutaneous elemental capacitor plates, a pressurized chemical delivery harness, a neurally tethered exodrone, a morphing kinetic board, or an integrated nanite reservoir.
+In Corsair, a **Class** is not an abstract RPG profession, calling, or permanent biological destiny. Instead, it represents an advanced, proprietary **MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*)—a specialized, aerospace-grade cybernetic or technological chassis designed for high-intensity frontline operations (such as a Conduit's capacitor plates, a Hazard's pressurized chemical manifold, a Pilot's articulated exodrone, a Vanguard's kinetic board, or a Weaver's nanite reservoir).
 
-* **Neural Implant Interface:** Every class chassis interfaces directly with the operative's central nervous system via a standardized neural implant port.
-* **Single Active Chassis Limit:** Because of neural bandwidth and metabolic load, an operative can have **only one Class chassis active/equipped at a time**.
-* **Chassis Ownership & Acquisition:** Operatives select their initial chassis during character creation. During downtime (day-to-day pacing), an operative can purchase additional chassis for **100,000 Credits** each and swap which chassis they have equipped.
+* **The Neural Control Chip (NCC):** Every operative undergoing MANTLE qualification has a standardized **Neural Control Chip (NCC)** and sub-dermal cranial/spinal shunt port surgically fused into their central nervous system. Operating a MANTLE demands rigorous neuro-physical conditioning; it is an integrated cybernetic extension of the wearer's neuromuscular reflex, not an off-the-shelf tool.
+* **Bespoke Full-Body Frames:** While the NCC and neural telemetry protocols are standardized across Newcomer space, each class chassis is an entirely bespoke, dedicated full-body frame engineered from the ground up. A Conduit’s dielectric-insulated suit and Peltier heat-sinks share no physical structural parts with a Pilot’s articulated exodrone harness or a Hazard's pressurized manifold pack.
+* **Single Active Chassis Invariant (Synaptic Bandwidth Saturation):** The NCC maps the operative's motor cortex, endocrine system, and proprioceptive reflex directly to the chassis telemetry. The biological brain's neuro-chemical bandwidth can only sustain one active mapping; attempting to cross-link or equip multiple chassis simultaneously induces violent sensory seizures and neural stroke (**Synaptic Burnout**). Consequently, an operative can have **only one MANTLE chassis active/equipped at a time**.
+* **Chassis Ownership & Acquisition (100,000 Credits):** Operatives select their initial chassis during character creation (acquired via Sponsor Candidate training pipelines, the veteran Freelancer Network, or rare salvage). During downtime (day-to-day pacing), an operative can purchase additional bespoke chassis for **100,000 Credits** each and swap their active rig. This substantial cost represents acquiring the specialized aerospace-grade hardware, procuring military-spec firmware licenses or black-market jailbreaks, and undergoing intensive medical-pod neuro-mapping recalibration.
 * **Preserved Investment:** Attribute ratings, unlocked ability packages, and purchased mods belong to each specific chassis and remain intact when an operative swaps between owned chassis.
 
 ---

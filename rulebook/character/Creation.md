@@ -65,9 +65,13 @@ Choose a race for your character. Your race represents your character's biologic
 - **Troll:** *Towering, horned humanoids with thick hides, prominent tusks, and striking skin pigmentation.*
     - Gain **+1 Strength** or **+1 Presence**, plus **+1 Agility** or **+1 Instinct**.
 
-## Class
+## Class (MANTLE Rig)
 
-Choose a class for your character. In Corsair, your class is not an abstract profession, but an advanced proprietary cybernetic or technological chassis that interfaces directly with your central nervous system via a standardized neural implant. While operatives can purchase and own multiple chassis over their career (costing 100,000 Credits each during downtime), you can only have **one active chassis equipped at a time**.
+Choose a class for your character. In *Corsair*, your class is not an abstract profession or biological caste, but an advanced proprietary **MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*)—a specialized, aerospace-grade cybernetic or technological chassis that interfaces directly with your central nervous system via a permanent **Neural Control Chip (NCC)** and spinal shunt.
+
+Every starting operative begins play equipped with their first MANTLE. Commissioned **Corsairs** receive an officially registered frame legally underwritten by their sponsor, while uncommissioned **Freelancers** acquire theirs through competitive Sponsor Candidate training pipelines, veteran hand-me-downs from the **Freelancer Network**, or refurbished post-war salvage.
+
+Because an operative's synaptic bandwidth can only sustain one active telemetry mapping at a time without risking catastrophic **Synaptic Burnout**, you can only have **one active MANTLE chassis equipped at a time**. Operatives may purchase and calibrate additional bespoke chassis over their career for **100,000 Credits** each during campaign downtime. For complete origins, technical specs, and neuro-biology, see [Classes & The MANTLE System](../classes/Classes.md).
 
 ### Class Options
 
