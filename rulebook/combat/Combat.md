@@ -107,9 +107,7 @@ barricade.
 In Corsair, combat is dynamic and often close-quartered. A single space on the battle map is not limited to one
 character. Understanding how multiple characters occupy and interact within a single space is key to tactical success.
 
-A single 4x4 meter space can comfortably house up to **4** standard-sized creatures. The absolute maximum capacity of a
-single space is **8** standard-sized creatures. Many actions, especially melee attacks and certain Teamwork maneuvers,
-will require you to be in the same space as your target or ally.
+A single 4x4 meter space can comfortably house up to **4** standard-sized creatures.  Many actions, especially melee attacks and certain Teamwork maneuvers, will require you to be in the same space as your target or ally.
 
 #### Outnumbering
 

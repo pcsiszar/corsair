@@ -22,16 +22,16 @@ Every item in this catalog is defined by its **Properties**, **Load**, **Cost**,
 
 Mobility hardware overcomes zero-gravity environments, vertical terrain, and planetary gravity wells. All mobility equipment shares the unified **Mobility** item attribute.
 
-| Item | Properties | Load | Cost (Cr) | Description |
-| :--- | :--- | :---: | :---: | :--- |
-| **Light Jump-Pack** | Jetpack (8m), Mobility 3 | 3 | 35,000 | Compact personal thruster pack for short tactical bounds. |
-| **Tactical Jetpack** | Jetpack (12m), Mobility 4 | 4 | 72,000 | Standard mil-spec jump rig with balanced fuel capacity. |
-| **Heavy Jump-Rig** | Jetpack (16m), Mobility 5 | 5 | 120,000 | High-output vector thruster chassis for high-altitude assaults. |
-| **Gecko Climbing Kit** | Mobility 3, Surface Adhesion | 1 | 15,000 | Micro-fiber magnetic gloves and boots for scaling metallic hulls. |
-| **Assault Zipline Launcher (40m)** | Zipline (40m), 24 HP | 3 | 15,000 | Pneumatic line launcher deploying high-tensile motorized cables. |
-| **Standard Grapple Launcher** | Grapple (8m), Mobility 3, Capacity 3, Refillable | 2 | 5,000 | Compact gas-tether launcher for rapid ascent and target displacement. |
-| **Tactical Grapple Launcher** | Grapple (16m), Mobility 4, Capacity 4, Refillable | 2 | 12,000 | Reinforced magnetic winch rig with extended range and heavier pull. |
-| **High-Tensile Rope (40m)** | Utility Cordage | 1 | 100 | Braided synthetic rope rated for extreme loads and rappelling. |
+| Item                               | Properties                                        | Load | Cost (Cr) | Description                                                           |
+| :-----------------------------------| :--------------------------------------------------| :----:| :---------:| :----------------------------------------------------------------------|
+| **Light Jump-Pack**                | Jetpack (8m), Mobility 3                          | 3    | 35,000   | Compact personal thruster pack for short tactical bounds.             |
+| **Tactical Jetpack**               | Jetpack (12m), Mobility 4                         | 4    | 72,000   | Standard mil-spec jump rig with balanced fuel capacity.               |
+| **Heavy Jump-Rig**                 | Jetpack (16m), Mobility 5                         | 5    | 120,000  | High-output vector thruster chassis for high-altitude assaults.       |
+| **Gecko Climbing Kit**             | Mobility 3, Surface Adhesion                      | 1    | 15,000   | Micro-fiber magnetic gloves and boots for scaling metallic hulls.     |
+| **Assault Zipline Launcher (40m)** | Zipline (40m), 24 HP                              | 3    | 15,000   | Pneumatic line launcher deploying high-tensile motorized cables.      |
+| **Standard Grapple Launcher**      | Grapple (8m), Mobility 3, Capacity 3, Refillable  | 2    | 5,000    | Compact gas-tether launcher for rapid ascent and target displacement. |
+| **Tactical Grapple Launcher**      | Grapple (16m), Mobility 4, Capacity 4, Refillable | 2    | 12,000   | Reinforced magnetic winch rig with extended range and heavier pull.   |
+| **High-Tensile Rope (40m)**        | Utility Cordage                                   | 1    | 100       | Braided synthetic rope rated for extreme loads and rappelling.        |
 
 ### Mobility Special Properties
 

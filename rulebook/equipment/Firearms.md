@@ -50,13 +50,13 @@ While the firearms catalog lists universal functional archetypes, individual mod
 
 Compact sidearms designed for personal defense, emergency boarding backup, and rapid close-quarters deployment.
 
-| Weapon Name | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Holdout Pistol** | 2 / 1 / - / - | 1 | 1H | +0 | 1/2 | 300 | Ultra-compact concealable polymer pistol designed for covert carry and last-ditch defense. |
-| **Service Pistol** | 3 / 2 / 1 / - | 1 | 1H | +1 | 1 | 800 | Standard-issue semi-automatic sidearm offering reliable cycling and balanced handling. |
-| **Heavy Revolver** | 3 / 2 / 1 / - | 0 | 1H | +2 | 1 | 1,200 | Large-frame cylinder handgun firing high-grain magnum cartridges with punishing recoil. |
-| **Machine Pistol** | 3 / 2 / - / - | 2 | 1H | +0 | 1 | 1,500 | Compact automatic handgun capable of dumping high-volume bursts in point-blank skirmishes. |
-| **Hand Cannon** | 2 / 3 / 2 / 0 | 0 | 1H | +2 | 1 | 2,200 | Massive reinforced handgun chambered in anti-armor kinetic rounds for devastating single shots. |
+| Weapon Name        | Accuracy (S/M/L/E) | RoF | Hands | Dmg Bonus | Load | Cost   | Description                                                                                     |
+| :-------------------| :-------------------| :----| :------| :----------| :-----| :-------| :------------------------------------------------------------------------------------------------|
+| **Holdout Pistol** | 2 / 1 / - / -      | 1   | 1H    | +0        | 1/2  | 300    | Ultra-compact concealable polymer pistol designed for covert carry and last-ditch defense.      |
+| **Service Pistol** | 3 / 2 / 1 / -      | 1   | 1H    | +1        | 1    | 800    | Standard-issue semi-automatic sidearm offering reliable cycling and balanced handling.          |
+| **Heavy Revolver** | 3 / 2 / 1 / -      | 0   | 1H    | +2        | 1    | 1,200 | Large-frame cylinder handgun firing high-grain magnum cartridges with punishing recoil.         |
+| **Machine Pistol** | 3 / 2 / - / -      | 2   | 1H    | +0        | 1    | 1,500 | Compact automatic handgun capable of dumping high-volume bursts in point-blank skirmishes.      |
+| **Hand Cannon**    | 2 / 3 / 2 / 0      | 0   | 1H    | +2        | 1    | 2,200 | Massive reinforced handgun chambered in anti-armor kinetic rounds for devastating single shots. |
 
 ---
 
@@ -115,7 +115,7 @@ A combatant can choose to wield a one-handed firearm in each hand, laying down i
 
 Stock firearms can be customized into precision mastercrafted weapons through high-tolerance machining, carbon-fiber skeletal framing, match-grade barrels, tuned gas pistons, and custom optics. Because each subsequent modification requires increasingly complex gunsmithing, upgrade kits escalate in cost with every installation.
 
-* **Upgrade Limit:** Two-handed (2H) firearms can benefit from a maximum of **3 Upgrade Kits**, while one-handed (1H) sidearms are limited to a maximum of **2 Upgrade Kits**.
+* **Upgrade Limit:** A single firearm can benefit from a maximum of **3 Upgrade Kits** in total, while one-handed (1H) sidearms are limited to a maximum of **2 Upgrade Kits**.
 * **Tiered Cost Structure:**
   * **1st Upgrade:** **10,000 Credits**
   * **2nd Upgrade:** **25,000 Credits**

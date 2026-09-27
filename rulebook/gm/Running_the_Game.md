@@ -12,7 +12,8 @@ This chapter contains the specialized operational toolkits, adversary frameworks
 * **[Downtime & Operations](Downtime.md):** ([Reference Sheet](Downtime_Sheet.html) · [Freelance Gigs Sheet](Freelance_Gigs_Sheet.html)) Run macro-pacing between missions, manage operating runway and Supplies, resolve Long Rest medical treatments, coordinate starship drydock overhauls via the Ship Fund, and generate colorful odd jobs from the master d100 Freelance Gigs table.
 * **[Social Interactions & Negotiations](Social_Interactions.md):** Turn tense dialogues, interrogations, and station council appeals into tactical confrontations governed by Action Points, ticking Patience clocks, Determination Blocker Effects, and NPC counter-tactics.
 * **[Stealth & Infiltration](Stealth_and_Infiltration.md):** Master covert operations, stealth movement, disguise craftsmanship, passive/active security systems, sensory downgrade networks, and three-stage facility alarm states.
-* **[Tracks](../core/Tracks.md):** Comprehensive rules for Progress, Countdown, Linked, Racing, and Tug-of-War Tracks used to visualize evolving situations and complex challenges.
+* **[Investigation & Exploration](Investigation_and_Exploration.md):** Turn crime scenes, derelict hulls, and planetary reconnaissance into tactile, interactive environments governed by Keys, Veils (soft observational obstacles), Shrouds (hard mechanical/digital barriers), and the Lockdown Blocker engine.
+* **[Tracks](Tracks.md):** Comprehensive rules for Progress, Countdown, Linked, Racing, and Tug-of-War Tracks used to visualize evolving situations and complex challenges.
 
 ---
 

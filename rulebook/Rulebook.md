@@ -75,11 +75,13 @@
 - [Chapter 10: Running the Game](gm/Running_the_Game.md)
     - [Time Management](gm/Time_Management.md)
     - [Social Interactions](gm/Social_Interactions.md)
+    - [Stealth & Infiltration](gm/Stealth_and_Infiltration.md)
+    - [Investigation & Exploration](gm/Investigation_and_Exploration.md)
+    - [Tracks](gm/Tracks.md)
     - [NPC Guidelines](gm/NPC_Guidelines.md)
     - [Bestiary: Threats of the Sphere](gm/Bestiary.md)
     - [Mission Generator](gm/Mission_Generator.md)
     - [Open Play Contracts](gm/Open_Play_Missions.md)
-    - [Tracks](gm/Running_the_Game.md#tracks)
 
 ## Introduction
 
