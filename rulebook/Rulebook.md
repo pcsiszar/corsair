@@ -441,9 +441,13 @@ into **Moment to Moment** pacing.
 ## Chapter 10: Running the Game
 
 [Running the Game](gm/Running_the_Game.md)
-* [Time Management](gm/Time_Management.md)
-* [Downtime & Operations](gm/Downtime.md)
-* [Social Interactions](gm/Social_Interactions.md)
+* [Time Management & Pacing](gm/Time_Management.md)
+* [Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
+* [Social Interactions & Negotiations](gm/Social_Interactions.md)
+* [Stealth & Infiltration](gm/Stealth_and_Infiltration.md)
+* [Investigation & Exploration](gm/Investigation_and_Exploration.md)
+* [Chases & Pursuits](gm/Chases_and_Pursuits.md) ([Reference Sheet](gm/Chases_and_Pursuits_Sheet.html))
+* [Tracks](gm/Tracks.md)
 * [NPC Guidelines](gm/NPC_Guidelines.md)
 * [Bestiary: Threats of the Sphere](gm/Bestiary.md)
 * [Mission Generator](gm/Mission_Generator.md)

@@ -13,6 +13,7 @@ This chapter contains the specialized operational toolkits, adversary frameworks
 * **[Social Interactions & Negotiations](Social_Interactions.md):** Turn tense dialogues, interrogations, and station council appeals into tactical confrontations governed by Action Points, ticking Patience clocks, Determination Blocker Effects, and NPC counter-tactics.
 * **[Stealth & Infiltration](Stealth_and_Infiltration.md):** Master covert operations, stealth movement, disguise craftsmanship, passive/active security systems, sensory downgrade networks, and three-stage facility alarm states.
 * **[Investigation & Exploration](Investigation_and_Exploration.md):** Turn crime scenes, derelict hulls, and planetary reconnaissance into tactile, interactive environments governed by Keys, Veils (soft observational obstacles), Shrouds (hard mechanical/digital barriers), and the Lockdown Blocker engine.
+* **[Chases & Pursuits](Chases_and_Pursuits.md):** ([Reference Sheet](Chases_and_Pursuits_Sheet.html)) Master high-speed kinetic evasions across foot, ground vehicle, and starship domains governed by Place-to-Place AP escape costs, strict disengagement guardrails, and severe interception penalties.
 * **[Tracks](Tracks.md):** Comprehensive rules for Progress, Countdown, Linked, Racing, and Tug-of-War Tracks used to visualize evolving situations and complex challenges.
 
 ---

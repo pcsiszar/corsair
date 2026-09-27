@@ -34,6 +34,7 @@ Examples should be provided whenever a rule or system is introduced:
 * **Grounded Narrative Context**: Always reference characters by name (e.g., Jax) and provide a brief, clear description of the situation to set the scene. Keep the situation simple and easy to follow, avoiding excessive flair, heavy lore, or obscure in-universe terms.
 * **Unified Examples for Linked Rules**: When multiple rules interact (such as attribute selection, test resolution, action effects, and success effects), consolidate them into a single narrative example showing how the connected rules function together in explicit sequence. Demonstrate characters actively utilizing tactical Action Effects (e.g., spending extra Action Roll Hits on Upgrade Effects) rather than leaving successes unused.
 * **Functional Equipment Naming**: In gear and equipment tables, use clear, recognizable D&D-style archetype names (e.g., *Combat Knife, Boarding Axe, Shotgun, Riot Shield*) rather than obscure in-universe model numbers, reserving detailed foundry lore for descriptions.
+* **Protagonist Role & Heroic Framing (Space Supercops)**: Corsairs are chartered law enforcers, marshals, and crisis troubleshooters holding cross-jurisdictional mandates under the Flotilla, colonial authorities, or lawful sponsors. **Do not frame player characters as petty criminals, corporate thieves, burglars, or outlaws operating on the wrong side of the law.** Narrative examples should showcase the PCs fulfilling their intended role as space supercops: executing lawful warrants, raiding illicit syndicate hideouts, pursuing fleeing suspects, interdicting pirate raiders, recovering stolen Precursor contraband, protecting civilians, or conducting orderly tactical withdrawals when ambushed by overwhelming illegal forces. Reserve criminal acts, illegal smuggling, and desperate outlaw flights for the antagonists.
 
 ---
 
@@ -65,11 +66,11 @@ Corsair is set in a **hard science fiction** universe. Traditional science fanta
 ## 7. Style Demonstration Example
 
 > ### Example: Combined Mechanics in Action
-> Jax faces down a security guard in close combat and declares, *"I leap forward with a fast, heavy tackle, using my momentum and raw power to drive through their guard."* Based on this description, the Game Master calls for a **Strength (5) + Agility (3)** Complex Test. 
+> Jax faces down an outlaw pirate boarder in close combat and declares, *"I leap forward with a fast, heavy tackle, using my momentum and raw power to drive through their guard."* Based on this description, the Game Master calls for a **Strength (5) + Agility (3)** Complex Test. 
 > 
 > Jax rolls 5d10 for his Action Roll based on his higher Attribute (**Strength 5**), resulting in `[2, 4, 7, 8, 9]`. Since `8` and `9` are Hits (8+), the Action Roll succeeds. Jax spends one Hit (`8`) to activate an **Upgrade Effect**, stepping up one die in his upcoming Success Roll from a d10 to a **d12**.
 > 
 > Next, Jax moves to the Success Roll for his lower Attribute (**Agility 3**), rolling 2d10 and 1d12: `[6, 7]` on the d10s and a `10` on the d12. The `10` is a Hit, which Jax spends to activate a **Crit Effect**, granting **+2 Success Points**. The highest remaining die is `7`, giving Jax a base of 7 Success Points + 2 from Crit = **9 total Success Points**.
 > 
-> Adding his heavy strike's `+2` Damage Bonus, Jax deals a total of **11 damage** to the guard.
+> Adding his heavy strike's `+2` Damage Bonus, Jax deals a total of **11 damage** to the pirate.
 

@@ -17,23 +17,14 @@ This document tracks upcoming design tasks, mechanical balances, lore expansions
 
 ---
 
-## 2. GM Guide: High-Speed Chases & Tactical Pursuits
-* **Concept:** Create a dedicated Game Master reference chapter governing high-stakes kinetic chases across three operational domains: foot pursuits through crowded stations, high-speed vehicle races across planetary terrain, and sub-light starship orbital intercept burns. Designed to reflect the fast-paced law enforcement and interception duties of Corsair cells.
-* **Topics to Codify:**
-  * **The Lead Track Engine:** Resolving chases using a standardized 5- to 7-box **Tug-of-War Track** measuring separation distance between Quarry and Pursuer (ranging from *Lead 0: Captured / Rammed / Boarded* to *Lead 5+: Broken Sensor Contact / Clean Escape*).
-  * **Multi-Domain Scaling:**
-    * *Foot Pursuits:* Sprinting through crowded station bazaars, navigating catwalks, zero-g mag-tube dashes, and vertical elevator shaft drops (using **Agility + Strength** or **Agility + Instinct**).
-    * *Ground & Atmospheric Vehicles:* High-speed hover-skimmers, half-tracks, and atmospheric cutters navigating canyon runs, planetary badlands, or crowded sky-corridors (using **Agility + Finesse** or **Instinct + Finesse**).
-    * *Orbital & Void Intercepts:* High-g brachistochrone burns, sensor ghosting, slingshots around moons, and kinetic intercept trajectories (using Pilot abilities, ship thrust, and electronic jamming).
-  * **Pursuit Action Economy & Maneuvers:** Operatives spend Moment-to-Moment AP on tactical pursuit actions:
-    * *Max Burn / Full Sprint:* Advance the Lead Track toward escape or capture.
-    * *Deploy Obstacle / Countermeasure:* Dropping cargo pallets, deploying smoke/EMP grenades, hacking traffic control gates, or dumping thermal chaff to impose Blocker or Downgrade Effects on the opposition.
-    * *Risky Shortcut / Evasive Slingshot:* High-difficulty gambits that jump multiple boxes on the Lead Track on success, but risk severe collisions, damage, or cornering on failure.
-    * *Tactical Interdiction / Interception:* Disabling shots on tires/thrusters, grappling hooks, EMP dart strikes, or ramming maneuvers.
-  * **Dynamic Hazards & Environmental Complications:** Rolling or selecting reactive obstacles at the End of each Round (automated freight loaders, collapsing catwalks, civilian crossfire, solar glare, sensor blind spots) forcing split-second tactical decisions.
-  * **Vehicle & Starship Damage in Pursuits:** Integrating collision impact, hull stress under high-g burns, and disabled subsystems without stalling the cinematic momentum of the chase.
-* **Target Files:**
-  * `rulebook/gm/Chases_and_Pursuits.md` *(New File)*
-  * `rulebook/gm/Chases_and_Pursuits_Sheet.html` *(New Printable Sheet)*
-  * [rulebook/gm/Running_the_Game.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Running_the_Game.md)
-  * [rulebook/Rulebook.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/Rulebook.md)
+## 2. GM Guide: High-Speed Chases & Tactical Pursuits [COMPLETED]
+* **Status:** Complete — authored [rulebook/gm/Chases_and_Pursuits.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Chases_and_Pursuits.md), created print-ready A4 [rulebook/gm/Chases_and_Pursuits_Sheet.html](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Chases_and_Pursuits_Sheet.html), and integrated into [rulebook/gm/Running_the_Game.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Running_the_Game.md) and [rulebook/Rulebook.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/Rulebook.md).
+* **Delivered Architecture:**
+  * **The Place-to-Place Escape Engine:** Unified kinetic escape action costing 1 Place-to-Place AP (ending tactical turn), contested by any pursuer who also commits 1 Place-to-Place AP. If pursuers have 0 Place-to-Place AP or refuse, quarry escapes automatically.
+  * **The Guardrails of Disengagement:** (1) Distance (>5 spaces / >20m, outside Short Range, inherently clearing CQC); (2) Viable Egress Vector (open path, unsealed bulkheads); (3) Operational Locomotion (conscious, unrestrained; starships must execute Breakaway from Dogfight Mode onto Macro-Grid first).
+  * **High-Stakes Interception Stakes:** Failure drops play into Moment-to-Moment combat with full 3 AP refills, pursuers taking immediate initiative and placing themselves anywhere relative to quarry (surrounding, CQC, heavy cover, or Dogfight Position 8–10 Advantage).
+  * **Modes of Pursuit:** Foot pursuits (`Agility + Instinct`, paired `Mobility` gear attribute for jetpacks and grapples), Ground Vehicles (`Acceleration + Acceleration` on open terrain, `Maneuvering + Instinct` in canyons/urban corridors; immune to foot pursuit), and Space Combat (`Acceleration` burns or `Maneuvering` debris runs, G-Strain on burns exceeding safety limits).
+  * **Distance & Tactical Modifiers:** Hard-and-fast distance scaling (Medium: no mods; Long: +1 Upgrade to quarry / 1 Downgrade to pursuer; Extreme: +3 Upgrades / 3 Downgrades; Beyond Extreme: automatic escape). Situational modifiers (smoke, barricades, class features) left to flexible GM adjudication.
+  * **Teamwork Cell Escapes & Multi-Pursuer Pools:** Group coordination with dice swapping, and separate contest pools rolled by each pursuing adversary.
+  * **Complete Narrative Walkthrough:** Step-by-step example featuring Silas, Tessa, and Jax executing a three-phase escape (foot concourse, cargo skimmer, orbital intercept burn) across Port Zenith.
+  * **Print-Ready A4 Reference Sheet:** Custom single-page HTML quick reference sheet fully verified for strict A4 fit in both dark mode and light print mode.
