@@ -28,3 +28,59 @@ This document tracks upcoming design tasks, mechanical balances, lore expansions
   * **Teamwork Cell Escapes & Multi-Pursuer Pools:** Group coordination with dice swapping, and separate contest pools rolled by each pursuing adversary.
   * **Complete Narrative Walkthrough:** Step-by-step example featuring Silas, Tessa, and Jax executing a three-phase escape (foot concourse, cargo skimmer, orbital intercept burn) across Port Zenith.
   * **Print-Ready A4 Reference Sheet:** Custom single-page HTML quick reference sheet fully verified for strict A4 fit in both dark mode and light print mode.
+
+---
+
+## 3. Lore Dossier: Factions of the Sphere [PENDING]
+* **Target:** [rulebook/lore/Factions.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/Factions.md)
+* **Scope & Deliverables:**
+  * **The Flotilla:** Admiralty, High Command, Internal Affairs, Corsair Oversight Directorate, Marine Corps, and peacekeeper fleet doctrine.
+  * **Corporate Megacorporations:** 4–6 prominent corporate entities (e.g., Redfeather Aerospace, AgroBloom, Apex Dynamics, Aegis Security, Vantacorp Bio-Tech) detailing commercial monopolies, signature technology, illicit black-budget programs, and sponsor motivations.
+  * **Colonial Administrations:** Sovereign Moon leagues, regional planetary governors, and colonial independence movements pushing back against Flotilla dominance.
+  * **Underworld & Syndicates:** Major smuggling rings, black-market salvage syndicates, privateer cartels, and fringe factions (such as the Evergaol Jailers, Cloudsurfers, and Desert Wraiths).
+  * **Alien / Ancestral Blocs:** X'ara survivor enclaves and traditionalist factions navigating Newcomer treaties.
+
+---
+
+## 4. Bestiary Expansion: Ecological, Robotic & Adversary Profiles [PENDING]
+* **Target:** [rulebook/gm/Bestiary.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Bestiary.md)
+* **Scope & Deliverables:**
+  * **Engineered Wildlife & Apex Fauna:** 4–6 predatory and territorial planetary beasts across varied biomes (e.g., Pelagia abyssal stalker/leviathan pup, Avon'Roa mist predator, Suncatcher dune-chitin burrower, Karst spore-swarm).
+  * **Robotics & Automated Defenses:** Ready-to-run combat servitors, perimeter security turrets, surveillance drones, and heavy industrial/military mechs.
+  * **Adversary Starships:** Tactical stat blocks and Dogfight profiles for pirate gunboats, Flotilla patrol cutters, boarding skiffs, and automated defense satellites.
+  * **Precursor Constructs & Relic Hazards:** Autonomous guardian constructs, security glyphs, and rogue nanite swarms for salvage and deep-exploration jobs.
+
+---
+
+## 5. Planetary Gazetteers: Core Sector Worlds [PENDING]
+* **Target:** [rulebook/lore/](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/) (`Nimbus.md`, `Pelagia.md`, `Suncatcher.md`)
+* **Scope & Deliverables:**
+  * **Nimbus:** The corporate cloud world; platform megastructures, spire penthouses, industrial smog decks, sky docks, and corporate jurisdiction zones.
+  * **Pelagia:** The oceanic world; floating island-barges, feudal land baron estates, tidewarden academies, and abyssal mining operations.
+  * **Suncatcher:** The tidally locked world; scorched day-side, frozen night-side, twilight settlements, Dustwall, and nomad desert corridors.
+  * **Standard Gazetteer Format:** Environment/orbital profile, major settlements/stations, law enforcement & jurisdiction, points of interest, black-market hubs, and local rumors/plot hooks.
+
+---
+
+## 6. GM Toolkit: Procedural Mission Generator Overhaul [PENDING]
+* **Target:** [rulebook/gm/Mission_Generator.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Mission_Generator.md)
+* **Scope & Deliverables:**
+  * Full dice-band assignments across all 17+ known worlds and orbital stations in the Contract Location table.
+  * Comprehensive d10/d20 rollable tables for:
+    * **Contract Patrons & Hidden Agendas:** Conflicting sponsor instructions and corporate double-dealings.
+    * **Primary & Secondary Objectives:** Extractions, data heists, sabotage, arbitration, salvage.
+    * **Operational Obstacles (Veils & Shrouds):** Environmental locks, biometric security, digital firewalls, hazardous terrain.
+    * **Complications & Twists:** Rival cells, unexpected witnesses, system failures, third-party ambushes.
+    * **Payouts & Collateral Rewards:** Credit scales, salvage rights, faction reputation shifts, and equipment favors.
+
+---
+
+## 7. Flagship Introductory Starter Adventure [PENDING]
+* **Target:** [rulebook/gm/Starter_Adventure.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/gm/Starter_Adventure.md)
+* **Scope & Deliverables:**
+  * A self-contained, multi-scene introductory contract designed as a GM tutorial for all core systems:
+    * **Scene 1 (Briefing & Sponsor Tension):** Divergent sponsor instructions forcing player negotiation.
+    * **Scene 2 (Infiltration & Investigation):** Navigating a compromised facility/derelict using Keys, Veils, and Shrouds.
+    * **Scene 3 (High-Stakes Dialogue):** Confronting/interrogating a key NPC using Patience clocks and Determination blockers.
+    * **Scene 4 (Tactical Combat):** Firefight highlighting cover destruction, outnumbering, CQC, and Effects (Blockers, Push, Chain).
+    * **Scene 5 (High-Speed Extraction):** Kinetic getaway resolving via the Place-to-Place pursuit engine.
