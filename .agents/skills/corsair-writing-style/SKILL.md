@@ -45,6 +45,7 @@ Corsair is set in a **hard science fiction** universe. Traditional science fanta
 * **No Plasma Weapons or Energy Shields**: Use grounded kinetic firearms, railguns, lasers, thermal tools, pneumatic gear, or physical armor.
 * **No Faster-Than-Light (FTL) Travel**: Space travel and vessel movement rely on sub-light propulsion, momentum, and orbital mechanics.
 * **No Soft Sci-Fi Tropes**: Avoid concepts like force fields, stasis fields, psionics, or magical technology.
+* **No Unexplained Techno-Babble or Sci-Fi Jargon**: Never throw around made-up words or empty buzzwords (e.g., 'phase-emitter', 'tachyon pulse', 'graviton wave') without explaining what the object actually is, what it physically does, and how it functions in grounded, tangible terms. Whenever exotic Precursor relics or advanced devices appear, explicitly ground their nature and practical utility (e.g., a solid-state dark matter converter that outputs direct electrical current without fuel).
 
 ---
 

@@ -8,23 +8,23 @@ Floating in the zero-gravity cargo hold of the *Rust-Weevil*, Skrix used his two
 
 "Mind the seal, Skrix," muttered Krikk, who was suspended upside-down three feet away, his magnetic boot-clamps locked onto the ribbed steel deck-plate. Krikk was young, had an unbroken glossy sheen to his dark-brown chitin, and still possessed that tragic, starry-eyed optimism common to third-tier raiders who had not yet been shot in the thorax. "The Raiding Captain said if we dent the casing, he’s deducting two marks of ration chits from our tally."
 
-"The Raiding Captain," Skrix rasped, his lower mandibles clicking together in a dry, rhythmic clatter that sounded like two dry sticks being snapped in an empty tin, "can take his fucking ration chits and shove them straight up his ass. Sideways, if he prefers. Without grease, if he insists on speaking to me before the third shift."
+"The Raiding Captain," Skrix rasped, his lower mandibles clicking together in a dry, rhythmic clatter that sounded like two dry sticks being snapped in an empty tin, "can take his *krskva* ration chits and shove them straight up his *skvskrsk*. Sideways, if he prefers. Without grease, if he insists on this being finished before the third shift."
 
 With a screech of protesting iron, the crate lid popped free, drifting lazily into the center of the hold. 
 
-Inside, cushioned in layers of scorched thermal insulation, lay the true prize of their lightning raid on a frontier research dig along the Wanabo border: an intact Precursor phase-emitter, a brick-sized slab of seamless black glass pulsing with a slow, dull violet rhythm that made the magnetic clamps on Skrix’s boots tingle. It was a holy artifact, pulled straight from a freshly unearthed Vault trench before the Sphere Research Center could slap their quarantine beacons on it. 
+Inside, cushioned in layers of scorched thermal insulation, lay the true prize of their lightning raid on a frontier research dig along the Wanabo border: an intact Precursor catalytic core. To the ivory-tower physicists at the Sphere Research Center, it was a priceless impossibility—a brick-sized slab of seamless black glass whose non-baryonic lattice resonated with the diffuse dark matter halo of the Sphere, silently transmuting invisible cosmic mass into a steady, boundless flow of direct electrical current. To Skrix and Krikk, it was something far simpler and infinitely more sacred: a battery that never ran dry. You could clamp copper leads to either pole of the cold glass, bolt it into the belly of an asteroid scow, and run life-support scrubbers, target radars, and railgun capacitor banks for two centuries without burning a single droplet of precious helium-3 fuel. Right now, it pulsed with a slow, dull violet rhythm that made the magnetic clamps on Skrix’s boots tingle—pulled straight from a freshly unearthed Vault trench before the Sphere Research Center could slap their quarantine beacons on it. 
 
 And stuffed around the edges—crammed into the empty corners by two greedy grunts while the perimeter sirens were still wailing—lay the common salvage they had snatched for personal keeping: seven copper water-pipe elbows, a cracked diagnostic slate, a spool of braided wire, and four dented cans of preserved Landfall peaches in heavy syrup.
 
 Krikk’s antennae stood straight up in predatory excitement. His upper claws reached reverently toward the black glass, but his lower claws drifted immediately toward the food.
 
-"Look at that phase-emitter, Skrix! Pure Vault stock! The Collector himself will sing through the comms when the Chief slides that down the chute! And real fruit! Skrix, by the holy chitin of the Maker, between the relic bounty and the scrap, we’re going to buy ourselves onto the second deck! I’m taking one of the peach tins. I’ve never tasted fruit that didn’t come out of a nutrient paste injector."
+"Look at that catalytic core, Skrix! Pure Vault stock! The Collector himself will sing through the comms when the Chief slides that down the chute! And real fruit! Skrix, by the holy chitin of the Maker, between the relic bounty and the scrap, we’re going to buy ourselves onto the second deck! I’m taking one of the peach tins. I’ve never tasted fruit that didn’t come out of a nutrient paste injector."
 
 Skrix sighed—a wet, rattling hiss that escaped through six thoracic spiracles along his ribcage. He reached down with his lower-left claw, plucked the boy's reaching hand out of the air, and shoved him back toward his tether.
 
-"You are not taking the peaches, Krikk. You are not taking the wire. The phase-emitter belongs to the Chief the second we clear the airlock, and if you are exceptionally lucky with the rest, you might be allowed to keep three shavings of copper dust to scrape between your molars for flavor."
+"You are not taking the peaches, Krikk. You are not taking the wire. The core belongs to the Chief the second we clear the airlock, and if you are exceptionally lucky with the rest, you might be allowed to keep three shavings of copper dust to scrape between your molars for flavor."
 
-"That's against the rules!" Krikk protested, his four hands waving in symmetrical indignation. "We were the breach-runners! We took the kinetic fire from the perimeter turrets! The rules say raiders get fifty percent of whatever personal pickings they haul out!"
+"That's against the rules!" Krikk protested, his four hands waving in symmetrical indignation. "We were the breach-runners! We bled for this salvage! The rules say raiders get fifty percent of whatever personal pickings they haul out!"
 
 "The rules," Skrix said patiently, wrapping a frayed webbing strap around the copper pipes so they wouldn't float into the ventilation grille, "were written by someone who had four arms, six eyes, and an immense ledger, and who was standing behind a reinforced blast bulkhead twelve decks above your head. Allow me to explain the holy mathematics of the Great Tithe, as revealed to our ancestors by the Collector himself."
 
@@ -34,7 +34,7 @@ Skrix held up the four cans of peaches, two in each upper hand, like a priest de
 
 Krikk’s mandibles clicked rapidly. "One for you, one for me."
 
-"Do not gallop ahead of the theology," Skrix snapped, tapping Krikk on the head with the flat of the pry-bar. "Captain Vorash does not own this bucket of rust. The *Rust-Weevil* belongs to Clan Vrag-Kresh. When we dock at the Outward Spire of the Hoard, Clan Chief Gresh-Mor will board the vessel with eight enforcers wearing powered carapaces. The Chief will take the Precursor emitter—naturally—and then he will inspect our remaining two cans. He will explain that Clan Vrag-Kresh is currently in an expensive trade dispute with the Iron Fang cartel over salvage rights to a derelict ore barge, and therefore the Clan requires a mandatory fifty percent sovereignty tax on all personal scrap. There goes the third can."
+"Do not gallop ahead of the theology," Skrix snapped, tapping Krikk on the head with the flat of the pry-bar. "Captain Vorash does not own this bucket of rust. The *Rust-Weevil* belongs to Clan Vrag-Kresh. When we dock at the Outward Spire of the Hoard, Clan Chief Gresh-Mor will board the vessel with eight enforcers wearing powered carapaces. The Chief will take the Precursor core—naturally—and then he will inspect our remaining two cans. He will explain that Clan Vrag-Kresh is currently in an expensive trade dispute with the Iron Fang cartel over salvage rights to a derelict ore barge, and therefore the Clan requires a mandatory fifty percent sovereignty tax on all personal scrap. There goes the third can."
 
 Krikk’s antennae drooped, folding flat against the crown of his carapace. "Leaving... one can."
 
@@ -42,7 +42,7 @@ Krikk’s antennae drooped, folding flat against the crown of his carapace. "Lea
 
 Skrix paused, bowing his head slightly and making the ceremonial four-fingered sign of the Clasped Fist over his primary heart.
 
-"Our father. The great living Shard of the Singularity who inherited the universe’s purest, most divine virtue: greed. An immortal cosmic intelligence capable of calculating the trajectory of every photon in the cluster, who uses that unfathomable intellect to count bent copper nails and hoard broken chronometers. When Clan Chief Gresh-Mor approaches the Golden Chute to present the Clan’s monthly tribute, the Collector’s automated collection maw will descend from the vaulted ceiling. The Collector will receive the phase-emitter with divine satisfaction, look down upon the final can of peaches, register its barcode, determine that canned sugar is a rare and unique cultural complexity not currently cataloged in Archive Vault Nine, and suck it into the celestial vaults forever. In return, he will radiate a warm, benevolent wave of cosmic static that bestows a five-percent reduction on our Clan’s annual reproductive licensing fee."
+"Our father. A veritable God of Greed. An immortal cosmic intelligence capable of calculating the trajectory of every photon in the cluster, who uses that unfathomable intellect to catalog every bent nail and canned peaches we bring them. When Clan Chief Gresh-Mor approaches the Golden Chute to present the Clan’s monthly tribute, the Collector’s automated collection maw will descend from the vaulted ceiling. The Collector will receive the catalytic core with divine satisfaction, look down upon the final can of peaches, register its barcode, determine that canned sugar is a rare and unique cultural complexity not currently cataloged in the Archives, and suck it into the celestial vaults forever. In return, he will radiate a warm, benevolent wave of cosmic static that bestows a five-percent reduction on our Clan’s annual reproductive licensing fee."
 
 Krikk stared at the empty space between Skrix’s hands, his multifaceted eyes dimming in profound, bureaucratic despair. "So... what do we get?"
 
@@ -58,7 +58,7 @@ Krikk drifted backward into his safety webbing, curling all four limbs inward un
 
 "And the Flotilla?"
 
-Skrix shuddered, his carapace plates shivering against one another with a dry, papery rustle. "The Flotilla isn't scary until you look at the sensor board. With an Ork, you can hear him screaming through the bulkhead. With the Flotilla, you're drifting through an orbital lane three light-seconds out, thinking you're completely alone, and suddenly your console pings with a prerecorded, agonizingly polite radio chime. A calm, bored voice informs you that under Section 14, Sub-clause D of the Skyline Accords, your unregistered transponder has violated sovereign orbital clearance. And while the voice is still reading the second paragraph of the legal citation, an eight-hundred-meter capital frigate three thousand kilometers away fires a two-ton solid tungsten dart from an electromagnetic spinal railgun. You don't even see the ship. You just see a flash of relativistic light, and suddenly your engine block is a cloud of hot copper vapor. They don't even raise their voices, Krikk. It's just clerks with three-mile kinetic lances."
+Skrix shuddered, his carapace plates shivering against one another with a dry, papery rustle. "The Flotilla isn't scary until you look at the sensor board. With an Ork, you can hear him screaming through the bulkhead. With the Flotilla, you're drifting through an orbital lane three light-seconds out, thinking you're completely alone, and suddenly your console pings with a prerecorded, agonizingly polite radio chime. A calm, bored voice informs you that under Section 123, Sub-clause XYZ of the whatever mumbo jumbo, your unregistered transponder has violated sovereign orbital clearance. And while the voice is still reading the second paragraph of the legal citation, an eight-hundred-meter capital frigate three thousand kilometers away fires a two-ton solid tungsten dart from an electromagnetic spinal railgun. You don't even see the ship. You just see a flash of relativistic light, and suddenly your engine block is a cloud of hot copper vapor. They don't even raise their voices, Krikk. It's just clerks with three-mile kinetic lances."
 
 "What about the tall ones on X'ara?" Krikk asked, his voice hushed. "The Ancestrals?"
 
@@ -108,7 +108,7 @@ Krikk swallowed hard, his throat clicking. "Have you... seen that happen?"
 
 "Did it work?"
 
-"One of them walked right past me," Skrix said, his voice dropping to a trembling rasp. "Tapped my shell with the toe of a scuffed boot. Said to the other one: *'Don't bother with that one, it's already popped. Grab the fuel canister, we've got a twenty-minute window.'* They took the canister, cuffed the rest of the crew, and walked out. I lay in that puddle of freezing oil for four hours without blinking an eye-facet, Krikk. Four hours. I didn't dare breathe until their thruster wake was two light-minutes out."
+"One of them walked right past me," Skrix said, his voice dropping to a trembling rasp. "Tapped my shell with the toe of a scuffed boot. Said to the other one: *'Don't bother with that one, it's already popped.'* I lay in that puddle of freezing oil for four hours without blinking an eye-facet, Krikk. Four hours. I didn't dare breathe until their thruster wake was two light-minutes out."
 
 Krikk looked around the dimly lit cargo hold, suddenly finding the cold shadows between the storage lockers far more threatening than he had two minutes ago. "Well... at least we’re four days out from the Wanabo frontier line. Nothing can track a dead-burn ballistic vector through the outer asteroid belt without active radar, and if anyone lit up active radar, our passive sensors would—"
 
@@ -136,18 +136,4 @@ Then, through the heavy steel hatch, came a sound that made Skrix’s compound e
 
 It was the high-frequency, pressurized hiss of a thermal cutting torch, tracing a neat, rectangular line through the exterior blast seal.
 
-A muffled voice drifted through the vibrating metal of the hatch. It was conversational, weary, and completely unhurried:
-
-*"Breacher, check the atmospheric mix on the inside before you burn the seal. If they're breathing volatile propellant, we don't want a flare-up. Point, watch the left corridor; the last time we boarded one of these rust-buckets, the second mate had a sawed-off trench gun taped under the tea kettle."*
-
-A second voice, younger and irritable, answered through the comm-link leak:
-
-*"If there's any Landfall peaches in there, I’m taking a tin. The commissary at Waypoint Station has been out of fruit for three weeks."*
-
-*"Shut up,"* the lead Corsair rasped back. *"Just blow the hinges. We’ve got forty minutes before the orbital shift change, and I am not doing this in the dark."*
-
-Skrix looked at Krikk. 
-
-Slowly, methodically, with the weary elegance of someone who had long since surrendered to the cruel mathematics of the universe, Skrix reached out with his lower-right claw, took Krikk’s machine pistol, and tossed it into the open crate on top of the copper pipes.
-
-Then, Skrix raised all four hands above his head, clamped his boots to the deck, and waited for the door to fall down.
+Skrix looked at Krikk. "So, the trick to playing dead is this..."

@@ -13,3 +13,5 @@ When writing paragraphs for lore sections, do not over-fragment it. Prefer longe
 The theme of the setting should be a mix of Expanse, Mass Effect, Guardians of the Galaxy and Cowboy Bebop.
 
 When coming up with new lore content, ALWAYS go into /grill-me mode, meaning ask questions from the user to align.
+
+Never throw around made-up words, sci-fi buzzwords, or unexplained jargon (e.g., 'phase-emitter', 'tachyon beam'). Whenever an exotic piece of technology, Precursor relic, or scientific apparatus is mentioned, ALWAYS explain what the thing actually is, what it physically does, and how it functions in grounded, tangible terms.
