@@ -16,7 +16,7 @@ Equipment is divided into three major categories:
 
 * **Weapons:** Anything designed to inflict physical harm. See [Firearms](Firearms.md) (printable: [Firearms Sheet](Firearms_Sheet.html)) and [Melee Weapons](Melee.md) (printable: [Melee Sheet](Melee_Sheet.html)).
 * **Armor:** Protective gear worn to reduce or negate incoming damage. See [Armor](Armor.md) (printable: [Armor Sheet](Armor_Sheet.html)).
-* **Gear:** Tactical hardware, refillable rigs, toolkits, and survival kits. See [Gear](Gear.md) (printable: [Gear Sheet](Gear_Sheet.html)).
+* **Exotic Hardware:** Classified prototypes, black-budget skunkworks gear, and salvaged Precursor relics with extraordinary tactical properties. See [Exotic Hardware](Exotic_Hardware.md).
 
 ### Weapons
 
@@ -73,6 +73,18 @@ Gear is a broad category encompassing all other mission-critical tactical equipm
 Most gear items provide dedicated **Item Attributes** (such as *Thrust*, *Medicine*, *Sensors*, or *Hacking*) that pair with a character's core attributes for tests costing **1 Action Point (AP)**.
 
 For the full catalog of gear items, category attributes, and special properties, see [Gear](Gear.md).
+
+### Exotic Hardware
+
+While baseline Weapons, Armor, and Gear represent the reliable, mass-produced tools available to starting operatives, the Sphere contains a rare and extraordinarily expensive tier of equipment: **Exotic Hardware**.
+
+Exotic Hardware fulfills the role of high-tier "magic items" in *Corsair*. Rather than magical enchantments, these items are cutting-edge black-budget prototypes, hybrid alien alloys, and salvaged Precursor dark-matter transducing relics. To avoid choice paralysis for new players, Exotic Hardware is kept strictly segregated from baseline equipment catalogs:
+
+* **Prohibitive Economics:** Exotic Hardware ranges from **15,000 Credits** (Tier 1 Mil-Spec Skunkworks) to **250,000+ Credits** (Tier 3 Precursor Relics), with Tier 4 Unique Wonders being completely priceless and attainable only through climactic campaign operations. Starting characters cannot afford them.
+* **Balanced by Load & Heat:** Rather than arbitrary attunement caps, exotic systems are constrained by heavy **Load** costs (competing directly for carrying capacity) and round-based cooldowns reflecting extreme thermal and electrical stress.
+* **Non-Customizable:** Exotic weapons and systems are precision-calibrated prototypes or alien artifacts that cannot accept standard mastercrafted Upgrade Kits or aftermarket modifications; their statistics, properties, and Load values are permanently fixed as written.
+
+For the complete rules, operational constraints, and rarity ladder, see [Exotic Hardware](Exotic_Hardware.md).
 
 ---
 

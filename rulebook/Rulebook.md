@@ -58,6 +58,7 @@
     - [Melee Weapons](equipment/Melee.md) ([Sheet](equipment/Melee_Sheet.html))
     - [Armor](equipment/Armor.md) ([Sheet](equipment/Armor_Sheet.html))
     - [Gear](equipment/Gear.md) ([Sheet](equipment/Gear_Sheet.html))
+    - [Exotic Hardware](equipment/Exotic_Hardware.md)
 - [Chapter 8: Starships and Space Combat](ships/Starships.md)
     - [Ship Rules](ships/Ship_Rules.md)
     - [Ship Weapons](ships/Ship_Weapons.md)
