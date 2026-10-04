@@ -31,14 +31,14 @@ This document tracks upcoming design tasks, mechanical balances, lore expansions
 
 ---
 
-## 3. Lore Dossier: Factions of the Sphere [PENDING]
-* **Target:** [rulebook/lore/Factions.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/Factions.md)
-* **Scope & Deliverables:**
-  * **The Flotilla:** Admiralty, High Command, Internal Affairs, Corsair Oversight Directorate, Marine Corps, and peacekeeper fleet doctrine.
-  * **Corporate Megacorporations:** 4–6 prominent corporate entities (e.g., Redfeather Aerospace, AgroBloom, Apex Dynamics, Aegis Security, Vantacorp Bio-Tech) detailing commercial monopolies, signature technology, illicit black-budget programs, and sponsor motivations.
-  * **Colonial Administrations:** Sovereign Moon leagues, regional planetary governors, and colonial independence movements pushing back against Flotilla dominance.
-  * **Underworld & Syndicates:** Major smuggling rings, black-market salvage syndicates, privateer cartels, and fringe factions (such as the Evergaol Jailers, Cloudsurfers, and Desert Wraiths).
-  * **Alien / Ancestral Blocs:** X'ara survivor enclaves and traditionalist factions navigating Newcomer treaties.
+## 3. Lore Dossier: Factions of the Sphere [COMPLETED]
+* **Status:** Complete — authored comprehensive faction dossiers organized into [rulebook/lore/factions/](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/) with master directory [rulebook/lore/factions/README.md](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/README.md).
+* **Delivered Architecture:**
+  * **[The Sovereign Colonies](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/Colonies.md):** Crossroads High Council (Landfall), Cloudspire Arcology Directorate (Nimbus), Pelagia Pontoon Coalitions (Pelagia), Dustwall Mining Consortium (Suncatcher), and Rime Coastal Municipalities (Rime).
+  * **[The Megacorporations & Industrial Cartels](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/Corporations.md):** The Trade Alliance, Caldera Foundry (CF), Panthera Aerospace & Arms (PA), Vandal's Workshop (VW), Ker'Satz Korp (KSK), Chidori-Qwei Voidworks & Combatwear (CQV), Redfeather Aerospace (RF), and the Sphere Research Center (SRC).
+  * **[The Flotilla](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/Flotilla.md):** Admiralty Board, High Council, One-Year Tour, the Six Strategic Wings plus the covert Shadow Wing, Seven Occupational Corps, Port Zenith Bastion Yards, and post-war crisis posture.
+  * **[The Underworld & Fringe Syndicates](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/Underworld.md):** The Jailers of Evergaol (Bloodmages & alien salvage), The Cloudsurfers (Nimbus hoverboard gangs & couriers), The Iron Fang (interplanetary syndicate), The Desert Wraiths (Suncatcher nomads & Veil of Sand), and The Children of the Leviathan (Pelagia maritime cult).
+  * **[Alien Powers & Foreign Empires](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/factions/Alien_Powers.md):** The Ancestrals of X'ara (Archon, Sacred Vigil, Gilded Movement vs. Pure Blade), The Orkish Empire (Emperor Vrakketh, ram-prows, battlemechs, the Great Truce), The Scavs (cloned raiders of The Collector, Great Tithe), and The Lithari of Karst (primitive cave-dwellers, Non-Interference Protocol).
 
 ---
 
@@ -53,7 +53,7 @@ This document tracks upcoming design tasks, mechanical balances, lore expansions
 ---
 
 ## 5. Planetary Gazetteers: Core Sector Worlds [PENDING]
-* **Target:** [rulebook/lore/](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/) (`Nimbus.md`, `Pelagia.md`, `Suncatcher.md`)
+* **Target:** [rulebook/lore/locations/](file:///c:/Users/csisz/IdeaProjects/corsair/rulebook/lore/locations/) (`Nimbus.md`, `Pelagia.md`, `Suncatcher.md`)
 * **Scope & Deliverables:**
   * **Nimbus:** The corporate cloud world; platform megastructures, spire penthouses, industrial smog decks, sky docks, and corporate jurisdiction zones.
   * **Pelagia:** The oceanic world; floating island-barges, feudal land baron estates, tidewarden academies, and abyssal mining operations.

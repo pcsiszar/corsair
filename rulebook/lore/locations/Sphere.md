@@ -113,3 +113,8 @@ The total transit time is a mere 3.5 hours. Furthermore, the communication delay
 Trojan worlds function as a single contiguous economic zone. The logistical ease of moving heavy cargo, personnel, and
 data across the 800,000-kilometer expanse results in a densely populated, hyper-connected society that operates with the
 synchronicity of a planetary metropolis.
+
+---
+
+*(For system directories and individual cluster gazetteers, see [Locations Archive](README.md), [The Fume Cluster](Fume.md), and [The X'ara Cluster](X'ara.md).)*
+

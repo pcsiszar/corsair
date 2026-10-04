@@ -20,28 +20,33 @@ Most "cannon fodder"—corporate guards, street thugs, or basic alien drones—u
 
 ### 2. Squads and Mobs (Mass Action)
 
-When NPCs outnumber players, they should act in **Squads**. A squad should typically be around the same size as the
-**Corsair Cell** (the player group) to keep the action economy balanced and the turn order clean.
+When NPCs outnumber players, they operate in **Squads**. Rather than relying on bespoke mob stat blocks or complex tracking, a squad is simply **a group of up to 4 enemies who occupy the same space and act exclusively through standard [Teamwork](../core/Teamwork.md)**.
 
-* **Movement:** A squad moves as a single unit on the same initiative/turn.
-* **Teamwork:** Squad members prioritize the **Teamwork** action. Instead of 4-5 guards making individual attacks, have one leader make the attack while the others "sacrifice" their Action Points to provide **Upgrades** to the leader. Some elite units have properties that further enhance this (e.g., **Squad Tactics**).
-* **Outnumbering:** Use the **Outnumbering** rules from Chapter 8 to give squads a natural advantage in melee without
-  needing complex math.
+* **Occupancy & Scale:** A squad consists of **2 to 4 members** sharing a single 4m space (matching the maximum capacity of a standard grid space). Members retain their individual flat HP (e.g., 9 HP for Tier 1).
+* **Squad Firing (Coordinated Volley):** All active members in the space spend **1 AP** to fire at the same target. They roll their combined pools simultaneously (e.g., 4 grunts with Phys 2 roll $4 \times 2 = 8\text{ dice total}$) and swap dice between their pools under standard Teamwork rules to distribute Hits (`8+`). The target player may spend 1 AP to make an Evasion Contest (benefiting from **Defender's Advantage** to eliminate high dice). Each surviving attacker with an `8+` makes an individual Success Roll for damage.
+* **Squad Movement (Coordinated Advance):** All active members spend **1 AP** to move. Each makes a Movement Success Test (*Agility/Phys*), and they swap dice. Under the universal Teamwork movement rule, **the entire squad moves as far as the furthest member could move**.
+* **The Turn Pacing Trigger:** Because spending 1 AP per member on a coordinated squad action totals 4 AP (exceeding the active side's **2 AP per turn limit**), **executing a squad action immediately concludes the GM's turn and passes control back to the players!** The GM never takes an endless sequence of individual actions.
+* **Casualties & Counter-Play:** When players attack the squad, damage reduces individual members. Players rolling excess Hits on their Action Roll can activate the **Chain Effect** to mow down multiple squad members in the same space in a single attack. As members fall, the squad's dice pool naturally shrinks (4 members = 8 dice, 3 members = 6 dice, 2 members = 4 dice).
+* **Morale & Disband:** When a squad is reduced to **1 surviving member**, the squad disbands. The lone survivor loses coordinated Teamwork benefits and either retreats, dives for heavy cover, or surrenders.
+* **Squad Movement & Tactical Pacing:** To keep combat fluid and prevent hordes from functioning as static gun turrets, squads should typically spend **1 AP on Squad Advance** (maneuvering or taking cover) and **1–2 AP on firing** per round. This models authentic squad movement-to-contact and creates natural dynamic firefights.
 
 ### 3. Categories: Standard, Elite, and Boss
 
 The enemy's role determines their resilience and action economy, regardless of their Tier.
 
 * **Standard:** The baseline for most enemies. 3 AP, flat HP.
-* **Elite:** Toughened specialists. 3 AP, higher flat HP, and usually better protection.
-* **Boss:** Faction leaders or major threats. 4-6 AP, massive flat HP. Bosses can spend AP to act outside their turn.
+* **Elite:** Toughened specialists, field lieutenants, and champions. 3 AP, higher flat HP, and reinforced protection.
+* **Boss:** Faction leaders, heavily armored mechs, or apex alien monstrosities. Solitary bosses face the entire player group's combined action economy (12+ AP). To prevent a Boss from being neutralized by focus fire, they possess specialized action mechanics:
+  * **Action Economy (6 AP Baseline):** Standard Bosses start each round with **6 AP** (Apex Tier 4 Bosses receive **7–8 AP**).
+  * **Multi-Action (2 AP per Turn):** On their active turn, a Boss can spend **2 AP** in a single activation to make two separate attacks, or fire a sweeping burst targeting two separate players in line of sight.
+  * **Legendary Reactions (Free Contests):** A Boss gains **2 Free Reactions per round** used exclusively for **Contest Rolls** (Evasion or Parries). These allow the Boss to defend against concentrated fire without depleting their offensive Action Point pool.
+  * **Acting Out-of-Turn:** Immediately after any player concludes their turn, a Boss may spend **1 AP** to take an immediate action—such as repositioning their base movement distance into cover or firing a snap shot.
 
 ---
 
 ## NPC Tiers
 
-Tiers represent the raw power and quality of training/equipment of an NPC. Use the table below to set baseline stats,
-then apply the **Category** modifiers.
+Tiers represent the raw power, training, and equipment quality of an NPC. Use the table below to set baseline stats, then apply the **Category** modifiers.
 
 ### Baseline Stats by Tier
 
@@ -49,14 +54,14 @@ then apply the **Category** modifiers.
 |:------|:-----|:-----|:-----|:----------|:-----------|:-----------|
 | **1** | 2    | 2    | 4m   | +0        | 0          | 9          |
 | **2** | 3    | 3    | 4m   | +1        | 1          | 12         |
-| **3** | 5    | 5    | 4m   | +2        | 3          | 15         |
-| **4** | 6+   | 6+   | 4m   | +3        | 5          | 18         |
+| **3** | 4    | 4    | 4m   | +2        | 2          | 15         |
+| **4** | 5    | 5    | 4m   | +3        | 4          | 18         |
 
 * **Accuracy:** By default, NPC weapon Accuracy is equal to their **Physical** attribute.
 * **Accuracy Array:** For ranged combat, the GM should assign accuracy values for **Short**, **Medium**, **Long**, and **Extreme** ranges based on the NPC's role and equipment.
-* **Movement:** The base distance an NPC can move with a single Action Point. The standard for all Tiers is **4m**. Exceptional cases (e.g., predatory wildlife, high-tech drones) may deviate from this baseline.
+* **Movement:** The base distance an NPC can move with a single Action Point. The standard for all Tiers is **4m**. Exceptional cases (e.g., predatory wildlife, high-speed skimmers) may deviate from this baseline.
 * **Damage Bonus:** Added to the final result of successful attacks.
-* **Protection:** Reduces incoming damage.
+* **Protection:** Reduces incoming damage. **Protection Ceiling:** Personal armor for humanoid NPCs is capped at **4** (representing military ceramic strike plates or heavy ballistic carapace). Protection ratings of **5 or higher** are reserved strictly for mechanized walkers, armored vehicles, fortified gun emplacements, or massive armored alien fauna, which require anti-materiel weapons or heavy demolition ordnance to penetrate.
 
 ### NPC Properties
 
@@ -70,11 +75,11 @@ Rather than generic tactics, unique NPC behaviors should be codified as **Proper
 
 Apply these to the Tier baselines to finalize the NPC.
 
-| Category     | Health (HP)     | Action Points (AP) | Protection |
-|:-------------|:----------------|:-------------------|:-----------|
-| **Standard** | 6 + (Tier x 3)  | 3 AP               | +0         |
-| **Elite**    | 12 + (Tier x 4) | 3 AP               | +1         |
-| **Boss**     | 20 + (Tier x 8) | 4-6 AP             | +2         |
+| Category     | Health (HP)     | Action Points (AP)              | Protection |
+|:-------------|:----------------|:--------------------------------|:-----------|
+| **Standard** | 6 + (Tier x 3)  | 3 AP                            | +0         |
+| **Elite**    | 12 + (Tier x 4) | 3 AP                            | +1 (Max 4 for infantry) |
+| **Boss**     | 20 + (Tier x 8) | 6 AP (7-8 AP for Apex Tier 4)   | +1 (Max 5 for personal gear) |
 
 * **Standard Range:** 9 HP (Tier 1) to 18 HP (Tier 4).
 * **Elite Range:** 16 HP (Tier 1) to 28 HP (Tier 4).
@@ -86,34 +91,34 @@ Apply these to the Tier baselines to finalize the NPC.
 
 ## Encounter Building (The Point System)
 
-To balance an encounter, Game Masters use a **Point Budget** based on the number of players and the desired difficulty.
-You "spend" this budget on NPCs by their Tier and Category.
+To balance an encounter, Game Masters use a **Point Budget** based on the number of players and the desired difficulty. You "spend" this budget on NPCs by their Tier and Category.
 
 ### 1. NPC Costs
 
-Every NPC has a base cost determined by their Tier. You then pay an additional cost if they are an **Elite** or a **Boss
-**.
+Every NPC has a base cost determined by their Tier. You then pay an additional cost if they are an **Elite** or a **Boss**.
 
 | Tier  | Base Cost (Standard) | Elite Upgrade | Boss Upgrade |
 |:------|:---------------------|:--------------|:-------------|
-| **1** | 1 Point              | +2 Points     | +6 Points    |
+| **1** | 1 Point              | +2 Points     | +4 Points    |
 | **2** | 2 Points             | +2 Points     | +6 Points    |
 | **3** | 4 Points             | +2 Points     | +6 Points    |
 | **4** | 6 Points             | +2 Points     | +6 Points    |
 
-* **Squad Cost:** Since a squad is typically the same size as the Corsair Cell (4 players), a **Tier 1 Standard Squad**
-  costs 4 Points, while a **Tier 2 Standard Squad** costs 8 Points.
+* **Squad Costs:** 
+  * A **Tier 1 Standard Squad** (4 grunts) costs **4 Points**.
+  * A **Tier 2 Fireteam** (2 guards) costs **4 Points**, while a full **Tier 2 Squad** (4 guards) costs **8 Points**.
+  * A **Tier 3 Veteran Pair** (2 operatives) costs **8 Points**.
 
 ### 2. Encounter Budget
 
-Calculate the total budget by multiplying the **Difficulty Value** by the number of players in the Corsair Cell.
+Calculate the total budget by multiplying the **Difficulty Value** by the number of players in the Corsair Cell. Each step up in difficulty provides enough additional points to add one tactical squad, fireteam, or specialist operative to the field.
 
-| Difficulty   | Points per Player | Total Budget (4 Players) |
-|:-------------|:------------------|:-------------------------|
-| **Easy**     | 2 Points          | 8 Points                 |
-| **Moderate** | 4 Points          | 16 Points                |
-| **Hard**     | 6 Points          | 24 Points                |
-| **Perilous** | 8+ Points         | 32+ Points               |
+| Difficulty   | Points per Player | Total Budget (4 Players) | Expected Experience |
+|:-------------|:------------------|:-------------------------|:--------------------|
+| **Easy**     | 2 Points          | 8 Points                 | Low risk, routine patrol or light skirmish. |
+| **Moderate** | 3 Points          | 12 Points                | Balanced challenge; 1 PC likely wounded or dropped. |
+| **Hard**     | 4 Points          | 16 Points                | High lethality; requires cover, focus fire, and tactical coordination. |
+| **Perilous** | 5+ Points         | 20+ Points               | Desperate survival; high risk of casualties without objectives or retreat. |
 
 ---
 
@@ -142,7 +147,7 @@ breaking the narrative.
 ### 4. Telegraphing Threats
 
 For Bosses and powerful Elites, telegraph their most devastating moves one turn in advance. Describing how a "Heavy Mech
-is charging its railgun" or a "Siren is gathering psionic energy" gives players a vital turn to dive for cover or use a
+is charging its railgun" or a "combat drone is spooling its capacitor coils" gives players a vital turn to dive for cover or use a
 defensive ability. This makes high-damage attacks feel like a tactical challenge rather than a random punishment.
 
 ### 5. Environmental Interaction

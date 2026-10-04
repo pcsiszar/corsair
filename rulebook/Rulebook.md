@@ -7,12 +7,18 @@
     - [What You'll Need](#what-youll-need)
 - [Chapter 2: The World of Corsair](#chapter-2-the-world-of-corsair)
     - [Introduction to the Sphere](lore/Introduction.md)
-    - [Planets and Systems](lore/Sphere.md)
-    - [The Fume System](lore/Fume.md)
-    - [The X'ara System](lore/X'ara.md)
-    - [The Flotilla](lore/Flotilla.md)
+    - [Locations: The Worlds of the Sphere](lore/locations/README.md)
+        - [The Sphere: Macro-Engineering](lore/locations/Sphere.md)
+        - [The Fume Cluster](lore/locations/Fume.md)
+        - [Landfall: Cradle of the Newcomers](lore/locations/Landfall.md)
+        - [The X'ara Cluster](lore/locations/X'ara.md)
     - [The Corsairs](lore/Corsairs.md)
-    - [Factions: The Powers of the Sphere](lore/Factions.md)
+    - [Factions: The Powers of the Sphere](lore/factions/README.md)
+        - [The Sovereign Colonies](lore/factions/Colonies.md)
+        - [The Megacorporations & Industrial Cartels](lore/factions/Corporations.md)
+        - [The Flotilla](lore/factions/Flotilla.md)
+        - [The Underworld & Fringe Syndicates](lore/factions/Underworld.md)
+        - [Alien Powers & Foreign Empires](lore/factions/Alien_Powers.md)
     - [Timeline of the Sphere](lore/Timeline.md)
     - [Stories of the Sphere](stories/README.md)
 - [Chapter 3: Core Mechanics](#chapter-3-core-mechanics)
@@ -129,21 +135,22 @@ system packed to the brim with over a hundred habitable planets and called it th
 For a detailed introduction to the Sphere, its history, and the role of Corsairs, see
 the [Introduction](lore/Introduction.md).
 
-### Planets and Systems
+### Locations & Systems
 
-The Sphere is a vast engineered system. Detailed information on its planets and major systems can be found in the
-following documents:
+The Sphere is a vast engineered system of more than a hundred Earth-mass worlds. Comprehensive cartography, celestial mechanics, and planetary gazetteers can be found in the locations archive:
 
-- [The Sphere](lore/Sphere.md): General overview of the engineered solar system.
-- [The Fume System](lore/Fume.md): Details on the Fume system and its binary moons.
-- [The X'ara System](lore/X'ara.md): Information about the X'ara system and its unique characteristics.
+- [Locations: The Worlds of the Sphere](lore/locations/README.md): Master cartography directory and navigational overview.
+  - [The Sphere: Macro-Engineering](lore/locations/Sphere.md): General overview of the engineered solar system, orbital resonance, and transit mechanics.
+  - [The Fume Cluster](lore/locations/Fume.md): The Newcomer heartland—Landfall, Nimbus, Pelagia, Suncatcher, Karst, and Rime.
+  - [Landfall: Cradle of the Newcomers](lore/locations/Landfall.md): In-depth gazetteer of the historic first colonized moon and Crossroads.
+  - [The X'ara Cluster](lore/locations/X'ara.md): The sovereign territory, sacred sanctuaries, and relic repositories of the Ancestrals.
 
-### Organizations
+### Organizations & Factions
 
-Key organizations that shape life and law in the void:
+Key organizations and powers that shape life and law in the void:
 
-- [The Flotilla](lore/Flotilla.md): The independent guardian of the void.
 - [The Corsairs](lore/Corsairs.md): Specialized agents operating under the mandate of the Sphere's powers.
+- [Factions of the Sphere](lore/factions/README.md): Comprehensive dossiers covering the Colonies, Megacorporations, Flotilla, Underworld, and Alien Powers.
 
 ### History
 

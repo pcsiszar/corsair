@@ -32,7 +32,7 @@ Yet, as the species intermingled, a profound philosophical rift divided Newcomer
 
 ---
 
-## The Law of the Drift
+## The Law of the Void
 
 Order across the populated moons is governed by the **Skyline Accords**, a historic treaty that divided civilization into two distinct realms of legal authority:
 

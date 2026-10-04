@@ -40,7 +40,7 @@ In the two centuries following the Battle of Fume Rings, MANTLE technology evolv
 
 ## 3. The 518 AA Reality: Regulation, Sponsorship, & The Freelancer Network
 
-In the present day of **518 AA**—ten years after the Fall of the *Evergaol* and the signing of the Truce of Iron and Ash—the production, possession, and maintenance of MANTLE rigs are shaped by post-war realities.
+In the present day of **518 AA**—ten years after the Fall of the *Evergaol* and the signing of the Great Truce—the production, possession, and maintenance of MANTLE rigs are shaped by post-war realities.
 
 ```
 +-------------------------------------------------------------------------------+
@@ -61,7 +61,7 @@ In the present day of **518 AA**—ten years after the Fall of the *Evergaol* an
 ```
 
 ### Flotilla Control & Legal Status
-Under the Law of the Drift, the Flotilla High Council classifies combat-grade MANTLEs as **Tier-1 Restricted Military Hardware**. Licensed production is tightly restricted to major orbital naval foundries (such as the Bastion Yards at Port Zenith), and unauthorized possession in orbital transit lanes carries severe criminal penalties. However, under the **Skyline Accords (335 AA)**, planetary governments hold sovereign authority within their atmospheric gravity wells, allowing surface colonies, private corporations, and frontier syndicates to license and deploy their own proprietary variants.
+Under the Law of the Void, the Flotilla High Council classifies combat-grade MANTLEs as **Tier-1 Restricted Military Hardware**. Licensed production is tightly restricted to major orbital naval foundries (such as the Bastion Yards at Port Zenith), and unauthorized possession in orbital transit lanes carries severe criminal penalties. However, under the **Skyline Accords (335 AA)**, planetary governments hold sovereign authority within their atmospheric gravity wells, allowing surface colonies, private corporations, and frontier syndicates to license and deploy their own proprietary variants.
 
 ### How Corsairs Have MANTLEs
 For commissioned **Corsairs**, possessing a top-tier MANTLE is an official entitlement of their charter. When an operative joins a chartered cell, their individual Sponsor (Flotilla, Colonial administration, Megacorporation, Union, or Private patron) legally registers and underwrites their chassis, granting them cross-jurisdictional authorization to carry lethal tactical hardware across both orbital space and planetary soil.

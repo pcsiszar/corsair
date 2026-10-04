@@ -43,11 +43,11 @@ Layer 1 is the everyday reality experienced by citizens, spacers, and operatives
 * **MANTLE Chassis & The Freelancer Network**: MANTLE rigs (*Modular Adaptive Neural Transmission Linked Equipment*) are classified as Tier-1 Restricted Military Hardware, legally manufactured and controlled by the Flotilla for specialist strike corps. While commissioned Corsairs receive officially sanctioned frames underwritten by their sponsors, Freelancers acquire their required starting MANTLE either through competitive **Sponsor Candidate Pipelines** (training programs pending formal charter confirmation) or via **The Freelancer Network**—an underground fraternity of retired Corsair veterans, mentors, and dockside armorers who distribute repaired, surplused, or salvaged frames to promising aspirants.
 
 ### 2. The Flotilla
-* **Role**: The primary peacekeeping fleet, maritime safety authority, and void administration for Newcomer civilization, enforcing the "Law of the Drift."
+* **Role**: The primary peacekeeping fleet, maritime safety authority, and void administration for Newcomer civilization, enforcing the "Law of the Void."
 * **The Skyline Accords (335 AA)**: The fundamental constitutional treaty: the Flotilla holds supreme authority over open space, transit corridors, and orbital lanes, while planetary governments hold sovereignty within their atmospheric gravity wells.
 * **Current Posture (518 AA)**: The Flotilla is stretched razor-thin. While it maintains naval hubs in Fume, a consulate in X'ara, and frontier taskforces in Wanabo, its veteran dreadnoughts are scarred or decommissioned, making the fleet heavily reliant on Corsair cells for reconnaissance and crisis response.
 * **Governance**: Commanded by the **Admiralty Board** (military execution), which answers directly to the **High Council** (elected delegates from the colonies who control budget and founding Charter policy).
-* **Matrix Organization**: Every member belongs to one of 6 functional **Wings** (*Administrative, Transit, Patrol, Scout, Bastion, Sword*) and one of 7 occupational **Corps** (*Marine, Fighter, Engineering, Medical, Officer, Sailor, Admin*).
+* **Matrix Organization**: Every member belongs to one of 6 functional **Wings** (*Administrative, Transit, Patrol, Scout, Bastion, Sword*) and one of 7 occupational **Corps** (*Marine, Pilot, Engineering, Medical, Officer, Sailor, Admin*).
 * **The One-Year Tour**: Mandatory rotational enlistment drawing citizens from across the colonized moons, ensuring every family has a personal stake in fleet defense and preventing the Flotilla from becoming a detached caste of void-dwellers.
 
 ### 3. Hard Sci-Fi Operating Invariants

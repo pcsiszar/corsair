@@ -61,3 +61,8 @@ Compared to the other moons, Landfall had a scarce few Precursor sites, and even
 Corsairs coming here either have something to do with the crash site, or they are visiting in an unofficial capacity.
 Since Landfall still has the largest population of Newcomers in the Sphere, a large number of visitors are simply here
 to meet friends and family, Corsairs being no exceptions.
+
+---
+
+*(For the wider orbital track and neighboring worlds, see [The Fume Cluster](Fume.md) and [Locations Archive](README.md).)*
+

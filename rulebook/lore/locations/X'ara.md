@@ -81,3 +81,8 @@ strictly forbidden.
   classification. According to Ancestral lore, this planet is the resting place of a living, ancient Precursor. It is
   said she dwells deep within the shifting heart of the world, surrounded by these Great Beasts that she watches over,
   and in return, they stand vigil as her perpetual guardians.
+
+---
+
+*(For the broader macro-engineering of the Sphere and the neighboring Fume cluster, see [Locations Archive](README.md), [The Sphere: Macro-Engineering](Sphere.md), and [The Fume Cluster](Fume.md).)*
+

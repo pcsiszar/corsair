@@ -204,9 +204,9 @@ Facing total annihilation, Flotilla battlecruisers and Orkish dreadnoughts forge
 
 The burning *Evergaol* crashes violently into the surface of Landfall, gouging a continent-scale scar known as the **Evergaol Crash Site**. Boarding teams led by veteran Flotilla commanders sacrifice their lives inside the burning wreckage to disable the primary automated matrix.
 
-#### 509 AA — The Truce of Iron and Ash
+#### 509 AA — The Great Truce
 
-Horrified by the cosmic power of the Monolith and hollowed out by casualties, the Flotilla Admiralty and the Orkish Supreme Warlord sign the **Truce of Iron and Ash**. The treaty establishes an uneasy, heavily militarized border across Wanabo, with both sides retreating to lick their wounds.
+Horrified by the cosmic power of the Monolith and hollowed out by casualties, the Flotilla Admiralty and the Orkish Empire sign **the Great Truce**. The treaty establishes an uneasy, heavily militarized border across Wanabo, with both sides retreating to lick their wounds.
 
 #### 518 AA — The Present Day: The New Wave of Corsairs
 

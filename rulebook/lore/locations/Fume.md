@@ -33,6 +33,8 @@ Situated at the base of the orbital track, these two worlds provide the system�
   supermassive vertical structures. In stark contrast lies the **Evergaol Crash Site**, a massive, scarred exclusion
   zone where the hull of the disabled Precursor invasion fortress sits permanently embedded into the crust, serving as a
   bleak monument to the incursion of 508 AA and a continuous site for dangerous salvage operations.
+  
+  *(See full gazetteer: [Landfall: Cradle of the Newcomers](Landfall.md))*
 * **Nimbus:** This world’s geography is dominated by high-altitude plateaus separated by deep, vertical ravines. Because
   of the planet’s unique atmospheric density, heavy, inert gases collect in these low-lying ravines, creating "
   atmospheric lakes" that possess a liquid-like viscosity. The high-altitude plateaus are relatively thin-aired and
