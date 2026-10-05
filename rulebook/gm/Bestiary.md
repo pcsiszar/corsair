@@ -1,33 +1,113 @@
 # Bestiary: Threats of the Sphere
 
-This catalog provides Game Masters with ready-to-run adversaries and specialized encounters across the Sphere. Rather than an abstract, disembodied monster manual, this bestiary is designed primarily as a **concrete location toolkit**: whenever your Corsair cell touches down at the Dustwall crater, negotiates on the Nimbus high spires, crawls through the Evergaol exclusion zone, or breaches a frozen derelict in the deep void, you can immediately pull adversaries purpose-built for that specific operational theater.
+This catalog provides Game Masters with ready-to-run adversaries and specialized encounters across the Sphere. The bestiary is organized in two parts: **Generic Foes** provides universal archetypes (crime syndicates, pirates, and corporate mercenaries) that can be deployed anywhere across civilized or lawless space, while **Location-Specific Threats** provides adversaries, factions, and predatory fauna tailored to specific planetary and orbital operational theaters.
 
 All entries adhere strictly to the standardized framework in [NPC Guidelines](NPC_Guidelines.md):
 * **Uniform Attributes:** Standard adversaries use identical Physical and Mental attributes (`Phys: X | Ment: X`).
 * **Standard Action Economy:** Combatants possess 3 Action Points (Bosses possess 6–7 AP and 2 Legendary Reactions for Contests).
 * **Streamlined Combat Profiles:** Ranged combatants feature an **Accuracy Array** (*Short / Medium / Long / Extreme*) and a flat Damage Bonus. Pure melee combatants feature a flat **Melee Damage Bonus**.
-* **Encounter Variety:** Factions and operational theaters provide a full hierarchy of **Standard**, **Elite**, and **Boss** adversaries so GMs can easily assemble balanced tactical encounters using the encounter point budgets.
+* **Encounter Variety:** Factions and operational theaters provide a clean hierarchy of **Standard**, **Elite**, and **Boss** adversaries so GMs can easily assemble balanced tactical encounters using the encounter point budgets.
 
 ---
 
-## 1. Suncatcher
+## 1. Generic Foes
+
+These versatile adversaries represent widespread factions found across the Sphere—from the alleys of Crossroads and the skywalks of Cloudspire to remote asteroid mining claims and void stations.
+
+### Crime Syndicates
+
+Criminal syndicates operate anywhere commerce flows and law enforcement is underfunded, running illegal narcotics distilleries, unlicensed cybernetics chop-shops, and untraceable weapons transfers.
+
+#### Syndicate Bruiser
+
+Street-level syndicate enforcers are heavy-set brawlers who rely on physical intimidation and blunt trauma. Clad in patched leather jackets over surplus flak vests, they carry sawn-off double-barrel shotguns and heavy industrial pipe wrenches, well accustomed to settling territorial disputes in claustrophobic corridor brawls.
+
+**Category:** Standard | **Tier:** 1
+
+* **Phys:** 2 | **Ment:** 2
+* **Health (HP):** 9 | **Action Points (AP):** 3
+* **Protection:** 1 *(Surplus Flak Vest)*
+* **Combat:** Acc Array: 3 / 1 / - / - | **DMG Bonus:** +0
+
+#### Syndicate Underboss
+
+Behind every warehouse racket, illegal gambling parlor, and grey-market chop-shop in the colony worlds sits an underboss. Typically older, thicker around the middle, and substantially harder to kill than their tailored synthetic silk suits would suggest, these criminal lieutenants survive through a combination of ruthless cunning, sub-dermal ballistic weave, and a heavy magnum revolver that rarely leaves their palm. They fight with dirty pragmatism—tossing flash charges, pulling subordinates into the line of fire, and ensuring they always hold a clean escape route.
+
+**Category:** Boss | **Tier:** 2
+
+* **Phys:** 3 | **Ment:** 3
+* **Health (HP):** 36 | **Action Points (AP):** 6
+* **Protection:** 2 *(Concealed Sub-Dermal Ballistics)*
+* **Combat:** Acc Array: 4 / 3 / 2 / - | **DMG Bonus:** +1
+* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
+
+---
+
+### Pirates and Bandits
+
+Renegade corsair crews, void raiders, and wasteland bandits prey upon commercial shipping lanes, unpatrolled orbital transfer corridors, and remote frontier settlements.
+
+#### Pirate Crewman
+
+Operating in patched, vacuum-rated pressure suits reinforced with ballistic plates, these void raiders are experts in magnetic boarding breaches and zero-g corridor clearing. They carry high-capacity submachine guns firing frangible rounds—engineered to shred unarmored flesh without puncturing the precious hull plating that keeps everyone alive.
+
+**Category:** Standard | **Tier:** 2
+
+* **Phys:** 3 | **Ment:** 3
+* **Health (HP):** 12 | **Action Points (AP):** 3
+* **Protection:** 1 *(Patched Pressure Suit & Plates)*
+* **Combat:** Acc Array: 3 / 3 / 1 / - | **DMG Bonus:** +1
+
+#### Pirate Captain
+
+Commanding a battered, re-flagged cutter with oversized thrusters and a crew of cutthroats, a Pirate Captain has survived decades of Flotilla interdiction, cartel bounty hunters, and internal mutinies. Typically sporting extensive cybernetic replacements—bionic lungs to survive depressurization, reinforced skeletal limbs, and ocular targeting optics—they lead boarding operations from the front, wielding a customized semi-automatic combat shotgun that clears entire companionways in a single thunderous roar.
+
+**Category:** Boss | **Tier:** 3
+
+* **Phys:** 4 | **Ment:** 4
+* **Health (HP):** 44 | **Action Points (AP):** 6
+* **Protection:** 3 *(Custom Heavy Boarding Rig)*
+* **Combat:** Acc Array: 5 / 4 / 2 / - | **DMG Bonus:** +2
+* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
+
+---
+
+### Mercenaries
+
+Private military contractors (PMCs) like Panthera Aerospace & Arms provide corporate clients with deniable firepower, executive protection, and tactical assault assets.
+
+#### Mercenary Enforcer
+
+When corporate executives require security that looks respectable in a boardroom while remaining lethal in an elevator ambush, they contract private security firms. Operating in sleek, matte-grey armored suits with synchronized tactical feeds, these private military contractors are disciplined veterans who treat every firefight like an orderly quarterly review. They communicate via encrypted short-range telemetry, maintain strict overlapping fields of fire, and advance behind tactical assault carbines firing hyper-velocity darts.
+
+**Category:** Standard | **Tier:** 3
+
+* **Phys:** 4 | **Ment:** 4
+* **Health (HP):** 15 | **Action Points (AP):** 3
+* **Protection:** 3 *(Panthera Tactical Carapace)*
+* **Combat:** Acc Array: 4 / 4 / 3 / 1 | **DMG Bonus:** +2
+
+#### Mercenary Commander
+
+Directing high-stakes corporate black-ops and penthouse extractions from the front, a Mercenary Commander is an augmented war veteran wired directly into a squad-wide combat telemetry network. Encased in reinforced command carapace with integrated target-designator optics, they analyze enemy vectors in real time, calling in precise flanking fire while suppressing hostile cover positions with a high-caliber designated marksman rifle.
+
+**Category:** Boss | **Tier:** 3
+
+* **Phys:** 4 | **Ment:** 4
+* **Health (HP):** 44 | **Action Points (AP):** 6
+* **Protection:** 3 *(Panthera Command Carapace)*
+* **Combat:** Acc Array: 5 / 4 / 3 / 2 | **DMG Bonus:** +2
+* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
+
+---
+
+## 2. Suncatcher
 
 The binary twin of oceanic Pelagia, Suncatcher is an arid, sun-baked world of low albedo, vast silica plains, and permanent dust storms. While surface agriculture is an impossibility, the planet's exposed tectonic scars hold the densest concentrations of heavy industrial ores and crystalline lattices in the cluster.
 
 ### Suncatcher: Dustwall Crater Mining Hub
 
 The primary civil settlement on Suncatcher is **Dustwall**, a sprawling, heavily fortified industrial boomtown built into the rim of an ancient impact crater. Inside the crater basin, massive hydraulic bucket-wheel excavators chew through bedrock day and night beneath clouds of red particulate grit.
-
-#### Dustwall Shift Enforcer
-
-Dustwall is nominally governed by corporate mining syndicates who view private security not as law enforcement, but as industrial loss prevention. Shift Enforcers are broad-shouldered mercenaries recruited from off-world labor pools, clad in heavy canvas dusters lined with ballistic plates and sealed with pressurized filtration hoods to keep silica out of their lungs. They patrol the refinery gantries and company barracks armed with pneumatic riot shotguns and heavy slug revolvers, primarily concerned with squashing unauthorized union meetings, breaking up bar brawls over water rations, and ensuring debt-bound roughnecks clock in for their twelve-hour shifts.
-
-**Category:** Standard | **Tier:** 1
-
-* **Phys:** 2 | **Ment:** 2
-* **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 1 *(Reinforced Canvas Duster & Visor)*
-* **Combat:** Acc Array: 3 / 1 / - / - | **DMG Bonus:** +0
 
 #### Dustwall Rover
 
@@ -68,29 +148,6 @@ Dwelling in the bleached red canyons and baking salt flats of Suncatcher’s equ
 * **Protection:** 1 *(Layered Nomad Sand-Weave)*
 * **Combat:** Acc Array: 3 / 3 / 2 / - | **DMG Bonus:** +1
 
-#### Rogue Excavator Rig
-
-In the lawless mining sectors outside corporate jurisdiction, independent claim-jumpers frequently modify four-legged heavy industrial loaders for territorial warfare. Stripped of safety governors and clad in crude sheets of welded scrap steel, these bipedal or quadrupedal utility walkers wield hydraulic crushing pincers and pneumatic percussion drills originally designed to shatter solid granite. When pointed at rival prospectors or claim-jumping Corsairs, they function as devastating siege engines that shrug off light small arms fire.
-
-**Category:** Elite | **Tier:** 3
-
-* **Phys:** 4 | **Ment:** 4
-* **Health (HP):** 24 | **Action Points (AP):** 3
-* **Protection:** 4 *(Welded Industrial Slag Plates)*
-* **Combat:** Melee DMG Bonus: +4 *(Pneumatic Rock Drill & Crushing Pincer)*
-
-#### Wasteland Warlord
-
-Rising to power through sheer brutality and an iron grip over local moisture condensers or fuel caches, a Wasteland Warlord commands a motorized caravan of converted technical flatbeds and fanatical raiders. Pumping their bloodstream full of crude adrenal stims and welded into a motorized hydraulic power frame scavenged from mining equipment, they fight with howling ferocity. In combat, they brace an infantry rotary machine gun across their mechanical harness, hosing down cover positions with high-velocity lead while daring adversaries to close the distance.
-
-**Category:** Boss | **Tier:** 3
-
-* **Phys:** 4 | **Ment:** 4
-* **Health (HP):** 44 | **Action Points (AP):** 6
-* **Protection:** 3 *(Scavenged Exo-Harness & Plates)*
-* **Combat:** Acc Array: 4 / 4 / 3 / 1 | **DMG Bonus:** +2
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
 ---
 
 ### Suncatcher: Desert Wildlife
@@ -123,7 +180,7 @@ Lurking in the shaded ravines and overhangs of the Badlands, the Sand-Gorgon is 
 
 ---
 
-## 2. Nimbus
+## 3. Nimbus
 
 Tidally locked to Landfall across a 61,000-kilometer gap, **Nimbus** is a world of extreme verticality: high-altitude arid plateaus and dizzying chasms choked with dense, viscous atmospheric lakes of heavy inert gas.
 
@@ -142,17 +199,6 @@ Corporate board members and high-ranking consortium officials never travel betwe
 * **Protection:** 1 *(Tailored Ballistic Weave)*
 * **Combat:** Acc Array: 4 / 2 / - / - | **DMG Bonus:** +1
 
-#### Panthera SecOps Contractor
-
-When corporate executives require security that looks respectable in a boardroom while remaining lethal in an elevator ambush, they contract Panthera Aerospace & Arms. Operating in sleek, matte-grey armored suits with synchronized tactical feeds, these private military contractors are disciplined veterans who treat every firefight like an orderly quarterly review. They communicate via encrypted short-range telemetry, maintain strict overlapping fields of fire, and advance behind tactical assault carbines firing hyper-velocity darts.
-
-**Category:** Standard | **Tier:** 3
-
-* **Phys:** 4 | **Ment:** 4
-* **Health (HP):** 15 | **Action Points (AP):** 3
-* **Protection:** 3 *(Panthera Tactical Carapace)*
-* **Combat:** Acc Array: 4 / 4 / 3 / 1 | **DMG Bonus:** +2
-
 #### Nightwatch Enforcer (Nimbus RRF)
 
 Operating out of pitch-black VTOL transports that glide silently through Cloudspire’s cloudbanks, the Nightwatch Rapid Response Force is the corporate council's deniable hammer. Outfitted with bleeding-edge micro-hydraulic power suits and full-face sensor arrays, they drop onto balconies and rooftops within minutes of a high-priority corporate breach. Their combat doctrine is simple and unforgiving: secure the physical data drives, terminate all unauthorized witnesses, and seal the bulkheads before local news drones can scramble.
@@ -164,23 +210,11 @@ Operating out of pitch-black VTOL transports that glide silently through Cloudsp
 * **Protection:** 4 *(Black-Ops Composite Carapace)*
 * **Combat:** Acc Array: 5 / 5 / 4 / 2 | **DMG Bonus:** +3
 
-#### Panthera Tactical Commander
-
-Directing high-stakes corporate black-ops and penthouse extractions from the front, a Panthera Tactical Commander is an augmented war veteran wired directly into a squad-wide combat telemetry network. Encased in reinforced command carapace with integrated target-designator optics, they analyze enemy vectors in real time, calling in precise flanking fire while suppressing hostile cover positions with a high-caliber designated marksman rifle.
-
-**Category:** Boss | **Tier:** 3
-
-* **Phys:** 4 | **Ment:** 4
-* **Health (HP):** 44 | **Action Points (AP):** 6
-* **Protection:** 3 *(Panthera Command Carapace)*
-* **Combat:** Acc Array: 5 / 4 / 3 / 2 | **DMG Bonus:** +2
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
 ---
 
 ### Nimbus: Underbelly & Fog Ravines
 
-Miles beneath the glittering penthouses of Cloudspire lie the unpoliced, permanent fog ravines. Here, the atmosphere is heavy and damp, smelling of grease, stagnant water, and sulfur exhaust, where criminal syndicates and aerial gangs run untaxed chop-shops and black markets.
+Miles beneath the glittering penthouses of Cloudspire lie the unpoliced, permanent fog ravines. Here, the atmosphere is heavy and damp, smelling of grease, stagnant water, and sulfur exhaust, where aerial daredevils and couriers carve out illicit vertical territories.
 
 #### Cloudsurfer Skimmer
 
@@ -194,7 +228,7 @@ The skywalks and foggy mid-deck bridges of Nimbus are perpetually plagued by loo
 * **Combat:** Acc Array: 3 / 2 / - / - | **DMG Bonus:** +1
 * **Movement:** 8m *(Magnetic Hoverboard flight)*
 
-#### Cloudsurfer Sky-Ace
+#### Cloudsurfer Ace
 
 The elite champions and veteran smugglers among the Cloudsurfer packs are those who have survived at least three high-speed collisions with industrial exhaust stacks and two Directorate pursuit interceptors. Stripping their repulsor boards down to bare titanium struts to achieve terrifying vertical acceleration, Sky-Aces execute breathtaking inverted dives through the dense fog lakes before snapping 180-degree drift turns around titanium foundation pillars. In combat, they dual-wield high-rate-of-fire machine pistols, strafing across enemy lines in a blistering supersonic blur.
 
@@ -206,92 +240,11 @@ The elite champions and veteran smugglers among the Cloudsurfer packs are those 
 * **Combat:** Acc Array: 4 / 3 / 1 / - | **DMG Bonus:** +1
 * **Movement:** 10m *(Overcharged Magnetic Hoverboard flight)*
 
-#### Cloudsurfer Gang Lead ("Sky-King")
-
-Every ravine gang is ruled by a charismatic aerial warlord who claims ownership of the airspace between the 40th and 70th mid-decks. Piloting a custom, twin-turbine heavy repulsor rig equipped with deployable kinetic air-brakes and a reinforced roll-cage, the Sky-King coordinates wolf-pack diving runs over open radio channels. They carry a customized underslung rotary slug-thrower, raining high-velocity lead down onto gantry positions while daring ground-bound opponents to match their dizzying vertical maneuvers.
-
-**Category:** Boss | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 36 | **Action Points (AP):** 6
-* **Protection:** 2 *(Custom Armored Flight Rig)*
-* **Combat:** Acc Array: 4 / 3 / 2 / - | **DMG Bonus:** +1
-* **Movement:** 8m *(Twin-Turbine Flight)*
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
-#### Ravine Syndicate Muscle
-
-In the damp, grease-soaked alleys of the lower ravines, criminal cartels run illegal narcotics distilleries, unlicensed cybernetics chop-shops, and untraceable weapons transfers. Their street-level enforcers are heavy-set brawlers who rely on physical intimidation and blunt trauma. Clad in patched leather jackets over surplus flak vests, they carry sawn-off double-barrel shotguns and heavy industrial pipe wrenches, well accustomed to settling territorial disputes in claustrophobic corridor brawls.
-
-**Category:** Standard | **Tier:** 1
-
-* **Phys:** 2 | **Ment:** 2
-* **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 1 *(Surplus Flak Vest)*
-* **Combat:** Acc Array: 3 / 1 / - / - | **DMG Bonus:** +0
-
-#### Syndicate Underboss
-
-Behind every warehouse racket, illegal gambling parlor, and grey-market chop-shop in the colony worlds sits an underboss. Typically older, thicker around the middle, and substantially harder to kill than their tailored synthetic silk suits would suggest, these criminal lieutenants survive through a combination of ruthless cunning, sub-dermal ballistic weave, and a heavy magnum revolver that rarely leaves their palm. They fight with dirty pragmatism—tossing flash charges, pulling subordinates into the line of fire, and ensuring they always hold a clean escape route.
-
-**Category:** Boss | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 36 | **Action Points (AP):** 6
-* **Protection:** 2 *(Concealed Sub-Dermal Ballistics)*
-* **Combat:** Acc Array: 4 / 3 / 2 / - | **DMG Bonus:** +1
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
 ---
 
-## 3. Landfall
+## 4. Landfall
 
 The historic cradle of Newcomer civilization, **Landfall** is a temperate, Earth-like world of deep oceans, fertile river valleys, and purple-leafed forests, anchored by the ancient rustic capital of Crossroads and the scarred perimeter of the Evergaol.
-
-### Landfall: Crossroads & Settlement Streets
-
-The historic capital of **Crossroads** was built from timber and stone salvaged from the original four colony arks. It deliberately eschews supermassive skyscrapers, resulting in a sprawling, cobblestoned, and bustling port city where dockworkers, merchants, and Corsairs intermingle.
-
-#### Street Thug / Alley Muscle
-
-Every bustling port produces a surplus of desperate youth and unemployed dock laborers whose primary marketable asset is a willingness to break bones for pocket money. Armed with lead pipes, industrial spanners, and cheap polymer zip-guns that misfire as often as they chamber, street thugs rely entirely on superior numbers to overwhelm solitary couriers or intimidate shopkeepers who fall behind on protection dues. When faced with professional military ordnance, their enthusiasm tends to evaporate with alarming speed.
-
-**Category:** Standard | **Tier:** 1
-
-* **Phys:** 2 | **Ment:** 2
-* **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 0 *(Street Clothes)*
-* **Combat:** Acc Array: 2 / 1 / - / - | **DMG Bonus:** +0
-
-#### Dockside Tough / Heavy Laborer
-
-Around Settler's Bay and the heavy cargo gantries of Crossroads, dock work is backbreaking labor involving heavy hydraulic cranes, rusted container rigs, and short tempers. Dockside toughs are veteran stevedores who supplement their wages doing enforcement work for the local maritime guilds. Bolstered by years of shifting eighty-kilo freight crates, they shrug off blows that would down an ordinary citizen and fight with heavy rivet guns and lead-weighted knuckledusters.
-
-**Category:** Standard | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1 *(Reinforced Work Leather & Steel-Toe Boots)*
-* **Combat:** Acc Array: 3 / 2 / - / - *(Industrial Rivet Gun)* | **DMG Bonus:** +1
-
----
-
-### Landfall: Caldera Industrial Sector
-
-Located along Landfall’s volcanic mountain belts, **Caldera Heavy Industries** operates massive smelting foundries and munitions plants that supply armor plate and ammunition to the entire cluster.
-
-#### Caldera Foundry Enforcer
-
-Caldera Foundry does not employ peace officers; it employs asset retention specialists. Clad in heavy blast-resistant canvas, vulcanized rubber aprons, and tinted visor helmets designed to repel molten slag and corrosive fumes, these enforcers are trained to suppress factory strikes and quell labor riots before production quotas dip. They favor pneumatic riot shotguns loaded with rubber-coated lead shot that incapacitate insubordinate workers without permanently damaging company property.
-
-**Category:** Standard | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 2 *(Heavy Foundry Apron & Visor)*
-* **Combat:** Acc Array: 4 / 2 / - / - | **DMG Bonus:** +1
-
----
 
 ### Landfall: Evergaol Exclusion Zone
 
@@ -308,9 +261,9 @@ Operating through the labyrinthine cooling conduits and sealed detention blocks 
 * **Protection:** 2 *(Pressurized Turnkey Hazard Rig)*
 * **Combat:** Acc Array: 4 / 4 / 2 / - | **DMG Bonus:** +2
 
-#### Jailer Block Warden
+#### Jailer Breaker
 
-When an expedition breaches a high-security containment wing or corporate asset-recovery teams attempt to raid a Jailer salvage hearth, the Block Wardens take point. Encased in massive, lead-shielded pressurized carapace with reinforced iron visors, these veteran bruisers act as the internal security and disciplinary force of the wreck. They carry two-handed, high-output industrial thermal plasma lances originally built to weld containment bulkheads shut, using them to shear through alien vault seals or incinerate trespassers in close-quarters corridor breaches.
+When an expedition breaches a high-security containment wing or corporate asset-recovery teams attempt to raid a Jailer salvage hearth, Jailer Breakers take point. Encased in massive, lead-shielded pressurized carapace with reinforced iron visors, these veteran bruisers act as the internal security and disciplinary force of the wreck. They carry two-handed, high-output industrial thermal plasma lances originally built to weld containment bulkheads shut, using them to shear through alien vault seals or incinerate trespassers in close-quarters corridor breaches.
 
 **Category:** Elite | **Tier:** 3
 
@@ -319,9 +272,9 @@ When an expedition breaches a high-security containment wing or corporate asset-
 * **Protection:** 3 *(Lead-Shielded Warden Carapace)*
 * **Combat:** Melee DMG Bonus: +4 *(High-Output Thermal Plasma Lance)*
 
-#### Jailer Chief Gaoler
+#### Jailer Warden
 
-Ruling their salvage clan from the echoing command bridge of a hollowed-out cell block, the Chief Gaoler is an eccentric, cybernetically augmented warlord who treats the *Evergaol* like their personal sovereign penitentiary. Having grafted Precursor containment interfaces directly into their neural wiring, they move with heavy, mechanical strides in a motorized exo-harness lined with salvaged blast shielding. They coordinate breach ambushes with cold calculation, wielding an ancient magnetic rail-carbine recovered from the dreadnought's armory that punches clean through solid bulkheads.
+Ruling their salvage clan from the echoing command bridge of a hollowed-out cell block, the Jailer Warden is an eccentric, cybernetically augmented warlord who treats the *Evergaol* like their personal sovereign penitentiary. Having grafted Precursor containment interfaces directly into their neural wiring, they move with heavy, mechanical strides in a motorized exo-harness lined with salvaged blast shielding. They coordinate breach ambushes with cold calculation, wielding an ancient magnetic rail-carbine recovered from the dreadnought's armory that punches clean through solid bulkheads.
 
 **Category:** Boss | **Tier:** 3
 
@@ -363,7 +316,7 @@ Growing to nearly twice the bulk of an ordinary hunter, a Pack-Alpha is an apex 
 
 ---
 
-## 4. The Void & Orbital Corridors
+## 5. The Void & Orbital Corridors
 
 The deep space between planetary atmospheres is silent, cold, and crowded with pressurized tin cans, orbital customs transfer hubs, and the decaying metal bones of starships that ran out of reaction mass centuries ago.
 
@@ -371,9 +324,9 @@ The deep space between planetary atmospheres is silent, cold, and crowded with p
 
 Scattered across Lagrange graveyards and abandoned orbits sit hundreds of dead freighters and shattered warships, now picked clean by the degenerate biological clones known as the **Scavs**, who strip every bulkhead, wire bundle, and reactor coil to feed the mysterious entity known as The Collector.
 
-#### Scav Scrap-Picker
+#### Scav Grunt
 
-The rank-and-file scavengers of the Scav hives scour dead hulls and forgotten orbital graveyards with obsessive, chattering speed. Possessing four spindly arms, pale insectoid eyes behind crude welding goggles, and hooked magnetic claws, Scrap-Pickers strip copper cabling, hydraulic valves, and fuel cells from dark conduits. Armed with cut-down scrap carbines, pneumatic rivet guns, and jagged pry-bars, they attack in swarms, eager to strip living trespassers of weapons, flightsuits, and prosthetic limbs to feed the Great Tithe.
+The rank-and-file scavengers of the Scav hives scour dead hulls and forgotten orbital graveyards with obsessive, chattering speed. Possessing four spindly arms, pale insectoid eyes behind crude welding goggles, and hooked magnetic claws, Scav Grunts strip copper cabling, hydraulic valves, and fuel cells from dark conduits. Armed with cut-down scrap carbines, pneumatic rivet guns, and jagged pry-bars, they attack in swarms, eager to strip living trespassers of weapons, flightsuits, and prosthetic limbs to feed the Great Tithe.
 
 **Category:** Standard | **Tier:** 1
 
@@ -383,9 +336,9 @@ The rank-and-file scavengers of the Scav hives scour dead hulls and forgotten or
 * **Combat:** Acc Array: 2 / 2 / - / - | **DMG Bonus:** +0
 * **Movement:** 4m *(Gains +2m and an Upgrade when moving in zero-gravity via magnetic claws)*
 
-#### Scav Hull-Stripper
+#### Scav Marauder
 
-When an expedition requires peeling open reinforced starship armor or shearing structural girders, the Hull-Strippers take point. These larger, heavily mutated clones have undergone extensive biological reinforcement, their upper torsos bolted into pressurized iron salvage exoskeletons equipped with heavy industrial cutting torches and motorized cable-winches. They peel open airlock bulkheads like tin cans, using their hydraulic cutting claws to pin boarding teams against deck plates before dismembering them for raw materials.
+When an expedition requires peeling open reinforced starship armor or shearing structural girders, Scav Marauders take point. These larger, heavily mutated clones have undergone extensive biological reinforcement, their upper torsos bolted into pressurized iron salvage exoskeletons equipped with heavy industrial cutting torches and motorized cable-winches. They peel open airlock bulkheads like tin cans, using their hydraulic cutting claws to pin boarding teams against deck plates before dismembering them for raw materials.
 
 **Category:** Elite | **Tier:** 2
 
@@ -394,9 +347,9 @@ When an expedition requires peeling open reinforced starship armor or shearing s
 * **Protection:** 2 *(Reinforced Salvage Frame)*
 * **Combat:** Melee DMG Bonus: +3 *(Thermal Plasma Cutter & Hydraulic Jaws)*
 
-#### Scav Scrap-Lord
+#### Scav Raider-Captain
 
-At the rotten core of every dead starship hive squats a Scrap-Lord—an ancient, swollen clone whose biological decay has been arrested by bolting its torso directly into a motorized hydraulic lifter chassis. Revered as the living voice of The Collector, the Scrap-Lord directs reclamation swarms with screeching bio-transponders while wielding a jury-rigged industrial junk-cannon that hurls canisters of pressurized molten slag and jagged scrap iron across zero-g compartments.
+At the rotten core of every dead starship hive squats a Scav Raider-Captain—an ancient, swollen clone whose biological decay has been arrested by bolting its torso directly into a motorized hydraulic lifter chassis. Revered as the living voice of The Collector, the Raider-Captain directs reclamation swarms with screeching bio-transponders while wielding a jury-rigged industrial junk-cannon that hurls canisters of pressurized molten slag and jagged scrap iron across zero-g compartments.
 
 **Category:** Boss | **Tier:** 2
 
@@ -409,20 +362,9 @@ At the rotten core of every dead starship hive squats a Scrap-Lord—an ancient,
 
 ---
 
-### The Void: Shipping Lanes & Orbital Stations
+### The Void: Naval Pickets & Station Security
 
-The high-traffic corridors linking the binary moons are the lifeblood of interplanetary trade, protected by the Flotilla’s naval pickets and preyed upon by ruthless corsair packs.
-
-#### Void Pirate Raider
-
-The Wanabo Buffer and the unpatrolled shipping lanes around Fume are hunting grounds for independent corsair crews, mutineers, and renegade clans. Clad in patched, vacuum-rated pressure suits reinforced with ballistic plates, these void raiders are experts in magnetic boarding breaches and zero-g corridor clearing. They carry high-capacity submachine guns firing frangible rounds—engineered to shred unarmored flesh without puncturing the precious hull plating that keeps everyone alive.
-
-**Category:** Standard | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1 *(Patched Pressure Suit & Plates)*
-* **Combat:** Acc Array: 3 / 3 / 1 / - | **DMG Bonus:** +1
+The high-traffic corridors and customs docks linking the binary moons are governed by the Flotilla’s naval picket forces, trained for rapid zero-g interdiction.
 
 #### Flotilla Boarding Marine
 
@@ -434,51 +376,6 @@ The Flotilla’s standing doctrine prohibits deploying ground troops on colonize
 * **Health (HP):** 15 | **Action Points (AP):** 3
 * **Protection:** 3 *(Flotilla Naval Carapace)*
 * **Combat:** Acc Array: 4 / 3 / 3 / 1 | **DMG Bonus:** +2
-
-#### Pirate Skiff Captain
-
-Commanding a battered, re-flagged cutter with oversized thrusters and a crew of cutthroats, a Pirate Captain has survived decades of Flotilla interdiction, cartel bounty hunters, and internal mutinies. Typically sporting extensive cybernetic replacements—bionic lungs to survive depressurization, reinforced skeletal limbs, and ocular targeting optics—they lead boarding operations from the front, wielding a customized semi-automatic combat shotgun that clears entire companionways in a single thunderous roar.
-
-**Category:** Boss | **Tier:** 3
-
-* **Phys:** 4 | **Ment:** 4
-* **Health (HP):** 44 | **Action Points (AP):** 6
-* **Protection:** 3 *(Custom Heavy Boarding Rig)*
-* **Combat:** Acc Array: 5 / 4 / 2 / - | **DMG Bonus:** +2
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
----
-
-## 5. Fume Gas Platforms & Clouds
-
-At the core of the cluster sits the amber-and-violet Gas Giant **Fume**. While its upper atmosphere is perpetually harvested by floating refinery aerostats, the lower atmospheric bands harbor lethal storms, extreme pressure gradients, and airborne predators.
-
-### Fume: Refinery Decks & Lower Smog
-
-Industrial platforms anchored into the cloud tops process liquid methane, noble gases, and fusion isotopes, staffed by hardy roughnecks and menaced by predatory fauna.
-
-#### Fume Rig Tender
-
-Working on the exterior catwalks of an atmospheric refinery platform suspended over a gas giant requires a special breed of fatalistic stoicism. Clad in heavy, pressurized vulcanized rubber environmental suits equipped with magnetic safety tether-lines, rig tenders spend their shifts battling corrosive sulfur drafts and high winds. When piratical raiders attempt to board a fuel gantry, rig tenders fight back with pneumatic impact wrenches, pressurized chemical sealant sprayers, and heavy industrial flare guns.
-
-**Category:** Standard | **Tier:** 1
-
-* **Phys:** 2 | **Ment:** 2
-* **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 1 *(Pressurized Sulfur-Resistant Suit)*
-* **Combat:** Acc Array: 3 / 1 / - / - *(Chemical Flare Gun)* | **DMG Bonus:** +0
-
-#### Fume Gas-Manta
-
-Drifting through the dense, toxic lower atmospheric bands of Fume’s gas-harvesting clouds, Gas-Mantas are wide-finned aerial predators kept aloft by internal hydrogen bladders. Drawn toward the heat signatures and electromagnetic hum of refinery platforms and shuttle thrusters, they glide through sulfur fog on silent wings. When threatened or hungry, they release clouds of blinding, caustic mist and vent corrosive digestive enzymes capable of pitting starship hulls.
-
-**Category:** Standard | **Tier:** 2
-
-* **Phys:** 3 | **Ment:** 3
-* **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1 *(Rubbery Pneumatic Skin)*
-* **Combat:** Acc Array: 3 / 2 / - / - *(Caustic Acid Spray)* | **DMG Bonus:** +1
-* **Movement:** 8m *(Gliding flight through atmosphere)*
 
 ---
 
@@ -514,7 +411,7 @@ Bearing the battle-standards and imperial crests of Emperor Vrakketh’s shock d
 
 #### Ork Warlord
 
-Standing nearly three meters tall in a ceremonial suit of pressurized, motor-driven command plate adorned with crimson battle banners, an Ork Warlord commands their frontier cohort with severe, autocratic authority. Educated in harsh imperial war academies where defeat is answered with ritual suicide, they direct fields of fire with cold, calculating precision while personally leading from the front line. In combat, they brace an imperial quad-barrel heavy rotary cannon from a gyroscopic shoulder harness, laying down punishing kinetic fire while swinging a monomolecular-edged iron broadblade with terrifying speed.
+Standing more than two meters tall in a ceremonial suit of pressurized, motor-driven command plate adorned with crimson battle banners, an Ork Warlord commands their frontier cohort with severe, autocratic authority. Educated in harsh imperial war academies where defeat is answered with ritual suicide, they direct fields of fire with cold, calculating precision while personally leading from the front line. In combat, they brace an imperial quad-barrel heavy rotary cannon from a gyroscopic shoulder harness, laying down punishing kinetic fire while swinging a monomolecular-edged iron broadblade with terrifying speed.
 
 **Category:** Boss | **Tier:** 3
 
@@ -523,12 +420,6 @@ Standing nearly three meters tall in a ceremonial suit of pressurized, motor-dri
 * **Protection:** 4 *(Imperial Command Carapace)*
 * **Combat:** Acc Array: 5 / 4 / 3 / - *(Quad Rotary Cannon)* | **DMG Bonus:** +2
 * **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
----
-
-### Wanabo: DMZ Battlegrounds & Drop Zones
-
-When full-scale territorial skirmishes break out across the buffer zone, the Orkish Empire deploys its heavy mechanical assets via atmospheric drop-cages.
 
 #### Orkish Imperial Iron Walker ("Iron Vanguard")
 
@@ -589,9 +480,9 @@ Lurking among the submerged titanium pilings and thermal ocean vents beneath Pel
 
 Scattered across deep bedrock, hollowed moons, and ancient subterranean ruins lie the silent complexes of the Precursors. Built tens of thousands of years before Newcomer colony ships ever dropped into the system, these cavernous black-monolith chambers are defended by autonomous security constructs that have maintained their defensive programming across millennia of absolute isolation.
 
-### Precursor Sentry Node
+### Precursor Vault Sentry
 
-Floating silently through vaulted corridors of seamless, black monolithic stone, Sentry Nodes are soccer-ball-sized geometric polyhedrons of polished gunmetal and glowing amber glyphs. They emit a faint, high-frequency hum that sets dental fillings on edge. Upon detecting unauthorized biological entities, they unfold into articulated kinetic rings, firing coherent bursts of accelerated magnetic darts with mathematical accuracy.
+Floating silently through vaulted corridors of seamless, black monolithic stone, Precursor Vault Sentries are soccer-ball-sized geometric polyhedrons of polished gunmetal and glowing amber glyphs. They emit a faint, high-frequency hum that sets dental fillings on edge. Upon detecting unauthorized biological entities, they unfold into articulated kinetic rings, firing coherent bursts of accelerated magnetic darts with mathematical accuracy.
 
 **Category:** Standard | **Tier:** 2
 
@@ -601,9 +492,9 @@ Floating silently through vaulted corridors of seamless, black monolithic stone,
 * **Combat:** Acc Array: 4 / 3 / 2 / 1 *(Magnetic Dart Projector)* | **DMG Bonus:** +1
 * **Movement:** 6m *(Silent Magnetic Ground-Effect)*
 
-### Precursor Chitin Warden
+### Precursor Vault Stalker
 
-Standing nearly eight feet tall on slender, inverted-joint legs, Chitin Wardens are bipedal humanoid automatons constructed from lightweight, shock-absorbent composite polymers and carbon fiber. Lacking eyes, mouths, or decorative features, their blank, reflective facial plates tilt toward auditory and heat vibrations. Their forearms morph into high-velocity harmonic vibratory blades capable of slicing through military-grade armor plates as cleanly as butter.
+Standing nearly eight feet tall on slender, inverted-joint legs, Vault Stalkers are bipedal humanoid automatons constructed from lightweight, shock-absorbent composite polymers and carbon fiber. Lacking eyes, mouths, or decorative features, their blank, reflective facial plates tilt toward auditory and heat vibrations. Their forearms morph into high-velocity harmonic vibratory blades capable of slicing through military-grade armor plates as cleanly as butter.
 
 **Category:** Elite | **Tier:** 3
 
@@ -613,9 +504,9 @@ Standing nearly eight feet tall on slender, inverted-joint legs, Chitin Wardens 
 * **Combat:** Melee DMG Bonus: +3 *(Harmonic Vibratory Blades)*
 * **Movement:** 6m
 
-### Precursor Gate Archon
+### Precursor Vault Archon
 
-Guarding the innermost sanctums where ancient Shards and singularity containment cores remain sealed, the Gate Archon is an imposing, four-armed automaton that awakens only when deep vault seals are breached. Hovering on a stabilized magnetic induction field, its multi-faceted torso rotates independently, firing accelerated tungsten rail-spikes from articulated shoulder pylons and discharging concussive acoustic shockwaves that fling armored Corsairs across the chamber like ragdolls.
+Guarding the innermost sanctums where ancient Shards and singularity containment cores remain sealed, the Vault Archon is an imposing, four-armed automaton that awakens only when deep vault seals are breached. Hovering on a stabilized magnetic induction field, its multi-faceted torso rotates independently, firing accelerated tungsten rail-spikes from articulated shoulder pylons and discharging concussive acoustic shockwaves that fling armored Corsairs across the chamber like ragdolls.
 
 **Category:** Boss *(Vault Apex)* | **Tier:** 4
 
