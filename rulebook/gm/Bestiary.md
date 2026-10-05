@@ -295,39 +295,39 @@ Caldera Foundry does not employ peace officers; it employs asset retention speci
 
 ### Landfall: Evergaol Exclusion Zone
 
-In 508 AA, an ancient Precursor invasion fortress breached Landfall's orbital grid and was shot down, crashing into the northern continental shield. Today, the **Evergaol Crash Site** is a scarred, radioactive exclusion zone surrounded by automated warning buoys, where the criminal syndicate known as the **Jailers** gambles their lives against lingering radiation and ancient defenses to harvest priceless relics.
+In 508 AA, an ancient Precursor invasion fortress breached Landfall's orbital grid and was shot down, crashing into the northern continental shield. Today, the **Evergaol Crash Site** is a scarred, radioactive exclusion zone surrounded by automated warning buoys, where the criminal salvage syndicate known as the **Jailers** operates. Treating the labyrinthine wreck of the fallen alien super-prison as their sovereign territory, they brave lingering radiation and automated kill-nodes to harvest priceless relics.
 
-#### Jailer Siphon-Runner
+#### Jailer Turnkey
 
-Siphon-Runners are the frontline recovery specialists of the Evergaol: gaunt, unnerving scavengers sealed into heavily insulated hazard suits equipped with chemical re-breathers and pre-war Precursor scanning needles. They fight with strange, siphon-actuated dart rifles that inject pressurized neuro-toxins, harvesting ancient technological relics from radioactive vaults while avoiding corporate patrols.
+Operating through the labyrinthine cooling conduits and sealed detention blocks of the Evergaol, Turnkeys are the frontline scouts and breach-runners of the salvage clans. Sealed into pressurized, lead-lined hazard rigs decorated with rusted key-matrices and humming alien fiber-optics, they navigate automated defense zones and radioactive corridors to locate intact vault bulkheads. They fight with pneumatic dart carbines that fire pressurized neuro-toxin darts designed to incapacitate intruders without puncturing volatile containment canisters or damaging delicate alien components.
 
 **Category:** Standard | **Tier:** 3
 
 * **Phys:** 4 | **Ment:** 4
 * **Health (HP):** 15 | **Action Points (AP):** 3
-* **Protection:** 2 *(Pressurized Hazard Seal & Plates)*
+* **Protection:** 2 *(Pressurized Turnkey Hazard Rig)*
 * **Combat:** Acc Array: 4 / 4 / 2 / - | **DMG Bonus:** +2
 
-#### Evergaol Heavy Breaker
+#### Jailer Block Warden
 
-Breaching the multi-layered composite bulkheads of a downed Precursor dreadnought requires extreme thermal ordnance. Heavy Breakers are elite Jailer demolitionists encased in thick, lead-lined blast suits. They carry two-handed, high-output industrial plasma torches originally built for orbital demolition, using them to shear through alien vault seals or incinerate anyone foolish enough to challenge their salvage claims in close quarters.
+When an expedition breaches a high-security containment wing or corporate asset-recovery teams attempt to raid a Jailer salvage hearth, the Block Wardens take point. Encased in massive, lead-shielded pressurized carapace with reinforced iron visors, these veteran bruisers act as the internal security and disciplinary force of the wreck. They carry two-handed, high-output industrial thermal plasma lances originally built to weld containment bulkheads shut, using them to shear through alien vault seals or incinerate trespassers in close-quarters corridor breaches.
 
 **Category:** Elite | **Tier:** 3
 
 * **Phys:** 4 | **Ment:** 4
 * **Health (HP):** 24 | **Action Points (AP):** 3
-* **Protection:** 3 *(Lead-Lined Heavy Blast Rig)*
-* **Combat:** Melee DMG Bonus: +4 *(High-Output Thermal Plasma Torch)*
+* **Protection:** 3 *(Lead-Shielded Warden Carapace)*
+* **Combat:** Melee DMG Bonus: +4 *(High-Output Thermal Plasma Lance)*
 
-#### Jailer Crypt-Lord
+#### Jailer Chief Gaoler
 
-Directing deep salvage expeditions into the reactor core of the downed fortress, a Jailer Crypt-Lord is a master scavenger who has integrated recovered Precursor lattice interfaces directly into their own cybernetics. Enclosed in a heavily customized, radiation-shielded exo-suit equipped with magnetic anchor grapples, they command salvage teams with cold, ruthless efficiency while firing a devastating, shoulder-braced magnetic rail-carbine salvaged from the fortress's armory.
+Ruling their salvage clan from the echoing command bridge of a hollowed-out cell block, the Chief Gaoler is an eccentric, cybernetically augmented warlord who treats the *Evergaol* like their personal sovereign penitentiary. Having grafted Precursor containment interfaces directly into their neural wiring, they move with heavy, mechanical strides in a motorized exo-harness lined with salvaged blast shielding. They coordinate breach ambushes with cold calculation, wielding an ancient magnetic rail-carbine recovered from the dreadnought's armory that punches clean through solid bulkheads.
 
 **Category:** Boss | **Tier:** 3
 
 * **Phys:** 4 | **Ment:** 4
 * **Health (HP):** 44 | **Action Points (AP):** 6
-* **Protection:** 3 *(Shielded Precursor Lattice Exo-Suit)*
+* **Protection:** 3 *(Precursor-Lattice Gaoler Harness)*
 * **Combat:** Acc Array: 5 / 4 / 3 / 1 *(Magnetic Rail-Carbine)* | **DMG Bonus:** +2
 * **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
 
@@ -369,23 +369,23 @@ The deep space between planetary atmospheres is silent, cold, and crowded with p
 
 ### The Void: Derelict Graveyards & Dead Hulks (The Scavs)
 
-Scattered across Lagrange graveyards and abandoned orbits sit hundreds of dead freighters and shattered warships, now picked clean by the degenerate biological clones known as the **Scavs**, who strip every bulkhead and wire to feed the mysterious entity known as The Collector.
+Scattered across Lagrange graveyards and abandoned orbits sit hundreds of dead freighters and shattered warships, now picked clean by the degenerate biological clones known as the **Scavs**, who strip every bulkhead, wire bundle, and reactor coil to feed the mysterious entity known as The Collector.
 
-#### Scav Skitterer
+#### Scav Scrap-Picker
 
-The rank-and-file clones of the Scav hives infest dead hulls and forgotten orbital graveyards. Possessing four spindly arms, pale insectoid eyes behind crude welding goggles, and hooked magnetic gloves, Skitterers navigate zero-gravity corridors with unnerving speed. Armed with cut-down scrap carbines, pneumatic rivet guns, and jagged pry-bars, they attack in chattering packs, eager to harvest every scrap of copper, fuel cell, or living tissue to feed the Great Tithe.
+The rank-and-file scavengers of the Scav hives scour dead hulls and forgotten orbital graveyards with obsessive, chattering speed. Possessing four spindly arms, pale insectoid eyes behind crude welding goggles, and hooked magnetic claws, Scrap-Pickers strip copper cabling, hydraulic valves, and fuel cells from dark conduits. Armed with cut-down scrap carbines, pneumatic rivet guns, and jagged pry-bars, they attack in swarms, eager to strip living trespassers of weapons, flightsuits, and prosthetic limbs to feed the Great Tithe.
 
 **Category:** Standard | **Tier:** 1
 
 * **Phys:** 2 | **Ment:** 2
 * **Health (HP):** 9 | **Action Points (AP):** 3
-* **Protection:** 0 *(Patchwork Vacuum Rags)*
+* **Protection:** 0 *(Patchwork Salvage Rags)*
 * **Combat:** Acc Array: 2 / 2 / - / - | **DMG Bonus:** +0
 * **Movement:** 4m *(Gains +2m and an Upgrade when moving in zero-gravity via magnetic claws)*
 
-#### Scav Harvester
+#### Scav Hull-Stripper
 
-When a salvage crew breaches an intact pre-war vault or capital starship hull, the Harvesters take point. These larger, heavily mutated Scavs have undergone crude biological reinforcement, their upper torsos bolted into pressurized iron exoskeletons equipped with heavy industrial cutting torches and motorized cable launchers. They use their hydraulic tools to peel open bulkhead doors like tin cans, pinning boarding teams against deck plates before dismembering them for salvage.
+When an expedition requires peeling open reinforced starship armor or shearing structural girders, the Hull-Strippers take point. These larger, heavily mutated clones have undergone extensive biological reinforcement, their upper torsos bolted into pressurized iron salvage exoskeletons equipped with heavy industrial cutting torches and motorized cable-winches. They peel open airlock bulkheads like tin cans, using their hydraulic cutting claws to pin boarding teams against deck plates before dismembering them for raw materials.
 
 **Category:** Elite | **Tier:** 2
 
@@ -394,9 +394,9 @@ When a salvage crew breaches an intact pre-war vault or capital starship hull, t
 * **Protection:** 2 *(Reinforced Salvage Frame)*
 * **Combat:** Melee DMG Bonus: +3 *(Thermal Plasma Cutter & Hydraulic Jaws)*
 
-#### Scav Scrap-Lord (Brood-Overseer)
+#### Scav Scrap-Lord
 
-At the rotten core of every dead starship hive squats an Overseer—an ancient, swollen clone whose biological decay has been arrested by bolting its torso directly into a motorized hydraulic lifter chassis. Revered as the living voice of The Collector, the Scrap-Lord directs Skitterer swarms with screeching bio-transponders while wielding a jury-rigged industrial junk-cannon that hurls canisters of pressurized molten slag and jagged scrap iron across zero-g compartments.
+At the rotten core of every dead starship hive squats a Scrap-Lord—an ancient, swollen clone whose biological decay has been arrested by bolting its torso directly into a motorized hydraulic lifter chassis. Revered as the living voice of The Collector, the Scrap-Lord directs reclamation swarms with screeching bio-transponders while wielding a jury-rigged industrial junk-cannon that hurls canisters of pressurized molten slag and jagged scrap iron across zero-g compartments.
 
 **Category:** Boss | **Tier:** 2
 
@@ -449,25 +449,6 @@ Commanding a battered, re-flagged cutter with oversized thrusters and a crew of 
 
 ---
 
-### The Void: Outer Rings & Planetary Shadows
-
-In the cold shadows of planetary rings and frozen asteroid fields drift ancient, silicon-based lifeforms that predate Newcomer arrival.
-
-#### Void Stalker (Juvenile Dragon)
-
-Known colloquially across frontier spacers as "Void Ticks" or juvenile void dragons, these massive, silicon-based lifeforms drift through asteroid belts and outer planetary rings, feeding on ambient solar radiation and iron-nickel ores. A juvenile stalker is roughly the size of a shuttle hull, enclosed in dark, reflective crystalline scales that render it nearly invisible on passive radar. When attracted to a starship’s active reactor emissions, it clamps onto the hull plates, venting high-temperature biological plasma torch bursts to melt through pressurized compartments.
-
-**Category:** Boss *(Extreme Threat / Hard Target)* | **Tier:** 4
-
-* **Phys:** 5 | **Ment:** 5
-* **Health (HP):** 52 | **Action Points (AP):** 7
-* **Protection:** 5 *(Ablative Crystalline Scales)*
-* **Combat:** Acc Array: 5 / 4 / 2 / - *(Superheated Bio-Plasma Vent)* | **DMG Bonus:** +4
-* **Movement:** 8m *(Thruster gas-expulsion in zero-g)*
-* **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
-
----
-
 ## 5. Fume Gas Platforms & Clouds
 
 At the core of the cluster sits the amber-and-violet Gas Giant **Fume**. While its upper atmosphere is perpetually harvested by floating refinery aerostats, the lower atmospheric bands harbor lethal storms, extreme pressure gradients, and airborne predators.
@@ -503,44 +484,44 @@ Drifting through the dense, toxic lower atmospheric bands of Fume’s gas-harves
 
 ## 6. The Wanabo Buffer & Orkish DMZ
 
-To the west of the civilized corridors lies **Wanabo**, an asteroid-strewn, battered system serving as the demilitarized buffer zone between the Flotilla and the **Kazahn Orkish Empire**. The fragile Truce of Iron and Ash holds by a thread, and encounters along the border involve raw iron, overwhelming kinetic shock, and disciplined martial brutality.
+To the west of the civilized corridors lies **Wanabo**, an asteroid-strewn, battered system serving as the demilitarized buffer zone between the Flotilla and the **Kazahn Orkish Empire**. The sole surviving lineage of the brutal Garden Node B resurrection, the Orks are an austere, highly militarized warrior civilization governed by an unyielding martial code, iron discipline, and fanatical devotion to Emperor Vrakketh. The fragile Truce of Iron and Ash holds by a thread, and encounters along the frontier involve disciplined kinetic volleys, heavy iron armor plate, and uncompromising battlefield resolve.
 
 ### Wanabo: Frontier Trenches & Outposts
 
 Along the barren, cratered moons and border asteroid outposts of the DMZ, opposing pickets glare at each other through heavy sniper scopes across frozen no-man's-lands.
 
-#### Ork Boy (Frontier Shocktrooper)
+#### Ork Line Warrior
 
-An Ork infantryman possesses an uncomplicated worldview: what cannot be solved with a high-caliber slug can almost certainly be solved with a three-foot iron cleaver. Towering over standard humanoids with massive bone density and thick, leathery hide, Ork Boyz advance aggressively through incoming fire with deafening battle roars. They carry crude, open-bolt slug-throwers that fire massive high-grain propellant cartridges, caring little for precision as long as the target space is filled with flying metal.
+Trained under the unyielding martial code of Emperor Vrakketh's legions, an Orkish Line Warrior advances with chilling, rhythmic discipline. Towering over standard humanoids with dense bone structure and thick, leathery hide, they are encased in layered plates of stamped, dark-lacquered ballistic pig-iron. They treat their heavy-caliber semi-automatic battle rifles with austere reverence, firing armor-piercing kinetic rounds in synchronized suppression volleys before closing ranks to finish breaching actions with an edge-hardened steel bayonet.
 
 **Category:** Standard | **Tier:** 2
 
 * **Phys:** 3 | **Ment:** 3
 * **Health (HP):** 12 | **Action Points (AP):** 3
-* **Protection:** 1 *(Layered Scrap Straps & Hide)*
-* **Combat:** Acc Array: 3 / 2 / - / - | **DMG Bonus:** +1
+* **Protection:** 2 *(Lacquered Iron Cuirass)*
+* **Combat:** Acc Array: 4 / 3 / 2 / - | **DMG Bonus:** +1
 
-#### Ork Nob / Breacher
+#### Ork Honor Vanguard
 
-Ork Nobz are the veteran officers and shock champions of Emperor Vrakketh’s legions. Bulking twice the mass of a human in full kit, they encase themselves in heavy plates of riveted pig-iron stamped directly onto motorized hydraulic spine rigs. They carry two-handed rotary thumpers—heavy automatic cannons fed from drum magazines that fire explosive anti-materiel rounds—and use their motorized gauntlets to punch through reinforced airlocks and fortifications.
+Bearing the battle-standards and imperial crests of Emperor Vrakketh’s shock divisions, an Honor Vanguard represents the veteran spine of Orkish assault echelons. Encased in motorized, heavy hydraulic iron carapace adorned with campaign tallies, they lead orbital drop-pod assaults and trench breakthroughs under solemn oaths of martial sacrifice. They wield two-handed heavy rotary automatic cannons fed from drum magazines—heavy anti-materiel weapons that deliver devastating suppressive shock—and carry edge-hardened ceremonial execution blades for close-quarters counter-charges.
 
 **Category:** Elite | **Tier:** 3
 
 * **Phys:** 4 | **Ment:** 4
 * **Health (HP):** 24 | **Action Points (AP):** 3
-* **Protection:** 3 *(Riveted Pig-Iron Armor)*
-* **Combat:** Acc Array: 4 / 3 / 2 / - | **DMG Bonus:** +2
+* **Protection:** 3 *(Motorized Heavy Iron Plate)*
+* **Combat:** Acc Array: 4 / 4 / 2 / - | **DMG Bonus:** +2
 
-#### Orkish Warboss (Frontier Warlord)
+#### Ork Warlord
 
-Towering three meters tall in a suit of motorized pig-iron power-armor that belches black diesel exhaust from spine-mounted cooling stacks, an Orkish Warboss rules their frontier cohort through absolute martial dominance. They enter battle screaming guttural war-hymns, bracing a massive four-barreled rotary thumper across their hip while swinging an electrified heavy iron power-cleaver capable of splitting an armored personnel carrier from roof to axle.
+Standing nearly three meters tall in a ceremonial suit of pressurized, motor-driven command plate adorned with crimson battle banners, an Ork Warlord commands their frontier cohort with severe, autocratic authority. Educated in harsh imperial war academies where defeat is answered with ritual suicide, they direct fields of fire with cold, calculating precision while personally leading from the front line. In combat, they brace an imperial quad-barrel heavy rotary cannon from a gyroscopic shoulder harness, laying down punishing kinetic fire while swinging a monomolecular-edged iron broadblade with terrifying speed.
 
 **Category:** Boss | **Tier:** 3
 
 * **Phys:** 4 | **Ment:** 4
 * **Health (HP):** 44 | **Action Points (AP):** 6
-* **Protection:** 4 *(Motorized Pig-Iron Plate)*
-* **Combat:** Acc Array: 4 / 4 / 2 / - *(Quad Rotary Thumper)* | **DMG Bonus:** +2
+* **Protection:** 4 *(Imperial Command Carapace)*
+* **Combat:** Acc Array: 5 / 4 / 3 / - *(Quad Rotary Cannon)* | **DMG Bonus:** +2
 * **Legendary Reactions:** 2 Free Reactions per round strictly for Evasion or Parry Contest rolls.
 
 ---
@@ -549,9 +530,9 @@ Towering three meters tall in a suit of motorized pig-iron power-armor that belc
 
 When full-scale territorial skirmishes break out across the buffer zone, the Orkish Empire deploys its heavy mechanical assets via atmospheric drop-cages.
 
-#### Orkish Iron Walker ("Krusher")
+#### Orkish Imperial Iron Walker ("Iron Vanguard")
 
-Dropped through planetary atmospheres inside unguided fourteen-ton solid-rocket drop-cages that strike the earth like falling cathedrals, Orkish battlemechs are crude, terrifying bipedal war-machines. Standing five meters tall on massive hydraulic pistons that churn through mud and rubble, the *Krusher* is piloted by a screaming Ork commander perched behind a narrow slit of bulletproof quartz. It mounts twin heavy rotary cannons on its weapon arms and a motorized crushing scoop capable of shearing light vehicles in half.
+Deployed via atmospheric drop-cages that slam into target zones like falling cathedrals, the Imperial Iron Walker is the devastating mechanized vanguard of the Kazahn military doctrine. Standing five meters tall on heavy hydraulic bipedal stilts, the walker is piloted by a sworn veteran officer peering through armored quartz slits. Designed to shatter fortified trenches and anchor frontier battlefronts, it mounts synchronized twin heavy rotary cannons on its weapon arms and a motorized hydraulic crushing scoop capable of shearing light armored vehicles in two.
 
 **Category:** Boss *(Vehicle / Hard Target)* | **Tier:** 4
 
