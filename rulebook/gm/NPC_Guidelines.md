@@ -17,6 +17,7 @@ Most "cannon fodder"—corporate guards, street thugs, or basic alien drones—u
 * **Mental Attribute:** A single value used for all Knowledge, Presence, and Instinct tests.
 * **Health (HP):** Unlike players, most NPCs use a flat Health value instead of multiple Condition Tracks. When HP
   reaches 0, the NPC is defeated or incapacitated.
+* **Customizing Attributes:** While uniform attributes are ideal for fast GM bookkeeping, you can freely break away from uniform arrays whenever a character concept, enemy archetype, or tactical role demands it. For example, a nimble scout or sniper might have Agility 5 and Strength 2 instead of a uniform Physical 4, or an interrogator might possess Presence 5 and Knowledge 2. Customize individual attributes as needed while using the Tier baselines as your benchmark.
 
 ### 2. Squads and Mobs (Mass Action)
 
@@ -36,11 +37,9 @@ The enemy's role determines their resilience and action economy, regardless of t
 
 * **Standard:** The baseline for most enemies. 3 AP, flat HP.
 * **Elite:** Toughened specialists, field lieutenants, and champions. 3 AP, higher flat HP, and reinforced protection.
-* **Boss:** Faction leaders, heavily armored mechs, or apex alien monstrosities. Solitary bosses face the entire player group's combined action economy (12+ AP). To prevent a Boss from being neutralized by focus fire, they possess specialized action mechanics:
-  * **Action Economy (6 AP Baseline):** Standard Bosses start each round with **6 AP** (Apex Tier 4 Bosses receive **7–8 AP**).
-  * **Multi-Action (2 AP per Turn):** On their active turn, a Boss can spend **2 AP** in a single activation to make two separate attacks, or fire a sweeping burst targeting two separate players in line of sight.
-  * **Legendary Reactions (Free Contests):** A Boss gains **2 Free Reactions per round** used exclusively for **Contest Rolls** (Evasion or Parries). These allow the Boss to defend against concentrated fire without depleting their offensive Action Point pool.
-  * **Acting Out-of-Turn:** Immediately after any player concludes their turn, a Boss may spend **1 AP** to take an immediate action—such as repositioning their base movement distance into cover or firing a snap shot.
+* **Boss:** Faction leaders, heavily armored mechs, or apex alien monstrosities. Solitary bosses face the entire player group's combined action economy (12+ AP). To prevent a Boss from being neutralized by focus fire, they possess two mechanical advantages:
+  * **Action Economy (6 AP Baseline):** Standard Bosses start each round with **6 AP** (Apex Tier 4 Bosses receive **7–8 AP**), providing enough stamina to engage across multiple turn cycles.
+  * **Legendary Reactions (Free Contests):** A Boss gains **2 Free Reactions per round** used exclusively for **Contest Rolls** (Evasion or Parries). These allow the Boss to defend against concentrated player fire without depleting their offensive Action Point pool.
 
 ---
 
