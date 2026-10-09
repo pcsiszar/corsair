@@ -14,9 +14,9 @@ In *Corsair*, an escape is neither an automatic narrative hand-wave nor an abstr
 |  on the Moment-to-Moment grid.           operational locomotion online.        to give chase and contest.
 |                                                                                                         |
 |  [ 4. RESOLVE CONTEST ROLL ]      --->  [ 5A. CLEAN ESCAPE ]            OR    [ 5B. VIOLENT INTERCEPTION ] 
-|  Quarry rolls Mode Attribute Pair;       Quarry retains at least one Hit       All 8+ Hits eliminated. Scene 
-|  Each pursuer rolls Contest pool.        (8+). Scene zooms out to P2P          zooms to Moment-to-Moment:   
-|  Distance modifiers apply.               exploration at safe distance.         Pursuers get 3 AP & ACT FIRST!
+|  Quarry rolls Mode Attribute Pair;       Quarry retains >=1 Hit (8+).          All 8+ Hits eliminated. Scene 
+|  Each pursuer rolls Contest pool.        Zooms to P2P Manhunt:                 zooms to Moment-to-Moment:   
+|  Distance modifiers apply.               governed by Hideout & Heat.           Pursuers get 3 AP & ACT FIRST!
 +---------------------------------------------------------------------------------------------------------+
 ```
 
@@ -111,11 +111,12 @@ Chasing a fleeing quarry over hundreds of meters through crowded alleys, across 
 The contested roll yields one of two absolute outcomes: total disengagement or a catastrophic tactical interception.
 
 ### Clean Escape (Success)
-If the quarry retains at least one Hit (`8+`) after the pursuers' contest dice have eliminated results, the quarry successfully shakes their pursuers:
+If the quarry retains at least one Hit (`8+`) after the pursuers' contest dice have eliminated results, the quarry successfully shakes their pursuers on the tactical grid:
 
-1. **Breaking Contact:** The quarry slips through perimeter alleys, ducks beneath sensor sweeps, or out-accelerates pursuers past the visual horizon. Sensor locks and visual tracking are completely broken.
-2. **Zooming Out to Place-to-Place:** The encounter immediately shifts out of Moment-to-Moment combat into **Place-to-Place exploration**. The quarry arrives at a safe secondary location or their vehicle extraction point.
-3. **Resuming Broader Pacing:** Both the quarry and the pursuers retain whatever Place-to-Place AP they have remaining for the broader round.
+1. **Breaking Immediate Contact:** The quarry slips through perimeter alleys, ducks beneath sensor sweeps, or out-accelerates pursuers past the visual horizon. Immediate line of sight and weapon target locks are broken.
+2. **Zooming Out to Place-to-Place:** The encounter immediately shifts out of Moment-to-Moment combat into **Place-to-Place exploration** (~15–30 minute rounds).
+3. **Transition to the Macro Manhunt:** Breaking tactical contact is not strategic disappearance. The getaway transitions into a **Place-to-Place Manhunt** governed by **Hideout** (the Blocker Effect) and **Heat** (the ticking countdown clock), detailed in the section below.
+4. **Resuming Broader Pacing:** Both the quarry and the pursuers retain whatever Place-to-Place AP they have remaining for the broader round.
 
 ### Violent Interception (Failure)
 If the pursuers eliminate all `8+` dice from the quarry's roll—or if the quarry failed to roll a single Hit on their initial test—the escape attempt fails catastrophically. The pursuers close the gap, cut off the retreat, and corner the fleeing party:
@@ -267,6 +268,130 @@ When an entire Corsair cell flees on foot, they sink or swim together. Corsair's
 
 ---
 
+## Macro Pursuits: The Place-to-Place Manhunt (Hideout & Heat)
+
+In the hard-vacuum realism of the Sphere, breaking immediate visual contact or ducking into an asteroid's radar shadow does not mean a fugitive has vanished from the cosmos. Sensor telemetry persists, surveillance archives record transit corridors, transponder pings echo across orbital beacons, and station marshals seal sector bulkheads. A successful getaway in Moment-to-Moment tactical combat represents **tactical disengagement**, not **strategic disappearance**. 
+
+Once an escapee breaks tactical contact, the pursuit transitions into a **Place-to-Place Manhunt**. Operating in Place-to-Place pacing (where each round spans **15 to 30 minutes** and each Action Point represents roughly **5 to 10 minutes** of macro legwork), the chase shifts from raw athletic reflexes to operational tradecraft, surveillance, and forensic legwork.
+
+Every Place-to-Place manhunt is governed symmetrically by two unified mechanics: **Hideout** (the Blocker Effect) and **Heat** (the ticking countdown clock).
+
+```
++---------------------------------------------------------------------------------------------------------+
+|                                      THE PLACE-TO-PLACE MANHUNT ENGINE                                  |
++------------------------------------+--------------------------------------------------------------------+
+| 1. HIDEOUT (The Blocker Effect)    | 2. HEAT (The Countdown Track)                                      |
+|    "How deep is the cover?"        |    "How long before the trail goes cold?"                          |
++------------------------------------+--------------------------------------------------------------------+
+| Symmetrical Blocker pool (0–3+).   | Symmetrical Countdown Track (1–3 Rounds).                          |
+| Hits Required = Hideout + 1.       | Decreases by 1 at the End of each Place-to-Place Round.             |
+| Pursuers spend AP to strip it;     | Quarry spends AP to burn it (accelerate extraction);               |
+| Quarry spends AP to fortify it.    | Pursuers spend AP to freeze it (deploy cordons & lock down gates). |
++------------------------------------+--------------------------------------------------------------------+
+```
+
+---
+
+### 1. The Hideout Engine (The Blocker)
+
+Mechanically, **Hideout** functions as a persistent **Blocker Effect** anchored to the fleeing quarry's physical sanctuary, digital anonymity, and social camouflage. Exactly like an NPC's **Determination** in [Social Negotiations](Social_Interactions.md) or **Lockdown** in [Investigation](Investigation_and_Exploration.md), pursuers cannot corner a suspect with a casual glance:
+
+$$\text{Hits Required to Locate \& Corner} = \text{Hideout Rating} + 1$$
+
+Pursuers must strip away every point of Hideout on a 1-for-1 basis using Hits (`8+`) rolled on investigative actions. Once the Hideout pool is reduced to zero, the very next Hit scored—whether rolled as an excess Hit on that same test or achieved on a subsequent action—cracks the quarry's sanctuary and pinpoints their location!
+
+#### Seeding Hideout from a Tactical Escape
+When a manhunt begins immediately following a successful tactical getaway, the quarry's initial **Hideout Rating** is directly seeded by the **net surviving Hits (`8+`)** from their escape roll:
+
+* **Hideout 1 (Shallow Cover / Hot Trail):** The quarry retained **1 surviving Hit**. A frantic, messy escape under fire. The quarry ducked around a corner, took an obvious elevator, or left a faint thermal plume. Pursuers know the rough direction of flight or caught a partial transponder chirp. Requires **2 total Hits** to crack.
+* **Hideout 2 (Firm Cover / Standard Safehouse):** The quarry retained **2 surviving Hits**. A disciplined, textbook breakaway. The quarry melted into dense marketplace crowds, slipped through pressurized maintenance shafts, or cut their vehicle lights down a canyon run. Pursuers know the general sector but have lost direct telemetry. Requires **3 total Hits** to crack.
+* **Hideout 3+ (Deep Bunker / Ghosted):** The quarry retained **3 or more surviving Hits**. An extraordinary, flawless vanishing act. The quarry scrubbed their transponder mid-flight, deployed thermal baffles into an asteroid crevasse, or reached a fortified, pre-staged bolt-hole. Requires **4 or more total Hits** to crack.
+
+#### Setting Hideout In Situ (Cold Manhunts)
+When an investigation or manhunt begins without an immediate preceding chase (such as tracking down a suspect who skipped bail yesterday or hunting an infiltrator through a sprawling corporate facility), the Game Master calibrates Hideout based on the quarry's tradecraft and resources:
+
+* **Hideout 0 (Amateur / In Plain Sight):** A panicked corporate clerk or drunk mercenary stumbling through open plazas. Requires a standard **Simple Test (1 Hit)** to run down.
+* **Hideout 1 (Improvising Runner):** A low-level smuggler diving into back alleys and paying off dockworkers on the fly. Requires **2 total Hits** to locate.
+* **Hideout 2 (Professional Operative — Standard Baseline):** A trained syndicate courier, bounty hunter, or covert agent with pre-planned fallback routes, burner communicators, and local sympathizers. Requires **3 total Hits** to locate.
+* **Hideout 3+ (Ghost / Master Infiltrator):** A deep-cover intelligence officer, Shadow specialist, or corporate phantom utilizing biometric scramblers, encrypted dummy servers, and air-gapped safehouses. Requires **4+ total Hits** to crack.
+
+---
+
+### 2. The Heat Engine (The Countdown Clock)
+
+While Hideout measures the depth of the quarry's concealment, **Heat** measures the operational lifespan, resource commitment, and urgency of the pursuit. In accordance with *Corsair's* [Time Management rules](Time_Management.md), encounter countdown tracks made up on the fly are calibrated to **1, 2, or at most 3 rounds** in Place-to-Place pacing (~15–30 minutes per round):
+
+* **Heat 1 (Immediate Flash Window / 1 Round, ~15–20 minutes):** Local gang enforcers with no regional reach, private security guards unwilling to pursue off corporate property, or an escapee whose extraction shuttle is idling on the launch pad and launches at the end of the round.
+* **Heat 2 (The Tactical Standard / 2 Rounds, ~30–45 minutes):** Standard station precinct marshals, corporate strike teams, or syndicate hit squads deploying coordinated sweeps, camera audits, and sector checkpoints. This is the baseline duration for most dramatic manhunts.
+* **Heat 3 (Extended Dragnet / 3 Rounds, ~60–90 minutes):** A planetary authority dragnet, naval sector interdiction, or station-wide lockdown complete with aerial scanner drones, sealed transit lines, and armed perimeter cordons.
+
+#### The Universal End-of-Round Pulse
+At the **End of each Place-to-Place Round**, time moves forward, and **Heat decreases by 1 segment** (`[2]` &rarr; `[1]` &rarr; `[0]`).
+
+#### When Heat Reaches Zero
+If Heat reaches `[0]` before pursuers eliminate all Hideout points and land the final locating Hit:
+* **When PCs are the Quarry:** **The Heat Dies Down!** The perimeter cordon collapses, security shifts rotate out, or the crew boards their extraction craft and clears the sector. The quarry achieves a clean, permanent macro escape.
+* **When PCs are the Pursuers:** **The Trail Goes Cold!** The target boards a scheduled commercial transport, burns sub-light out of station sensor range, or melts into the millions of nameless laborers in the deep sprawl. The immediate opportunity to corner the suspect is lost.
+
+---
+
+### 3. Place-to-Place Operational Actions (3 AP Pool)
+
+In Place-to-Place pacing, every operative and pursuer manages their standard pool of **3 Action Points** per round (~5–10 minutes of concentrated activity per AP). This creates a dynamic, high-stakes duel between the hunters and the hunted.
+
+```
++---------------------------------------------------------------------------------------------------------+
+|                                    PLACE-TO-PLACE MANHUNT ACTIONS (3 AP)                                |
++-------------------+-----------------------------------+-------------------------------------------------+
+| Actor             | Operational Action (1 PtP AP)     | Mechanical Resolution & Impact                  |
++-------------------+-----------------------------------+-------------------------------------------------+
+| PURSUERS          | Forensic Audit & Camera Slicing   | Simple Test (Knowledge + Instinct or Hacking):  |
+| (Hunting)         | (Reviewing CCTV, biometric logs)  | Each Hit strips 1 point of Hideout.             |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Street Canvassing & Interrogation | Simple Test (Presence + Instinct or Presence):  |
+|                   | (Shaking down dockers, informants)| Each Hit strips 1 point of Hideout.             |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Drone & Sensor Sweeps             | Simple Test (Knowledge + Finesse or Instinct):  |
+|                   | (Acoustic hounds, infrared scans) | Each Hit strips 1 point of Hideout.             |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Deploy Cordon / Lockdown Gates    | Simple Test (Presence + Knowledge or Hacking):  |
+|                   | (Sealing transit lines, bulkheads)| 1 Hit FREEZES Heat (does not drop this round)!  |
++-------------------+-----------------------------------+-------------------------------------------------+
+| QUARRY            | Electronic Spoofing & Scrubbing   | Simple Test (Knowledge + Finesse or Hacking):   |
+| (Fleeing)         | (Purging feeds, false beacons)    | Each Hit adds +1 to Hideout.                    |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Social Camouflage & Disguises     | Simple Test (Presence + Finesse or Knowledge):  |
+|                   | (Forged passes, worker overalls)  | Each Hit adds +1 to Hideout.                    |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Convoluted Routes & False Leads   | Simple Test (Instinct + Agility or Finesse):    |
+|                   | (Steam conduits, jumping lines)   | Each Hit adds +1 to Hideout.                    |
+|                   +-----------------------------------+-------------------------------------------------+
+|                   | Accelerate Extraction             | Simple Test (Presence + Presence or Knowledge): |
+|                   | (Bribing pilot for emergency burn)| 1 Hit BURNS 1 Heat immediately off the clock!   |
++-------------------+-----------------------------------+-------------------------------------------------+
+```
+
+#### Modulating the Clock: Freezing vs. Burning Heat
+While Heat ticks down naturally at the End of the Round, disciplined actions allow both sides to manipulate the timeline:
+* **Burning Heat (Quarry Fast-Track):** Rather than hunkering down to build Hideout, a fleeing quarry can commit an AP to rush their departure—bribing a freighter pilot for an immediate un-docking burn, overriding an automated monorail express line, or firing emergency thrusters. Scoring a Hit on this test **immediately burns 1 point of Heat off the clock**, drastically tightening the window before pursuers can sweep their sector!
+* **Freezing Heat (Pursuer Cordon):** Pursuers can spend an AP coordinating with station authorities, broadcasting Flotilla warrants, or hacking transit relays to seal sector blast doors and ground civilian transports. Scoring a Hit on this test **freezes the Heat Clock**, preventing it from dropping at the End of that Round and granting the hunters vital extra time to comb the district.
+
+---
+
+### 4. Resolving Interception: The Safehouse Raid
+
+If the pursuing party successfully clears all points of the quarry's Hideout and lands the final locating Hit before Heat reaches zero, the quarry is cornered:
+
+1. **Zooming In to Moment-to-Moment:** Play immediately drops back into **Moment-to-Moment tactical combat** at the quarry's physical hiding place (e.g., an industrial chop-shop, a back-alley safehouse, a cargo freighter's airlock waiting room, or a maintenance conduit).
+2. **Universal AP Refill:** All participants refill their tactical Action Points to their maximum (**3 AP**).
+3. **Pursuers Take Immediate Initiative:** The pursuers hold the operational momentum. **The pursuers act first**, taking the opening turn of the new tactical engagement.
+4. **Pursuers Dictate Tactical Geometry:** Having run the quarry to ground through disciplined investigation, the pursuers control the battlefield layout:
+   * Breaching the safehouse from multiple entry doors or cutting torches through ceiling vents.
+   * Establishing a fortified containment perimeter outside the only exit vector.
+   * Claiming Heavy Cover while leaving the surprised quarry trapped in the room.
+
+---
+
 ## Complete Narrative Walkthrough: The Zenith Warrant
 
 To see how all the pieces of the pursuit engine fit together in live play, follow this complete step-by-step example featuring **Silas**, **Tessa**, and **Jax**—a commissioned Corsair cell executing a high-stakes Flotilla warrant across Port Zenith.
@@ -310,6 +435,7 @@ Before they can slap magnetic binders on Kaelen, the syndicate's heavy mercenary
 > * With one total Hit scored across both pursuers, the mercenaries eliminate the highest die from Silas's pool (the `9`).
 > * Silas still retains an un-eliminated `7`, while Tessa retains `[8, 8]` and Jax retains `[8, 10]`.
 > * Jax hauls Silas through the transit security gate as Tessa triggers the emergency override, slamming the armored turnstiles shut behind them and severing the mercenaries' visual pursuit! **Clean Escape on Foot!**
+> * **Transitioning to Place-to-Place (Hideout & Heat):** With four net Hits surviving across the cell (`8, 8, 8, 10`), the Corsairs establish a formidable **Hideout 3** buffer against the street mercenaries. Furthermore, because these are localized warehouse thugs lacking station-wide authority, the GM assigns the pursuit **Heat 1 (~20 minutes)**. The Corsairs spend their next Place-to-Place AP riding the high-speed transit line down to the lower freight yard, cleanly outlasting the Heat before the syndicate can organize a search!
 
 ---
 
@@ -378,3 +504,7 @@ As the *Kestrel* clears station space into low orbit, the syndicate's offshore p
 * **Distance Modifiers:** CQC (cannot escape); Short Range (quarry 2 Downgrades / pursuers 2 Upgrades); Medium Range (no mod); Long Range (quarry 2 Upgrades / pursuers 2 Downgrades); Extreme Range (automatic escape).
 * **Failure Penalty:** Scene drops to Moment-to-Moment combat with full AP refills. Pursuers take **immediate initiative** and **place themselves anywhere** relative to the quarry (in starships, pursuers enter Dogfight Mode at Advantage Position 8–10).
 * **Modes of Pursuit:** Foot uses **Agility + Instinct** (or gear **Mobility**); Vehicles use **Acceleration** (open) or **Maneuvering + Instinct** (crowded) and cannot be chased on foot; Starships use **Acceleration** or **Maneuvering + Instinct** with G-Strain inflicting 2 LW per Hit scored on orbital burns.
+* **The Place-to-Place Manhunt:** Clean escapes transition to a macro manhunt governed by **Hideout** (the Blocker) and **Heat** (the ticking clock), where characters spend **3 Place-to-Place AP** per round.
+* **Hideout (The Blocker):** $\text{Hits Required to Intercept} = \text{Hideout Rating} + 1$. Seeded dynamically by surviving escape hits (1–3+) or set by the GM (0–3+). Stripped by pursuer search tests (1 Hit = -1 Hideout); fortified by quarry tradecraft tests (1 Hit = +1 Hideout).
+* **Heat (The Clock):** A countdown track of **1 to 3 Place-to-Place rounds** (2 rounds is standard). Decreases by 1 at the End of each Round. Reaching 0 means Heat dies down / the trail goes cold (clean macro escape). The quarry can spend AP to burn Heat; pursuers can spend AP to freeze Heat.
+* **Safehouse Raid (Interception):** If pursuers clear all Hideout points and land the final locating Hit before Heat reaches 0, the scene zooms into Moment-to-Moment combat (Raid/Ambush) with pursuers acting first and choosing battlefield layout.

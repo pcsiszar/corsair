@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsair TTRPG — Flashy Procedural Asset Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-page: #f8fafc;
+            --text-dark: #0f172a;
+            --text-muted: #475569;
+            --amber: #f59e0b;
+            --cyan: #0284c7;
+            --crimson: #dc2626;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: #0d1117;
+            color: #f1f5f9;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+
+        .header p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-top: 8px;
+        }
+
+        /* CARD DEMO SECTION */
+        .showcase-block {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .showcase-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #0f172a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+
+        .showcase-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            background: #0f172a;
+            color: #38bdf8;
+        }
+
+        /* BANNER CONTAINER */
+        .banner-wrap {
+            position: relative;
+            width: 100%;
+            height: 240px;
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('./images/banner_cosmic_nebula_hd.png') center/cover no-repeat;
+        }
+
+        .banner-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 0 40px;
+        }
+
+        .banner-content h2 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: #ffffff;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .banner-content p {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1rem;
+            color: #38bdf8;
+            letter-spacing: 2px;
+            margin-top: 4px;
+        }
+
+        /* TEXTBOX CONTAINERS WITH OVERLAID TEXT */
+        .panel-wrap {
+            position: relative;
+            width: 100%;
+            min-height: 440px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px 80px 40px 80px;
+        }
+
+        .panel-solar {
+            background-image: url('./images/panel_solar_flame.png');
+            padding: 90px 140px 40px 80px; /* offset for burning top/right */
+        }
+
+        .panel-glitch {
+            background-image: url('./images/panel_emp_glitch.png');
+            padding: 60px 140px 60px 70px; /* offset for glitch on right */
+        }
+
+        .panel-splatter {
+            background-image: url('./images/panel_kinetic_splatter.png');
+            padding: 60px 70px 60px 100px; /* offset for splatter on top-left */
+        }
+
+        .panel-text {
+            color: #e2e8f0;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .panel-heading {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .solar-heading { color: #f59e0b; }
+        .glitch-heading { color: #00f0ff; }
+        .splatter-heading { color: #ef4444; }
+
+        .meta-stamp {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+
+        .solar-stamp { color: #fbbf24; }
+        .glitch-stamp { color: #38bdf8; }
+        .splatter-stamp { color: #f87171; }
+
+        .grid-two {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 900px) {
+            .grid-two { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="gallery-container">
+    <div class="header">
+        <h1>Procedural Sci-Fi Rulebook Assets</h1>
+        <p>Pure Python / NumPy / Pillow Math • Rendered as High-Resolution RGBA Transparent Text Containers</p>
+    </div>
+
+    <!-- 1. DEEP SPACE NEBULA BANNER -->
+    <div class="showcase-block">
+        <div class="showcase-title">
+            <span>1. Deep-Space Domain-Warped Cosmic Gas Banner</span>
+            <span class="showcase-tag">banner_cosmic_nebula_hd.png (1600x480)</span>
+        </div>
+        <div class="banner-wrap">
+            <div class="banner-content">
+                <h2>Chapter IV: Orbital Gunnery & Trajectory Control</h2>
+                <p>FLEET PROTOCOL 09-CORSAIR // SECTOR 12 FLOTILLA BOUNDARY</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. SOLAR FLAME / RE-ENTRY PLASMA PANEL -->
+    <div class="showcase-block">
+        <div class="showcase-title">
+            <span>2. Solar Flare & Atmospheric Re-Entry Plume Panel</span>
+            <span class="showcase-tag">panel_solar_flame.png (1400x800 RGBA)</span>
+        </div>
+        <div class="panel-wrap panel-solar">
+            <span class="meta-stamp solar-stamp">[ HAZARD ADVISORY // THERMAL EXCEEDANCE PROTOCOL ]</span>
+            <h3 class="panel-heading solar-heading">Atmospheric Friction & Ablative Failure</h3>
+            <p class="panel-text">
+                When a starship executes an emergency insertion without balancing thrust vectors, atmospheric friction strips the leading ceramic tiles within seconds. Every round the vessel remains above Mach 14 within the mesosphere, the hull suffers <strong>2 Kinetic Stress</strong> per turn. If thermal shielding drops to zero, the heat sink ruptures, triggering an immediate catastrophic depressurization test for the engineering crew.
+            </p>
+        </div>
+    </div>
+
+    <!-- 3. CYBER EMP GLITCH SLATE -->
+    <div class="showcase-block">
+        <div class="showcase-title">
+            <span>3. Cyber EMP Glitch & Chromatic Aberration Slate</span>
+            <span class="showcase-tag">panel_emp_glitch.png (1400x800 RGBA)</span>
+        </div>
+        <div class="panel-wrap panel-glitch">
+            <span class="meta-stamp glitch-stamp">[ EW SIGNAL DEGRADATION // TELEMETRY CORRUPTED ]</span>
+            <h3 class="panel-heading glitch-heading">Electronic Warfare: Ghost Intercepts</h3>
+            <p class="panel-text">
+                A localized directional EMP discharge shifts the sensor suite's phase alignment by 180 degrees. Targeted vessels suffer a <strong>Double Downgrade</strong> on all Sensor and Targeting Complex Tests until an operative with the Hacker or Engineer archetype spends <strong>2 AP</strong> to purge the corrupted avionics cache. All holographic target indicators drift 12 pixels off true vector bearing.
+            </p>
+        </div>
+    </div>
+
+    <!-- 4. KINETIC BALLISTIC SPLATTER BOX -->
+    <div class="showcase-block">
+        <div class="showcase-title">
+            <span>4. Kinetic Ballistic Splatter & Scorched Impact Box</span>
+            <span class="showcase-tag">panel_kinetic_splatter.png (1400x800 RGBA)</span>
+        </div>
+        <div class="panel-wrap panel-splatter">
+            <span class="meta-stamp splatter-stamp">[ COMBAT TRAUMA // BREACH CRITICAL WOUND TABLE ]</span>
+            <h3 class="panel-heading splatter-heading">Ballistic Rupture & Depressurization</h3>
+            <p class="panel-text">
+                Point-blank anti-materiel slug impacts do not create clean perforations—the kinetic shockwave violently disintegrates composite weave and tears vascular tissue. If an operative suffers damage exceeding their remaining Armor Rating, roll on the Severe Trauma Table: on an unmodified roll of 1–2, the pressurized suit seals fail, venting atmosphere into the vacuum in 3 combat rounds.
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
