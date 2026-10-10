@@ -185,3 +185,33 @@ Every class rulebook file must maintain strict parity with its corresponding pri
 * **Markdown Document Path:** `rulebook/classes/[ClassName].md`
 * **Printable Sheet Path:** `rulebook/classes/[ClassName]_Sheet.html`
 * **Single-Page A4 Guarantee:** Every class sheet must strictly adhere to [`corsair-printable-sheets`](file:///c:/Users/csisz/IdeaProjects/corsair/.agents/skills/corsair-printable-sheets/SKILL.md), utilizing Barlow typography, tokenized CSS variables, print media queries, and dense multi-column card layouts guaranteed to fit entirely on a single printed A4 page without spilling onto a second page.
+
+### 11.1. Mechanical Vector Icons & Space-Saving Invariant
+To maximize visual scannability, conserve tight vertical space on A4 sheets, and unify table presentation across all classes, every class sheet should actively incorporate the standardized SVG mechanical icons from `assets/images/icons/mechanical/`:
+
+| Glyph Asset | File Path | Game Mechanic Represented |
+| :--- | :--- | :--- |
+| **Action Point** | `../../assets/images/icons/mechanical/ap.svg` | Action Point expenditure or grant (`0 [AP]`, `1 [AP]`, `+1 [AP]`) |
+| **Hit** | `../../assets/images/icons/mechanical/hit.svg` | Success test Hit (`8+` die result) |
+| **Crit** | `../../assets/images/icons/mechanical/crit.svg` | Critical Hit effect (+2 SP or class crit bonuses) |
+| **Upgrade** | `../../assets/images/icons/mechanical/upgrade.svg` | Step die up (`d10 → d12`) or bonus upgrade dice |
+| **Downgrade** | `../../assets/images/icons/mechanical/downgrade.svg` | Step die down (`d10 → d8`) or penalty downgrade dice |
+| **Blocker** | `../../assets/images/icons/mechanical/blocker.svg` | Interdict / Lockout die effect |
+| **Gambit** | `../../assets/images/icons/mechanical/gambit.svg` | Pushing luck / risk-taking (d10) |
+| **Chain** | `../../assets/images/icons/mechanical/chain.svg` | Arc / chain to additional targets |
+| **Push** | `../../assets/images/icons/mechanical/push.svg` | Displacement / forced movement |
+| **Contest** | `../../assets/images/icons/mechanical/contest.svg` | Active defense / opposition test |
+
+#### Space-Saving Invariant (Omit Redundant Effect Names)
+* **Strict Space-Saving Rule:** Whenever a mechanical vector icon is placed, **do NOT write the name of the effect after it**. The icon directly substitutes for the text word to save critical horizontal and vertical space on single-page A4 sheets:
+  * **Correct:** `<span class="c-icon" title="Crit"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span> grants 3 SP instead of 2.`
+  * **Incorrect:** `<span class="c-icon"><img .../></span> Crit Effects grant 3 SP instead of 2.`
+  * **Correct:** `Apply 1 <span class="c-icon" title="Downgrade"><img .../></span>/Chg to physical tests.`
+  * **Incorrect:** `Apply 1 <span class="c-icon"><img .../></span> Downgrade/Chg to physical tests.`
+  * **Correct:** `gain <span class="c-icon" title="Upgrade"><img .../></span> = Chg to <span class="c-icon" title="Contest"><img .../></span>.`
+  * **Incorrect:** `gain <span class="c-icon"><img .../></span> Upgrades = Chg to <span class="c-icon"><img .../></span> Contest.`
+  * **Correct:** `0 <span class="c-icon" title="AP"><img .../></span> · +1 Chg`
+  * **Incorrect:** `0 <span class="c-icon"><img .../></span> AP · +1 Chg`
+* **Digital Tooltips:** Always include a `title` attribute on the wrapping span (e.g., `<span class="c-icon" title="Crit">...</span>`) so that mouse hover in PDF/browser viewers reveals the effect name without taking up physical layout space.
+* **Top-Left Masthead Emblem:** Always replace generic SVG icons in `.mh-logo` with the official Corsair Five-Pointed Star emblem badge (`../../assets/images/icons/factions/insignia_corsairs.png`).
+

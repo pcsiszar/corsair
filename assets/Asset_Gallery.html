@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsair TTRPG — Official Asset Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-canvas: #070a10;
+            --bg-page: #ffffff;
+            --bg-card-dark: #0d121c;
+            --text-dark: #0f172a;
+            --text-body: #334155;
+            --text-muted: #64748b;
+            --text-light: #f1f5f9;
+            --amber-primary: #f59e0b;
+            --amber-dark: #d97706;
+            --cyan-primary: #0284c7;
+            --cyan-bright: #38bdf8;
+            --crimson-primary: #dc2626;
+            --green-primary: #16a34a;
+            --slate-border: #1e293b;
+            --slate-border-light: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            background: var(--bg-canvas);
+            color: var(--text-light);
+            padding: 40px 20px 80px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.08) 0%, transparent 60%),
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 36px 36px, 36px 36px;
+        }
+
+        .gallery-container {
+            max-width: 1240px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        /* =====================================================================
+           HERO HEADER & NEW HEADING BANNER
+           ===================================================================== */
+        .hero-banner-frame {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .heading-banner-img {
+            max-width: 1000px;
+            width: 100%;
+            height: auto;
+            filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.7));
+        }
+
+        .hero-title-group h1 {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .hero-title-group p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+
+        /* SECTION CARDS */
+        .section-card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 34px;
+            box-shadow: 0 16px 40px rgba(0,0,0,0.6);
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .section-title-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--slate-border-light);
+            padding-bottom: 12px;
+        }
+
+        .section-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-dark);
+            font-weight: 800;
+        }
+
+        .section-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            padding: 4px 12px;
+            border-radius: 4px;
+            background: #0f172a;
+            color: var(--cyan-bright);
+        }
+
+        /* =====================================================================
+           1. MECHANICAL IN-LINE ICONS
+           ===================================================================== */
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+            gap: 16px;
+        }
+
+        .icon-card {
+            background: #f8fafc;
+            border: 1px solid var(--slate-border-light);
+            border-radius: 6px;
+            padding: 16px 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            text-align: center;
+            transition: transform 0.15s, border-color 0.15s;
+        }
+
+        .icon-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--cyan-primary);
+        }
+
+        .icon-preview-lg {
+            width: 38px;
+            height: 38px;
+        }
+
+        .icon-label {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .icon-sub {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* INLINE ICON USAGE IN BODY TEXT */
+        .c-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            width: 1.35em;
+            height: 1.35em;
+            margin: -0.2em 0.15em 0 0.15em;
+        }
+
+        .c-icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .rules-demo-box {
+            background: #f1f5f9;
+            border-left: 4px solid var(--cyan-primary);
+            padding: 22px 26px;
+            border-radius: 4px;
+            color: #1e293b;
+            font-size: 1.08rem;
+            line-height: 1.75;
+        }
+
+        .rules-demo-box strong {
+            color: #090d16;
+            font-weight: 700;
+        }
+
+        /* =====================================================================
+           2. OFFICIAL FACTION INSIGNIAS (CORSAIRS & FLOTILLA FEATURED)
+           ===================================================================== */
+        .faction-duo-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+        }
+
+        @media (max-width: 860px) {
+            .faction-duo-grid { grid-template-columns: 1fr; }
+        }
+
+        .faction-hero-card {
+            background: var(--bg-card-dark);
+            border-radius: 8px;
+            padding: 30px 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .faction-hero-card.card-flotilla {
+            border: 1.5px solid #0284c7;
+        }
+
+        .faction-hero-card.card-flotilla::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #38bdf8, #0284c7);
+        }
+
+        .faction-hero-card.card-corsair {
+            border: 1.5px solid #d97706;
+        }
+
+        .faction-hero-card.card-corsair::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #fbbf24, #d97706);
+        }
+
+        .faction-emblem-wrap {
+            width: 220px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .faction-emblem-img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 8px 20px rgba(0,0,0,0.6));
+            transition: transform 0.2s ease;
+        }
+
+        .faction-hero-card:hover .faction-emblem-img {
+            transform: scale(1.04);
+        }
+
+        .faction-hero-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            line-height: 1.1;
+        }
+
+        .faction-hero-subtitle {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        .faction-hero-body {
+            font-size: 0.95rem;
+            color: #cbd5e1;
+            line-height: 1.55;
+            text-align: left;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding-top: 16px;
+            width: 100%;
+        }
+
+        .faction-spec-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            width: 100%;
+            margin-top: 4px;
+        }
+
+        .f-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.06);
+            color: #94a3b8;
+        }
+
+
+
+        /* =====================================================================
+           3. CHAPTER & HEADING BANNERS
+           ===================================================================== */
+        .banner-stage {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        /* NEW HEADING BANNER SHOWCASE CONTAINER */
+        .command-banner-showcase {
+            background: #090d14;
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .command-banner-img {
+            max-width: 960px;
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            filter: drop-shadow(0 6px 18px rgba(0,0,0,0.8));
+        }
+
+        /* PARALLELOGRAM BANNERS (~9.2 deg slant) */
+        .p-banner-wrap {
+            position: relative;
+            width: 100%;
+            min-height: 140px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            padding: 20px 60px 20px 70px;
+        }
+
+        .p-banner-flotilla {
+            background-image: url('./images/banners/banner_parallelogram_flotilla.svg');
+        }
+
+        .p-banner-tactical {
+            background-image: url('./images/banners/banner_parallelogram_tactical.svg');
+        }
+
+        .p-banner-hazard {
+            background-image: url('./images/banners/banner_parallelogram_hazard.svg');
+        }
+
+        .p-banner-content {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .p-banner-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #ffffff;
+            line-height: 1.1;
+        }
+
+        .p-banner-sub {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.95rem;
+            letter-spacing: 1.5px;
+        }
+
+        /* =====================================================================
+           4. MINIMALIST TEXTBOX CONTAINERS
+           ===================================================================== */
+        .minimal-box-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 900px) {
+            .minimal-box-grid { grid-template-columns: 1fr; }
+        }
+
+        .box-slate-minimal {
+            background: #0c111a;
+            border: 1.5px solid #1e2c40;
+            border-radius: 4px;
+            position: relative;
+            padding: 24px 28px;
+            color: #cbd5e1;
+            box-shadow: inset 0 0 20px rgba(2, 132, 199, 0.04);
+        }
+
+        .box-slate-minimal::before {
+            content: "";
+            position: absolute;
+            top: 6px;
+            right: 8px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #f59e0b;
+            box-shadow: 0 0 6px #f59e0b;
+        }
+
+        .box-hazard-minimal {
+            background: #11141a;
+            border: 1.5px solid #334155;
+            position: relative;
+            padding: 24px 28px;
+            color: #cbd5e1;
+            clip-path: polygon(14px 0%, 100% 0%, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0% 100%, 0% 14px);
+        }
+
+        .box-hazard-minimal::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 48px;
+            height: 6px;
+            background: repeating-linear-gradient(
+                -45deg,
+                #facc15,
+                #facc15 6px,
+                #090a0f 6px,
+                #090a0f 12px
+            );
+        }
+
+        .box-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 8px;
+            margin-bottom: 12px;
+        }
+
+        .box-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .box-meta {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.75rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="gallery-container">
+
+    <!-- HERO HEADER WITH OFFICIALLY GENERATED HEADING BANNER -->
+    <header class="hero-banner-frame">
+        <img src="./images/banners/banner_flotilla_corsair_wings.png" alt="Corsair Fleet Command Heading Banner" class="heading-banner-img">
+        <div class="hero-title-group">
+            <h1>CORSAIR TTRPG // ASSET GALLERY</h1>
+            <p>Unified Hard Sci-Fi Graphic Library: Official Faction Insignias, In-Line Rulebook Glyphs, Tilted Parallelogram Banners & Tactical Text Containers</p>
+        </div>
+    </header>
+
+    <!-- 1. OFFICIAL FACTION INSIGNIAS (CORSAIRS & FLOTILLA) -->
+    <section class="section-card">
+        <div class="section-title-bar">
+            <span class="section-title">1. Official Faction Insignias (Post-Grill-Me AI Master Renders)</span>
+            <span class="section-tag">assets/images/icons/factions/insignia_*.png</span>
+        </div>
+
+        <p style="color: #475569; font-size: 1rem;">
+            Officially approved faction insignias, post-processed with pure alpha keying and defringing into transparent 32-bit RGBA for chapter heads, dossier stamps, and character sheets:
+        </p>
+
+        <div class="faction-duo-grid">
+            <!-- THE FLOTILLA -->
+            <article class="faction-hero-card card-flotilla">
+                <div class="faction-emblem-wrap">
+                    <img src="./images/icons/factions/insignia_flotilla.png" alt="The Flotilla Insignia" class="faction-emblem-img">
+                </div>
+                <div>
+                    <h2 class="faction-hero-title" style="color: #38bdf8;">The Flotilla</h2>
+                    <span class="faction-hero-subtitle" style="color: #7dd3fc;">PEACEKEEPING FLEET & VOID AUTHORITY // SKYLINE ACCORDS</span>
+                </div>
+                <div class="faction-hero-body">
+                    Hexagonal sovereign naval crest featuring a vertically-split gold and cobalt fleet arrow (symbolizing the historic alliance between Dragons and Newcomers), flanked by dual aerospace raked wings. Outer hexagon border displays the seals of the 6 functional Wings: <em>Administrative</em> (scales), <em>Transit</em> (arrows), <em>Patrol</em> (shield), <em>Scout</em> (compass), <em>Bastion</em> (rook), and <em>Sword</em> (blade).
+                </div>
+                <div class="faction-spec-tags">
+                    <span class="f-tag">RGB: #0284C7 / #38BDF8</span>
+                    <span class="f-tag">966x833 PX RGBA</span>
+                    <span class="f-tag">6-WING MATRIX SEAL</span>
+                </div>
+            </article>
+
+            <!-- THE CORSAIRS -->
+            <article class="faction-hero-card card-corsair">
+                <div class="faction-emblem-wrap">
+                    <img src="./images/icons/factions/insignia_corsairs.png" alt="The Corsairs Insignia" class="faction-emblem-img">
+                </div>
+                <div>
+                    <h2 class="faction-hero-title" style="color: #f59e0b;">The Corsairs</h2>
+                    <span class="faction-hero-subtitle" style="color: #fbbf24;">CHARTERED PRIVATEER CELLS // 518 AA NEW WAVE</span>
+                </div>
+                <div class="faction-hero-body">
+                    Modern high-tech 5-pointed star badge with vertically split solar gold and cobalt blue facets, framed by a heavy circular tactical ring and flanking aerodynamic stabilizer wings. Stenciled bolt nodes and laser telemetry markings represent cross-jurisdictional mandates issued by the Oversight Committee to autonomous 3–5 operative privateer cells flying refitted gunboats across open void corridors.
+                </div>
+                <div class="faction-spec-tags">
+                    <span class="f-tag">RGB: #F59E0B / #0284C7</span>
+                    <span class="f-tag">967x836 PX RGBA</span>
+                    <span class="f-tag">SPLIT GOLD & COBALT STAR</span>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <!-- 2. MECHANICAL IN-LINE ICONS -->
+    <section class="section-card">
+        <div class="section-title-bar">
+            <span class="section-title">2. Mechanical In-Line Icons (SVGs)</span>
+            <span class="section-tag">assets/images/icons/mechanical/*.svg</span>
+        </div>
+        
+        <p style="color: #475569; font-size: 1rem;">
+            Lightweight, crisp vector glyphs calibrated for <code>1em</code> height directly embedded into rulebook prose. Features <strong>amber Hit reticle & 5-pointed Crit star</strong>, <strong>tactical green Upgrade</strong>, <strong>interdicted lockout Blocker</strong>, and <strong>Gambit</strong> d10 die:
+        </p>
+
+        <h3 style="font-family: 'Rajdhani', sans-serif; font-size: 1.25rem; font-weight: 700; color: #0f172a; text-transform: uppercase; margin: 18px 0 10px 0; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px;">
+            A. Tactical Resolution & Effects Icons
+        </h3>
+        <div class="icon-grid">
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/hit.svg" alt="Hit" class="icon-preview-lg">
+                <span class="icon-label" style="color: #d97706;">Hit</span>
+                <span class="icon-sub">Die roll 8+</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/upgrade.svg" alt="Upgrade" class="icon-preview-lg">
+                <span class="icon-label" style="color: #16a34a;">Upgrade</span>
+                <span class="icon-sub">d10 &rarr; d12</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/downgrade.svg" alt="Downgrade" class="icon-preview-lg">
+                <span class="icon-label" style="color: #dc2626;">Downgrade</span>
+                <span class="icon-sub">d10 &rarr; d8</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/ap.svg" alt="AP" class="icon-preview-lg">
+                <span class="icon-label" style="color: #0284c7;">AP</span>
+                <span class="icon-sub">Action Point</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/gambit.svg" alt="Gambit" class="icon-preview-lg">
+                <span class="icon-label" style="color: #d97706;">Gambit</span>
+                <span class="icon-sub">Pushing Luck (d10)</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/blocker.svg" alt="Blocker" class="icon-preview-lg">
+                <span class="icon-label" style="color: #dc2626;">Blocker</span>
+                <span class="icon-sub">Interdict / Lock</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/crit.svg" alt="Crit" class="icon-preview-lg">
+                <span class="icon-label" style="color: #d97706;">Crit</span>
+                <span class="icon-sub">+2 SP / Hit</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/chain.svg" alt="Chain" class="icon-preview-lg">
+                <span class="icon-label">Chain</span>
+                <span class="icon-sub">+1 Target</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/push.svg" alt="Push" class="icon-preview-lg">
+                <span class="icon-label">Push</span>
+                <span class="icon-sub">Displace 4m</span>
+            </div>
+            <div class="icon-card">
+                <img src="./images/icons/mechanical/contest.svg" alt="Contest" class="icon-preview-lg">
+                <span class="icon-label">Contest</span>
+                <span class="icon-sub">Oppose Action</span>
+            </div>
+        </div>
+
+        <h3 style="font-family: 'Rajdhani', sans-serif; font-size: 1.25rem; font-weight: 700; color: #0f172a; text-transform: uppercase; margin: 26px 0 10px 0; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px;">
+            B. Health & Condition Track Icons (Harm)
+        </h3>
+        <p style="color: #64748b; font-size: 0.92rem; margin-bottom: 14px;">
+            Standardized damage tracking glyphs in 45-degree diamond plates for Physical Wounds (crimson) and Mental Stress (violet counterpart):
+        </p>
+        <div class="icon-grid" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));">
+            <div class="icon-card" style="border-top: 3px solid #ef4444;">
+                <img src="./images/icons/mechanical/wound_light.svg" alt="Light Wound" class="icon-preview-lg">
+                <span class="icon-label" style="color: #dc2626;">Light Wound</span>
+                <span class="icon-sub">Single Slash (/)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #dc2626; background: #fff5f5;">
+                <img src="./images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound" class="icon-preview-lg">
+                <span class="icon-label" style="color: #991b1b;">Aggravated</span>
+                <span class="icon-sub">Double Cross (X)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #8b5cf6;">
+                <img src="./images/icons/mechanical/stress_light.svg" alt="Light Stress" class="icon-preview-lg">
+                <span class="icon-label" style="color: #7c3aed;">Light Stress</span>
+                <span class="icon-sub">Synaptic Slash (/)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #9333ea; background: #faf5ff;">
+                <img src="./images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress" class="icon-preview-lg">
+                <span class="icon-label" style="color: #581c87;">Aggravated</span>
+                <span class="icon-sub">Synaptic Cross (X)</span>
+            </div>
+        </div>
+
+        <h3 style="font-family: 'Rajdhani', sans-serif; font-size: 1.25rem; font-weight: 700; color: #0f172a; text-transform: uppercase; margin: 26px 0 10px 0; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px;">
+            C. Class-Specific Resource Icons
+        </h3>
+        <p style="color: #64748b; font-size: 0.92rem; margin-bottom: 14px;">
+            Custom kinetic, chemical, and energetic resource tokens corresponding to the 5 MANTLE Chassis engines:
+        </p>
+        <div class="icon-grid" style="grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));">
+            <div class="icon-card" style="border-top: 3px solid #f97316;">
+                <img src="./images/icons/mechanical/conduit_charge.svg" alt="Conduit Charge" class="icon-preview-lg">
+                <span class="icon-label" style="color: #ea580c;">Charge</span>
+                <span class="icon-sub">Flame/Frost/Light</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #10b981;">
+                <img src="./images/icons/mechanical/pilot_battery.svg" alt="Pilot Battery" class="icon-preview-lg">
+                <span class="icon-label" style="color: #10b981;">Battery</span>
+                <span class="icon-sub">Pilot (Max 10)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #f59e0b;">
+                <img src="./images/icons/mechanical/hazard_pressure.svg" alt="Hazard Pressure" class="icon-preview-lg">
+                <span class="icon-label" style="color: #d97706;">Pressure</span>
+                <span class="icon-sub">Hazard (0–3 Gauge)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #f97316;">
+                <img src="./images/icons/mechanical/vanguard_boost.svg" alt="Vanguard Boost" class="icon-preview-lg">
+                <span class="icon-label" style="color: #ea580c;">Boost</span>
+                <span class="icon-sub">Vanguard (d10 Die)</span>
+            </div>
+            <div class="icon-card" style="border-top: 3px solid #6366f1;">
+                <img src="./images/icons/mechanical/weaver_reserve.svg" alt="Weaver Reserve" class="icon-preview-lg">
+                <span class="icon-label" style="color: #4f46e5;">Reserve</span>
+                <span class="icon-sub">Pill Vial (Base 4L)</span>
+            </div>
+        </div>
+
+        <!-- LIVE INLINE TEXT DEMO -->
+        <div class="rules-demo-box">
+            <strong style="display: block; margin-bottom: 8px; color: #0f172a; font-size: 1.05rem;">
+                Live Rulebook Prose Demonstrations:
+            </strong>
+            <p style="margin-bottom: 8px; font-size: 0.95rem; line-height: 1.6;">
+                <strong>Combat & Harm Tracking:</strong> "When incoming ballistic kinetic impact exceeds your Physical Protection, mark 1 <span class="c-icon"><img src="./images/icons/mechanical/wound_light.svg" alt="Light Wound"></span> on your current Track. Overflow damage converts marked segments into <span class="c-icon"><img src="./images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound"></span>s. Psychological shock and cognitive panic inflict <span class="c-icon"><img src="./images/icons/mechanical/stress_light.svg" alt="Light Stress"></span>, while total psychic disruption inflicts <span class="c-icon"><img src="./images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress"></span>."
+            </p>
+            <p style="margin: 0; font-size: 0.95rem; line-height: 1.6;">
+                <strong>Class Engine Activation:</strong> "A Conduit saturates internal capacitor plates to accumulate 1 <span class="c-icon"><img src="./images/icons/mechanical/conduit_charge.svg" alt="Charge"></span> (max 3) per Amp maneuver. An Exodrone expends 1 <span class="c-icon"><img src="./images/icons/mechanical/pilot_battery.svg" alt="Battery"></span> (max 10) to initiate emergency defensive thrust. A Hazard operative pumps ChemPack valves to reach 1 <span class="c-icon"><img src="./images/icons/mechanical/hazard_pressure.svg" alt="Pressure"></span> (gauge 0–3), while a Vanguard executes a form swap to bank 1 <span class="c-icon"><img src="./images/icons/mechanical/vanguard_boost.svg" alt="Boost"></span> die. To fabricate a 1H ballistic shield, a Weaver commands their dorsal reservoir to expend 1 <span class="c-icon"><img src="./images/icons/mechanical/weaver_reserve.svg" alt="Reserve"></span>."
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. CHAPTER & HEADING BANNERS -->
+    <section class="section-card">
+        <div class="section-title-bar">
+            <span class="section-title">3. Chapter & Heading Banners</span>
+            <span class="section-tag">assets/images/banners/*</span>
+        </div>
+
+        <p style="color: #475569; font-size: 1rem;">
+            Engineered aerospace banners combining the newly generated <strong>Winged Command Heading Banner</strong> with crisp <strong>~9.2° Tilted Parallelogram Vector Banners</strong> for high-contrast section framing:
+        </p>
+
+        <div class="banner-stage">
+            <!-- HEADING COMMAND BANNER SHOWCASE -->
+            <div class="command-banner-showcase">
+                <span class="section-tag" style="background: #0284c7; color: #ffffff;">Generated Heading Banner</span>
+                <img src="./images/banners/banner_flotilla_corsair_wings.png" alt="Command Heading Banner" class="command-banner-img">
+                <p style="font-size: 0.88rem; color: #94a3b8; font-family: 'Share Tech Mono', monospace;">
+                    DIMENSIONS: 1002x236 PX (TRANSPARENT RGBA) // DUAL DISPLAY BAYS // WING FLANKING STABILIZERS
+                </p>
+            </div>
+
+            <!-- ORBITAL PAGE BACKGROUND TEXTURE -->
+            <div class="command-banner-showcase" style="border-color: #334155; background: #ffffff;">
+                <span class="section-tag" style="background: #d97706; color: #ffffff;">Rulebook Background Texture</span>
+                <img src="./images/page_bg_orbits.jpg" alt="Orbital Page Background" style="width: 100%; max-height: 180px; object-fit: cover; border-radius: 4px; border: 1px solid #cbd5e1;">
+                <p style="font-size: 0.88rem; color: #475569; font-family: 'Share Tech Mono', monospace;">
+                    ASSET: assets/images/page_bg_orbits.jpg // UNCONTRUSIVE ORBITAL TRAJECTORY LINES ON ARCHIVAL VELLUM
+                </p>
+            </div>
+
+            <!-- FLOTILLA PARALLELOGRAM BANNER -->
+            <div class="p-banner-wrap p-banner-flotilla">
+                <div class="p-banner-content">
+                    <span class="p-banner-sub" style="color: #38bdf8;">FLEET DOCTRINE // SECTION 04</span>
+                    <h2 class="p-banner-title">Void Combat & Brachistochrone Maneuvers</h2>
+                </div>
+            </div>
+
+            <!-- TACTICAL PARALLELOGRAM BANNER -->
+            <div class="p-banner-wrap p-banner-tactical">
+                <div class="p-banner-content">
+                    <span class="p-banner-sub" style="color: #f59e0b;">ENGAGEMENT MATRICES // FIRE CONTROL</span>
+                    <h2 class="p-banner-title">Kinetic Railgun Gunnery & Armor Penetration</h2>
+                </div>
+            </div>
+
+            <!-- HAZARD PARALLELOGRAM BANNER -->
+            <div class="p-banner-wrap p-banner-hazard">
+                <div class="p-banner-content">
+                    <span class="p-banner-sub" style="color: #facc15;">ENVIRONMENTAL ADVISORY // CRITICAL BREACH</span>
+                    <h2 class="p-banner-title">Atmospheric Loss & Fusion Purge Protocols</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. MINIMALIST TEXTBOX CONTAINERS -->
+    <section class="section-card">
+        <div class="section-title-bar">
+            <span class="section-title">4. Minimalist Textbox Containers (Styles G & F)</span>
+            <span class="section-tag">Unobstructed Interiors for 100% Text Legibility</span>
+        </div>
+
+        <div class="minimal-box-grid">
+            <!-- SLATE MINIMAL -->
+            <div class="box-slate-minimal">
+                <div class="box-head">
+                    <span class="box-title" style="color: #38bdf8;">Tactical Avionics Slate (Style G Evolved)</span>
+                    <span class="box-meta">[ DATAPAD-09 ]</span>
+                </div>
+                <p style="font-size: 1rem; line-height: 1.6;">
+                    A clean 1.5px high-tech border with carbon-fiber reinforced corners and a single amber status LED dot. The entire interior is completely flat and dark with zero image noise, allowing multi-paragraph gameplay fiction, transcripts, and dialog vignettes to sit with 100% crisp legibility.
+                </p>
+            </div>
+
+            <!-- HAZARD MINIMAL -->
+            <div class="box-hazard-minimal">
+                <div class="box-head">
+                    <span class="box-title" style="color: #facc15;">Bulkhead Hazard Plate (Style F Evolved)</span>
+                    <span class="box-meta">[ PRIORITY-1 ]</span>
+                </div>
+                <p style="font-size: 1rem; line-height: 1.6;">
+                    Clean 45-degree chamfered geometry with a sharp, vector-stenciled yellow/black hazard chevron block strictly anchored to the bottom-right perimeter. No interior clutter or intrusive textures, providing pristine contrast for critical warnings, decompression rules, and GM alerts.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. UNOBTRUSIVE PAGE BACKGROUND TEXTURES -->
+    <section class="section-card">
+        <div class="section-title-bar">
+            <span class="section-title">5. Unobtrusive Page Background Textures</span>
+            <span class="section-tag">assets/images/backgrounds/* // assets/backgrounds/*</span>
+        </div>
+
+        <p style="color: #475569; font-size: 1rem; margin-bottom: 20px;">
+            Engineered archival vellum textures (#fbfbf9 / #fdfcf8) with ultra-subtle, low-contrast mathematical draftsmanship. Designed specifically for print-ready and on-screen TTRPG pages to provide rich sci-fi immersion without sacrificing text contrast or readability:
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+            <!-- BG 1 -->
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="height: 200px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0;">
+                    <img src="./images/backgrounds/bg_orbital_traces.jpg" alt="Orbital Traces" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <strong style="color: #0f172a; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; text-transform: uppercase;">01. Orbital Traces</strong>
+                <span style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: #64748b;">bg_orbital_traces.jpg</span>
+                <p style="font-size: 0.85rem; color: #475569; margin: 0; line-height: 1.4;">Faint celestial orbital rings, transfer ellipses, and coordinate watermark lattice.</p>
+            </div>
+
+            <!-- BG 2 -->
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="height: 200px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0;">
+                    <img src="./images/backgrounds/bg_astrometric_lattice.jpg" alt="Astrometric Lattice" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <strong style="color: #0f172a; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; text-transform: uppercase;">02. Astrometric Lattice</strong>
+                <span style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: #64748b;">bg_astrometric_lattice.jpg</span>
+                <p style="font-size: 0.85rem; color: #475569; margin: 0; line-height: 1.4;">Radial declination circles, micro celestial ticks, and navigational compass rose geometry.</p>
+            </div>
+
+            <!-- BG 3 -->
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="height: 200px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0;">
+                    <img src="./images/backgrounds/bg_trajectory_vectors.jpg" alt="Trajectory Vectors" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <strong style="color: #0f172a; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; text-transform: uppercase;">03. Trajectory Vectors</strong>
+                <span style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: #64748b;">bg_trajectory_vectors.jpg</span>
+                <p style="font-size: 0.85rem; color: #475569; margin: 0; line-height: 1.4;">Brachistochrone burn curves, Hohmann transfer arcs, and velocity scale rulers.</p>
+            </div>
+
+            <!-- BG 4 -->
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="height: 200px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0;">
+                    <img src="./images/backgrounds/bg_gravity_contours.jpg" alt="Gravity Contours" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <strong style="color: #0f172a; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; text-transform: uppercase;">04. Gravity Contours</strong>
+                <span style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: #64748b;">bg_gravity_contours.jpg</span>
+                <p style="font-size: 0.85rem; color: #475569; margin: 0; line-height: 1.4;">Roche lobe equipotentials, Lagrange points (L1–L5), and gravitational well topology.</p>
+            </div>
+
+            <!-- BG 5 -->
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px; padding: 12px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="height: 200px; overflow: hidden; border-radius: 4px; border: 1px solid #e2e8f0;">
+                    <img src="./images/backgrounds/bg_avionics_schematic.jpg" alt="Avionics Schematic" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <strong style="color: #0f172a; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; text-transform: uppercase;">05. Avionics Schematic</strong>
+                <span style="font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: #64748b;">bg_avionics_schematic.jpg</span>
+                <p style="font-size: 0.85rem; color: #475569; margin: 0; line-height: 1.4;">Vernier alignment protractors, inclination degree scales, and calibration crosses.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORSAIR — Operational Rules Primer (518 AA)</title>
+    <!-- Google Fonts: Destiny / Mass Effect / Shadowrun typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* STAGE / HUD PALETTE */
+            --stage-bg: #090d16;
+            --hud-bg: rgba(13, 17, 23, 0.95);
+
+            /* WHITE / LIGHT PRINT-FRIENDLY BOOK PAGE */
+            --page-bg: #fdfcf9;
+            --page-panel-neutral: #f1f5f9;
+            --page-panel-warm: #fffbeb;
+            --page-panel-cool: #f0f9ff;
+            --page-panel-alert: #fef2f2;
+            --page-panel-dark: #0f172a;
+
+            /* CORSAIR SPOT COLORS */
+            --amber-primary: #d97706;
+            --amber-bright: #f59e0b;
+            --amber-dark: #b45309;
+            --amber-glow: rgba(245, 158, 11, 0.25);
+            --amber-tint: rgba(245, 158, 11, 0.08);
+
+            --cyan-primary: #0284c7;
+            --cyan-bright: #38bdf8;
+            --cyan-dark: #0369a1;
+            --cyan-tint: rgba(2, 132, 199, 0.08);
+
+            --crimson-primary: #dc2626;
+            --crimson-dark: #991b1b;
+            --crimson-tint: rgba(220, 38, 38, 0.08);
+
+            --emerald-primary: #16a34a;
+            --emerald-bright: #22c55e;
+            --emerald-tint: rgba(22, 163, 74, 0.08);
+
+            /* INDUSTRIAL SLATE ACCENTS */
+            --slate-charcoal: #090d16;
+            --slate-dark: #1e293b;
+            --slate-mid: #334155;
+            --slate-light: #64748b;
+            --slate-subtle: #cbd5e1;
+            --border-light: #e2e8f0;
+
+            /* TYPOGRAPHY COLORS */
+            --text-heading: #090d16;
+            --text-body: #1e293b;
+            --text-dim: #475569;
+            --text-muted: #64748b;
+
+            /* Page Dimensions for A4 */
+            --page-width: 210mm;
+            --page-height: 297mm;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--stage-bg);
+            color: var(--text-body);
+            font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 8.8pt;
+            line-height: 1.44;
+            letter-spacing: 0.01em;
+            -webkit-font-smoothing: antialiased;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(2, 132, 199, 0.12) 0%, transparent 60%),
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 36px 36px, 36px 36px;
+            overflow-x: hidden;
+        }
+
+        /* ==========================================================================
+           TOP HUD / VIEWER CONTROLS
+           ========================================================================== */
+        .viewer-hud {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--hud-bg);
+            backdrop-filter: blur(12px);
+            border-bottom: 2px solid var(--amber-bright);
+            padding: 10px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.7);
+        }
+
+        .hud-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .hud-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: 0.2em;
+            color: var(--amber-bright);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .hud-badge {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            color: var(--cyan-bright);
+            padding: 3px 8px;
+            background: #141f35;
+            border: 1px solid var(--cyan-primary);
+            text-transform: uppercase;
+        }
+
+        .hud-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .hud-btn-group {
+            display: flex;
+            background: #141f35;
+            border: 1px solid #334155;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .hud-btn {
+            background: transparent;
+            border: none;
+            color: #94a3b8;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 6px 14px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hud-btn:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .hud-btn.active {
+            color: #0c1016;
+            background: var(--amber-bright);
+            box-shadow: 0 0 12px var(--amber-glow);
+        }
+
+        .hud-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 11px;
+            color: #94a3b8;
+        }
+
+        .hud-icon-btn {
+            background: #141f35;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+            padding: 5px 12px;
+            cursor: pointer;
+            border-radius: 2px;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 11px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .hud-icon-btn:hover {
+            border-color: var(--amber-bright);
+            color: var(--amber-bright);
+        }
+
+        .hud-print-btn {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border: 1px solid var(--amber-bright);
+            color: var(--amber-bright);
+            font-weight: 700;
+        }
+
+        /* ==========================================================================
+           STAGE & SPREAD CONTAINERS
+           ========================================================================== */
+        .stage {
+            padding: 30px 20px 60px 20px;
+            display: flex;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .spread-container {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            max-width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        body.mode-spread .book-page:not(.active),
+        body.mode-single .book-page:not(.active) {
+            display: none !important;
+        }
+
+        body.mode-single .spread-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        body.mode-spread .spread-container {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+
+        body.mode-scroll .spread-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+        body.mode-scroll .book-page {
+            display: flex !important;
+        }
+
+        /* ==========================================================================
+           THE BOOK PAGE (Authentic Archival Paper Layout with Faint Orbit Lines)
+           ========================================================================== */
+        .book-page {
+            width: var(--page-width);
+            min-height: var(--page-height);
+            height: var(--page-height);
+            background-color: var(--page-bg);
+            /* Seamless, faint orbital trajectory lines generated background */
+            background-image: url('./assets/images/page_bg_orbits.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            padding: 13mm 12mm 13mm 12mm;
+            box-shadow: 0 14px 50px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.08);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            color: var(--text-body);
+            box-sizing: border-box;
+            user-select: text;
+        }
+
+        .book-page.page-left {
+            padding-right: 14mm;
+            border-right: 1px solid #cbd5e1;
+        }
+        .book-page.page-right {
+            padding-left: 14mm;
+            border-left: 1px solid #cbd5e1;
+        }
+
+        /* Thumb Tab on Outer Edge */
+        .thumb-tab {
+            position: absolute;
+            top: 36mm;
+            width: 5.5mm;
+            height: 32mm;
+            background: var(--slate-charcoal);
+            border-left: 2.5px solid var(--amber-bright);
+            box-shadow: 2px 0 8px rgba(0, 0, 0, 0.25);
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .page-left .thumb-tab {
+            left: 0;
+            border-left: none;
+            border-right: 2.5px solid var(--amber-bright);
+        }
+        .page-right .thumb-tab {
+            right: 0;
+            border-right: none;
+            border-left: 2.5px solid var(--amber-bright);
+        }
+
+        .thumb-tab-label {
+            transform: rotate(-90deg);
+            font-family: 'Orbitron', sans-serif;
+            font-size: 6pt;
+            font-weight: 900;
+            color: #ffffff;
+            letter-spacing: 0.25em;
+            white-space: nowrap;
+        }
+
+        /* Running Header & Footer */
+        .page-header {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: 2px solid var(--slate-charcoal);
+            padding-bottom: 1.6mm;
+            margin-bottom: 3mm;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8pt;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .page-header .tech-spec {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 7pt;
+            font-weight: 600;
+            color: var(--amber-dark);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .tech-spec .square {
+            width: 5px;
+            height: 5px;
+            background: var(--amber-bright);
+            display: inline-block;
+        }
+
+        .page-footer {
+            margin-top: auto;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1.5px solid var(--slate-mid);
+            padding-top: 1.8mm;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 7.2pt;
+            color: var(--text-muted);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .page-footer .page-number {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 10.5pt;
+            font-weight: 900;
+            color: var(--slate-charcoal);
+            letter-spacing: 0.08em;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .page-footer .page-number::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 3px;
+            background: var(--amber-bright);
+        }
+
+        .diamond {
+            color: var(--amber-bright);
+            font-size: 7pt;
+        }
+
+        /* Two-Column Flow */
+        .page-body {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 5.5mm;
+            row-gap: 2.4mm;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .span-all {
+            grid-column: 1 / -1;
+        }
+
+        /* ==========================================================================
+           CHAPTER SPLASH BANNER (CLEAN BLUE & CLEAN YELLOW ONLY — NO HAZARD STRIPES)
+           Generous left padding (26mm) prevents text overlap with angled stripes!
+           ========================================================================== */
+        .chapter-splash {
+            position: relative;
+            isolation: isolate;
+            margin: 0 -3mm 2.8mm -3mm;
+            padding: 5.5mm 10mm 3.2mm 26mm; /* 26mm left padding clears diagonal stripes */
+            color: #ffffff;
+            min-height: 25mm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Default is Tactical Yellow */
+        .chapter-splash::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background: url('./assets/images/banners/banner_parallelogram_tactical.svg') 0 0 / 100% 100% no-repeat;
+            filter: drop-shadow(0 2px 6px rgba(15, 23, 42, 0.45));
+        }
+
+        /* Theme Flotilla Blue */
+        .theme-flotilla.chapter-splash::before {
+            background: url('./assets/images/banners/banner_parallelogram_flotilla.svg') 0 0 / 100% 100% no-repeat;
+            filter: drop-shadow(0 2px 8px rgba(2, 132, 199, 0.45));
+        }
+
+        .ch-kicker {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 6.8pt;
+            font-weight: 900;
+            color: #f4b740;
+            letter-spacing: 0.28em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 0.8mm;
+        }
+
+        .ch-kicker::before {
+            content: '';
+            display: inline-block;
+            width: 14px;
+            height: 3px;
+            background: currentColor;
+        }
+
+        .theme-flotilla .ch-kicker { color: #7dd3fc; }
+
+        .ch-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 19pt;
+            font-weight: 900;
+            line-height: 0.95;
+            letter-spacing: 0.03em;
+            color: #ffffff;
+            text-transform: uppercase;
+            margin-bottom: 0.8mm;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
+        }
+
+        .ch-subtitle {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 8.5pt;
+            font-weight: 700;
+            color: #d5dbe6;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.85);
+        }
+
+        /* Headings */
+        h2.sec-heading {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 11.8pt;
+            font-weight: 800;
+            letter-spacing: 0.06em;
+            color: var(--slate-charcoal);
+            text-transform: uppercase;
+            margin-top: 1.6mm;
+            margin-bottom: 1.2mm;
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            border-bottom: 1.5px solid var(--slate-mid);
+            padding-bottom: 0.8mm;
+        }
+
+        h2.sec-heading .sec-num {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 8.5pt;
+            color: var(--amber-dark);
+            font-weight: 900;
+        }
+
+        h3.sub-heading {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 9.2pt;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: var(--slate-dark);
+            text-transform: uppercase;
+            margin-top: 1.5mm;
+            margin-bottom: 0.8mm;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        h3.sub-heading::before {
+            content: '▶';
+            font-size: 6.5pt;
+            color: var(--amber-dark);
+        }
+
+        p {
+            margin-bottom: 1.5mm;
+            color: var(--text-body);
+        }
+
+        p strong {
+            color: var(--slate-charcoal);
+        }
+
+        /* In-Line Mechanical Icons */
+        .c-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            width: 1.3em;
+            height: 1.3em;
+            margin: -0.2em 0.15em 0 0.15em;
+        }
+        .c-icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        /* Panels & Callouts */
+        .panel {
+            background: rgba(241, 245, 249, 0.85);
+            border: 1px solid #cbd5e1;
+            border-left: 3.5px solid var(--slate-mid);
+            padding: 2mm 2.5mm;
+            margin: 1.5mm 0;
+            font-size: 7.8pt;
+            line-height: 1.36;
+            border-radius: 1px;
+            position: relative;
+        }
+
+        .panel-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.8mm;
+            padding-bottom: 0.5mm;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .panel-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 8.3pt;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--slate-charcoal);
+        }
+
+        .panel-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.5pt;
+            color: var(--text-muted);
+        }
+
+        .panel-flotilla {
+            background: rgba(240, 249, 255, 0.88);
+            border-color: #bae6fd;
+            border-left-color: var(--cyan-primary);
+        }
+        .panel-flotilla .panel-title { color: var(--cyan-dark); }
+
+        .panel-gambit {
+            background: rgba(255, 251, 235, 0.9);
+            border-color: #fde68a;
+            border-left-color: var(--amber-bright);
+        }
+        .panel-gambit .panel-title { color: var(--amber-dark); }
+
+        .panel-dataslate {
+            background: #0f172a;
+            border-color: #334155;
+            border-left-color: var(--cyan-bright);
+            color: #cbd5e1;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 7pt;
+        }
+        .panel-dataslate .panel-title { color: var(--amber-bright); font-family: 'Orbitron', sans-serif; font-size: 7pt; }
+
+        /* Tables & Diagrams */
+        .rules-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 7.6pt;
+            margin: 1.5mm 0;
+            background: rgba(255, 255, 255, 0.85);
+            border: 1px solid #cbd5e1;
+        }
+
+        .rules-table th {
+            background: #0f172a;
+            color: #ffffff;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 1.2mm 1.8mm;
+            text-align: left;
+            border-bottom: 1px solid var(--amber-bright);
+        }
+
+        .rules-table td {
+            padding: 1.2mm 1.8mm;
+            border-bottom: 1px solid #e2e8f0;
+            color: var(--slate-dark);
+        }
+
+        .rules-table tr:nth-child(even) td { background: rgba(248, 250, 252, 0.8); }
+
+        /* Schematic Diagram */
+        .schematic-diagram {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            border-top: 2px solid var(--cyan-bright);
+            padding: 1.8mm 2.2mm;
+            margin: 1.6mm 0;
+            border-radius: 2px;
+        }
+
+        .diagram-header {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 6.8pt;
+            color: var(--amber-bright);
+            margin-bottom: 1.4mm;
+            letter-spacing: 0.1em;
+        }
+
+        .diagram-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.6mm;
+        }
+
+        .diagram-node {
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 1.4mm;
+            text-align: center;
+            border-radius: 1px;
+        }
+
+        .diagram-node.highlight {
+            border-color: var(--amber-bright);
+            background: #1f293d;
+        }
+
+        .node-tag {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 6pt;
+            color: #94a3b8;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .node-val {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 9.8pt;
+            font-weight: 900;
+            color: #ffffff;
+            line-height: 1;
+            margin: 0.5mm 0;
+        }
+
+        .node-desc {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.8pt;
+            color: #94a3b8;
+            line-height: 1.2;
+        }
+
+        /* ==========================================================================
+           PAGE 1: COVER SPECIFICS (ZERO RULES REFERENCES)
+           ========================================================================== */
+        .cover-page {
+            background: linear-gradient(180deg, #0d1525 0%, #070a10 100%) !important;
+            color: #ffffff;
+            border: 1px solid #334155;
+            border-top: 5px solid var(--amber-bright);
+            box-shadow: 0 14px 50px rgba(0, 0, 0, 0.9);
+            padding: 14mm 14mm;
+            justify-content: space-between;
+        }
+
+        .cover-top-meta {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 2mm;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 7.5pt;
+            color: #64748b;
+            letter-spacing: 0.12em;
+        }
+
+        .cover-top-meta strong { color: var(--amber-bright); }
+
+        .cover-emblems-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10mm;
+            margin: 6mm 0;
+        }
+
+        .cover-emblem-unit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2mm;
+        }
+
+        .cover-emblem-unit img {
+            width: 24mm;
+            height: 24mm;
+            object-fit: contain;
+            filter: drop-shadow(0 0 14px rgba(0, 0, 0, 0.8));
+        }
+
+        .cover-emblem-name {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 8.5pt;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #94a3b8;
+        }
+
+        .cover-vs-seal {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 8pt;
+            color: #475569;
+            padding: 2mm 3.5mm;
+            border: 1px solid #1e293b;
+            border-radius: 2px;
+        }
+
+        .cover-wings-banner {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border: none;
+            margin: 2mm 0 4mm 0;
+            display: block;
+            filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.7));
+        }
+
+        .cover-headline-wrap {
+            text-align: center;
+            margin: 4mm 0;
+        }
+
+        .cover-pretitle {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 10pt;
+            font-weight: 700;
+            letter-spacing: 0.35em;
+            color: var(--cyan-bright);
+            text-transform: uppercase;
+            margin-bottom: 1.5mm;
+        }
+
+        .cover-main-logotype {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 46pt;
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            color: #ffffff;
+            line-height: 1;
+            text-shadow: 0 0 30px rgba(245, 158, 11, 0.4);
+        }
+
+        .cover-main-logotype span { color: var(--amber-bright); }
+
+        .cover-decktitle {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 18pt;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: #cbd5e1;
+            text-transform: uppercase;
+            margin-top: 1.5mm;
+        }
+
+        .cover-manifesto {
+            background: rgba(0, 0, 0, 0.55);
+            border-left: 3px solid var(--amber-bright);
+            border-right: 3px solid var(--cyan-primary);
+            padding: 4mm 5mm;
+            margin: 4mm 0;
+            text-align: center;
+            font-size: 8.8pt;
+            line-height: 1.55;
+            color: #e2e8f0;
+        }
+
+        .cover-seal-colophon {
+            border-top: 1px solid #1e293b;
+            padding-top: 4mm;
+            margin-top: 4mm;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 7.2pt;
+            color: #64748b;
+        }
+
+        .cover-seal-colophon strong { color: var(--amber-bright); }
+
+        /* ==========================================================================
+           PAGE 2: TOC STYLING
+           ========================================================================== */
+        .toc-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1.8mm;
+            margin: 2mm 0;
+        }
+
+        .toc-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 1px dotted #cbd5e1;
+            padding-bottom: 0.5mm;
+            text-decoration: none;
+            color: var(--text-body);
+            transition: color 0.2s ease;
+        }
+
+        .toc-item:hover { color: var(--amber-dark); }
+
+        .toc-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 9.8pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--slate-charcoal);
+        }
+
+        .toc-num {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 8pt;
+            font-weight: 900;
+            color: var(--amber-dark);
+            margin-right: 2mm;
+        }
+
+        .toc-page {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 8.5pt;
+            font-weight: 700;
+            color: var(--cyan-dark);
+        }
+
+        /* ==========================================================================
+           PRINT OVERRIDES
+           ========================================================================== */
+        @media print {
+            body { background: none !important; color: #000000 !important; }
+            .viewer-hud { display: none !important; }
+            .stage { padding: 0 !important; }
+            .spread-container { gap: 0 !important; display: block !important; }
+            .book-page {
+                display: flex !important;
+                page-break-after: always;
+                box-shadow: none !important;
+                border: none !important;
+                margin: 0 !important;
+                width: 100% !important;
+                height: 100% !important;
+                min-height: 297mm !important;
+            }
+            .cover-page {
+                background: #000000 !important;
+                color: #ffffff !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .chapter-splash {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body class="mode-spread">
+
+    <!-- ==========================================================================
+         VIEWER HUD CONTROLS
+         ========================================================================== -->
+    <header class="viewer-hud">
+        <div class="hud-left">
+            <a href="#page-1" class="hud-logo">
+                <svg width="18" height="18" viewBox="0 0 32 32" fill="none">
+                    <polygon points="16,2 28.5,15 16,30 3.5,15" stroke="#f59e0b" stroke-width="2.5" fill="none"/>
+                    <polygon points="16,2 22.5,14 16,18 9.5,14" fill="#f59e0b"/>
+                </svg>
+                CORSAIR
+            </a>
+            <span class="hud-badge">OPERATIONAL RULES PRIMER // 518 AA</span>
+        </div>
+
+        <div class="hud-controls">
+            <!-- View Mode Switcher -->
+            <div class="hud-btn-group">
+                <button class="hud-btn active" id="btn-spread" onclick="setViewMode('spread')">
+                    2-Page Spread
+                </button>
+                <button class="hud-btn" id="btn-single" onclick="setViewMode('single')">
+                    Single Page
+                </button>
+                <button class="hud-btn" id="btn-scroll" onclick="setViewMode('scroll')">
+                    Scroll View
+                </button>
+            </div>
+
+            <!-- Page Navigation -->
+            <div class="hud-nav" id="hud-nav-controls">
+                <button class="hud-icon-btn" onclick="prevPage()">&larr; Prev</button>
+                <span id="page-indicator" style="min-width: 140px; text-align: center;">Spread 1 of 5</span>
+                <button class="hud-icon-btn" onclick="nextPage()">Next &rarr;</button>
+            </div>
+
+            <!-- Print / PDF -->
+            <button class="hud-icon-btn hud-print-btn" onclick="window.print()">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                    <rect x="6" y="14" width="12" height="8"></rect>
+                </svg>
+                Print / Save PDF
+            </button>
+        </div>
+    </header>
+
+    <main class="stage">
+        <div class="spread-container" id="spread-stage">
+
+            <!-- ==================================================================
+                 PAGE 1: COVER PAGE (VERSO) — NO RULES REFERENCES
+                 ================================================================== -->
+            <article class="book-page cover-page active" id="page-1" data-page="1">
+                <div class="cover-top-meta">
+                    <span>SECTOR: <strong>THE SPHERE CORRIDORS</strong></span>
+                    <span>CHRONO: <strong>518 AA (THE NEW WAVE)</strong></span>
+                    <span>SECURITY: <strong>CLEARANCE FL-ORD-9</strong></span>
+                </div>
+
+                <!-- Insignias from Gallery -->
+                <div class="cover-emblems-flex">
+                    <div class="cover-emblem-unit">
+                        <img src="./assets/images/icons/factions/insignia_flotilla.png" alt="The Flotilla Insignia">
+                        <span class="cover-emblem-name">The Flotilla</span>
+                    </div>
+                    <div class="cover-vs-seal">SANCTIONED JURISDICTION</div>
+                    <div class="cover-emblem-unit">
+                        <img src="./assets/images/icons/factions/insignia_corsairs.png" alt="Chartered Corsairs Emblem">
+                        <span class="cover-emblem-name">Chartered Corsairs</span>
+                    </div>
+                </div>
+
+                <!-- Chapter Banner Wings from Gallery -->
+                <img src="./assets/images/banners/banner_flotilla_corsair_wings.png" alt="Corsair Wings Banner" class="cover-wings-banner">
+
+                <div class="cover-headline-wrap">
+                    <div class="cover-pretitle">Tactical Hard Sci-Fi Roleplaying Game</div>
+                    <h1 class="cover-main-logotype">COR<span>SAIR</span></h1>
+                    <div class="cover-decktitle">Operational Rules Primer & Field Manual</div>
+                </div>
+
+                <div class="cover-manifesto">
+                    "Out in the black, physics doesn't care about your reputation. There is no artificial gravity to hold you upright, no faster-than-light miracles to run away behind, and no magic energy shields to catch a railgun slug. There is only reaction mass, thermal radiators, your suit seals, and the lawful charter that keeps your crew from being classified as salvage."
+                </div>
+
+                <!-- Official Commissioning Seal & Archival Colophon (No Game Rules) -->
+                <div class="cover-seal-colophon">
+                    <div>
+                        <strong>COMMISSIONED BY:</strong> HIGH COUNCIL & ADMIRALTY BOARD<br>
+                        REGISTERED JURISDICTION: CROSS-SECTOR CORSAIR MANDATE
+                    </div>
+                    <div style="text-align: right;">
+                        ARCHIVAL CODE: <strong>FL-DOC-518-REV4</strong><br>
+                        PORT ZENITH NAVAL PRINTING OFFICE // 518 AA
+                    </div>
+                </div>
+
+                <footer class="page-footer" style="border-top-color: #334155;">
+                    <div style="color: #64748b;">FLOTILLA ADMIRALTY ARCHIVE // OFFICIAL FIELD MANUAL</div>
+                    <div class="page-number" style="color: #ffffff;">001</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 2: TABLE OF CONTENTS & SYSTEM OVERVIEW (RECTO)
+                 ================================================================== -->
+            <article class="book-page page-right active" id="page-2" data-page="2">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.00 // TOC</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // EXECUTIVE BRIEFING</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 00.1 // TABLE OF CONTENTS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash theme-flotilla">
+                        <div class="ch-kicker">OPERATIONAL MANUAL</div>
+                        <h1 class="ch-title">TABLE OF CONTENTS</h1>
+                        <div class="ch-subtitle">STRUCTURE, PROTOCOLS & SECTION INDEX</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">TOC</span> Document Overview</h2>
+                            <ul class="toc-list">
+                                <li>
+                                    <a href="#page-3" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">01</span> The Clockwork Heavens & The Sphere</span>
+                                        <span class="toc-page">003</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-4" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">02</span> The Law of the Void & The New Wave</span>
+                                        <span class="toc-page">004</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-5" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">03</span> Character Creation & MANTLE Rigs</span>
+                                        <span class="toc-page">005</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-6" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">04</span> Attributes & The Three Tests</span>
+                                        <span class="toc-page">006</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-7" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">05</span> Dice Stepping & The Canonical Gambit</span>
+                                        <span class="toc-page">007</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-8" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">06</span> Action Economy & Tactical Effects</span>
+                                        <span class="toc-page">008</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-9" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">07</span> Live Play: Breaching Vault 7</span>
+                                        <span class="toc-page">009</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#page-10" class="toc-item">
+                                        <span class="toc-title"><span class="toc-num">08</span> Tactical Quick Reference Sheet</span>
+                                        <span class="toc-page">010</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="panel panel-flotilla" style="margin-top: 3mm;">
+                                <div class="panel-head">
+                                    <span class="panel-title">◈ THE CORSAIR ELEVATOR PITCH</span>
+                                    <span class="panel-tag">BRIEFING</span>
+                                </div>
+                                <p style="font-size: 7.6pt; margin-bottom: 0;">
+                                    <em>Corsair</em> is a game of high-stakes frontier adventure, blending the mythic wonder of <strong>Space Fantasy</strong> with the grounded weight of <strong>Hard Science Fiction</strong>. You play a <strong>Corsair Cell</strong>—licensed, independent specialists operating an agile starship with a cross-jurisdictional charter holding together a young, fragile civilization.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">00.2</span> The Four Tenets of the Void</h2>
+                            <p>
+                                Before your crew steps through the airlock, keep these foundational realities at the core of every operation:
+                            </p>
+                            <ol style="margin-left: 4mm; font-size: 8pt; line-height: 1.4;">
+                                <li><strong>Newton is Sovereign:</strong> Space stations and warships obey Newtonian mechanics. There are no artificial gravity plates. Weight exists only when an engine burns or when an orbital station's centrifuge rings spin. Magnetic boots and safety tethers keep spacers alive.</li>
+                                <li><strong>The Vacuum Forgives Nothing:</strong> Kinetic railguns, hypervelocity slugthrowers, and thermal cutting beams generate lethal waste heat that must be radiated through glowing thermal arrays. A single puncture means immediate decompression.</li>
+                                <li><strong>The Seam Between Mud and Orbit:</strong> The <strong>Skyline Accords</strong> dictate that planetary governments govern within atmospheric skies, while the <strong>Flotilla</strong> rules open space. Corsairs exist solely to hunt across that jurisdictional boundary.</li>
+                                <li><strong>Impartiality in the Crossfire:</strong> Every cell is co-sponsored by competing powers (Flotilla, Colonies, Corporations, NGOs) to ensure neutrality under the watchful eye of the veteran <strong>Oversight Committee</strong>.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 00</div>
+                    <div class="page-number">002</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 3: THE SPHERE & THE CLOCKWORK HEAVENS (VERSO)
+                 ================================================================== -->
+            <article class="book-page page-left" id="page-3" data-page="3">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.01 // LORE</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 01: THE SPHERE</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 01.1 // THE CLOCKWORK HEAVENS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash theme-flotilla">
+                        <div class="ch-kicker">CH.01 // COSMIC GEOGRAPHY</div>
+                        <h1 class="ch-title">THE CLOCKWORK HEAVENS</h1>
+                        <div class="ch-subtitle">THE SPHERE, BINARY MOONS, LIVING DRAGONS & THE TEN LINEAGES</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">01.1</span> The Macro-Engineered Sphere</h2>
+                            <p>
+                                Five centuries ago, automated seed arks brought the survivors of four dying worlds into the <strong>Sphere</strong>. Rather than a naturally accreted stellar system, the Sphere is a marvel of celestial macro-engineering: concentric rings of massive gas giants locked in Laplace gravitational resonance around a quiet, benevolent Orange Dwarf star.
+                            </p>
+                            <p>
+                                Within the magnetic shelters of these gas giants, terrestrial worlds orbit in close-knit binary pairs. Separated by mere tens of thousands of kilometers, neighboring moons hang like colossal jewels in each other's skies. Standing on the docks of <strong>Pelagia</strong>, you can watch the amber sun strike the cratered ridges of twin moon <strong>Suncatcher</strong> without a telescope.
+                            </p>
+                            <p>
+                                <strong>Hard Sci-Fi Brachistochrone Realities:</strong> Because moons orbit in close binary pairs, sub-light fusion torch ships burning at a continuous 1g Brachistochrone acceleration can transit between binary worlds in mere hours. Crossing between neighboring gas giants (such as Fume to X'ara) takes only 2.2 days. The Sphere is tightly connected, but demands strict orbital fuel budgeting.
+                            </p>
+
+                            <h2 class="sec-heading"><span class="sec-num">01.2</span> The Ancient Living Dragons</h2>
+                            <p>
+                                The titans of the void are not myths, but colossal, ancient biological entities navigating open vacuum via internal bio-fusion dynamos. Sovereign beings of immense intellect, their alliances shape civilization:
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>Goldheart:</strong> The gentle scholar dragon watching over Landfall, whose early guidance shielded the first human, naga, craggen, and sylvan cohorts.</li>
+                                <li><strong>Stormdrinker:</strong> The thunderous titan circling the electrical storm-wells of Nimbus, who shared bio-fusion principles with Newcomer engineers in 35 AA, birthing interplanetary flight.</li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">01.3</span> Ten Lineages, Two Philosophies</h2>
+                            <p>
+                                Newcomer civilization is composed of ten distinct biological lineages tracing back to the four original seed arks that touched down on Landfall in 0 AA:
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.38;">
+                                <li><strong>The Four Founding Templates:</strong> The adaptable <strong>Humans</strong>, crest-bearing cold-blooded <strong>Naga</strong>, mineral-skinned and crystalline-eyed <strong>Craggen</strong>, and tall, chlorophyllic <strong>Sylvan</strong>.</li>
+                                <li><strong>The Six Hybrid Lineages:</strong> Over five centuries of shared survival, natural intermingling produced the draconic <strong>Drakelings</strong>, graceful <strong>Elves</strong>, ingenious <strong>Gnomes</strong>, sturdy <strong>Dwarves</strong>, gemstone-masked <strong>Kobolds</strong>, and towering <strong>Trolls</strong>.</li>
+                            </ul>
+
+                            <h3 class="sub-heading">Integrationism vs. Preservationism</h3>
+                            <p>
+                                Society is divided by two profound cultural philosophies:
+                            </p>
+                            <p>
+                                <strong>Integrationism:</strong> Championed in metropolitan melting pots like Crossroads and Cloudspire. Integrationists believe that cultural blending, shared destiny, and inter-lineage solidarity represent the true future of the Sphere.
+                            </p>
+                            <p>
+                                <strong>Preservationism:</strong> A traditionalist movement born from filial reverence for lost ancestral homeworlds. Preservationists maintain insular, single-lineage colonies, dedicated to keeping ancestral bloodlines, languages, and rituals pure to honor their forgotten ancestors.
+                            </p>
+
+                            <div class="panel panel-flotilla">
+                                <div class="panel-head">
+                                    <span class="panel-title">◈ VACUUM INVARIANT // THE COLD FRONTIER</span>
+                                    <span class="panel-tag">ASTROGATION</span>
+                                </div>
+                                <p style="font-size: 7.5pt; margin-bottom: 0;">
+                                    Space has no atmosphere to carry sound, no magnetic fields outside the gas giant envelopes, and no mercy for neglected thermal radiators. A Corsair crew trusts their fusion torch, their sealed suit, and their comrades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 01</div>
+                    <div class="page-number">003</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 4: THE LAW OF THE VOID & THE NEW WAVE (RECTO)
+                 ================================================================== -->
+            <article class="book-page page-right" id="page-4" data-page="4">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.02 // FACTIONS</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 02: THE VOID PEACE</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 02.1 // THE SKYLINE ACCORDS & CORSAIRS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash theme-flotilla">
+                        <div class="ch-kicker">CH.02 // FACTIONS & AUTHORITY</div>
+                        <h1 class="ch-title">THE LAW OF THE VOID</h1>
+                        <div class="ch-subtitle">THE SKYLINE ACCORDS, THE FLOTILLA & THE NEW WAVE CORSAIRS</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">02.1</span> The Skyline Accords (335 AA)</h2>
+                            <p>
+                                The fundamental constitutional treaty of Newcomer civilization divides authority into two sovereign realms:
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>The Sovereign Moons:</strong> Planetary governments hold absolute jurisdiction within atmospheric gravity wells, enforcing local laws, corporate charters, and property rights.</li>
+                                <li><strong>The Flotilla:</strong> The sovereign peacekeeping fleet that holds exclusive jurisdiction over open space, orbital lanes, customs hubs, and Lagrange stations.</li>
+                            </ul>
+                            <p>
+                                While this treaty prevented planetary wars, it created a dangerous jurisdictional seam: criminals and corporate raiders routinely strike dirt-side settlements and burn into orbit, daring local authorities to chase them past atmospheric limits.
+                            </p>
+
+                            <h2 class="sec-heading"><span class="sec-num">02.2</span> The Flotilla & The Tour</h2>
+                            <p>
+                                The Flotilla is commanded by the <strong>Admiralty Board</strong> (presiding from Redmane Station), which answers directly to the civilian <strong>High Council</strong> of elected colonial delegates.
+                            </p>
+                            <p>
+                                <strong>The One-Year Tour:</strong> Every 18-year-old across the Sphere is drafted into the fleet for 12 months. Wealthy heirs scrape reaction-thruster carbon burns alongside rough street kids, forging a shared system-wide identity.
+                            </p>
+                            <p>
+                                <strong>The Matrix:</strong> Every sailor belongs to one of 6 Wings (*Administrative, Transit, Patrol, Scout, Bastion, Sword*) and one of 7 Corps (*Marine, Pilot, Engineering, Medical, Officer, Sailor, Admin*).
+                            </p>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">02.3</span> The New Wave of Corsairs (518 AA)</h2>
+                            <p>
+                                Exactly ten years after the Fall of the ancient dreadnought <em>Evergaol</em> in 508 AA shattered naval battle fleets, the High Council authorized the <strong>New Wave of Corsairs</strong> to police the frayed frontier.
+                            </p>
+                            <p>
+                                <strong>The Corsair Cell:</strong> Autonomous strike teams of 3 to 5 specialists based aboard a single, agile starship (such as an RF "Kestrel"). The system stands on three pillars:
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>Sponsors:</strong> Every Corsair is funded by a major power (Flotilla, Colonial administration, Megacorporation, Union, or Private patron). To enforce impartiality, cells feature <em>mandatory mixed sponsorships</em> so no single faction dominates.</li>
+                                <li><strong>The Oversight Committee:</strong> Composed of exemplary retired Corsairs and civilian delegates who review contract petitions for the public good and investigate operative misconduct.</li>
+                                <li><strong>Cross-Jurisdictional Mandate:</strong> Sweeping legal authority to carry military ordnance and pursue warrants from planetary mud to deep orbit.</li>
+                            </ul>
+
+                            <h3 class="sub-heading">Three Modes of Play</h3>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>Freelancers (Aspirants):</strong> Uncommissioned ground-level crews with no sponsor or ship, taking commercial shuttles to earn notice.</li>
+                                <li><strong>Chartered Corsairs:</strong> Commissioned cells with sponsors, a dedicated starship, and official legal mandates.</li>
+                                <li><strong>Rogue Corsairs (Outlaws):</strong> Former Corsairs operating re-flagged ships in the black market, navigating backchannel favors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 02</div>
+                    <div class="page-number">004</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 5: CHARACTER CREATION & MANTLE RIGS (VERSO)
+                 ================================================================== -->
+            <article class="book-page page-left" id="page-5" data-page="5">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.03 // CREATION</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 03: OPERATIVE CREATION</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 03.1 // LINEAGES & MANTLE RIGS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash">
+                        <div class="ch-kicker">CH.03 // OPERATIVE CREATION</div>
+                        <h1 class="ch-title">CHARACTER CREATION & MANTLE RIGS</h1>
+                        <div class="ch-subtitle">SPONSORS, TEN LINEAGES, CORE RATINGS & CHASSIS INTERFACES</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">03.1</span> Building an Operative</h2>
+                            <ol style="margin-left: 4mm; font-size: 8pt; line-height: 1.38;">
+                                <li><strong>Select Mode of Play:</strong> Decide with your table if you are starting as uncommissioned <em>Freelancers</em>, commissioned <em>Corsairs</em> (with starship), or hunted <em>Rogue Corsairs</em>.</li>
+                                <li><strong>Choose Your Sponsor:</strong> If playing as Corsairs, each player selects a distinct sponsor (<em>Flotilla, Colonial, Corporate, Civilian, Private</em>) to guarantee cell impartiality.</li>
+                                <li><strong>Select Biological Lineage (Race):</strong>
+                                    <ul style="margin-left: 3mm; margin-top: 0.5mm; font-size: 7.6pt; line-height: 1.3;">
+                                        <li><strong>Human:</strong> Adaptable; gain <strong>+4 XP</strong> (10 total starting XP).</li>
+                                        <li><strong>Craggen:</strong> Mineral-skinned; <strong>+2 points</strong> to Finesse/Knowledge.</li>
+                                        <li><strong>Naga:</strong> Crested reptilian; <strong>+2 points</strong> to Agility/Instinct.</li>
+                                        <li><strong>Sylvan:</strong> Chlorophyllic tusker; <strong>+2 points</strong> to Strength/Presence.</li>
+                                        <li><strong>Hybrids:</strong> Drakeling, Elf, Gnome, Dwarf, Kobold, Troll grant tailored attribute splits and bonus XP.</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Assign Core Attributes & Condition Tracks:</strong> All six ratings start at 1. Distribute points across <strong>Strength, Agility, Finesse, Knowledge, Presence, Instinct</strong>. Calculate <strong>Endurance</strong> (2nd highest Physical) and <strong>Willpower</strong> (2nd highest Mental). Physical harm is tracked via Light Wounds (<span class="c-icon"><img src="./assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"></span>) and Aggravated Wounds (<span class="c-icon"><img src="./assets/images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound"></span>); mental strain via Light Stress (<span class="c-icon"><img src="./assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"></span>) and Aggravated Stress (<span class="c-icon"><img src="./assets/images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress"></span>).</li>
+                            </ol>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">03.2</span> The MANTLE Chassis</h2>
+                            <p>
+                                In <em>Corsair</em>, your class is a proprietary <strong>MANTLE</strong> (*Modular Adaptive Neural Transmission Linked Equipment*)—an aerospace cybernetic chassis interfacing directly with your spine via a <strong>Neural Control Chip (NCC)</strong>. Due to synaptic bandwidth, you can equip <strong>only one MANTLE chassis at a time</strong>.
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 7.8pt; line-height: 1.35;">
+                                <li><strong>Conduit:</strong> Elemental shock trooper channeling capacitor charges (<span class="c-icon"><img src="./assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"></span> <strong>Charge</strong>, max 3). <em>Class:</em> Flame, Frost, Lightning.</li>
+                                <li><strong>Hazard:</strong> Combat chemist wielding pressurized reactive catalysts (<span class="c-icon"><img src="./assets/images/icons/mechanical/hazard_pressure.svg" alt="Pressure"></span> <strong>Pressure</strong>, 0–3 gauge). <em>Class:</em> Venom, Hazard, Serum.</li>
+                                <li><strong>Pilot:</strong> Neurally integrated operator commanding an Exodrone avatar (<span class="c-icon"><img src="./assets/images/icons/mechanical/pilot_battery.svg" alt="Battery"></span> <strong>Battery</strong>, max 10). <em>Class:</em> Power, Speed, Precision.</li>
+                                <li><strong>Vanguard:</strong> High-mobility frontline operative with a morphing kinetic board (<span class="c-icon"><img src="./assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"></span> <strong>Boost</strong>, banked d10). <em>Class:</em> Shield, Glider, Cannon.</li>
+                                <li><strong>Weaver:</strong> Nanite artisan manipulating a programmable fluid swarm (<span class="c-icon"><img src="./assets/images/icons/mechanical/weaver_reserve.svg" alt="Reserve"></span> <strong>Reserve</strong>, base 4L). <em>Class:</em> Create, Control, Modify.</li>
+                            </ul>
+                            <p style="margin-top: 1.5mm; font-size: 7.8pt;">
+                                <strong>Class Attribute Points:</strong> All three class attributes start at 1. Spend <strong>7 Class Creation Points</strong> to customize your signature chassis ratings.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 03</div>
+                    <div class="page-number">005</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 6: CORE ENGINE — ATTRIBUTES & THE THREE TESTS (RECTO)
+                 ================================================================== -->
+            <article class="book-page page-right" id="page-6" data-page="6">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.04 // ROLLS</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 04: CORE ENGINE</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 04.1 // ATTRIBUTE PAIRS & TESTS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash">
+                        <div class="ch-kicker">CH.04 // CORE ENGINE</div>
+                        <h1 class="ch-title">ATTRIBUTES & THE THREE TESTS</h1>
+                        <div class="ch-subtitle">ATTRIBUTE PAIRS, D10 RESOLUTION & THE TWO-STAGE COMPLEX ROLL</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">04.1</span> Attribute Pairs & Dice Pools</h2>
+                            <p>
+                                When taking action under pressure, you never roll an isolated stat. The GM pairs the two most relevant attributes based on your narrative description into an <strong>Attribute Pair</strong> (e.g., <strong>Finesse + Agility</strong> for a zero-g shot, or <strong>Strength + Strength</strong> to force a hatch). Class attributes can pair with core attributes (e.g., <strong>Flame + Strength</strong>).
+                            </p>
+                            <p>
+                                <strong>The Threshold for a Hit:</strong> All tests roll ten-sided dice (d10). Any die showing <strong>8 or higher</strong> (8, 9, 10) scores a <strong style="color: var(--amber-dark);">Hit</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/hit.svg" alt="Hit"></span>).
+                            </p>
+
+                            <!-- Clean Schematic Diagram -->
+                            <div class="schematic-diagram">
+                                <div class="diagram-header">
+                                    <span>// RESOLUTION MATRIX // SYSTEM SCHEMATIC</span>
+                                    <span>D10 CORE</span>
+                                </div>
+                                <div class="diagram-grid">
+                                    <div class="diagram-node">
+                                        <div class="node-tag">Simple</div>
+                                        <div class="node-val" style="color: #22c55e;">1+ HIT</div>
+                                        <div class="node-desc">Higher Stat pool.<br>Binary 8+ check.</div>
+                                    </div>
+                                    <div class="diagram-node">
+                                        <div class="node-tag">Success</div>
+                                        <div class="node-val" style="color: #38bdf8;">MAX DIE</div>
+                                        <div class="node-desc">Higher Stat pool.<br>Degree / quality.</div>
+                                    </div>
+                                    <div class="diagram-node highlight">
+                                        <div class="node-tag">Complex</div>
+                                        <div class="node-val" style="color: #f59e0b;">2-STEP</div>
+                                        <div class="node-desc">Higher to hit (8+),<br>Lower for impact.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">04.2</span> The Three Test Frameworks</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.4;">
+                                <li><strong>Simple Test:</strong> Used for binary pass/fail situations (catching a tether, spotting an ambush, resisting toxins). Roll d10s equal to the <strong>higher</strong> Attribute in the pair. If at least one die rolls 8+, the action succeeds; if no die rolls 8+, it fails.</li>
+                                <li><strong>Complex Test:</strong> The standard framework for combat attacks and high-stakes operations where you need to answer both <em>"Did it connect?"</em> and <em>"How hard?"</em>:
+                                    <ol style="margin-left: 4mm; margin-top: 1mm; font-size: 7.8pt;">
+                                        <li><strong>Action Roll:</strong> Roll d10s equal to the <strong>higher</strong> Attribute. You must score at least one Hit (8+) to succeed and advance.</li>
+                                        <li><strong>Success Roll:</strong> Take a number of dice from the roll equal to the <strong>lower</strong> Attribute. The highest single die among them represents your <strong>Success Points (SP)</strong> / Damage.</li>
+                                    </ol>
+                                </li>
+                                <li><strong>Success Test:</strong> Used when success is guaranteed, but time or effort determines the degree of impact (slicing a data-terminal). Roll d10s equal to the <strong>higher</strong> Attribute; the highest single die becomes your Success Points.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 04</div>
+                    <div class="page-number">006</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 7: DICE STEPPING & CANONICAL GAMBITS (VERSO)
+                 ================================================================== -->
+            <article class="book-page page-left" id="page-7" data-page="7">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.05 // GAMBIT</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 05: PROBABILITY & GAMBITS</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 05.1 // STEPPING & THE GAMBIT TRACK</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash">
+                        <div class="ch-kicker">CH.05 // RISK & PROBABILITY</div>
+                        <h1 class="ch-title">DICE STEPPING & GAMBITS</h1>
+                        <div class="ch-subtitle">UPGRADES, DOWNGRADES, PROBABILITY & THE BANKED GAMBIT TRACK</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">05.1</span> Dice Stepping (Modifiers)</h2>
+                            <p>
+                                Rather than flat math modifiers, situational advantages and hazards alter the physical die type:
+                            </p>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.38;">
+                                <li><strong>Upgrade (<span class="c-icon"><img src="./assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"></span>):</strong> Step one d10 up to a <strong>d12</strong> per net Upgrade (boosting Hit chance to 41.7%). If all dice are d12s, each extra Upgrade adds an extra d10.</li>
+                                <li><strong>Downgrade (<span class="c-icon"><img src="./assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"></span>):</strong> Step one d10 down to a <strong>d8</strong> per net Downgrade (only an 8 hits; 12.5% chance). If all are d8s, extra Downgrades remove dice. If all dice are removed, roll <strong>2d8 and take the lower result</strong>.</li>
+                                <li><strong>Cancellation & Cap:</strong> Upgrades and Downgrades cancel 1-to-1, capped at a maximum of 6 Upgrades or 6 Downgrades.</li>
+                            </ul>
+
+                            <h3 class="sub-heading">Die Stepping Probability Matrix</h3>
+                            <table class="rules-table">
+                                <thead>
+                                    <tr>
+                                        <th>Pool Size</th>
+                                        <th>Downgrade (d8)</th>
+                                        <th>Standard (d10)</th>
+                                        <th>Upgrade (d12)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>1 Die</strong></td>
+                                        <td>12.5%</td>
+                                        <td>30.0%</td>
+                                        <td><strong style="color: var(--emerald-primary);">41.7%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2 Dice</strong></td>
+                                        <td>23.4%</td>
+                                        <td>51.0%</td>
+                                        <td><strong style="color: var(--emerald-primary);">66.0%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>3 Dice</strong></td>
+                                        <td>33.0%</td>
+                                        <td>65.7%</td>
+                                        <td><strong style="color: var(--emerald-primary);">80.2%</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>4 Dice</strong></td>
+                                        <td>41.4%</td>
+                                        <td>76.0%</td>
+                                        <td><strong style="color: var(--emerald-primary);">88.4%</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">05.2</span> The Canonical Gambit Rules</h2>
+                            <p>
+                                <strong>Gambit</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/gambit.svg" alt="Gambit"></span>) is a precious strategic pool of banked dice allowing operatives to turn defeat into victory:
+                            </p>
+
+                            <div class="panel panel-gambit">
+                                <div class="panel-head">
+                                    <span class="panel-title">◈ EARNING & SPENDING GAMBIT DICE</span>
+                                    <span class="panel-tag">RULEBOOK PROTOCOL</span>
+                                </div>
+                                <p style="font-size: 7.7pt; margin-bottom: 1.2mm;">
+                                    <strong>Earning Gambit:</strong> Whenever you roll your dice pool for any test, if any die shows its <strong>maximum possible value</strong> (a <strong>10</strong> on a d10, or a <strong>12</strong> on a d12), you have a choice: use that die in your test as normal, or <strong>"bank" it</strong>. Banking removes the die from your current roll and places it into your personal <strong>Gambit pool</strong> (stored on your character track, up to a maximum of 4 dice).
+                                </p>
+                                <p style="font-size: 7.7pt; margin-bottom: 1.2mm;">
+                                    <strong>Spending Gambit:</strong> You can spend a banked Gambit die on <em>any test</em> your character makes. You can declare you are spending Gambit at <em>any point</em>—before rolling, or after seeing the results to turn a failure into a success! When spent, roll the Gambit die and add its result into the pool. It retains its original die type even if the pool has Upgrades or Downgrades.
+                                </p>
+                                <p style="font-size: 7.7pt; margin-bottom: 0; color: var(--amber-dark);">
+                                    <strong>The Golden Rule of Gambit:</strong> A player can either spend or gain Gambit during a test, <strong>but not both</strong>. If you spend a Gambit die on a roll, you cannot bank any dice from that test; if you bank a die, you cannot spend Gambit on that roll.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 05</div>
+                    <div class="page-number">007</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 8: ACTION ECONOMY & TACTICAL EFFECTS (RECTO)
+                 ================================================================== -->
+            <article class="book-page page-right" id="page-8" data-page="8">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.06 // EFFECTS</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 06: TACTICAL EFFECTS</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 06.1 // AP & SACRIFICING HITS</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash">
+                        <div class="ch-kicker">CH.06 // COMBAT & MANEUVERS</div>
+                        <h1 class="ch-title">ACTION ECONOMY & EFFECTS</h1>
+                        <div class="ch-subtitle">THE 3 AP ROUND, CONTESTS & SACRIFICING HITS FOR BATTLEFIELD CONTROL</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">06.1</span> Action Economy: 3 AP</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>3 AP Standard:</strong> Characters start each round with <strong>3 Action Points</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/ap.svg" alt="AP"></span>). Refills to max at round start.</li>
+                                <li><strong>1 AP per Test:</strong> Executing any test costs 1 AP.</li>
+                                <li><strong>2 AP Pacing Threshold:</strong> Turn control immediately swaps to the opposing side once the active team spends <strong>2 or more AP</strong>.</li>
+                                <li><strong>Contesting an Action:</strong> Spend <strong>1 AP</strong> out of turn to roll a <strong style="color: var(--cyan-dark);">Contest Roll</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/contest.svg" alt="Contest"></span>). Each Hit (8+) eliminates the attacker's highest die!</li>
+                                <li><strong>Teamwork:</strong> Allies spend 1 AP each, roll pools, and can <strong>swap any number of dice</strong> between pools!</li>
+                            </ul>
+
+                            <h2 class="sec-heading"><span class="sec-num">06.2</span> Action Effects (Action Roll)</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>Upgrade Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"></span>):</strong> Spend 1 Hit to step up a die on subsequent rolls or immediately on your upcoming Success Roll (d10 ➔ d12).</li>
+                                <li><strong>Downgrade Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"></span>):</strong> Spend 1 Hit to impose an impending penalty on an enemy’s subsequent test (kicking their legs out, dazzling sensors, suppression), stepping down their die to a <strong>d8</strong>!</li>
+                                <li><strong>Blocker Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/blocker.svg" alt="Blocker"></span>):</strong> Spend <strong>2 Hits</strong> to set aside 1 lockout Hit that cancels the enemy's highest die.</li>
+                                <li><strong>Chain Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/chain.svg" alt="Chain"></span>):</strong> Spend 1 Hit per additional eligible target within range.</li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">06.3</span> Success Effects (Success Roll)</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 8pt; line-height: 1.35;">
+                                <li><strong>Crit Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/crit.svg" alt="Crit"></span>):</strong> Spend Hits on your Success Roll to add <strong>+2 Success Points</strong> per Hit spent directly to your highest remaining die.</li>
+                                <li><strong>Push Effect (<span class="c-icon"><img src="./assets/images/icons/mechanical/push.svg" alt="Push"></span>):</strong> Spend 1 Hit (requires Strength) to displace a target <strong>4 meters</strong> in any direction. You may move along with them.</li>
+                            </ul>
+
+                            <h3 class="sub-heading">Effects Master Reference Table</h3>
+                            <table class="rules-table">
+                                <thead>
+                                    <tr>
+                                        <th>Effect</th>
+                                        <th>Icon</th>
+                                        <th>Cost</th>
+                                        <th>Mechanical Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Crit</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/crit.svg" alt="Crit"></span></td>
+                                        <td>1 Hit (Success)</td>
+                                        <td>+2 Success Points per Hit spent.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Push</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/push.svg" alt="Push"></span></td>
+                                        <td>1 Hit (Success)</td>
+                                        <td>Displace target 4m (requires Strength).</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Upgrade</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"></span></td>
+                                        <td>1 Hit (Action)</td>
+                                        <td>Step up 1 die to d12 on subsequent roll.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Downgrade</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"></span></td>
+                                        <td>1 Hit (Action)</td>
+                                        <td>Step down 1 enemy die to d8 on next test.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Blocker</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/blocker.svg" alt="Blocker"></span></td>
+                                        <td>2 Hits (Action)</td>
+                                        <td>Set aside 1 Hit; cancels enemy max die.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Chain</strong></td>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/chain.svg" alt="Chain"></span></td>
+                                        <td>1 Hit (Action)</td>
+                                        <td>Strike +1 target with same Success Roll.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 06</div>
+                    <div class="page-number">008</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 9: LIVE PLAY — BREACHING VAULT 7 (VERSO)
+                 ================================================================== -->
+            <article class="book-page page-left" id="page-9" data-page="9">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.07 // DEMO</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 07: OPERATIONAL DEMO</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 07.1 // LIVE COMBAT SIMULATION</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash">
+                        <div class="ch-kicker">CH.07 // SIMULATION LOG</div>
+                        <h1 class="ch-title">BREACHING VAULT 7</h1>
+                        <div class="ch-subtitle">UNIFIED DEMONSTRATION OF AP, GAMBITS, TESTS & COMBAT EFFECTS</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">07.1</span> The Engagement Setup</h2>
+                            <p>
+                                Chartered Corsair Marshal <strong>Jax</strong> (Vanguard breacher) and Specialist <strong>Lyra</strong> (Weaver infiltrator) board an illicit syndicate scow in the Fume rings. An armored syndicate enforcer aims a heavy flechette shotgun down the pressurized corridor.
+                            </p>
+
+                            <h3 class="sub-heading">Round 1: Jax Initiates Breach (1 AP)</h3>
+                            <p>
+                                Jax spends 1 <span class="c-icon"><img src="./assets/images/icons/mechanical/ap.svg" alt="AP"></span> (2 AP remaining). He locks his mag-boots and levels his assault shotgun. The GM calls for a <strong>Finesse (4) + Strength (5)</strong> Complex Test. Jax rolls 5d10 for his Action Roll (higher stat):
+                            </p>
+                            <p style="font-family: 'Share Tech Mono', monospace; font-size: 8pt; color: var(--slate-charcoal);">
+                                Action Roll: [3, 5, 8, 9, 10]
+                            </p>
+                            <p>
+                                Jax scores three Hits (<code>8, 9, 10</code>)! The <code>10</code> is a maximum roll. Jax declares he is <strong>banking the 10 into his personal Gambit pool</strong>!
+                            </p>
+                            <p>
+                                With his remaining Hits (<code>8</code> and <code>9</code>), the attack connects. Jax keeps the <code>9</code> to ensure success, and sacrifices the extra Hit (<code>8</code>) on an <strong>Upgrade Effect</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"></span>) on his upcoming Success Roll.
+                            </p>
+
+                            <h3 class="sub-heading">Step 2: Success Roll & Crit Damage</h3>
+                            <p>
+                                Moving to his Success Roll for his lower stat (<strong>Finesse 4</strong>), Jax's Upgrade Effect steps one die up to a <strong>d12</strong>! Jax rolls 3d10 and 1d12: <code>[4, 6, 7 on d10s; 9 on d12]</code>.
+                            </p>
+                            <p>
+                                The <code>9</code> is a Hit! Jax sacrifices it for a <strong style="color: var(--amber-dark);">Crit Effect</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/crit.svg" alt="Crit"></span>), adding <strong>+2 Success Points</strong>. His highest remaining die is <code>7</code>. Total: <strong>7 + 2 = 9 SP</strong>! Adding shotgun bonus +2, Jax deals 11 kinetic damage, cracking the enforcer's chest plate.
+                            </p>
+                        </div>
+
+                        <div class="col">
+                            <h3 class="sub-heading">Round 1 (Cont.): Lyra's Downgrade (1 AP)</h3>
+                            <p>
+                                With 1 AP spent by Jax, <strong>Lyra</strong> spends 1 <span class="c-icon"><img src="./assets/images/icons/mechanical/ap.svg" alt="AP"></span> (2 AP remaining) to fire an EMP dazzler through the corridor, testing <strong>Knowledge (4) + Finesse (3)</strong>. She rolls 4d10: <code>[2, 7, 8, 9]</code>.
+                            </p>
+                            <p>
+                                Lyra spends one Hit (<code>8</code>) to impose a <strong>Downgrade Effect</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"></span>) on the enforcer's optical sensors, stepping down his next shot to a <strong>d8</strong>! Having spent 2 AP, turn control passes to the syndicate.
+                            </p>
+
+                            <h3 class="sub-heading">The Enemy Attack & Contest (1 AP)</h3>
+                            <p>
+                                The enforcer fires his flechette gun back at Jax. Due to Lyra's Downgrade Effect, his lead die steps down from a d10 to a <strong>d8</strong>. Jax spends 1 <span class="c-icon"><img src="./assets/images/icons/mechanical/ap.svg" alt="AP"></span> (1 AP remaining) out of turn to roll a <strong style="color: var(--cyan-dark);">Contest Roll</strong> (<span class="c-icon"><img src="./assets/images/icons/mechanical/contest.svg" alt="Contest"></span>) using Agility (4): rolling 4d10. Jax rolls <code>[3, 5, 8, 9]</code>—scoring two Contest Hits!
+                            </p>
+                            <p>
+                                Jax's two Contest Hits eliminate the enforcer's two highest dice. With no remaining 8+ dice in the enforcer's pool, the shot glances off Jax's riot shield!
+                            </p>
+
+                            <h3 class="sub-heading">Spending Banked Gambit to Crack the Door</h3>
+                            <p>
+                                An emergency lockdown seals the vault. Lyra plugs in her cyberdeck to bypass the door (requiring 1 Hit). She spends 1 AP and rolls <code>[3, 5, 7]</code>—a failure!
+                            </p>
+                            <p>
+                                Lyra decides to <strong>spend a banked Gambit die</strong> from her character pool. She rolls the extra d10: rolling an <strong>8</strong> (Hit)! Thanks to the Gambit die, the lockdown clears and Vault 7 swings open.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 07</div>
+                    <div class="page-number">009</div>
+                </footer>
+            </article>
+
+            <!-- ==================================================================
+                 PAGE 10: TACTICAL QUICK REFERENCE SHEET (RECTO)
+                 ================================================================== -->
+            <article class="book-page page-right" id="page-10" data-page="10">
+                <div class="thumb-tab">
+                    <span class="thumb-tab-label">CH.08 // REF</span>
+                </div>
+
+                <header class="page-header">
+                    <div>CORSAIR CORE RULEBOOK // CHAPTER 08: FIELD REFERENCE</div>
+                    <div class="tech-spec"><span class="square"></span> SEC. 08.1 // OPERATIONAL QUICK CARD</div>
+                </header>
+
+                <div class="page-body">
+                    <div class="chapter-splash theme-flotilla">
+                        <div class="ch-kicker">CH.08 // FIELD MANUAL</div>
+                        <h1 class="ch-title">TACTICAL QUICK REFERENCE</h1>
+                        <div class="ch-subtitle">DECISION MATRIX, ACTION ECONOMY & COMBAT FORMULAS</div>
+                    </div>
+
+                    <div class="two-column">
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">REF.1</span> Test Execution Matrix</h2>
+                            <table class="rules-table">
+                                <thead>
+                                    <tr>
+                                        <th>Test Type</th>
+                                        <th>Action Roll</th>
+                                        <th>Success Roll</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Simple</strong></td>
+                                        <td>Higher Stat (1+ Hit)</td>
+                                        <td>None (Binary outcome)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Complex</strong></td>
+                                        <td>Higher Stat (1+ Hit)</td>
+                                        <td>Lower Stat dice; Max die = SP</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Success</strong></td>
+                                        <td>Higher Stat pool</td>
+                                        <td>Max die = SP (Speed / quality)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <h2 class="sec-heading"><span class="sec-num">REF.2</span> Action Economy Summary</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 7.8pt; line-height: 1.35;">
+                                <li><strong>3 AP per Round:</strong> Refills automatically at round start.</li>
+                                <li><strong>1 AP per Test:</strong> Standard cost for any action or test.</li>
+                                <li><strong>2 AP Threshold:</strong> Initiative swaps to the opposing side after 2+ AP spent by the active team.</li>
+                                <li><strong>Contesting (1 AP):</strong> Out-of-turn Simple Test. Each Hit (8+) cancels 1 highest opponent die.</li>
+                                <li><strong>Delayed Actions (1 AP):</strong> Declare trigger and action. Resolves for 0 AP when triggered.</li>
+                            </ul>
+
+                            <h2 class="sec-heading"><span class="sec-num">REF.3</span> Stepping & Gambit Protocol</h2>
+                            <ul style="margin-left: 3.5mm; font-size: 7.8pt; line-height: 1.35;">
+                                <li><strong>Upgrade:</strong> d10 ➔ d12 (41.7% hit chance). Extra adds d10.</li>
+                                <li><strong>Downgrade:</strong> d10 ➔ d8 (12.5% hit chance). Extra removes dice.</li>
+                                <li><strong>Earning Gambit:</strong> Bank any natural max roll (10 on d10, 12 on d12) into track (max 4).</li>
+                                <li><strong>Spending Gambit:</strong> Add banked die to any roll at any time.</li>
+                                <li><strong>Golden Rule:</strong> Gain or spend Gambit on a test, never both.</li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h2 class="sec-heading"><span class="sec-num">REF.4</span> Effects Quick Catalog</h2>
+                            <table class="rules-table">
+                                <thead>
+                                    <tr>
+                                        <th>Effect</th>
+                                        <th>Roll Stage</th>
+                                        <th>Hit Cost</th>
+                                        <th>Impact</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/crit.svg" alt="Crit"></span> <strong>Crit</strong></td>
+                                        <td>Success Roll</td>
+                                        <td>1 Hit</td>
+                                        <td>+2 SP / Damage</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/push.svg" alt="Push"></span> <strong>Push</strong></td>
+                                        <td>Success Roll</td>
+                                        <td>1 Hit</td>
+                                        <td>Displace 4m (Strength)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"></span> <strong>Upgrade</strong></td>
+                                        <td>Action Roll</td>
+                                        <td>1 Hit</td>
+                                        <td>Step up die to d12</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"></span> <strong>Downgrade</strong></td>
+                                        <td>Action Roll</td>
+                                        <td>1 Hit</td>
+                                        <td>Step down enemy die to d8</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/blocker.svg" alt="Blocker"></span> <strong>Blocker</strong></td>
+                                        <td>Action Roll</td>
+                                        <td>2 Hits</td>
+                                        <td>Cancel enemy max die</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/chain.svg" alt="Chain"></span> <strong>Chain</strong></td>
+                                        <td>Action Roll</td>
+                                        <td>1 Hit</td>
+                                        <td>+1 Target for same SP</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <h2 class="sec-heading"><span class="sec-num">REF.5</span> Harm & Condition Tracks</h2>
+                            <table class="rules-table">
+                                <thead>
+                                    <tr>
+                                        <th>Condition</th>
+                                        <th>Track</th>
+                                        <th>Clinical Severity & Mechanical Impact</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"></span> <strong>Light Wound</strong></td>
+                                        <td>Physical</td>
+                                        <td>Standard damage; restored via Lesser Healing.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound"></span> <strong>Aggravated</strong></td>
+                                        <td>Physical</td>
+                                        <td>Severe trauma; full track causes <strong>Crippled</strong> (-2 Downgrades). All full = Death.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"></span> <strong>Light Stress</strong></td>
+                                        <td>Mental</td>
+                                        <td>Cognitive panic; all tracks filled locks out Gambit earn/spend.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="c-icon"><img src="./assets/images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress"></span> <strong>Aggravated</strong></td>
+                                        <td>Mental</td>
+                                        <td>Psychic collapse; operative becomes susceptible to command/fear.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <div>RULESET V4.2 // CLASSIFIED FLOTILLA DOSSIER</div>
+                    <div class="center-fluff">CORSAIR CORE RULES <span class="diamond">◈</span> SECTION 08</div>
+                    <div class="page-number">010</div>
+                </footer>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- ==========================================================================
+         VIEWER INTERACTIVE JAVASCRIPT (HANDLES 10 PAGES / 5 SPREADS)
+         ========================================================================== -->
+    <script>
+        let currentMode = 'spread';
+        let currentSpreadIndex = 0; // 0 = p1-2, 1 = p3-4, 2 = p5-6, 3 = p7-8, 4 = p9-10
+
+        const totalPages = 10;
+        const pages = [];
+        for (let i = 1; i <= totalPages; i++) {
+            pages.push(document.getElementById('page-' + i));
+        }
+
+        function setViewMode(mode) {
+            currentMode = mode;
+            document.body.classList.remove('mode-spread', 'mode-single', 'mode-scroll');
+            document.body.classList.add('mode-' + mode);
+
+            document.getElementById('btn-spread').classList.toggle('active', mode === 'spread');
+            document.getElementById('btn-single').classList.toggle('active', mode === 'single');
+            document.getElementById('btn-scroll').classList.toggle('active', mode === 'scroll');
+
+            if (mode === 'spread') {
+                currentSpreadIndex = Math.floor(currentSpreadIndex / 2);
+            } else if (mode === 'single') {
+                currentSpreadIndex = Math.min(currentSpreadIndex * 2, totalPages - 1);
+            }
+
+            const nav = document.getElementById('hud-nav-controls');
+            if (mode === 'scroll') {
+                nav.style.display = 'none';
+                pages.forEach(p => p.classList.add('active'));
+            } else {
+                nav.style.display = 'flex';
+                updatePageVisibility();
+            }
+        }
+
+        function updatePageVisibility() {
+            if (currentMode === 'spread') {
+                const p1 = currentSpreadIndex * 2;
+                const p2 = p1 + 1;
+                pages.forEach((page, idx) => {
+                    page.classList.toggle('active', idx === p1 || idx === p2);
+                });
+                document.getElementById('page-indicator').textContent = 
+                    `Spread ${currentSpreadIndex + 1} of 5 (Pages ${p1 + 1}–${p2 + 1})`;
+            } else if (currentMode === 'single') {
+                const activeIdx = currentSpreadIndex;
+                pages.forEach((page, idx) => {
+                    page.classList.toggle('active', idx === activeIdx);
+                });
+                document.getElementById('page-indicator').textContent = 
+                    `Page ${activeIdx + 1} of 10`;
+            }
+        }
+
+        function nextPage() {
+            if (currentMode === 'spread') {
+                if (currentSpreadIndex < 4) {
+                    currentSpreadIndex++;
+                    updatePageVisibility();
+                }
+            } else if (currentMode === 'single') {
+                if (currentSpreadIndex < totalPages - 1) {
+                    currentSpreadIndex++;
+                    updatePageVisibility();
+                }
+            }
+        }
+
+        function prevPage() {
+            if (currentSpreadIndex > 0) {
+                currentSpreadIndex--;
+                updatePageVisibility();
+            }
+        }
+
+        // Keyboard Arrow Navigation
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+                nextPage();
+            } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+                prevPage();
+            }
+        });
+
+        // Initialize default view
+        setViewMode('spread');
+    </script>
+</body>
+</html>

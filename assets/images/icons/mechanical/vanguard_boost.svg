@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
+  <!-- Primary Kinetic Thruster Chevron -->
+  <path d="M16 3 L28 15 L22 15 L22 23 L16 19 L10 23 L10 15 L4 15 Z" fill="#f97316" fill-opacity="0.25" stroke="#f97316" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Secondary Inner Velocity Arrow -->
+  <polygon points="16,8 21,14 16,12 11,14" fill="#fb923c"/>
+  <!-- Propulsion Exhaust Flame Plumes -->
+  <line x1="12" y1="23" x2="12" y2="28" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="16" y1="21" x2="16" y2="29" stroke="#fed7aa" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="20" y1="23" x2="20" y2="28" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+</svg>

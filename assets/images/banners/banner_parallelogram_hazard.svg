@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bg-hazard" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#121008"/>
+      <stop offset="50%" stop-color="#17140a"/>
+      <stop offset="100%" stop-color="#0d0b05"/>
+    </linearGradient>
+    <pattern id="hazard-chevrons" width="30" height="30" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#facc15" stroke-width="14"/>
+      <line x1="15" y1="0" x2="15" y2="30" stroke="#000000" stroke-width="14"/>
+    </pattern>
+  </defs>
+  <polygon points="30,4 1196,4 1170,156 4,156" fill="url(#bg-hazard)" stroke="#ca8a04" stroke-width="2"/>
+  <polygon points="30,4 85,4 59,156 4,156" fill="url(#hazard-chevrons)"/>
+  <line x1="88" y1="4" x2="62" y2="156" stroke="#facc15" stroke-width="2.5"/>
+  <line x1="95" y1="10" x2="1185" y2="10" stroke="#ca8a04" stroke-width="1.5" stroke-dasharray="16 4"/>
+  <text x="105" y="32" font-family="'Share Tech Mono', monospace" font-size="11" fill="#facc15" letter-spacing="2">[ CRITICAL ADVISORY // DECOMPRESSION WARNING ]</text>
+  <text x="1155" y="32" text-anchor="end" font-family="'Share Tech Mono', monospace" font-size="11" fill="#dc2626" letter-spacing="1">LETHAL</text>
+</svg>

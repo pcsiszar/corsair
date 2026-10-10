@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
+  <!-- Armor Diamond Tile -->
+  <polygon points="16,3 29,16 16,29 3,16" fill="#dc2626" fill-opacity="0.18" stroke="#dc2626" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Single Diagonal Incision / Trauma Slash -->
+  <line x1="22" y1="9" x2="10" y2="23" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <!-- Transverse Stabilizer Notches -->
+  <line x1="14" y1="12" x2="18" y2="15" stroke="#f87171" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="10" y1="17" x2="14" y2="20" stroke="#f87171" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

@@ -172,6 +172,36 @@ High-density tables with zebra striping and subsection banner rows:
 <span class="badge red">Hazard</span>
 ```
 
+### 4.7. Mechanical In-Line Icons (`.c-icon`)
+Standardized inline SVG glyphs from `assets/images/icons/mechanical/` (`ap.svg`, `hit.svg`, `crit.svg`, `upgrade.svg`, `downgrade.svg`, `blocker.svg`, `gambit.svg`, `chain.svg`, `push.svg`, `contest.svg`):
+
+```html
+<span class="c-icon" title="Crit"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span>
+```
+
+```css
+.c-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: -0.16em;
+    width: 1.22em;
+    height: 1.22em;
+    margin: 0 0.1em;
+    flex-shrink: 0;
+}
+
+.c-icon img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+```
+
+* **Space-Saving Rule:** When an icon is used, omit the name of the effect after it (e.g., `0 <span class="c-icon" title="AP"><img .../></span> · +1 Chg`, `<span class="c-icon" title="Crit"><img .../></span> grants 3 SP`, `Apply 1 <span class="c-icon" title="Downgrade"><img .../></span>/Chg`).
+* **Tooltips:** Always include `title="..."` for interactive hover legibility in digital viewers.
+
 ---
 
 ## 5. Workflow for Creating a New Sheet

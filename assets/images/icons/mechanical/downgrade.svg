@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
+  <!-- Downward Double Step Chevrons (d10 -> d8) -->
+  <path d="M6 10 L16 20 L26 10" stroke="#991b1b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 18 L16 28 L26 18" stroke="#dc2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

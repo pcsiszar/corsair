@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
+  <!-- Outer Triangle Frame -->
+  <polygon points="16,3 29,27 3,27" stroke="#0f172a" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- Top Segment: Flame (Orange) -->
+  <polygon points="16,3 22.5,15 16,19 9.5,15" fill="#f97316" stroke="#ea580c" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- Bottom-Left Segment: Frost (Light Blue) -->
+  <polygon points="9.5,15 16,19 16,27 3,27" fill="#38bdf8" stroke="#0284c7" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- Bottom-Right Segment: Lightning (Purple) -->
+  <polygon points="22.5,15 29,27 16,27 16,19" fill="#a855f7" stroke="#7c3aed" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- Internal Partition Seam Lines -->
+  <line x1="16" y1="19" x2="16" y2="27" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="16" y1="19" x2="9.5" y2="15" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="16" y1="19" x2="22.5" y2="15" stroke="#0f172a" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Central Capacitor Core Node -->
+  <circle cx="16" cy="19" r="2.2" fill="#ffffff" stroke="#0f172a" stroke-width="1.4"/>
+</svg>

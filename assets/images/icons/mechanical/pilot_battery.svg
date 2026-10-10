@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
+  <!-- Terminal Cap -->
+  <path d="M12 4 H20 V6 H12 Z" fill="#22c55e" stroke="#16a34a" stroke-width="1.2"/>
+  <!-- Main Battery Casing -->
+  <rect x="6" y="6" width="20" height="22" rx="2.5" fill="#16a34a" fill-opacity="0.2" stroke="#22c55e" stroke-width="2.2"/>
+  <!-- Segmented Solid-State Energy Cells -->
+  <rect x="9.5" y="10" width="13" height="3.5" rx="1" fill="#4ade80"/>
+  <rect x="9.5" y="15.5" width="13" height="3.5" rx="1" fill="#4ade80"/>
+  <rect x="9.5" y="21" width="13" height="3.5" rx="1" fill="#4ade80"/>
+</svg>
