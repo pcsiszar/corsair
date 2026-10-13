@@ -7,10 +7,9 @@
 
 ---
 
-## Inspirations & Acknowledgments
+## Preamble: A Note From the Author
 
-> [!NOTE]
-> **TODO:** Author acknowledgments and inspirations section (see [Acknowledgments & Inspirations](Acknowledgments.md)).
+For the author's note on design musings, ruleset history, setting inspirations, and personal acknowledgments, see **[Preamble: A Note From the Author](Acknowledgments.md)**.
 
 ---
 
@@ -62,33 +61,37 @@ To play Corsair, you will need a few essentials:
 
 ## Reader's Guide: How to Use This Book
 
-This rulebook is organized into five functional sections designed to get you from character conception to active play as cleanly as possible:
+This rulebook is organized into five functional sections designed to take you from foundational mechanics to active campaign play:
 
-### [Part I: Operatives & Classes](character/Player_Characters.md)
-Everything needed to build and develop your Corsair operative.
-* **[Character Creation](character/Creation.md):** Step-by-step procedures for assigning attributes, training skills, selecting background traits, and choosing starting equipment.
+### [Part I: Core Rules & Engine](Rulebook.md#chapter-3-core-mechanics)
+The fundamental mechanics that power every test, decision, and scene in the game.
+* **[Core Mechanics](Rulebook.md#chapter-3-core-mechanics):** The foundational rules of Attributes, Attribute Pairs, Simple Tests (binary success), Success Tests (degree of achievement), Complex Tests (action + quality), and Upgrades & Downgrades.
+* **[Resolution Nuances](core/Contest.md):** Contesting Tests, [Gambits](core/Gambit.md), [Teamwork](core/Teamwork.md), and [Effects](core/Effects.md).
+* **[Scenes, Pacing & Action Points](Rulebook.md#chapter-4-scenes-pacing-and-action):** Zooming between Day-to-Day shifts and high-stakes Moment-to-Moment rounds, the 3 Action Point economy, turn swaps, and delayed actions.
+
+### [Part II: Character Creation & Classes](character/Player_Characters.md)
+Everything you need to conceive, build, and advance your Corsair operative.
+* **[Player Characters](character/Player_Characters.md):** Core Attributes, Derived Attributes, Skills, and [Condition](character/Condition.md) (wounds and stress).
+* **[Character Creation](character/Creation.md):** Step-by-step procedures for assigning attributes, training skills, and choosing starting equipment.
+* **[Traits & Lineages](character/Traits.md):** Origin traits, cultural adaptations, and operational quirks that distinguish your operative's physiology and background.
 * **[Classes & MANTLE Rigs](classes/Classes.md):** The five operational chassis: the energy-channeling **[Conduit](classes/Conduit.md)**, the biochemical **[Hazard](classes/Hazard.md)**, the drone-linking **[Pilot](classes/Pilot.md)**, the kinetic bulwark **[Vanguard](classes/Vanguard.md)**, and the nanite-weaving **[Weaver](classes/Weaver.md)**.
-* **[Advancement](character/Advancement.md):** How operatives earn experience, refine skills, upgrade attributes, and progress through career milestones during downtime.
+* **[Advancement](character/Advancement.md):** How operatives earn experience, refine skills, upgrade attributes, and achieve career milestones during downtime.
 
-### [Part II: Tactical Engine & Combat](core/Contest.md)
-The core rules governing action resolution, scene pacing, and tactical combat.
-* **[Core Mechanics](Rulebook.md#chapter-3-core-mechanics):** The foundational rules of Attributes, Attribute Pairs, Simple Tests (binary success), Success Tests (degree of achievement), and Complex Tests (action + quality).
-* **[Scenes & Action Points](Rulebook.md#chapter-4-scenes-pacing-and-action):** Pacing scenes from Day-to-Day shifts to high-stakes Moment-to-Moment rounds, the 3 Action Point economy, turn order, and teamwork coordination.
-* **[Tactical Combat](combat/Combat.md):** Movement, close-quarters combat, dynamic cover, line of sight, and damage resolution.
+### [Part III: Advanced Operations: Combat, Hardware & Downtime](combat/Combat.md)
+The tactical systems, armaments, voidcraft, and operational downtime that keep Corsairs alive and solvent.
+* **[Tactical Combat](combat/Combat.md):** Movement, grid and abstract occupancy, close-quarters combat (CQC), dynamic cover, and damage resolution.
+* **[Personal Armory & Hardware](equipment/Equipment.md):** Catalogs of kinetic [Firearms](equipment/Firearms.md), [Melee Weapons](equipment/Melee.md), [Armor](equipment/Armor.md), [Field Gear](equipment/Gear.md), and rare Precursor [Exotic Hardware](equipment/Exotic_Hardware.md).
+* **[Starships & Space Combat](ships/Starships.md):** Comprehensive rules for [Starship Operations](ships/Ship_Rules.md), Brachistochrone burns, [Ship Weapons](ships/Ship_Weapons.md), [Internal Modules](ships/Internal_Modules.md), and [The Hangar Bay](ships/Hangar_Bay.md).
+* **[Downtime & Operations](downtime/Downtime.md):** The 24-hour downtime cycle, shifts, long rests, medical recovery, starship maintenance, commercial bazaars, and the master d100 freelance odd jobs table.
 
-### [Part III: Hardware & Starships](equipment/Equipment.md)
-The tools, armaments, and vessels that keep Corsairs alive in the void.
-* **[Personal Armory](equipment/Equipment.md):** Catalogs of [Firearms](equipment/Firearms.md), [Melee Weapons](equipment/Melee.md), [Armor](equipment/Armor.md), [Field Gear](equipment/Gear.md), and rare [Exotic Hardware](equipment/Exotic_Hardware.md).
-* **[Starships & Fleet Operations](ships/Ship_Rules.md):** Comprehensive rules for starship hulls, Brachistochrone burns, [Ship Weapons](ships/Ship_Weapons.md), [Internal Modules](ships/Internal_Modules.md), and [The Hangar Bay](ships/Hangar_Bay.md).
+### [Part IV: Worlds of the Sphere (The Setting & Lore)](lore/locations/README.md)
+The celestial gazetteer, faction dossiers, history, and fiction of the setting.
+* **[Planetary Gazetteer](lore/locations/README.md):** Macro-engineering of the [Sphere](lore/locations/Sphere.md), the Newcomer heartland in the [Fume Cluster](lore/locations/Fume.md), the historic cradle of [Landfall](lore/locations/Landfall.md), and the sovereign [X'ara Cluster](lore/locations/X'ara.md).
+* **[Factions & Powers](lore/factions/README.md):** Dossiers on the [Sovereign Colonies](lore/factions/Colonies.md), [Megacorporations](lore/factions/Corporations.md), the [Flotilla](lore/factions/Flotilla.md), and the [Underworld](lore/factions/Underworld.md).
+* **[The Corsairs](lore/Corsairs.md) & [Timeline](lore/Timeline.md):** The legal mandate of Corsairs, the 500-year history since arrival, and [Stories of the Sphere](stories/README.md).
 
-### [Part IV: The Warden's Dossier](gm/Running_the_Game.md)
-Procedures, tools, and tactical systems for the Game Master.
-* **[Downtime & Operations](gm/Downtime.md):** The 24-hour downtime cycle, long rests, medical services, repair bills, commercial shopping, and the master d100 freelance gigs table.
-* **[Running the Game](gm/Running_the_Game.md):** Guidelines for [Time Management](gm/Time_Management.md), [Social Interactions](gm/Social_Interactions.md), [Stealth & Infiltration](gm/Stealth_and_Infiltration.md), [Investigation](gm/Investigation_and_Exploration.md), and [Chases & Pursuits](gm/Chases_and_Pursuits.md).
-* **[Threats of the Sphere](gm/Bestiary.md):** Statblocks and tactics for corporate strike teams, pirate raiders, automated security drones, and dangerous fauna.
-
-### [Part V: Worlds of the Sphere](lore/locations/README.md)
-The comprehensive setting gazetteer, faction dossiers, and historical records.
-* **[Planetary Gazetteer](lore/locations/README.md):** Celestial mechanics of the [Sphere](lore/locations/Sphere.md), the Newcomer heartland in the [Fume Cluster](lore/locations/Fume.md), the historic moon of [Landfall](lore/locations/Landfall.md), and the sovereign [X'ara Cluster](lore/locations/X'ara.md).
-* **[Factions of the Sphere](lore/factions/README.md):** Dossiers on the [Sovereign Colonies](lore/factions/Colonies.md), [Megacorporations](lore/factions/Corporations.md), the [Flotilla](lore/factions/Flotilla.md), and the [Underworld](lore/factions/Underworld.md).
-* **[Timeline](lore/Timeline.md) & [Fiction Anthology](stories/README.md):** Historical timeline from 0 to 518 AA and short stories capturing life across the void.
+### [Part V: The Warden's Dossier (The GM Section)](gm/Running_the_Game.md)
+Procedures, campaign structures, threat rosters, and mission generators for running the game.
+* **[Running the Game](gm/Running_the_Game.md):** Core guidelines for [Time Management](gm/Time_Management.md), [Social Interactions](gm/Social_Interactions.md), [Stealth & Infiltration](gm/Stealth_and_Infiltration.md), [Investigation](gm/Investigation_and_Exploration.md), [Chases & Pursuits](gm/Chases_and_Pursuits.md), and [Tracks](gm/Tracks.md).
+* **[Threats of the Sphere](gm/Bestiary.md):** Tactical profiles and statblocks for corporate security, pirates, drone swarms, void horrors, and [NPC Guidelines](gm/NPC_Guidelines.md).
+* **[Missions & Contracts](gm/Mission_Generator.md):** Procedural [Mission Generator](gm/Mission_Generator.md) and [Open Play Contracts](gm/Open_Play_Missions.md).

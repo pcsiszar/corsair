@@ -4,7 +4,7 @@
 
 - [Introduction](Introduction.md)
     - [Welcome to Corsair](Introduction.md#welcome-to-corsair)
-    - [Inspirations & Thanks](Acknowledgments.md)
+    - [Preamble: A Note From the Author](Acknowledgments.md)
     - [Who Are the Corsairs?](Introduction.md#who-are-the-corsairs)
     - [What is a Roleplaying Game?](Introduction.md#what-is-a-roleplaying-game)
     - [Reader's Guide: How to Use This Book](Introduction.md#readers-guide-how-to-use-this-book)
@@ -73,16 +73,16 @@
     - [Internal Modules](ships/Internal_Modules.md)
     - [The Hangar Bay](ships/Hangar_Bay.md)
     - [Crew & Starship Sheet](character/Crew_Sheet.html)
-- [Chapter 9: Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
-    - [The 24-Hour Downtime Cycle](gm/Downtime.md#1-the-24-hour-downtime-round--shift-structure)
-    - [Supplies & Operating Runway](gm/Downtime.md#2-supplies--operating-runway)
-    - [Recovery, Long Rest & Healthcare](gm/Downtime.md#3-recovery-long-rest--healthcare-services)
-    - [Training & Advancement](gm/Downtime.md#4-training--character-progression)
-    - [Starship Maintenance & The Ship Fund](gm/Downtime.md#5-starship-maintenance--the-ship-fund)
-    - [Shopping & Bazaars](gm/Downtime.md#6-shopping--commercial-bazaars)
-    - [Interplanetary Travel](gm/Downtime.md#7-interplanetary-travel--fuel-consumption)
-    - [Contracts & Missions](gm/Downtime.md#8-contracts--mission-overview)
-    - [Freelance Gigs & d100 Master Table](gm/Downtime.md#9-freelance-work--the-master-d100-odd-jobs-table)
+- [Chapter 9: Downtime & Operations](downtime/Downtime.md) ([Reference Sheet](downtime/Downtime_Sheet.html) · [Freelance Gigs Sheet](downtime/Freelance_Gigs_Sheet.html))
+    - [The 24-Hour Downtime Cycle](downtime/Downtime.md#1-the-24-hour-downtime-round--shift-structure)
+    - [Supplies & Operating Runway](downtime/Downtime.md#2-supplies--operating-runway)
+    - [Recovery, Long Rest & Healthcare](downtime/Downtime.md#3-recovery-long-rest--healthcare-services)
+    - [Training & Advancement](downtime/Downtime.md#4-training--character-progression)
+    - [Starship Maintenance & The Ship Fund](downtime/Downtime.md#5-starship-maintenance--the-ship-fund)
+    - [Shopping & Bazaars](downtime/Downtime.md#6-shopping--commercial-bazaars)
+    - [Interplanetary Travel](downtime/Downtime.md#7-interplanetary-travel--fuel-consumption)
+    - [Contracts & Missions](downtime/Downtime.md#8-contracts--mission-overview)
+    - [Freelance Gigs & d100 Master Table](downtime/Downtime.md#9-freelance-work--the-master-d100-odd-jobs-table)
 - [Chapter 10: Running the Game](gm/Running_the_Game.md)
     - [Time Management](gm/Time_Management.md)
     - [Social Interactions](gm/Social_Interactions.md)
@@ -97,7 +97,7 @@
 ## Introduction
 
 For the complete system introduction, elevator pitch, Corsair Cell overview, and reader's roadmap, see **[Introduction](Introduction.md)**.
-For creative inspirations, media influences, and playtest acknowledgments, see **[Inspirations & Special Thanks](Acknowledgments.md)**.
+For the author's personal note on influences, design history, and special thanks, see **[Preamble: A Note From the Author](Acknowledgments.md)**.
 
 ## Chapter 2: The World of Corsair
 
@@ -418,13 +418,12 @@ into **Moment to Moment** pacing.
 
 ## Chapter 9: Downtime & Operations
 
-[Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
+[Downtime & Operations](downtime/Downtime.md) ([Reference Sheet](downtime/Downtime_Sheet.html) · [Freelance Gigs Sheet](downtime/Freelance_Gigs_Sheet.html))
 
 ## Chapter 10: Running the Game
 
 [Running the Game](gm/Running_the_Game.md)
 * [Time Management & Pacing](gm/Time_Management.md)
-* [Downtime & Operations](gm/Downtime.md) ([Reference Sheet](gm/Downtime_Sheet.html) · [Freelance Gigs Sheet](gm/Freelance_Gigs_Sheet.html))
 * [Social Interactions & Negotiations](gm/Social_Interactions.md)
 * [Stealth & Infiltration](gm/Stealth_and_Infiltration.md)
 * [Investigation & Exploration](gm/Investigation_and_Exploration.md)
