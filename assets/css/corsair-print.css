@@ -1,0 +1,100 @@
+/* =============================================================================
+   CORSAIR TTRPG DESIGN SYSTEM — PRINT & PDF RULES
+   Strict @media print rules for ISO A4 and US Letter hardcover offset printing.
+   ============================================================================= */
+
+@page {
+    size: A4 portrait;
+    margin: 14mm 12mm 16mm 12mm;
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 8pt;
+    }
+}
+
+@media print {
+    /* RESET SCREEN CANVAS TO PURE WHITE */
+    html, body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    /* HIDE DIGITAL HUDS & INTERACTIVE ELEMENTS */
+    .book-nav, .no-print {
+        display: none !important;
+    }
+
+    /* PAGE BREAK INVARIANTS */
+    .book-page {
+        width: 100% !important;
+        max-width: none !important;
+        min-height: auto !important;
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        break-after: page;
+        page-break-after: always;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .cover-page {
+        break-after: page;
+        page-break-after: always;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* KEEP SECTIONS AND STAT BLOCKS TOGETHER */
+    .keep-together, .callout, .table-container, .toc-act-block {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    /* TYPOGRAPHY CONTRAST OVERRIDES */
+    h1, h2, h3, h4, p, td, th {
+        color: #000000 !important;
+    }
+
+    h1 {
+        border-bottom-color: #000000 !important;
+    }
+
+    h2 {
+        border-left-color: #000000 !important;
+    }
+
+    .callout {
+        border-color: #444444 !important;
+        border-left: 4px solid #000000 !important;
+        background: #f9f9f9 !important;
+    }
+
+    .toc-item a {
+        color: #000000 !important;
+    }
+
+    /* HIGH-CONTRAST DATA TABLES */
+    .table-header {
+        background: #000000 !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    table.rules-table th {
+        background: #eeeeee !important;
+        border-bottom: 1.5px solid #000000 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    table.rules-table td {
+        border-bottom: 1px solid #cccccc !important;
+    }
+}

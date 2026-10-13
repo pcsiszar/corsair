@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none">
-  <!-- 45-Degree Rotated Square Diamond (Matching Wounds) -->
-  <polygon points="16,3 29,16 16,29 3,16" fill="#7c3aed" fill-opacity="0.18" stroke="#8b5cf6" stroke-width="2.2" stroke-linejoin="round"/>
-  <!-- Single Diagonal Synaptic Tension Slash -->
-  <line x1="22" y1="9" x2="10" y2="23" stroke="#a855f7" stroke-width="3" stroke-linecap="round"/>
-  <!-- Transverse Brainwave / Synaptic Shear Notches -->
-  <line x1="14" y1="12" x2="18" y2="15" stroke="#c084fc" stroke-width="1.6" stroke-linecap="round"/>
-  <line x1="10" y1="17" x2="14" y2="20" stroke="#c084fc" stroke-width="1.6" stroke-linecap="round"/>
-  <!-- Central Neural Focus Dot -->
-  <circle cx="16" cy="16" r="1.6" fill="#f3e8ff"/>
+  <!-- Stylized Brain Profile / Dual Lobes -->
+  <!-- Left Lobe -->
+  <path d="M 15,5 C 11.5,4 6,6.5 5,11 C 4,15 6,17.5 5,20 C 4.2,22 6.5,26.5 11,26.5 C 13.5,26.5 14.5,25 15,24 Z" 
+        fill="#7c3aed" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Right Lobe -->
+  <path d="M 17,5 C 20.5,4 26,6.5 27,11 C 28,15 26,17.5 27,20 C 27.8,22 25.5,26.5 21,26.5 C 18.5,26.5 17.5,25 17,24 Z" 
+        fill="#7c3aed" fill-opacity="0.22" stroke="#8b5cf6" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Central Fissure -->
+  <line x1="16" y1="5" x2="16" y2="24" stroke="#8b5cf6" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Inner Neural Convolutions / Sulci -->
+  <path d="M 8,13 C 11,13 12,15 14.5,15" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 24,13 C 21,13 20,15 17.5,15" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 8,20 C 11,19 12,21 14.5,20" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 24,20 C 21,19 20,21 17.5,20" stroke="#a78bfa" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Single Strike / Cut Line with White Underlay for B&W Contrast -->
+  <line x1="26" y1="6" x2="6" y2="25" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round"/>
+  <line x1="26" y1="6" x2="6" y2="25" stroke="#7c3aed" stroke-width="2.6" stroke-linecap="round"/>
 </svg>

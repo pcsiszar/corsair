@@ -18,7 +18,4 @@
   <line x1="68" y1="12" x2="1130" y2="12" stroke="#1e3a5f" stroke-width="1.5"/>
   <line x1="44" y1="148" x2="1106" y2="148" stroke="#1e3a5f" stroke-width="1.5"/>
   <line x1="24" y1="4" x2="36" y2="4" stroke="#38bdf8" stroke-width="2"/>
-  <line x1="1164" y1="156" x2="1176" y2="156" stroke="#38bdf8" stroke-width="2"/>
-  <text x="80" y="32" font-family="'Share Tech Mono', monospace" font-size="11" fill="#38bdf8" letter-spacing="2">FLOTILLA COMMAND // ACCORDS SECTOR 04 // MANDATE: ACTIVE</text>
-  <text x="1090" y="32" text-anchor="end" font-family="'Share Tech Mono', monospace" font-size="11" fill="#64748b" letter-spacing="1">REF.518-AA</text>
 </svg>

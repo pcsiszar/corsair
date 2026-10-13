@@ -1,6 +1,12 @@
 # Welcome to the Sphere
 
-> ### The Elevator Pitch
+> [!NOTE]
+> The primary rulebook elevator pitch, game premise, and Corsair Cell overview have been consolidated into the master **[Rulebook Introduction](../Introduction.md)**.
+> For specific lore and setting gazetteers, explore the links below and the [Locations Directory](locations/README.md).
+
+---
+
+> ### The Setting at a Glance
 > ***Corsair*** is a tabletop roleplaying game of high-stakes frontier adventure, mystery, and intrigue, blending the mythic wonder of **Space Fantasy** with the grounded weight of **Hard Science Fiction**. Set within the **Sphere**—a breathtaking, macro-engineered solar system featuring more than a hundred habitable worlds locked in tight binary orbits around colossal gas giants—the setting pairs ancient cosmic dragons, forgotten alien vaults, and diverse lineages with the tangible reality of sub-light orbital mechanics and kinetic weaponry.
 > 
 > You and your crew play a **Corsair Cell**: licensed, independent operatives flying a nimble starship with a cross-jurisdictional charter. When planetary law ends at the clouds and the naval peacekeepers are light-minutes away, your sponsors call on you. Whether investigating corporate sabotage in an orbital arcology, braving hazardous Precursor ruins in search of lost technology, unmasking political conspiracies, or negotiating tense standoffs across a fraying frontier, your crew stands as the thin line holding a young civilization together.

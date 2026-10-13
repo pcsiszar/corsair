@@ -2,25 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Corsair — Vanguard Class Sheet</title>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Barlow:wght@300;400;600&family=Share+Tech+Mono&display=swap"
+          rel="stylesheet"/>
     <style>
         /* ======================================================  TOKENS  */
         :root {
             --black: #080a0c;
-            --dark: #10131a;
-            --mid: #181c24;
-            --surface: #1d2130;
-            --border: #2a3040;
+            --dark: #0f131a;
+            --mid: #161b24;
+            --surface: #1b202e;
+            --border: #283142;
+            --border-light: #374359;
             --accent: #c8a84b;
+            --accent-bright: #f59e0b;
             --accent-dim: #7a6428;
             --red: #a02828;
             --text: #ccc7ba;
-            --text-dim: #6a6458;
-            --text-muted: #3e3c36;
-            --stripe: rgba(200, 168, 75, 0.03);
+            --text-dim: #736d60;
+            --text-muted: #423f38;
+            --stripe: rgba(200, 168, 75, 0.025);
+
+            /* Vanguard Board Form Spot Colors */
+            --shield: #f59e0b;
+            --shield-dim: #b45309;
+            --glider: #38bdf8;
+            --glider-dim: #0284c7;
+            --cannon: #ef4444;
+            --cannon-dim: #b91c1c;
         }
 
         *, *::before, *::after {
@@ -30,21 +41,21 @@
         }
 
         html {
-            font-size: 7.8pt;
+            font-size: 7.05pt;
         }
 
         body {
             font-family: 'Barlow', sans-serif;
             background: var(--black);
             color: var(--text);
-            line-height: 1.25;
+            line-height: 1.18;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
         }
 
         @page {
             size: A4;
-            margin: 3.5mm;
+            margin: 3mm;
         }
 
         @media print {
@@ -58,26 +69,48 @@
                 --mid: #ffffff;
                 --surface: #ffffff;
                 --border: #888888;
+                --border-light: #cccccc;
                 --accent: #000000;
+                --accent-bright: #000000;
                 --accent-dim: #333333;
                 --red: #8b1a1a;
                 --text: #000000;
                 --text-dim: #333333;
                 --text-muted: #666666;
                 --stripe: transparent;
+                --shield: #000000;
+                --glider: #000000;
+                --cannon: #000000;
+            
+            .foot-legend {
+                background: #f8fafc !important;
+                border-color: #cbd5e1 !important;
+                color: #334155 !important;
             }
+            .legend-tag {
+                color: #0284c7 !important;
+                border-color: #cbd5e1 !important;
+            }
+            .legend-item strong {
+                color: #0f172a !important;
+            }
+            .legend-item.res-token strong {
+                color: #b45309 !important;
+            }
+            .foot-bottom {
+                color: #475569 !important;
+            }
+        }
 
-            .page {
+        .page {
                 background: #ffffff !important;
                 box-shadow: none !important;
                 padding: 0 !important;
                 margin: 0 !important;
                 border: none !important;
-                height: 100vh !important;
-                max-height: 290mm !important;
             }
 
-            .page::before {
+            .page::before, .page::after {
                 display: none !important;
             }
 
@@ -86,12 +119,16 @@
                 color: #000000 !important;
                 border: 1px solid #000000 !important;
                 clip-path: none !important;
-                padding-right: 5mm !important;
+                padding-right: 2.5mm !important;
                 min-width: unset !important;
             }
 
-            .mh-logo svg {
-                fill: #000000 !important;
+            .mh-corsair-star {
+                filter: contrast(1.2) !important;
+            }
+
+            .mh-logo .logo-text {
+                color: #000000 !important;
             }
 
             .card-hd {
@@ -102,9 +139,20 @@
                 fill: #000000 !important;
             }
 
-            .id-field, .attr-block, .xc-block, .rank-box, .attr-box, .g-slot, .pip, .trait-status .ub, .form-slot, .form-track-col {
+            .attr-box, .form-slot, .chk-box, .mod-check, .d10-footprint {
                 background: #ffffff !important;
                 border-color: #000000 !important;
+            }
+
+            .skill-table th {
+                background: #ffffff !important;
+                color: #000000 !important;
+                border-bottom: 1px solid #000000 !important;
+            }
+
+            .form-track-col {
+                border-color: #000000 !important;
+                background: #ffffff !important;
             }
 
             .form-slot-label {
@@ -117,28 +165,22 @@
                 border-top-color: #000000 !important;
             }
 
-            .skill-table th {
-                background: #ffffff !important;
+            .profile-tag {
+                background: #eeeeee !important;
                 color: #000000 !important;
-                border-bottom: 1px solid #000000 !important;
+                border: 1px solid #888888 !important;
             }
 
-            .fl, .note-line {
-                border-bottom-color: #888888 !important;
-            }
-
-            .skill-section-hd td {
-                background: #f0f0f0 !important;
-                color: #000000 !important;
-                border-color: #000000 !important;
+            .c-icon img {
+                filter: grayscale(100%) contrast(150%) !important;
             }
         }
 
         .page {
             width: 210mm;
-            height: 290mm;
+            min-height: 297mm;
             margin: 0 auto;
-            padding: 3.5mm 4mm;
+            padding: 3mm 3.5mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -146,61 +188,111 @@
             flex-direction: column;
         }
 
+        /* Subtle tactical grid */
         .page::before {
             content: '';
             position: absolute;
             inset: 0;
-            background-image: linear-gradient(rgba(200, 168, 75, 0.016) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(200, 168, 75, 0.016) 1px, transparent 1px);
+            background-image: linear-gradient(rgba(200, 168, 75, 0.015) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(200, 168, 75, 0.015) 1px, transparent 1px);
             background-size: 18px 18px;
             pointer-events: none;
+            z-index: 0;
         }
 
+        /* Subtle Corsair Five-Pointed Star Watermark */
+        .page::after {
+            content: '';
+            position: absolute;
+            bottom: -35mm;
+            left: -35mm;
+            width: 170mm;
+            height: 170mm;
+            background: url('../../assets/images/icons/factions/insignia_corsairs.png') no-repeat center center;
+            background-size: contain;
+            opacity: 0.025;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ======================================================  MECHANICAL ICONS  */
+        .c-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: -0.16em;
+            width: 1.22em;
+            height: 1.22em;
+            margin: 0 0.1em;
+            flex-shrink: 0;
+        }
+
+        .c-icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: contain;
+        }
+
+        /* ======================================================  MASTHEAD  */
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 2.5mm;
-            border: 1px solid var(--accent-dim);
+            margin-bottom: 1.5mm;
+            border: 1px solid var(--border-light);
+            border-top: 2.5px solid var(--accent);
+            border-radius: 2px;
             background: var(--mid);
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
         }
 
         .mh-logo {
-            background: var(--accent);
-            color: var(--black);
-            padding: 2.5mm 4mm;
+            background: linear-gradient(135deg, #070b14 0%, #101726 100%);
+            border-right: 1.5px solid var(--accent);
+            padding: 1.0mm 2.2mm;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 50%, calc(100% - 9px) 100%, 0 100%);
-            padding-right: 12mm;
             min-width: 20mm;
+            position: relative;
         }
 
-        .mh-logo svg {
-            width: 19px;
-            height: 19px;
-            fill: var(--black);
+        .mh-corsair-star {
+            width: 8.5mm;
+            height: 8.5mm;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+            display: block;
         }
 
         .mh-logo .logo-text {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 900;
-            font-size: 6pt;
-            letter-spacing: 0.35em;
+            font-size: 5.6pt;
+            letter-spacing: 0.28em;
             text-transform: uppercase;
-            margin-top: 1px;
+            color: var(--accent);
+            margin-top: 0.5px;
+            line-height: 1;
         }
 
         .mh-title {
-            padding: 2mm 3.5mm;
+            padding: 1.1mm 2.5mm;
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 1;
         }
 
         .mh-title h1 {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 900;
-            font-size: 15.5pt;
+            font-size: 13.5pt;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--accent);
@@ -209,76 +301,116 @@
 
         .mh-title .sub {
             font-family: 'Barlow Condensed', sans-serif;
-            font-weight: 300;
-            font-size: 7.2pt;
-            letter-spacing: 0.25em;
+            font-weight: 400;
+            font-size: 6.6pt;
+            letter-spacing: 0.2em;
             color: var(--text-dim);
             text-transform: uppercase;
+            margin-top: 0.3mm;
         }
 
-        .mh-name {
+        .mh-meta-group {
+            display: flex;
             border-left: 1px solid var(--border);
-            padding: 2mm 3.5mm;
+            position: relative;
+            z-index: 1;
+        }
+
+        .mh-field {
+            padding: 1.0mm 2.4mm;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            min-width: 58mm;
+            border-right: 1px solid var(--border);
+            min-width: 32mm;
+            background: rgba(0, 0, 0, 0.15);
         }
 
-        .mh-name label {
+        .mh-field:last-child {
+            border-right: none;
+            min-width: 20mm;
+        }
+
+        .mh-field label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
-            letter-spacing: 0.25em;
+            font-size: 5.2pt;
+            letter-spacing: 0.22em;
             text-transform: uppercase;
             color: var(--accent-dim);
-            margin-bottom: 0.5mm;
+            margin-bottom: 0.4mm;
         }
 
-        .mh-name .fl {
-            border-bottom: 1px solid var(--border);
-            min-height: 5mm;
+        .mh-field .fl {
+            border-bottom: 1px solid var(--border-light);
+            min-height: 4.2mm;
         }
 
+        /* ======================================================  LAYOUT GRID  */
+        .grid-main {
+            display: grid;
+            grid-template-columns: 71mm 1fr;
+            gap: 2.2mm;
+            align-items: start;
+            flex: 1;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ======================================================  CARDS  */
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
-            margin-bottom: 2mm;
+            border-top: 2px solid var(--accent);
+            border-radius: 2px;
+            margin-bottom: 1.5mm;
+            position: relative;
+            z-index: 1;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+        }
+
+        .card:last-child {
+            margin-bottom: 0;
         }
 
         .card-hd {
-            background: var(--mid);
-            border-bottom: 1.5px solid var(--accent-dim);
-            padding: 1.2mm 2.2mm;
+            background: linear-gradient(90deg, #121926 0%, #0d121c 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8mm 2.0mm;
             display: flex;
             align-items: center;
-            gap: 1.5mm;
+            justify-content: space-between;
+            position: relative;
         }
 
-        .card-hd svg {
-            width: 11px;
-            height: 11px;
-            fill: var(--accent);
-            flex-shrink: 0;
+        .card-hd::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--accent);
         }
 
         .card-hd h2 {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 8.2pt;
+            font-size: 7.8pt;
             font-weight: 700;
             letter-spacing: 0.14em;
             text-transform: uppercase;
             color: var(--accent);
-            flex: 1;
+            line-height: 1;
         }
 
         .card-body {
-            padding: 1.5mm 2.2mm;
+            padding: 1.2mm 1.8mm;
         }
 
+        /* ======================================================  ATTRIBUTES  */
         .attr-row {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 2px;
+            gap: 1mm;
         }
 
         .attr-block {
@@ -286,22 +418,23 @@
             border: 1px solid var(--border);
             display: flex;
             align-items: center;
-            gap: 1.2mm;
-            padding: 1mm 1.2mm;
+            gap: 1.5mm;
+            padding: 0.7mm 1.2mm;
         }
 
         .attr-box {
-            width: 7.5mm;
-            height: 7.5mm;
+            width: 7.2mm;
+            height: 7.2mm;
             border: 1.5px solid var(--accent-dim);
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 12pt;
+            font-size: 11pt;
             font-weight: 900;
             color: var(--accent);
             flex-shrink: 0;
+            background: var(--surface);
         }
 
         .attr-meta {
@@ -310,56 +443,61 @@
 
         .attr-name {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 7.5pt;
+            font-size: 7.2pt;
             font-weight: 700;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: var(--text);
+            line-height: 1.1;
         }
 
         .attr-code {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 5.5pt;
+            font-size: 5.2pt;
             color: var(--text-dim);
         }
 
-        .g-slot {
-            width: 9.5mm;
-            height: 9.5mm;
-            border: 1px solid var(--accent-dim);
-            background: var(--mid);
-            clip-path: polygon(50% 4%, 96% 28%, 96% 72%, 50% 96%, 4% 72%, 4% 28%);
-            position: relative;
-        }
+        .attr-block.shield .attr-box { border-color: rgba(245, 158, 11, 0.7); color: var(--shield); }
+        .attr-block.shield .attr-name { color: var(--shield); }
+        .attr-block.glider .attr-box { border-color: rgba(56, 189, 248, 0.7); color: var(--glider); }
+        .attr-block.glider .attr-name { color: var(--glider); }
+        .attr-block.cannon .attr-box { border-color: rgba(239, 68, 68, 0.7); color: var(--cannon); }
+        .attr-block.cannon .attr-name { color: var(--cannon); }
 
         .gambit-note {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 5.9pt;
             font-style: italic;
             color: var(--text-dim);
+            margin-top: 0.8mm;
+            text-align: center;
         }
 
-        /* 3-COLUMN FORM & BOOST TRACKER */
+        /* ======================================================  FORMS & BOOST TRACKER  */
         .form-tracker-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1.5mm;
+            gap: 1.2mm;
             text-align: center;
         }
 
         .form-track-col {
             background: var(--mid);
             border: 1px solid var(--border);
-            padding: 1.2mm 0.8mm;
+            padding: 1.0mm 0.7mm;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-start;
         }
 
+        .form-track-col.shield { border-color: rgba(245, 158, 11, 0.4); }
+        .form-track-col.glider { border-color: rgba(56, 189, 248, 0.4); }
+        .form-track-col.cannon { border-color: rgba(239, 68, 68, 0.4); }
+
         .form-track-name {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 8pt;
+            font-size: 7.5pt;
             font-weight: 700;
             letter-spacing: 0.1em;
             text-transform: uppercase;
@@ -367,40 +505,48 @@
             line-height: 1;
         }
 
+        .form-track-col.shield .form-track-name { color: var(--shield); }
+        .form-track-col.glider .form-track-name { color: var(--glider); }
+        .form-track-col.cannon .form-track-name { color: var(--cannon); }
+
         .form-track-hands {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 5.5pt;
+            font-size: 5.2pt;
             color: var(--text-dim);
-            margin-top: 0.4mm;
+            margin-top: 0.3mm;
             line-height: 1;
         }
 
         .form-slot {
-            width: 12mm;
-            height: 11mm;
+            width: 11mm;
+            height: 10mm;
             border: 1.5px solid var(--accent-dim);
             background: var(--surface);
-            margin: 1.2mm auto;
+            margin: 1.0mm auto;
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
         }
 
+        .form-track-col.shield .form-slot { border-color: rgba(245, 158, 11, 0.6); }
+        .form-track-col.glider .form-slot { border-color: rgba(56, 189, 248, 0.6); }
+        .form-track-col.cannon .form-slot { border-color: rgba(239, 68, 68, 0.6); }
+
         .form-slot-label {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.2pt;
             font-weight: 700;
             letter-spacing: 0.12em;
             color: var(--accent-dim);
-            opacity: 0.55;
+            opacity: 0.6;
             text-transform: uppercase;
             pointer-events: none;
         }
 
         .form-track-desc {
             font-family: 'Barlow', sans-serif;
-            font-size: 5.8pt;
+            font-size: 5.6pt;
             color: var(--text);
             line-height: 1.15;
             margin-top: 0.2mm;
@@ -408,32 +554,84 @@
 
         .form-tracker-note {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
+            font-size: 5.8pt;
             font-style: italic;
             color: var(--text-dim);
             text-align: center;
-            margin-top: 1.2mm;
+            margin-top: 1.0mm;
             border-top: 1px dashed var(--border);
-            padding-top: 0.8mm;
+            padding-top: 0.6mm;
             line-height: 1.2;
         }
 
-        /* ONLY SEPARATING ROWS THIN */
-        .skill-section-hd td {
-            font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.2pt;
-            font-weight: 700;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--accent);
-            background: var(--mid) !important;
-            border-top: 1px solid var(--accent-dim);
-            border-bottom: 1px solid var(--accent-dim);
-            padding: 0.25mm 1.5mm !important;
-            line-height: 1;
-            text-align: center;
+        /* ======================================================  CORE MECHANICS  */
+        .rules-text {
+            font-family: 'Barlow', sans-serif;
+            font-size: 6.4pt;
+            color: var(--text);
+            line-height: 1.18;
         }
 
+        .rules-text p {
+            margin-bottom: 0.6mm;
+        }
+
+        .rules-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        .rules-kw {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 6.7pt;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--accent);
+        }
+
+        /* ======================================================  CLASS MODS  */
+        .mod-row {
+            display: grid;
+            grid-template-columns: 3.5mm 1fr;
+            gap: 1.2mm;
+            align-items: start;
+            padding: 0.7mm 1.4mm;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .mod-row:last-child {
+            border-bottom: none;
+        }
+
+        .mod-row:nth-child(even) {
+            background: var(--stripe);
+        }
+
+        .mod-check {
+            width: 3.2mm;
+            height: 3.2mm;
+            border: 1px solid var(--accent-dim);
+            background: var(--mid);
+            margin-top: 0.3mm;
+        }
+
+        .mod-name {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 7.0pt;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.2mm;
+        }
+
+        .mod-desc {
+            font-family: 'Barlow', sans-serif;
+            font-size: 6.3pt;
+            color: var(--text);
+            line-height: 1.16;
+        }
+
+        /* ======================================================  ABILITIES TABLE  */
         .skill-table {
             width: 100%;
             border-collapse: collapse;
@@ -441,19 +639,19 @@
 
         .skill-table th {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6.5pt;
+            font-size: 6.0pt;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent-dim);
             text-align: left;
-            padding: 0.8mm 1.5mm;
+            padding: 0.5mm 1.0mm;
             border-bottom: 1px solid var(--accent-dim);
             background: var(--mid);
         }
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 0.45mm 1.4mm;
+            padding: 0.45mm 1.0mm;
             vertical-align: middle;
         }
 
@@ -461,447 +659,623 @@
             background: var(--stripe);
         }
 
-        .rules-text {
-            font-family: 'Barlow', sans-serif;
-            font-size: 6.8pt;
-            color: var(--text);
-            line-height: 1.15;
-        }
-
-        .rules-text p {
-            margin-bottom: 0.8mm;
-        }
-
-        .rules-text p:last-child {
-            margin-bottom: 0;
-        }
-
-        .grid-main {
-            display: grid;
-            grid-template-columns: 1fr 2.05fr;
-            gap: 3mm;
-            align-items: start;
-        }
-
-        .page-foot {
+        .skill-section-hd td {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 6pt;
-            letter-spacing: 0.3em;
-            color: var(--text-muted);
-            text-align: center;
+            font-size: 6.4pt;
+            font-weight: 700;
+            letter-spacing: 0.14em;
             text-transform: uppercase;
-            margin-top: auto;
-            padding-top: 1mm;
+            color: var(--accent);
+            background: var(--mid) !important;
+            border-top: 1px solid var(--accent-dim);
+            border-bottom: 1px solid var(--accent-dim);
+            padding: 0.4mm 1.2mm !important;
+            line-height: 1;
         }
 
-        .checkbox-cell {
-            width: 4%;
+        .skill-section-hd.first td {
+            border-top: none;
+        }
+
+        .chk-cell {
+            width: 4.2mm;
             text-align: center;
-            vertical-align: middle !important;
         }
 
-        .checkbox-box {
-            width: 3.5mm;
-            height: 3.5mm;
+        .chk-box {
+            width: 3.2mm;
+            height: 3.2mm;
             border: 1px solid var(--accent-dim);
             background: var(--mid);
             margin: 0 auto;
         }
 
-        .skill-name-col {
+        .skill-name {
             font-family: 'Barlow Condensed', sans-serif;
             font-weight: 700;
-            font-size: 7.5pt;
+            font-size: 7.2pt;
             text-transform: uppercase;
             color: var(--accent);
+            display: block;
+            line-height: 1.1;
         }
 
         .skill-cost {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 6.2pt;
+            font-size: 5.8pt;
+            color: var(--text-dim);
+            white-space: nowrap;
+        }
+
+        .skill-desc {
+            font-family: 'Barlow', sans-serif;
+            font-size: 6.3pt;
+            color: var(--text);
+            line-height: 1.16;
+        }
+
+        .profile-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.5pt;
+            background: rgba(200, 168, 75, 0.12);
+            color: var(--accent);
+            border: 1px solid var(--accent-dim);
+            padding: 0.1mm 0.8mm;
+            border-radius: 1px;
+            white-space: nowrap;
+            display: inline-block;
+            margin-top: 0.2mm;
+        }
+
+        .form-tag {
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 5.8pt;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            padding: 0.1mm 0.7mm;
+            border-radius: 1px;
+            display: inline-block;
+        }
+
+        .form-tag.shd { background: rgba(245, 158, 11, 0.18); color: var(--shield); border: 1px solid rgba(245, 158, 11, 0.4); }
+        .form-tag.gld { background: rgba(56, 189, 248, 0.18); color: var(--glider); border: 1px solid rgba(56, 189, 248, 0.4); }
+        .form-tag.cnn { background: rgba(239, 68, 68, 0.18); color: var(--cannon); border: 1px solid rgba(239, 68, 68, 0.4); }
+
+        /* ======================================================  FOOTER  */
+                /* ======================================================  FOOTER & ICON KEY  */
+        .page-foot {
+            font-family: 'Barlow Condensed', sans-serif;
+            margin-top: auto;
+            padding-top: 0.8mm;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            flex-direction: column;
+            gap: 0.8mm;
+            position: relative;
+            z-index: 1;
+        }
+
+        .foot-legend {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(15, 23, 42, 0.65);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 2.5px;
+            padding: 1.2px 4.5px;
+            font-size: 5.3pt;
+            letter-spacing: 0.03em;
+            color: #94a3b8;
+            text-transform: uppercase;
+        }
+
+        .legend-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.0pt;
+            font-weight: 700;
+            color: #38bdf8;
+            letter-spacing: 0.1em;
+            margin-right: 2px;
+            padding-right: 4px;
+            border-right: 1px solid rgba(255, 255, 255, 0.12);
+            flex-shrink: 0;
+        }
+
+        .legend-items {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5px 6px;
+        }
+
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 2px;
+            white-space: nowrap;
+        }
+
+        .legend-item strong {
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+
+        .legend-item.res-token strong {
+            color: #f59e0b;
+        }
+
+        .foot-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 5.2pt;
+            letter-spacing: 0.22em;
+            color: var(--text-dim);
+            text-transform: uppercase;
+        }
+
+        .foot-meta {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 4.8pt;
+            letter-spacing: 0.1em;
             color: var(--text-dim);
         }
     </style>
 </head>
 
 <body>
-    <div class="page">
-        <!-- MASTHEAD -->
-        <div class="masthead">
-            <div class="mh-logo">
-                <svg viewBox="0 0 24 24">
-                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                    <circle cx="12" cy="12" r="1.5" />
-                </svg>
-                <span class="logo-text">Corsair</span>
-            </div>
-            <div class="mh-title">
-                <h1>Class Sheet: The Vanguard</h1>
-                <div class="sub">Flotilla Dossier · Specialization Record</div>
-            </div>
-            <div class="mh-name">
+<div class="page">
+    <!-- MASTHEAD -->
+    <div class="masthead">
+        <div class="mh-logo">
+            <img src="../../assets/images/icons/factions/insignia_corsairs.png" alt="Corsairs Insignia" class="mh-corsair-star"/>
+            <span class="logo-text">Corsair</span>
+        </div>
+        <div class="mh-title">
+            <h1>Class Sheet: The Vanguard</h1>
+            <div class="sub">Kinetic Specialist · Multi-Geometry Board Operator · Stance Combatant</div>
+        </div>
+        <div class="mh-meta-group">
+            <div class="mh-field">
                 <label>Agent Name</label>
                 <div class="fl"></div>
             </div>
-        </div>
-
-        <!-- MAIN GRID -->
-        <div class="grid-main">
-
-            <!-- COLUMN 1: RULES, ATTRIBUTES & CLASS MODS -->
-            <div>
-                <!-- ATTRIBUTES CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <rect x="2" y="10" width="3" height="4" />
-                            <rect x="19" y="10" width="3" height="4" />
-                            <rect x="5" y="8" width="2" height="8" />
-                            <rect x="17" y="8" width="2" height="8" />
-                            <rect x="7" y="11" width="10" height="2" />
-                        </svg>
-                        <h2>Vanguard Attributes</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="attr-row">
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Shield</div>
-                                    <div class="attr-code">SHD (STR paired)</div>
-                                </div>
-                            </div>
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Glider</div>
-                                    <div class="attr-code">GLD (AGI paired)</div>
-                                </div>
-                            </div>
-                            <div class="attr-block">
-                                <div class="attr-box"></div>
-                                <div class="attr-meta">
-                                    <div class="attr-name">Cannon</div>
-                                    <div class="attr-code">CNN (FIN paired)</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FORMS & BOOSTS -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/>
-                        </svg>
-                        <h2>Board Form &amp; Active Boost Tracker</h2>
-                    </div>
-                    <div class="card-body">
-                        <div class="form-tracker-grid">
-                            <!-- SHIELD COLUMN -->
-                            <div class="form-track-col">
-                                <div class="form-track-name">Shield</div>
-                                <div class="form-track-hands">1 Hand</div>
-                                <div class="form-slot" title="Shield Form Slot (Place Token or d10 Boost)">
-                                    <span class="form-slot-label">SHD</span>
-                                </div>
-                                <div class="form-track-desc">
-                                    Prot +SHD/2<br/>
-                                    STR+SHD Melee
-                                </div>
-                            </div>
-                            <!-- GLIDER COLUMN -->
-                            <div class="form-track-col">
-                                <div class="form-track-name">Glider</div>
-                                <div class="form-track-hands">Free Hands</div>
-                                <div class="form-slot" title="Glider Form Slot (Place Token or d10 Boost)">
-                                    <span class="form-slot-label">GLD</span>
-                                </div>
-                                <div class="form-track-desc">
-                                    Flight &amp; Move<br/>
-                                    No Fall Dmg
-                                </div>
-                            </div>
-                            <!-- CANNON COLUMN -->
-                            <div class="form-track-col">
-                                <div class="form-track-name">Cannon</div>
-                                <div class="form-track-hands">2 Hands</div>
-                                <div class="form-slot" title="Cannon Form Slot (Place Token or d10 Boost)">
-                                    <span class="form-slot-label">CNN</span>
-                                </div>
-                                <div class="form-track-desc">
-                                    Ranged (CNN)<br/>
-                                    -1 Acc / Range
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-tracker-note">
-                            Place <strong>Token</strong> (Form Only) or <strong>d10</strong> (Active Boost) in active Form box · Slide when swapping
-                        </div>
-                    </div>
-                </div>
-
-                <!-- BASIC MECHANICS CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="10"/>
-                            <line x1="12" y1="16" x2="12" y2="12"/>
-                            <line x1="12" y1="8" x2="12.01" y2="8"/>
-                        </svg>
-                        <h2>Board Forms</h2>
-                    </div>
-                    <div class="card-body rules-text">
-                        <p><strong>Shield:</strong> Phys Protection +SHD/2 (rounded down). Melee weapon (STR + SHD, +lower attr Dmg). Use SHD to contest.</p>
-                        <p><strong>Glider:</strong> Use GLD in movement. Ignore difficult terrain &amp; fall damage. Free hands.</p>
-                        <p><strong>Cannon:</strong> Ranged weapon attacks. Acc = CNN at short, decreases by 1 per range. 2 hands occupied.</p>
-                        <p><strong>Form Rules:</strong> Abilities shift into their Form unless requiring a stance (e.g. Repulse: Shield) or setup (e.g. Turbo Slam: Glider Move; Meteor Crash: 4m+ height).</p>
-                        <p><strong>Gain Boost:</strong> Spend 1 AP to swap forms, OR bank a Hit (8+) from a Vanguard test roll (max 1 die banked).</p>
-                        <p><strong>Spend Boost:</strong> Add d10 to any Vanguard test, or power abilities. Cannot gain and spend Boost on same test.</p>
-                    </div>
-                </div>
-
-                <!-- CLASS MODS CARD -->
-                <div class="card">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                        </svg>
-                        <h2>Class Modifications</h2>
-                    </div>
-                    <div class="card-body" style="padding: 0;">
-                        <table class="skill-table">
-                            <thead>
-                                <tr>
-                                    <th class="checkbox-cell">Act</th>
-                                    <th style="width: 26%;">Mod</th>
-                                    <th>Effect</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Twin Turbo</td>
-                                    <td class="rules-text">Can hold up to two Boost dice at the same time.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Cheat Move</td>
-                                    <td class="rules-text">Once per round, swap forms for 0 AP and count it as a Form Move.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Head Start</td>
-                                    <td class="rules-text">At round start, free form swap; if you have no Boost, gain one.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hesitation Moves</td>
-                                    <td class="rules-text">Qualify for Form Move requirements if performed Form Move this Round (not Turn).</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Boost Buildup</td>
-                                    <td class="rules-text">At end of Player Turn, gain Boost if you haven't swapped Forms this turn.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="mh-field">
+                <label>Class Level</label>
+                <div class="fl"></div>
             </div>
-
-            <!-- COLUMN 2: ALL SKILLS -->
-            <div>
-                <div class="card" style="margin-bottom: 2mm;">
-                    <div class="card-hd">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-                        </svg>
-                        <h2>Vanguard Abilities</h2>
-                    </div>
-                    <div class="card-body" style="padding: 0;">
-                        <table class="skill-table">
-                            <thead>
-                                <tr>
-                                    <th class="checkbox-cell">Lrn</th>
-                                    <th style="width: 24%;">Ability</th>
-                                    <th style="width: 18%;">Tag / Form</th>
-                                    <th style="width: 58%;">Effect Description</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- SENTINEL COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Sentinel Combo (Shield Breacher &amp; Deflection)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Shield Throw</td>
-                                    <td class="skill-cost">[Act] SHD</td>
-                                    <td class="rules-text">Ranged melee attack up to 20m (STR + SHD). Returns instantly.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Ricochet</td>
-                                    <td class="skill-cost">[Rdr] SHD</td>
-                                    <td class="rules-text">On Shield Throw hit, spend Boost die: deal same Dmg to all others in target space.</td>
-                                </tr>
-                                <tr>
-                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                     <td class="skill-name-col">Repulse</td>
-                                     <td class="skill-cost">[Rct] SHD</td>
-                                     <td class="rules-text">Requires Shield Form. Contest incoming attack with Shield for 0 AP by spending Boost die.</td>
-                                 </tr>
-
-                                <!-- FALLINGSTAR COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Fallingstar Combo (Aerial Ascent &amp; Shockwave Dive)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Rocket Jump</td>
-                                    <td class="skill-cost">[Act] CNN</td>
-                                    <td class="rules-text">Blast ground: CNN Dmg (highest die if Boost). Lift 4m up; spend Hits on Push Effects on self. Counts as Glider Move.</td>
-                                </tr>
-                                <tr>
-                                     <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                     <td class="skill-name-col">Meteor Crash</td>
-                                     <td class="skill-cost">[Act] SHD</td>
-                                     <td class="rules-text">Requires 4m+ height. Dive down; ignore fall Dmg. Deal SHD Dmg to space (+roll Boost die if spent).</td>
-                                 </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Air Trick</td>
-                                    <td class="skill-cost">[Rdr] GLD</td>
-                                    <td class="rules-text">Convert ground Glider move to 4m vertical flight, launching for Meteor Crash.</td>
-                                </tr>
-
-                                <!-- FALCON COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Falcon Combo (High-Velocity Skirmisher &amp; Flight)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Rocketeer</td>
-                                    <td class="skill-cost">[Act] GLD</td>
-                                    <td class="rules-text">Fly for Glider move duration. Spend Boost to add die and double rolled distance.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hit and Run</td>
-                                    <td class="skill-cost">[Rdr] GLD</td>
-                                    <td class="rules-text">Requires Glider Move. Move GLD &times; 4 meters before or after any melee strike uncontested.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Windsurfer</td>
-                                    <td class="skill-cost">[Pas] GLD</td>
-                                    <td class="rules-text">Hover at current altitude instead of falling at turn end. Maneuver horizontally.</td>
-                                </tr>
-
-                                <!-- SCORPION COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Scorpion Combo (Heavy Artillery &amp; Stinger Follow-Up)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Assault Cannon</td>
-                                    <td class="skill-cost">[Pas] CNN</td>
-                                    <td class="rules-text">Cannon form: +2 Dmg, RoF 2, -1 Acc all ranges. Cannot combine with Long Cannon.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Charged Shot</td>
-                                    <td class="skill-cost">[Act] CNN</td>
-                                    <td class="rules-text">Cannon attack spending Boost die to add die to roll and +CNN bonus Dmg on hit.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Follow Up</td>
-                                    <td class="skill-cost">[Rdr] CNN</td>
-                                    <td class="rules-text">On any hit, pay 1 AP for snap shot (+CNN Dmg; expend Boost to +roll result Dmg). Swaps to Cannon Form.</td>
-                                </tr>
-
-                                <!-- RHINO COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Rhino Combo (Tether Pull, Wall-Crush &amp; Lockdown)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hook Shot</td>
-                                    <td class="skill-cost">[Act] CNN</td>
-                                    <td class="rules-text">Tether 16m Simple Test (CNN+FIN). Pull target 4m/Hit; advance into space for highest die contact Dmg. Counts as Glider Move.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Turbo Slam</td>
-                                    <td class="skill-cost">[Act] SHD</td>
-                                    <td class="rules-text">Requires Glider Move. Shield attack +SHD Dmg. Push target; crash barrier for +SHD Dmg again.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Brick Wall</td>
-                                    <td class="skill-cost">[Rct] SHD</td>
-                                    <td class="rules-text">Requires Shield Form. Contest move through space (inc. forced) to halt &amp; deal Dmg.</td>
-                                </tr>
-
-                                <!-- ROOK COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Rook Combo (Fortified Anchor &amp; Heavy Defense)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Gun Shield</td>
-                                    <td class="skill-cost">[Pas] SHD</td>
-                                    <td class="rules-text">Wield and fire 2-handed firearms in Shield Form, retaining your +SHD/2 Protection.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Hitchhiker</td>
-                                    <td class="skill-cost">[Rdr] GLD</td>
-                                    <td class="rules-text">Requires Glider Move. Carry 1 ally for 0 AP into space. Spend Boost to add die and carry 2.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Tactical Barricade</td>
-                                    <td class="skill-cost">[Act] SHD</td>
-                                    <td class="rules-text">Spend 1 AP to plant Board: Medium Cover (+2 Prot). Spend Boost for Heavy Cover (+3 Prot).</td>
-                                </tr>
-
-                                <!-- HAWK COMBO -->
-                                <tr class="skill-section-hd">
-                                    <td colspan="4">Hawk Combo (Precision Sniper &amp; Telemetry)</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Long Cannon</td>
-                                    <td class="skill-cost">[Pas] CNN</td>
-                                    <td class="rules-text">Sniper form (-1 Acc Short, +1 Acc Long/Extreme; +2 Dmg at Med+). Cannot combine with Assault Cannon.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Tracking Shot</td>
-                                    <td class="skill-cost">[Act] CNN</td>
-                                    <td class="rules-text">Long Cannon shot (1 AP). Set aside Hits for automatic hits against target this round.</td>
-                                </tr>
-                                <tr>
-                                    <td class="checkbox-cell"><div class="checkbox-box"></div></td>
-                                    <td class="skill-name-col">Overwatch</td>
-                                    <td class="skill-cost">[Rct] CNN</td>
-                                    <td class="rules-text">Requires Long Cannon &amp; auto-hit. Pay 1 AP &amp; consume auto-hit: Success Test intercept shot before target acts.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="page-foot">
-            Corsair RPG · Vanguard Class Sheet · System Document
         </div>
     </div>
+
+    <!-- MAIN GRID -->
+    <div class="grid-main">
+
+        <!-- ══ COLUMN 1: ATTRIBUTES, FORMS, CORE RULES, MODS ══ -->
+        <div>
+            <!-- VANGUARD ATTRIBUTES -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Board Attributes (Creation Base 1/1/1 · 7 Pts)</h2>
+                </div>
+                <div class="card-body">
+                    <div class="attr-row">
+                        <div class="attr-block shield">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Shield (SHD)</div>
+                                <div class="attr-code">Toughness &amp; deflection · Paired w/ STR</div>
+                            </div>
+                        </div>
+                        <div class="attr-block glider">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Glider (GLD)</div>
+                                <div class="attr-code">Velocity &amp; maneuver · Paired w/ AGI</div>
+                            </div>
+                        </div>
+                        <div class="attr-block cannon">
+                            <div class="attr-box"></div>
+                            <div class="attr-meta">
+                                <div class="attr-name">Cannon (CNN)</div>
+                                <div class="attr-code">Penetration &amp; fire support · Paired w/ FIN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gambit-note">Starting Cap: 5 · Core swap or pair on Vanguard actions</div>
+                </div>
+            </div>
+
+            <!-- BOARD FORMS & BOOST TRACKER -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Board Form &amp; Active Boost Tracker <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span></h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-tracker-grid">
+                        <!-- SHIELD -->
+                        <div class="form-track-col shield">
+                            <div class="form-track-name">Shield</div>
+                            <div class="form-track-hands">1 Hand Occ.</div>
+                            <div class="form-slot" title="Shield Form Slot (Token or d10 Boost)">
+                                <span class="form-slot-label">SHD</span>
+                            </div>
+                            <div class="form-track-desc">
+                                Prot +SHD/2<br/>
+                                STR+SHD Strike<br/>
+                                Contest harm
+                            </div>
+                        </div>
+                        <!-- GLIDER -->
+                        <div class="form-track-col glider">
+                            <div class="form-track-name">Glider</div>
+                            <div class="form-track-hands">Hands Free</div>
+                            <div class="form-slot" title="Glider Form Slot (Token or d10 Boost)">
+                                <span class="form-slot-label">GLD</span>
+                            </div>
+                            <div class="form-track-desc">
+                                Flight / Hover<br/>
+                                No Fall Dmg<br/>
+                                Ignore Diff Ter
+                            </div>
+                        </div>
+                        <!-- CANNON -->
+                        <div class="form-track-col cannon">
+                            <div class="form-track-name">Cannon</div>
+                            <div class="form-track-hands">2 Hands Occ.</div>
+                            <div class="form-slot" title="Cannon Form Slot (Token or d10 Boost)">
+                                <span class="form-slot-label">CNN</span>
+                            </div>
+                            <div class="form-track-desc">
+                                Ranged (CNN)<br/>
+                                Acc = CNN<br/>
+                                -1 Acc / Range
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-tracker-note">
+                        Place <strong>Token</strong> (Form) or <strong>d10</strong> (<span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>) in active box · Slide when swapping
+                    </div>
+                </div>
+            </div>
+
+            <!-- CORE KINETIC MECHANICS -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Kinetic Engine &amp; Form Rules</h2>
+                </div>
+                <div class="card-body rules-text">
+                    <p><span class="rules-kw">Auto-Shift:</span> Rolling a Vanguard Attribute or activating an ability auto-transforms your Board into that Form immediately prior to resolving, counting as a <strong>Form Move</strong>.</p>
+                    <p><span class="rules-kw">Gain Boost:</span> Spend 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> to swap forms OR bank <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> (8+). Max 1 banked <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> (d10).</p>
+                    <p><span class="rules-kw">Spend Boost:</span> Add banked d10 to any Vanguard test roll, or power combo abilities.</p>
+                    <p><span class="rules-kw">Golden Rule:</span> You may either spend OR gain a <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> during a test/action, but never both!</p>
+                </div>
+            </div>
+
+            <!-- CLASS MODS -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Class Mods — 25k Cr (Max 2 Installed)</h2>
+                </div>
+                <div>
+                    <div class="mod-row">
+                        <div class="mod-check"></div>
+                        <div>
+                            <div class="mod-name">Twin Turbo</div>
+                            <div class="mod-desc">You can hold up to two <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> dice at the same time.</div>
+                        </div>
+                    </div>
+                    <div class="mod-row">
+                        <div class="mod-check"></div>
+                        <div>
+                            <div class="mod-name">Cheat Move</div>
+                            <div class="mod-desc">Once per round, swap forms for 0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> and have it count as a Form Move.</div>
+                        </div>
+                    </div>
+                    <div class="mod-row">
+                        <div class="mod-check"></div>
+                        <div>
+                            <div class="mod-name">Head Start</div>
+                            <div class="mod-desc">At round start, free form swap (0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span>); if no <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>, gain one.</div>
+                        </div>
+                    </div>
+                    <div class="mod-row">
+                        <div class="mod-check"></div>
+                        <div>
+                            <div class="mod-name">Hesitation Moves</div>
+                            <div class="mod-desc">Qualify for Form Move requirements if performed Form Move this Round (not Turn).</div>
+                        </div>
+                    </div>
+                    <div class="mod-row">
+                        <div class="mod-check"></div>
+                        <div>
+                            <div class="mod-name">Boost Buildup</div>
+                            <div class="mod-desc">At end of Player Turn, if no form swapped this turn, gain a <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHASSIS PROGRESSION CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Chassis Progression (Credits)</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table">
+                        <thead>
+                        <tr>
+                            <th class="chk-cell">Lvl</th>
+                            <th>Benefits Unlocked</th>
+                            <th style="text-align: right; padding-right: 1.5mm;">Cost (Cr)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 1</span>
+                                <div style="font-family: 'Barlow', sans-serif; font-size: 5.9pt; color: var(--text); line-height: 1.15;">Base Chassis · 7 Attr Pts (1/1/1) · Starting Combo · Kinetic Engine</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">100,000*</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 2</span>
+                                <div style="font-family: 'Barlow', sans-serif; font-size: 5.9pt; color: var(--text); line-height: 1.15;">+1 Attribute Point · +1 Combo (3 Abilities)</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">20,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 3</span>
+                                <div style="font-family: 'Barlow', sans-serif; font-size: 5.9pt; color: var(--text); line-height: 1.15;">+1 Attribute Point · +1 Mod Slot (Slot 1) · +1 Combo (3 Abilities)</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">40,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 4</span>
+                                <div style="font-family: 'Barlow', sans-serif; font-size: 5.9pt; color: var(--text); line-height: 1.15;">+1 Attribute Point · +1 Combo (3 Abilities)</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">75,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 5</span>
+                                <div style="font-family: 'Barlow', sans-serif; font-size: 5.9pt; color: var(--text); line-height: 1.15;">+1 Attribute Point · +1 Mod Slot (Slot 2)</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">150,000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="gambit-note" style="padding: 0.6mm 1.2mm; text-align: left; border-top: 1px solid var(--border); font-size: 5.2pt; line-height: 1.2;">
+                        *Free for starting chassis; 100,000 Cr to acquire as additional chassis during downtime.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ══ END COLUMN 1 ══ -->
+
+        <!-- ══ COLUMN 2: VANGUARD COMBOS & ABILITIES ══ -->
+        <div>
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Combos &amp; Abilities (1 Starting Combo · +1 per Level 2–4)</h2>
+                </div>
+                <div>
+                    <table class="skill-table">
+                        <colgroup>
+                            <col style="width:4.2mm;"/>
+                            <col style="width:23%;"/>
+                            <col style="width:16%;"/>
+                            <col/>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th class="chk-cell">Lrn</th>
+                                <th>Ability</th>
+                                <th>Tag / Form</th>
+                                <th>Effect Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- SENTINEL COMBO -->
+                            <tr class="skill-section-hd first">
+                                <td colspan="4">⬡ Sentinel Combo (Shield Breacher &amp; Deflection)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Shield Throw</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Ranged melee attack up to 20m (STR+SHD). Snaps back instantly. Deals standard Shield melee Dmg.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Ricochet</span></td>
+                                <td><span class="skill-cost">[Rdr] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">On Shield Throw hit, expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> die: every other hostile creature in target space takes same Dmg.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Repulse</span></td>
+                                <td><span class="skill-cost">[Rct] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Prereq: Shield Form. On incoming attack, Contest with Shield for 0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> by expending <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> die (adds die to contest).</span></td>
+                            </tr>
+
+                            <!-- FALLINGSTAR COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Fallingstar Combo (Aerial Ascent &amp; Shockwave Dive)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Rocket Jump</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Blast ground: CNN Success Test (may expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>). Deal CNN Dmg (highest die if <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>). Lift 4m; spend <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> on self <span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span>. Counts as Glider Move.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Meteor Crash</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Prereq: 4m+ height. Dive into space; ignore fall Dmg. Deal SHD Dmg to space. Expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: roll &amp; add die to total Dmg.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Air Trick</span></td>
+                                <td><span class="skill-cost">[Rdr] <span class="form-tag gld">GLD</span></span></td>
+                                <td><span class="skill-desc">Trigger: ground Glider move. Convert thrust into vertical flight for up to 4m, leaping 4m to set up Meteor Crash.</span></td>
+                            </tr>
+
+                            <!-- FALCON COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Falcon Combo (High-Velocity Skirmisher &amp; Flight)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Rocketeer</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag gld">GLD</span></span></td>
+                                <td><span class="skill-desc">Glider move: fly for duration. Expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: add die to roll, double distance without altitude loss.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Hit and Run</span></td>
+                                <td><span class="skill-cost">[Rdr] <span class="form-tag gld">GLD</span></span></td>
+                                <td><span class="skill-desc">Prereq: Glider Move. On melee attack, move GLD &times; 4m immediately before or after strike uncontested.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Windsurfer</span></td>
+                                <td><span class="skill-cost">[Pas] <span class="form-tag gld">GLD</span></span></td>
+                                <td><span class="skill-desc">In Glider Form, hover at current altitude (no fall end of turn). Maneuver horizontally. Fall if swap out.</span></td>
+                            </tr>
+
+                            <!-- SCORPION COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Scorpion Combo (Heavy Artillery &amp; Stinger Follow-Up)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Assault Cannon</span></td>
+                                <td><span class="skill-cost">[Pas] <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Cannon Form: <span class="profile-tag">Dmg: +2 · RoF: 2 · -1 Acc all ranges</span>. Cannot combine with Long Cannon (swap during downtime).</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Charged Shot</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Cannon attack expending <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: add die to roll. On hit, deal bonus Dmg equal to CNN Attribute.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Follow Up</span></td>
+                                <td><span class="skill-cost">[Rdr] Any Form</span></td>
+                                <td><span class="skill-desc">On any hit, pay 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> for point-blank Cannon snap shot (+CNN Dmg; expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: +roll result Dmg). Swaps to Cannon Form.</span></td>
+                            </tr>
+
+                            <!-- RHINO COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Rhino Combo (Tether Pull, Wall-Crush &amp; Lockdown)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Hook Shot</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Tether 16m: anchor winches you; hostile Simple Test (CNN+FIN): spend <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> on <span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> 4m pull. Advance into space for highest die collision Dmg. Counts as Glider Move.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Turbo Slam</span></td>
+                                <td><span class="skill-cost">[Act] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Prereq: Glider Move. Shield strike +SHD Dmg. <span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> target meters = Dmg; if hits barrier/ally, suffers +SHD Dmg again.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Brick Wall</span></td>
+                                <td><span class="skill-cost">[Rct] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Prereq: Shield Form. Contest move across/out of space (or ally forced move) w/ Shield: halt &amp; deal Dmg = highest eliminated die.</span></td>
+                            </tr>
+
+                            <!-- ROOK COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Rook Combo (Fortified Anchor &amp; Heavy Defense)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Gun Shield</span></td>
+                                <td><span class="skill-cost">[Pas] <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Wield and fire 2H firearms in Shield Form, retaining your +SHD/2 Physical Protection.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Hitchhiker</span></td>
+                                <td><span class="skill-cost">[Rdr] <span class="form-tag gld">GLD</span></span></td>
+                                <td><span class="skill-desc">Prereq: Glider Move. Carry 1 ally in/adjacent to space for 0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span>. Expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: add die &amp; carry up to 2 allies. Shares cover on destination.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Tactical Barricade</span></td>
+                                <td><span class="skill-cost">[Act] 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · <span class="form-tag shd">SHD</span></span></td>
+                                <td><span class="skill-desc">Plant Board: Medium Cover (+2 Prot). Expend <span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span>: Heavy Cover (+3 Prot). Space anchored (immune to push/pull); enemies must Contest SHD. Reclaim: 0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span>.</span></td>
+                            </tr>
+
+                            <!-- HAWK COMBO -->
+                            <tr class="skill-section-hd">
+                                <td colspan="4">⬡ Hawk Combo (Precision Sniper &amp; Telemetry)</td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Long Cannon</span></td>
+                                <td><span class="skill-cost">[Pas] <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Sniper Form: <span class="profile-tag">-1 Acc Short · +1 Acc Long/Extreme · +2 Dmg at Med+</span>. Cannot combine with Assault Cannon.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Tracking Shot</span></td>
+                                <td><span class="skill-cost">[Act] 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Long Cannon shot: each <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> set aside grants an automatic hit against target this round without attack roll.</span></td>
+                            </tr>
+                            <tr>
+                                <td class="chk-cell"><div class="chk-box"></div></td>
+                                <td><span class="skill-name">Overwatch</span></td>
+                                <td><span class="skill-cost">[Rct] 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · <span class="form-tag cnn">CNN</span></span></td>
+                                <td><span class="skill-desc">Prereq: Long Cannon &amp; Tracking auto-hit. On target action/move, spend 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> &amp; 1 auto-hit: intercepting Cannon Success Test Dmg before target acts.</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- ══ END COLUMN 2 ══ -->
+
+    </div>
+
+        <div class="page-foot">
+        <div class="foot-legend">
+            <span class="legend-tag">ICON KEY</span>
+            <div class="legend-items">
+                <span class="legend-item"><span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span> <strong>Light Wound</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Aggravated Wound"><img src="../../assets/images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound"/></span> <strong>Aggravated</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Light Stress"><img src="../../assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"/></span> <strong>Light Stress</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Aggravated Stress"><img src="../../assets/images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress"/></span> <strong>Agg. Stress</strong></span>
+                <span class="legend-item"><span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> <strong>AP</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> <strong>Upgrade</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span> <strong>Downgrade</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> <strong>Hit (8+)</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Crit (10)"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span> <strong>Crit (10)</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> <strong>Push</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Gambit"><img src="../../assets/images/icons/mechanical/gambit.svg" alt="Gambit"/></span> <strong>Gambit</strong></span>
+                <span class="legend-item res-token"><span class="c-icon" title="Boost"><img src="../../assets/images/icons/mechanical/vanguard_boost.svg" alt="Boost"/></span> <strong>Boost</strong></span>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <span>Corsair RPG · Vanguard Class Sheet · System Document</span>
+            <span class="foot-meta">518 AA // SECTOR RECORD // AUTONOMOUS CELL CHARTER</span>
+        </div>
+    </div></div>
 </body>
 
 </html>

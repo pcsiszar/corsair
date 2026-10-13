@@ -163,9 +163,9 @@ The Defense Package channels stored capacitive reserves into reactive dispersion
 * **Cost:** 0 AP
 * **Trigger:** When you or an ally in your space are targeted by an incoming attack.
 * **Effect:** *You dump your entire capacitor reserve in an emergency defensive surge, contesting the incoming attack for free (0 AP) using your active Conduit Attribute:*
-  * **Flame:** A concussive thermal explosion engulfs your perimeter. You take only half damage from the incoming attack, and all hostile creatures in your space and adjacent spaces immediately suffer damage equal to your **Flame Attribute + 3**.
-  * **Frost:** A reinforced crystalline ice cocoon locks across your position. You gain **+4 Physical Protection** against the attack (which protects both you and any ally occupying your space), and the attacking creature suffers **1 Downgrade** on all physical tests until the end of the round.
-  * **Lightning:** Electromagnetic deflection coils pulse with immense power. All dice in the incoming attack pool require a **natural 10** to count as a Hit (turning all 8s and 9s into misses). Immediately following the attack, you may instantly teleport up to **4 meters** to an unoccupied space.
+  * **Flame:** A concussive thermal explosion engulfs your perimeter. All creatures other than you in your space take damage equal to  **Flame Attribute + Your Conduit Level**.
+  * **Frost:** A reinforced crystalline ice cocoon locks across your position. You may create **Medium Cover** in your current space.
+  * **Lightning:** You dodge the attack with immense speed. You can move a number of meters equal to your highest die plus your **Lightning Attribute**.
 
 ---
 
@@ -181,13 +181,14 @@ The Restoration Package routes delicate micro-currents and regulated thermal gra
   * **Frost:** Endothermic biogel soothes trauma; you may choose to heal either **Light Wounds** or **Light Stress**.
   * **Lightning:** Galvanic defibrillation triggers on instinct; this ability can be activated as a **Reaction (0 AP) immediately after taking damage**, but if activated in this way, you cannot activate Amped Regen on your next Player Turn.
 
-**Healing Burst `[Action]`**
+**Healing Burst `[Free Action]`**
 * **Resource Cost:** Requires and consumes 3 Charges
-* **Cost:** 1 AP
-* **Effect:** *Your plates release a massive metabolic and neuro-electrical surge to reconstruct damaged tissue and restart stopped hearts:*
-  * **Flame:** Accelerated thermal cellular reconstruction floods your tissues. You or an ally occupying your space immediately heal Light Wounds equal to your **Flame Attribute + your Toughness**.
-  * **Frost:** Cryogenic cell-stabilization seals micro-lacerations and freezes pain receptors. You and all allies occupying your space immediately heal Light Wounds or Light Stress equal to your **Frost Attribute**, and you clear all active **Downgrades** currently affecting those targets.
-  * **Lightning:** High-voltage cardiac-synaptic resuscitation and neural surge. Target a downed, unconscious, or dying ally in your space (or yourself if you activate this upon being reduced to 0 HP): the target immediately revives to consciousness, gets back up, heals Light Wounds equal to your **Lightning Attribute**, and gains **1 immediate Action Point (1 AP)**. If activated on a target who is already conscious, this surge instantly clears all stun or incapacitation, grants **1 bonus AP** for their current turn, and applies **+1 Upgrade** to all their tests until the end of the round.
+* **Cost:** 0 AP
+* **Target:** You or a single ally occupying your current space.
+* **Effect:** *Your plates release a massive metabolic and neuro-electrical surge to reconstruct damaged tissue, supercharge adrenaline, and restart stopped hearts.* The chosen target heals **Light Wounds or Light Stress** (recipient's choice) equal to your **chosen elemental Attribute + your Willpower or Toughness** (your choice). In addition, based on the element consumed:
+  * **Flame:** Searing thermal stimulation and metabolic overdrive stoke fiery vigor; the target gains **+1 Upgrade** on all **Strength** and **Presence** tests for the rest of the round.
+  * **Frost:** Endothermic crystalline biogel flash-freezes across vitals; the target gains **+1 Upgrade** on all **Finesse** tests for the rest of the round, and gains **+4 Protection** against the next attack targeting the recipient that would hit.
+  * **Lightning:** Galvanic cardiac-synaptic resuscitation surges through reflexes; the target gains **+1 Upgrade** on all **Agility** tests for the rest of the round, and this ability can resurrect the target if they died during the current round, immediately reviving them to consciousness with their healed Light Wounds.
 
 ---
 

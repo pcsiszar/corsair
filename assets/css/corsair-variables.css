@@ -1,0 +1,66 @@
+/* =============================================================================
+   CORSAIR TTRPG DESIGN SYSTEM — CSS VARIABLES & TOKENS
+   Standardized variables for digital reading and physical print publishing.
+   ============================================================================= */
+
+:root {
+    /* STAGE / HUD PALETTE (Studio screen wrapper) */
+    --stage-bg: #070a12;
+    --stage-grid: rgba(255, 255, 255, 0.03);
+    --hud-bg: rgba(13, 18, 28, 0.96);
+    --hud-border: #1e293b;
+
+    /* PRINT-FRIENDLY BOOK PAGE (Archival paper stock) */
+    --page-bg: #fdfcf9;
+    --page-bg-pure: #ffffff;
+    --page-panel-neutral: #f4f6fa;
+    --page-panel-warm: #fefce8;
+    --page-panel-cool: #f0f9ff;
+    --page-panel-alert: #fef2f2;
+    --page-panel-dark: #0f172a;
+
+    /* TEXT CONTRAST TOKENS */
+    --text-primary: #0f172a;
+    --text-body: #334155;
+    --text-muted: #64748b;
+    --text-dim: #94a3b8;
+    --text-light: #f8fafc;
+
+    /* CORSAIR SPOT PALETTES (Hard sci-fi aerospace accents) */
+    /* 1. Searing Amber / Solar Gold (Primary Brand Accent) */
+    --amber-primary: #d97706;
+    --amber-bright: #f59e0b;
+    --amber-dark: #b45309;
+    --amber-glow: rgba(245, 158, 11, 0.25);
+    --amber-tint: rgba(245, 158, 11, 0.08);
+
+    /* 2. Avionics Cyan (Sensors, Navigation, MANTLE Systems) */
+    --cyan-primary: #0284c7;
+    --cyan-bright: #38bdf8;
+    --cyan-dark: #0369a1;
+    --cyan-glow: rgba(56, 189, 248, 0.25);
+    --cyan-tint: rgba(2, 132, 199, 0.08);
+
+    /* 3. Hazard Crimson (Ordnance, Danger, Aggravated Wounds) */
+    --crimson-primary: #dc2626;
+    --crimson-bright: #ef4444;
+    --crimson-dark: #991b1b;
+    --crimson-tint: rgba(220, 38, 38, 0.08);
+
+    /* 4. Industrial Slate & Tungsten */
+    --slate-border: #cbd5e1;
+    --slate-border-light: #e2e8f0;
+    --slate-border-dark: #334155;
+
+    /* TYPOGRAPHY FAMILIES */
+    --font-heading: 'Barlow Condensed', sans-serif;
+    --font-body: 'Barlow', sans-serif;
+    --font-display: 'Orbitron', sans-serif;
+    --font-mono: 'Share Tech Mono', monospace;
+    --font-label: 'Rajdhani', sans-serif;
+
+    /* PAGE GEOMETRY (Standard A4 / Letter spread) */
+    --page-width: 210mm;
+    --page-height: 297mm;
+    --page-padding: 16mm 14mm 16mm 14mm;
+}

@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsair TTRPG — Chapter 00: Front Matter & System Introduction</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Shared Modular Stylesheets -->
+    <link rel="stylesheet" href="../../assets/css/corsair-variables.css">
+    <link rel="stylesheet" href="../../assets/css/corsair-typography.css">
+    <link rel="stylesheet" href="../../assets/css/corsair-components.css">
+    <link rel="stylesheet" href="../../assets/css/corsair-layout.css">
+    <link rel="stylesheet" href="../../assets/css/corsair-print.css">
+</head>
+<body class="book-screen-canvas">
+
+    <!-- TOP HUD NAVIGATION (Screen Only) -->
+    <nav class="book-nav">
+        <span class="nav-title">CORSAIR CORE RULEBOOK // 518 AA</span>
+        <span class="system-tag">ACT 00: FRONT MATTER</span>
+        <a href="01_Core_Mechanics.html">Chapter 01: Core Mechanics →</a>
+    </nav>
+
+    <!-- =========================================================================
+         PAGE 1: BOOK COVER
+         Layer 1: Deep Blue Astrometric Lattice Background (Subtle Faint Lines)
+         Layer 2: Enlarged Corsair Emblem (Centered)
+         Layer 3: Title & Subtitle Text Centered Over Emblem
+         ========================================================================= -->
+    <div class="book-page cover-page">
+        <!-- Layer 2: The Emblem -->
+        <div class="cover-emblem-wrap">
+            <img src="../../assets/images/icons/factions/insignia_corsairs.png" alt="Corsair Emblem">
+        </div>
+        
+        <!-- Layer 3: Title Text Centered Directly Over Emblem -->
+        <div class="cover-content">
+            <div class="cover-title-group">
+                <h1 class="cover-title">CORSAIR</h1>
+                <div class="cover-subtitle">A Tabletop Roleplaying Game</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 1 (Pages 2 & 3) — BACKGROUND: bg_astrometric_lattice.jpg
+         PAGE 2: CREDITS, COLOPHON & THE HARD SCI-FI CHARTER
+         ========================================================================= -->
+    <div class="book-page spread-bg-1">
+        <div class="page-running-header">
+            <span>Corsair Core Rulebook</span>
+            <span>Front Matter & Colophon</span>
+        </div>
+
+        <!-- Heading Banner: Flotilla Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-flotilla column-span-all">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title">Credits & System Colophon</h1>
+            </div>
+        </div>
+
+        <div class="two-columns">
+            <div class="column-span-all">
+                <p class="lead" style="margin-bottom: 3mm;">
+                    *Corsair* is authored under strict hard science fiction physical invariants, blending tactical depth, 
+                    character-driven space-western grit, and cosmic industrial scale.
+                </p>
+            </div>
+
+            <h2 style="font-size: 13pt; margin-top: 1mm;">Development Team</h2>
+            <p><strong>Game Design & Mechanical Systems:</strong> The Corsair Collective</p>
+            <p><strong>Narrative Architecture & Lore Canon:</strong> Department of Archival Records (Flotilla Remnant)</p>
+            <p><strong>Typography & Book Layout:</strong> Corsair Technical Publishing Bureau</p>
+            <p><strong>Playtest Coordination:</strong> The Wanabo Frontier & Pelagia Operations Groups</p>
+
+            <h2 style="font-size: 13pt; margin-top: 5mm;">The Three Core Invariants</h2>
+            <p>Every rule, hull specification, weapon parameter, and historical document in this book adheres to three foundational pillars:</p>
+            
+            <div class="callout callout-amber keep-together">
+                <div class="callout-title">1. Grounded Hard Sci-Fi Physics</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    No artificial gravity plating, no faster-than-light drives, and no psychic space magic. Ships generate gravity through continuous axial thrust or centrifugal spin drums. Vacuum is cold, propellant is finite, and heat radiation is life or death.
+                </p>
+            </div>
+
+            <div class="callout callout-cyan keep-together">
+                <div class="callout-title">2. The Omni-Role Philosophy</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    No operative is locked into a single rigid duty. Every Corsair can fire an emergency sidearm, clear a jammed coolant line, patch an ally’s puncture wound, and negotiate salvage rights at an orbital airlock.
+                </p>
+            </div>
+
+            <div class="callout callout-crimson keep-together">
+                <div class="callout-title">3. Consequences & Inertia</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    Actions carry irreversible tactical momentum. When armor buckles or kinetic slugs pierce a pressurized bulkhead, characters manage structural stress, decompression tracks, and tactical retreat rather than mindless attrition.
+                </p>
+            </div>
+
+            <h2 style="font-size: 13pt; margin-top: 5mm;">Legal & Archival Notices</h2>
+            <p style="font-size: 8pt; color: var(--text-muted);">
+                Published 518 After Arrival (AA). All ship designations, corporate trademarks (Vander & Thorne, Hyperion Agronomics, Halcyon Bio-Synthetics), and faction charters contained herein are verified against the Sovereign Colony Archives. 
+                Any resemblance to actual classified Precursor singularity research is strictly denied by the Office of Flotilla Naval Intelligence.
+            </p>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">ii</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 1 (Pages 2 & 3) — BACKGROUND: bg_astrometric_lattice.jpg
+         PAGE 3: MASTER TABLE OF CONTENTS (Part I: Operative Systems)
+         ========================================================================= -->
+    <div class="book-page spread-bg-1">
+        <div class="page-running-header">
+            <span>Corsair Core Rulebook</span>
+            <span>Master Table of Contents // Part I</span>
+        </div>
+
+        <!-- Heading Banner: Flotilla Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-flotilla column-span-all">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title">Table of Contents — Volume I</h1>
+            </div>
+        </div>
+
+        <div class="column-span-all" style="margin-bottom: 2mm;">
+            <p style="font-size: 9pt; color: var(--text-muted); margin-bottom: 3mm;">
+                System Foundation, Operative Chassis & Fleet Hardware.
+            </p>
+        </div>
+
+        <div class="two-columns">
+            <!-- ACT 0 -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act 0: System Introduction</span>
+                    <span class="toc-page">Page 1</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="#chapter-00">Chapter 00: Front Matter & Gaming Principles</a><span class="toc-dots"></span><span class="toc-page">1</span></li>
+                    <li class="toc-item"><a href="#what-is-an-rpg">What is a Roleplaying Game?</a><span class="toc-dots"></span><span class="toc-page">3</span></li>
+                    <li class="toc-item"><a href="#what-youll-need">What You'll Need to Play</a><span class="toc-dots"></span><span class="toc-page">4</span></li>
+                    <li class="toc-item"><a href="#table-culture">Table Culture, Agency & Risk Calibration</a><span class="toc-dots"></span><span class="toc-page">5</span></li>
+                    <li class="toc-item"><a href="#lexicon">Operative Orientation & Lexicon</a><span class="toc-dots"></span><span class="toc-page">6</span></li>
+                </ul>
+            </div>
+
+            <!-- ACT I -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act I: System Foundation</span>
+                    <span class="toc-page">Page 7</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="01_Core_Mechanics.html">Chapter 01: Core Mechanics & Resolution</a><span class="toc-dots"></span><span class="toc-page">7</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#attributes">The Six Attributes & Attribute Pairs</a><span class="toc-dots"></span><span class="toc-page">8</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#tests">Simple, Success & Complex Tests</a><span class="toc-dots"></span><span class="toc-page">10</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#upgrades">Upgrades, Downgrades & Gambits</a><span class="toc-dots"></span><span class="toc-page">13</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#teamwork">Teamwork & Assistance Manoeuvres</a><span class="toc-dots"></span><span class="toc-page">15</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#effects">Effects & Tactical Modifiers</a><span class="toc-dots"></span><span class="toc-page">17</span></li>
+                    <li class="toc-item"><a href="01_Core_Mechanics.html#combat">Moment-to-Moment Combat Pacing</a><span class="toc-dots"></span><span class="toc-page">19</span></li>
+                </ul>
+            </div>
+
+            <!-- ACT II -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act II: Operatives & Chassis</span>
+                    <span class="toc-page">Page 25</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="02_Character_Creation.html">Chapter 02: Character Creation</a><span class="toc-dots"></span><span class="toc-page">25</span></li>
+                    <li class="toc-item"><a href="02_Character_Creation.html#modes">Modes of Play (Freelancers, Corsairs, Rogues)</a><span class="toc-dots"></span><span class="toc-page">26</span></li>
+                    <li class="toc-item"><a href="02_Character_Creation.html#traits">Operational Traits Catalog</a><span class="toc-dots"></span><span class="toc-page">31</span></li>
+                    <li class="toc-item"><a href="02_Character_Creation.html#advancement">Experience Points & Career Progression</a><span class="toc-dots"></span><span class="toc-page">35</span></li>
+                    <li class="toc-item"><a href="03_Classes.html">Chapter 03: Classes & The MANTLE System</a><span class="toc-dots"></span><span class="toc-page">39</span></li>
+                    <li class="toc-item"><a href="03_Classes.html#conduit">The Conduit (Capacitor & Surge)</a><span class="toc-dots"></span><span class="toc-page">41</span></li>
+                    <li class="toc-item"><a href="03_Classes.html#hazard">The Hazard (Chemical Warfare & Alchemy)</a><span class="toc-dots"></span><span class="toc-page">49</span></li>
+                    <li class="toc-item"><a href="03_Classes.html#pilot">The Pilot (Neuro-Exoskeleton & Exodrone)</a><span class="toc-dots"></span><span class="toc-page">57</span></li>
+                    <li class="toc-item"><a href="03_Classes.html#vanguard">The Vanguard (Kinetic Breaker & Shield)</a><span class="toc-dots"></span><span class="toc-page">65</span></li>
+                    <li class="toc-item"><a href="03_Classes.html#weaver">The Weaver (Nanite Swarms & Fabrication)</a><span class="toc-dots"></span><span class="toc-page">73</span></li>
+                </ul>
+            </div>
+
+            <!-- ACT III -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act III: Hardware & Fleet</span>
+                    <span class="toc-page">Page 81</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="04_Armory_and_Gear.html">Chapter 04: The Armory & Equipment</a><span class="toc-dots"></span><span class="toc-page">81</span></li>
+                    <li class="toc-item"><a href="04_Armory_and_Gear.html#firearms">Firearms & Ballistic Ordnance</a><span class="toc-dots"></span><span class="toc-page">84</span></li>
+                    <li class="toc-item"><a href="04_Armory_and_Gear.html#melee">Melee Weapons & Breaching Tools</a><span class="toc-dots"></span><span class="toc-page">88</span></li>
+                    <li class="toc-item"><a href="04_Armory_and_Gear.html#armor">Armor & Rig Hardpoints</a><span class="toc-dots"></span><span class="toc-page">91</span></li>
+                    <li class="toc-item"><a href="04_Armory_and_Gear.html#exotic">Exotic Hardware Relics</a><span class="toc-dots"></span><span class="toc-page">95</span></li>
+                    <li class="toc-item"><a href="05_Starships.html">Chapter 05: Starships & Naval Operations</a><span class="toc-dots"></span><span class="toc-page">101</span></li>
+                    <li class="toc-item"><a href="05_Starships.html#combat">Void Combat & Vector Maneuvers</a><span class="toc-dots"></span><span class="toc-page">104</span></li>
+                    <li class="toc-item"><a href="05_Starships.html#weapons">Naval Torpedoes & Point-Defense</a><span class="toc-dots"></span><span class="toc-page">109</span></li>
+                    <li class="toc-item"><a href="05_Starships.html#hangar">The Hangar Bay & Parasite Craft</a><span class="toc-dots"></span><span class="toc-page">114</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">iii</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 2 (Pages 4 & 5) — BACKGROUND: bg_avionics_schematic.jpg
+         PAGE 4: MASTER TABLE OF CONTENTS (Part II: Warden's Dossier & The Rim)
+         ========================================================================= -->
+    <div class="book-page spread-bg-2">
+        <div class="page-running-header">
+            <span>Corsair Core Rulebook</span>
+            <span>Master Table of Contents // Part II</span>
+        </div>
+
+        <!-- Heading Banner: Flotilla Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-flotilla column-span-all">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title">Table of Contents — Volume II</h1>
+            </div>
+        </div>
+
+        <div class="column-span-all" style="margin-bottom: 2mm;">
+            <p style="font-size: 9pt; color: var(--text-muted); margin-bottom: 3mm;">
+                The Warden's Operations Dossier, Worldbuilding & Deep Lore.
+            </p>
+        </div>
+
+        <div class="two-columns">
+            <!-- ACT IV -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act IV: The Warden's Dossier</span>
+                    <span class="toc-page">Page 121</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="06a_GM_Operations.html">Chapter 06A: Operational Systems</a><span class="toc-dots"></span><span class="toc-page">121</span></li>
+                    <li class="toc-item"><a href="06a_GM_Operations.html#time">Time Management & Scene Pacing</a><span class="toc-dots"></span><span class="toc-page">123</span></li>
+                    <li class="toc-item"><a href="06a_GM_Operations.html#downtime">The 24-Hour Downtime Cycle & Gigs</a><span class="toc-dots"></span><span class="toc-page">127</span></li>
+                    <li class="toc-item"><a href="06a_GM_Operations.html#stealth">Stealth & Infiltration Clocks</a><span class="toc-dots"></span><span class="toc-page">135</span></li>
+                    <li class="toc-item"><a href="06a_GM_Operations.html#chases">Chases & Pursuit Maneuvers</a><span class="toc-dots"></span><span class="toc-page">141</span></li>
+                    <li class="toc-item"><a href="06b_GM_Bestiary.html">Chapter 06B: Bestiary & Field Encounters</a><span class="toc-dots"></span><span class="toc-page">147</span></li>
+                    <li class="toc-item"><a href="06b_GM_Bestiary.html#bestiary">18 Faction Threat Cards & Tactics</a><span class="toc-dots"></span><span class="toc-page">151</span></li>
+                    <li class="toc-item"><a href="06b_GM_Bestiary.html#missions">The Mission Generator & Open Contracts</a><span class="toc-dots"></span><span class="toc-page">165</span></li>
+                </ul>
+            </div>
+
+            <!-- ACT V -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act V: The Setting & Archives</span>
+                    <span class="toc-page">Page 173</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="07_World_of_the_Sphere.html">Chapter 07: The World of the Sphere</a><span class="toc-dots"></span><span class="toc-page">173</span></li>
+                    <li class="toc-item"><a href="07_World_of_the_Sphere.html#locations">Cartography: The 100+ Habitable Worlds</a><span class="toc-dots"></span><span class="toc-page">177</span></li>
+                    <li class="toc-item"><a href="07_World_of_the_Sphere.html#factions">The 5 Sovereign Powers & Cartels</a><span class="toc-dots"></span><span class="toc-page">185</span></li>
+                    <li class="toc-item"><a href="07_World_of_the_Sphere.html#timeline">Timeline of Arrival (0 to 518 AA)</a><span class="toc-dots"></span><span class="toc-page">201</span></li>
+                    <li class="toc-item"><a href="08_Forbidden_Archives.html">Chapter 08: The Forbidden Archives</a><span class="toc-dots"></span><span class="toc-page">209</span></li>
+                    <li class="toc-item"><a href="08_Forbidden_Archives.html#precursors">Precursors, Singularity & The Monoliths</a><span class="toc-dots"></span><span class="toc-page">211</span></li>
+                    <li class="toc-item"><a href="08_Forbidden_Archives.html#shepherd">The Shepherd's Gambit & The True Timeline</a><span class="toc-dots"></span><span class="toc-page">217</span></li>
+                </ul>
+            </div>
+
+            <!-- ACT VI -->
+            <div class="toc-act-block">
+                <div class="toc-act-title">
+                    <span>Act VI: Fiction & Appendices</span>
+                    <span class="toc-page">Page 225</span>
+                </div>
+                <ul class="toc-entries">
+                    <li class="toc-item"><a href="09_Fiction_Anthology.html">Chapter 09: Fiction Anthology</a><span class="toc-dots"></span><span class="toc-page">225</span></li>
+                    <li class="toc-item"><a href="09_Fiction_Anthology.html#tourism">Novella: Space Tourism</a><span class="toc-dots"></span><span class="toc-page">227</span></li>
+                    <li class="toc-item"><a href="09_Fiction_Anthology.html#post-war">Novella: Post-War Head & Heartaches</a><span class="toc-dots"></span><span class="toc-page">239</span></li>
+                    <li class="toc-item"><a href="09_Fiction_Anthology.html#tithe">Novella: The Mathematics of the Great Tithe</a><span class="toc-dots"></span><span class="toc-page">247</span></li>
+                    <li class="toc-item"><a href="09_Fiction_Anthology.html#point-of-order">Novella: A Point of Order on the 27th Hour</a><span class="toc-dots"></span><span class="toc-page">253</span></li>
+                    <li class="toc-item"><a href="10_Appendices_and_Index.html">Chapter 10: Quick Reference & Index</a><span class="toc-dots"></span><span class="toc-page">257</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">iv</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 2 (Pages 4 & 5) — BACKGROUND: bg_avionics_schematic.jpg
+         PAGE 5: CHAPTER 00 OPENER — SYSTEM INTRODUCTION
+         ========================================================================= -->
+    <div class="book-page spread-bg-2" id="chapter-00">
+        <div class="page-running-header">
+            <span>Act 0: System Introduction</span>
+            <span>Chapter 00: Overview & Principles</span>
+        </div>
+
+        <!-- Heading Banner: Tactical Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-tactical column-span-all">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title">System Introduction</h1>
+            </div>
+        </div>
+
+        <div class="two-columns">
+            <div class="column-span-all">
+                <p class="lead has-dropcap">
+                    Welcome to the world of Corsair! This rulebook provides you with everything you need to embark on tactical operations, create memorable operatives, and tell high-stakes stories with your friends across the vast expanse of the Sphere.
+                </p>
+            </div>
+
+            <h2 id="what-is-an-rpg">What is a Roleplaying Game?</h2>
+            <p>
+                A roleplaying game (RPG) is a collaborative storytelling experience. You and your friends will create characters to portray, and together you will navigate a world full of tactical adventure, corporate espionage, harsh planetary exploration, and imminent danger.
+            </p>
+            <p>
+                One player takes on the role of the <strong>Game Master (GM)</strong>—often referred to as the <em>Warden</em> or <em>Flight Controller</em>. The GM is the primary storyteller, the referee of the physical rules, and the voice of the non-player characters (NPCs) that inhabit the world. The other players take on the roles of the <strong>Player Characters (PCs)</strong>—the protagonists of the narrative.
+            </p>
+            <p>
+                The game unfolds through a structured conversation. The GM describes the surrounding environment, a player states what their character attempts to accomplish, and the GM describes the resulting physical consequences. When the outcome of an action is uncertain or dangerous, the group turns to the dice to determine what happens, using the rules detailed in this book.
+            </p>
+            <p>
+                There are no winners or losers in a roleplaying game. The shared objective is to create a compelling, tense, and memorable story together.
+            </p>
+
+            <div class="callout callout-amber keep-together">
+                <div class="callout-title">The Principle of Narration</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    Dice never roll in a vacuum. A roll represents physical friction: boots catching against grated decking, capacitors whining under peak load, or thruster gimbal bearings fighting reaction torque. Describe what your character physically does before picking up the dice.
+                </p>
+            </div>
+
+            <h2 id="what-youll-need" class="cyan-accent">What You'll Need to Play</h2>
+            <p>To run and play a session of Corsair, you will need a handful of standard gaming materials:</p>
+
+            <div class="table-container keep-together">
+                <div class="table-header">Operational Requirements Table</div>
+                <table class="rules-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 28%;">Item</th>
+                            <th>Specification & Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="bold">Dice</td>
+                            <td>Eight-sided (<strong>d8</strong>), ten-sided (<strong>d10</strong>), and twelve-sided (<strong>d12</strong>) polyhedral dice. Each player should ideally have 2 to 3 of each die type.</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Character Sheets</td>
+                            <td>Printed copies of the official A4 Corsair Character Sheet, Class Sheet, or Ship Crew Sheet to record attributes, traits, and gear.</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Pencils & Erasers</td>
+                            <td>For updating fluctuating meters: Action Points, Light Wounds, Aggravated Wounds, and ammunition reserves.</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Tactical Tokens</td>
+                            <td>Coins, poker chips, or acrylic counters for tracking Action Points (AP), Range Bands, and tactical initiative order.</td>
+                        </tr>
+                        <tr>
+                            <td class="bold">Crew Roster</td>
+                            <td>Corsair is designed for <strong>3 to 5 players</strong>, including the Game Master.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>The Tone of the Setting</h2>
+            <p>
+                The setting of Corsair is a blend of <em>The Expanse</em>, <em>Mass Effect</em>, and <em>Cowboy Bebop</em>. It is a universe where humanity and fellow Newcomer species arrived 518 years ago into an abandoned solar system of 100+ engineered Earth-mass worlds known as the Sphere.
+            </p>
+            <p>
+                There is no faster-than-light communication; news travels at the speed of courier frigates. There are no energy shields; point-defense cannons shred incoming railgun slugs into lethal shrapnel clouds. In Corsair, technology is tangible, heavy, and maintained by sweat and solder.
+            </p>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Chapter 00: Introduction</span>
+            <span class="page-num">1</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 3 (Pages 6 & 7) — BACKGROUND: bg_gravity_contours.jpg
+         PAGE 6: TABLE CULTURE, CALIBRATION & READING PROGRESSION
+         ========================================================================= -->
+    <div class="book-page spread-bg-3" id="table-culture">
+        <div class="page-running-header">
+            <span>Act 0: System Introduction</span>
+            <span>Table Culture & Safety</span>
+        </div>
+
+        <!-- Heading Banner: Tactical Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-tactical column-span-all">
+            <div class="p-banner-content">
+                <h2 class="p-banner-title">Table Culture & Risk Calibration</h2>
+            </div>
+        </div>
+
+        <div class="two-columns">
+            <div class="column-span-all">
+                <p class="lead" style="margin-bottom: 3mm;">
+                    Because Corsair operates in a grounded, high-lethality hard sci-fi environment, clear communication between players and the Game Master ensures engaging drama without table friction.
+                </p>
+            </div>
+
+            <h3>Player Agency & High-Stakes Operations</h3>
+            <p>
+                Operatives in Corsair are skilled professionals, daring scoundrels, or desperate survivors—not expendable cannon fodder. When characters take risks, the consequences should be transparent. Before players roll the dice on a lethal gambit, the GM should clearly state the potential costs: <em>"If this test fails, your mag-clamp disconnects and you drift into Pelagia’s upper cloud layer."</em>
+            </p>
+
+            <div class="callout callout-cyan keep-together">
+                <div class="callout-title">The Fail-Forward Rule</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    A failed dice roll in Corsair never results in an uninteresting dead end where "nothing happens." Instead, failure introduces new complications: alarms blare, bulkhead seals crack, or ammunition exhausts, forcing the crew to adapt.
+                </p>
+            </div>
+
+            <h3>Lines, Veils & Calibration</h3>
+            <p>
+                The void is unforgiving, and missions often touch on claustrophobia, vacuum decompression, corporate exploitation, and deep-space isolation. Groups are encouraged to establish safety tools (such as X-Cards or Lines & Veils) during Session Zero to calibrate the intensity of psychological and physical trauma.
+            </p>
+
+            <div class="tech-divider">
+                <div class="tech-divider-dot"></div>
+            </div>
+
+            <h2>How to Use This Rulebook</h2>
+            <p>
+                You do not need to memorize all 320 pages of this book before rolling your first die. We recommend the following reading progression:
+            </p>
+            <ul style="padding-left: 4mm; margin-bottom: 4mm; display: flex; flex-direction: column; gap: 1.5mm;">
+                <li><strong>Step 1: Learn the Resolution System.</strong> Read <strong><a href="01_Core_Mechanics.html">Chapter 01: Core Mechanics</a></strong> to understand how Simple Tests, Gambits, and Teamwork function.</li>
+                <li><strong>Step 2: Build Your Operatives.</strong> Head to <strong><a href="02_Character_Creation.html">Chapter 02</a></strong> and <strong><a href="03_Classes.html">Chapter 03</a></strong> to choose your MANTLE chassis (Conduit, Hazard, Pilot, Vanguard, or Weaver) and pick starting Traits.</li>
+                <li><strong>Step 3: Gear Up.</strong> Equip your operative with firearms, armor, and utility tech in <strong><a href="04_Armory_and_Gear.html">Chapter 04</a></strong>.</li>
+                <li><strong>Step 4: Launch into the Sphere.</strong> If you are the Game Master, familiarize yourself with <strong><a href="06a_GM_Operations.html">Chapter 06A</a></strong> for Downtime cycles and <strong><a href="07_World_of_the_Sphere.html">Chapter 07</a></strong> for faction dynamics.</li>
+            </ul>
+
+            <div class="callout callout-amber keep-together" style="margin-top: 5mm;">
+                <div class="callout-title">Flight Clearance Ready</div>
+                <p style="font-size: 8.5pt; margin-bottom: 2mm;">
+                    With your crew assembled and your sensors calibrated, proceed to the foundational resolution mechanics:
+                </p>
+                <p style="text-align: right; margin: 0;">
+                    <a href="01_Core_Mechanics.html" style="color: var(--amber-dark); font-weight: 700; text-transform: uppercase; font-family: var(--font-heading); text-decoration: none;">Proceed to Chapter 01: Core Mechanics →</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Chapter 00: Introduction</span>
+            <span class="page-num">2</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         SPREAD 3 (Pages 6 & 7) — BACKGROUND: bg_gravity_contours.jpg
+         PAGE 7: OPERATIVE ORIENTATION & FOUNDATIONAL LEXICON
+         ========================================================================= -->
+    <div class="book-page spread-bg-3" id="lexicon">
+        <div class="page-running-header">
+            <span>Act 0: System Introduction</span>
+            <span>Operative Orientation & Lexicon</span>
+        </div>
+
+        <!-- Heading Banner: Tactical Parallelogram with Overlaid Text (No Flavor Text) -->
+        <div class="p-banner-wrap p-banner-tactical column-span-all">
+            <div class="p-banner-content">
+                <h2 class="p-banner-title">Operative Briefing & Lexicon</h2>
+            </div>
+        </div>
+
+        <div class="two-columns">
+            <div class="column-span-all">
+                <p class="lead" style="margin-bottom: 3mm;">
+                    Every Corsair operating across the Sovereign Colonies, Megacorporate corridors, and the Flotilla picket lines communicates through a standardized vocabulary of survival.
+                </p>
+            </div>
+
+            <h3>Core Operational Terms</h3>
+            <p><strong>AA (After Arrival):</strong> The universal calendar dating system, established 518 years ago when the Newcomer colony arks first entered the Sphere.</p>
+            <p><strong>Corsair:</strong> A chartered independent operative, contractor, or ship-borne freelancer operating under official letters of marque or a freelance license.</p>
+            <p><strong>MANTLE:</strong> <em>Modular Adaptive Neural Transmission Linked Equipment</em>. The proprietary class cybernetic chassis permanently bound to an operative via their Neural Control Chip (NCC).</p>
+            <p><strong>Reaction Mass (Remass):</strong> High-density propellant heated by fusion reactors and expelled through magnetic nozzles. Without Remass, you drift until Pelagia’s gravity well claims you.</p>
+            <p><strong>The Sphere:</strong> The vast engineered star system containing over a hundred Earth-mass worlds arranged in concentric orbital belts by the silent Precursors.</p>
+
+            <div class="callout callout-amber keep-together">
+                <div class="callout-title">The Warden's Axiom</div>
+                <p style="font-size: 8.5pt; margin: 0;">
+                    The vacuum does not negotiate, corporations do not forgive, and inertia never sleeps. Keep your seals lubricated and your heatsinks cleared.
+                </p>
+            </div>
+
+            <h3 style="margin-top: 5mm;">The Three Factions in Brief</h3>
+            <p><strong>The Sovereign Colonies:</strong> Proud planetary worlds built upon soil and sweat, fiercely independent and wary of corporate encroachment.</p>
+            <p><strong>The Megacorporations:</strong> Vander & Thorne, Hyperion Agronomics, and Halcyon Bio-Synthetics—transplanetary cartels wielding private fleets and orbital refineries.</p>
+            <p><strong>The Flotilla:</strong> The nomadic armada of the original colony ships that never landed, patrolling the void lanes as the guardians of the Newcomer accords.</p>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Chapter 00: Introduction</span>
+            <span class="page-num">3</span>
+        </div>
+    </div>
+
+    <!-- BOTTOM HUD NAVIGATION (Screen Only) -->
+    <nav class="book-nav" style="margin-top: 40px; margin-bottom: 0;">
+        <span class="nav-title">CORSAIR // ACT 00 COMPLETE</span>
+        <a href="01_Core_Mechanics.html">Chapter 01: Core Mechanics →</a>
+    </nav>
+
+</body>
+</html>

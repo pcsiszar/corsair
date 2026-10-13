@@ -81,9 +81,28 @@
                 --flame: #000000;
                 --frost: #000000;
                 --lightning: #000000;
+            
+            .foot-legend {
+                background: #f8fafc !important;
+                border-color: #cbd5e1 !important;
+                color: #334155 !important;
             }
+            .legend-tag {
+                color: #0284c7 !important;
+                border-color: #cbd5e1 !important;
+            }
+            .legend-item strong {
+                color: #0f172a !important;
+            }
+            .legend-item.res-token strong {
+                color: #b45309 !important;
+            }
+            .foot-bottom {
+                color: #475569 !important;
+            }
+        }
 
-            .page {
+        .page {
                 background: #ffffff !important;
                 box-shadow: none !important;
                 padding: 0 !important;
@@ -154,7 +173,7 @@
             width: 210mm;
             min-height: 297mm;
             margin: 0 auto;
-            padding: 3mm 3.5mm;
+            padding: 2.4mm 3.5mm 1.6mm 3.5mm;
             background: var(--dark);
             position: relative;
             overflow: hidden;
@@ -192,30 +211,31 @@
         .masthead {
             display: flex;
             align-items: stretch;
-            margin-bottom: 1.6mm;
-            border: 1px solid var(--accent-dim);
+            margin-bottom: 1.2mm;
+            border: 1px solid var(--border-light);
+            border-top: 2.5px solid var(--accent);
+            border-radius: 2px;
             background: var(--mid);
             position: relative;
             z-index: 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
         }
 
         .mh-logo {
-            background: linear-gradient(135deg, #090e18 0%, #131a29 100%);
+            background: linear-gradient(135deg, #070b14 0%, #101726 100%);
             border-right: 1.5px solid var(--accent);
-            padding: 1.2mm 2.2mm;
+            padding: 1.0mm 2.2mm;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 50%, calc(100% - 7px) 100%, 0 100%);
-            padding-right: 7mm;
             min-width: 20mm;
             position: relative;
         }
 
         .mh-corsair-star {
-            width: 9.8mm;
-            height: 9.8mm;
+            width: 8.5mm;
+            height: 8.5mm;
             object-fit: contain;
             filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
             display: block;
@@ -238,32 +258,8 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-        }
-
-        .mh-telemetry {
-            display: flex;
-            align-items: center;
-            gap: 1.2mm;
-            margin-bottom: 0.3mm;
-        }
-
-        .telemetry-pill {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 4.8pt;
-            letter-spacing: 0.12em;
-            color: var(--text-dim);
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid var(--border);
-            padding: 0.2px 1.2mm;
-            border-radius: 1.5px;
-            text-transform: uppercase;
-            line-height: 1.2;
-        }
-
-        .telemetry-pill.accent {
-            color: var(--accent);
-            border-color: var(--accent-dim);
-            background: rgba(200, 168, 75, 0.08);
+            position: relative;
+            z-index: 1;
         }
 
         .mh-title h1 {
@@ -295,6 +291,8 @@
             padding: 0.8mm 2.2mm;
             gap: 0.6mm;
             background: rgba(0, 0, 0, 0.15);
+            position: relative;
+            z-index: 1;
         }
 
         .mh-name {
@@ -321,18 +319,21 @@
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
-            margin-bottom: 1.5mm;
+            border-top: 2px solid var(--accent);
+            border-radius: 2px;
+            margin-bottom: 1.1mm;
             position: relative;
             z-index: 1;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
         }
 
         .card-hd {
-            background: var(--mid);
-            border-bottom: 1.5px solid var(--accent-dim);
-            padding: 0.8mm 1.8mm;
+            background: linear-gradient(90deg, #121926 0%, #0d121c 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 0.8mm 2.0mm;
             display: flex;
             align-items: center;
-            gap: 1.2mm;
+            justify-content: space-between;
             position: relative;
         }
 
@@ -342,15 +343,8 @@
             left: 0;
             top: 0;
             bottom: 0;
-            width: 2px;
+            width: 3px;
             background: var(--accent);
-        }
-
-        .card-hd svg {
-            width: 10px;
-            height: 10px;
-            fill: var(--accent);
-            flex-shrink: 0;
         }
 
         .card-hd h2 {
@@ -360,7 +354,6 @@
             letter-spacing: 0.14em;
             text-transform: uppercase;
             color: var(--accent);
-            flex: 1;
         }
 
         .card-body {
@@ -442,7 +435,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 12.5mm;
+            min-height: 10.5mm;
         }
 
         .charge-box.flame {
@@ -546,7 +539,7 @@
 
         .skill-table td {
             border-bottom: 1px solid var(--border);
-            padding: 0.5mm 1.0mm;
+            padding: 0.32mm 0.9mm;
             vertical-align: top;
         }
 
@@ -558,7 +551,7 @@
             font-family: 'Barlow', sans-serif;
             font-size: 6.5pt;
             color: var(--text);
-            line-height: 1.18;
+            line-height: 1.15;
         }
 
         .rules-text p {
@@ -585,22 +578,75 @@
 
         .page-foot {
             font-family: 'Barlow Condensed', sans-serif;
-            font-size: 5.6pt;
-            letter-spacing: 0.26em;
-            color: var(--text-muted);
-            text-align: center;
-            text-transform: uppercase;
             margin-top: auto;
             padding-top: 1mm;
             border-top: 1px solid rgba(255, 255, 255, 0.04);
             display: flex;
+            flex-direction: column;
+            gap: 1mm;
+        }
+
+        .foot-legend {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(15, 23, 42, 0.55);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 3px;
+            padding: 1.5px 5px;
+            font-size: 5.4pt;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .legend-tag {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 5.0pt;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            letter-spacing: 0.1em;
+            margin-right: 2px;
+            padding-right: 4px;
+            border-right: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .legend-items {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5px 6px;
+        }
+
+        .legend-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 2px;
+            white-space: nowrap;
+        }
+
+        .legend-item strong {
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+
+        .legend-item.res-token strong {
+            color: var(--accent-gold);
+        }
+
+        .foot-bottom {
+            display: flex;
             justify-content: space-between;
             align-items: center;
+            font-size: 5.2pt;
+            letter-spacing: 0.22em;
+            color: var(--text-muted);
+            text-transform: uppercase;
         }
 
         .foot-meta {
             font-family: 'Share Tech Mono', monospace;
-            font-size: 5.0pt;
+            font-size: 4.8pt;
             color: var(--text-muted);
             letter-spacing: 0.1em;
         }
@@ -609,7 +655,7 @@
         .chk-box  { width: 3.2mm; height: 3.2mm; border: 1px solid var(--accent-dim); background: var(--mid); margin: 0 auto; }
         .skill-name { font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:7.4pt; text-transform:uppercase; color:var(--accent); }
         .skill-cost { font-family:'Share Tech Mono',monospace; font-size:5.6pt; color:var(--text-dim); white-space:nowrap; display:inline-flex; align-items:center; }
-        .skill-desc { font-family:'Barlow',sans-serif; font-size:6.4pt; color:var(--text); line-height:1.16; }
+        .skill-desc { font-family:'Barlow',sans-serif; font-size:6.3pt; color:var(--text); line-height:1.12; }
 
         .tag-badge {
             font-family: 'Share Tech Mono', monospace;
@@ -679,20 +725,16 @@
             <span class="logo-text">Corsair</span>
         </div>
         <div class="mh-title">
-            <div class="mh-telemetry">
-                <span class="telemetry-pill">DOSSIER // 518 AA</span>
-                <span class="telemetry-pill accent">SINGULARITY SHARD RESONANCE</span>
-            </div>
             <h1>Class Sheet: The Conduit</h1>
             <div class="sub">Flotilla Dossier · Specialization Record · Capacitor Rig Specialist</div>
         </div>
         <div class="mh-meta-fields">
             <div class="mh-name">
-                <label>Agent Designation</label>
+                <label>Agent Name</label>
                 <div class="fl"></div>
             </div>
             <div class="mh-name">
-                <label>Callsign / Rig ID</label>
+                <label>Class Level</label>
                 <div class="fl"></div>
             </div>
         </div>
@@ -706,9 +748,6 @@
             <!-- ATTRIBUTES CARD -->
             <div class="card">
                 <div class="card-hd">
-                    <svg viewBox="0 0 24 24">
-                        <polygon points="12 2 15 8 22 9 17 14 18 21 12 18 6 21 7 14 2 9 9 8 12 2"/>
-                    </svg>
                     <h2>Conduit Attributes</h2>
                 </div>
                 <div class="card-body">
@@ -717,7 +756,7 @@
                             <div class="attr-box"></div>
                             <div class="attr-meta">
                                 <div class="attr-name">Flame</div>
-                                <div class="attr-code">FLM · Firepower, Combustion · STR / CHA</div>
+                                <div class="attr-code">FLM · Firepower, Combustion · STR / PRS</div>
                             </div>
                         </div>
                         <div class="attr-block frost">
@@ -741,10 +780,7 @@
             <!-- CAPACITOR CHARGE TRACKER -->
             <div class="card">
                 <div class="card-hd">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                    </svg>
-                    <h2>Capacitor Plates (Charges)</h2>
+                    <h2>Capacitor Plates (3 Max <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>)</h2>
                 </div>
                 <div class="card-body">
                     <div class="charge-grid">
@@ -777,11 +813,6 @@
             <!-- CORE MECHANICS CARD -->
             <div class="card">
                 <div class="card-hd">
-                    <svg viewBox="0 0 24 24">
-                        <circle cx="12" cy="12" r="10"/>
-                        <line x1="12" y1="16" x2="12" y2="12"/>
-                        <line x1="12" y1="8" x2="12.01" y2="8"/>
-                    </svg>
                     <h2>Core Mechanics</h2>
                 </div>
                 <div class="card-body rules-text">
@@ -800,9 +831,6 @@
             <!-- CLASS MODS CARD -->
             <div class="card">
                 <div class="card-hd">
-                    <svg viewBox="0 0 24 24">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                    </svg>
                     <h2>Class Modifications (25,000 Cr · Max 2)</h2>
                 </div>
                 <div class="card-body" style="padding: 0;">
@@ -828,7 +856,7 @@
                         <tr>
                             <td class="chk-cell"><div class="chk-box"></div></td>
                             <td class="skill-name-col">Intensity</td>
-                            <td class="rules-text">Sacrifice a <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> (8+) on tests using Conduit Attributes to generate 1 matching Charge (up to max capacity).</td>
+                            <td class="rules-text">Sacrifice a <span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> (8+) on tests using Conduit Attributes to generate 1 matching <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> (up to max capacity).</td>
                         </tr>
                         <tr>
                             <td class="chk-cell"><div class="chk-box"></div></td>
@@ -844,15 +872,75 @@
                     </table>
                 </div>
             </div>
+
+            <!-- CHASSIS PROGRESSION CARD -->
+            <div class="card">
+                <div class="card-hd">
+                    <h2>Chassis Progression (Credits)</h2>
+                </div>
+                <div class="card-body" style="padding: 0;">
+                    <table class="skill-table">
+                        <thead>
+                        <tr>
+                            <th class="chk-cell">Lvl</th>
+                            <th>Benefits Unlocked</th>
+                            <th style="text-align: right; padding-right: 1.5mm;">Cost (Cr)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 1</span>
+                                <div class="rules-text" style="font-size: 5.9pt;">Base Chassis · 7 Attr Pts (1/1/1) · Starting Package · Charge Engine</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">100,000*</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 2</span>
+                                <div class="rules-text" style="font-size: 5.9pt;">+1 Attribute Point · +1 Ability Package</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">20,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 3</span>
+                                <div class="rules-text" style="font-size: 5.9pt;">+1 Attribute Point · +1 Mod Slot (Slot 1) · +1 Ability Package</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">40,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 4</span>
+                                <div class="rules-text" style="font-size: 5.9pt;">+1 Attribute Point · +1 Ability Package</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">75,000</td>
+                        </tr>
+                        <tr>
+                            <td class="chk-cell"><div class="chk-box"></div></td>
+                            <td>
+                                <span class="skill-name" style="font-size: 6.8pt;">Level 5</span>
+                                <div class="rules-text" style="font-size: 5.9pt;">+1 Attribute Point · +1 Mod Slot (Slot 2)</div>
+                            </td>
+                            <td style="text-align: right; font-family: 'Share Tech Mono', monospace; font-size: 5.9pt; color: var(--accent); white-space: nowrap; padding-right: 1.5mm; vertical-align: middle;">150,000</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="gambit-note" style="padding: 0.6mm 1.2mm; text-align: left; border-top: 1px solid var(--border); font-size: 5.2pt; line-height: 1.2;">
+                        *Free for starting chassis; 100,000 Cr to acquire as additional chassis during downtime.
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- COLUMN 2: ABILITIES (7 PACKAGES) -->
         <div>
             <div class="card">
                 <div class="card-hd">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-                    </svg>
                     <h2>Amp &amp; Burst Packages (1 Starting · +1 per Level 2–4)</h2>
                 </div>
                 <div>
@@ -880,12 +968,12 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Shot</span> <span class="tag-badge">Rider</span></td>
-                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">Firearm attack. <strong>Flame:</strong> +1 Dmg/Chg. <strong>Frost:</strong> Reroll dice = Chg across all rolls. <strong>Lightning:</strong> 1st <span class="c-icon" title="Chain"><img src="../../assets/images/icons/mechanical/chain.svg" alt="Chain"/></span> targets +Chg additional creatures.</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Firearm attack. <strong>Flame:</strong> +1 Dmg/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>. <strong>Frost:</strong> Reroll dice = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> across all rolls. <strong>Lightning:</strong> 1st <span class="c-icon" title="Chain"><img src="../../assets/images/icons/mechanical/chain.svg" alt="Chain"/></span> targets +<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> additional creatures.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Blast Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
                             <td><span class="skill-desc">Success Test vs Short range space. <strong>Flame:</strong> Dmg = SP + Flame in 8m radius. <strong>Frost:</strong> Dmg = SP + Frost in 90° 12m cone + Difficult Terrain. <strong>Lightning:</strong> Dmg = SP + Lightning to 3 creatures in line of fire.</span></td>
                         </tr>
 
@@ -896,12 +984,12 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Strike</span> <span class="tag-badge">Rider</span></td>
-                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">Melee strike. <strong>Flame:</strong> +1 Dmg/Chg or <span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> target 1 space/Chg. <strong>Frost:</strong> Apply 1 <span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span>/Chg to target's physical tests for round. <strong>Lightning:</strong> Free <span class="c-icon" title="Chain"><img src="../../assets/images/icons/mechanical/chain.svg" alt="Chain"/></span> to +1 adjacent enemy/Chg.</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Melee strike. <strong>Flame:</strong> +1 Dmg/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> or <span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> target 1 space/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>. <strong>Frost:</strong> Apply 1 <span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span>/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> to target's physical tests for round. <strong>Lightning:</strong> Free <span class="c-icon" title="Chain"><img src="../../assets/images/icons/mechanical/chain.svg" alt="Chain"/></span> to +1 adj. enemy/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Impact Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
                             <td><span class="skill-desc">Success Test vs melee target. <strong>Flame:</strong> Target takes SP + Flame + 4 dmg; shockwave deals Flame dmg to enemies in space/adjacent. <strong>Frost:</strong> Dmg = SP + Frost + 3-die <span class="c-icon" title="Blocker"><img src="../../assets/images/icons/mechanical/blocker.svg" alt="Blocker"/></span> on target. <strong>Lightning:</strong> Dmg = SP + Lightning; arc 8m through target (line takes Lightning dmg).</span></td>
                         </tr>
 
@@ -912,12 +1000,12 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Sprint</span> <span class="tag-badge">Rider</span></td>
-                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">Movement action. <strong>Flame:</strong> +2m move/Chg and can Fly. <strong>Frost:</strong> +2m move/Chg, ignore Diff. Terrain, leave Diff. Terrain trail for round. <strong>Lightning:</strong> +2m move/Chg; uncontested movement.</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Movement action. <strong>Flame:</strong> +2m move/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> &amp; Fly. <strong>Frost:</strong> +2m move/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>, ignore Diff. Ter., leave Diff. Terrain trail for round. <strong>Lightning:</strong> +2m move/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>; uncontested move.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Motion Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
                             <td><span class="skill-desc">Move up to Conduit &times; 4 meters. <strong>Flame:</strong> Fly into space; creatures inside take Flame + STR dmg. <strong>Frost:</strong> Spaces moved become Diff. Terrain; deploy Medium Cover (Rating 2, 24 HP) in end space. <strong>Lightning:</strong> Melee strike in path (melee dmg + Lightning); disengage freely; <span class="c-icon" title="Chain"><img src="../../assets/images/icons/mechanical/chain.svg" alt="Chain"/></span> can target any creature traversed.</span></td>
                         </tr>
 
@@ -928,13 +1016,13 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Def.</span> <span class="tag-badge">Reaction</span></td>
-                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">1/turn when targeted. <strong>Flame:</strong> Attacker in space/adjacent takes Flame + Chg dmg. <strong>Frost:</strong> +1 Protection/Chg against attack. <strong>Lightning:</strong> If contesting, gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = Chg to <span class="c-icon" title="Contest"><img src="../../assets/images/icons/mechanical/contest.svg" alt="Contest"/></span>.</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">1/turn when targeted. <strong>Flame:</strong> Attacker in space/adjacent takes Flame + <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> dmg. <strong>Frost:</strong> +1 Prot/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> vs attack. <strong>Lightning:</strong> If contesting, gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> to Contest.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Shield Burst</span> <span class="tag-badge">Reaction</span></td>
-                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
-                            <td><span class="skill-desc">Free <span class="c-icon" title="Contest"><img src="../../assets/images/icons/mechanical/contest.svg" alt="Contest"/></span> (Conduit) when targeted. <strong>Flame:</strong> Suffer 1/2 dmg; all enemies in space/adjacent take Flame + 3 dmg. <strong>Frost:</strong> +4 Prot for you/ally in space; attacker suffers 1 <span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span>. <strong>Lightning:</strong> <span class="c-icon" title="Hit"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> require 10s (8s/9s miss); teleport up to 4m after attack.</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Free Contest (Conduit) when targeted. <strong>Flame:</strong> Others in space take Flame + Lvl dmg. <strong>Frost:</strong> Create Medium Cover in space. <strong>Lightning:</strong> Move meters = highest die + Lightning.</span></td>
                         </tr>
 
                         <!-- 5. RESTORATION PACKAGE -->
@@ -944,13 +1032,13 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Regen</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">1/turn if you have LW (or LS for Frost); heal LW = Chg. <strong>Flame:</strong> +1 extra LW. <strong>Frost:</strong> Heal LW or Stress. <strong>Lightning:</strong> Can trigger immediately when damaged (locks next turn).</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">1/turn if you have <span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span> (or <span class="c-icon" title="Light Stress"><img src="../../assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"/></span> for Frost); heal = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>. <strong>Flame:</strong> +1 extra <span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span>. <strong>Frost:</strong> Heal <span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span> or <span class="c-icon" title="Light Stress"><img src="../../assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"/></span>. <strong>Lightning:</strong> Reaction on dmg (locks next turn).</span></td>
                         </tr>
                         <tr>
-                            <td><span class="skill-name">Healing Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
-                            <td><span class="skill-desc"><strong>Flame:</strong> Heal Flame + Toughness LW to self/ally in space. <strong>Frost:</strong> Heal Frost LW or Stress to self and all allies in space; clear all <span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span>. <strong>Lightning:</strong> Revive downed ally/self with Lightning LW + 1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> immediately; if conscious, clear stun, grant +1 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> this turn, and +1 <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> for round.</span></td>
+                            <td><span class="skill-name">Healing Burst</span> <span class="tag-badge">Free</span></td>
+                            <td><span class="skill-cost">0 <span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Target self or 1 ally in space: heal <span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span> or <span class="c-icon" title="Light Stress"><img src="../../assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"/></span> = Element + WIL/TGH. <strong>Flame:</strong> +1 <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> to STR &amp; PRS. <strong>Frost:</strong> +1 <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> to FIN &amp; +4 Prot vs next hit. <strong>Lightning:</strong> +1 <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> to AGI &amp; can resurrect if died this round.</span></td>
                         </tr>
 
                         <!-- 6. PROWESS PACKAGE -->
@@ -960,12 +1048,12 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amped Prowess</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc">Non-combat only. Tests using matching element attribute gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = Chg. <strong>Flame:</strong> STR / CHA. <strong>Frost:</strong> FIN / KNW. <strong>Lightning:</strong> AGI / INS.</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Non-combat only. Tests using matching element attribute gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>. <strong>Flame:</strong> STR / PRS. <strong>Frost:</strong> FIN / KNW. <strong>Lightning:</strong> AGI / INS.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Overdrive Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
                             <td><span class="skill-desc">When taking any test (in or out of combat) matching element attribute that is NOT an attack: set up to 3 dice in Success Roll to max face value (bank for <span class="c-icon" title="Gambit"><img src="../../assets/images/icons/mechanical/gambit.svg" alt="Gambit"/></span> or spend for <span class="c-icon" title="Hit"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> / <span class="c-icon" title="Crit"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span>).</span></td>
                         </tr>
 
@@ -976,13 +1064,13 @@
                         <tr>
                             <td class="chk-cell" rowspan="2"><div class="chk-box"></div></td>
                             <td><span class="skill-name">Amp Gear</span> <span class="tag-badge">Rider</span></td>
-                            <td><span class="skill-cost">0/1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 Chg</span></td>
-                            <td><span class="skill-desc"><strong>Flame:</strong> Melee weapon gains +1 Dmg/Chg, or up to Chg dice <span class="c-icon" title="Crit"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span> on 7+ on Ordnance tests. <strong>Frost:</strong> Reroll up to Chg dice on Finesse gear tests, or healing items gain +Chg SP. <strong>Lightning:</strong> Mobility gear gains <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = Chg, or Hacking/Interfacing tests gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = Chg.</span></td>
+                            <td><span class="skill-cost">0/1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · +1 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc"><strong>Flame:</strong> Melee weapon gains +1 Dmg/<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>, or up to <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> dice <span class="c-icon" title="Crit"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span> on 7+ on Ordnance tests. <strong>Frost:</strong> Reroll up to <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> dice on FIN gear tests, or healing items gain +<span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> SP. <strong>Lightning:</strong> Mobility gear gains <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>, or Hacking/Interfacing tests gain <span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> = <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span>.</span></td>
                         </tr>
                         <tr>
                             <td><span class="skill-name">Synthesis Burst</span> <span class="tag-badge">Action</span></td>
-                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 Chg</span></td>
-                            <td><span class="skill-desc">Synthesize Load 0 one-time item for encounter. <strong>Flame:</strong> Grenade (Ordnance = Flame) or Jetpack (Mobility = Flame, 1 flight). <strong>Frost:</strong> Field Medi-Kit (Medicine = Frost, heals LW) or Glacial Barricade (Medium Cover +2, 24 HP, non-recoverable). <strong>Lightning:</strong> Flashbang (Ordnance = Lightning, Area Stun) or Cyberdeck (Hacking/Interfacing = Lightning, 1 slice).</span></td>
+                            <td><span class="skill-cost">1 <span class="c-icon"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> · 3 <span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span></span></td>
+                            <td><span class="skill-desc">Synthesize Load 0 one-time item for encounter. <strong>Flame:</strong> Grenade (Ordnance = Flame) or Jetpack (Mobility = Flame, 1 flight). <strong>Frost:</strong> Field Medi-Kit (Medicine = Frost, heals <span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span>) or Glacial Barricade (Medium Cover +2, 24 HP, non-recoverable). <strong>Lightning:</strong> Flashbang (Ordnance = Lightning, Area Stun) or Cyberdeck (Hacking/Interfacing = Lightning, 1 slice).</span></td>
                         </tr>
 
                         </tbody>
@@ -992,11 +1080,29 @@
         </div>
 
     </div>
-    <div class="page-foot">
-        <span>Corsair RPG · Conduit Class Sheet · System Document</span>
-        <span class="foot-meta">518 AA // SECTOR RECORD // AUTONOMOUS CELL CHARTER</span>
-    </div>
-</div>
+        <div class="page-foot">
+        <div class="foot-legend">
+            <span class="legend-tag">ICON KEY</span>
+            <div class="legend-items">
+                <span class="legend-item"><span class="c-icon" title="Light Wound"><img src="../../assets/images/icons/mechanical/wound_light.svg" alt="Light Wound"/></span> <strong>Light Wound</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Aggravated Wound"><img src="../../assets/images/icons/mechanical/wound_aggravated.svg" alt="Aggravated Wound"/></span> <strong>Aggravated</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Light Stress"><img src="../../assets/images/icons/mechanical/stress_light.svg" alt="Light Stress"/></span> <strong>Light Stress</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Aggravated Stress"><img src="../../assets/images/icons/mechanical/stress_aggravated.svg" alt="Aggravated Stress"/></span> <strong>Agg. Stress</strong></span>
+                <span class="legend-item"><span class="c-icon" title="AP"><img src="../../assets/images/icons/mechanical/ap.svg" alt="AP"/></span> <strong>AP</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Upgrade"><img src="../../assets/images/icons/mechanical/upgrade.svg" alt="Upgrade"/></span> <strong>Upgrade</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Downgrade"><img src="../../assets/images/icons/mechanical/downgrade.svg" alt="Downgrade"/></span> <strong>Downgrade</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Hit (8+)"><img src="../../assets/images/icons/mechanical/hit.svg" alt="Hit"/></span> <strong>Hit (8+)</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Crit (10)"><img src="../../assets/images/icons/mechanical/crit.svg" alt="Crit"/></span> <strong>Crit (10)</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Push"><img src="../../assets/images/icons/mechanical/push.svg" alt="Push"/></span> <strong>Push</strong></span>
+                <span class="legend-item"><span class="c-icon" title="Gambit"><img src="../../assets/images/icons/mechanical/gambit.svg" alt="Gambit"/></span> <strong>Gambit</strong></span>
+                <span class="legend-item res-token"><span class="c-icon" title="Charge"><img src="../../assets/images/icons/mechanical/conduit_charge.svg" alt="Charge"/></span> <strong>Charge</strong></span>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <span>Corsair RPG · Conduit Class Sheet · System Document</span>
+            <span class="foot-meta">518 AA // SECTOR RECORD // AUTONOMOUS CELL CHARTER</span>
+        </div>
+    </div></div>
 </body>
 
 </html>

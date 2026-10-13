@@ -167,5 +167,40 @@ Use these proven templates for generating assets across Corsair books:
 * **Use Case:** Chapter headers, sector navigation, fleet action splashes.
 * **Prompt:**
   ```text
-  Graphic design asset engineered to serve as a wide horizontal chapter title background banner for a hard sci-fi tabletop RPG book. A panoramic deep-space vista with swirling cosmic nebula gases in deep indigo, electric cyan, and warm solar amber dust filaments. The center of the banner is composed with a deep, dark atmospheric void with soft, diffuse illumination, intentionally designed to provide high visual contrast and zero visual noise for large white heading text placed over it. Star clusters and intricate glowing gas clouds frame the outer perimeter. Astrophotography realism, no planets, no spaceships, no text, no watermark.
-  ```
+  
+---
+
+## 7. Official Character & Scene Art Style: High-Contrast Vibrant Noir
+
+The official visual standard for characters, factions, equipment dossiers, and narrative splashes in *Corsair* is **High-Contrast Vibrant Noir** (inspired by the inking mastery of Sean Gordon Murphy and Matteo Scalera with rich, saturated graphic novel coloring by Matt Hollingsworth / Jordie Bellaire).
+
+### Core Aesthetic Pillars:
+1. **Bold Black India Ink Foundation**:
+   - Heavy, chiseled black ink contours and deep geometric chiaroscuro shadow masses.
+   - Dense cross-hatching, stippling, and fine textural linework (no blurry digital gradients or flat 3D shading).
+2. **Hyper-Detailed Micro-Mechanical & Biological Density**:
+   - **Hardware**: Articulated composite plates, countersunk hex-bolts/rivets, nylon tactical load-bearing webbing with stitched seams and metal friction buckles, high-pressure braided fluid conduits with knurled couplings, illuminated digital fluid gauges, heatsinks, and tactile HUD gauntlets.
+   - **Biology**: Intricate micro-scale textures on reptilian/draconic species, grooved cranial horns/crests, and piercing slit irises.
+   - **Environment**: Cross-braced structural steel trusses, dangling heavy cable looms, diamond-plate mesh decking, and atmospheric mist/fog.
+3. **Rich, Vibrant, Saturated Color Palette**:
+   - High-contrast, punchy comic coloring layered over the heavy ink bones.
+   - Saturated twilight atmospheres (amber-gold sunset to deep dusk violet), glowing chemical reagents (emerald green, hazard orange), electric cyan telemetry status lights, and deep midnight navy flight suits.
+4. **Mandatory Insignia Reference**:
+   - Operatives must visibly wear the official Corsair insignia (`assets/images/icons/factions/insignia_corsairs.png`): a circular metallic badge featuring a split yellow-gold and cobalt-blue five-pointed star flanked by silver stylized wings on a shoulder pauldron or chest plate.
+
+### Standardized Character & Scene Prompt Formula:
+```text
+High-contrast hard sci-fi graphic novel illustration in the hyper-detailed, gritty ink style of Sean Gordon Murphy and Matteo Scalera, featuring a very rich, vibrant, and saturated comic book color palette. Heavy, bold black India ink outlines, deep geometric chiaroscuro shadow blocks, and extremely dense, intricate cross-hatching and textural linework across every surface. Standalone character splash art, no text.
+
+[CHARACTER & LINEAGE]: [Lineage description, non-human traits, physical posture, e.g. bipedal Naga operative with dense micro-scales, swept cranial horns, golden slit eyes].
+
+[DETAIL-RICH MANTLE GEAR]: Extraordinarily detail-rich and layered [CLASS] MANTLE chassis: multi-piece articulated armor plating with visible hex-bolts and recessed rivets; heavy nylon tactical load-bearing harness with stitched webbing, metal friction buckles, carabiners, and utility pouches; complex braided high-pressure conduits with knurled metal couplers; back-mounted chassis unit featuring illuminated gauges/canisters and micro-heatsink fins; and an intricately detailed forearm data gauntlet.
+
+[WEAPON / GEAR IN HAND]: [e.g. Armed with a sleek heavy kinetic sidearm pistol with tactical frame / tool / telemetry pad].
+
+[INSIGNIA]: Emblazoned boldly on the shoulder pauldron is the official Corsair insignia from the reference image: a circular metallic badge with a split yellow-gold and blue five-pointed star with silver wings.
+
+[ENVIRONMENT & ARCHITECTURE]: Industrial background packed with gritty structural details: heavy cross-braced gantry trusses, dangling electrical cables, diamond-plate steel mesh deck, and distant arcology spires rising through atmospheric mist canyons, under a vibrant, saturated amber-and-violet twilight sky with the massive sister planet [e.g. Landfall / Nimbus] glowing overhead.
+
+[COLOR & LIGHTING]: Striking, vibrant color contrast: deep navy blues, bright amber-gold, electric cyan, burnt orange, and glowing emerald fluids over deep black ink shadows. No smooth 3D render, no text.
+```

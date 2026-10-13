@@ -2,12 +2,14 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Chapter 1: What is a Roleplaying Game?](#chapter-1-what-is-a-roleplaying-game)
-    - [What You'll Need](#what-youll-need)
-- [Chapter 2: The World of Corsair](#chapter-2-the-world-of-corsair)
-    - [Introduction to the Sphere](lore/Introduction.md)
-    - [Locations: The Worlds of the Sphere](lore/locations/README.md)
+- [Introduction](Introduction.md)
+    - [Welcome to Corsair](Introduction.md#welcome-to-corsair)
+    - [Inspirations & Thanks](Acknowledgments.md)
+    - [Who Are the Corsairs?](Introduction.md#who-are-the-corsairs)
+    - [What is a Roleplaying Game?](Introduction.md#what-is-a-roleplaying-game)
+    - [Reader's Guide: How to Use This Book](Introduction.md#readers-guide-how-to-use-this-book)
+- [The World of Corsair](lore/locations/README.md)
+    - [Planetary Gazetteer](lore/locations/README.md)
         - [The Sphere: Macro-Engineering](lore/locations/Sphere.md)
         - [The Fume Cluster](lore/locations/Fume.md)
         - [Landfall: Cradle of the Newcomers](lore/locations/Landfall.md)
@@ -94,35 +96,8 @@
 
 ## Introduction
 
-Welcome to the world of Corsair! This rulebook provides you with everything you need to embark on epic adventures,
-create memorable characters, and tell stories with your friends.
-
-## Chapter 1: What is a Roleplaying Game?
-
-A roleplaying game (RPG) is a collaborative storytelling experience. You and your friends will create characters to
-portray, and together you will navigate a world full of adventure, mystery, and danger.
-
-One player takes on the role of the **Game Master (GM)**. The GM is the primary storyteller, the referee of the rules,
-and the voice of the non-player characters (NPCs) that inhabit the world. The other players are the **Player
-Characters (PCs)**, the protagonists of the story.
-
-The game unfolds through a conversation. The GM describes the scene, a player says what their character does, and the
-GM describes the results. When the outcome of an action is uncertain, you will use dice to determine what happens, using
-the rules outlined in this book.
-
-There are no winners or losers in a roleplaying game. The goal is to have fun and create a compelling story together.
-
-### What You'll Need
-
-To play Corsair, you will need a few things:
-
-* **Dice:** The game uses eight-sided (d8), ten-sided (d10), and twelve-sided (d12) dice. It's best to have a handful of
-  each.
-* **Pen and Paper:** For taking notes and keeping track of your character's stats and inventory.
-* **Tokens:** Coins, poker chips, or any other small objects are useful for tracking character positions and other game
-  states.
-* **Friends:** Corsair is best played with 3 to 5 players, including the Game Master.
-* **A Place to Play:** A quiet table with enough space for everyone is ideal. Snacks are highly recommended!
+For the complete system introduction, elevator pitch, Corsair Cell overview, and reader's roadmap, see **[Introduction](Introduction.md)**.
+For creative inspirations, media influences, and playtest acknowledgments, see **[Inspirations & Special Thanks](Acknowledgments.md)**.
 
 ## Chapter 2: The World of Corsair
 
@@ -130,10 +105,7 @@ Corsair takes place in the far future where humanity and a number of other civil
 found their new home in a far away place among the stars. They arrived as Newcomers to a seemingly abandoned solar
 system packed to the brim with over a hundred habitable planets and called it the Sphere.
 
-### Introduction to the Sphere
-
-For a detailed introduction to the Sphere, its history, and the role of Corsairs, see
-the [Introduction](lore/Introduction.md).
+For an overview of the Sphere and the role of Corsairs, see the **[Introduction](Introduction.md#who-are-the-corsairs)**.
 
 ### Locations & Systems
 

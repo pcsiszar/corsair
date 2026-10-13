@@ -1,0 +1,142 @@
+/* =============================================================================
+   CORSAIR TTRPG DESIGN SYSTEM — TYPOGRAPHY
+   Hierarchical styles, leading, headings, and running headers.
+   ============================================================================= */
+
+body {
+    font-family: var(--font-body);
+    font-size: 9.5pt;
+    line-height: 1.38;
+    color: var(--text-body);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 0.35em;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 26pt;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid var(--amber-primary);
+    padding-bottom: 2mm;
+    margin-bottom: 4mm;
+}
+
+h2 {
+    font-size: 17pt;
+    letter-spacing: 0.03em;
+    margin-top: 5mm;
+    margin-bottom: 2.5mm;
+    position: relative;
+    padding-left: 3mm;
+    border-left: 3.5px solid var(--amber-primary);
+}
+
+h2.cyan-accent {
+    border-left-color: var(--cyan-primary);
+}
+
+h3 {
+    font-size: 13pt;
+    letter-spacing: 0.02em;
+    margin-top: 4mm;
+    margin-bottom: 2mm;
+    color: var(--amber-dark);
+}
+
+h4 {
+    font-size: 10.5pt;
+    letter-spacing: 0.03em;
+    margin-top: 3mm;
+    margin-bottom: 1.5mm;
+    color: var(--text-primary);
+    font-family: var(--font-label);
+    font-weight: 700;
+}
+
+/* PARAGRAPHS & LEAD TEXT */
+p {
+    margin-bottom: 2.8mm;
+    text-align: justify;
+    hyphens: auto;
+}
+
+p.lead {
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 4mm;
+}
+
+/* DROP CAPS FOR CHAPTER OPENERS */
+p.has-dropcap::first-letter {
+    font-family: var(--font-heading);
+    float: left;
+    font-size: 38pt;
+    line-height: 0.8;
+    padding-top: 2px;
+    padding-right: 3mm;
+    padding-bottom: 1px;
+    color: var(--amber-primary);
+    font-weight: 900;
+}
+
+/* MONOSPACE & SYSTEM LABELS */
+code, .mono {
+    font-family: var(--font-mono);
+    font-size: 8.5pt;
+    color: var(--cyan-dark);
+}
+
+.system-tag {
+    font-family: var(--font-mono);
+    font-size: 7.5pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amber-dark);
+    font-weight: 700;
+}
+
+/* RUNNING HEADERS & FOOTERS (For physical pages) */
+.page-running-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--slate-border-light);
+    padding-bottom: 2mm;
+    margin-bottom: 5mm;
+    font-family: var(--font-heading);
+    font-size: 8pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.page-running-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--slate-border-light);
+    padding-top: 2mm;
+    margin-top: auto;
+    font-family: var(--font-heading);
+    font-size: 8pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.page-num {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--text-primary);
+}
