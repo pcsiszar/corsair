@@ -13,13 +13,19 @@ body {
 }
 
 /* HEADINGS */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     color: var(--text-primary);
     text-transform: uppercase;
     line-height: 1.1;
     margin-bottom: 0.35em;
     font-weight: 700;
+    break-after: avoid;
 }
 
 h1 {
@@ -91,7 +97,8 @@ p.has-dropcap::first-letter {
 }
 
 /* MONOSPACE & SYSTEM LABELS */
-code, .mono {
+code,
+.mono {
     font-family: var(--font-mono);
     font-size: 8.5pt;
     color: var(--cyan-dark);

@@ -6,6 +6,7 @@
 @page {
     size: A4 portrait;
     margin: 14mm 12mm 16mm 12mm;
+
     @bottom-center {
         content: counter(page);
         font-family: 'Share Tech Mono', monospace;
@@ -14,8 +15,10 @@
 }
 
 @media print {
+
     /* RESET SCREEN CANVAS TO PURE WHITE */
-    html, body {
+    html,
+    body {
         background: #ffffff !important;
         color: #000000 !important;
         padding: 0 !important;
@@ -24,7 +27,8 @@
     }
 
     /* HIDE DIGITAL HUDS & INTERACTIVE ELEMENTS */
-    .book-nav, .no-print {
+    .book-nav,
+    .no-print {
         display: none !important;
     }
 
@@ -51,13 +55,22 @@
     }
 
     /* KEEP SECTIONS AND STAT BLOCKS TOGETHER */
-    .keep-together, .callout, .table-container, .toc-act-block {
+    .keep-together,
+    .callout,
+    .table-container,
+    .toc-act-block {
         break-inside: avoid;
         page-break-inside: avoid;
     }
 
     /* TYPOGRAPHY CONTRAST OVERRIDES */
-    h1, h2, h3, h4, p, td, th {
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    td,
+    th {
         color: #000000 !important;
     }
 

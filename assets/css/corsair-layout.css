@@ -12,7 +12,7 @@
 /* SCREEN CANVAS CONTAINER (Dark aesthetic desktop view) */
 body.book-screen-canvas {
     background-color: var(--stage-bg);
-    background-image: 
+    background-image:
         radial-gradient(circle at 50% 0%, rgba(217, 119, 6, 0.08) 0%, transparent 70%),
         linear-gradient(var(--stage-grid) 1px, transparent 1px),
         linear-gradient(90deg, var(--stage-grid) 1px, transparent 1px);
@@ -74,7 +74,8 @@ body.book-screen-canvas {
 .book-page {
     width: 100%;
     max-width: 860px;
-    min-height: 1120px; /* Standard A4 equivalent proportion */
+    min-height: 1120px;
+    /* Standard A4 equivalent proportion */
     background-color: var(--page-bg);
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08);
     padding: var(--page-padding);
@@ -89,27 +90,32 @@ body.book-screen-canvas {
 }
 
 /* ROTATING SPREAD BACKGROUNDS (Rotate every 2 pages) */
-.spread-bg-1, .bg-astrometric {
+.spread-bg-1,
+.bg-astrometric {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_astrometric_lattice.jpg');
 }
 
-.spread-bg-2, .bg-avionics {
+.spread-bg-2,
+.bg-avionics {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_avionics_schematic.jpg');
 }
 
-.spread-bg-3, .bg-gravity {
+.spread-bg-3,
+.bg-gravity {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_gravity_contours.jpg');
 }
 
-.spread-bg-4, .bg-orbital {
+.spread-bg-4,
+.bg-orbital {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_orbital_traces.jpg');
 }
 
-.spread-bg-5, .bg-trajectory {
+.spread-bg-5,
+.bg-trajectory {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_trajectory_vectors.jpg');
 }
@@ -125,6 +131,13 @@ body.book-screen-canvas {
 .column-span-all {
     column-span: all;
     margin-bottom: 4mm;
+}
+
+.keep-together,
+.guide-part {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
 }
 
 /* COVER SPREAD STYLES (Layered: Deep Blue Astrometric Lattice Canvas -> Emblem -> Title Text) */
@@ -203,7 +216,7 @@ body.book-screen-canvas {
     border-bottom: none;
     margin: 0 0 3mm 0;
     padding: 0;
-    text-shadow: 
+    text-shadow:
         0 0 20px rgba(0, 0, 0, 0.95),
         0 0 40px rgba(2, 132, 199, 0.65),
         0 4px 16px rgba(0, 0, 0, 0.95);
@@ -217,9 +230,7 @@ body.book-screen-canvas {
     color: #f59e0b;
     text-transform: uppercase;
     margin: 0;
-    text-shadow: 
+    text-shadow:
         0 0 16px rgba(0, 0, 0, 0.95),
         0 2px 8px rgba(0, 0, 0, 0.9);
 }
-
-
