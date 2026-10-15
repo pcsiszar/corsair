@@ -25,6 +25,13 @@ That said, it would have amounted to nothing if I didn't have help. From Large L
 
 And an even bigger thanks to my wife and love of my life, **Farkas Ágnes**. I borrowed your ear more times than I can count, and you played a bigger role in making this a reality than anyone else.
 
+### Legal & Licensing
+
+* **Author & Lead Designer:** Péter Csiszár
+* **Version:** 0.0.1
+* **License:** *Corsair* is published under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+* **Copyright:** © Péter Csiszár. You are free to share, copy, redistribute, and adapt this material in any medium or format for non-commercial purposes, provided appropriate credit is given.
+
 ---
 
 ## Who Are the Corsairs?

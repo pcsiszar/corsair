@@ -239,8 +239,6 @@ The net number of Upgrades or Downgrades has a maximum limit of 6. For instance,
 
 In the rare case that you run out of all dice to downgrade, the test is considered extremely difficult. You roll two d8s and must take the lower of the two results as your final outcome.
 
-For the standalone rules document, see [Upgrade & Downgrade](core/Upgrade_Downgrade.md).
-
 #### Gambit
 
 **Gambit** is a special resource that allows players to snatch victory from the jaws of defeat. It's a pool of dice that you can use to turn a failed roll into a success.
@@ -268,8 +266,6 @@ Let's see how all these elements come together in play:
 * **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[5, 7, 8]`. The highest die is an 8 (8 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[5, 7, 8, 9]`. The highest result is a 9.
 * **Resolution:** Jax deals 9 points of damage to the drone. Spending his banked Gambit turned a clean miss into a devastating kinetic strike.
 
-For the standalone rules document, see [Gambit](core/Gambit.md).
-
 #### Contesting a Test
 
 Often, a test isn't just against a static obstacle; it's against an active opponent who is trying to interfere. When a character is the target of another character's test (like being shot at, deceived, or tackled), they have the opportunity to contest.
@@ -284,18 +280,9 @@ You can contest **Success Tests** as well. If, after contesting, no 8+ dice rema
 
 You can also contest actions that would normally not require a test (such as shushing someone before they can speak, or preventing an enemy you knocked prone from standing up). When this happens, you declare your intent to contest, and the contested creature must decide if they are willing to perform a **Simple Test** to complete their action—which you can then contest—or forego it altogether.
 
-##### Contesting Teamwork Actions: Defender's Advantage
-
-When an adversary is targeted by a coordinated Teamwork action, the defender gains the **Defender's Advantage**:
-* **Timing:** The defender's Contest Roll occurs *after* the attacking team has finalized swapping their dice.
-* **Targeted Elimination:** Each Hit (8+) on the Contest Roll allows the defender to eliminate the highest die from **whichever participating attacker's pool the defender chooses**.
-* **Shutting Down Attackers:** In a Complex Test, if the defender eliminates all 8+ dice from an attacker's pool, that attacker fails their Action Roll completely and **cannot proceed to the Success Roll**.
-
 ##### Contest Example
 
 Returning to our gunslinger Jax: suppose Jax attacks a security drone, rolling `[2, 4, 5, 7, 8]`. The drone has an **Evasion** of 3 and its maneuvering thrusters flare. The GM calls for an Evasion Contest Roll (**3d10**). The drone rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the kinetic slug ricochets harmlessly off the reinforced wall behind the drone.
-
-For the standalone rules document, see [Contest](core/Contest.md).
 
 #### Teamwork
 
@@ -330,8 +317,6 @@ When an adversary is targeted by a Teamwork action, the defender gains the **Def
 Teamwork can be employed across both stages of a Complex Test. Surviving attackers roll their Success pools and may **swap dice between their Success pools as well**, funneling high dice onto an operative with high-damage weapons or critical effects. 
 
 Defenders can also use Teamwork to resist incoming actions: when multiple defenders coordinate to resist an action, they roll their contest pools simultaneously, swap dice to maximize total Hits (8+), and allocate their combined eliminations against the attackers.
-
-For details on how Teamwork functions during structured turns and action limits, see [Teamwork Actions](#teamwork-actions) under Scenes, Pacing, and Action. For the standalone rules document, see [Teamwork](core/Teamwork.md).
 
 <a id="chapter-4-scenes-pacing-and-action"></a>
 ### Scenes, Pacing, and Action
@@ -413,15 +398,8 @@ react with NPCs.
 
 #### Going First
 
-During the first turn of every round, both the players and the GM can state they would like to go first.
-If they do, they have to bid an Action Point, from any creature in the scene that they control. If only one side bids,
-they automatically go first, but the Action Point is considered to be spent, counting against the 2 AP per Turn limit.
+Every round begins with the Player Turn. The players always act first, coordinating their moves and executing their strategies before the GM responds with the actions of non-player characters.
 
-If both sides bid, the creatures bidding roll an (Agility + Instinct) Simple Test. The side with more dice landing 8 or
-higher goes first. For the loosing side, this counts as an AP spent out of turn, meaning that their AP is gone, but it
-doesn't count against their 2 AP limit for the next turn.
-
-In case of a tie, or when neither side bids, the players go first.
 
 #### Teamwork Actions
 
@@ -527,8 +505,6 @@ Ongoing environmental hazards, physical restraints, and persistent blockers do n
 > 2. He spends his second `8` to activate a **Crit Effect**, granting **+2 Success Points** to his highest remaining die.
 > 
 > The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), dealing heavy damage to the drone while driving it clear of the doorway.
-
-For the standalone rules document, see [Effects](core/Effects.md).
 
 ---
 

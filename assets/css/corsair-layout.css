@@ -92,44 +92,73 @@ body.book-screen-canvas {
     overflow: hidden;
 }
 
-/* ROTATING SPREAD BACKGROUNDS (Rotate every 2 pages) */
+/* UNIFIED PAGE BACKGROUND (Identical tone across all spreads) */
 .spread-bg-1,
-.bg-astrometric {
+.spread-bg-2,
+.spread-bg-3,
+.spread-bg-4,
+.spread-bg-5,
+.bg-astrometric,
+.bg-avionics,
+.bg-gravity,
+.bg-orbital,
+.bg-trajectory {
     background-color: var(--page-bg);
     background-image: url('../backgrounds/bg_astrometric_lattice.jpg');
 }
 
-.spread-bg-2,
-.bg-avionics {
-    background-color: var(--page-bg);
-    background-image: url('../backgrounds/bg_avionics_schematic.jpg');
-}
-
-.spread-bg-3,
-.bg-gravity {
-    background-color: var(--page-bg);
-    background-image: url('../backgrounds/bg_gravity_contours.jpg');
-}
-
-.spread-bg-4,
-.bg-orbital {
-    background-color: var(--page-bg);
-    background-image: url('../backgrounds/bg_orbital_traces.jpg');
-}
-
-.spread-bg-5,
-.bg-trajectory {
-    background-color: var(--page-bg);
-    background-image: url('../backgrounds/bg_trajectory_vectors.jpg');
-}
-
-/* 2-COLUMN TEXT FLOW */
-.two-columns {
+/* 2-COLUMN TEXT FLOW (True Multi-Column Layout) */
+.two-columns,
+.page-body {
     column-count: 2;
     column-gap: 8mm;
     column-rule: 1px solid var(--slate-border-light);
     column-fill: balance;
     flex: 1;
+    min-height: 0;
+}
+
+.page-body p {
+    font-size: 8.7pt;
+    line-height: 1.40;
+    margin-bottom: 2.2mm;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.page-body ul,
+.page-body ol {
+    padding-left: 3.5mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1mm;
+    font-size: 8.4pt;
+    line-height: 1.38;
+    margin-bottom: 2.2mm;
+}
+
+.page-body h2 {
+    font-size: 14pt;
+    margin-top: 1.8mm;
+    margin-bottom: 1.8mm;
+}
+
+.page-body h3 {
+    font-size: 11pt;
+    margin-top: 1.4mm;
+    margin-bottom: 1.2mm;
+}
+
+.page-body .callout,
+.page-body .example-box {
+    padding: 2.5mm 3.2mm;
+    margin-bottom: 2.2mm;
+}
+
+.page-body .callout p,
+.page-body .example-box p {
+    font-size: 8.3pt;
+    line-height: 1.36;
 }
 
 /* 2-COLUMN BALANCED GRID (For structured two-column spreads) */

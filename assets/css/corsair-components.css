@@ -51,7 +51,67 @@
     background: var(--page-panel-alert);
 }
 .callout-crimson .callout-title { color: var(--crimson-dark); }
-.callout-crimson::before { background: var(--crimson-primary); }
+/* GAMEPLAY EXAMPLE CONTAINERS (Dedicated style for in-play narrative examples) */
+.example-box {
+    position: relative;
+    background: var(--page-panel-cool);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    border-left: 4px solid var(--cyan-primary);
+    padding: 3.5mm 4mm;
+    margin: 3.5mm 0;
+    break-inside: avoid;
+    border-radius: 0 4px 4px 0;
+}
+
+.example-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    background: var(--cyan-primary);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.example-title {
+    font-family: var(--font-heading);
+    font-size: 10.5pt;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--cyan-dark);
+    margin-bottom: 1.5mm;
+    display: flex;
+    align-items: center;
+    gap: 2mm;
+}
+
+.example-box p {
+    font-size: 8.4pt;
+    line-height: 1.38;
+    margin-bottom: 1.8mm;
+}
+
+.example-box p:last-child {
+    margin-bottom: 0;
+}
+
+.example-box ul,
+.example-box ol {
+    font-size: 8.2pt;
+    line-height: 1.34;
+    padding-left: 3.5mm;
+    margin-bottom: 1.8mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+}
+
+.example-box ul:last-child,
+.example-box ol:last-child {
+    margin-bottom: 0;
+}
 
 /* RULES TABLES */
 .table-container {
