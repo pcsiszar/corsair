@@ -70,12 +70,14 @@ body.book-screen-canvas {
     text-transform: uppercase;
 }
 
-/* BOOK PAGE SPREAD CONTAINER (A4 / US Letter Light Page) */
+/* BOOK PAGE SPREAD CONTAINER (Strict A4: 210mm x 297mm) */
 .book-page {
-    width: 100%;
-    max-width: 860px;
-    min-height: 1120px;
-    /* Standard A4 equivalent proportion */
+    width: 210mm;
+    height: 297mm;
+    max-width: 210mm;
+    min-height: 297mm;
+    max-height: 297mm;
+    box-sizing: border-box;
     background-color: var(--page-bg);
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08);
     padding: var(--page-padding);
@@ -87,6 +89,7 @@ body.book-screen-canvas {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 /* ROTATING SPREAD BACKGROUNDS (Rotate every 2 pages) */
@@ -125,7 +128,34 @@ body.book-screen-canvas {
     column-count: 2;
     column-gap: 8mm;
     column-rule: 1px solid var(--slate-border-light);
+    column-fill: balance;
     flex: 1;
+}
+
+/* 2-COLUMN BALANCED GRID (For structured two-column spreads) */
+.two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8mm;
+    flex: 1;
+}
+
+.two-column-grid > .col-left {
+    padding-right: 4mm;
+    border-right: 1px solid var(--slate-border-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.two-column-grid > .col-right {
+    padding-left: 4mm;
+    display: flex;
+    flex-direction: column;
+}
+
+.two-column-grid > div > :first-child,
+.two-columns > :first-child {
+    margin-top: 0 !important;
 }
 
 .column-span-all {

@@ -5,13 +5,7 @@
 
 @page {
     size: A4 portrait;
-    margin: 14mm 12mm 16mm 12mm;
-
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Share Tech Mono', monospace;
-        font-size: 8pt;
-    }
+    margin: 0;
 }
 
 @media print {
@@ -23,7 +17,7 @@
         color: #000000 !important;
         padding: 0 !important;
         margin: 0 !important;
-        width: 100% !important;
+        width: 210mm !important;
     }
 
     /* HIDE DIGITAL HUDS & INTERACTIVE ELEMENTS */
@@ -32,26 +26,46 @@
         display: none !important;
     }
 
-    /* PAGE BREAK INVARIANTS */
+    /* PAGE BREAK INVARIANTS: STRICT A4 210mm x 297mm */
     .book-page {
-        width: 100% !important;
-        max-width: none !important;
-        min-height: auto !important;
+        width: 210mm !important;
+        height: 297mm !important;
+        max-width: 210mm !important;
+        min-height: 297mm !important;
+        max-height: 297mm !important;
+        box-sizing: border-box !important;
         box-shadow: none !important;
         border: none !important;
         margin: 0 !important;
+        padding: 16mm 14mm 16mm 14mm !important;
+        break-after: page !important;
+        page-break-after: always !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        overflow: hidden !important;
+    }
+
+    .cover-page {
         padding: 0 !important;
-        break-after: page;
-        page-break-after: always;
+        background-color: #061124 !important;
+        background-image: url('../backgrounds/bg_astrometric_lattice_blue.jpg') !important;
+        break-after: page !important;
+        page-break-after: always !important;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
 
-    .cover-page {
-        break-after: page;
-        page-break-after: always;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+    .cover-page h1,
+    .cover-page .cover-title {
+        color: #ffffff !important;
+    }
+
+    .cover-page .cover-subtitle {
+        color: #f59e0b !important;
+    }
+
+    .p-banner-title {
+        color: #ffffff !important;
     }
 
     /* KEEP SECTIONS AND STAT BLOCKS TOGETHER */

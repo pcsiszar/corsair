@@ -149,7 +149,55 @@ The master compilation script is located at:
    ```powershell
    python .agents/skills/corsair-book-publishing/scripts/assemble_book.py
    ```
-5. To export to PDF via headless Chromium:
+5. To export individual chapters or the master compilation to PDF via the automated export script:
    ```powershell
-   chrome --headless --disable-gpu --print-to-pdf="dist/Corsair_Core_Rulebook.pdf" dist/Corsair_Core_Rulebook_Master.html
+   python .agents/skills/corsair-book-publishing/scripts/export_pdf.py --input rulebook/html/00_Front_Matter.html --output rulebook/html/00_Front_Matter.pdf
    ```
+
+---
+
+## 6. HTML to PDF Conversion & Print Engine Invariants
+
+### 6.1. Headless Chromium vs. WeasyPrint
+* **Avoid WeasyPrint on Windows**: WeasyPrint requires native C-libraries (`libgobject-2.0-0.dll`, Pango, and Cairo). On standard Windows Python installations without a manually configured GTK3 runtime, WeasyPrint fails with an `OSError`.
+* **Standardize on Headless Chromium**: `chrome --headless=new` or `msedge --headless=new` runs the exact same rendering engine as the browser. It natively supports web fonts (`Orbitron`, `Barlow Condensed`, `Share Tech Mono`), CSS Grid (`.two-column-grid`), CSS multi-column balancing (`column-fill: balance;`), SVG masks, and background images with 100% fidelity.
+
+### 6.2. Strict Print Geometry to Prevent Page Doubling
+When generating multi-page PDFs where HTML pages have fixed dimensions (e.g. `210mm × 297mm`), `@page` margins MUST be set to `0`:
+```css
+@page {
+    size: A4 portrait;
+    margin: 0;
+}
+```
+**Why this invariant matters:**
+If `@page` defines margins (such as `margin: 14mm 12mm 16mm 12mm;`) while `.book-page` has a fixed height of `297mm`, the printable area shrinks to `267mm`. The browser prints `267mm` on page 1, spills the remaining `30mm` onto page 2, and then triggers `break-after: page;`—**doubling every single page into two physical sheets**.
+
+With `@page { margin: 0; }`, the print viewport matches the physical A4 sheet exactly:
+```css
+.book-page {
+    width: 210mm !important;
+    height: 297mm !important;
+    max-width: 210mm !important;
+    min-height: 297mm !important;
+    max-height: 297mm !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 16mm 14mm 16mm 14mm !important;
+    break-after: page !important;
+    page-break-after: always !important;
+    overflow: hidden !important;
+}
+
+.cover-page {
+    padding: 0 !important;
+    background-color: #061124 !important;
+    background-image: url('../backgrounds/bg_astrometric_lattice_blue.jpg') !important;
+}
+```
+
+### 6.3. Automated Page Validation
+The `export_pdf.py` script automatically runs `pypdf` after printing to verify:
+1. Exact total page count matching chapter spreads.
+2. Physical media box dimensions matching ISO A4 (`209.89mm × 297.01mm`).
+
