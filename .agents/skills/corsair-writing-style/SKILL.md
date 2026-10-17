@@ -47,6 +47,14 @@ Corsair is set in a **hard science fiction** universe. Traditional science fanta
 * **No Soft Sci-Fi Tropes**: Avoid concepts like force fields, stasis fields, psionics, or magical technology.
 * **No Unexplained Techno-Babble or Sci-Fi Jargon**: Never throw around made-up words or empty buzzwords (e.g., 'phase-emitter', 'tachyon pulse', 'graviton wave') without explaining what the object actually is, what it physically does, and how it functions in grounded, tangible terms. Whenever exotic Precursor relics or advanced devices appear, explicitly ground their nature and practical utility (e.g., a solid-state dark matter converter that outputs direct electrical current without fuel).
 
+### 5.1. Sensory Descriptions & Sound Design (No Onomatopoeia)
+Fiction novellas, interludes, and narrative examples must ground action through sensory metaphors and physical acoustics rather than comic-book onomatopoeia:
+* **Prohibited**: Never use standalone italicized sound effects, bracketed noises, or all-caps onomatopoeia (e.g., `*CRASH*`, `*THWACK*`, `*CLACK-CLACK*`, `*BOOM*`, `*HISSS*`).
+* **Required**: Describe the physical event and acoustic impact using grounded, tangible metaphors that fit a hard sci-fi universe:
+  - *Instead of `*CRASH.*`:* "A sound like an entire hydroponic greenhouse dropped from an orbital crane onto stone paving."
+  - *Instead of `*THUD.*`:* "With the wet, sickening slap of a side of beef dropped from a cargo gantry."
+  - *Instead of `*CLACK-CLACK.*`:* "The dry, mechanical bite of electric winches arresting a fall."
+
 ---
 
 ## 6. Spelling, Grammar, and Capitalization Standards

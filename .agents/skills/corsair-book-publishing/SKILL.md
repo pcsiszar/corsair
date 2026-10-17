@@ -223,4 +223,32 @@ In Chromium multi-column layouts (`.two-columns`), any overflow in Column 2 caus
    });
    ```
 
+### 6.5. Fiction & Interlude Layout Architecture (Single-Column Standard)
+Unlike rules chapters, fiction novellas and narrative interludes must **never use multi-column grids** (`columns: 2`). In dialogue-heavy text, browser column balancing creates erratic vertical splits and massive empty voids in column bottoms.
+
+* **Single-Column Fiction Container**:
+  Use `.fiction-page-body` with strict geometry:
+  - Width: `100%; max-width: 172mm; margin: 0 auto;`
+  - Typography: `font-size: 9.2pt; line-height: 1.40;`
+  - Paragraph spacing: `margin-bottom: 2.0mm;`
+* **Zero Unsolicited Content Padding**:
+  Never invent municipal dossiers, appendices, or lore sidebars to pad out an even page count. Let the canonical story text define the page budget.
+
+### 6.6. Vertical Line-Unit Budgeting (Preventing Page Voids & Spills)
+Do not budget page capacity purely by raw word count. A single dialogue line (`"No," he said.`) takes up an entire visual line (~4.5mm) plus paragraph margin (~2.0mm) = **6.5mm for 3 words**, whereas a dense prose paragraph packs 15–20 words into the same vertical height.
+
+**Visual Line Formula for A4 (297mm height, 245mm printable window):**
+1. **Target Page Budget**:
+   - **Opener Page** (with title banner & drop cap): **32–36 visual lines**.
+   - **Standard Body Page**: **38–42 visual lines**.
+   - *Result*: Guarantees a natural, professional 20–25mm breathing margin above the running footer without empty voids (>40mm) or accidental 1-line page overflows.
+2. **Visual Line Equivalents**:
+   - 1 full line of prose (~95–100 characters): `1.0 line unit`.
+   - Dialogue paragraph (1–2 sentences): `1.5 line units` (line + paragraph gap).
+   - Paragraph break (`margin-bottom: 2.0mm`): `+0.5 line unit`.
+   - Chapter / Interlude Banner: `~8–10 line units`.
+3. **Automated Verification**:
+   Inspect the compiled PDF with `pypdf` / `export_pdf.py` immediately after rendering. If `page_count` exceeds target by 1, reduce by 1–2 paragraphs to prevent trailing orphan spills.
+
+
 
