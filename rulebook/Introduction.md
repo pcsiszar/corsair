@@ -73,10 +73,13 @@ There are no winners or losers in a roleplaying game. The goal is to collaborate
 
 To play Corsair, you will need a few essentials:
 * **Dice:** The game uses three standard polyhedral die types: eight-sided (**d8**), ten-sided (**d10**), and twelve-sided (**d12**) dice. A handful of each die type (especially d10s, which form the primary resolution dice pool) is ideal for the table.
-* **Character & Crew Sheets:** Printable sheets for recording your operative’s attributes, skills, equipment, and your starship’s modules.
-* **Pencils & Scratch Paper:** For tracking notes, tactical sketches, and changing game states.
+* **Character & Crew Sheets:** Printable sheets for recording your operative’s attributes, skills, equipment, and your starship’s modules ([Character Sheet](character/Character_Sheet.html) & [Crew Sheet](character/Crew_Sheet.html)).
+* **Pencils & Scratch Paper:** For tracking notes, tactical sketches, and fluctuating game states (Action Points, Light Wounds, Aggravated Wounds, and ammunition).
 * **Tokens or Markers:** Simple counters (coins, poker chips, or glass beads) are useful for tracking Action Points and tactical positions during moment-to-moment encounters.
-* **A Group of Friends:** Corsair is designed for 3 to 5 players, including the Game Master.
+* **A Group of Friends:** Corsair is designed for **3 to 5 players**, including the Game Master.
+
+> ### The Principle of Narration
+> Dice never roll in a vacuum. A roll represents physical friction: boots catching against grated decking, capacitors whining under peak load, or thruster gimbal bearings fighting reaction torque. Describe what your character physically does before picking up the dice.
 
 ---
 
@@ -96,14 +99,14 @@ Everything you need to conceive, build, and advance your Corsair operative.
 * **[Player Characters](character/Player_Characters.md):** Core Attributes, Derived Attributes, Skills, and [Condition](character/Condition.md) (wounds and stress).
 * **[Character Creation](character/Creation.md):** Step-by-step procedures for assigning attributes, training skills, and choosing starting equipment.
 * **[Traits & Lineages](character/Traits.md):** Origin traits, cultural adaptations, and operational quirks that distinguish your operative's physiology and background.
-* **[Classes & MANTLE Rigs](classes/Classes.md):** The five operational chassis: the energy-channeling **[Conduit](classes/Conduit.md)**, the biochemical **[Hazard](classes/Hazard.md)**, the drone-linking **[Pilot](classes/Pilot.md)**, the kinetic bulwark **[Vanguard](classes/Vanguard.md)**, and the nanite-weaving **[Weaver](classes/Weaver.md)**.
+* **[Classes & MANTLE Rigs](classes/Classes.md):** The five operational chassis: the energy-channeling **[Conduit](classes/Conduit.md)**, the biochemical **[Hazard](classes/Hazard.md)**, the drone-linking **[Pilot](classes/Pilot.md)**, the frontline bulwark **[Vanguard](classes/Vanguard.md)**, and the nanite-weaving **[Weaver](classes/Weaver.md)**.
 * **[Advancement](character/Advancement.md):** How operatives earn experience, refine skills, upgrade attributes, and achieve career milestones during downtime.
 * **Interlude:** *[Post War Head- and Heartaches](stories/Post_War_Head_and_Heartaches.md)*
 
-### [Part III: Advanced Operations: Combat, Hardware & Downtime](combat/Combat.md)
+### [Part III: Advanced Operations](combat/Combat.md)
 The tactical systems, armaments, voidcraft, and operational downtime that keep Corsairs alive and solvent.
 * **[Tactical Combat](combat/Combat.md):** Movement, grid and abstract occupancy, close-quarters combat (CQC), dynamic cover, and damage resolution.
-* **[Personal Armory & Hardware](equipment/Equipment.md):** Catalogs of kinetic [Firearms](equipment/Firearms.md), [Melee Weapons](equipment/Melee.md), [Armor](equipment/Armor.md), [Field Gear](equipment/Gear.md), and rare Precursor [Exotic Hardware](equipment/Exotic_Hardware.md).
+* **[Personal Armory & Hardware](equipment/Equipment.md):** Catalogs of [Firearms](equipment/Firearms.md), [Melee Weapons](equipment/Melee.md), [Armor](equipment/Armor.md), [Field Gear](equipment/Gear.md), and rare Precursor [Exotic Hardware](equipment/Exotic_Hardware.md).
 * **[Starships & Space Combat](ships/Starships.md):** Comprehensive rules for [Starship Operations](ships/Ship_Rules.md), Brachistochrone burns, [Ship Weapons](ships/Ship_Weapons.md), [Internal Modules](ships/Internal_Modules.md), and [The Hangar Bay](ships/Hangar_Bay.md).
 * **[Downtime & Operations](downtime/Downtime.md):** The 24-hour downtime cycle, shifts, long rests, medical recovery, starship maintenance, commercial bazaars, and the master d100 freelance odd jobs table.
 * **Interlude:** *[The Mathematics of the Great Tithe](stories/The_Mathematics_of_the_Great_Tithe.md)*

@@ -26,57 +26,9 @@ on that same test.
 
 ### Putting It All Together: An Example Test
 
-Let's see how all these elements can come together in play.
+Let's see how all these elements come together in play:
 
-**The Scenario:** Jax, a nimble gunslinger, is pinned down behind a crate. A hostile security drone is advancing on his
-position. Jax decides to pop up and take a quick shot at the drone with his trusty sidearm.
-
-The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's
-player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**.
-
-* Jax's **Finesse** is 4.
-* His pistol's **Accuracy** is 3.
-* Jax has two d10s in his **Gambit** pool.
-
----
-
-**1. The Action Roll (Did the shot hit?)**
-
-For the first part of a **Complex Test**, Jax uses the **higher** of the two Attributes. His **Finesse** is 4, so he assembles a
-dice pool of **4d10**.
-
-He rolls the dice and gets: `[2, 4, 5, 7]`.
-
-The highest result is a 7. Since he needs an 8 or higher to succeed, this would be a miss. However, Jax's player doesn't
-want to waste the opportunity.
-
-"I'm spending a **Gambit**," he says, taking a d10 from his **Gambit** pool. He rolls the extra die.
-
-The **Gambit** die roll is an `[8]`.
-
-The dice pool is now `[2, 4, 5, 7, 8]`. The highest die is an 8, so the shot is now a **Success!** The drone is hit.
-
----
-
-**2. The Success Roll (How much damage was dealt?)**
-
-Now that the shot has hit, it's time to see how effective it was. For the second part of a **Complex Test**, Jax uses the
-**lower** of the two Attributes. His pistol's **Accuracy** is 3, so he takes the **3 highest-sided dice** from the pool he
-just rolled.
-
-His dice for the **Success Roll** are: `[5, 7, 8]`.
-
-The highest die here is an 8. This means he would deal 8 success points (damage) to the drone. Jax is feeling lucky and
-wants to maximize the damage.
-
-"I'm spending my second **Gambit** die to try and get a better result," he declares. He takes his last d10 from his **Gambit**
-pool and rolls it.
-
-The new **Gambit** die roll is a `[9]`.
-
-The **Success Roll** dice pool is now `[5, 7, 8, 9]`. The highest result is a 9.
-
----
-
-**Resolution:** Jax's quick shot hits the security drone, and he deals 9 points of damage. His use of **Gambit** turned a
-complete miss into a solid hit.
+* **The Scenario:** Serving an apprehension warrant against an armed syndicate cell in an unpoliced orbital warehouse, Jax, a nimble gunslinger, is pinned down behind a cargo container. An outlaw skirmisher is advancing on his position, laying down suppressing fire. Jax decides to pop up and take a quick shot at the suspect with his sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
+* **1. The Action Roll (Did the shot hit?):** For the first part of a Complex Test, Jax uses the higher of the two Attributes (**Finesse 4**), assembling a dice pool of **4d10**. He rolls `[2, 4, 5, 7]`. The highest result is 7 (a miss). Jax spends a Gambit die: *"I'm spending a Gambit."* He rolls the banked d10 and gets an `[8]`. His pool is now `[2, 4, 5, 7, 8]`. With an 8, the shot hits!
+* **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[5, 7, 8]`. The highest die is an 8 (8 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[5, 7, 8, 9]`. The highest result is a 9.
+* **Resolution:** Jax deals 9 points of damage to the outlaw, taking them down before they can breach his cover. Spending his banked Gambit turned a clean miss into a devastating shot.

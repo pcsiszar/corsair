@@ -10,9 +10,7 @@ Here's how they work:
   the dice in your pool are already d8s, each further **Downgrade** forces you to remove a d8 from the pool.
 
 
-Before any roll, the GM will assess the situation and assign **Upgrades** for advantages and **Downgrades** for disadvantages.
-These two cancel each other out. For example, if you have 3 **Upgrades** and 2 **Downgrades**, you end up with a net of 1
-**Upgrade**.
+Before any roll, the GM assesses the situation and assigns Upgrades for advantages and Downgrades for disadvantages. These cancel each other out on a 1-to-1 basis (e.g., 3 Upgrades and 2 Downgrades yields a net of 1 Upgrade).
 
 The net number of **Upgrades** or **Downgrades** has a maximum limit of 6. For instance, if you have 8 **Upgrades** and 1 **Downgrade**,
 you have a net of 7 **Upgrades**, but you will only apply 6 to the roll.

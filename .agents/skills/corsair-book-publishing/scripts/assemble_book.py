@@ -12,6 +12,7 @@ from pathlib import Path
 CHAPTER_SEQUENCE = [
     "00_Front_Matter.html",
     "01_Core_Mechanics.html",
+    "01b_Interlude_27th_Hour.html",
     "02_Character_Creation.html",
     "03_Classes.html",
     "04_Armory_and_Gear.html",

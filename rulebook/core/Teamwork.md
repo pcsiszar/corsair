@@ -91,9 +91,21 @@ Multiple characters can coordinate to set up a shared **Delayed Action** (such a
 
 ## Examples in Play
 
-### Example 1: Individual Hurdle (Group Stealth)
+### Example 1: Checkpoint Infiltration (Action Economy & Success Test)
 
-Jax, Griz, and Silas are attempting to slip past an automated sensor perimeter and security cameras outside an orbital armory. The GM calls for a Simple **Finesse (4) + Agility (3)** Teamwork Test where every character must achieve an `8+` to move through without triggering an alert:
+The crew is working an undercover assignment tracking a fugitive into an outlaw-run freeport. To reach the lower docks without tipping off the local syndicate, they must pass through an enforcer-controlled checkpoint. The GM rules this will be a Teamwork action, requiring each character to make a Success Test to see how well they blend into the underworld foot traffic:
+
+* Silas, a master of disguise, creates a subtle diversion at a cargo terminal and scores 2 hits.
+* Griz, a large and imposing figure, tries to look inconspicuous by pretending to be an off-shift maintenance hauler, but fails miserably, scoring no hits.
+* Jax, ever the opportunist, strikes up a casual conversation with one of the gang lookouts to draw their attention, scoring just one hit.
+
+The players have now collectively spent 3 Action Points. Silas swaps one of his hits for one of Griz's dice, representing the operatives covering for each other's slip-ups and successfully slipping past the checkpoint as a cohesive unit.
+
+---
+
+### Example 2: Individual Hurdle (Group Stealth)
+
+Executing a covert surveillance order against a pirate cartel, Jax, Griz, and Silas are attempting to slip past an automated sensor perimeter and surveillance monitors outside an illegal staging depot. The GM calls for a Simple **Finesse (4) + Agility (3)** Teamwork Test where every character must achieve an `8+` to move through without triggering an alert:
 
 1. **Initial Rolls:**
    * **Jax (4 dice):** rolls `[10, 9, 4, 2]` — Two Hits (a `10` and a `9`).
@@ -111,9 +123,9 @@ Because every character now holds at least one die showing 8 or higher, Jax's su
 
 ---
 
-### Example 2: Combat & Defender's Advantage (Complex Test)
+### Example 3: Combat & Defender's Advantage (Complex Test)
 
-Jax and Silas team up to take down an elite corporate Enforcer in close-quarters combat. Both spend 1 AP to execute a coordinated melee assault. Each attacks with their favored weapon and attribute pair (remembering that melee attacks always combine two different physical attributes):
+Jax and Silas team up to take down an elite syndicate Enforcer barricaded inside an outlaw docking bay. Both spend 1 AP to execute a coordinated melee assault. Each attacks with their favored weapon and attribute pair (remembering that melee attacks always combine two different physical attributes):
 * **Jax** swings a heavy trench club (Striking: **Strength 4 + Finesse 3**), rolling 4d10 for his higher attribute.
 * **Silas** lunges with a combat knife (Piercing: **Agility 4 + Finesse 3**), rolling 4d10 for his higher attribute.
 
@@ -131,13 +143,13 @@ Jax and Silas team up to take down an elite corporate Enforcer in close-quarters
 
 ---
 
-### Example 3: Synchronized Ambush (Delayed Teamwork)
+### Example 4: Synchronized Ambush (Delayed Teamwork)
 
-Jax and Silas are stacked beside a security airlock, waiting for an enemy patrol scout to enter. During the Player Turn, both spend 1 AP to set up a **Delayed Teamwork Action** using **Accuracy (4) + Finesse (3)** with their sidearms:
+Serving an interdiction warrant at a remote transfer hub, Jax and Silas are stacked beside a depressurized airlock, waiting for an outlaw smuggler scout to enter. During the Player Turn, both spend 1 AP to set up a **Delayed Teamwork Action** using **Accuracy (4) + Finesse (3)** with their sidearms:
 * **The Trigger:** A hostile crossing the airlock threshold.
 * **The Timing:** **Before** (firing to intercept the target before they can raise a weapon or take cover).
 
-On the GM Turn, the patrol scout steps through the airlock. The trigger fires:
+On the GM Turn, the smuggler scout steps through the airlock. The trigger fires:
 1. **Simultaneous Rolls (0 AP):** Both characters fire simultaneously:
    * Jax rolls 4d10: `[10, 8, 4, 3]` (Two Hits)
    * Silas rolls 4d10: `[7, 5, 2, 1]` (Zero Hits)

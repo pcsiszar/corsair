@@ -30,13 +30,9 @@ A horrible, high-pitched whistling shriek tore through the clouds.
 
 It wasn't the polite, muffled hum of a licensed cargo hauler. It was the frantic, screeching howl of a small, stolen hopper engine that was on fire, missing half its thruster nozzles, and falling out of the sky far too fast.
 
-Jesse looked up. Through the hall’s stained-glass skylight—an antique window commemorating the First Landing—he saw a streak of greasy black smoke, followed immediately by two pairs of boots.
+Jesse looked up. Through the hall’s stained-glass skylight—an antique window commemorating the First Landing—he saw a streak of greasy black smoke, followed immediately by two pairs of boots. An instant later, the skylight gave way with a sound like a greenhouse being dropped from an orbital crane, showering shards of antique leaded glass and splintered roof tiles across the chamber.
 
-*CRASH.*
-
-The skylight exploded. Shards of glass, lead framing, and splintered roof tiles rained down across the room. 
-
-A body hit the center of Jesse’s beloved cedar table with a bone-jarring *THWACK*, snapping the center plank clean in half and sending water pitchers, ink pots, and tax ledgers flying in all directions. 
+A body struck the center of Jesse’s beloved cedar table with the dull, violent impact of a side of beef dropped from a cargo gantry, snapping the center plank clean in half and sending water pitchers, ink pots, and tax ledgers flying in all directions. 
 
 Jesse closed his eyes, took a deep breath, and counted slowly to three. When he opened them, a twitchy kid in a grease-stained leather flight jacket was scrambling backward across the ruined table, clutching a humming, glowing hunk of alien metal wrapped in a dirty burlap sack. The object was pulsing with a strange, dull rhythm that made Jesse’s front teeth ache. In his other hand, the kid was waving a dented, ugly little machine pistol.
 
@@ -46,11 +42,7 @@ Councilwoman Vaelith stared at the wreckage of the table, her wooden spectacles 
 
 "I don't give a damn about your furniture!" the boy screamed, waving the gun at her. "Tell those Corsairs to back off! I'm not going to the penal mines! Tell them to back off!"
 
-Above the hole in the roof, two thick steel cables snapped tight against the iron rafters. 
-
-*CLACK-CLACK. THUD.*
-
-Two figures dropped through the opening, landing on the stone floor with the heavy, hydraulic crunch of powered armor. They were covered in soot, their grey metal plates were scraped to bare alloy, and they looked thoroughly, profoundly exhausted. 
+Above the hole in the roof, two thick steel cables snapped taut against the iron rafters with the sharp, mechanical bite of industrial winches. Two figures dropped through the opening, hitting the stone floor with the heavy, hydraulic crunch of powered armor. They were covered in soot, their grey metal plates were scraped to bare alloy, and they looked thoroughly, profoundly exhausted. 
 
 The lead Corsair brought a heavy, snub-nosed shotgun up to their shoulder in one smooth, practiced motion. Beside them, an elven partner leveled a taser rifle.
 

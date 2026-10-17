@@ -126,6 +126,29 @@ body.book-screen-canvas {
     hyphens: auto;
 }
 
+/* FICTION & LORE PROSE FLOW (Single-Column) */
+.fiction-page-body,
+.single-column,
+.page-body.single-column {
+    display: block !important;
+    column-count: 1 !important;
+    column-rule: none !important;
+    width: 100%;
+    max-width: 172mm;
+    margin: 0 auto;
+    flex: 1;
+    min-height: 0;
+}
+
+.fiction-page-body p,
+.page-body.single-column p {
+    font-size: 9.2pt;
+    line-height: 1.40;
+    margin-bottom: 2.0mm;
+    text-align: justify;
+    hyphens: auto;
+}
+
 .page-body ul,
 .page-body ol {
     padding-left: 3.5mm;

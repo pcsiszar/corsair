@@ -233,7 +233,7 @@ Situational factors can influence the outcome of a test. A character might have 
 * **Upgrade:** For each net **Upgrade**, you change one of the d10s in your dice pool to a twelve-sided die (d12). If all the dice in your pool are already d12s, each further **Upgrade** adds a new d10 to the pool.
 * **Downgrade:** For each net **Downgrade**, you change one of the d10s in your dice pool to an eight-sided die (d8). If all the dice in your pool are already d8s, each further **Downgrade** forces you to remove a d8 from the pool.
 
-Before any roll, the GM will assess the situation and assign **Upgrades** for advantages and **Downgrades** for disadvantages. These two cancel each other out on a 1-to-1 basis. For example, if you have 3 Upgrades and 2 Downgrades, you end up with a net of 1 Upgrade.
+Before any roll, the GM assesses the situation and assigns Upgrades for advantages and Downgrades for disadvantages. These cancel each other out on a 1-to-1 basis (e.g., 3 Upgrades and 2 Downgrades yields a net of 1 Upgrade).
 
 The net number of Upgrades or Downgrades has a maximum limit of 6. For instance, if you have 8 Upgrades and 1 Downgrade, you have a net of 7 Upgrades, but you will only apply 6 to the roll.
 
@@ -261,10 +261,10 @@ There is one crucial restriction on using **Gambit**: **a player can either spen
 
 Let's see how all these elements come together in play:
 
-* **The Scenario:** Jax, a nimble gunslinger, is pinned down behind a cargo container. A hostile security drone is advancing on his position. Jax decides to pop up and take a quick shot at the drone with his sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
+* **The Scenario:** Serving an apprehension warrant against an armed syndicate cell in an unpoliced orbital warehouse, Jax, a nimble gunslinger, is pinned down behind a cargo container. An outlaw skirmisher is advancing on his position, laying down suppressing fire. Jax decides to pop up and take a quick shot at the suspect with his sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
 * **1. The Action Roll (Did the shot hit?):** For the first part of a Complex Test, Jax uses the higher of the two Attributes (**Finesse 4**), assembling a dice pool of **4d10**. He rolls `[2, 4, 5, 7]`. The highest result is 7 (a miss). Jax spends a Gambit die: *"I'm spending a Gambit."* He rolls the banked d10 and gets an `[8]`. His pool is now `[2, 4, 5, 7, 8]`. With an 8, the shot hits!
 * **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[5, 7, 8]`. The highest die is an 8 (8 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[5, 7, 8, 9]`. The highest result is a 9.
-* **Resolution:** Jax deals 9 points of damage to the drone. Spending his banked Gambit turned a clean miss into a devastating shot.
+* **Resolution:** Jax deals 9 points of damage to the outlaw, taking them down before they can breach his cover. Spending his banked Gambit turned a clean miss into a devastating shot.
 
 #### Contesting a Test
 
@@ -282,7 +282,7 @@ You can also contest actions that would normally not require a test (such as shu
 
 ##### Contest Example
 
-Returning to our gunslinger Jax: suppose Jax attacks a security drone, rolling `[2, 4, 5, 7, 8]`. The drone has an **Evasion** of 3 and its maneuvering thrusters flare. The GM calls for an Evasion Contest Roll (**3d10**). The drone rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the bullet ricochets harmlessly off the reinforced wall behind the drone.
+Returning to our gunslinger Jax: suppose Jax fires at a fleeing syndicate smuggler trying to reach an airlock, rolling `[2, 4, 5, 7, 8]`. The suspect has an **Evasion** of 3 and dives behind reinforced deck piping. The GM calls for an Evasion Contest Roll (**3d10**). The smuggler rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the round ricochets harmlessly off the reinforced piping as the suspect scrambles out of the line of fire.
 
 #### Teamwork
 
@@ -408,16 +408,17 @@ Action Points to contribute to the collective effort. While players spending Act
 Test counts towards the 2AP per Turn limit, reaching the limit doesn't stop additional characters from participating.
 The turn will only end once the Teamwork Test has resolved.
 
-**Example:** The crew needs to get through a crowded checkpoint without drawing attention. The GM rules this will be a
-Teamwork action, requiring each character to make a Success Test to see how well they blend in.
+**Teamwork Example: Checkpoint Infiltration**
 
-* Silas, a master of disguise, decides to create a distraction and scores 2 hits.
-* Griz, a large and imposing figure, tries to look inconspicuous by pretending to be a simple cargo hauler, but
-  fails miserably, socring no hits.
-* Jax, ever the opportunist, tries to flirt with one of the guards to divert their attention, scoring just one hit.
+The crew is working an undercover assignment tracking a fugitive into an outlaw-run freeport. To reach the lower docks without tipping off the local syndicate, they must pass through an enforcer-controlled checkpoint. The GM rules this will be a Teamwork action, requiring each character to make a Success Test to see how well they blend into the underworld foot traffic:
 
-The players have now collectively spent 3 Action Points. Silas swaps one of their hits for one of Griz's dice,
-representing them covering for each other's mistakes and successfully navigating the checkpoint as a cohesive unit.
+* Silas, a master of disguise, creates a subtle diversion at a cargo terminal and scores 2 hits.
+* Griz, a large and imposing figure, tries to look inconspicuous by pretending to be an off-shift maintenance hauler, but
+  fails miserably, scoring no hits.
+* Jax, ever the opportunist, strikes up a casual conversation with one of the gang lookouts to draw their attention, scoring just one hit.
+
+The players have now collectively spent 3 Action Points. Silas swaps one of his hits for one of Griz's dice,
+representing the operatives covering for each other's slip-ups and successfully slipping past the checkpoint as a cohesive unit.
 
 The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
 dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
@@ -448,7 +449,7 @@ During high-stakes encounters, characters do not always act immediately; often, 
 
 The GM can transition between scene types as the story demands.
 
-* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example, while the crew is exploring a derelict ship (Place to Place), they might be ambushed by security drones, instantly shifting the scene to Moment to Moment. When zooming in, all characters present in the scene synchronize their broader Action Points down to the lowest remaining AP among them (reflecting time elapsed together). They then refill their Action Points in the new, narrower pacing to their maximum (3 AP) and begin a fresh round. Any ongoing effects created in the broader pacing are retained.
+* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example, while the crew is executing a recovery warrant aboard an abandoned freighter (Place to Place), they might be ambushed by barricaded pirate scavengers, instantly shifting the scene to Moment to Moment. When zooming in, all characters present in the scene synchronize their broader Action Points down to the lowest remaining AP among them (reflecting time elapsed together). They then refill their Action Points in the new, narrower pacing to their maximum (3 AP) and begin a fresh round. Any ongoing effects created in the broader pacing are retained.
 
 * **Zooming Out:** When a high-stakes scene concludes, the GM "zooms out" back to the broader pacing. Players set aside their tactical Action Points and resume the broader pacing with their remaining broader Action Points. If characters still have Action Points remaining in that broader round, they continue their shift or day; if all broader AP have been spent, the broader round concludes at the End of the Round. Characters operating in parallel in other locations retain their unspent broader AP and can take actions during that same timeframe.
 
@@ -490,9 +491,9 @@ Success Effects are activated during your **Success Roll**, allowing you to ampl
 
 Ongoing environmental hazards, physical restraints, and persistent blockers do not have to remain forever. If a character is in a position to eliminate or neutralize an active ongoing effect, they may spend **1 Action Point** on their turn to make a **Simple Test** determined by the GM. Each Hit scored on this Simple Test removes 1 set-aside Hit from the targeted effect, gradually breaking down the obstacle until it is completely eliminated.
 
-#### Combined Mechanics in Action
+#### Combined Mechanics in Action: Syndicate Cache Breach
 
-> Jax and his team are attempting to breach a secure corporate research vault defended by automated security drones. Engaging in close combat at the armored bulkhead, Jax declares, *"I step in and swing my axe in a sweeping melee strike across the lead drone to tear open its plating while driving it back into its squadmate to clear the entryway."* 
+> Acting under a Flotilla interdiction warrant, Jax and his team are raiding a fortified syndicate contraband cache defended by illegal combat drones. Engaging in close-quarters combat at the breached bulkhead, Jax declares, *"I step in and swing my axe in a sweeping melee strike across the lead combat drone to tear open its plating while driving it back into its squadmate to clear the entryway."* 
 > 
 > The GM assesses the melee action and calls for a **Strength (5) + Strength (5)** Complex Test. Jax rolls 5d10 for his Action Roll based on his higher Attribute (**Strength 5**), producing `[3, 5, 8, 8, 9]`. 
 > 
@@ -501,10 +502,10 @@ Ongoing environmental hazards, physical restraints, and persistent blockers do n
 > Moving to his Success Roll for his lower Attribute (**Strength 5**), Jax rolls 4d10 and 1d12 (modified by his Upgrade Effect). His roll yields `[5, 6, 7, 8]` on the d10s and `8` on the d12. 
 > 
 > Jax scores two Hits (both `8`s) on his Success Roll. He decides to activate two Success Effects:
-> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead drone back 4 meters directly into its squadmate.
+> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead combat drone back 4 meters directly into its squadmate.
 > 2. He spends his second `8` to activate a **Crit Effect**, granting **+2 Success Points** to his highest remaining die.
 > 
-> The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), dealing heavy damage to the drone while driving it clear of the doorway.
+> The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), neutralizing the lead drone while driving it clear of the doorway.
 
 ---
 

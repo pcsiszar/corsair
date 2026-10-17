@@ -59,9 +59,9 @@ Ongoing environmental hazards, physical restraints, and persistent blockers do n
 
 ---
 
-## Combined Mechanics in Action
+## Combined Mechanics in Action: Syndicate Cache Breach
 
-> Jax and his team are attempting to breach a secure corporate research vault defended by automated security drones. Engaging in close combat at the armored bulkhead, Jax declares, *"I step in and swing my axe in a sweeping melee strike across the lead drone to tear open its plating while driving it back into its squadmate to clear the entryway."* 
+> Acting under a Flotilla interdiction warrant, Jax and his team are raiding a fortified syndicate contraband cache defended by illegal combat drones. Engaging in close-quarters combat at the breached bulkhead, Jax declares, *"I step in and swing my axe in a sweeping melee strike across the lead combat drone to tear open its plating while driving it back into its squadmate to clear the entryway."* 
 > 
 > The GM assesses the melee action and calls for a **Strength (5) + Strength (5)** Complex Test. Jax rolls 5d10 for his Action Roll based on his higher Attribute (**Strength 5**), producing `[3, 5, 8, 8, 9]`. 
 > 
@@ -70,7 +70,7 @@ Ongoing environmental hazards, physical restraints, and persistent blockers do n
 > Moving to his Success Roll for his lower Attribute (**Strength 5**), Jax rolls 4d10 and 1d12 (modified by his Upgrade Effect). His roll yields `[5, 6, 7, 8]` on the d10s and `8` on the d12. 
 > 
 > Jax scores two Hits (both `8`s) on his Success Roll. He decides to activate two Success Effects:
-> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead drone back 4 meters directly into its squadmate.
+> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead combat drone back 4 meters directly into its squadmate.
 > 2. He spends his second `8` to activate a **Crit Effect**, granting **+2 Success Points** to his highest remaining die.
 > 
-> The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), dealing heavy damage to the drone while driving it clear of the doorway.
+> The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), neutralizing the lead drone while driving it clear of the doorway.
