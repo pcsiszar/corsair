@@ -533,17 +533,16 @@ Before rolling dice or allocating statistics, the gaming group selects their cam
 * **Corsairs (Chartered Cell):** Fully licensed operatives holding an official Corsair Charter issued by a Sovereign Colony, Megacorporation, or the Flotilla. Chartered Corsairs start with assigned mission briefs, institutional backing, and a shared starship—balanced by demanding corporate oversight, quota audits, and political entanglements.
 * **Rogue Corsairs (Outlaws):** Disavowed operatives whose charters were burned, revoked, or violently betrayed. Running with a hot starship and forged transponder codes, Rogue Corsairs navigate underworld syndicates while staying one step ahead of corporate kill-teams.
 
-Building an operative follows eight structured steps:
-1. **Choose Mode of Play & Sponsor:** Establish your crew's legal standing and patron (e.g., Flotilla Admiralty, Suncatcher Cartels, Nimbus Aerostats, or Freelance).
-2. **Select Lineage:** Choose your species background—such as adaptive Humans, stoic and cybernetically dense Orks, four-armed scavengers (Scav), radiotrophic X'ara Ancestrals, or synthetic Automata.
-3. **Select a MANTLE Chassis:** Choose your character's class rig (Conduit, Hazard, Pilot, Vanguard, or Weaver).
-4. **Distribute Core Attributes:** Allocate points among the six core attributes on a scale from 1 to 10.
-5. **Calculate Derived Attributes:** Determine **Endurance** (second-highest Physical Attribute) and **Willpower** (second-highest Mental Attribute).
-6. **Assign Skills:** Link your trained skill proficiencies to specific Attribute Pairs, creating narrative specializations rated 1 to 3.
-7. **Equip Starter Gear:** Select a starter kit and manage equipment within your maximum carrying **Load**.
-8. **Invest Starting XP:** Spend starting Experience Points to purchase flat-rate operational **Traits**.
+Building an operative follows seven structured operational steps:
+1. **Choose Mode of Play & Sponsor:** Establish your crew's legal standing (*Freelancers*, *Corsairs*, or *Rogue Corsairs*) and patron (Flotilla, Colonial, Corporate, Civilian, or Private).
+2. **Select Lineage (Race):** Choose your biological background among the ten lineages of the Sphere (*Human, Craggen, Naga, Sylvan, Drakeling, Elf, Gnome, Dwarf, Kobold,* or *Troll*).
+3. **Select a MANTLE Chassis & Class Attributes:** Choose your class rig (*Conduit, Hazard, Pilot, Vanguard,* or *Weaver*), distribute **7 Class Creation Points** across your three Class Attributes (starting at `1 / 1 / 1`), and pick a starting Ability Package.
+4. **Distribute Core Attributes & Calculate Derived Stats:** Spend **10 Creation Points** across the six Core Attributes (rated 1 to 5 at creation), then derive **Endurance** (second-highest Physical Attribute) and **Willpower** (second-highest Mental Attribute).
+5. **Outfit Starter Kit & Calculate Load:** Equip survival gear within your carrying limit: $\text{Maximum Load Capacity} = 12 + (\text{Strength} \times 2)$.
+6. **Bank Starting Credits:** Record your starting reserve of **5,000 Credits**.
+7. **Invest Starting XP (Skills & Traits):** Spend your starting Experience Points (**6 XP** baseline; **10 XP** for Humans; **8 XP** for Hybrids) to purchase Skills (Levels 1–2) and standalone tactical Traits.
 
-For the complete step-by-step creation walkthrough, see **[Character Creation](character/Creation.md)**. You can track your operative using the printable **[Character Sheet](character/Character_Sheet.html)** and maintain your crew's vessel and stations on the **[Crew Sheet](character/Crew_Sheet.html)**.
+For the complete step-by-step creation walkthrough and Jax creation example, see **[Character Creation](character/Creation.md)**. You can track your operative using the printable **[Character Sheet](character/Character_Sheet.html)** and maintain your crew's vessel and stations on the **[Crew Sheet](character/Crew_Sheet.html)**.
 
 #### Classes & The MANTLE System
 

@@ -4,6 +4,24 @@ Before building individual characters, the group and the GM decide on the campai
 
 ---
 
+## Character Creation at a Glance (The 7-Step Sequence)
+
+Building an operative in *Corsair* follows seven structured operational steps:
+
+1. **Step 1: Choose Mode of Play & Sponsor:** Decide your crew's operational legal standing (*Freelancers*, *Corsairs*, or *Rogue Corsairs*) and select an active Sponsor (or Ex-Sponsor) from the five Sphere factions: *Flotilla, Colonial, Corporate, Civilian,* or *Private*.
+2. **Step 2: Select Lineage (Race):** Choose your biological lineage among the ten races of the Sphere (*Human, Craggen, Naga, Sylvan, Drakeling, Elf, Gnome, Dwarf, Kobold,* or *Troll*). Apply your lineage's attribute adjustments or note your bonus starting XP.
+3. **Step 3: Select Class MANTLE Chassis & Class Attributes:** Choose your specialized cybernetic/technological rig (*Conduit, Hazard, Pilot, Vanguard,* or *Weaver*). Note your three Class Attributes (starting at `1 / 1 / 1`), spend **7 Class Creation Points** to increase them (starting cap 5), and pick **one starting Ability Package**.
+4. **Step 4: Distribute Core Attributes & Calculate Derived Stats:** All six Core Attributes (**Strength**, **Agility**, **Finesse**, **Knowledge**, **Presence**, **Instinct**) begin at `1`. Spend **10 Creation Points** to increase them (starting cap 5). Then determine your two Derived Attributes:
+   - **Endurance:** Equal to your *second-highest Physical Attribute* (Strength, Agility, or Finesse).
+   - **Willpower:** Equal to your *second-highest Mental Attribute* (Knowledge, Presence, or Instinct).
+5. **Step 5: Outfit Starter Kit & Calculate Load:** Calculate your maximum carrying limit:
+   $$\text{Maximum Load Capacity} = 12 + (\text{Strength} \times 2)$$
+   Equip your universal Commlink (Load 0), select one Armor suit, one Melee weapon tier, one Firearm, and one specialized Utility Kit within your Load limit.
+6. **Step 6: Bank Starting Credits:** Record your starting cash reserve of **5,000 Credits** for ammunition, gear upgrades, or downtime expenses.
+7. **Step 7: Invest Starting XP (Skills & Traits):** Take your starting Experience Points pool (**6 XP** baseline; **10 XP** for Humans; **8 XP** for Drakelings, Elves, and Gnomes). Spend this XP freely to purchase Level 1 or Level 2 Skills (granting automatic Upgrades on linked tests) and standalone tactical Traits (costing 2 to 8 XP).
+
+---
+
 ## Modes of Play
 
 Corsair supports three distinct modes of play:
@@ -226,7 +244,80 @@ Now that your operative's chassis, core attributes, combat equipment, and loadou
     * **Human & Hybrid Customization:** Races with bonus XP enjoy even broader combinations. A Human with 10 XP can acquire a Level 2 Skill (6 XP) plus two Level 1 Skills (4 XP), or choose a high-end Trait like *Controlled Blast* (8 XP) alongside a Level 1 Skill (2 XP).
 * **Starting Skill Cap:** The maximum rating for any Skill at character creation is **Level 2** (6 XP total), preserving Level 3 as an elite distinction achieved through campaign advancement.
 
+---
+
+## Character Creation in Action: Building Jax, Frontier Peacekeeper
+
+To illustrate how these steps fit together in practice, let's walk through the creation of **Jax**, a licensed Corsair operative operating under a Flotilla peacekeeping warrant:
+
+### Step 1: Mode of Play & Sponsor
+Jax's gaming group agrees to play a standard **Corsair (Chartered Cell)** campaign. They operate an RF "Kestrel" light cutter on joint peacekeeping and interdiction missions across the Sovereign Moons. Jax selects the **Flotilla** as his sponsor, representing his background in naval boarding security and his legal mandate to apprehend system fugitives and suppress pirate raiders.
+
+### Step 2: Lineage (Race)
+Jax is a **Human**. While other species receive innate attribute bonuses, Humans possess unmatched operational versatility. Jax receives **+4 bonus starting XP**, giving him a total starting budget of **10 XP** to invest in Skills and Traits during Step 7.
+
+### Step 3: Class MANTLE Chassis
+Jax equips the **Vanguard** chassis—a high-mobility frontline rig featuring a morphing kinetic board. His three Class Attributes are **Shield**, **Glider**, and **Cannon**, starting at `1 / 1 / 1`. 
+* With **7 Class Creation Points**, Jax spends:
+  - 3 points to raise **Shield** from 1 to 4.
+  - 3 points to raise **Cannon** from 1 to 4.
+  - 1 point to raise **Glider** from 1 to 2.
+* *Class Attributes Final:* **Shield 4**, **Cannon 4**, **Glider 2**.
+* *Starting Package:* Jax selects the **Vanguard Defense Package** (unlocking *Bulwark Anchor*, *Aegis Intercept*, and *Kinetic Deflection*).
+
+### Step 4: Core Attributes & Derived Stats
+Jax's six Core Attributes begin at `1 / 1 / 1 / 1 / 1 / 1`. He spends his **10 Creation Points** to build a durable frontline breacher:
+* **Strength:** Spends 3 points to reach 4 (costs 1 pt each for 2, 3, 4).
+* **Finesse:** Spends 3 points to reach 4.
+* **Agility:** Spends 2 points to reach 3.
+* **Knowledge:** Spends 1 point to reach 2.
+* **Instinct:** Spends 1 point to reach 2.
+* **Presence:** Left at base 1 (0 points).
+* *Core Attributes Final:* **Strength 4**, **Finesse 4**, **Agility 3**, **Knowledge 2**, **Instinct 2**, **Presence 1**.
+
+Next, Jax calculates his Derived Attributes:
+* **Endurance:** His Physical Attributes are Strength 4, Finesse 4, and Agility 3. His second-highest value is **4** (tied between Strength and Finesse). His **Endurance is 4**.
+* **Willpower:** His Mental Attributes are Knowledge 2, Instinct 2, and Presence 1. His second-highest value is **2** (tied between Knowledge and Instinct). His **Willpower is 2**.
+* *Condition Tracks:* His Physical Condition has three sequential tracks of **8 segments each** (4 + Endurance 4). His Mental Condition has three sequential tracks of **6 segments each** (4 + Willpower 2).
+
+### Step 5: Starter Kit & Load Budgeting
+Jax calculates his carrying limit:
+$$\text{Maximum Load Capacity} = 12 + (\text{Strength } 4 \times 2) = 20 \text{ Load}$$
+He outfits his operative with combat-proven law-enforcement gear tailored for tight corridors:
+* **Commlink:** Load 0 (Universal tactical comms).
+* **Armor:** **Armored Jacket** (Protection 3 | Load 2) — *Heavy ballistic coat with composite inserts.*
+* **Melee Weapon:** **Boarding Axe** (Heavy Melee Slashing | Min STR 3 | Load 2 | Dmg +2 | Pairs *Agility + Strength*).
+* **Firearm:** **Heavy Revolver** (Handgun, 1H | Load 1 | Dmg +2 | RoF 0 | Acc: 3 / 2 / 1 / - | Pairs *Accuracy + Finesse*).
+* **Utility Kit:** **Trench Kit** (Deployable Medium Cover [Load 3] + Mechanic's Kit [Load 2] = Load 5).
+* *Total Load Carried:* $0 + 2 + 2 + 1 + 5 = 10 \text{ Load}$. With a maximum limit of 20, Jax has **10 spare Load** for reserve ammunition, mission salvage, and evidence collection.
+
+### Step 6: Starting Credits
+Jax records his starting allowance of **5,000 Credits**, banking it for upcoming starship fuel, specialized munitions, and future chassis overclocks.
+
+### Step 7: Skills & Traits (Starting XP)
+As a Human, Jax has a total budget of **10 XP** to spend:
+* **Skill — Gunslinging (Accuracy + Finesse):** Level 1 (Costs **2 XP**). Grants **+1 Upgrade** on any ranged combat test rolled with Accuracy + Finesse.
+* **Trait — Gunslinger:** Costs **4 XP**. Jax ignores the 3 Downgrades for firing a ranged weapon while engaged in Close Quarters Combat (CQC), allowing him to draw and fire his heavy revolver point-blank in a melee scramble.
+* **Trait — Marksman:** Costs **4 XP**. Jax can treat his target as being one Range Band closer or further for the purpose of determining weapon Accuracy, ensuring his heavy revolver retains its peak +3 Accuracy profile across shifting distances.
+* *Total XP Spent:* $2 + 4 + 4 = 10 \text{ XP}$ (fully utilizing his 10 starting XP).
+
+---
+
+### Jax — Complete Character Summary Block
+* **Lineage:** Human | **Mode:** Corsair (Flotilla Sponsor) | **Class:** Vanguard Lvl 1
+* **Core Attributes:** Strength 4, Finesse 4, Agility 3, Knowledge 2, Instinct 2, Presence 1
+* **Derived Stats:** Endurance 4, Willpower 2
+* **Condition Tracks:** Physical 3 × 8 segments | Mental 3 × 6 segments
+* **Class Attributes:** Shield 4, Cannon 4, Glider 2 (Starting Package: Vanguard Defense)
+* **Skills:** *Gunslinging 1* (Accuracy + Finesse; +1 Upgrade)
+* **Traits:** Gunslinger (4 XP), Marksman (4 XP)
+* **Combat Loadout:** Armored Jacket (Prot 3, Load 2), Boarding Axe (Dmg +2, Load 2), Heavy Revolver (Dmg +2, Load 1, Acc 3/2/1/-), Deployable Medium Cover (Load 3), Mechanic's Kit (Load 2), Commlink (Load 0)
+* **Load:** 10 / 20 | **Credits:** 5,000 | **Banked XP:** 0 XP
+
+---
+
 ## Character & Crew Sheets
 
 You can download and print the [Corsair Character Sheet](Character_Sheet.html) to keep track of your character's stats,
 equipment, and progress. For campaigns featuring a shared starship (such as *Corsairs* or *Rogue Corsairs*), you can also download and print the [Corsair Crew Sheet](Crew_Sheet.html) to manage bridge stations, vessel damage, and collective cargo.
+
