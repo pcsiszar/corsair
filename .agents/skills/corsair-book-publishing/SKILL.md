@@ -24,6 +24,12 @@ This skill governs the translation of Corsair's markdown rulebook sources (`rule
    Physical rulebooks are printed in **16-page signatures**. 
    * Standard density targets **~550 words per page** (text + ~20-25% tables/art), producing an exact **320-page hardcover** (20 signatures), matching industry benchmarks like D&D 5e PHB.
    * Deluxe illustrated density targets **~420 words per page** (~35% art), producing a **432-page book** (27 signatures).
+5. **Zero Hyperlinks in Publication HTML**:
+   Never include `<a>` tags or standalone document pointer sentences (e.g. *"For the standalone rules document, see..."*) in publication HTML files. The target output is print-ready PDF and physical print where external links are non-functional. Inline any necessary context directly.
+6. **Multi-Column 70–75% Capacity Budget & 3rd-Column Prevention**:
+   In fixed-height CSS multi-column layouts (`columns: 2; height: 297mm; overflow: hidden;`), content exceeding column 2 generates a hidden 3rd column that gets sliced vertically along the right page margin. To ensure zero overflow under Windows 125% DPI scaling and browser font expansions, budget content at **70–75% of nominal capacity** (~1,150–1,250px vertical content, or ~550–650 words). Never pair a large indivisible callout (`break-inside: avoid;`) with dense text that forces column balancing to overflow.
+7. **Continuous Flow & Banner Frugality**:
+   Subchapters must flow continuously across spreads. Do not force page breaks after each `###` header. Use visual banners only for major chapter openers (once per chapter) to avoid consuming vertical space.
 
 ---
 
@@ -124,15 +130,15 @@ Integrate with the callout containers generated via [`corsair-graphic-assets`](f
 </div>
 ```
 
-### 4.3. Navigation HUD
-Every chapter file features lightweight navigation anchors at the top and bottom:
+### 4.3. Gameplay Examples
+All narrative gameplay examples and tactical walkthroughs must use `.example-box` with an `.example-title` header (Avionics Cyan accent bar):
 ```html
-<nav class="book-nav">
-    <a href="02_Character_Creation.html" class="nav-prev">← Previous Chapter</a>
-    <span class="nav-current">Chapter 03: Classes & Specializations</span>
-    <a href="04_Armory_and_Gear.html" class="nav-next">Next Chapter →</a>
-</nav>
+<div class="example-box keep-together">
+    <div class="example-title">Contest Example</div>
+    <p>Returning to our gunslinger Jax: suppose Jax attacks a security drone...</p>
+</div>
 ```
+Multi-step combat walkthroughs (such as *Combined Mechanics in Action*) must be fully enclosed inside `.example-box` across all steps rather than styling only the opening paragraph.
 
 ---
 
@@ -200,4 +206,21 @@ With `@page { margin: 0; }`, the print viewport matches the physical A4 sheet ex
 The `export_pdf.py` script automatically runs `pypdf` after printing to verify:
 1. Exact total page count matching chapter spreads.
 2. Physical media box dimensions matching ISO A4 (`209.89mm × 297.01mm`).
+
+### 6.4. Multi-Column Containment & Overflow Verification
+In Chromium multi-column layouts (`.two-columns`), any overflow in Column 2 causes the browser to create Column 3 off-screen, creating sliced character fragments along the right margin.
+
+**Containment Invariants:**
+1. **DPI Headroom:** Windows 125% DPI rendering increases line heights by ~10–12%. Always leave at least 25% height buffer on every page.
+2. **Break-Inside Balancing:** Avoid putting multiple `.keep-together` (`break-inside: avoid;`) boxes on the same page. If an indivisible box cannot fit in the remainder of Column 1, column balancing pushes it to Column 2, easily overfilling Column 2 into Column 3.
+3. **Automated Verification:** Before finalizing any chapter HTML, test programmatically or via browser subagent that:
+   ```javascript
+   document.querySelectorAll('.book-page').forEach((page, i) => {
+       const body = page.querySelector('.page-body');
+       if (body && body.scrollWidth > body.clientWidth) {
+           console.error(`Page ${i + 1} (${page.id}) has horizontal overflow / Column 3!`);
+       }
+   });
+   ```
+
 
