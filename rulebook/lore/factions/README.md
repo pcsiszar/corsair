@@ -68,7 +68,7 @@ Where formal law retreats and corporate monopolies choke the life out of honest 
 
 In Cloudspire's fog-choked ravines, it is hoverboard gangs running illegal courier networks. In Port Azure's rusted dockside taverns, it is black-market cartels fencing deep-sea narcotics and unregistered fusion fuel. Around the scorched perimeter of Landfall's **Evergaol Crash Site**, it is the eccentric, heavily armed scavengers known as the **Jailers**, braving automated alien kill-nodes to drag forbidden Precursor circuitry out of the wreckage to sell to the highest bidder.
 
-* **The Breaking Point**: The underworld offers freedom, speed, and things you can't buy with a ration card—until the bill comes due. Loan sharks don't issue court dates; they send heavy cyber-augmented enforcers with pneumatic sledgehammers. When a shipment of smuggled Precursor coils turns out to be an active, unstable energy hazard, or when syndicate turf wars spill into civilian residential blocks with high-RoF kinetic fire, the ordinary citizen is caught directly in the crosshairs.
+* **The Breaking Point**: The underworld offers freedom, speed, and things you can't buy with a ration card—until the bill comes due. Loan sharks don't issue court dates; they send heavy cyber-augmented enforcers with pneumatic sledgehammers. When a shipment of smuggled Precursor coils turns out to be an active, unstable energy hazard, or when syndicate turf wars spill into civilian residential blocks with automatic gunfire, the ordinary citizen is caught directly in the crosshairs.
 
 *(See full dossier: [Faction Dossier: The Underworld & Fringe Syndicates](Underworld.md))*
 
@@ -118,7 +118,7 @@ Who catches him?
 
 The planetary police can't leave the atmosphere. The Flotilla's battle fleet is too heavy, too distant, and bound to fixed orbital tracks. The corporations will only protect their own proprietary assets. And the underworld is driving the getaway car.
 
-That fatal jurisdictional seam is the exact reason the **Corsairs** exist: small, independent cells flying nimble multi-role corvettes with cross-jurisdictional mandates, armed with combat-grade MANTLE chassis, authorized to kick down the door in the lower ravines, pursue the suspect through the clouds, match orbits in the cold void, and drag the fugitive back in magnetic binders before the sun finishes its thirty-hour loop.
+That fatal jurisdictional seam is the exact reason the **Corsairs** exist: small, independent cells flying nimble multi-role corvettes with cross-jurisdictional mandates, armed with combat-grade MANTLE chassis, authorized to kick down the door in the lower ravines, pursue the suspect through the clouds, match orbits in the cold void, and drag the fugitive back in binders before the sun finishes its thirty-hour loop.
 
 They are the stitch holding a frayed frontier together. Below are the factions that fund them, employ them, deceive them, and occasionally point railguns at their bridges.
 
@@ -141,9 +141,9 @@ To explore the operational structures, internal politics, equipment foundries, c
 * **Jurisdiction:** Private Industrial Enclaves, Corporate Leases, and Refinery Orbits.
 * **Key Factions:**
   * **The Trade Alliance:** The ancient interstellar freight cartel that co-founded the Flotilla, controlling commercial shipping corridors, docking trusts, and credit clearinghouses.
-  * **Caldera Foundry (CF):** Heavy industrial powerhouse on Suncatcher and Landfall, famed for massive mining bucket-excavators, heavy-bore kinetic sluggers, spinal coilguns, company scrip, and legendary baseball.
+  * **Caldera Foundry (CF):** Heavy industrial powerhouse on Suncatcher and Landfall, famed for massive mining bucket-excavators, heavy-bore rifles, spinal coilguns, company scrip, and legendary baseball.
   * **Panthera Aerospace & Arms (PA):** High-spec defense contractor stamped with the snarling cat insignia, manufacturing the system-standard Sentinel rotary PDCs, precision carbines, and composite plate armor.
-  * **Vandal's Workshop (VW):** Utilitarian, unpretentious manufacturer of stamped-sheet kinetic firearms, high-RoF submachine guns, and rugged hazard suits built to survive brutal frontier abuse.
+  * **Vandal's Workshop (VW):** Utilitarian, unpretentious manufacturer of stamped-sheet firearms, high-RoF submachine guns, and rugged hazard suits built to survive brutal frontier abuse.
   * **Ker'Satz Korp (KSK):** Monolithic life-support and long-range ordnance juggernaut holding patents on atmospheric valves across the Sphere, known for heavy rail drivers, torpedoes, and dreadnoughts.
   * **Chidori-Qwei Voidworks & Combatwear (CQV):** High-fashion tactical tailor and premier directed-energy foundry in Cloudspire, producing smart-fiber ballistic trench coats, pulse lasers, and particle beams.
   * **Redfeather Aerospace (RF):** Mass-market shipyard on Landfall, builders of the quintessential "Kestrel" multi-role corvette, light interceptors, and modular civilian transports.

@@ -29,7 +29,7 @@ on that same test.
 Let's see how all these elements can come together in play.
 
 **The Scenario:** Jax, a nimble gunslinger, is pinned down behind a crate. A hostile security drone is advancing on his
-position. Jax decides to pop up and take a quick shot at the drone with his trusty plasma pistol.
+position. Jax decides to pop up and take a quick shot at the drone with his trusty sidearm.
 
 The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's
 player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**.

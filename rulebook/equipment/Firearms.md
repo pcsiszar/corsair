@@ -37,8 +37,8 @@ Every firearm is defined by its mechanical attributes, which dictate how it perf
 While the firearms catalog lists universal functional archetypes, individual models found across the cosmos are produced by major arms conglomerates:
 
 * **Panthera Arms:** Renowned for sleek, high-tolerance carbines and designated marksman rifles favored by corporate strike teams.
-* **Vandal's Workshop:** Rugged, stamped-sheet kinetic firearms and high-RoF submachine guns built to operate reliably in dirt, sand, and vacuum.
-* **Caldera Foundry:** Heavy-bore kinetic sluggers and devastating trench shotguns designed for brutal close-quarters boarding defense.
+* **Vandal's Workshop:** Rugged, stamped-sheet firearms and high-RoF submachine guns built to operate reliably in dirt, sand, and vacuum.
+* **Caldera Foundry:** Heavy-bore rifles and devastating trench shotguns designed for brutal close-quarters boarding defense.
 * **Ker'Satz Korp:** Precision magnetic-assisted rail drivers and heavy revolvers engineered for maximum armor penetration and stopping power.
 * **Chidori-Qwei Combatwear:** Lightweight polymer sidearms, integrated smart-linked machine pistols, and rapid-response tactical weapons.
 
@@ -149,4 +149,4 @@ Stock firearms can be customized into precision mastercrafted weapons through hi
 >    * Rifle Flat Damage Bonus: **+2**
 >    * **Total Damage Dealt:** 7 + 4 + 2 = **13 points of damage**.
 > 
-> The high-velocity burst punches through the container seam, striking the mercenary with 13 points of kinetic damage.
+> The rifle burst punches through the container seam, striking the mercenary for 13 points of damage.

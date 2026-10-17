@@ -2,7 +2,7 @@
 
 *You can download and print the [Armor Printable Reference Sheet](Armor_Sheet.html) for play.*
 
-In the perilous expanses of the settled systems, a dependable suit of armor is often the only barrier between a Corsair and lethal trauma. Whether weathering high-velocity kinetic slug rounds in a depressurized corridor, deflecting shrapnel from an explosive hull breach, or absorbing punishing melee impacts during a boarding skirmish, protective gear preserves a combatant's operational capability in the deadliest environments.
+In the perilous expanses of the settled systems, a dependable suit of armor is often the only barrier between a Corsair and lethal trauma. Whether weathering rifle fire in a depressurized corridor, deflecting shrapnel from an explosive hull breach, or absorbing punishing melee impacts during a boarding skirmish, protective gear preserves a combatant's operational capability in the deadliest environments.
 
 ---
 
@@ -115,4 +115,4 @@ Standard armor suits can be customized into mastercrafted protection systems thr
 >    * Subtracted Protection: **-7**
 >    * **Net Damage Received:** 14 - 7 = **7 points of damage**.
 > 
-> Thanks to the combined ballistic mitigation of his battleplate and riot shield, Jax absorbs half the incoming kinetic shock, containing the damage cleanly within Track I of his Physical Condition and remaining ready to return fire.
+> Thanks to the combined protection of his battleplate and riot shield, Jax absorbs half the incoming impact, containing the damage cleanly within Track I of his Physical Condition and remaining ready to return fire.

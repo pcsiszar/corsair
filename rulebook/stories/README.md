@@ -14,7 +14,7 @@ A collection of standalone short stories capturing the lived experience, cosmic 
 2. **[The Mathematics of the Great Tithe](The_Mathematics_of_the_Great_Tithe.md)**
    * *Location:* Cargo hold of the *Rust-Weevil*, burning towards The Hoard across the Wanabo DMZ
    * *Featuring:* Skrix, Krikk, and a boarding Corsair cell.
-   * *Synopsis:* Two four-armed Scav grunts sorting a raided Precursor phase-emitter, scrap copper, and canned peaches debate the holy pyramid scheme of the Great Tithe, the greed of The Collector, and the terrifying entities of the Sphere—only to learn why veteran raiders dread tiny, silent Corsairs far more than massive Ork gunships, capital battleships, or wild void dragons.
+   * *Synopsis:* Two four-armed Scav grunts sorting a raided Precursor catalytic core, scrap copper, and canned peaches debate the holy pyramid scheme of the Great Tithe, the greed of The Collector, and the terrifying entities of the Sphere—only to learn why veteran raiders dread tiny, silent Corsairs far more than massive Ork gunships, capital battleships, or wild void dragons.
 
 3. **[Post War Head- and Heartaches](Post_War_Head_and_Heartaches.md)**
    * *Location:* Cloudspire Mid-Decks & Promenade (Nimbus)

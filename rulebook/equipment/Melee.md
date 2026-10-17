@@ -87,7 +87,7 @@ Shields are rigid defensive barriers constructed from ballistic polymers, layere
 * **One Free Hand Required:** Wielding a shield requires **one hand (1H)**. You cannot wield a two-handed weapon or perform two-handed tasks while actively holding a shield.
 * **Physical Protection Bonus:** While held, a shield grants a flat bonus to your **Physical Protection** (e.g., +1, +2, +3). This bonus stacks directly with the Protection value provided by your worn armor, reducing incoming kinetic and physical damage before it affects your health.
 * **No Dual Wielding Shields:** A character cannot wield two shields simultaneously, nor can they benefit from more than one shield's Protection bonus at a time.
-* **Minimum Strength:** Like melee weapons, heavier shields require significant physical conditioning to brace effectively against high-velocity kinetic impacts. If your Strength is lower than a shield's Min STR, you cannot wield the shield.
+* **Minimum Strength:** Like melee weapons, heavier shields require significant physical conditioning to brace effectively against heavy ballistic impacts. If your Strength is lower than a shield's Min STR, you cannot wield the shield.
 
 | Shield Name | Protection Bonus | Min STR | Hands | Load | Cost | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

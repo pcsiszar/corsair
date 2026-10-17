@@ -115,7 +115,7 @@ Because every character now holds at least one die showing 8 or higher, Jax's su
 
 Jax and Silas team up to take down an elite corporate Enforcer in close-quarters combat. Both spend 1 AP to execute a coordinated melee assault. Each attacks with their favored weapon and attribute pair (remembering that melee attacks always combine two different physical attributes):
 * **Jax** swings a heavy trench club (Striking: **Strength 4 + Finesse 3**), rolling 4d10 for his higher attribute.
-* **Silas** lunges with a combat vibro-knife (Piercing: **Agility 4 + Finesse 3**), rolling 4d10 for his higher attribute.
+* **Silas** lunges with a combat knife (Piercing: **Agility 4 + Finesse 3**), rolling 4d10 for his higher attribute.
 
 1. **Action Rolls:**
    * Jax rolls 4d10: `[10, 9, 5, 2]` (Two Hits: `10`, `9`)
@@ -124,7 +124,7 @@ Jax and Silas team up to take down an elite corporate Enforcer in close-quarters
    * Jax: `[10, 5, 3, 2]` (One Hit: `10`)
    * Silas: `[9, 6, 4, 1]` (One Hit: `9`)
 3. **The Enforcer Contests:** The Enforcer spends 1 AP to contest with an **Agility (3) Evasion** roll, rolling 3d10: `[2, 7, 8]` — **1 Hit!**
-4. **Targeted Elimination:** With Defender's Advantage, the Enforcer chooses which pool to target. The Enforcer spots Silas overextended from his lunge, knocks the vibro-knife aside with a vambrace, and applies the Hit to Silas's pool, eliminating his `9`!
+4. **Targeted Elimination:** With Defender's Advantage, the Enforcer chooses which pool to target. The Enforcer spots Silas overextended from his lunge, knocks the knife aside with a vambrace, and applies the Hit to Silas's pool, eliminating his `9`!
 5. **Outcome:**
    * Silas's pool is reduced to `[6, 4, 1]`. Having no `8+` remaining, Silas fails his Action Roll completely; his strike is deflected and he **cannot advance to the Success Roll**.
    * Jax still retains his `10`. Jax's club blow connects solidly; Jax advances to the Success Roll to deal damage!

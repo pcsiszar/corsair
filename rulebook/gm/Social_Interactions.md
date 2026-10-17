@@ -154,7 +154,7 @@ When players direct their arguments, leverage, or roleplay toward a specific vul
 ## Comprehensive Example: Standoff in Cargo Bay 4
 
 > ### Grounded Narrative Context
-> Jax and Tessa have cornered a squad of hostile scrappers led by a stubborn salvage boss named **Brant** in the pressurized hold of a derelict freighter. Brant and his **five armed hirelings** have slugthrowers leveled at the crew across a barricade of titanium crates. Both sides have weapons drawn, but a firefight in a pressurized compartment risks puncturing the hull and venting everyone into the vacuum.
+> Jax and Tessa have cornered a squad of hostile scrappers led by a stubborn salvage boss named **Brant** in the pressurized hold of a derelict freighter. Brant and his **five armed hirelings** have carbines leveled at the crew across a barricade of cargo crates. Both sides have weapons drawn, but a firefight in a pressurized compartment risks puncturing the hull and venting everyone into the vacuum.
 >
 > Jax and Tessa want Brant and his crew to drop their weapons and surrender peacefully. The GM assigns Brant a baseline Determination of 2, with each of his 5 hirelings contributing +1 Determination to their collective **Pooled Determination**, establishing a formidable **Determination 7** (requiring **8 total Hits** to break their resolve and compel a surrender). 
 >
@@ -182,10 +182,10 @@ Both Jax and Tessa begin the round with **3 Action Points (AP)** each. The stand
 *Control returns to the players.*
 
 #### Player Turn 2 (2 AP Spent — Clinching the Surrender)
-* **Jax (1 AP):** Shaken and Impaired by Brant's venomous threat, Jax spends 1 Action Point setting up a **Delayed Action**: bracing his carbine over the titanium crate and locking his crosshairs squarely onto Brant's chest, declaring that if hostilities erupt, he will fire *before* Brant can raise his weapon to shoot. *(Jax: 1 AP remaining)*
+* **Jax (1 AP):** Shaken and Impaired by Brant's venomous threat, Jax spends 1 Action Point setting up a **Delayed Action**: bracing his carbine over the cargo crate and locking his crosshairs squarely onto Brant's chest, declaring that if hostilities erupt, he will fire *before* Brant can raise his weapon to shoot. *(Jax: 1 AP remaining)*
 * **Tessa (1 AP):** Tessa has 2 AP remaining and only needs **1 final Hit** to close the encounter before Patience 1 expires at the end of the round. She steps forward to deliver the finishing blow, spending 1 AP on a **Presence (4) + Presence (4)** Simple Test: *"Drop the rifles and kick them across the deck, Brant. Do it now, and you leave here in zip-ties instead of body bags."*
 * Tessa rolls 4d10: `[2, 5, 6, 8]`.
-* The `8` is a Hit! Because Determination was already reduced to 0, this final Hit secures their unconditional compliance. Brant's defiance completely shatters. His jaw tightens, he unclips his sidearm, and tosses it onto the metal grating with a hollow clatter. Behind him, all five hirelings drop their slugthrowers and raise their hands in the air. *(Tessa: 1 AP remaining)*
+* The `8` is a Hit! Because Determination was already reduced to 0, this final Hit secures their unconditional compliance. Brant's defiance completely shatters. His jaw tightens, he unclips his sidearm, and tosses it onto the metal grating with a hollow clatter. Behind him, all five hirelings drop their rifles and raise their hands in the air. *(Tessa: 1 AP remaining)*
 
 ---
 

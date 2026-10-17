@@ -261,10 +261,10 @@ There is one crucial restriction on using **Gambit**: **a player can either spen
 
 Let's see how all these elements come together in play:
 
-* **The Scenario:** Jax, a nimble gunslinger, is pinned down behind a cargo container. A hostile security drone is advancing on his position. Jax decides to pop up and take a quick shot at the drone with his high-velocity kinetic sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
+* **The Scenario:** Jax, a nimble gunslinger, is pinned down behind a cargo container. A hostile security drone is advancing on his position. Jax decides to pop up and take a quick shot at the drone with his sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
 * **1. The Action Roll (Did the shot hit?):** For the first part of a Complex Test, Jax uses the higher of the two Attributes (**Finesse 4**), assembling a dice pool of **4d10**. He rolls `[2, 4, 5, 7]`. The highest result is 7 (a miss). Jax spends a Gambit die: *"I'm spending a Gambit."* He rolls the banked d10 and gets an `[8]`. His pool is now `[2, 4, 5, 7, 8]`. With an 8, the shot hits!
 * **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[5, 7, 8]`. The highest die is an 8 (8 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[5, 7, 8, 9]`. The highest result is a 9.
-* **Resolution:** Jax deals 9 points of damage to the drone. Spending his banked Gambit turned a clean miss into a devastating kinetic strike.
+* **Resolution:** Jax deals 9 points of damage to the drone. Spending his banked Gambit turned a clean miss into a devastating shot.
 
 #### Contesting a Test
 
@@ -282,7 +282,7 @@ You can also contest actions that would normally not require a test (such as shu
 
 ##### Contest Example
 
-Returning to our gunslinger Jax: suppose Jax attacks a security drone, rolling `[2, 4, 5, 7, 8]`. The drone has an **Evasion** of 3 and its maneuvering thrusters flare. The GM calls for an Evasion Contest Roll (**3d10**). The drone rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the kinetic slug ricochets harmlessly off the reinforced wall behind the drone.
+Returning to our gunslinger Jax: suppose Jax attacks a security drone, rolling `[2, 4, 5, 7, 8]`. The drone has an **Evasion** of 3 and its maneuvering thrusters flare. The GM calls for an Evasion Contest Roll (**3d10**). The drone rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the bullet ricochets harmlessly off the reinforced wall behind the drone.
 
 #### Teamwork
 
@@ -551,7 +551,7 @@ In *Corsair*, an operative's class is not an abstract magical tradition; it is d
 * **[Conduit](classes/Conduit.md)** ([Class Sheet](classes/Conduit_Sheet.html)): Living bio-electrical capacitors and shock troopers. Conduits channel high-voltage currents, generate localized electromagnetic interference pulses, overload hostile electronic systems, and ground dangerous energy discharges through superconducting carbon chassis.
 * **[Hazard](classes/Hazard.md)** ([Class Sheet](classes/Hazard_Sheet.html)): Combat alchemists and chemical warfare specialists. Hazard operatives wield pressurized pneumatic projectors to disperse corrosive neurotoxins, incendiary aerosols, fast-acting coagulant foams, and tailored combat stimulants across the battlefield.
 * **[Pilot](classes/Pilot.md)** ([Class Sheet](classes/Pilot_Sheet.html)): Neuro-synced exoskeleton and drone riggers. Pilots interface their consciousness directly with autonomous combat drones, deploy perimeter automated sentry turrets, and hard-jack into starship helm matrices with split-second neural response times.
-* **[Vanguard](classes/Vanguard.md)** ([Class Sheet](classes/Vanguard_Sheet.html)): Frontline assault breakers and kinetic point-men. Vanguards deploy morphing kinetic tower shields, anchor portable barricades, execute concussive battering-ram breaches, and draw hostile fire away from vulnerable squaddie positions.
+* **[Vanguard](classes/Vanguard.md)** ([Class Sheet](classes/Vanguard_Sheet.html)): Frontline assault breakers and point-men. Vanguards deploy morphing tower shields, anchor portable barricades, execute concussive battering-ram breaches, and draw hostile fire away from vulnerable squaddie positions.
 * **[Weaver](classes/Weaver.md)** ([Class Sheet](classes/Weaver_Sheet.html)): Molecular fabrication artisans and nanite swarm controllers. Weavers command clouds of programmable micro-machines to spin carbon mono-filament tripwires, weld ruptured bulkheads shut, dissolve enemy armor plates, and repair damaged field gear mid-firefight.
 
 For detailed origins, neuro-biological side effects, and ability catalogs, see **[Classes & The MANTLE System](classes/Classes.md)**.
@@ -602,7 +602,7 @@ While attributes measure natural talent, Skills represent disciplined training a
 * **Skill 3 (Master):** Elite system-wide renown; grants **3 automatic Upgrades** on tests using the linked Attribute Pair.
 
 ##### Flexible Narrative Naming
-Players invent creative, thematic names for their skills that logically connect to their chosen Attribute Pair (e.g., *Kinetic Marksmanship* for **Finesse + Accuracy**, *Breach Breaker* for **Strength + Finesse**, or *Corporate Espionage* for **Knowledge + Presence**). While the name cements character identity and roleplay flavor, its mechanical bonus applies universally to any test leveraging that linked Attribute Pair.
+Players invent creative, thematic names for their skills that logically connect to their chosen Attribute Pair (e.g., *Pistol Marksmanship* for **Finesse + Accuracy**, *Breach Breaker* for **Strength + Finesse**, or *Corporate Espionage* for **Knowledge + Presence**). While the name cements character identity and roleplay flavor, its mechanical bonus applies universally to any test leveraging that linked Attribute Pair.
 
 #### Condition & Harm
 
@@ -694,7 +694,7 @@ Carrying gear up to this limit incurs no encumbrance penalties, but exceeding th
 
 #### Equipment Catalogs
 
-* **[Firearms](equipment/Firearms.md)** ([Firearms Sheet](equipment/Firearms_Sheet.html)): Kinetic projectile weapons, rail carbines, coil shotguns, and heavy squad support machine guns. Governed by **Accuracy arrays** across four range bands (Short 0–5 spaces, Medium 6–12 spaces, Long 13–20 spaces, Extreme 20+ spaces), **Rate of Fire (RoF)** which caps the combined number of Crit and Chain Effects on an attack, flat **Damage Bonuses**, and **Minimum Strength** ratings.
+* **[Firearms](equipment/Firearms.md)** ([Firearms Sheet](equipment/Firearms_Sheet.html)): Projectile weapons, rail carbines, coil shotguns, and heavy squad support machine guns. Governed by **Accuracy arrays** across four range bands (Short 0–5 spaces, Medium 6–12 spaces, Long 13–20 spaces, Extreme 20+ spaces), **Rate of Fire (RoF)** which caps the combined number of Crit and Chain Effects on an attack, flat **Damage Bonuses**, and **Minimum Strength** ratings.
 * **[Melee Weapons](equipment/Melee.md)** ([Melee Sheet](equipment/Melee_Sheet.html)): Vibro-blades, hydraulic shock truncheons, monomolecular daggers, and heavy boarding axes. Melee weapons deal Piercing, Slashing, or Striking damage, granting a damage bonus equal to the lower attribute of the test when rolled with their favored physical Attribute Pair.
 * **[Armor](equipment/Armor.md)** ([Armor Sheet](equipment/Armor_Sheet.html)): Ballistic weaves, powered flak jackets, and mechanized hazard exoskeletons providing flat **Protection** that subtracts directly from incoming damage. Heavy plate enforces the **Cumbersome (X)** property, imposing Downgrades on Agility tests (including movement and sprint tests).
 * **[Gear](equipment/Gear.md)** ([Gear Sheet](equipment/Gear_Sheet.html)): Tactical kits across seven operational domains—Mobility, Fortification, Explosives & Launchers, Medical, Infiltration & Hacking, Detection & Sensors, and Survival. Gear items provide dedicated **Item Attributes** (such as *Thrust*, *Medicine*, *Sensors*, or *Hacking*) that pair with character attributes for 1 AP tests.
@@ -833,7 +833,7 @@ For the primary GM manual, see **[Running the Game](gm/Running_the_Game.md)**.
 * **[Social Interactions & Negotiations](gm/Social_Interactions.md):** Turn tense dialogues, corporate council hearings, and underworld interrogations into tactical confrontations governed by Action Points, ticking Patience clocks, Determination Blocker Effects, and NPC counter-tactics.
 * **[Stealth & Infiltration](gm/Stealth_and_Infiltration.md):** Adjudicate covert infiltrations, disguise craftsmanship, passive and active sensor networks, sensory downgrade penalties, and three-stage facility alarm states (Green: Routine Patrol, Yellow: Heightened Security, Red: Total Lockdown).
 * **[Investigation & Exploration](gm/Investigation_and_Exploration.md):** Turn crime scenes, derelict starship hulls, and planetary reconnaissance into tactile, interactive environments governed by Keys (vital discoveries), Veils (soft observational obstacles), Shrouds (hard technological/mechanical locks), and the Lockdown Blocker engine.
-* **[Chases & Pursuits](gm/Chases_and_Pursuits.md)** ([Reference Sheet](gm/Chases_and_Pursuits_Sheet.html)): Master high-speed kinetic evasions across foot, ground vehicle, and starship domains governed by Place-to-Place AP escape costs, strict disengagement guardrails, and severe interception penalties.
+* **[Chases & Pursuits](gm/Chases_and_Pursuits.md)** ([Reference Sheet](gm/Chases_and_Pursuits_Sheet.html)): Master high-speed evasions across foot, ground vehicle, and starship domains governed by Place-to-Place AP escape costs, strict disengagement guardrails, and severe interception penalties.
 * **[Tracks](gm/Tracks.md):** The visual engine of the Sphere. Comprehensive rules for Progress, Countdown, Linked, Racing, and Tug-of-War Tracks used to visualize evolving crises, ticking reactor meltdowns, and contested tugs-of-war.
 
 #### Adversaries & Encounter Design

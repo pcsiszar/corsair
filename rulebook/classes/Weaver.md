@@ -22,7 +22,7 @@ A Weaver's power is defined by three Class Attributes:
 
 When utilizing nanite capabilities, you roll tests using your Weaver Attributes. By default, your raw nanites can only create, modify, or manipulate simple objects that do not possess combat statistics or specialized properties—such as basic prybars, ropes, lockpicks, simple furniture, or utilitarian covers. Forging functional weapons, ballistic armor, medical consumables, or electronic viruses requires unlocking the corresponding **Nanite Weaves**.
 
-To execute a nanite test, you declare your narrative action and pair your chosen Weaver Attribute with an appropriate Core Attribute (`Class + Core`), or with another Weaver Attribute (`Class + Class`). For example, you might combine **Create + Strength** to forge a heavy kinetic prybar and wrench open a jammed hatch, pair **Create + Finesse** to fabricate a micro-lockpick and align security tumblers, roll **Control + Instinct** to thread a nanite sensory cable beneath a blast door, or use **Modify + Presence** to subtly alter the identification text and seal on an executive credential.
+To execute a nanite test, you declare your narrative action and pair your chosen Weaver Attribute with an appropriate Core Attribute (`Class + Core`), or with another Weaver Attribute (`Class + Class`). For example, you might combine **Create + Strength** to forge a heavy prybar and wrench open a jammed hatch, pair **Create + Finesse** to fabricate a micro-lockpick and align security tumblers, roll **Control + Instinct** to thread a nanite sensory cable beneath a blast door, or use **Modify + Presence** to subtly alter the identification text and seal on an executive credential.
 
 ### The Nanite Reservoir
 

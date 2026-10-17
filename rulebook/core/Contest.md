@@ -46,5 +46,4 @@ room, the drone's thrusters fire erratically, causing it to juke and weave.
 `[2, 4, 5, 7, 8]`. The two highest dice are the 8 and the 7. Both are removed.
 
 **4. Final Outcome:** Jax's dice pool is now `[2, 4, 5]`. The highest remaining die is a 5. Since this is lower than 8,
-Jax's attack is now a **Failure**. The drone's evasive maneuver was successful, and the plasma bolt sizzles past,
-hitting the wall behind it.
+Jax's attack is now a **Failure**. The drone's evasive maneuver was successful, and the bullet ricochets harmlessly off the wall behind it.

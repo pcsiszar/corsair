@@ -21,7 +21,7 @@ Within the magnetic shelters of these gas giants, terrestrial worlds orbit in cl
 
 * **No Faster-Than-Light Travel**: Interplanetary transit relies entirely on continuous-thrust fusion engines burning along calculated Brachistochrone trajectories. Hopping between twin binary moons takes mere hours, while journeys across the deep void between neighboring gas giants take only a few days.
 * **No Artificial Gravity**: Stations and ships obey Newtonian physics. Gravity exists only when an engine is under thrust or when an orbital station's habitat rings are spinning. Everywhere else, life is defined by magnetic boots, safety tethers, and the silent float of microgravity.
-* **Kinetic and Thermal Realities**: In place of energy shields or disintegrator beams, ships and ground operatives rely on layered composite armor, point-defense lasers, and high-velocity kinetic firearms. Every burning engine and fired weapon generates waste heat that must be carefully radiated into the vacuum through glowing thermal arrays.
+* **Kinetic and Thermal Realities**: In place of energy shields or disintegrator beams, ships and ground operatives rely on layered composite armor, point-defense lasers, and ballistic firearms. Every burning engine and fired weapon generates waste heat that must be carefully radiated into the vacuum through glowing thermal arrays.
 * **The Living Dragons**: The titans of the void are not mere myths, but colossal, ancient biological entities that navigate the vacuum using internal bio-fusion dynamos. From gentle Goldheart watching over Landfall to the thunderous Stormdrinker circling the electrical storm-wells of Nimbus, dragons are sovereign beings whose presence and alliances shape the fate of entire worlds.
 
 ---
@@ -61,4 +61,4 @@ As players, you form a **Corsair Cell**—a tight-knit crew of 3 to 5 specialist
 * **The Oversight Committee**: While your mandate gives you sweeping legal authority to carry arms, execute investigations, and use proportional force, you are not above the law. An Oversight Committee of retired veteran Corsairs and civilian delegates reviews contract petitions and investigates agent misconduct.
 * **Total Freedom of Approach**: Whether your crew operates as righteous investigators, daring explorers of lost Precursor ruins, gritty bounty hunters, diplomatic fixers, or razor-sharp corporate troubleshooters, how you resolve your contracts is entirely up to you.
 
-Check your mag-boots, calibrate your drive plumes, and load your kinetic magazines. The void is waiting.
+Check your mag-boots, calibrate your drive plumes, and load your magazines. The void is waiting.

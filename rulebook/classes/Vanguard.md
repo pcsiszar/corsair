@@ -6,7 +6,7 @@
 
 The Vanguard is the cell's frontline breaker and kinetic specialist, defined by their neural synchronization with a specialized **Vanguard-pattern MANTLE** (*Modular Adaptive Neural Transmission Linked Equipment*) and its adaptable multi-segment Board. Controlled directly through the operative's permanent **Neural Control Chip (NCC)** and cervical shunt, the rig interfaces with subdermal balance nodes embedded along the user's calves, spine, and forearms. Mounted along the operative's spine via a high-torque magnetic docking latch, this articulated piece of aerospace-grade hardware consists of interlocking ceramic-composite plates, micro-servos, and pneumatic locking pins that read minute shifts in center of mass, transmitting physical balance feedback at the speed of reflex. In its dormant state, the folded chassis rests as a compact, streamlined dorsal carapace across the operative's back, often scarred by shrapnel deflection or thermal wash from high-speed descents.
 
-In active combat, the Board functions as an instrument of relentless kinetic momentum, transforming between three distinct operational geometries at a moment's notice. When facing suppressive fire, the chassis snaps forward into the Vanguard's off-hand, locking into a broad, reinforced **Shield** engineered to disperse hypersonic kinetic impacts and batter through enemy barricades in close-quarters breaches. When rapid repositioning or flanking becomes necessary, the mechanism deploys beneath the user's boots as a high-velocity hoverboard **Glider**, engaging vectored kinetic thrusters to skim over hazardous terrain, traverse zero-gravity gaps, and launch the operative into aerial drop attacks. When distant threats demand decisive force, the Board hinges outward into a heavy shoulder-slung or hip-braced **Cannon**, cycling high-velocity kinetic penetrators capable of punching clean through bulkhead plating and mechanized armor.
+In active combat, the Board functions as an instrument of relentless momentum, transforming between three distinct operational geometries at a moment's notice. When facing suppressive fire, the chassis snaps forward into the Vanguard's off-hand, locking into a broad, reinforced **Shield** engineered to disperse heavy ballistic impacts and batter through enemy barricades in close-quarters breaches. When rapid repositioning or flanking becomes necessary, the mechanism deploys beneath the user's boots as a hoverboard **Glider**, engaging vectored thrusters to skim over hazardous terrain, traverse zero-gravity gaps, and launch the operative into aerial drop attacks. When distant threats demand decisive force, the Board hinges outward into a heavy shoulder-slung or hip-braced **Cannon**, cycling heavy penetrator rounds capable of punching clean through bulkhead plating and mechanized armor.
 
 The true tactical depth of the Vanguard MANTLE chassis lies in the fluid, stance-dancing rhythm of its kinetic engine. Rather than committing to a single combat posture, an experienced Vanguard continuously reconfigures the Board mid-assault, converting the mechanical torque of each form swap into banked **Boost** dice that fuel explosive combo techniques. Whether shattering enemy defensive lines with a boosted shield charge, surfing over crossfire to extract a pinned ally, or laying down devastating artillery blasts from elevated vantage points, the Vanguard commands the pace of engagement. Their presence ensures the cell possesses an immovable defensive anchor, an agile vanguard scout, and a heavy fire-support platform unified in a single operative.
 
@@ -77,7 +77,7 @@ Operatives learn one complete Combo (3 abilities) at Level 1, and unlock an addi
 
 ### Sentinel Combo
 
-The Sentinel Combo emphasizes kinetic frontline defense, utilizing high-velocity shield throws to scatter enemy formations and hard-light kinetic deflection to protect against incoming fire.
+The Sentinel Combo emphasizes frontline defense, utilizing shield throws to scatter enemy formations and reactive bracing to protect against incoming fire.
 
 **Shield Throw `[Action]`**
 * **Form:** Shield
@@ -96,7 +96,7 @@ The Sentinel Combo emphasizes kinetic frontline defense, utilizing high-velocity
 
 ### Fallingstar Combo
 
-The Fallingstar Combo harnesses explosive vertical lift and high-altitude gravitational kinetic drops, crushing enemy clusters beneath devastating shockwaves.
+The Fallingstar Combo harnesses explosive vertical lift and high-altitude drops, crushing enemy clusters beneath devastating shockwaves.
 
 **Rocket Jump `[Action]`**
 * **Form:** Cannon

@@ -46,7 +46,7 @@ To make time tangible and eliminate abstract mental math at the table, *Corsair*
 ### 1. Moment to Moment
 This is the most zoomed-in level of play, where every fraction of a second matters. It is reserved for high-stakes combat, close-quarters stealth infiltrations, emergency vehicular evasions, and tense, face-to-face negotiations. 
 
-A single round lasts roughly **10 to 15 seconds**. Each **Moment-to-Moment Action Point** represents roughly **3 to 5 seconds** of intense effort—enough time to line up and fire a kinetic firearm, sprint four meters between bulkheads, dive into low cover, hack an electronic door bypass, or ready a defensive reaction.
+A single round lasts roughly **10 to 15 seconds**. Each **Moment-to-Moment Action Point** represents roughly **3 to 5 seconds** of intense effort—enough time to line up and fire a sidearm, sprint four meters between bulkheads, dive into low cover, hack an electronic door bypass, or ready a defensive reaction.
 
 ### 2. Place to Place
 This mid-level scope governs structured area exploration, municipal investigations, district-wide legwork, and facility infiltrations. Time is more fluid, focusing on an entire installation, spaceport terminal, or city district.
@@ -134,7 +134,7 @@ In high-stakes scenes, the GM should rely on **Countdown Tracks** to make the pa
 
 #### Modulating Clocks Dynamically
 While a Countdown Track automatically advances by 1 segment at the End of the Round, player choices should directly accelerate or delay the countdown:
-* **Burning Time:** Reckless, loud, or blundering actions (such as firing an unsilenced kinetic rifle in an unsuppressed corridor or failing a stealth test near an acoustic sensor) immediately burn an extra segment on the countdown clock.
+* **Burning Time:** Reckless, loud, or blundering actions (such as firing an unsilenced rifle in an unsuppressed corridor or failing a stealth test near an acoustic sensor) immediately burn an extra segment on the countdown clock.
 * **Buying Time:** Clever tactical maneuvers (such as deploying an electromagnetic jammer, sealing a secondary pressure bulkhead, or slicing a transit schedule) can erase a marked segment, granting the crew a vital extra round to accomplish their goals.
 * **Milestone Triggers:** For 2- and 3-round tracks, the GM can anchor escalating complications to specific segments. For example, on segment 1 of a security track, local klaxons blare; on segment 2, automated corridor bulkheads drop; on segment 3, a heavily armored response team breaches the room.
 
@@ -197,7 +197,7 @@ The following narrative examples demonstrate how the GM wields time, action poin
 > |           | 1 AP   | Instinct + Instinct test to spot Heavy Cover (+3 Protection)       |
 > |           | 1 AP   | Readies Delayed Action: Sniper shot when mine detonates            |
 > +-----------+--------+--------------------------------------------------------------------+
-> | Tessa     | 1 AP   | Conceals the rover in a side fissure with heat-sink baffles        |
+> | Tessa     | 1 AP   | Conceals the rover in a side fissure with thermal tarps             |
 > |           | 1 AP   | Plants and arms the Landmine as a Delayed Action                   |
 > |           | 1 AP   | Forfeited (holds in cover awaiting target arrival)                 |
 > +-----------+--------+--------------------------------------------------------------------+
@@ -210,7 +210,7 @@ The following narrative examples demonstrate how the GM wields time, action poin
 > #### Round 1: Place-to-Place Preparation
 >
 > 1. **Silas (3 AP):**
->    * Silas begins by surveying the canyon floor through his electro-binoculars. He spends **1 AP** making an **Instinct (4) + Instinct (4)** Simple Test to identify where the convoy is bound to pass. Rolling 4d10, Silas scores `[3, 6, 8, 9]`—yielding two Hits (`8` and `9`). The first Hit locates a natural funnel where ancient flash-flood runoff narrowed the canyon road between sheer cliffs. Silas spends his second Hit on an **Upgrade Effect**, analyzing dust drifts and lighting angles to grant an advantage to further preparation work.
+>    * Silas begins by surveying the canyon floor through his binoculars. He spends **1 AP** making an **Instinct (4) + Instinct (4)** Simple Test to identify where the convoy is bound to pass. Rolling 4d10, Silas scores `[3, 6, 8, 9]`—yielding two Hits (`8` and `9`). The first Hit locates a natural funnel where ancient flash-flood runoff narrowed the canyon road between sheer cliffs. Silas spends his second Hit on an **Upgrade Effect**, analyzing dust drifts and lighting angles to grant an advantage to further preparation work.
 >    * Next, Silas scrambles up the western rim to secure a firing position. He spends **1 AP** making an **Instinct (4) + Instinct (4)** Simple Test to find optimal cover. Scoring a Hit, Silas discovers a weathered granite shelf that grants **Heavy Cover (+3 Protection)** with an unobstructed line of sight down into the killzone.
 >    * With his final **1 AP**, Silas stabilizes his designated marksman rifle across the granite ridge and declares a **Delayed Action**: *"The instant the landmine detonates beneath the lead transport, I will fire an armor-piercing shot directly through the driver's cabin."*
 >
@@ -231,7 +231,7 @@ The following narrative examples demonstrate how the GM wields time, action poin
 > At the End of the Round, a low mechanical rumble echoes between the canyon walls as two dust-caked six-wheeled transports rumble around the bend, escorted by syndicate outriders.
 >
 > 1. The lead transport rolls into the narrow funnel, passing directly over the buried Landmine. The Landmine’s **Delayed Action** triggers automatically, costing **0 additional AP**. The blast rips through the vehicle’s front undercarriage with a concussive shockwave, tearing away its steering axle and slamming the transport sideways into the rock wall, completely blocking the canyon pass.
-> 2. The explosion instantly satisfies the trigger condition for Silas’s readied sniper shot. Silas executes his **Delayed Action** for **0 additional AP**, putting a high-velocity round through the cracked canopy to neutralize the vehicle's turret gunner.
+> 2. The explosion instantly satisfies the trigger condition for Silas’s readied sniper shot. Silas executes his **Delayed Action** for **0 additional AP**, putting a sniper round through the cracked canopy to neutralize the vehicle's turret gunner.
 > 3. Hearing the blast and sniper crack, Jax triggers his readied **Delayed Action** for **0 additional AP**, bursting from his boulder blind through the cloud of smoke to crash into the dismounted escort guards with his boarding axe before they can recover their footing.
 >
 > #### Zooming In to Moment to Moment
@@ -335,11 +335,11 @@ The following narrative examples demonstrate how the GM wields time, action poin
 > #### Shift 1: Morning Operations (3 AP Spent)
 >
 > During the morning 8-hour block, the crew divides their efforts to address urgent medical and logistical priorities:
-> * **Medbay Long Rest (Jax, 1 AP):** Jax took heavy kinetic fire during the foundry breach, completely filling Track I of his Physical Condition with 6 Light Wounds and 1 Aggravated Wound, which left his **Strength** Attribute **Impaired** (suffering 1 Downgrade on all Strength tests). Jax spends his morning shift undergoing intensive treatment in the station’s automated medical suite. A Long Rest requires an **Endurance + Willpower** Success Test. Jax has **Endurance 3** and **Willpower 2**; because tests pair attributes using the lower rating, his base pool is 2 dice. The medical facility provides **2 Upgrades**, elevating his pool to 2d12. Rolling `[9, 11]`, Jax generates **20 Success Points**! 
+> * **Medbay Long Rest (Jax, 1 AP):** Jax took heavy gunfire during the foundry breach, completely filling Track I of his Physical Condition with 6 Light Wounds and 1 Aggravated Wound, which left his **Strength** Attribute **Impaired** (suffering 1 Downgrade on all Strength tests). Jax spends his morning shift undergoing intensive treatment in the station’s automated medical suite. A Long Rest requires an **Endurance + Willpower** Success Test. Jax has **Endurance 3** and **Willpower 2**; because tests pair attributes using the lower rating, his base pool is 2 dice. The medical facility provides **2 Upgrades**, elevating his pool to 2d12. Rolling `[9, 11]`, Jax generates **20 Success Points**! 
 >   * He spends **2 Success Points** to clear the 1 Aggravated Wound (costing 2 SP per segment).
 >   * He spends **6 Success Points** to heal all 6 Light Wounds (costing 1 SP per segment).
 >   * With Track I completely cleared, Jax immediately removes the **Impaired** condition from Strength, restoring his physical capabilities to full potency.
-> * **Ship Hull Repairs (Silas, 1 AP):** Micrometeorites and point-defense shrapnel pitted the starship’s exterior armor plating during orbital transit. Rather than paying exorbitant station dockyard labor fees, Silas rolls up his sleeves. He equips his **Mechanic's Kit** (**Tinkering 2**, **Locksmith 2**) and pairs the kit’s Tinkering attribute with his **Knowledge 4**. Spending **1 AP**, Silas makes a **Knowledge + Tinkering** Simple Test, rolling 4d10: `[4, 7, 8, 9]`—scoring two Hits (`8` and `9`). Silas seals the outer pressure seams and heat-treats the composite ablative plating, cleanly restoring the ship’s hull integrity to full operational readiness.
+> * **Ship Hull Repairs (Silas, 1 AP):** Micrometeorites and point-defense shrapnel pitted the starship’s exterior armor plating during orbital transit. Rather than paying exorbitant station dockyard labor fees, Silas rolls up his sleeves. He equips his **Mechanic's Kit** (**Tinkering 2**, **Locksmith 2**) and pairs the kit’s Tinkering attribute with his **Knowledge 4**. Spending **1 AP**, Silas makes a **Knowledge + Tinkering** Simple Test, rolling 4d10: `[4, 7, 8, 9]`—scoring two Hits (`8` and `9`). Silas seals the outer pressure seams and patches the armor plating, cleanly restoring the ship’s hull integrity to full operational readiness.
 > * **Station Bazaar Shopping Spree (Tessa, 1 AP):** Tessa spends her 8-hour morning shift navigating Port Zenith’s multi-level commercial concourse. The GM highlights a fundamental economy rule: **spending 1 Day-to-Day AP on a shopping trip allows an operative to procure any standard equipment, supplies, and gear available in that market tier**. Drawing from their banked bounty earnings, Tessa buys:
 >   * **Standard Crate of Supplies (5 Supply, 8,000 Credits):** Loaded directly into the starship's cargo hold to replenish life support reserves and reactor coolant.
 >   * **Tier 1 Weapon Upgrade Kit (10,000 Credits):** Precision machining parts and gas regulators for weapon customization.

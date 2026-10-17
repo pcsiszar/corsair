@@ -94,7 +94,7 @@ Marcus had dropped to his knees, gasping as if he had climbed out of a breached 
 
 He hadn't packed much. A change of clothes, his papers, and his discharge chits. He had waited until three in the morning, laid his Flotilla pension voucher on the wooden counter—enough credits to pay the lease and buy Toby new shoes every year until he was a grown man—and walked out the door.
 
-A weapon did not belong in a house with children. You do not keep a live kinetic mine on the shelf next to the jam jars.
+A weapon did not belong in a house with children. You do not keep a live mine on the shelf next to the jam jars.
 
 "You did the right thing," Aris whispered from the corner of the turbine housing. "You keep the rear echelon safe. That's doctrine."
 
@@ -170,7 +170,7 @@ The man flew backward through the steam, crashing into the coolant pipe before d
 
 Marcus ducked smoothly beneath the swing, pivoted on his heel, and drove his steel-toed boot into the side of the man's knee. The joint buckled with a sickening crack, and the ganger collapsed with a shriek of agony.
 
-Behind them, up on the raised iron catwalk twenty paces away, a fourth scrapper had leaned over the railing, leveling a high-powered kinetic flechette rifle straight at Marcus’s exposed back.
+Behind them, up on the raised iron catwalk twenty paces away, a fourth scrapper had leaned over the railing, leveling a high-powered flechette rifle straight at Marcus’s exposed back.
 
 Marcus was looking away, his balance committed, blind to the rifle.
 

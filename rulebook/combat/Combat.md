@@ -120,7 +120,7 @@ receive 2 Upgrades (3 - 1 = 2) on their melee attacks against that enemy.
 
 #### Melee
 
-You can attack a creature in the same space as you, or an adjacent space. Melee attacks must use any combination of two separate Physical Attributes. For example, Jax might combine **Strength + Agility** to drive a heavy kinetic blade through a pirate's defense, or pair **Agility + Finesse** when aiming a swift, precise knife strike at a weak point in armor. 
+You can attack a creature in the same space as you, or an adjacent space. Melee attacks must use any combination of two separate Physical Attributes. For example, Jax might combine **Strength + Agility** to drive a heavy blade through a pirate's defense, or pair **Agility + Finesse** when aiming a swift, precise knife strike at a weak point in armor. 
 
 When you attack a creature in an adjacent space, you move into it, provided it holds less than 4 creatures. If it does, you simply perform the attack from your current space, but as if you, and all your allies in your space were in the space of the creature you attacked (for outnumbering purposes).
 

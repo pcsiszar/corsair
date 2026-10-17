@@ -93,12 +93,12 @@ The Iron Fang fills every profitable vacuum created by Flotilla regulations: the
 ### Leadership & Internal Power Structure
 The syndicate is steered by the **Fang Directorate**, a secret council of seven criminal bosses based in the commercial underbelly of **Port Zenith** and the high-end gaming clubs of Cloudspire. The current presiding figure is **Syndic Anton Drake**, a charming, middle-aged Naga gentleman who wears bespoke Chidori-Qwei suits, speaks five languages fluently, and has never physically held a firearm in his life. 
 
-Enforcement is carried out by the **Iron Guard**—professional mercenary squads composed of dishonorably discharged Flotilla marines and corporate security defectors. Equipped with mil-spec kinetic rifles, smart-linked body armor, and heavy breaching tools, Iron Guard enforcers operate with surgical, ruthless discipline. When the Iron Fang decides to eliminate a debtor or silence an informant, they don't engage in messy shootouts; they stage a sudden, tragic "atmospheric seal failure" in the victim's apartment.
+Enforcement is carried out by the **Iron Guard**—professional mercenary squads composed of dishonorably discharged Flotilla marines and corporate security defectors. Equipped with military rifles, body armor, and heavy breaching tools, Iron Guard enforcers operate with surgical, ruthless discipline. When the Iron Fang decides to eliminate a debtor or silence an informant, they don't engage in messy shootouts; they stage a sudden, tragic "atmospheric seal failure" in the victim's apartment.
 
 ### Territory, Illicit Goods & Signature Assets
 The Iron Fang operates across the entire system, utilizing unmarked cargo lighters, secret station bulkheads, and hidden asteroid waystations.
 
-* **Heavy Black-Market Arms Dealing:** Military-grade railgun capacitors, un-serialized kinetic ammo, stealth hull baffles, and refurbished Draco drive pre-igniters.
+* **Heavy Black-Market Arms Dealing:** Military-grade railgun capacitors, un-serialized ammunition, stealth hull baffles, and refurbished Draco drive pre-igniters.
 * **The Zenith Laundromat:** A network of legitimate commercial front companies on Port Zenith—freight brokerage firms, recycling plants, and drydocks—used to wash billions in illicit credits.
 * **Ghost Corvettes:** Fast, stripped-down blockade runners equipped with oversized fusion drives and sensor-absorbing paint, capable of outrunning Flotilla patrol cutters in open space.
 
@@ -123,7 +123,7 @@ The Wraiths are austere, silent, and deadly. They dress in layered, dust-caked s
 ### Leadership & Guerrilla Tactics
 The Wraiths are organized into family clans led by **Elder Sand-Speakers**—weathered patriarchs and matriarchs who navigate by celestial constellations and the acoustic reverberations of the wind through the canyons. 
 
-In combat, the Wraiths are terrifying ambush predators. Rather than engaging heavy corporate mining crawlers in open kinetic slugfests, they utilize the environment. Their signature tactical tool is the **Veil of Sand**: deploying specialized aerosol canisters that release dense clouds of polarized, abrasive silica particulate. These clouds completely blind radar, scramble infrared sensors, and strip optical cameras to bare static, plunging enemy vehicles into sensory darkness. Emerging from the dust cloud on foot, Wraiths scale the crawler’s hull, disable the external radiator loops with thermal charges, and force the crew to surrender by threatening to vent their environmental seals.
+In combat, the Wraiths are terrifying ambush predators. Rather than engaging heavy corporate mining crawlers in open firefights, they utilize the environment. Their signature tactical tool is the **Veil of Sand**: deploying specialized aerosol canisters that release dense clouds of polarized, abrasive silica particulate. These clouds completely blind radar, scramble infrared sensors, and strip optical cameras to bare static, plunging enemy vehicles into sensory darkness. Emerging from the dust cloud on foot, Wraiths scale the crawler’s hull, disable the external radiator loops with thermal charges, and force the crew to surrender by threatening to vent their environmental seals.
 
 ### Territory, Illicit Goods & Signature Assets
 The Wraiths claim the deep canyon networks of the Great Suncatcher Badlands, the Sunken Basins, and the hidden subterranean water aquifers.

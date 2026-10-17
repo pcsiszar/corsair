@@ -65,12 +65,12 @@ Caldera controls the primary open-pit mining concessions of Suncatcher’s Great
 * **The Great Caldera Smelting Complex:** A subterranean city-scale foundry hollowed into Suncatcher’s crust, processing millions of tons of raw tungsten and titanium ore daily.
 * **Capital Ship Armaments:** The premier naval foundry for heavy kinetic ordnance, manufacturing the **"Sledgehammer" Flak Cannon**, the **"Anvil" Railgun Battery**, the **"Gigant" Heavy Railgun**, and the monstrous **"Mjolnir" Spinal Coilgun**.
 * **The CF "Cinder" Strike Frigate:** A rugged, heavily armored naval escort hull designed for close-range brawling and convoy protection.
-* **Small Arms & Armor:** Renowned for brutal, close-quarters boarding defense, producing heavy-bore kinetic sluggers, trench shotguns, and cast ceramic-titanium battleplate.
+* **Small Arms & Armor:** Renowned for brutal, close-quarters boarding defense, producing heavy-bore rifles, trench shotguns, and cast ceramic-titanium battleplate.
 
 ### Relationship with Corsairs
 Caldera views Corsairs with gruff respect, treating them like independent heavy contractors rather than fancy lawmen. The Foundry regularly hires Corsairs to hunt claim-jumpers in the Badlands, recover hijacked ore crawlers, and protect deep-space isotope convoys from Scavenger raiders. 
 
-Caldera pays in high-value commodities: refined industrial alloy ingots, proprietary starship heat sinks, and mil-spec armor plating that can absorb point-blank kinetic fire. If a Corsair crew proves they can handle heavy machinery in a sandstorm without complaining, Caldera becomes the most loyal, generous patron in the system.
+Caldera pays in high-value commodities: refined industrial alloy ingots, proprietary starship heat sinks, and mil-spec armor plating that can absorb point-blank gunfire. If a Corsair crew proves they can handle heavy machinery in a sandstorm without complaining, Caldera becomes the most loyal, generous patron in the system.
 
 ---
 

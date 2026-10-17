@@ -389,7 +389,7 @@ Along the barren, cratered moons and border asteroid outposts of the DMZ, opposi
 
 #### Ork Line Warrior
 
-Trained under the unyielding martial code of Emperor Vrakketh's legions, an Orkish Line Warrior advances with chilling, rhythmic discipline. Towering over standard humanoids with dense bone structure and thick, leathery hide, they are encased in layered plates of stamped, dark-lacquered ballistic pig-iron. They treat their heavy-caliber semi-automatic battle rifles with austere reverence, firing armor-piercing kinetic rounds in synchronized suppression volleys before closing ranks to finish breaching actions with an edge-hardened steel bayonet.
+Trained under the unyielding martial code of Emperor Vrakketh's legions, an Orkish Line Warrior advances with chilling, rhythmic discipline. Towering over standard humanoids with dense bone structure and thick, leathery hide, they are encased in layered plates of stamped, dark-lacquered ballistic pig-iron. They treat their heavy-caliber semi-automatic battle rifles with austere reverence, firing armor-piercing rounds in synchronized suppression volleys before closing ranks to finish breaching actions with an edge-hardened steel bayonet.
 
 **Category:** Standard | **Tier:** 2
 
@@ -411,7 +411,7 @@ Bearing the battle-standards and imperial crests of Emperor Vrakketh’s shock d
 
 #### Ork Warlord
 
-Standing more than two meters tall in a ceremonial suit of pressurized, motor-driven command plate adorned with crimson battle banners, an Ork Warlord commands their frontier cohort with severe, autocratic authority. Educated in harsh imperial war academies where defeat is answered with ritual suicide, they direct fields of fire with cold, calculating precision while personally leading from the front line. In combat, they brace an imperial quad-barrel heavy rotary cannon from a gyroscopic shoulder harness, laying down punishing kinetic fire while swinging a monomolecular-edged iron broadblade with terrifying speed.
+Standing more than two meters tall in a ceremonial suit of pressurized, motor-driven command plate adorned with crimson battle banners, an Ork Warlord commands their frontier cohort with severe, autocratic authority. Educated in harsh imperial war academies where defeat is answered with ritual suicide, they direct fields of fire with cold, calculating precision while personally leading from the front line. In combat, they brace an imperial quad-barrel heavy rotary cannon from a gyroscopic shoulder harness, laying down punishing gunfire while swinging a monomolecular-edged iron broadblade with terrifying speed.
 
 **Category:** Boss | **Tier:** 3
 
@@ -446,7 +446,7 @@ The upper crust of Pelagian society dwells on colossal, luxurious artificial isl
 
 #### Pelagia Tidewarden
 
-In stark contrast to the blunt kinetic violence of the Orks, the Tidewardens of Pelagia are secretive martial artists trained in secluded oceanic monasteries. Wielding dual paired vibro-rapiers tuned to high-frequency oscillation, they move with liquid grace across the deck plates. Sold as personal bodyguards to off-world oligarchs and planetary dignitaries, a Tidewarden does not use firearms; their entire combat philosophy revolves around deflecting kinetic projectiles with their blade strike-faces and counter-striking in the blink of an eye.
+In stark contrast to the blunt violence of the Orks, the Tidewardens of Pelagia are secretive martial artists trained in secluded oceanic monasteries. Wielding paired rapiers, they move with liquid grace across the deck plates. Sold as personal bodyguards to off-world oligarchs and planetary dignitaries, a Tidewarden does not use firearms; their entire combat philosophy revolves around tight-corridor blade defense, closing the distance inside narrow passageways, and counter-striking in the blink of an eye.
 
 **Category:** Elite | **Tier:** 4
 

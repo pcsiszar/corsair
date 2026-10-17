@@ -399,7 +399,7 @@ To see how all the pieces of the pursuit engine fit together in live play, follo
 ### The Situation
 Acting under an inter-jurisdictional seizure warrant issued by the Flotilla Admiralty, the Corsairs have raided an unregistered warehouse depot in the industrial underbelly of Port Zenith run by the "Iron Fang" syndicate, an illegal Precursor weapons-trafficking ring. The cell breaches the facility, secures a stolen military-grade Precursor focusing coil, and corners the syndicate's chief courier, **Kaelen**.
 
-Before they can slap magnetic binders on Kaelen, the syndicate's heavy mercenary strike team breaches the lobby with military-grade auto-sluggers. Outnumbered and facing heavy suppression fire, the Corsairs must conduct an orderly tactical withdrawal through the concourse to reach their patrol rover.
+Before they can slap binders on Kaelen, the syndicate's heavy mercenary strike team breaches the lobby with automatic rifles. Outnumbered and facing heavy suppression fire, the Corsairs must conduct an orderly tactical withdrawal through the concourse to reach their patrol rover.
 
 ---
 
@@ -445,7 +445,7 @@ The transit car drops the cell at the lower freight yard where their customized 
 
 > **1. The Vehicular Escape Declaration:**
 > Kaelen attempts an escape across the wide asphalt freight yard, starting 10 spaces away (Medium Range).
-> * Kaelen (the criminal quarry) spends **1 Place-to-Place AP** to gun his buggy's supercharged turbine.
+> * Kaelen (the criminal quarry) spends **1 Place-to-Place AP** to rev his buggy's engine.
 > * Tessa leaps behind the wheel of the Corsairs' patrol rover and spends **1 Place-to-Place AP** to give chase! Silas and Jax pay **0 AP**, boarding the passenger seats with firearms readied.
 > * Because both sides are in motorized vehicles, the Foot-to-Vehicle invariant is satisfied.
 
@@ -467,7 +467,7 @@ The transit car drops the cell at the lower freight yard where their customized 
 > * **AP Refill:** Silas, Tessa, Jax, and Kaelen all refill their tactical AP to maximum (**3 AP**).
 > * **Pursuers Take Immediate Initiative:** **The Corsairs act first!**
 > * **Pursuers Place Themselves:** As the successful pursuers, the Corsairs dictate the tactical geometry! Tessa angles the armored rover across the alley mouth, completely blocking Kaelen's exit vector. Jax dismounts into Heavy Cover with his boarding axe, and Silas claims high ground on an adjacent container with his rifle trained directly on the smoking buggy cockpit, shouting: *"Flotilla Corsairs! Cut the ignition and step out with your hands up!"*
-> * Cornered and facing superior tactical positioning, Kaelen surrenders. The Corsairs secure the suspect in magnetic cuffs and impound the contraband ordnance!
+> * Cornered and facing superior tactical positioning, Kaelen surrenders. The Corsairs secure the suspect in cuffs and impound the contraband ordnance!
 
 ---
 

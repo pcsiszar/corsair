@@ -115,7 +115,7 @@ Only a microscopic, self-perpetuating inner circle holds the cipher keys, operat
 * **Engineering Corps:** The technical backbone who maintain Draco drives, calibrate reactor coils, and analyze Precursor hardware.
 * **Medical Corps:** Physicians, trauma surgeons, and combat medics specializing in explosive decompression, radiation sickness, and zero-g bone degradation.
 * **Officer Corps:** Commissioned leadership, tactical coordinators, and navigational specialists who have served multiple tours.
-* **Sailor Corps:** The vast working majority who steer the vessels, load kinetic magazines, and monitor atmospheric loops.
+* **Sailor Corps:** The vast working majority who steer the vessels, load magazines, and monitor atmospheric loops.
 * **Admin Corps:** The accountants, forensic auditors, legal clerks, and logistics dispatchers who keep the colossal machine solvent.
 
 ---

@@ -238,7 +238,7 @@ Active security measures do not make continuous rolls; they function as **Activa
 * **Execution:** The instant the trigger condition is met, the security measure becomes an **Active Actor**. On its activation, it spends its available Action Points strictly on its single, pre-determined action:
   - *Laser Tripwire:* Triggers a local alarm relay and drops emergency fire curtains (1 AP).
   - *Proximity Frag Mine:* Detonates an explosive blast dealing heavy shrapnel damage across a 4-meter radius (1 AP).
-  - *Automated Ceiling Turret:* Deploys from its housing, acquires the triggering intruder, and fires a kinetic burst dealing weapon damage (1 AP).
+  - *Automated Ceiling Turret:* Deploys from its housing, acquires the triggering intruder, and fires a burst dealing weapon damage (1 AP).
   - *Electrified Floor Grid:* Charges the deck plates, dealing electrical shock damage and inflicting the **Stunned** condition (1 AP).
 
 #### Spotting Active Security

@@ -99,7 +99,7 @@ Deep-sea acoustic hydrophones deployed along Pelagia's oceanic trenches detect a
 
 #### 175 AA — The Clash of the Titans & The Inter-Binary Famine
 
-Desperate to eliminate the Sandwyrm, Suncatcher authorities re-aim Pelagia’s planetary water railguns to execute kinetic orbital bombardments against the beast's nest. Enraged and grievously wounded, the Sandwyrm sprouts massive membranous wings, breaks atmosphere, and flies across the void toward Pelagia to annihilate the railgun complexes. 
+Desperate to eliminate the Sandwyrm, Suncatcher authorities re-aim Pelagia’s planetary water railguns to execute orbital bombardments against the beast's nest. Enraged and grievously wounded, the Sandwyrm sprouts massive membranous wings, breaks atmosphere, and flies across the void toward Pelagia to annihilate the railgun complexes. 
 
 As the airborne titan tears through Pelagia's coastal defense arrays, the **Leviathan** violently breaches the ocean surface. Refusing to let an uncouth sibling destroy its carefully nurtured puppet-empire, the abyssal dragon coils around the Sandwyrm and drags it thrashing into the black depths of the trench, drowning it. 
 
@@ -200,7 +200,7 @@ Tensions over Wanabo’s rich helium-3 fields boil over into a grinding, 20-year
 
 As the battered fleets of the Flotilla and the Orkish Empire clash in the outer reaches of the Fume system, a nightmare from Layer 3 awakens: the ***Evergaol***, a colossal automated Monolith dreadnought from the **Praetor’s** armada, warps into the battlespace. Seeking to forcibly harvest biological minds for the Praetor's re-synchronization crusade, the dreadnought begins systematically obliterating and abducting warships from both sides.
 
-Facing total annihilation, Flotilla battlecruisers and Orkish dreadnoughts forge an unthinkable, desperate battlefield alliance. In an earth-shattering clash across the upper atmosphere of Landfall, Flotilla railguns, Ork boarding torpedoes, **Goldheart**, and **Stormdrinker** unite. The two dragons grapple directly with the Monolith’s drive arrays, tearing open its heat manifolds and allowing combined kinetic salvos to break its orbital anchors. 
+Facing total annihilation, Flotilla battlecruisers and Orkish dreadnoughts forge an unthinkable, desperate battlefield alliance. In an earth-shattering clash across the upper atmosphere of Landfall, Flotilla railguns, Ork boarding torpedoes, **Goldheart**, and **Stormdrinker** unite. The two dragons grapple directly with the Monolith’s drive arrays, tearing open its heat manifolds and allowing combined artillery salvos to break its orbital anchors. 
 
 The burning *Evergaol* crashes violently into the surface of Landfall, gouging a continent-scale scar known as the **Evergaol Crash Site**. Boarding teams led by veteran Flotilla commanders sacrifice their lives inside the burning wreckage to disable the primary automated matrix.
 
