@@ -16,6 +16,7 @@ CHAPTER_SEQUENCE = [
     "02_Character_Creation.html",
     "02b_Interlude_Great_Tithe.html",
     "03_Classes.html",
+    "03b_Interlude_Post_War.html",
     "04_Armory_and_Gear.html",
     "05_Starships.html",
     "06a_GM_Operations.html",
