@@ -143,8 +143,8 @@ body.book-screen-canvas {
 .fiction-page-body p,
 .page-body.single-column p {
     font-size: 9.2pt;
-    line-height: 1.40;
-    margin-bottom: 2.0mm;
+    line-height: 1.44;
+    margin-bottom: 2.4mm;
     text-align: justify;
     hyphens: auto;
 }

@@ -112,25 +112,21 @@ Krikk swallowed hard, his throat clicking. "Have you... seen that happen?"
 
 Krikk looked around the dimly lit cargo hold, suddenly finding the cold shadows between the storage lockers far more threatening than he had two minutes ago. "Well... at least we’re four days out from the Wanabo frontier line. Nothing can track a dead-burn ballistic vector through the outer asteroid belt without active radar, and if anyone lit up active radar, our passive sensors would—"
 
-*BEEP.*
-
-A sharp, shrill electronic ping echoed through the cargo bay.
+A sharp, shrill electronic ping chimed across the sensor console.
 
 Skrix froze. All four of his hands remained locked in place, suspended in mid-air.
 
-*BEEP-BEEP. BEEP-BEEP.*
+Then came the urgent, double-pulsed chime of an emergency proximity alarm.
 
 From the cockpit three compartments forward, a muffled, panicked scream tore through the intercom, followed immediately by the frantic clicking of Raiding Captain Vorash’s terrified mandibles:
 
 *"All hands! All hands to breach stations! We’ve got an un-identified contact on our dorsal blind spot! No drive plume! No transponder! They were riding our exhaust shadow!"*
 
-Before Krikk could even reach for his slug-thrower, the entire five-hundred-ton hull of the *Rust-Weevil* groaned with a sickening, shuddering *CLANG*.
+Before Krikk could even reach for his slug-thrower, the entire five-hundred-ton hull of the *Rust-Weevil* groaned with a sickening shudder, like an iron anvil dropped onto an empty steel drum.
 
 It wasn't the violent, tearing collision of an Orkish cannon shell. It was the heavy, precision bite of pneumatic magnetic harpoons—four heavy steel tethers punching through the outer micrometeorite shielding and locking onto the structural keel with hydraulic finality.
 
-*THUD. THUD. THUD.*
-
-Directly above their heads, on the exterior surface of the cargo bay’s primary airlock hatch, came the dull, rhythmic vibration of magnetic boots walking across the hull.
+Directly above their heads, on the exterior surface of the cargo bay’s primary airlock hatch, came the heavy, rhythmic vibration of magnetic boots pacing across the hull.
 
 Then, through the heavy steel hatch, came a sound that made Skrix’s compound eyes dilate in absolute, paralyzing horror.
 
