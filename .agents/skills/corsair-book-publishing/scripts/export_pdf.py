@@ -108,7 +108,7 @@ def export_pdf(html_file: Path, pdf_file: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Export Corsair HTML chapter or master book to PDF via headless Chromium.")
-    parser.add_argument("--input", "-i", required=True, help="Input HTML file path (e.g. rulebook/html/00_Front_Matter.html)")
+    parser.add_argument("--input", "-i", required=True, help="Input HTML file path (e.g. html/00_Front_Matter.html)")
     parser.add_argument("--output", "-o", help="Output PDF file path (default: same stem as input with .pdf extension)")
     args = parser.parse_args()
 

@@ -157,7 +157,7 @@ The master compilation script is located at:
    ```
 5. To export individual chapters or the master compilation to PDF via the automated export script:
    ```powershell
-   python .agents/skills/corsair-book-publishing/scripts/export_pdf.py --input rulebook/html/00_Front_Matter.html --output rulebook/html/00_Front_Matter.pdf
+   python .agents/skills/corsair-book-publishing/scripts/export_pdf.py --input html/00_Front_Matter.html --output html/00_Front_Matter.pdf
    ```
 
 ---

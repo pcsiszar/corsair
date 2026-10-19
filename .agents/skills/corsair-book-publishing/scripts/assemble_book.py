@@ -95,7 +95,7 @@ def assemble(html_dir: Path, output_file: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Assemble modular Corsair HTML chapters into a master printable publication.")
-    parser.add_argument("--input-dir", "-i", default="rulebook/html", help="Directory containing modular chapter HTML files (default: rulebook/html)")
+    parser.add_argument("--input-dir", "-i", default="html", help="Directory containing modular chapter HTML files (default: html)")
     parser.add_argument("--output", "-o", default="dist/Corsair_Core_Rulebook_Master.html", help="Destination master HTML file (default: dist/Corsair_Core_Rulebook_Master.html)")
     args = parser.parse_args()
 
