@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsair TTRPG — Chapter 06: Downtime &amp; Operations</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Orbitron:wght@600;700;800;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Shared Modular Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/corsair-variables.css">
+    <link rel="stylesheet" href="../assets/css/corsair-typography.css">
+    <link rel="stylesheet" href="../assets/css/corsair-components.css">
+    <link rel="stylesheet" href="../assets/css/corsair-layout.css">
+    <link rel="stylesheet" href="../assets/css/corsair-print.css">
+    <style>
+        .gig-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4mm;
+            width: 100%;
+        }
+        .g-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 6.8pt;
+            line-height: 1.20;
+        }
+        .g-table th {
+            background: rgba(16, 20, 26, 0.95);
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--amber-dark);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 2px 3.5px;
+            border-bottom: 1.5px solid var(--amber-dark);
+            text-align: left;
+        }
+        .g-table td {
+            padding: 1.8px 3.5px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            vertical-align: top;
+        }
+        .g-table tr:nth-child(even) td {
+            background: rgba(255, 255, 255, 0.025);
+        }
+        .td-d100 {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            color: var(--amber-dark);
+            width: 20px;
+        }
+        .td-title {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            color: var(--text-bright);
+            width: 82px;
+        }
+        .td-desc {
+            color: var(--text-dim);
+        }
+        .td-test {
+            font-family: var(--font-mono);
+            font-size: 6.3pt;
+            color: var(--cyan-bright);
+            white-space: nowrap;
+            text-align: right;
+            width: 76px;
+        }
+    </style>
+</head>
+<body class="book-screen-canvas">
+
+    <!-- =========================================================================
+         PAGE 96 (Spread 49 Left) — CHAPTER 06 OPENER: DOWNTIME ROUND & SHIFTS
+         ========================================================================= -->
+    <div class="book-page spread-bg-1" id="downtime-opener">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="p-banner-wrap p-banner-tactical column-span-all" style="margin-bottom: 3.5mm;">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title">Downtime &amp; Day-to-Day Operations</h1>
+            </div>
+        </div>
+
+        <div class="page-body two-columns">
+            <p class="lead" style="font-size: 9.1pt; line-height: 1.4; margin-bottom: 2.8mm;">
+                Not every hour of a Corsair's career is defined by pressurized breach-charges, howling decompression sirens, or high-stakes firefights through zero-gravity bulkheads. Corsairs are flesh-and-blood operatives who must decompress, treat physical trauma, overhaul battered starships, shop for high-grade ordnance, and scrounge up freelance income to pay dockyard berthing fees. Between operational contracts, play shifts into <strong>Day-to-Day pacing</strong>. This macro-pacing scope gives players the creative freedom to pursue personal projects, train new competencies, and manage their ship's logistics, while providing Game Masters with a structured engine to track operational runway, simulate a living station economy, and pace campaign arcs.
+            </p>
+
+            <h3 style="margin-top: 1mm;">1. The 24-Hour Downtime Round &amp; Shift Structure</h3>
+            <p>
+                Day-to-Day pacing operates on a unified, macro-scale round structure. A single round represents <strong>one full 24-hour day</strong> in the game world. At the start of each Day-to-Day round, every player character receives <strong>3 Day-to-Day Action Points (AP)</strong>. Each Action Point represents an <strong>8-hour operational shift</strong>:
+            </p>
+
+            <table class="table-compact column-span-all" style="margin: 2.5mm 0 3mm 0; width: 100%; font-size: 8.2pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 22%;">Shift</th>
+                        <th style="width: 20%;">Timeframe</th>
+                        <th style="width: 28%;">Operational Focus</th>
+                        <th style="width: 30%;">Example Downtime Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Shift 1: Morning</strong></td>
+                        <td>08:00 &ndash; 16:00</td>
+                        <td>Primary Operations</td>
+                        <td>Medbay recovery, hull repairs, market run</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shift 2: Afternoon</strong></td>
+                        <td>16:00 &ndash; 24:00</td>
+                        <td>Secondary Endeavors</td>
+                        <td>Freelance gigs, tactical training, study</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shift 3: Night</strong></td>
+                        <td>00:00 &ndash; 08:00</td>
+                        <td>Rest, Drills, or Gigs</td>
+                        <td>Evening freelance, simulators, relaxation</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Free Allocation &amp; Sustenance</h3>
+            <p>
+                Characters may allocate their 3 Day-to-Day AP across any combination of downtime activities (such as training, taking freelance gigs, or shopping). Consuming 1 Supply at the End of the Round covers standard meals, personal hygiene, and healthy sleep patterns distributed naturally across the 24-hour cycle. Operatives do not need to spend an AP on sleep unless they are actively seeking medical recovery from <strong>Wounds</strong> or <strong>Stress</strong> through a <strong>Long Rest</strong>.
+            </p>
+
+            <h3>The Three Pacing Scopes</h3>
+            <p>
+                In <em>Corsair</em>, the GM dynamically adjusts pacing between three interconnected time scopes. <strong>Moment-to-Moment</strong> governs tactical combat, room breaches, and high-G dogfights where seconds matter and combatants spend 3 Moment-to-Moment AP. <strong>Place-to-Place</strong> shifts to hours, governing orbital transit, infiltration approaches, and tactical surveillance. <strong>Day-to-Day</strong> zooms out to 24-hour cycles, providing the structural canvas for repairs, medical convalescence, and long-range interplanetary burns.
+            </p>
+
+            <h3>2. Supplies &amp; Operating Runway</h3>
+            <p>
+                A crew's remaining operational runway is measured in <strong>Supplies</strong>. Rather than burdening the table with separate bookkeeping for protein packs, hydroponic greens, reactor coolant cartridges, and life-support filter scrubbing chemicals, all vessel consumption is unified into a single daily burn rate.
+            </p>
+
+            <h3>The End-of-Round Heartbeat</h3>
+            <p>
+                At the <strong>End of the Round</strong> (every 24 hours of in-game time), deduct <strong>1 Supply</strong> from the starship&rsquo;s cargo hold. Paying this 1 Supply sustains environmental life support and refills every crew member's pool back to <strong>3 Day-to-Day AP</strong> for the upcoming day.
+            </p>
+
+            <h3>The Consequences of Zero Supply</h3>
+            <p>
+                If the starship enters a new day with <strong>0 Supplies remaining</strong>, the vessel's auxiliary reserves shut down, imposing severe immediate penalties starting that morning:
+            </p>
+            <ul>
+                <li><strong>Auxiliary Systems Offline:</strong> All passive internal module benefits (medical bays, fabrication workshops, advanced sensors) power down.</li>
+                <li><strong>Repairs Blocked:</strong> Starship hull damage cannot be repaired by crew or automation.</li>
+                <li><strong>Crew Deprivation:</strong> Life-support scrubbers falter and food rations run dry. Every crew member immediately suffers <strong>1 Light Wound</strong> and <strong>1 Light Stress</strong> at the start of each unsupplied day.</li>
+                <li><strong>Advancement Frozen:</strong> Physical exhaustion and hunger prevent effective practice; characters <strong>cannot spend Day-to-Day AP to gain XP</strong> or train attributes.</li>
+            </ul>
+
+            <div class="callout callout-cyan" style="margin-top: 2.5mm; margin-bottom: 0;">
+                <div class="callout-title">Doctrine // Macro-Pacing &amp; Campaign Momentum</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    Day-to-Day pacing prevents downtime from devolving into vague hand-waving. By assigning concrete costs to shifts and supplies, every day berthed at a station creates meaningful tension: do the operatives spend their hours resting to clear debilitating wounds, drilling in combat simulators to gain precious XP, or working dockside odd jobs to afford drydock repair fees before their operating runway runs dry?
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">96</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 97 (Spread 49 Right) — PROVISIONING, RECOVERY & HEALTHCARE
+         ========================================================================= -->
+    <div class="book-page spread-bg-2" id="provisioning-and-healthcare">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body two-columns" style="margin-top: 1mm;">
+            <h3 style="margin-top: 0;">Purchasing Supplies &amp; Cargo Capacity</h3>
+            <p>
+                Supplies can be procured at any civilized port, orbital station, or mining colony. Bulk provisioning offers substantial discounts to cells planning extended interplanetary burns across the Fume system:
+            </p>
+
+            <table class="table-compact column-span-all" style="margin: 2mm 0 2.5mm 0; width: 100%; font-size: 8.2pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 28%;">Provisioning Option</th>
+                        <th style="width: 20%;">Supply Amount</th>
+                        <th style="width: 24%;">Total Credit Cost</th>
+                        <th style="width: 28%;">Effective Cost / Supply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Emergency Rations</strong></td>
+                        <td>1 Supply</td>
+                        <td>$2,000 Credits</td>
+                        <td>$2,000 Credits</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standard Crate</strong></td>
+                        <td>5 Supply</td>
+                        <td>$8,000 Credits</td>
+                        <td>$1,600 Credits <em>(Save $2,000)</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sponsor Cargo Pallet</strong></td>
+                        <td>10 Supply</td>
+                        <td>$12,000 Credits</td>
+                        <td>$1,200 Credits <em>(Save $8,000)</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Industrial Haul</strong></td>
+                        <td>20 Supply</td>
+                        <td>$20,000 Credits</td>
+                        <td>$1,000 Credits <em>(Half Price!)</em></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Cargo Capacities by Ship Size</h3>
+            <p>
+                A vessel&rsquo;s internal cargo volume limits the maximum number of Supplies it can haul:
+            </p>
+            <ul>
+                <li><strong>Small Ships (Interceptors, Couriers):</strong> Maximum <strong>10 Supply</strong> (10 days operational runway).</li>
+                <li><strong>Medium Ships (Corvettes, Cutters):</strong> Maximum <strong>20 Supply</strong> (20 days operational runway).</li>
+                <li><strong>Large Ships (Frigates, Heavy Transports):</strong> Maximum <strong>30 Supply</strong> (30 days operational runway).</li>
+            </ul>
+
+            <h3>3. Recovery, Long Rest &amp; Healthcare</h3>
+            <p>
+                Combat injuries and psychological strain are inevitable hazards of the trade. While field dressings and stim-injectors provide rapid triage during tactical engagements, deep healing requires quiet rest and clinical support.
+            </p>
+
+            <h3>The Long Rest Action</h3>
+            <p>
+                A character who spends <strong>1 Day-to-Day AP</strong> resting quietly in their quarters or undergoing treatment in a medical facility executes a <strong>Long Rest</strong>. To resolve a Long Rest, the player makes a <strong>Success Test</strong> using <strong>Endurance + Willpower</strong>. Because attribute pairs always use the lower rating as the base dice pool, an operative with Endurance 4 and Willpower 2 rolls 2 base dice.
+            </p>
+            <p>
+                Every Success Point (SP) generated on the roll is freely allocated to restore Condition tracks:
+            </p>
+            <ul>
+                <li><strong>Light Wounds &amp; Light Stress:</strong> Restoring 1 Light segment costs <strong>1 Success Point</strong>.</li>
+                <li><strong>Aggravated Wounds &amp; Stress:</strong> Clearing 1 Aggravated segment costs <strong>2 Success Points</strong>.</li>
+                <li><strong>Clearing Impaired &amp; Crippled:</strong> The moment a filled Condition track is cleared of all damage segments, any <strong>Impaired</strong> (1 Downgrade) or <strong>Crippled</strong> (2 Downgrades) condition tied to that track is instantly removed.</li>
+            </ul>
+
+            <table class="table-compact column-span-all" style="margin: 2mm 0 2mm 0; width: 100%; font-size: 8.1pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Facility Tier</th>
+                        <th style="width: 15%;">Upgrades</th>
+                        <th style="width: 30%;">Standard Availability</th>
+                        <th style="width: 30%;">Healthcare Coverage Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Crew Bunk / Field</strong></td>
+                        <td>+0</td>
+                        <td>Ship quarters, surface tents</td>
+                        <td>Baseline self-care; roll base Endurance + Willpower.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Port Clinic</strong></td>
+                        <td>+1</td>
+                        <td>Station med-bays, berthing</td>
+                        <td>Covered by standard contract berthing &amp; port fees.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trauma Center</strong></td>
+                        <td>+2</td>
+                        <td>Specialized municipal hospitals</td>
+                        <td>Covered by sanctioned mission pay &amp; medical riders.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Biosculpting Ward</strong></td>
+                        <td>+3</td>
+                        <td>Elite corporate hospital suites</td>
+                        <td>Covered by high-tier Corsair sponsor underwriting.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="font-size: 8.2pt; line-height: 1.34; margin-top: 1mm;">
+                <strong>Shipboard MedBays:</strong> A starship equipped with an internal <strong>MedBay Module</strong> provides permanent, autonomous medical care wherever the vessel travels, granting <strong>+1, +2, or +3 Upgrades</strong> to all Long Rest tests performed aboard (see Starship Internal Modules).
+            </p>
+
+            <div class="callout callout-cyan" style="margin-top: 3mm; margin-bottom: 0;">
+                <div class="callout-title">Medical Doctrine // Impairment &amp; Recovery</div>
+                <p style="font-size: 8.1pt; line-height: 1.36; margin: 0;">
+                    Entering combat while suffering from Impairment imposes a brutal 1 Downgrade penalty on all tests governed by that attribute. When an operative sustains critical bone fractures or psychic trauma, prioritizing an afternoon shift in a Port Clinic is essential to strip the impairment before the next contract deployment.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">97</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 98 (Spread 50 Left) — ADVANCEMENT, MAINTENANCE & THE SHIP FUND
+         ========================================================================= -->
+    <div class="book-page spread-bg-1" id="advancement-and-maintenance">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body two-columns" style="margin-top: 1mm;">
+            <h3 style="margin-top: 0;">4. Training &amp; Character Progression</h3>
+            <p>
+                When operatives have downtime to spare, they can hone their physiological reflexes, technical expertise, or academic mastery. Downtime training allows characters to bridge the gap between combat deployments, steadily earning Experience Points through disciplined study and physical conditioning.
+            </p>
+            <ul>
+                <li><strong>Training AP Cost &amp; Reward:</strong> Spending <strong>1 Day-to-Day AP</strong> on focused physical conditioning, target shooting, flight simulations, or cyber-warfare theory awards <strong>1 Experience Point (1 XP)</strong>.</li>
+                <li><strong>Strict Daily Limit:</strong> To reflect biological and cognitive limits, an operative can earn a <strong>maximum of 1 XP from Training per 24-hour round</strong> (spending at most 1 AP on training per day). The remaining 2 AP must be allocated to other activities (such as medical rest, ship maintenance, freelance odd jobs, shopping, or personal projects).</li>
+                <li><strong>Closing the Gap:</strong> Downtime training serves primarily to close the small remaining XP gap (typically 1 to 2 XP) needed to learn a new Skill rank, purchase an appealing Trait, or increase an Attribute after completing an operational mission.</li>
+                <li><strong>Spending XP:</strong> Accumulated XP can be spent at any time during downtime to increase Skills, acquire new Traits, or improve Attributes according to the standard progression ladder:</li>
+            </ul>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 8pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Progression Element</th>
+                        <th style="width: 20%;">XP Investment</th>
+                        <th style="width: 55%;">Advancement Mechanics &amp; Restrictions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Skill Improvement</strong></td>
+                        <td><strong>2 XP</strong> per rank</td>
+                        <td>Increases any Skill by +1 rank (up to maximum rank 5).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Acquire New Trait</strong></td>
+                        <td><strong>2 to 8 XP</strong></td>
+                        <td>Purchases a new Class Mod or general Trait based on rarity tier.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Attribute Increase</strong></td>
+                        <td><strong>3 &times; Target Level</strong></td>
+                        <td>Cost equals 3 times the new rank (e.g., Rank 2 to 3 costs 9 XP).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Training Ceiling</strong></td>
+                        <td><strong>1 XP / 24 Hours</strong></td>
+                        <td>Hard biological daily limit; maximum 1 AP allocated to training per day.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 1.5mm;">5. Starship Maintenance &amp; The Ship Fund</h3>
+            <p>
+                Starships endure tremendous strain from orbital maneuvers, atmospheric reentry friction, and point-defense fire. Maintaining a space-worthy hull requires daily labor from the crew and access to industrial drydocks.
+            </p>
+            <ul>
+                <li><strong>The Ship Fund ($250,000 Credits Baseline):</strong> Every Corsair cell begins play with a dedicated <strong>$250,000 Credits Ship Fund</strong> maintained in an escrow account, earmarked specifically for drydock repairs, hull reconstruction, docking fees, and shared vessel upgrades.</li>
+                <li><strong>Field Self-Repair:</strong> Spending <strong>1 Day-to-Day AP</strong>, consuming <strong>1 Supply</strong>, and using a <strong>Mechanic's Kit</strong> allows an engineer to roll a <strong>Knowledge + Tinkering</strong> (or <strong>Finesse + Tinkering</strong>) Simple Test. Each Hit restores <strong>1 Light Hull segment</strong>. Self-repairs <strong>cannot clear Aggravated Hull damage</strong>.</li>
+                <li><strong>Professional Drydock Overhauls:</strong> Berthed at an orbital shipyard, a crew can contract a full overhaul taking <strong>1 Day-to-Day round</strong> (24 hours) per Hull track, restoring <strong>1 full Hull track</strong> completely (clearing Light and Aggravated Wounds) at a cost of <strong>$25,000 Credits per track</strong> paid from the Ship Fund.</li>
+                <li><strong>Equipment Upgrades Note:</strong> Installing, calibrating, or swapping mastercrafted weapon and armor upgrade kits takes place naturally during downtime and costs <strong>0 AP</strong> aboard ship.</li>
+            </ul>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.9pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Maintenance Tier</th>
+                        <th style="width: 18%;">Time / AP Cost</th>
+                        <th style="width: 22%;">Resource Cost</th>
+                        <th style="width: 35%;">Structural Restoration Rate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Field Patch Repair</strong></td>
+                        <td>1 AP (8 hours)</td>
+                        <td>1 Supply + Tool Kit</td>
+                        <td>Restores 1 Light Hull segment per Hit on Tinkering test.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Drydock Overhaul</strong></td>
+                        <td>24 Hours / Track</td>
+                        <td>$25,000 / Track</td>
+                        <td>Completely restores 1 full Hull track (clears Aggravated).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Module Recalibration</strong></td>
+                        <td>1 AP (8 hours)</td>
+                        <td>Standard diagnostics</td>
+                        <td>Restores online status for disabled internal modules.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Station Berthing Slip</strong></td>
+                        <td>Continuous</td>
+                        <td>Contract Escrow</td>
+                        <td>Covered by sanctioned missions; $500/day for unauthorized.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="callout callout-cyan" style="margin-top: 2mm; margin-bottom: 0;">
+                <div class="callout-title">Engineering Doctrine // Field vs Drydock Overhauls</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    Self-repair in open vacuum is vital for patching superficial micro-meteorite breaches and keeping thruster manifolds firing. However, when structural keels buckle under heavy kinetic missile impact, the vessel requires heavy shipyard gantries to unseal hull plates and replace load-bearing titanium frames.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">98</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 99 (Spread 50 Right) — SHOPPING, TRAVEL, CONTRACTS & FREELANCE
+         ========================================================================= -->
+    <div class="book-page spread-bg-2" id="contracts-and-freelance">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body two-columns" style="margin-top: 1mm;">
+            <h3 style="margin-top: 0;">6. Shopping &amp; Commercial Bazaars</h3>
+            <p>
+                Every civilized spaceport, orbital aerostat, and domed mining settlement hosts bustling commercial concourses where Corsairs spend contract earnings. Spending <strong>1 Day-to-Day AP</strong> on a shopping excursion allows an operative to browse local vendor stalls, military surplus depots, and tech bazaars, purchasing any weapons, armor, ammunition, tool kits, and gear cataloged in the rulebook within that port's commercial market tier:
+            </p>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.9pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Market Tier</th>
+                        <th style="width: 30%;">Port Environment</th>
+                        <th style="width: 45%;">Hardware &amp; Equipment Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tier 1: Frontier Hab</strong></td>
+                        <td>Mining outposts, scrap havens</td>
+                        <td>Basic slugthrowers, hazard suits, survival rations, tools.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tier 2: Orbital Hub</strong></td>
+                        <td>Station concourses, trade ports</td>
+                        <td>Military surplus, precision optics, armor upgrades, cybernetics.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tier 3: Spire Citadel</strong></td>
+                        <td>Corporate capitals, megacities</td>
+                        <td>Mastercrafted exotics, prototype chassis, neural suites.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 1.5mm;">7. Interplanetary Travel &amp; Fuel Burn</h3>
+            <p>
+                Travel across the Fume system is governed by Newtonian physics and constant fusion burn. Vessels execute continuous acceleration burns toward the voyage midpoint, perform a zero-g turnover maneuver, and decelerate into orbital capture. Fuel consumption scales directly with astronomical distances:
+            </p>
+            <table class="table-compact column-span-all" style="width: 100%; font-size: 7.8pt; margin: 1.5mm 0 2mm 0;">
+                <thead>
+                    <tr>
+                        <th style="width: 32%;">Transit Scope</th>
+                        <th style="width: 26%;">Time Required</th>
+                        <th style="width: 18%;">Fuel Cost</th>
+                        <th style="width: 24%;">Operational Scope</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Between Sibling Moons</strong></td>
+                        <td>~1 hour (Place-to-Place)</td>
+                        <td><strong>1 Supply</strong></td>
+                        <td>Local binary moon transfer</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Between Binary Moons</strong></td>
+                        <td>~8 hours (1 Day AP)</td>
+                        <td><strong>2 Supplies</strong></td>
+                        <td>Sub-orbital 1-g brachistochrone</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Between Gas Giants</strong></td>
+                        <td>72 hours (3 Day Rounds)</td>
+                        <td><strong>4 Supplies</strong></td>
+                        <td>Interplanetary deep-void transit</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 1.5mm;">8. Contracts &amp; Mission Overview</h3>
+            <p>
+                Contracts provide the capital and institutional reputation needed to upgrade weapons and maintain operational independence. The <strong>Corsair Oversight Committee</strong> categorizes contracts into three distinct tiers:
+            </p>
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.8pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 25%;">Contract Tier</th>
+                        <th style="width: 27%;">Sanctioned Pay (Per Operative)</th>
+                        <th style="width: 14%;">Rep Gain</th>
+                        <th style="width: 14%;">XP Award</th>
+                        <th style="width: 20%;">Unsanctioned Pay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tier 1 (Local / Precinct)</strong></td>
+                        <td>$5,000 &ndash; $7,500 Credits</td>
+                        <td><strong>+1 Rep</strong></td>
+                        <td><strong>+4 XP</strong></td>
+                        <td>$15,000 &ndash; $25,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tier 2 (System / Corporate)</strong></td>
+                        <td>$15,000 &ndash; $20,000 Credits</td>
+                        <td><strong>+3 Rep</strong></td>
+                        <td><strong>+8 XP</strong></td>
+                        <td>$35,000 &ndash; $60,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tier 3 (High-Threat / Black-Site)</strong></td>
+                        <td>$35,000 &ndash; $50,000+ Credits</td>
+                        <td><strong>+7 Rep</strong></td>
+                        <td><strong>+12 XP</strong></td>
+                        <td>$75,000+ Credits</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 1.5mm;">9. Freelance Work &amp; Earning Income</h3>
+            <p>
+                Between major contracts, Corsairs frequently pick up local freelance work to pocket extra credits, learn station rumors, or close the small financial gap ($1,000 to $2,000 Credits) remaining to purchase a weapon upgrade kit. Accepting an odd job takes <strong>1 Day-to-Day AP</strong> (one 8-hour shift). The player rolls a <strong>Simple Test</strong> using the specified Attribute Pair.
+            </p>
+            <ul>
+                <li><strong>1 or More Hits:</strong> Earns <strong>$500 Credits base pay</strong>, plus <strong>+$250 Credits for each additional Hit</strong> beyond the first.</li>
+                <li><strong>0 Hits:</strong> Earns <strong>$0 Credits</strong>. The shift is spent without mechanical injury.</li>
+            </ul>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.8pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Hits on Test</th>
+                        <th style="width: 26%;">Credit Payout</th>
+                        <th style="width: 54%;">Narrative Outcome</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>0 Hits</strong></td><td>$0 Credits</td><td>Shift wasted; client stiffs on payment.</td></tr>
+                    <tr><td><strong>1 Hit</strong></td><td>$500 Credits</td><td>Solid work; completed without incident.</td></tr>
+                    <tr><td><strong>2 Hits</strong></td><td>$750 Credits</td><td>Great efficiency; client adds a generous tip.</td></tr>
+                    <tr><td><strong>3 Hits</strong></td><td>$1,000 Credits</td><td>Masterful performance; glowing dock recommendation.</td></tr>
+                    <tr><td><strong>4+ Hits</strong></td><td>+$250 / Extra Hit</td><td>Legendary hustle; station talks about the job for days.</td></tr>
+                </tbody>
+            </table>
+
+            <div class="callout callout-cyan" style="margin-top: 2mm; margin-bottom: 0;">
+                <div class="callout-title">Economic Doctrine // The Dockside Hustle</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    Freelance odd jobs are the glue of spacer society. Whether clearing frozen conduits, guarding fragile greenhouse pollinator swarms, or playing synth at a dockside tavern, these small gigs give characters local roots and vital walking-around cash.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">99</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 100 (Spread 51 Left) — MASTER GIGS 01–50
+         ========================================================================= -->
+    <div class="book-page spread-bg-1" id="master-gigs-1">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body single-column" style="margin-top: 1mm;">
+            <div style="font-family: var(--font-heading); font-size: 10pt; font-weight: 700; color: var(--amber-dark); text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1.5px solid var(--amber-dark); padding-bottom: 1.5px; margin-bottom: 2mm;">
+                The Master d100 Odd Jobs Table (Gigs 01 &ndash; 50)
+            </div>
+
+            <div class="gig-grid">
+                <!-- Column 1: Gigs 01 to 25 -->
+                <table class="g-table">
+                    <thead>
+                        <tr>
+                            <th class="td-d100">d100</th>
+                            <th class="td-title">Gig Title</th>
+                            <th class="td-desc">Description &amp; Situation</th>
+                            <th class="td-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="td-d100">01</td><td class="td-title">Lost Featherwing</td><td class="td-desc">Track an administrator's alien songbird in ducts.</td><td class="td-test">Instinct + Know</td></tr>
+                        <tr><td class="td-d100">02</td><td class="td-title">Spacer Stand-Up</td><td class="td-desc">Deliver an 8-min comedy routine at a dive bar.</td><td class="td-test">Pres + Pres</td></tr>
+                        <tr><td class="td-d100">03</td><td class="td-title">PI Tail Shadow</td><td class="td-desc">Trail a merchant's partner through a bazaar.</td><td class="td-test">Agility + Instinct</td></tr>
+                        <tr><td class="td-d100">04</td><td class="td-title">Cook-Off Judge</td><td class="td-desc">Adjudicate a heated street-noodle culinary duel.</td><td class="td-test">Endur + Instinct</td></tr>
+                        <tr><td class="td-d100">05</td><td class="td-title">Synthwave Guard</td><td class="td-desc">Keep rowdy spacers in line at a synth concert.</td><td class="td-test">Strength + Pres</td></tr>
+                        <tr><td class="td-d100">06</td><td class="td-title">Zero-G Catering</td><td class="td-desc">Carry floating drink trays at an eccentric party.</td><td class="td-test">Finesse + Agility</td></tr>
+                        <tr><td class="td-d100">07</td><td class="td-title">Pawn Appraisal</td><td class="td-desc">Help a dealer identify weird salvage relics.</td><td class="td-test">Know + Know</td></tr>
+                        <tr><td class="td-d100">08</td><td class="td-title">Dockside Boxing</td><td class="td-desc">Teach teens footwork and defensive guard.</td><td class="td-test">Strength + Inst</td></tr>
+                        <tr><td class="td-d100">09</td><td class="td-title">Love Courier</td><td class="td-desc">Hand-deliver a wax-sealed letter across town.</td><td class="td-test">Agility + Pres</td></tr>
+                        <tr><td class="td-d100">10</td><td class="td-title">Cargo Bay Sort</td><td class="td-desc">Untangle freight crates before customs check.</td><td class="td-test">Know + Finesse</td></tr>
+                        <tr><td class="td-d100">11</td><td class="td-title">Micro-Pigs Run</td><td class="td-desc">Chase down a dozen mini pet pigs in a park.</td><td class="td-test">Agility + Agility</td></tr>
+                        <tr><td class="td-d100">12</td><td class="td-title">Apartment Move</td><td class="td-desc">Haul heavy pressurized sofas up broken stairs.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">13</td><td class="td-title">Line Cook Shift</td><td class="td-desc">Flip protein patties through diner lunch rush.</td><td class="td-test">Finesse + Endur</td></tr>
+                        <tr><td class="td-d100">14</td><td class="td-title">Line-Stand Proxy</td><td class="td-desc">Stand 6 hours in line at municipal records.</td><td class="td-test">Endur + Willpower</td></tr>
+                        <tr><td class="td-d100">15</td><td class="td-title">Lunch Stakeout</td><td class="td-desc">Catch the breakroom thief stealing sandwiches.</td><td class="td-test">Instinct + Agility</td></tr>
+                        <tr><td class="td-d100">16</td><td class="td-title">Life Drawing</td><td class="td-desc">Hold grueling classical poses for an art class.</td><td class="td-test">Endur + Pres</td></tr>
+                        <tr><td class="td-d100">17</td><td class="td-title">Mascot Performer</td><td class="td-desc">Don a giant foam suit to hand out opening flyers.</td><td class="td-test">Pres + Endur</td></tr>
+                        <tr><td class="td-d100">18</td><td class="td-title">Zero-G Dodgeball</td><td class="td-desc">Officiate a dock crew dodgeball grudge match.</td><td class="td-test">Instinct + Pres</td></tr>
+                        <tr><td class="td-d100">19</td><td class="td-title">Drone Gatekeeper</td><td class="td-desc">Set radio gates and retrieve crashed drones.</td><td class="td-test">Agility + Know</td></tr>
+                        <tr><td class="td-d100">20</td><td class="td-title">Graffiti Wash</td><td class="td-desc">Scrub disrespectful slogans off a bronze statue.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">21</td><td class="td-title">Exotic Walker</td><td class="td-desc">Walk three 6-legged hunting dogs in promenade.</td><td class="td-test">Strength + Inst</td></tr>
+                        <tr><td class="td-d100">22</td><td class="td-title">Bar Singalong</td><td class="td-desc">Lead drunken miners in colony folk ballads.</td><td class="td-test">Pres + Finesse</td></tr>
+                        <tr><td class="td-d100">23</td><td class="td-title">Market Hawker</td><td class="td-desc">Sell refurbished kitchen gadgets at a booth.</td><td class="td-test">Pres + Know</td></tr>
+                        <tr><td class="td-d100">24</td><td class="td-title">Flat-Pack Build</td><td class="td-desc">Assemble modular desks from confusing manuals.</td><td class="td-test">Know + Finesse</td></tr>
+                        <tr><td class="td-d100">25</td><td class="td-title">Hydro Weeder</td><td class="td-desc">Prune invasive mutated mosses from aeroponics.</td><td class="td-test">Finesse + Inst</td></tr>
+                    </tbody>
+                </table>
+
+                <!-- Column 2: Gigs 26 to 50 -->
+                <table class="g-table">
+                    <thead>
+                        <tr>
+                            <th class="td-d100">d100</th>
+                            <th class="td-title">Gig Title</th>
+                            <th class="td-desc">Description &amp; Situation</th>
+                            <th class="td-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="td-d100">26</td><td class="td-title">Rickshaw Driver</td><td class="td-desc">Pedal passengers and luggage between bays.</td><td class="td-test">Endur + Strength</td></tr>
+                        <tr><td class="td-d100">27</td><td class="td-title">Wedding Guard</td><td class="td-desc">Keep an estranged uncle from ruining reception.</td><td class="td-test">Pres + Strength</td></tr>
+                        <tr><td class="td-d100">28</td><td class="td-title">Trash Unclogging</td><td class="td-desc">Crawl down waste chute with a pry-bar for a bin.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">29</td><td class="td-title">Lost Ring Search</td><td class="td-desc">Comb a tourist dome with a metal detector.</td><td class="td-test">Instinct + Inst</td></tr>
+                        <tr><td class="td-d100">30</td><td class="td-title">Cat Cafe Minder</td><td class="td-desc">Feed and brush 20 zero-g cats during hours.</td><td class="td-test">Finesse + Inst</td></tr>
+                        <tr><td class="td-d100">31</td><td class="td-title">Voiceover Jingle</td><td class="td-desc">Record commercial slogans for used starships.</td><td class="td-test">Pres + Pres</td></tr>
+                        <tr><td class="td-d100">32</td><td class="td-title">Mooring Coiler</td><td class="td-desc">Haul and inspect heavy magnetic mooring cables.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">33</td><td class="td-title">Pest Trapper</td><td class="td-desc">Set acoustic traps for hydroponic cable vermin.</td><td class="td-test">Instinct + Know</td></tr>
+                        <tr><td class="td-d100">34</td><td class="td-title">Neon Sign Tech</td><td class="td-desc">Climb scaffolding to replace plasma sign tubes.</td><td class="td-test">Agility + Finesse</td></tr>
+                        <tr><td class="td-d100">35</td><td class="td-title">Arcade Bounty</td><td class="td-desc">Beat an unbeatable pinball score for a child.</td><td class="td-test">Finesse + Inst</td></tr>
+                        <tr><td class="td-d100">36</td><td class="td-title">Prom Chaperone</td><td class="td-desc">Escort an anxious teen to an academy ball.</td><td class="td-test">Pres + Know</td></tr>
+                        <tr><td class="td-d100">37</td><td class="td-title">Crane Rigging</td><td class="td-desc">Rig magnetic cables to hoist a disabled skiff.</td><td class="td-test">Strength + Finesse</td></tr>
+                        <tr><td class="td-d100">38</td><td class="td-title">Sourdough Guard</td><td class="td-desc">Watch a century-old sourdough mother culture.</td><td class="td-test">Instinct + Endur</td></tr>
+                        <tr><td class="td-d100">39</td><td class="td-title">Luggage Unjam</td><td class="td-desc">Untangle oversized vacuum bags in intake chute.</td><td class="td-test">Strength + Finesse</td></tr>
+                        <tr><td class="td-d100">40</td><td class="td-title">Used Rover Flagger</td><td class="td-desc">Direct chaotic vehicle traffic at a rover auction.</td><td class="td-test">Agility + Pres</td></tr>
+                        <tr><td class="td-d100">41</td><td class="td-title">Solar Scraper</td><td class="td-desc">Scrape volcanic ash off domestic solar panels.</td><td class="td-test">Endur + Endur</td></tr>
+                        <tr><td class="td-d100">42</td><td class="td-title">Karaoke Host</td><td class="td-desc">Encourage shy singers and manage mic disputes.</td><td class="td-test">Pres + Instinct</td></tr>
+                        <tr><td class="td-d100">43</td><td class="td-title">Rover Trials</td><td class="td-desc">Put a tuned all-terrain rover through crater trials.</td><td class="td-test">Endur + Agility</td></tr>
+                        <tr><td class="td-d100">44</td><td class="td-title">Lost Comm-Pad</td><td class="td-desc">Fish a lost data slate out of a narrow drain grate.</td><td class="td-test">Finesse + Inst</td></tr>
+                        <tr><td class="td-d100">45</td><td class="td-title">Rug Beater</td><td class="td-desc">Beat red planetary dust out of heavy tapestries.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">46</td><td class="td-title">Dorm Room Sitter</td><td class="td-desc">Watch a student's room and water alien plants.</td><td class="td-test">Instinct + Know</td></tr>
+                        <tr><td class="td-d100">47</td><td class="td-title">Speed Dating Mod</td><td class="td-desc">Ring timers and break up awkward mixer silences.</td><td class="td-test">Pres + Instinct</td></tr>
+                        <tr><td class="td-d100">48</td><td class="td-title">Fish Tank Algae</td><td class="td-desc">Clean giant ornamental algae tanks in a lobby.</td><td class="td-test">Endur + Finesse</td></tr>
+                        <tr><td class="td-d100">49</td><td class="td-title">Ice-Harvester Tow</td><td class="td-desc">Secure tow-cables to glacial ice blocks.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">50</td><td class="td-title">Tailor's Assistant</td><td class="td-desc">Pin hems and measure eccentric theater costumes.</td><td class="td-test">Finesse + Pres</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="callout callout-cyan" style="margin-top: 2.5mm; margin-bottom: 0;">
+                <div class="callout-title">Dockside Lore // Rumors &amp; Side Hooks</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    Freelance odd jobs are more than credit dispensers; they represent the pulse of the station concourse. A Corsair unclogging a grease trap or retrieving an escaped micro-pig frequently overhears off-shift stevedores whispering about covert weapons shipments, disgruntled corporate lab technicians seeking transit off-world, or pirate spotters tracking orbital cargo lighters. Astute GMs can use freelance gigs as organic springboards into major multi-session contracts.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">100</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 101 (Spread 51 Right) — MASTER GIGS 51–100
+         ========================================================================= -->
+    <div class="book-page spread-bg-2" id="master-gigs-2">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body single-column" style="margin-top: 1mm;">
+            <div style="font-family: var(--font-heading); font-size: 10pt; font-weight: 700; color: var(--amber-dark); text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1.5px solid var(--amber-dark); padding-bottom: 1.5px; margin-bottom: 2mm;">
+                The Master d100 Odd Jobs Table (Gigs 51 &ndash; 100)
+            </div>
+
+            <div class="gig-grid">
+                <!-- Column 1: Gigs 51 to 75 -->
+                <table class="g-table">
+                    <thead>
+                        <tr>
+                            <th class="td-d100">d100</th>
+                            <th class="td-title">Gig Title</th>
+                            <th class="td-desc">Description &amp; Situation</th>
+                            <th class="td-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="td-d100">51</td><td class="td-title">Tower Guy-Wires</td><td class="td-desc">Tension heavy braided guy-wires on a radio mast.</td><td class="td-test">Agility + Strength</td></tr>
+                        <tr><td class="td-d100">52</td><td class="td-title">Magic Shilling</td><td class="td-desc">Pose as amazed audience for a street magician.</td><td class="td-test">Pres + Agility</td></tr>
+                        <tr><td class="td-d100">53</td><td class="td-title">Vending Restock</td><td class="td-desc">Lug crates of synthetic soda cans to terminals.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">54</td><td class="td-title">Museum Patrol</td><td class="td-desc">Guard prehistoric fossil replicas from pranksters.</td><td class="td-test">Inst + Willpower</td></tr>
+                        <tr><td class="td-d100">55</td><td class="td-title">Stunt Fall Dummy</td><td class="td-desc">Take padded slapstick falls for an indie film.</td><td class="td-test">Agility + Endur</td></tr>
+                        <tr><td class="td-d100">56</td><td class="td-title">Lost Tourist Guide</td><td class="td-desc">Guide confused pilgrims through a chaotic market.</td><td class="td-test">Know + Pres</td></tr>
+                        <tr><td class="td-d100">57</td><td class="td-title">Window Gondola</td><td class="td-desc">Squeegee observation dome windows on ropes.</td><td class="td-test">Agility + Finesse</td></tr>
+                        <tr><td class="td-d100">58</td><td class="td-title">Coffee Roaster</td><td class="td-desc">Monitor roasting temperatures for micro-roastery.</td><td class="td-test">Instinct + Finesse</td></tr>
+                        <tr><td class="td-d100">59</td><td class="td-title">Balloon Animals</td><td class="td-desc">Twist latex balloons into beasts for swarms of kids.</td><td class="td-test">Finesse + Pres</td></tr>
+                        <tr><td class="td-d100">60</td><td class="td-title">Gyro Calibration</td><td class="td-desc">Fine-tune optical balance sensors on flywheels.</td><td class="td-test">Know + Finesse</td></tr>
+                        <tr><td class="td-d100">61</td><td class="td-title">Food Truck Tire</td><td class="td-desc">Jack up and swap bald tires on a greasy rover.</td><td class="td-test">Strength + Know</td></tr>
+                        <tr><td class="td-d100">62</td><td class="td-title">Locker Attendant</td><td class="td-desc">Sort laundry and keep peace at gym bathhouse.</td><td class="td-test">Endur + Pres</td></tr>
+                        <tr><td class="td-d100">63</td><td class="td-title">Data-Tape Recovery</td><td class="td-desc">Digitize fragile magnetic reel tapes from archives.</td><td class="td-test">Know + Instinct</td></tr>
+                        <tr><td class="td-d100">64</td><td class="td-title">Lost Ferret Hunt</td><td class="td-desc">Coax an escaped biting mustelid from furniture.</td><td class="td-test">Finesse + Agility</td></tr>
+                        <tr><td class="td-d100">65</td><td class="td-title">Fountain Dredging</td><td class="td-desc">Wade through decorative mall fountain for coins.</td><td class="td-test">Endur + Instinct</td></tr>
+                        <tr><td class="td-d100">66</td><td class="td-title">Board Game Demo</td><td class="td-desc">Teach complex rules to families at game open day.</td><td class="td-test">Know + Pres</td></tr>
+                        <tr><td class="td-d100">67</td><td class="td-title">Cable Stripper</td><td class="td-desc">Strip plastic sheathing off heavy copper wires.</td><td class="td-test">Strength + Finesse</td></tr>
+                        <tr><td class="td-d100">68</td><td class="td-title">Counter-Sniper</td><td class="td-desc">Scan rooftops to guarantee patron security lines.</td><td class="td-test">Instinct + Endur</td></tr>
+                        <tr><td class="td-d100">69</td><td class="td-title">Trampoline Spot</td><td class="td-desc">Catch tumbling acrobatics students in zero-g gym.</td><td class="td-test">Agility + Instinct</td></tr>
+                        <tr><td class="td-d100">70</td><td class="td-title">Bakery Sprint</td><td class="td-desc">Sprint armfuls of hot pastries across town on foot.</td><td class="td-test">Agility + Endur</td></tr>
+                        <tr><td class="td-d100">71</td><td class="td-title">Chess Hustling</td><td class="td-desc">Play speed-chess in park to draw betting crowd.</td><td class="td-test">Know + Instinct</td></tr>
+                        <tr><td class="td-d100">72</td><td class="td-title">Keg Roller Shift</td><td class="td-desc">Roll pressurized ale kegs down a cellar ramp.</td><td class="td-test">Strength + Agility</td></tr>
+                        <tr><td class="td-d100">73</td><td class="td-title">Lost Keys in Grill</td><td class="td-desc">Fish magnetic car keys out of sewer with string.</td><td class="td-test">Finesse + Finesse</td></tr>
+                        <tr><td class="td-d100">74</td><td class="td-title">Puppet Stagehand</td><td class="td-desc">Operate hidden puppet strings behind curtain.</td><td class="td-test">Finesse + Agility</td></tr>
+                        <tr><td class="td-d100">75</td><td class="td-title">Floral Arranger</td><td class="td-desc">Trim stems and compose centerpieces for banquet.</td><td class="td-test">Finesse + Pres</td></tr>
+                    </tbody>
+                </table>
+
+                <!-- Column 2: Gigs 76 to 100 -->
+                <table class="g-table">
+                    <thead>
+                        <tr>
+                            <th class="td-d100">d100</th>
+                            <th class="td-title">Gig Title</th>
+                            <th class="td-desc">Description &amp; Situation</th>
+                            <th class="td-test">Required Test</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="td-d100">76</td><td class="td-title">Crosswalk Guard</td><td class="td-desc">Hold stop sign to escort kids across rover street.</td><td class="td-test">Pres + Instinct</td></tr>
+                        <tr><td class="td-d100">77</td><td class="td-title">Squeaky Bed Fix</td><td class="td-desc">Tighten bolts and grease joints for capsule hotel.</td><td class="td-test">Know + Strength</td></tr>
+                        <tr><td class="td-d100">78</td><td class="td-title">Rooftop Goat</td><td class="td-desc">Coax domestic mountain goat off corrugated shed.</td><td class="td-test">Instinct + Agility</td></tr>
+                        <tr><td class="td-d100">79</td><td class="td-title">Ice Cream Scoop</td><td class="td-desc">Scoop rock-hard frozen cream during heatwave.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">80</td><td class="td-title">Movie Extra Shock</td><td class="td-desc">Look shocked in crowded starport for 20 takes.</td><td class="td-test">Pres + Endur</td></tr>
+                        <tr><td class="td-d100">81</td><td class="td-title">Mannequin Dress</td><td class="td-desc">Dress and pose stiff fiberglass display figures.</td><td class="td-test">Finesse + Pres</td></tr>
+                        <tr><td class="td-d100">82</td><td class="td-title">Bellhop Luggage</td><td class="td-desc">Balance tall suitcase tower through revolving doors.</td><td class="td-test">Agility + Finesse</td></tr>
+                        <tr><td class="td-d100">83</td><td class="td-title">Greenhouse Bees</td><td class="td-desc">Refill sugar syrup troughs for pollinator swarms.</td><td class="td-test">Instinct + Finesse</td></tr>
+                        <tr><td class="td-d100">84</td><td class="td-title">Telescope Buffing</td><td class="td-desc">Buff condensation off observatory glass mirror.</td><td class="td-test">Finesse + Know</td></tr>
+                        <tr><td class="td-d100">85</td><td class="td-title">Dog Wash Shift</td><td class="td-desc">Wrestle soapy alien hounds into wash tubs.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">86</td><td class="td-title">Trophy Polishing</td><td class="td-desc">Buff tarnish off heavy brass bowling trophies.</td><td class="td-test">Endur + Finesse</td></tr>
+                        <tr><td class="td-d100">87</td><td class="td-title">Skiff Inspection</td><td class="td-desc">Verify fuel restrictors on speed-skiffs before race.</td><td class="td-test">Know + Instinct</td></tr>
+                        <tr><td class="td-d100">88</td><td class="td-title">Nav-Beacon Tuning</td><td class="td-desc">Adjust frequency dials on an erratic nav beacon.</td><td class="td-test">Know + Instinct</td></tr>
+                        <tr><td class="td-d100">89</td><td class="td-title">Sled Puller</td><td class="td-desc">Pull a broken-down family snow-sled up slope.</td><td class="td-test">Strength + Endur</td></tr>
+                        <tr><td class="td-d100">90</td><td class="td-title">Degauss Shields</td><td class="td-desc">Sweep degaussing coils over radiation shields.</td><td class="td-test">Know + Finesse</td></tr>
+                        <tr><td class="td-d100">91</td><td class="td-title">Critic Bodyguard</td><td class="td-desc">Shield food critic from chefs throwing vegetables.</td><td class="td-test">Agility + Pres</td></tr>
+                        <tr><td class="td-d100">92</td><td class="td-title">Circus Rigging</td><td class="td-desc">Inspect wire tethers for zero-g silks performance.</td><td class="td-test">Agility + Finesse</td></tr>
+                        <tr><td class="td-d100">93</td><td class="td-title">Mascot Wrestling</td><td class="td-desc">Wrestle opponent dressed as alien in stunt match.</td><td class="td-test">Strength + Agility</td></tr>
+                        <tr><td class="td-d100">94</td><td class="td-title">Drain Snaking</td><td class="td-desc">Run mechanical snake down salon's blocked sinks.</td><td class="td-test">Strength + Finesse</td></tr>
+                        <tr><td class="td-d100">95</td><td class="td-title">Herbarium Press</td><td class="td-desc">Press rare moon desert wildflowers in papers.</td><td class="td-test">Finesse + Know</td></tr>
+                        <tr><td class="td-d100">96</td><td class="td-title">Rover Car Wash</td><td class="td-desc">Scrub dried alkali dust off exploration rovers.</td><td class="td-test">Endur + Strength</td></tr>
+                        <tr><td class="td-d100">97</td><td class="td-title">Lost Quadcopter</td><td class="td-desc">Climb park tree to untangle expensive drone.</td><td class="td-test">Agility + Strength</td></tr>
+                        <tr><td class="td-d100">98</td><td class="td-title">Library Stacking</td><td class="td-desc">Re-shelve physical paper books in heritage stacks.</td><td class="td-test">Know + Agility</td></tr>
+                        <tr><td class="td-d100">99</td><td class="td-title">Boot Shine Stand</td><td class="td-desc">Buff magnetic spacer boots outside executive club.</td><td class="td-test">Finesse + Endur</td></tr>
+                        <tr><td class="td-d100">100</td><td class="td-title">Rock Band Fill-In</td><td class="td-desc">Grab drumsticks or synth when a band member bails.</td><td class="td-test">Pres + Agility</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="callout callout-cyan" style="margin-top: 2.5mm; margin-bottom: 0;">
+                <div class="callout-title">Community Rapport // Grassroots Goodwill</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    Corsairs who actively assist the local working class earn more than hard credits. Taking time between contract drops to fix a noodle stall's sign, teach dock kids self-defense, or help an elderly archivist digitize magnetic tapes builds genuine grassroots goodwill. When corporate enforcers or bounty hunters arrive asking questions, station locals remember who helped them—and direct pursuers down the wrong airlock corridor.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">101</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 102 (Spread 52 Left) — PRACTICAL DOWNTIME WALKTHROUGH (SHIFT 1)
+         ========================================================================= -->
+    <div class="book-page spread-bg-1" id="downtime-example-1">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="p-banner-wrap p-banner-tactical column-span-all" style="margin-bottom: 2.5mm; min-height: 20mm;">
+            <div class="p-banner-content">
+                <h1 class="p-banner-title" style="font-size: 15.5pt;">10. Practical Downtime: Shore Leave at Port Zenith</h1>
+            </div>
+        </div>
+
+        <div class="page-body two-columns">
+            <p class="lead" style="font-size: 8.8pt; line-height: 1.36; margin-bottom: 2mm;">
+                Following a grueling pirate interdiction in the upper atmosphere of Landfall, Jax, Silas, and Tessa dock their battered cutter at <strong>Port Zenith</strong> for a <strong>24-hour layover</strong>. The GM opens the scene in <strong>Day-to-Day pacing (Round 1)</strong>, granting each operative <strong>3 Day-to-Day Action Points (AP)</strong> to allocate across the 24-hour cycle.
+            </p>
+
+            <table class="table-compact column-span-all" style="margin: 1mm 0 2mm 0; width: 100%; font-size: 7.8pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">Shift</th>
+                        <th style="width: 14%;">Operative</th>
+                        <th style="width: 12%;">AP Cost</th>
+                        <th style="width: 64%;">Operational Downtime Action &amp; Resolution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3"><strong>S1: Morning</strong></td>
+                        <td>Jax</td>
+                        <td>1 AP</td>
+                        <td>Medbay Long Rest (Endurance 3 + Willpower 2 in Port Clinic, +1 Upgrade)</td>
+                    </tr>
+                    <tr>
+                        <td>Silas</td>
+                        <td>1 AP</td>
+                        <td>Starship Self-Repair (1 AP + 1 Supply, Mechanic's Kit, Knowledge 4 + Tinkering 2)</td>
+                    </tr>
+                    <tr>
+                        <td>Tessa</td>
+                        <td>1 AP</td>
+                        <td>Bazaar Shopping Spree (Standard Crate of Supplies: 5 Supply, $8,000 Credits)</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"><strong>S2: Afternoon</strong></td>
+                        <td>Jax</td>
+                        <td>1 AP</td>
+                        <td>Physical Conditioning (Centrifuge gym workout; earns 1 XP towards Athletics)</td>
+                    </tr>
+                    <tr>
+                        <td>Silas</td>
+                        <td>1 AP</td>
+                        <td>Freelance Gig #01: Lost Featherwing (Instinct 4 + Knowledge 4 Simple Test)</td>
+                    </tr>
+                    <tr>
+                        <td>Tessa</td>
+                        <td>1 AP</td>
+                        <td>Freelance Gig #05: Synthwave Bouncer (Strength 3 + Presence 4 Simple Test)</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"><strong>S3: Night</strong></td>
+                        <td>Jax</td>
+                        <td>1 AP</td>
+                        <td>Freelance Gig #02: Spacer Bar Stand-Up (Presence 4 + Presence 4 Simple Test)</td>
+                    </tr>
+                    <tr>
+                        <td>Silas</td>
+                        <td>1 AP</td>
+                        <td>Technical Study (Orbital navigation data-slate analysis; earns 1 XP)</td>
+                    </tr>
+                    <tr>
+                        <td>Tessa</td>
+                        <td>1 AP</td>
+                        <td>Flight Simulator Drills (Emergency thruster failure rehearsal; earns 1 XP)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 1.2mm;">Shift 1: Morning Operations (3 AP Spent)</h3>
+            <p>
+                Docking umbilical clamps hiss shut at 08:00 as pressurized station air floods the airlock. The crew assesses operational priorities before disembarking into Port Zenith's bustling industrial rings:
+            </p>
+            <ul>
+                <li><strong>Medbay Long Rest (Jax, 1 AP):</strong> Jax took heavy shrapnel during atmospheric dogfighting, leaving Track I of his Physical Condition filled with 4 Light Wounds and 1 Aggravated Wound (inflicting <strong>Impaired Strength</strong>). Jax checks into Port Zenith's dockside trauma clinic. Sanctioned contract riders cover the clinic fee, granting <strong>+1 Upgrade</strong>. Jax pairs <strong>Endurance 3</strong> and <strong>Willpower 2</strong> (2 base dice stepped up to 1d12 + 1d10). Jax rolls a `10` on the d12&mdash;scoring <strong>10 Success Points</strong>!
+                    <ul>
+                        <li>He spends <strong>2 SP</strong> to clear the 1 Aggravated Wound.</li>
+                        <li>He spends <strong>4 SP</strong> to heal all 4 Light Wounds.</li>
+                        <li>With Track I cleared of all damage, Jax instantly removes the <strong>Impaired</strong> condition from Strength, restoring his full combat capability! <em>(Jax: 2 AP remaining)</em></li>
+                    </ul>
+                </li>
+                <li><strong>Starship Self-Repair (Silas, 1 AP):</strong> Silas straps on a vacuum harness to patch punctured titanium armor plates. Expending <strong>1 Supply</strong> and using his <strong>Mechanic's Kit</strong>, Silas rolls a <strong>Knowledge (4) + Tinkering (2)</strong> Simple Test (4d10): `[3, 6, 8, 9]`. Scoring two Hits (`8` and `9`), Silas welds structural patches and restores <strong>2 Light Hull segments</strong>, saving thousands in drydock fees. <em>(Silas: 2 AP remaining)</em></li>
+                <li><strong>Bazaar Requisitions (Tessa, 1 AP):</strong> Tessa navigates the station's concourse to purchase a <strong>Standard Crate of Supplies</strong> (5 Supply for $8,000 Credits), hauling crates of protein paste, filters, and coolant back to the cargo bay. <em>(Tessa: 2 AP remaining)</em></li>
+            </ul>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.7pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 22%;">Operative / Vessel</th>
+                        <th style="width: 28%;">Pre-Shift Status</th>
+                        <th style="width: 24%;">Morning Resolution</th>
+                        <th style="width: 26%;">Post-Shift State</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Jax (Marine)</strong></td>
+                        <td>4 Light, 1 Aggravated Wound</td>
+                        <td>Clinic Long Rest (10 SP)</td>
+                        <td><strong>Fully Healed</strong> (0 Wounds)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Silas (Engineer)</strong></td>
+                        <td>-2 Light Hull Segments</td>
+                        <td>Tinkering Test (2 Hits)</td>
+                        <td><strong>Hull Repaired</strong> (-1 Supply)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tessa (Pilot)</strong></td>
+                        <td>0 Supplies in Cargo Hold</td>
+                        <td>Bazaar Purchase ($8,000)</td>
+                        <td><strong>+5 Supplies</strong> in Hold</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="callout callout-cyan" style="margin-top: 1.5mm; margin-bottom: 0;">
+                <div class="callout-title">Operational Triage // Medical &amp; Repair Priority</div>
+                <p style="font-size: 7.9pt; line-height: 1.34; margin: 0;">
+                    Notice how the crew prioritized survival in Shift 1. If Jax had delayed medical care, his Impaired Strength would have degraded any physical freelance gig. Concurrently, patching hull segments and purchasing supplies restored the ship's runway before any personal projects were attempted.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">102</span>
+        </div>
+    </div>
+
+    <!-- =========================================================================
+         PAGE 103 (Spread 52 Right) — PRACTICAL DOWNTIME WALKTHROUGH (SHIFTS 2 & 3)
+         ========================================================================= -->
+    <div class="book-page spread-bg-2" id="downtime-example-2">
+        <div class="page-running-header">
+            <span>Act III: Advanced Operations</span>
+            <span>Chapter 06: Downtime &amp; Operations</span>
+        </div>
+
+        <div class="page-body two-columns" style="margin-top: 1mm;">
+            <h3 style="margin-top: 0;">Shift 2: Afternoon Endeavors (3 AP Spent)</h3>
+            <p>
+                At 16:00, the crew disperses across Port Zenith's commercial decks to pursue personal conditioning, study, and freelance cash:
+            </p>
+            <ul>
+                <li><strong>Physical Conditioning (Jax, 1 AP):</strong> Jax hits the station's centrifuge gymnasium, running high-G interval sprints to build explosive power. Spending 1 Day-to-Day AP awards Jax <strong>1 Experience Point (1 XP)</strong>, reaching his daily training ceiling of 1 XP/day. <em>(Jax: 1 AP remaining)</em></li>
+                <li><strong>Freelance Gig #01: Lost Featherwing (Silas, 1 AP):</strong> Silas accepts an odd job from a wealthy merchant to capture an escaped iridescent songbird. Climbing into the station's overhead utility crawlways with acoustic monitors, Silas rolls an <strong>Instinct (4) + Knowledge (4)</strong> Simple Test (4d10): `[5, 8, 8, 10]`&mdash;three Hits! Silas lures the bird with synthetic whistle chirps, collecting a <strong>$1,000 Credits</strong> payout ($500 base + 2&times;$250 bonus). <em>(Silas: 1 AP remaining)</em></li>
+                <li><strong>Freelance Gig #05: Synthwave Bouncer (Tessa, 1 AP):</strong> Tessa takes a security shift at "Sub-Zero," a neon-lit nightclub. Rolling <strong>Strength (3) + Presence (4)</strong> (4d10): `[2, 7, 8, 9]`&mdash;two Hits! Tessa disarms a belligerent belter miner and secures the exit, earning <strong>$750 Credits</strong> ($500 base + $250 bonus). <em>(Tessa: 1 AP remaining)</em></li>
+            </ul>
+
+            <h3 style="margin-top: 1.2mm;">Shift 3: Night Shift (3 AP Spent)</h3>
+            <p>
+                As Port Zenith dims its promenade lighting to simulate nightfall, the crew concludes their remaining operational shifts:
+            </p>
+            <ul>
+                <li><strong>Freelance Gig #02: Spacer Stand-Up (Jax, 1 AP):</strong> Jax grabs the open mic at "The Rusted Anchor," rolling <strong>Presence (4) + Presence (4)</strong> (4d10): `[4, 7, 8, 9]`&mdash;two Hits! His dry, deadpan military stories about Flotilla ration mix-ups earn roaring spacer laughs and <strong>$750 Credits</strong>. <em>(Jax: 0 AP remaining)</em></li>
+                <li><strong>Technical Study (Silas, 1 AP):</strong> Silas reviews encrypted jump-beacon telemetry, earning <strong>1 Experience Point (1 XP)</strong> towards higher Astrogation skills. <em>(Silas: 0 AP remaining)</em></li>
+                <li><strong>Flight Simulator Drills (Tessa, 1 AP):</strong> Strapped into a motion-rig trainer, Tessa runs emergency RCS maneuvers, earning <strong>1 Experience Point (1 XP)</strong>. <em>(Tessa: 0 AP remaining)</em></li>
+            </ul>
+
+            <h3 style="margin-top: 1.2mm;">End of the Round: The 24-Hour Heartbeat</h3>
+            <p>
+                Exactly 24 hours elapse aboard Port Zenith as all 9 Day-to-Day Action Points are resolved. The GM executes the universal end-of-round heartbeat:
+            </p>
+            <ol>
+                <li><strong>Consuming Supplies:</strong> The vessel deducts <strong>1 Supply</strong> from the hold. Having bought 5 Supplies and spent 1 on repair, the hold finishes at <strong>4 Supplies remaining</strong> (4 days operating runway).</li>
+                <li><strong>Refilling Action Points:</strong> With life support fully sustained, all three operatives refill their pools back to <strong>3 Day-to-Day AP</strong> for the upcoming day.</li>
+                <li><strong>Advancing the World Clock:</strong> The station calendar advances by one day. New mission contracts arrive via Corsair commlink.</li>
+            </ol>
+
+            <table class="table-compact column-span-all" style="margin: 1.5mm 0 2mm 0; width: 100%; font-size: 7.7pt;">
+                <thead>
+                    <tr>
+                        <th style="width: 18%;">Operative</th>
+                        <th style="width: 20%;">Credits Earned</th>
+                        <th style="width: 20%;">Credits Spent</th>
+                        <th style="width: 20%;">XP Progression</th>
+                        <th style="width: 22%;">Final Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Jax</strong></td>
+                        <td>+$750 (Stand-Up)</td>
+                        <td>$0 (Covered)</td>
+                        <td>+1 XP (Athletics)</td>
+                        <td>Fully Healed, Unimpaired</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Silas</strong></td>
+                        <td>+$1,000 (Featherwing)</td>
+                        <td>-$1 Supply (Repairs)</td>
+                        <td>+1 XP (Astrogation)</td>
+                        <td>Hull Restored (+2 Light)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tessa</strong></td>
+                        <td>+$750 (Bouncer)</td>
+                        <td>-$8,000 (5 Supplies)</td>
+                        <td>+1 XP (Piloting)</td>
+                        <td>4 Supplies in Cargo Hold</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="font-size: 8pt; line-height: 1.34; margin: 1mm 0 1.5mm 0;">
+                <strong>Transitioning Back to Tactical Pacing:</strong> Once the 24-hour heartbeat resolves, the GM transitions the table from macro Day-to-Day pacing back to Place-to-Place (for interplanetary burns and approach vectors) or Moment-to-Moment tactical action the moment the crew accepts their next high-threat contract dispatch.
+            </p>
+
+            <div class="callout callout-cyan" style="margin-top: 1.5mm; margin-bottom: 2mm;">
+                <div class="callout-title">Operational Debrief // Downtime Invariants</div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0 0 1mm 0;">
+                    <strong>1. The 3 AP Economy:</strong> Dividing 24 hours into three 8-hour shifts gives players tactical flexibility between medical rest, ship maintenance, training, and gigs.
+                </p>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0 0 1mm 0;">
+                    <strong>2. Condition Recovery:</strong> Clearing a damaged track instantly strips the debilitating Impaired or Crippled condition from that attribute.
+                </p>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0;">
+                    <strong>3. Advancement Pacing:</strong> The strict 1 XP/day training limit prevents artificial grinding, anchoring progression to real operational contracts.
+                </p>
+            </div>
+
+            <div class="card" style="margin-top: 2mm; padding: 2.5mm 3.5mm; background: rgba(0, 20, 30, 0.45); border-left: 3px solid var(--amber-dark);">
+                <div style="font-family: var(--font-heading); font-size: 9.5pt; font-weight: 700; color: var(--amber-dark); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1mm;">
+                    Next: Part IV &bull; Worlds of the Sphere
+                </div>
+                <p style="font-size: 8pt; line-height: 1.34; margin: 0; color: var(--text-dim);">
+                    With the operational systems of Part III complete&mdash;spanning personal hardware, voidcraft, and station downtime&mdash;the rulebook bridges into the vast celestial theater of the setting through the fiction interlude <em>Space Tourism</em>, followed by the definitive planetary gazetteer and faction dossiers of the Sphere.
+                </p>
+            </div>
+        </div>
+
+        <div class="page-running-footer">
+            <span>Volume I // Core Rulebook</span>
+            <span class="page-num">103</span>
+        </div>
+    </div>
+</body>
+</html>
