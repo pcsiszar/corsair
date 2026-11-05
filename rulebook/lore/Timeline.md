@@ -144,7 +144,8 @@ A massive Scav armada gathered within Fume's inner ring system to launch a coord
 Hailed as saviors, Redmane's coalition forced the planetary governments to the negotiating table. The landmark **Skyline Accords** were signed:
 * **The Flotilla** was permanently established as the sovereign, neutral naval and peacekeeper authority over all open space, orbital lanes, and transit hubs.
 * **Planetary Governments** retained absolute legal sovereignty within their atmospheric gravity wells.
-* **The Corsairs**: Recognizing that criminals, smugglers, and rogue corporate agents exploit the jurisdictional seam between planetary skies and open orbit, the Flotilla authorized independent, multi-party sponsored privateer cells granted cross-jurisdictional mandates: the **Corsairs**.
+* **The Colonial Forum & The ICC**: To provide civilian legislative oversight and cross-border justice without allowing any single moon to dominate the others, the **Colonial Forum** (seated aboard Redmane Station to control the Flotilla's budget and treaties) and the **Interplanetary Criminal Court** (seated at Waypoint Station L1 to try multi-moon crimes) were chartered in neutral orbital space.
+* **The Corsairs**: Recognizing that criminals, smugglers, and rogue corporate agents exploit the jurisdictional seam between planetary skies and open orbit, the Accords authorized independent, multi-party sponsored specialist cells granted cross-jurisdictional mandates: the **Corsairs**.
 
 ---
 
@@ -160,7 +161,7 @@ Deep subterranean survey teams on Karst discovered vast bioluminescent cavern bi
 
 #### 368 AA — The Non-Interference Protocol
 
-Recognizing the moral weight of their own origin, the Council and the Flotilla ratified the **Non-Interference Protocol**. Karst was placed under permanent naval quarantine, enforced by a heavily armed Flotilla picket station at the L1 point to protect the Lithari until they achieve independent spaceflight. All colonial expansion was redirected to **Rime**, where subterranean cities were carved around its geothermally heated circular ocean.
+Recognizing the moral weight of their own origin, the Colonial Forum and the Flotilla ratified the **Non-Interference Protocol**. Karst was placed under permanent naval quarantine, enforced by a heavily armed Flotilla picket station at the L1 point to protect the Lithari until they achieve independent spaceflight. All colonial expansion was redirected to **Rime**, where subterranean cities were carved around its geothermally heated circular ocean.
 
 #### 410 AA — The Inter-System Probes
 

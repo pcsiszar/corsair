@@ -9,7 +9,7 @@
 
 ## Preamble: A Note From the Author
 
-Funnily enough, my first tabletop roleplaying game wasn't Dungeons & Dragons. It was some obscure hungarian game called M.A.G.U.S., which if anything, helped me get a feel what I don't want from a roleplaying game. My second, and the first one I learned to run as a GM was Shadowrun. You might be able to spot a few influences here and there. I thoroughly fell in love with the setting but the rules were a bit too crunchy for my taste. That's when I started to experiment with rulesets. I probably tried to hack Shadowrun to be more friendly at least three separate times if not more. 
+Funnily enough, my first tabletop roleplaying game wasn't Dungeons & Dragons. It was some obscure game called M.A.G.U.S., which if anything, helped me get a feel what I don't want from a roleplaying game. My second, and the first one I learned to run as a GM was Shadowrun. You might be able to spot a few influences here and there. I thoroughly fell in love with the setting but the rules were a bit too crunchy for my taste. That's when I started to experiment with rulesets. I probably tried to hack Shadowrun to be more friendly at least three separate times if not more. 
 
 Along the lines I discovered other games, systems, and game designers, each bringing something new to the table, but my other big muse was Blades in the Dark. John Harper's brilliant work was exactly on the opposite end of the spectrum when it came to complexity. You could create a character in less than fifteen minutes if you wanted to, and both you and your group had a clear identity and goal you were working toward. I still hope one day I get to be a player and not a game master in a Forged in the Dark game. That said...
 
@@ -34,24 +34,18 @@ And an even bigger thanks to my wife and love of my life, **Farkas Ágnes**. I b
 
 ---
 
-## Who Are the Corsairs?
+## About the Game
 
-### The Sphere at a Glance
-The game takes place within the **Sphere**, a breathtaking engineered solar system featuring over a hundred terrestrial, habitable worlds and moons locked in tight binary orbits around colossal gas giants, all circling a quiet Orange Dwarf star. 
+Five hundred years ago, humanity found a new home amongst the stars, in an engineered solar system they called the Sphere. It's orange sun is orbited by gas giants on a shared orbit, each gas giants orbited by binary moons, each a habitable planet like Earth once was. The ships of old Earth and three other alien races all made their way towards one such moon and made it their home. Centuries later, their civilization now spans multiple worlds, protected by an independent spacefaring peacekeeper force called the **Flotilla**. But as with all things, it's not all sunshine and rainbows. The Newcomers as they came to call themselves are not alone in the Sphere, and many of it's secrets are still to be discovered. Moreover, the peace maintained by the Flotilla is starting to fray at the edges, as forces both from within and without threaten to unwind the carefully woven fabric of their society. Chief amongs them being plain and ordinary crime.
 
-Circa five hundred years ago, automated seed arks brought the survivors of four dying worlds into this seemingly abandoned system. Arriving as the **Newcomers**, humanity and three alien lineages—the cold-blooded, crested **Naga**, the dense-skinned **Craggen**, and the chlorophyllic **Sylvan**—made their first historic landfall on a fertile moon appropriately named **Landfall**. Over five centuries of shared survival, exploration, and cultural blending across the moons, six natural hybrid lineages took root alongside them: **Drakelings**, **Elves**, **Gnomes**, **Dwarves**, **Kobolds**, and **Trolls**.
 
-Today, civilization spans dozens of bustling worlds, gleaming orbital transfer stations, and remote mining habitats. Yet the laws of nature remain stubbornly grounded. There is no faster-than-light warp drive; ships burn continuous fusion engines along calculated orbital curves. There is no artificial gravity plating; you stay grounded either through the axial acceleration of your ship’s thrusters, the gentle centrifugal spin of a habitat drum, or the solid click of magnetic boots against steel decks. And in the vacuum of space, waste heat is as dangerous as an enemy round.
+### The Corsairs
 
-### Your Role: The Corsair Cell
-Civilization across the moons is divided by a historic treaty: planetary governments hold total jurisdiction within their atmospheric gravity wells, while the peacekeeping fleet known as the **Flotilla** polices the open void and interstellar shipping lanes. This separation creates a glaring legal seam. Smugglers, corporate raiders, rogue mercenaries, and political conspirators routinely commit crimes under planetary clouds and burn into orbit, daring local authorities to chase them past their legal boundaries.
+Civilization across the moons is divided by a historic treaty: planetary governments hold total jurisdiction within their atmospheric gravity wells, while the Flotilla polices the open void and interstellar shipping lanes. This separation creates a glaring legal seam. Smugglers, corporate raiders, rogue mercenaries, and political conspirators routinely commit crimes under planetary clouds and burn into orbit, daring local authorities to chase them past their legal boundaries.
 
-To bridge this seam, authorities grant independent charters to **Corsairs**—small, autonomous crews given cross-jurisdictional warrants to cross from planetary mud to the cold vacuum of orbit without getting bogged down in red tape.
+To bridge this seam, authorities grant independent charters to **Corsairs**—small, autonomous crews given cross-jurisdictional warrants to cross from planetary mud to the cold vacuum of orbit without getting bogged down in red tape. You are free to roam the vastness of space so long as you don't breach the laws you exist to uphold (or aren't seen doing so anyways), and keep on taking and completing the various contracts and jobs that come your way from your sponsors, the powers that be that have various interests to protect across the Sphere, and a vested interest in keeping things orderly.
 
-As players, you form a **Corsair Cell**—a tight-knit crew of 3 to 5 specialists sharing an agile starship. Every cell is distinct:
-* **Conflicting Sponsors:** Legitimate Corsairs are typically backed by multiple, competing sponsors—such as a Flotilla naval commander, a planetary governor, a commercial trading guild, or an independent labor union. By balancing competing patrons, your crew maintains its operational independence.
-* **The Omni-Role Ethos:** You are practical survivors, not rigid archetypes. While every operative has specialized training or hardware rigs, no Corsair is locked into a single duty. Every member of the crew knows how to draw a sidearm in a corridor firefight, monitor a sensor array, pilot a shuttle, patch a ruptured environmental suit, and haggle for spare parts at an orbital bazaar.
-* **Freedom of Approach:** Whether your crew acts as principled investigators, gritty salvage hounds, diplomatic fixers, or razor-sharp troubleshooters, how you tackle your contracts is entirely up to you.
+As players, you form a **Corsair Cell**—a tight-knit crew of 3 to 5 specialists sharing an agile starship. You might be in it for the money, for the thrill, for the cause, or for a hundred other reasons, but one thing is for sure: you're in it together.
 
 ---
 

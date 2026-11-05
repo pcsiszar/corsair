@@ -16,3 +16,5 @@ This document tracks upcoming design tasks, mechanical balances, lore expansions
 ## 6. Create Exotic missing Exotic equipments
 
 ## 7. Create a starting adventure
+
+## 8. Fix ToC

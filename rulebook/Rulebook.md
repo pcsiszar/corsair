@@ -137,18 +137,16 @@ In Corsair, any significant feature of a person, creature, or object can be repr
 are a way to assign a numerical value to a characteristic, making it a concrete element of the game world. Anything and
 everything can have Attributes.
 
-While characters have core Attributes representing their physical and mental capabilities—**Strength**, **Agility**, **Finesse**, **Instinct**, **Knowledge**, and **Presence**—the concept extends to all corners of the game.
+There are six core Attributes define the fundamental physical and mental faculties of any living character, Player Characters included:
 
-The six core Attributes define the fundamental physical and mental faculties of any living character:
+* **Strength:** Raw physical power, muscular force, and bodily mass.
+* **Agility:** Whole-body speed, balance, and athletic coordination.
+* **Finesse:** Manual dexterity, surgical precision, and fine motor control.
+* **Knowledge:** Formal education, technical literacy, and deductive reasoning. 
+* **Presence:** Force of personality, charisma, and commanding social authority.
+* **Instinct:** Intuition, acute situational alertness, and gut-level reflexes.
 
-* **Strength:** Raw physical power, muscular force, and bodily mass. Used for lifting heavy cargo, forcing jammed airlocks, overpowering opponents in hand-to-hand combat, and carrying heavy equipment.
-* **Agility:** Whole-body speed, balance, and athletic coordination. Used for sprinting between cover, dodging incoming hazards, vaulting obstacles, and maneuvering in zero-gravity.
-* **Finesse:** Manual dexterity, surgical precision, and fine motor control. Used for aiming firearms, picking mechanical locks, performing delicate surgery, and manipulating intricate instruments.
-* **Knowledge:** Formal education, technical literacy, and deductive reasoning. Used for slicing computer security, analyzing sensor telemetry, operating starship consoles, and understanding alien relics.
-* **Presence:** Force of personality, charisma, and commanding social authority. Used for negotiating deals, intimidating rivals, inspiring companions, and maintaining composure under intense pressure.
-* **Instinct:** Intuition, acute situational alertness, and gut-level reflexes. Used for sensing impending ambushes, detecting hidden hazards, reading an adversary's unspoken intent, and reacting in the chaos of battle.
-
-Beyond living characters, the concept of Attributes extends to all corners of the game. A weapon might have **Rate of Fire** and **Accuracy** as Attributes. A jetpack could have a **Thrust** Attribute, while a cybernetic arm might have a **Power** rating. A starship is defined by a whole range of Attributes, such as its **Thrusters**, **Hull**, and **Scanners**. These ratings are the primary factor in determining the outcome of an action. A higher Attribute value signifies greater capability, directly impacting the dice rolls you'll make during the game.
+Beyond living characters, the concept of Attributes extends to all corners of the game. Firearms have **Rate of Fire** and **Accuracy** among it's many Attributes. A starship is defined by a whole range of Attributes, such as its **Acceleration**, **Maneouverability**, and **Sensors**. These ratings are the primary factor in determining the outcome of an action. A higher Attribute value signifies greater capability, directly impacting the dice rolls you'll make during the game.
 
 #### Attribute Pairs
 
@@ -160,10 +158,10 @@ test, representing a pure application of raw power. Additionally, when a test sp
 
 Here are a few examples of how these might be combined into Attribute Pairs:
 
-* **Accuracy (of the gun) + Finesse:** To fire a ranged weapon.
-* **Manouverability (of the spaceship) + Instinct:** To carefully pilot a shuttle through a dense asteroid field.
 * **Strength + Presence:** To intimidate a guard with a show of force.
 * **Knowledge + Instinct:** To investigate a crime scene, look for clues and deduce what happened.
+* **Accuracy (of your gun) + Finesse:** To fire a ranged weapon.
+* **Manouverability (of your spaceship) + Instinct:** To carefully pilot your ship through a dense asteroid field.
 
 #### Tests
 
@@ -193,9 +191,9 @@ becomes your "success points", which measures how effectively you performed the 
 
 Examples of Success Tests include:
 
+* Moving around the battlefield and seeing how much distance you cover.
 * Applying first aid to a wounded crewmate to see how many wounds you can patch up.
 * Spending a day in the workshop repairing your ship to see how much progress you make.
-* Moving around the battlefield and seeing how much distance you cover.
 
 ##### Complex Tests
 
@@ -211,7 +209,7 @@ A Complex Test is a two-step process:
    *quality* of your success. You take a number of dice from the successful roll equal to the **lower** of the two
    Attributes. The highest value on these dice becomes your "success points."
 
-Essentially, a Complex Test combines a Simple Test to see if you hit, and a Success Test to see how well you hit.
+Essentially, a Complex Test combines a Simple Test to see if you succeed, and a Success Test to determine the degree of success.
 
 #### The Importance of Narration
 
@@ -222,9 +220,9 @@ Attributes used, and therefore the dice you roll.
 For example, let's say your character is trying to persuade an NPC:
 
 * If you say, **"I try to reason with him, surely he will see my point in all this."** the GM will call for an **Presence + Knowledge** test, splashing in Knowledge for the reasoning part.
-* If you instead say, **"I put on all the charm my character has and try to appeal to him that way."** the GM will call for a **Presence + Presence** test.
+* If you instead say, **"I lay it on thick and try to charm the guy."** the GM will call for a **Presence + Presence** test.
 * If you narrate, **"I get all up in his face and make it very clear to him in no uncertain terms that he will do as I say"** the GM will call for an **Strength + Presence** test.
-* And if you instead say, *"I hold my gun to his head and start counting"** the GM could still ask for the **Damage** or the **Load** (size) of the gun and say roll that plus your **Presence**.
+* And if you instead say, **"I hold my gun to his head and start counting"** the GM could still ask for the **Damage** or the **Load** (size) of the gun and say roll that plus your **Presence**.
 
 #### Upgrades and Downgrades
 
@@ -241,17 +239,20 @@ In the rare case that you run out of all dice to downgrade, the test is consider
 
 #### Gambit
 
-**Gambit** is a special resource that allows players to snatch victory from the jaws of defeat. It's a pool of dice that you can use to turn a failed roll into a success.
+**Gambit** is a special resource that bends the odds in the player's favour. It's a pool of dice you've previously saved up to use later when you need it the most. You start each session with **0 Gambit Dice**.
 
 ##### Earning Gambit
 
-You earn **Gambit** by taking risks. After you roll your dice pool for a test, if any die shows its maximum possible value (e.g., a 10 on a d10, or a 12 on a d12), you have a choice. You can either use that die as part of your test as normal, or you can "bank" it for later. If you choose to bank it, you remove the die from your current roll and add it to your personal **Gambit** pool. This die can then be spent on a future roll.
+You can earn **Gambit** during any test where you roll at least one die. After you roll your dice pool for a test, if any die shows its maximum possible value (e.g., a 10 on a d10, or a 12 on a d12), you have a choice. You can either use that die as part of your test as normal, or you can "bank" it for later. If you choose to bank it, you remove the die from your current roll and add it to your personal **Gambit** pool. You can have a maximum of 4 Gambit Dice at any time. 
 
 ##### Spending Gambit
 
 You can spend a **Gambit** die from your pool on any test your character makes. You can declare you are spending **Gambit** at any point during the test—before you roll, after you see the results, anytime. When you spend a **Gambit** die, you simply add it to your current dice pool and roll it. Its result is added to the other dice, potentially changing the outcome of the test. 
 
-When a player spends a **Gambit** die, and the dice pool has already been modified by **Upgrades** or **Downgrades**, the newly added **Gambit** die retains its original die type.
+A **Gambit** die is unaffected by any **Upgrades** or **Downgrades**, any added **Gambit** dice retain their original type.
+
+When taking a Complex Test, you can carry the Gambit dice you added to the Action Roll over to the Success Roll, but you still can only use as many dice for the Success Roll as your lower Attribute states.
+ If your lower Attribute is a 3 for example and you rolled your Action Roll with 3d10 + 1d12 from Gambit, you can select the d12 Gambit die to carry forward to the Success Roll, but you still only use 3 dice for the Success Roll, making it a 2d10 + 1d12 pool. 
 
 ##### The Golden Rule of Gambit
 
@@ -261,10 +262,10 @@ There is one crucial restriction on using **Gambit**: **a player can either spen
 
 Let's see how all these elements come together in play:
 
-* **The Scenario:** Serving an apprehension warrant against an armed syndicate cell in an unpoliced orbital warehouse, Jax, a nimble gunslinger, is pinned down behind a cargo container. An outlaw skirmisher is advancing on his position, laying down suppressing fire. Jax decides to pop up and take a quick shot at the suspect with his sidearm. The GM decides this is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Jax's player describes the action as a quick, precise shot, so the GM chooses the Attribute Pair: **Finesse + Accuracy**. Jax has **Finesse 4**, his sidearm has **Accuracy 3**, and he holds two d10s in his Gambit pool.
-* **1. The Action Roll (Did the shot hit?):** For the first part of a Complex Test, Jax uses the higher of the two Attributes (**Finesse 4**), assembling a dice pool of **4d10**. He rolls `[2, 4, 5, 7]`. The highest result is 7 (a miss). Jax spends a Gambit die: *"I'm spending a Gambit."* He rolls the banked d10 and gets an `[8]`. His pool is now `[2, 4, 5, 7, 8]`. With an 8, the shot hits!
-* **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[5, 7, 8]`. The highest die is an 8 (8 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[5, 7, 8, 9]`. The highest result is a 9.
-* **Resolution:** Jax deals 9 points of damage to the outlaw, taking them down before they can breach his cover. Spending his banked Gambit turned a clean miss into a devastating shot.
+* **The Scenario:** Jax is stuck in a firefight against a gang of thugs who chose the wrong day to cross him. His attempts at a peaceful resolution has fallen on deaf ears, and now it's time to end this the hard way. Jax draws his gun, aims, and pulls the trigger. This is a **Complex Test**, as they need to know if the shot hits and how much damage it deals. Shots with a firearm are taken with **Finesse + Accuracy**. Jax has **Finesse 4**, his weapon has **Accuracy 3**, and he holds two d10s in his Gambit pool.
+* **1. The Action Roll (Did the shot hit?):** For the first part of a Complex Test, Jax uses the higher of the two Attributes (**Finesse 4**), assembling a dice pool of **4d10**. He rolls `[2, 4, 5, 7]`. The highest result is 7 (a miss). Jax spends a Gambit die: *"I'm spending a Gambit."* He rolls the banked d10 and gets an `[8]`. His pool is now `[2, 4, 5, 7, 8]`. With an 8, the shot now hits.
+* **2. The Success Roll (How much damage was dealt?):** For the second part of a Complex Test, Jax uses the lower Attribute (**Accuracy 3**), taking the 3 highest dice from his pool: `[2, 4, 5]`. The highest die is a 5 (5 points of damage). Jax decides to maximize the damage: *"I'm spending my second Gambit die."* He rolls his second banked d10 and rolls a `[9]`. His Success pool is now `[2, 4, 5, 9]`. The highest result is a 9. Jax's gun has a damage bonus of +3 so the total damage is 12.
+* **Resolution:** Jax deals 12 points of damage to one of the gangsters, taking them out of the fight for good. And with the last roll being a particularly unlucky one that still did the job, Jax likes his odds of survival in this firefight. 
 
 #### Contesting a Test
 
@@ -282,7 +283,7 @@ You can also contest actions that would normally not require a test (such as shu
 
 ##### Contest Example
 
-Returning to our gunslinger Jax: suppose Jax fires at a fleeing syndicate smuggler trying to reach an airlock, rolling `[2, 4, 5, 7, 8]`. The suspect has an **Evasion** of 3 and dives behind reinforced deck piping. The GM calls for an Evasion Contest Roll (**3d10**). The smuggler rolls `[3, 8, 9]`—scoring two Hits (8 and 9). These two Hits eliminate Jax's two highest dice (the 8 and the 7). Jax's remaining pool is `[2, 4, 5]`. With no die of 8 or higher remaining, the attack becomes a **Failure**; the round ricochets harmlessly off the reinforced piping as the suspect scrambles out of the line of fire.
+Returning to our gunslinger Jax: On their turn, one of the gangers returns fire, scoring a `[7, 8, 9]` on the Action Roll. Normally, Jax would take a hit, but he decides to Contest this roll by diving for cover. The GM says this requires a good helping of Agility and Instinct. Jax has Agility 3 and Instinct 2, so he gets to roll with 3d10 for his **Contest Roll** scoring a `[3, 8, 10]`. Jax's two hits eliminate the two hits from the gangers Action Roll, meaning the contest was succesful and Jax dodged the bullet.
 
 #### Teamwork
 
@@ -293,7 +294,7 @@ Sometimes, a single character isn't enough for the job. When multiple characters
 Any character's action can be turned into a **Teamwork Test** by additional eligible characters declaring their intent to join. A character can join a Teamwork action if:
 
 * **Proximity:** The participants are in close physical proximity to each other and their shared objective.
-* **Appropriate Contribution:** Each participant rolls the Attribute Pair appropriate to their weapon, gear, or method of action. Participants do not need to roll the same Attribute Pair! For example, two characters forcing a heavy blast door might both roll **Strength + Strength**, but in a coordinated combat assault, one character might swing a warhammer (**Strength + Finesse**, Striking) while an ally thrusts with a combat knife (**Agility + Finesse**, Piercing). Because all tests evaluate Hits on an 8 or higher, dice can be swapped freely between pools regardless of which attributes generated them.
+* **Appropriate Contribution:** Each participant rolls the Attribute Pair appropriate to their weapon, gear, or method of action. Participants do not need to roll the same Attribute Pair! For example, two characters forcing a heavy blast door might both roll **Strength + Strength**, but in a coordinated combat assault, one character might swing a hammer (**Strength + Finesse**, Striking) while an ally thrusts with a combat knife (**Agility + Finesse**, Piercing). Because all tests evaluate Hits on an 8 or higher, dice can be swapped freely between pools regardless of which attributes generated them.
 * **Shared Target or Objective:** If the action has a target or destination, it must be identical for all participants (firing on the same enemy, treating the same wounded ally, forcing the same bulkhead).
 * **Logical Feasibility:** The task must be something that multiple people can realistically cooperate on simultaneously.
 
@@ -317,6 +318,23 @@ When an adversary is targeted by a Teamwork action, the defender gains the **Def
 Teamwork can be employed across both stages of a Complex Test. Surviving attackers roll their Success pools and may **swap dice between their Success pools as well**, funneling high dice onto an operative with high-damage weapons or critical effects. 
 
 Defenders can also use Teamwork to resist incoming actions: when multiple defenders coordinate to resist an action, they roll their contest pools simultaneously, swap dice to maximize total Hits (8+), and allocate their combined eliminations against the attackers.
+
+#### Example
+ Jax, Tessa and Silas are trying to sneak into a gang hideout undetected. They have guards patrolling the area but the team feels like it's up for the challenge. 
+
+1. **Initial Rolls:**
+   * **Jax (4 dice):** rolls `[10, 9, 4, 2]` — Two Hits (a `10` and a `9`).
+   * **Tessa (2 dice):** rolls `[5, 3]` — Zero Hits (a failure; Tessa is about to stumble on loose grating).
+   * **Silas (3 dice):** rolls `[8, 6, 2]` — One Hit (an `8`).
+3. **Teamwork & The Swap:** Jax rolled two hits, so he can pass his spare `9` to Tessa's pool in exchange for Tessa's `3`.
+4. **Final Pools & Outcome:**
+   * **Jax's pool:** `[10, 4, 3, 2]` (Highest die: `10` — **Success**)
+   * **Tessa's pool:** `[9, 5]` (Highest die: `9` — **Success**)
+   * **Silas's pool:** `[8, 6, 2]` (Highest die: `8` — **Success**)
+
+Because every character now holds at least one die showing 8 or higher, Jax's surplus success covers Tessa's mistake, and the entire team slips past the guards completely undetected.
+
+
 
 <a id="chapter-4-scenes-pacing-and-action"></a>
 ### Scenes, Pacing, and Action
@@ -347,24 +365,22 @@ quickly cover a long journey.
 
 #### Action Points
 
-Action Points are the currency you spend to perform significant actions, especially those requiring a Test. Every player
-has a maximum of 3 Action Points.
+Action Points are the currency you spend to perform any sort of action requiring a test. Every Test you take, regardless of it's kind, requires 1 Action Point.
+Every Contest you take also costs an Action Point. When working as a Team, each participant has to pay an Action Point to participate in the test.
 
-Every test you take, whether it be Simple, Success, or Complex, requires 1 Action Point.
+ In some cases the GM might also call on you to spend an Action Point without taking a test, for example, totransit from one location to the next.
 
-In some cases the GM might also call on you to spend an Action Point without taking a test, for example, to
-transit from one major location to the next.
+Players get 3 Action Points for each pacing, and they use the type of Action Point based on the pacing they are in. NPCs also get action points and use them to take actions that impact the scene. Characters in the scene who have Action Points are referred to as actors.
 
 #### Rounds
 
 Within any scene, the action is broken down into **Rounds**. A round is a period of in-game time appropriate to the
-scene's pacing, where every character present has an opportunity to act. This ensures that the chaos of a situation is
-manageable and that the spotlight is shared.
+scene's pacing that lasts until all actors have spent all their action points or passed.
 
 A round in moment-to-moment pacing is only a dozen or so seconds long. In place-to-place pacing, a round might last from
 minutes to a few hours, while in day-to-day pacing, it's a full day.
 
-At the start of every Round, every creature refills their Action Points to the maximum.
+Every round begins by all ceatures refilling their Action Points of the current pacing to the maximum.
 
 When the round ends, the GM gets an opportunity to introduce new characters into the scene, based on the broader scope
 of the scene that's playing out and the amount of time that passed during the round. This can be new reinforcements
@@ -375,31 +391,19 @@ This also lets the GM advance the plot via NPCs that are acting outside the ongo
 
 Each round is divided into multiple turns of two different types: The **Player Turn** and the **GM Turn**.
 
-* **Player Turn:** During the Player Turn, the players decide and declare what their characters are doing. A crucial
-  aspect of the Player Turn is its free-form nature. **Players can act in any order they wish.** You can coordinate your
-  actions, set up combos, and react to each other's decisions dynamically. One player might act, then another, then the
-  first player might act again.
+* **Player Turn:** During the Player Turn, the players decide and declare what their characters are doing.  **Players can act in any order they wish.** 
+* You can coordinate your actions, set up combos, and react to each other's decisions dynamically.
 
 * **GM Turn:** During the GM Turn, the Game Master narrates the actions of the non-player characters (NPCs) in the
   scene. This is when every NPC makes their moves. If there are no NPCs in the scene other than the players, the GM
-  turn is skipped, and it's the Player's Turn again.
+  simply skips their turn.
 
 The turn swaps from the players to the GM (or vice versa) after the active side has spent a total of 2 or more Action
-Points and resolved their last action. The round concludes when both sides choose to "pass," meaning they have no
-further actions to take. Every round starts with the Player Turn first.
-
-Most rounds will fly by due to the players being grounded with no NPCs, or NPCs that generally don't wish to affect
-the player characters. Therefore, most rounds will be rather one-sided, but that is a good thing as the GM already has
-a lot of work just arbitrating the player characters' narrations.
-
-When a player action causes an NPC to go from a passive to an active participant in the scene, they become active
-and receive their Action Points next round, meaning each player character has a chance to act before the GM gets to
-react with NPCs.
+Points and resolved their last action.
 
 #### Going First
 
 Every round begins with the Player Turn. The players always act first, coordinating their moves and executing their strategies before the GM responds with the actions of non-player characters.
-
 
 #### Teamwork Actions
 
@@ -407,22 +411,6 @@ Teamwork allows multiple characters to contribute to a single goal. When charact
 Action Points to contribute to the collective effort. While players spending Action Points to participate in a Teamwork
 Test counts towards the 2AP per Turn limit, reaching the limit doesn't stop additional characters from participating.
 The turn will only end once the Teamwork Test has resolved.
-
-**Teamwork Example: Checkpoint Infiltration**
-
-The crew is working an undercover assignment tracking a fugitive into an outlaw-run freeport. To reach the lower docks without tipping off the local syndicate, they must pass through an enforcer-controlled checkpoint. The GM rules this will be a Teamwork action, requiring each character to make a Success Test to see how well they blend into the underworld foot traffic:
-
-* Silas, a master of disguise, creates a subtle diversion at a cargo terminal and scores 2 hits.
-* Griz, a large and imposing figure, tries to look inconspicuous by pretending to be an off-shift maintenance hauler, but
-  fails miserably, scoring no hits.
-* Jax, ever the opportunist, strikes up a casual conversation with one of the gang lookouts to draw their attention, scoring just one hit.
-
-The players have now collectively spent 3 Action Points. Silas swaps one of his hits for one of Griz's dice,
-representing the operatives covering for each other's slip-ups and successfully slipping past the checkpoint as a cohesive unit.
-
-The flexibility of the turn structure and Action Point system is designed to encourage creative problem-solving and
-dynamic, cinematic action. Don't be afraid to combine actions, work together, and push your characters to their limits.
-For full rules on coordinating actions, swapping dice, and how defenders contest Teamwork actions using Defender's Advantage, see [Teamwork](core/Teamwork.md).
 
 #### Delayed Actions
 
@@ -438,20 +426,20 @@ During high-stakes encounters, characters do not always act immediately; often, 
 
 * **Action Point & Turn Accounting:** The 1 AP cost is paid **on the turn you set up the delayed action**, counting against the 2 AP limit of that turn. When the trigger condition occurs and you take your action, it requires **0 additional AP** in that moment, and it does not count against the AP limit of the turn in which it triggers.
 
-* **Resolution and Expiration:** When the trigger condition is met, you immediately execute the declared test or action. If the triggering condition does not occur before the end of the round, the prepared action expires without effect—the spent Action Point represents the time, readiness, and vigilance invested in holding your position.
+* **Resolution and Expiration:** When the trigger condition is met, you immediately execute the declared test or action. If you take a test before the trigger occurs, if something prevents you from taking the specified action,  or if the round ends without the trigger occuring, your delayed action is lost.
 
 * **Delayed Teamwork Actions:** Multiple characters can coordinate to set up a shared delayed action (such as establishing a crossfire overwatch or setting a synchronized ambush).
   * **Setup:** All participants must share the same space, spend **1 AP** each, and agree upon the exact same **Trigger**, **Target**, and **Timing** (Before or After). Each participant prepares the action and Attribute Pair appropriate to their weapon or tool. An ally can spend 1 AP on a subsequent turn to join an existing ally's delayed action if they enter their space.
   * **Triggering & Swapping:** When the trigger condition occurs, all linked participants roll simultaneously for **0 additional AP** and can swap dice between their pools under standard Teamwork rules. If the target contests, Defender's Advantage applies normally.
-  * **Disruption:** If an individual participant is incapacitated, knocked out of the space, or forced to defend before the trigger occurs, their readied action is broken, but remaining allies can still execute their delayed action when the condition is met.
+  * **Disruption:** If an individual participant takes an action or is disrupted before the trigger occurs, their readied action is lost, but remaining allies can still execute their delayed action when the condition is met.
 
 #### Zooming In and Out
 
-The GM can transition between scene types as the story demands.
+The GM can transition between pacings as the story demands.
 
-* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example, while the crew is executing a recovery warrant aboard an abandoned freighter (Place to Place), they might be ambushed by barricaded pirate scavengers, instantly shifting the scene to Moment to Moment. When zooming in, all characters present in the scene synchronize their broader Action Points down to the lowest remaining AP among them (reflecting time elapsed together). They then refill their Action Points in the new, narrower pacing to their maximum (3 AP) and begin a fresh round. Any ongoing effects created in the broader pacing are retained.
+* **Zooming In:** When a broader scene suddenly becomes more dangerous or dramatic, the GM can "zoom in." For example, while the crew is exploring an abandoned freighter (Place to Place), they might be ambushed by barricaded pirate scavengers, instantly shifting the scene to Moment to Moment. When zooming in, all characters present in the scene refill their Action Points in the new, narrower pacing to their maximum (3 AP) and begin a fresh round. Any ongoing effects created in the broader pacing are retained.
 
-* **Zooming Out:** When a high-stakes scene concludes, the GM "zooms out" back to the broader pacing. Players set aside their tactical Action Points and resume the broader pacing with their remaining broader Action Points. If characters still have Action Points remaining in that broader round, they continue their shift or day; if all broader AP have been spent, the broader round concludes at the End of the Round. Characters operating in parallel in other locations retain their unspent broader AP and can take actions during that same timeframe.
+* **Zooming Out:** When a high-stakes scene concludes, the GM "zooms out" back to the broader pacing. Players set aside their tactical Action Points and resume the broader pacing with their remaining broader Action Points. If characters still have Action Points remaining in that broader round, they continue their shift or day; if all broader AP have been spent, the broader round concludes at the End of the Round. All ongoing effect created in the narrower pacing are lost.
 
 <a id="effects"></a>
 ### Effects
@@ -471,14 +459,8 @@ Activating an Effect is an exercise in collaborative storytelling between you an
 Action Effects are activated during your **Action Roll**. By setting aside Hits before moving on to resolve your Success Roll, you can manipulate the immediate environment or extend the reach of your action:
 
 * **Chain Effect:** When performing an action directed at a single target out of several eligible choices—most commonly during combat—you may spend Hits on a **Chain Effect**. For each Hit you sacrifice from your Action Roll, you select one additional eligible target to include in the action. When chaining a Complex Test, perform a single Success Roll using the lower Attribute; the highest die applies individually to every target caught in the chain. You cannot chain actions that naturally affect multiple targets by default. Furthermore, if the base action requires expending a specific resource (such as ammunition, power cells, or consumable gear), you must pay that resource cost separately for each chained target. When making a ranged attack, you can only chain targets in the same range band, and the combined use of Chain and Crit effects cannot exceed your weapon's Rate of Fire (RoF).
-* **Upgrade and Downgrade Effect:** When your action creates a clear situational advantage for yourself or an impending disadvantage for an enemy, you can activate an **Upgrade or Downgrade Effect**. Each Hit spent from your Action Roll allows you to step up or step down a die on subsequent tests related to that altered circumstance. Crucially, if you are resolving a Complex Test, you may apply this effect immediately to step up dice on your own upcoming Success Roll without needing to specify the situational advantage.
+* **Upgrade and Downgrade Effect:** When your action creates a clear situational advantage for yourself or an impending disadvantage for an enemy, you can activate an **Upgrade or Downgrade Effect**. Each Hit spent from your Action Roll allows you to step up or step down a die on subsequent tests related to that altered circumstance. If you are resolving a Complex Test, you may apply this effect immediately to step up dice on your own upcoming Success Roll without needing to specify the situational advantage.
 * **Blocker Effect:** If your narration aims to hinder, interrupt, or prevent an enemy from carrying out a specific future action, you can establish a **Blocker Effect**. For every **2 Hits** you sacrifice from your Action Roll, you set aside 1 Hit to create a pool of defensive dice. When an opponent attempts the blocked action, each set-aside Hit negates the single highest die from their test pool before resolving. Once a set-aside Hit negates an opponent's die, that set-aside Hit is expended. The Blocker Effect persists until all set-aside Hits are exhausted. If an opponent attempts to perform an action that normally does not require a test (such as opening a latch or standing up), the Blocker forces them to execute a **Simple Test** first; failing to eliminate all set-aside Hits prevents them from completing the action.
-
-#### Sustained Effects
-
-Certain Effects can be sustained over time rather than depleting after a single use. An Effect can become a **Sustained Effect** whenever there is an active physical object (such as magnetic restraints, deployed gear, a smoke screen, or specialized equipment) or an ongoing continuous action sustaining it.
-
-When an Effect is sustained, any set-aside Hits or mechanical benefits do not deplete when triggered. Instead, the full pool of set-aside Hits or advantages resets after each affected action or attempt. Sustained Effects can be applied to any Effect type where continuous operation makes logical narrative sense—most commonly Blocker Effects or ongoing Upgrade/Downgrade Effects. A Sustained Effect remains active until an opponent succeeds despite the penalty or until the physical object or continuous action sustaining it is removed, destroyed, or neutralized.
 
 #### Success Effects
 
@@ -489,23 +471,23 @@ Success Effects are activated during your **Success Roll**, allowing you to ampl
 
 #### Removing Effects
 
-Ongoing environmental hazards, physical restraints, and persistent blockers do not have to remain forever. If a character is in a position to eliminate or neutralize an active ongoing effect, they may spend **1 Action Point** on their turn to make a **Simple Test** determined by the GM. Each Hit scored on this Simple Test removes 1 set-aside Hit from the targeted effect, gradually breaking down the obstacle until it is completely eliminated.
+A character may attempt to cleanse an active effect, such as Blocker or Downgrade effects, given that their attempt makes logical sense within the narrative. To do so, they perform a Simple Test with whatever Attribute Pair the GM deems suitable, and for each hit, they remove one level of an active effect.
 
-#### Combined Mechanics in Action: Syndicate Cache Breach
+#### Sustained Effects
 
-> Acting under a Flotilla interdiction warrant, Jax and his team are raiding a fortified syndicate contraband cache defended by illegal combat drones. Engaging in close-quarters combat at the breached bulkhead, Jax declares, *"I step in and swing my axe in a sweeping melee strike across the lead combat drone to tear open its plating while driving it back into its squadmate to clear the entryway."* 
+Certain Effects can be sustained over time rather than depleting after a single use. An Effect can become a **Sustained Effect** whenever there is an active physical object (such as magnetic restraints, deployed gear, a smoke screen, or specialized equipment) or an ongoing continuous action sustaining it.
+When an Effect is sustained, any set-aside Hits or mechanical benefits do not deplete when triggered. Instead, the full pool of set-aside Hits or advantages resets after each affected action or attempt.
+Sustained Effects can be applied to any Effect type where continuous operation makes logical narrative sense—most commonly Blocker Effects or ongoing Upgrade/Downgrade Effects.
+A Sustained Effect can be removed just like a regular Effect. In addition, simple narrations can also cause the source of the effect to cease it's proper function (like an ally simply cutting the restraints you were bound by that were the source of the Blocker effect).
+A Sustained Blocker is removed as soon as an action it was meant to block is successfully resolved, despite the Blocker. For example, a guard seeing through a disguise or a prisoner breaking free of their restrains.
+
+#### Example
+
+> Jax found himself cornerned in the wilderness by a pack of the local variety of predators. There are three beasts in closing in on him with nasty looking claws and even
 > 
-> The GM assesses the melee action and calls for a **Strength (5) + Strength (5)** Complex Test. Jax rolls 5d10 for his Action Roll based on his higher Attribute (**Strength 5**), producing `[3, 5, 8, 8, 9]`. 
+> The Corsair draws knife and attacks first with **Agility(3) + Finesse(5)** `[3, 5, 8, 8, 9]`. He uses the two extra hits from the Action Roll for a Chain Effect, letting him attack two additional targets, meaning all 3 beasties get a taste of his blade.  
 > 
-> With three Hits (`8`, `8`, and `9`), Jax spends one Hit (`8`) to activate an Action Effect—an **Upgrade Effect**—stepping up one die on his upcoming Success Roll from a d10 to a **d12**. He leaves his remaining Hits (`8` and `9`) to ensure his Action Roll succeeds.
-> 
-> Moving to his Success Roll for his lower Attribute (**Strength 5**), Jax rolls 4d10 and 1d12 (modified by his Upgrade Effect). His roll yields `[5, 6, 7, 8]` on the d10s and `8` on the d12. 
-> 
-> Jax scores two Hits (both `8`s) on his Success Roll. He decides to activate two Success Effects:
-> 1. He spends his first `8` to activate a **Push Effect** (valid since his test relies on Strength), shoving the lead combat drone back 4 meters directly into its squadmate.
-> 2. He spends his second `8` to activate a **Crit Effect**, granting **+2 Success Points** to his highest remaining die.
-> 
-> The highest remaining die on his Success Roll is `7`. By sacrificing his second `8` for Crit instead of keeping it as his base die, Jax increases his total from 8 to **9 Success Points** (7 + 2 = 9), neutralizing the lead drone while driving it clear of the doorway.
+> He then moves to the Success roll scoring `[6, 9, 10]`. His highest result is a 10, which he could bank for a Gambit, but decides to use instead. He also uses the 9 to activate a Crit Effect, increasing his total Success Points by 2. His knife deals +3 extra damage bringing the total to 10+2+3=15 damage on each attacker, for a total of 45 damage.
 
 ---
 

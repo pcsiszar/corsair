@@ -132,7 +132,7 @@ The discovery of the Lithari sparked the greatest moral and philosophical debate
 
 However, the memory of the Newcomers' own origin—waking up in the dark of seed arks with no knowledge of their homeworlds—was still fresh in the cultural consciousness. Led by the Crossroads Council and passionately championed by **Goldheart**, Newcomer leadership declared that to exploit a young, dreaming species would be a moral sin that would stain Newcomer civilization forever.
 
-In 368 AA, the Flotilla High Council formally ratified the **Non-Interference Protocol**:
+In 368 AA, the Colonial Forum formally ratified the **Non-Interference Protocol**:
 * Karst was declared a **Total Quarantine Zone**. All civilian settlement, resource prospecting, and commercial transit within the moon's gravity well are strictly prohibited under penalty of life imprisonment.
 * The Lithari must be allowed to develop naturally, without external contamination, until they achieve independent orbital spaceflight capability through their own efforts.
 

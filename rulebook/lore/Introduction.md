@@ -53,7 +53,7 @@ While this separation prevented civil war, it created a dangerous legal seam. Sm
 
 To bridge this jurisdictional void, the Flotilla and colonial administrations established the **Corsairs**—autonomous specialist crews granted cross-jurisdictional mandates to operate seamlessly from planetary mud to the cold vacuum of deep orbit.
 
-The year is **518 AA**. Exactly one decade ago, the apocalyptic Frontier War against the Orkish Empire and the catastrophic fall of the ancient alien super-dreadnought *Evergaol* shattered the Flotilla's veteran battle fleet. With naval hulls in short supply and the frontier fraying under piracy, corporate land-grabs, and border skirmishes, the High Council has issued emergency charters to recruit a **New Wave of Corsairs**.
+The year is **518 AA**. Exactly one decade ago, the apocalyptic Frontier War against the Orkish Empire and the catastrophic fall of the ancient alien super-dreadnought *Evergaol* shattered the Flotilla's veteran battle fleet. With naval hulls in short supply and the frontier fraying under piracy, corporate land-grabs, and border skirmishes, the Colonial Forum has issued emergency charters to recruit a **New Wave of Corsairs**.
 
 ### The Corsair Cell
 As players, you form a **Corsair Cell**—a tight-knit crew of 3 to 5 specialists operating aboard an agile, multi-role starship. Every cell is unique:

@@ -4,7 +4,7 @@ To the celestial cartographers and ivory-tower physicists of the Sphere Research
 
 To the eight billion souls actually living in it, the Sphere is mostly an alarm clock that goes off every thirty hours, a persistent argument over communal water filters, and the stubborn realization that no matter how far your ancestors traveled across the lightless interstellar void, someone in middle management will still find a way to charge you for parking.
 
-To understand the great powers that divide the heavens—the battle fleets, the planetary governments, the ruthless mining cartels, the shadowy syndicates, and the silent alien empires—one must first understand the ground they stand upon. One must look through the eyes of the ordinary citizen: the farmer scraping copper-tinted soil on Landfall, the arcology technician suspended above the mist of Cloudspire, and the conscript lacing up magnetic boots in the cold belly of an orbital transit hub.
+To understand the great powers that divide the heavens—the battle fleets, the planetary governments, the ruthless mining cartels, the interplanetary courts and labor unions, the shadowy syndicates, and the silent alien empires—one must first understand the ground they stand upon. One must look through the eyes of the ordinary citizen: the farmer scraping copper-tinted soil on Landfall, the arcology technician suspended above the mist of Cloudspire, and the conscript lacing up magnetic boots in the cold belly of an orbital transit hub.
 
 ---
 
@@ -21,14 +21,15 @@ In less than four minutes of shattered glass and procedural indignation, the Cro
 
 Every great power, legal seam, and cosmic hazard that defines the setting was in that room:
 
-1. **The Colonial Administrations (The Soil)**: Represented by Speaker Haddon and the Council, exercising territorial sovereignty within their atmospheric gravity well under the Skyline Accords, balancing local agriculture, taxes, and municipal laws.
+1. **The Colonial Administrations (The Soil)**: Represented by Speaker Haddon and the Council, exercising territorial sovereignty within their atmospheric gravity wells under the Skyline Accords, balancing local agriculture, taxes, and municipal laws.
 2. **The Megacorporations (The Forge)**: Lurking quietly in the gallery, lobbying for transit tariffs and selling the structural titanium, Draco drive components, and life-support patents that keep civilization breathing.
 3. **The Underworld (The Shadow)**: The desperate Jailer courier, hawking unstable alien technology from the Evergaol exclusion zone to illicit cartels like the Iron Fang to bypass corporate monopolies and rationing boards.
 4. **The Flotilla (The High Drift)**: The orbital naval authority whose quarantine codes and vector interdictions chased the suspect across the binary gap from Nimbus to Landfall.
-5. **The Alien & The Deep Cosmic**: The humming Precursor coil—a lethal reminder of the ancient civilization that built this mega-engineered system—and **Goldheart**, the gentle living dragon who has shepherded mortals through five centuries of folly.
-6. **The Corsairs (The Seam-Stitchers)**: The Corsairs, who alone possess the legal mandates, powered MANTLE chassis, and cross-jurisdictional charters to leap between orbital vacuum and planetary cobblestones to resolve the crisis before it turns into an interplanetary war.
+5. **The Civilian Institutions (The Charter & The Lifeline)**: The interplanetary courts, parliamentary forums, labor confederations, research institutes, and relief agencies whose cross-system treaties, quarantine vaults, and arrest warrants bind the moons together without firing a railgun.
+6. **The Alien & The Deep Cosmic**: The humming Precursor coil—a lethal reminder of the ancient civilization that built this mega-engineered system—and **Goldheart**, the gentle living dragon who has shepherded mortals through five centuries of folly.
+7. **The Corsairs (The Seam-Stitchers)**: The Corsairs, who alone possess the legal mandates, powered MANTLE chassis, and cross-jurisdictional charters to leap between orbital vacuum and planetary cobblestones to resolve the crisis before it turns into an interplanetary war.
 
-To understand why the Sphere operates this way, we must examine the five great spheres of power that divide the heavens:
+To understand why the Sphere operates this way, we must examine the six great spheres of power that divide the heavens:
 
 ---
 
@@ -62,7 +63,7 @@ From the deep-core mining concessions of Suncatcher to the sprawling pontoon aqu
 
 ### III. The Shadow Hours: The Underworld & Fringe Syndicates
 
-* **The Encounter**: Midnight in the lower ravines of Cloudspire, Nimbus. Two hundred levels beneath the gleaming, rain-washed neon arcologies where the corporate directors sip imported wine, the air is thick, humid, and heavy with viscous inert gases. Dax, a freelance avionics technician with a mountain of unpaid medical debt, ducks beneath the hissing steam pipes of an abandoned transit tunnel. He isn't looking for a corporate vendor; he is meeting an intermediary from the **Iron Fang** syndicate to buy an un-serialized, refurbished Draco drive pre-igniter. Overhead, the rhythmic *thrum-buzz* of hoverboards echoes through the mist as a crew of **Cloudsurfers** tag a ventilation stack with glowing neon paint, daring corporate private security to descend into the unpoliced gloom.
+* **The Encounter**: Midnight in the lower ravines of Cloudspire, Nimbus. Two hundred levels beneath the gleaming, rain-washed neon arcologies where the corporate directors sip imported wine, the air is thick, humid, and heavy with viscous inert gases. Dax, a freelance avionics technician with a mountain of unpaid medical debt, ducks beneath the hissing steam pipes of an abandoned transit tunnel. He isn't looking for a corporate vendor; he is meeting an intermediary from the **Iron Fang** syndicate to buy an un-serialized, refurbished Draco drive pre-igniter. Overhead, the low, rhythmic hum of magnetic-repulsor hoverboards echoes through the mist as a crew of **Cloudsurfers** tag a ventilation stack with glowing neon paint, daring corporate private security to descend into the unpoliced gloom.
 
 Where formal law retreats and corporate monopolies choke the life out of honest trade, the **Underworld** fills the vacuum. It is not a unified syndicate, but a sprawling, pragmatic ecosystem of survival, opportunism, and outright violence. 
 
@@ -76,19 +77,33 @@ In Cloudspire's fog-choked ravines, it is hoverboard gangs running illegal couri
 
 ### IV. Above the Clouds: The Flotilla and the Law of the Void
 
-* **The Encounter**: Waypoint Station, L1 Lagrange Point, thirty thousand kilometers above the clouds. Silas, an eighteen-year-old farm boy from Landfall's western basin, stands on the cold, ribbed deck plates of an orbital staging hangar, his stomach heaving in the disorienting weightlessness of zero-g. His civilian boots have been replaced by heavy, steel-toed magnetic boots that lock onto the deck with an unyielding *clack-clack*. Around him, hundreds of terrified teenagers of every lineage—humans, nagas, craggens, and sylvans—clutch their duffel bags as a veteran Boatswain in worn slate-grey fatigues barks through a megaphone: *"Welcome to your One-Year Tour, recruits. Down there, you had a moon. Up here, you have an air seal and the person next to you. Breathe deep, don't drop your tethers, and don't make me blow an airlock."*
+* **The Encounter**: Waypoint Station, L1 Lagrange Point, thirty thousand kilometers above the clouds. Silas, an eighteen-year-old farm boy from Landfall's western basin, stands on the cold, ribbed deck plates of an orbital staging hangar, his stomach heaving in the disorienting weightlessness of zero-g. His civilian boots have been replaced by heavy, steel-toed magnetic boots that bite onto the steel deck with the dry, mechanical snap of industrial solenoids. Around him, hundreds of terrified teenagers of every lineage—humans, nagas, craggens, and sylvans—clutch their duffel bags as a veteran Boatswain in worn slate-grey fatigues barks through a megaphone: *"Welcome to your One-Year Tour, recruits. Down there, you had a moon. Up here, you have an air seal and the person next to you. Breathe deep, don't drop your tethers, and don't make me blow an airlock."*
 
 To every citizen of the Sphere, the **Flotilla** is not a distant, faceless armada. It is the family dinner table. Under the system-wide **One-Year Tour**, every single young adult is drafted into the fleet for twelve months of mandatory service. A wealthy merchant's child from Pelagia scrapes carbon scoring from engine manifolds alongside a dirt-poor prospector's daughter from Suncatcher. 
 
 Commanded by the **Admiralty Board** from the historic redoubts of Redmane Station, the Flotilla is the sovereign peacekeeper of the void. Under the Skyline Accords, the fleet holds absolute jurisdiction over the "Drift"—the high void, the orbital transfer lanes, the Lagrange hubs, and the navigational beacon networks. Their six functional Wings (*Administrative, Transit, Patrol, Scout, Bastion, Sword*) keep the lifeblood of interplanetary civilization flowing: interdicting pirates, clearing navigational hazards, and maintaining the communication arrays that keep sister worlds in touch.
 
-* **The Breaking Point**: The Flotilla is powerful, proud, and stretched catastrophically thin. Exactly ten years after the devastating Frontier War against the Orkish Empire and the apocalyptic crash of the *Evergaol* in 508 AA, the fleet's capital dreadnoughts are scarred hulks, its veteran crews are buried, and its budget is contested by bickering colonial delegates in the High Council. Worse, the Flotilla is legally handcuffed: their warships cannot fire a single kinetic round into planetary atmosphere without provoking a constitutional civil war. When danger drops beneath the clouds, the Flotilla must stop at the gate.
+* **The Breaking Point**: The Flotilla is powerful, proud, and stretched catastrophically thin. Exactly ten years after the devastating Frontier War against the Orkish Empire and the apocalyptic crash of the *Evergaol* in 508 AA, the fleet's capital dreadnoughts are scarred hulks, its veteran crews are buried, and its budget is contested by bickering colonial delegates in the Colonial Forum. Worse, the Flotilla is legally handcuffed: their warships cannot fire a single kinetic round into planetary atmosphere without provoking a constitutional civil war. When danger drops beneath the clouds, the Flotilla must stop at the gate.
 
 *(See full dossier: [Faction Dossier: The Flotilla](Flotilla.md))*
 
 ---
 
-### V. The Silent Horizon: Alien Powers and Foreign Empires
+### V. The Gavel, the Ledger, and the Lifeline: The Civilian Institutions
+
+* **The Encounter**: Second shift on the commercial docking ring of Waypoint Station, L1 Lagrange Point. A heavily laden **Ker'Satz Korp** ore freighter sits clamped in Berth 14, its drive coils still ticking with residual heat, going absolutely nowhere. On the steel catwalk outside the airlock stands a stocky Craggen shop steward wearing the high-visibility canvas vest of **U2 (The Union of Unions)**, calmly leaning on a three-foot magnetic spanner while twenty orbital stevedores sit on their toolboxes drinking chicory. Opposite him, a sweating corporate logistics manager waves a shipping manifest in the face of an impassive bailiff from the **Interplanetary Criminal Court (ICC)**, while a trauma team from **IPRO (The Interplanetary Relief Organization)** unloads pressurized medical cots down the corridor and a pair of bespectacled **Sphere Research Center (SRC)** curators argue over a radiation dosimeter. Nobody is drawing a firearm, yet forty thousand tons of refined titanium are frozen solid in orbit because a magistrate's red-seal subpoena, a union safety red-tag, and a Colonial Forum appropriations audit all landed on the same hull before lunch.
+
+Between the localized gravity wells of the sovereign moons and the armed warships of the Flotilla sits the civil glue of Newcomer civilization: the **Civilian Institutions**. Born from the constitutional compromises of the Skyline Accords, the labor struggles of the industrial boom, and the humanitarian nightmares of the Frontier War, these interplanetary bodies govern everything that cannot be solved by a local sheriff or a naval railgun.
+
+In the neutral spin-gravity rings of Redmane and Waypoint Stations, elected delegates in the **Colonial Forum** battle over the Flotilla's budget and ratify system-wide treaties, while black-robed magistrates of the **ICC** issue cross-border extradition warrants for criminals who hop between moons. On Landfall and Nimbus, the scholars of the **SRC** guard the patents of the Draco Fusion Drive and quarantine volatile Precursor ruins. Across every dockyard and mining pit, **U2** wields the terrifying leverage of the system-wide general strike to keep megacorporations honest, while the stark-white hospital ships of **IPRO** fly unarmed into irradiated crash zones and border skirmishes to pull the wounded out of the fire.
+
+* **The Breaking Point**: Laws, treaties, safety tags, and painted medical emblems only work as long as the person in the other ship respects the paper they are written on. The ICC can indict a syndicate boss on Pelagia, the SRC can declare a Precursor ruin quarantined, U2 can demand an inquiry into a suspicious mining collapse, and IPRO can dispatch an unarmed hospital ship into the Wanabo borderlands—but none of them command a single warship or a standing police force. When a cartel ignores a subpoena or a Scav clan targets a relief convoy, civilian institutions have no guns of their own. They have to hire Corsairs.
+
+*(See full dossier: [Faction Dossier: The Civilian Institutions](Civilian_Institutions.md))*
+
+---
+
+### VI. The Silent Horizon: Alien Powers and Foreign Empires
 
 * **The Encounter**: The twilight festival of Avon 2, in the neighboring X'ara cluster. Mara, a seasoned Newcomer spice trader, leans against the stone balustrade of a crowded plaza filled with laughing revelers, sputtering fire-pots, and street musicians playing stringed instruments. She looks straight up across the sixty-one-thousand-kilometer binary gap at the twin world, **Avon 1**. While Avon 2 is ablaze with colorful electric lanterns, Avon 1 is almost completely black—a silent, shadowed moon marked only by the faint, austere geometric lights of ancient spires. Beside her, an elder Ancestral diplomat dressed in flowing, radiotrophic silks sips clear rice wine and whispers quietly: *"Down here, your youth dance. Up there, the Pure Blade sharpens their lances, waiting for your noisy machines to die."*
 
@@ -112,11 +127,12 @@ Consider the ordinary nightmare of jurisdictional overlap:
 3. A syndicate gunboat picks him up and burns through the atmosphere into open orbital space.
 4. The local Cloudspire planetary police cannot follow him into orbit—doing so would violate the **Skyline Accords** and exceed their atmospheric craft's flight ceiling.
 5. Technically, the **Flotilla** holds full legal authority to intercede in orbital space, but naval logistics are ill-suited for agile interdictions. Flotilla warships operate along predetermined, rigid patrol routes and are massive capital hulls—at minimum frigate-class combatants displacing thousands of tons. By the time a 300-meter patrol frigate calculates a burn intercept, flips its main drive plume, and coordinates picket cutters, an agile blockade-running gunboat has already slipped into commercial traffic or burned for the outer dark.
-6. The executive intends to sell the weapon to an **Orkish military attache** waiting in neutral space across the Wanabo border.
+6. The **Interplanetary Criminal Court (ICC)** at Waypoint L1 issues an immediate Red-Seal Extradition Warrant, but the magistrates have no pursuit ships of their own.
+7. The executive intends to sell the weapon to an **Orkish military attache** waiting in neutral space across the Wanabo border.
 
 Who catches him?
 
-The planetary police can't leave the atmosphere. The Flotilla's battle fleet is too heavy, too distant, and bound to fixed orbital tracks. The corporations will only protect their own proprietary assets. And the underworld is driving the getaway car.
+The planetary police can't leave the atmosphere. The Flotilla's battle fleet is too heavy, too distant, and bound to fixed orbital tracks. The civilian courts have gavels but no gunboats. The corporations will only protect their own proprietary assets. And the underworld is driving the getaway car.
 
 That fatal jurisdictional seam is the exact reason the **Corsairs** exist: small, independent cells flying nimble multi-role corvettes with cross-jurisdictional mandates, armed with combat-grade MANTLE chassis, authorized to kick down the door in the lower ravines, pursue the suspect through the clouds, match orbits in the cold void, and drag the fugitive back in binders before the sun finishes its thirty-hour loop.
 
@@ -126,7 +142,7 @@ They are the stitch holding a frayed frontier together. Below are the factions t
 
 ## The Faction Dossiers: Complete Directory
 
-To explore the operational structures, internal politics, equipment foundries, criminal undergrounds, and adventure seeds across each theater of power, consult the dedicated dossiers below:
+To explore the operational structures, internal politics, equipment foundries, civil institutions, criminal undergrounds, and adventure seeds across each theater of power, consult the dedicated dossiers below:
 
 ### 1. [The Sovereign Colonies](Colonies.md)
 * **Jurisdiction:** Planetary Atmospheric Gravity Wells (The Skyline Accords of 335 AA).
@@ -147,7 +163,6 @@ To explore the operational structures, internal politics, equipment foundries, c
   * **Ker'Satz Korp (KSK):** Monolithic life-support and long-range ordnance juggernaut holding patents on atmospheric valves across the Sphere, known for heavy rail drivers, torpedoes, and dreadnoughts.
   * **Chidori-Qwei Voidworks & Combatwear (CQV):** High-fashion tactical tailor and premier directed-energy foundry in Cloudspire, producing smart-fiber ballistic trench coats, pulse lasers, and particle beams.
   * **Redfeather Aerospace (RF):** Mass-market shipyard on Landfall, builders of the quintessential "Kestrel" multi-role corvette, light interceptors, and modular civilian transports.
-  * **Sphere Research Center (SRC):** Ivory-tower academic and scientific institution in Crossroads and Cloudspire, creators of the Draco Fusion Drive, guided by dragon advisors to quarantine dangerous Precursor relics.
 
 ### 3. [The Underworld & Fringe Syndicates](Underworld.md)
 * **Jurisdiction:** Unpoliced Ravines, Crash Exclusion Zones, Badlands, and Black-Market Stations.
@@ -161,18 +176,25 @@ To explore the operational structures, internal politics, equipment foundries, c
 ### 4. [The Flotilla](Flotilla.md)
 * **Jurisdiction:** Open Space, Orbital Lanes, and Lagrange Customs Hubs ("The Law of the Void").
 * **Key Wings & Commands:**
-  * **The Admiralty Board & High Council:** The dual-governance engine balancing operational naval command at Redmane Station with elected colonial purse strings.
+  * **The Admiralty Board & Colonial Forum:** The dual-governance engine balancing operational naval command at Redmane Station with elected interplanetary purse strings.
   * **The One-Year Tour:** Mandatory universal draft for every eighteen-year-old across the five moons, anchoring the navy to civilian society.
   * **The Six Strategic Wings:** Administrative (wealth fund & procurement), Transit (vector control & shipping corridors), Patrol (customs & SAR), Scout (deep surveillance & anomaly tracking), Bastion (static stations & orbital shipyards), and Sword (capital railgun battlecruisers).
-  * **The Phantom "Seventh Wing" (Shadow Wing):** A full-blown shadow organization buried so deep that most of the High Council and Admiralty Board remain unaware of its existence, running deniable intelligence, Precursor containment, and black-ops.
+  * **The Phantom "Seventh Wing" (Shadow Wing):** A full-blown shadow organization buried so deep that most of the Colonial Forum and Admiralty Board remain unaware of its existence, running deniable intelligence, Precursor containment, and black-ops.
   * **Port Zenith Bastion Yards:** Suspended above Landfall, the historic zero-g engineering docks where the first combat MANTLE chassis were developed.
 
-### 5. [Alien Powers & Foreign Empires](Alien_Powers.md)
+### 5. [The Civilian Institutions](Civilian_Institutions.md)
+* **Jurisdiction:** Cross-System Civil Law, Legislative Oversight, Labor Solidarity, Scientific Quarantine, and Humanitarian Relief.
+* **Key Institutions:**
+  * **The Colonial Forum:** The supreme interplanetary congress seated in neutral orbital space aboard Redmane Station, controlling the Flotilla's budget, ratifying foreign treaties, and overseeing the Corsair Charter.
+  * **The Interplanetary Criminal Court (ICC):** The high cross-jurisdictional tribunal at Waypoint Station (L1) that tries multi-moon felonies, corporate fraud, and war crimes, relying on Corsairs as its de facto marshals to serve Red-Seal Extradition Warrants.
+  * **Sphere Research Center (SRC):** Paramount interplanetary academic and scientific institution in Crossroads and Cloudspire, creators of the Draco Fusion Drive, guided by dragon advisors to study and quarantine dangerous Precursor relics.
+  * **The Union of Unions (U2):** The grand interplanetary labor confederation uniting dockers, miners, and technicians across the moons, wielding the terrifying leverage of the system-wide general strike and sponsoring working-class Corsairs.
+  * **The Interplanetary Relief Organization (IPRO):** Neutral humanitarian and medical armada operating the unarmed White Hull Mercy Fleet across war-torn borderlands and the Evergaol Exclusion Zone, hiring Corsairs as armed escorts.
+
+### 6. [Alien Powers & Foreign Empires](Alien_Powers.md)
 * **Jurisdiction:** Neighboring Star Systems, Demilitarized Buffer Zones, and Quarantined Moons.
 * **Key Powers:**
   * **The Ancestrals of X'ara:** Ancient, ascetic humanoid civilization living in unchanging stillness under the Sacred Vigil of the immortal Archon, fractured between the reformist Gilded Movement and the militant Pure Blade hawks.
   * **The Orkish Empire:** Brutal, iron-clad autocracy ruled by Emperor Vrakketh, commanding massive ram-prow battlecruisers and bipedal battlemechs, bound by the fragile Great Truce.
   * **The Scavs (Scavenger Raider Clans):** Nomadic, four-armed cloned biological servitors of The Collector, drifting in scrap-welded hulls and raiding shipping lanes to satisfy the holy pyramid scheme of the Great Tithe.
   * **The Lithari of Karst:** Primitive, tool-using tribal hunters living in subterranean bioluminescent cave networks, strictly protected from commercial exploitation by the Flotilla's Non-Interference Protocol.
-
-

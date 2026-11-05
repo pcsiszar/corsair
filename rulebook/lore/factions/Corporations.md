@@ -5,17 +5,17 @@
 | JURISDICTION: PRIVATE INDUSTRIAL ENCLAVES, CORPORATE LEASEHOLDS, & REFINERY ORBITS|
 | AUTHORITY: PROPRIETARY PATENT CODES, EMPLOYMENT SCRIP, & CORPORATE SECURITY CHARTERS|
 | PRIMARY HOUSES: THE TRADE ALLIANCE, CALDERA FOUNDRY, PANTHERA ARMS, VANDAL'S       |
-|                 WORKSHOP, KER'SATZ KORP, CHIDORI-QWEI, REDFEATHER, SRC            |
+|                 WORKSHOP, KER'SATZ KORP, CHIDORI-QWEI, REDFEATHER AEROSPACE       |
 +-----------------------------------------------------------------------------------+
 ```
 
 In a universe where every breath of pressurized air must be metered by an intake valve, every liter of drinking water must be filtered through a ceramic membrane, and every kilogram of structural titanium must be blasted out of an airless crater by heavy excavators, corporations are not merely commercial businesses. They are sovereign, feudal superpowers with balance sheets instead of heraldry and corporate security battalions instead of royal guards.
 
-Planetary governments may hold the soil under the Skyline Accords, and the Flotilla may rule the void, but the corporations own the plumbing that connects them. They own the atmospheric scrubbers that prevent city spires from suffocating in their own exhaust; they hold the patents on the Draco fusion drive coils that keep freighters burning between worlds; and in many mining basins and orbital refineries, they print the only currency the company commissary will accept.
+Planetary governments may hold the soil under the Skyline Accords, and the Flotilla may rule the void, but the corporations own the plumbing that connects them. They own the atmospheric scrubbers that prevent city spires from suffocating in their own exhaust; they hold the manufacturing licenses on the Draco fusion drive coils that keep freighters burning between worlds; and in many mining basins and orbital refineries, they print the only currency the company commissary will accept.
 
 Corporate power in the Sphere is rarely exercised through overt naval invasion. Why waste expensive reaction mass and risk a diplomatic confrontation with the Flotilla when you can simply raise the licensing fee on life-support gaskets by twelve percent and watch your political rivals choke on their own budget deficit?
 
-Below are the eight major industrial cartels, manufacturing foundries, and technological consortiums that forge the modern Sphere.
+Below are the seven major industrial cartels, manufacturing foundries, and commercial consortiums that forge the modern Sphere.
 
 ---
 
@@ -217,31 +217,3 @@ Redfeather is inextricably linked to the Corsair institution. Virtually every co
 
 When Redfeather needs independent help—such as tracking down stolen test hulls, investigating pirate ambushes on delivery flights, or clearing debris from orbital launch corridors—they turn unfailingly to Corsair cells.
 
----
-
-## 8. The Sphere Research Center (SRC)
-
-### Commercial Profile & Corporate Ethos
-While technically an academic and scientific consortium rather than a profit-maximizing commercial corporation, the **Sphere Research Center (SRC)** wields industrial and geopolitical influence that eclipses most megacorporations. Headquartered in the sprawling ivory towers of Crossroads on Landfall and maintaining high-altitude lightning observatories in Cloudspire on Nimbus, the SRC is the paramount intellectual institution of Newcomer civilization.
-
-The SRC’s historic legacy is monumental: in 38 AA, working in direct consultation with **Stormdrinker**, the Scholar Dragon of Nimbus, SRC physicists unraveled the bio-fusion principles that led to the invention of the **Draco Fusion Drive**—the single technological breakthrough that made sub-light interplanetary spaceflight possible and birthed modern civilization. 
-
-Today, the SRC operates on a philosophy of insatiable scientific inquiry tempered by profound historical caution. Their researchers study the impossible architecture of the Sphere, catalog Precursor Vault ruins, analyze anomalous non-baryonic materials, and monitor celestial mechanics. However, guided by deep consultation with Stormdrinker and Goldheart, the SRC’s leadership maintains strict containment protocols. Remembering the catastrophic awakening of the ancient dreadnought *Evergaol* during the Frontier War, the Council enforces rigorous quarantine over uncatalogued alien relics, operating in perpetual awareness that careless tampering with dormant defense networks could trigger another system-wide calamity.
-
-### Leadership & Internal Power Structure
-The Center is governed by the **Council of Curators**, a prestigious assembly of senior physicists, archaeologists, xenobiologists, and cyberneticists, presided over by **Arch-Curator Varisia Lin**, an elderly, brilliant Sylvan metallurgist. Lin is a master of political balancing, constantly navigating demands from corporate sponsors for lucrative patents, pressure from the Flotilla for advanced military telemetry, and the absolute mandate from dragon advisors to keep hazardous alien ruins securely sealed and quarantined.
-
-The SRC maintains its own specialized security and sanitization corps: the **Archive Wardens**. These are scholarly, highly trained tactical operatives equipped with specialized electromagnetic containment gear, acoustic disruptors, and memory-scrambling counter-measures designed to quarantine dangerous artifacts and sanitize contaminated excavation sites before knowledge leaks to the public.
-
-### Territory, Industry & Signature Assets
-The SRC operates extensive surface campuses, orbital observatories, and restricted Vault excavation complexes across the Fume cluster.
-
-* **The Crossroads Grand Institute:** The sprawling academic campus on Landfall, housing the system’s largest historical archives, quantum computing arrays, and xeno-archaeology laboratories.
-* **The Cloudspire Storm Observatories:** High-altitude research platforms anchored to Nimbus’s upper spires, studying high-energy electrical phenomena and bio-fusion physics in partnership with Stormdrinker.
-* **The Draco Drive Patent Foundation:** The legal and technological trust that holds the foundational patents on fusion propulsion, licensing core drive schematics to commercial shipbuilders.
-* **The Vault Isolation Repositories:** Heavily shielded, subterranean containment vaults where active Precursor relics and anomalous non-baryonic materials are stored under strict quarantine.
-
-### Relationship with Corsairs
-The SRC is one of the most prolific and secretive patrons of Corsair cells. While the Center maintains Archive Wardens for domestic security, they lack the legal authority and naval firepower to conduct high-stakes salvage operations in disputed space. 
-
-The Curators regularly issue **Academic Recovery Petitions**—lucrative, high-risk contracts tasking Corsairs with exploring newly discovered Precursor ruins, recovering stolen research drives from corporate spies, or extracting field scientists stranded in hostile frontier environments. The SRC pays with cutting-edge experimental modifications, precision sensor upgrades, and access to classified navigation charts.
